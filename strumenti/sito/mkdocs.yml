@@ -1,0 +1,70 @@
+# Modello di configurazione del sito. Non si usa da solo: strumenti/costruisci-sito.py
+# lo copia in _sito/mkdocs.yml e vi aggiunge la navigazione generata dal registro.
+site_name: NTC 2018 e Circolare 2019 in Markdown
+site_url: https://sinmar123.github.io/ntc2018-markdown/
+site_description: Trascrizione in Markdown delle NTC 2018 e della Circolare n. 7/2019, con lo stato di verifica di ogni paragrafo.
+repo_url: https://github.com/sinmar123/ntc2018-markdown
+repo_name: sinmar123/ntc2018-markdown
+edit_uri: ""
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Tema scuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Tema chiaro
+
+plugins:
+  - search:
+      lang: it
+
+not_in_nav: |
+  /indice-ntc2018.md
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  # sette ancore degli indici dei capitoli non coincidono con i titoli generati
+  # (titoli con formule o con «--»): si correggono nei capitoli con la procedura VC,
+  # non qui. Restano elencate come INFO nel registro della costruzione.
+  anchors: info
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      # ancore come quelle di GitHub e Obsidian, con le lettere accentate:
+      # gli indici interni dei capitoli le usano così
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/stile.css

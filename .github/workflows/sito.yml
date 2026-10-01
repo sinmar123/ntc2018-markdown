@@ -1,0 +1,51 @@
+name: Sito
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  costruisci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: strumenti/sito/requisiti.txt
+      - name: Dipendenze
+        run: pip install -r strumenti/sito/requisiti.txt
+      - name: Sorgente del sito dai capitoli e dal registro
+        run: python strumenti/costruisci-sito.py
+      - name: Costruzione MkDocs
+        run: mkdocs build --strict -f _sito/mkdocs.yml
+      - name: Controlli sul sito generato
+        run: python strumenti/controlla-sito.py
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: _sito/site
+
+  pubblica:
+    if: github.event_name != 'pull_request'
+    needs: costruisci
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

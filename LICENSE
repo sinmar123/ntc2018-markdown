@@ -1,0 +1,44 @@
+Licenza della conversione in Markdown delle NTC 2018 e della Circolare n. 7/2019
+
+Copyright (c) 2026 Alessandro Sanvitale
+
+1. Testo delle norme
+
+Il testo del D.M. 17 gennaio 2018 (Norme tecniche per le costruzioni) e della
+Circolare 21 gennaio 2019 n. 7 C.S.LL.PP. è un atto ufficiale dello Stato. Per
+l'art. 5 della legge 22 aprile 1941 n. 633 è escluso dalla protezione del
+diritto d'autore e nessuno può rivendicarne la titolarità, nemmeno questo
+progetto.
+
+Fa fede soltanto il testo pubblicato in Gazzetta Ufficiale:
+- NTC 2018: G.U. n. 42 del 20 febbraio 2018, Supplemento ordinario n. 8;
+- Circolare n. 7/2019: G.U. n. 35 dell'11 febbraio 2019, Supplemento ordinario n. 5.
+
+2. Conversione
+
+La conversione (la struttura in file e paragrafi, la trascrizione in Markdown,
+le tabelle, le formule in LaTeX, le figure ricavate dai PDF, gli indici, le
+annotazioni e i documenti di verifica) è distribuita con la licenza
+
+    Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/legalcode.it
+
+Potete copiarla, distribuirla e modificarla, anche per scopi commerciali,
+indicando l'autore della conversione, il collegamento alla licenza e se avete
+apportato modifiche. La licenza non riguarda il testo delle norme in sé (punto 1).
+
+Attribuzione suggerita:
+"NTC 2018 e Circolare 2019 in Markdown, conversione di Alessandro Sanvitale,
+https://github.com/sinmar123/ntc2018-markdown, CC BY 4.0".
+
+3. Nessuna garanzia
+
+La conversione è stata fatta con strumenti di intelligenza artificiale ed è in
+corso di verifica sulla Gazzetta Ufficiale. Può contenere errori di
+trascrizione. È fornita senza garanzie di alcun tipo, come previsto dalla
+sezione 5 della licenza CC BY 4.0.
+
+4. Codice
+
+Il codice nella cartella strumenti/ è distribuito con licenza MIT: vedere
+strumenti/LICENSE.
