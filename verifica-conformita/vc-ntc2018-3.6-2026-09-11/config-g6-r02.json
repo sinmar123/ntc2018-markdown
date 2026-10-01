@@ -1,0 +1,129 @@
+{
+  "scope": "3.6",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\target-scope.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id": "circ",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        81,
+        82,
+        83
+      ]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:66",
+        "ntc:67",
+        "ntc:68",
+        "ntc:69"
+      ],
+      "righe": [
+        [
+          1,
+          210
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 3.6 nella pagina fisica 66 fino al termine del paragrafo 3.6.2.4 nella pagina fisica 69. In pagina 66 escludere tutto ciò che precede la rubrica 3.6. Intestazioni e piè di pagina della Gazzetta non appartengono al testo del paragrafo.",
+      "assets": [
+        {
+          "name": "resa-target/target-blocco.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b01\\target-blocco.pdf",
+          "sha256": "e266d625fd89d7a2f4e02b9be216c21f976ffddf66c882d289b6b360eca5a209"
+        },
+        {
+          "name": "resa-target/target-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b01\\target-p01-200dpi.png",
+          "sha256": "1c54e65c7e8716ebbf89111d8e384c5978bb56cf2285e623085002e242135e36"
+        },
+        {
+          "name": "resa-target/target-p02-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b01\\target-p02-200dpi.png",
+          "sha256": "e95a1090d9de6ce5e4d04fba0760ef70c35f37ce6f5cd0dc720f302d21fe3c61"
+        },
+        {
+          "name": "resa-target/target-p03-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b01\\target-p03-200dpi.png",
+          "sha256": "27fb095ea574ee58a7d23a7c906d4c4f3835e393a34e6ceaf8536a2614b313c8"
+        },
+        {
+          "name": "resa-target/target-p04-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b01\\target-p04-200dpi.png",
+          "sha256": "e58b468156b3b3b951efc0db94cb491df2d824117a4cfcdcc58b5065a7dbf8c0"
+        },
+        {
+          "name": "resa-target/target-p05-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b01\\target-p05-200dpi.png",
+          "sha256": "f698b45594d985fb81fae774b9b41cf40fd31ef27dfbfa2c8681bf844507c689"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "pagine": [
+        "ntc:70",
+        "ntc:71",
+        "circ:81",
+        "circ:82",
+        "circ:83"
+      ],
+      "righe": [
+        [
+          211,
+          388
+        ]
+      ],
+      "limiti": "NTC: intero paragrafo 3.6.3 nelle pagine fisiche 70-71, dalla rubrica 3.6.3 al termine del 3.6.3.5. Circolare: dalla rubrica C3.6 nella pagina fisica 81 fino al termine del paragrafo C3.6.2.3 nella pagina fisica 83; in pagina 81 escludere tutto ciò che precede C3.6. Intestazioni e piè di pagina della Gazzetta non appartengono allo scope.",
+      "assets": [
+        {
+          "name": "resa-target/target-blocco.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b02\\target-blocco.pdf",
+          "sha256": "b3e08420b38f81520d626ac0030d950d70fe6c5a883ba2f633cc7efbc96980c7"
+        },
+        {
+          "name": "resa-target/target-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b02\\target-p01-200dpi.png",
+          "sha256": "b7249e079ff73555703bd78c0012bfe3ed30a9ceb392d1902a984e624999e8d7"
+        },
+        {
+          "name": "resa-target/target-p02-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b02\\target-p02-200dpi.png",
+          "sha256": "0b600245bfa4c7f9d860337579a1c78bf22d4d0118537fb3647c2573caf937e3"
+        },
+        {
+          "name": "resa-target/target-p03-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b02\\target-p03-200dpi.png",
+          "sha256": "559b0f707a984f80ec0f4ed8a727f69ef79fac88b5c5301e3bb50fc9e5eafb12"
+        },
+        {
+          "name": "resa-target/target-p04-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b02\\target-p04-200dpi.png",
+          "sha256": "ccd2926785b8f804114c745acd7759e7b871f60b7852f12ed5b36649ba49d403"
+        },
+        {
+          "name": "resa-target/target-p05-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02\\b02\\target-p05-200dpi.png",
+          "sha256": "3ab2a1de94c82ff1e2977ce66f05b152fd8f60a937601c7f443a4073eca0fbc0"
+        }
+      ]
+    }
+  ]
+}

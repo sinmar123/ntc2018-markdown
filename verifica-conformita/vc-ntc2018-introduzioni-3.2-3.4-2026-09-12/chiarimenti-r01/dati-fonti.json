@@ -1,0 +1,422 @@
+{
+  "firma": "CDX",
+  "metodo": "PyMuPDF get_text(dict), soli dati fonte; nessuna correzione del target",
+  "spans": [
+    {
+      "pagina": 46,
+      "text": "risultati sono stati prodotti e messi in rete dall’Istituto Nazionale di Geofisica e Vulcanologia (",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        73.91302490234375,
+        562.6275024414062,
+        397.2027282714844,
+        570.4557495117188
+      ]
+    },
+    {
+      "pagina": 46,
+      "text": "INGV",
+      "font": "PalatinoLinotype-Bold",
+      "size": 7.804800033569336,
+      "flags": 20,
+      "bbox": [
+        397.2424621582031,
+        562.565673828125,
+        419.2341003417969,
+        570.3704833984375
+      ]
+    },
+    {
+      "pagina": 46,
+      "text": "). ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        419.1942443847656,
+        562.6275024414062,
+        425.7268371582031,
+        570.4557495117188
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "Il valore di a",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        73.91571807861328,
+        224.94459533691406,
+        120.78120422363281,
+        232.77281188964844
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "g",
+      "font": "PalatinoLinotype-Roman",
+      "size": 5.203199863433838,
+      "flags": 4,
+      "bbox": [
+        120.84600067138672,
+        228.5880584716797,
+        123.73898315429688,
+        233.80686950683594
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " è desunto dalla pericolosità di riferimento, attualmente fornita dallo ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        123.76000213623047,
+        224.93714904785156,
+        372.450439453125,
+        232.76536560058594
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "INGV",
+      "font": "PalatinoLinotype-Bold",
+      "size": 7.804800033569336,
+      "flags": 20,
+      "bbox": [
+        373.5838317871094,
+        224.87530517578125,
+        395.5754699707031,
+        232.6800994873047
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": ", mentre ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        395.5777587890625,
+        224.93714904785156,
+        427.193359375,
+        232.76536560058594
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "\u0006",
+      "font": "TimesNewRoman",
+      "size": 5.412199020385742,
+      "flags": 4,
+      "bbox": [
+        456.0,
+        220.99102783203125,
+        458.8037414550781,
+        226.2147216796875
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "\u0007",
+      "font": "TimesNewRoman",
+      "size": 9.278120040893555,
+      "flags": 4,
+      "bbox": [
+        442.1600036621094,
+        222.0159912109375,
+        446.4281311035156,
+        230.9709930419922
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "\u0002",
+      "font": "Arial",
+      "size": 9.278120040893555,
+      "flags": 4,
+      "bbox": [
+        439.4587707519531,
+        222.0159912109375,
+        442.13116455078125,
+        230.9709930419922
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " ",
+      "font": "Arial",
+      "size": 9.278120040893555,
+      "flags": 4,
+      "bbox": [
+        442.13116455078125,
+        222.0159912109375,
+        446.822265625,
+        230.9709930419922
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "\u0002",
+      "font": "Arial",
+      "size": 9.278120040893555,
+      "flags": 4,
+      "bbox": [
+        446.822265625,
+        222.0159912109375,
+        449.4946594238281,
+        230.9709930419922
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "o",
+      "font": "Times-Italic",
+      "size": 5.412199020385742,
+      "flags": 6,
+      "bbox": [
+        435.1700134277344,
+        227.30511474609375,
+        437.9737548828125,
+        232.71731567382812
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "C",
+      "font": "Times-Italic",
+      "size": 5.412199020385742,
+      "flags": 6,
+      "bbox": [
+        454.1457824707031,
+        227.30511474609375,
+        457.885986328125,
+        232.71731567382812
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "F",
+      "font": "Times-Italic",
+      "size": 9.278120040893555,
+      "flags": 6,
+      "bbox": [
+        430.1700134277344,
+        222.00587463378906,
+        436.0434875488281,
+        231.28399658203125
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "T",
+      "font": "Times-Italic",
+      "size": 9.278120040893555,
+      "flags": 6,
+      "bbox": [
+        449.5207824707031,
+        222.00587463378906,
+        454.8655700683594,
+        231.28399658203125
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        454.8655700683594,
+        223.53712463378906,
+        460.4100036621094,
+        232.76536560058594
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " sono calcolati in ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        460.4100036621094,
+        224.93714904785156,
+        523.232421875,
+        232.76536560058594
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "modo che gli spettri di risposta elastici in accelerazione, velocità e spostamento forniti dalle NTC approssimino al meglio i ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        73.91629028320312,
+        236.48902893066406,
+        523.2183227539062,
+        244.31724548339844
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "corrispondenti spettri di risposta elastici in accelerazione, velocità e spostamento derivanti dalla pericolosità di riferimento.  ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        73.91629028320312,
+        247.10279846191406,
+        502.8470458984375,
+        254.93101501464844
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "I valori di a",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        73.91629028320312,
+        260.21484375,
+        113.92292785644531,
+        268.0430603027344
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "g",
+      "font": "PalatinoLinotype-Roman",
+      "size": 4.786900043487549,
+      "flags": 4,
+      "bbox": [
+        113.97799682617188,
+        262.3990478515625,
+        116.63951110839844,
+        267.2003173828125
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": ", F",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        116.5790023803711,
+        260.21710205078125,
+        124.97697448730469,
+        268.0453186035156
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "O",
+      "font": "PalatinoLinotype-Roman",
+      "size": 4.786900043487549,
+      "flags": 4,
+      "bbox": [
+        125.00800323486328,
+        262.3990478515625,
+        128.7705078125,
+        267.2003173828125
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " e T*",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        128.7550048828125,
+        260.21710205078125,
+        144.4925994873047,
+        268.0453186035156
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "C",
+      "font": "PalatinoLinotype-Roman",
+      "size": 4.786900043487549,
+      "flags": 4,
+      "bbox": [
+        144.36399841308594,
+        262.3990478515625,
+        147.75790405273438,
+        267.2003173828125
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " sono riportati negli allegati A e B al decreto del Ministro delle Infrastrutture 14 gennaio 2008 pubblicato nel ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        147.79800415039062,
+        260.21710205078125,
+        523.2537841796875,
+        268.0453186035156
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "S.O. alla Gazzetta Ufficiale del 4 febbraio 2008 n. 29 e negli eventuali successivi aggiornamenti; di essi si fornisce la ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 7.804800033569336,
+      "flags": 4,
+      "bbox": [
+        73.91777038574219,
+        270.73016357421875,
+        523.1689453125,
+        278.5583801269531
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "Figura C3.2.1 b",
+      "font": "PalatinoLinotype-Bold",
+      "size": 6.972300052642822,
+      "flags": 20,
+      "bbox": [
+        129.17100524902344,
+        555.0538330078125,
+        176.32537841796875,
+        562.026123046875
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": " – ",
+      "font": "PalatinoLinotype-Roman",
+      "size": 6.972300052642822,
+      "flags": 4,
+      "bbox": [
+        176.31002807617188,
+        555.1090698242188,
+        183.2544403076172,
+        562.102294921875
+      ]
+    },
+    {
+      "pagina": 47,
+      "text": "Variabilità di Fo con TR: andamento medio sul territorio nazionale ed intervallo di confidenza al 95% ",
+      "font": "PalatinoLinotype-Italic",
+      "size": 6.972300052642822,
+      "flags": 6,
+      "bbox": [
+        183.28233337402344,
+        555.123779296875,
+        467.811767578125,
+        563.8670654296875
+      ]
+    }
+  ]
+}

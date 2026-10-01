@@ -1,0 +1,75 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap08/8.1-oggetto.md",
+      "bytes": 3601,
+      "sha256": "80a2c5a3af47c879dda192b43e7a729fd81a9c30fd5a53407cb2a4c08bdd832b"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "bytes": 9888288,
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "bytes": 50658045,
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/attestazione-modifiche.json",
+      "bytes": 361,
+      "sha256": "153a9877017d87181bef3b3f1146d7a9e31897097fe7b4e86fe82e4ce14f7661"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/catalogo-congelato.md",
+      "bytes": 5485,
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/congelamento-g6-r02.json",
+      "bytes": 427,
+      "sha256": "b31b65685b80e5caac58cf8dbd94c3779c2adf12f948d735b3b814ffe113fa61"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/diff-corsivi.md",
+      "bytes": 2614,
+      "sha256": "c27064ea1dfe5005a377fb1075ee51724c05c51f6eae8c16de8c5457025d57c1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/inventario-g6-r02.json",
+      "bytes": 4181,
+      "sha256": "fc6fda7517423b2bc3e787b9c6eb408812d7bf08a68885dfd0a9a3618f9d4d59"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/procedura-congelata.md",
+      "bytes": 40050,
+      "sha256": "9c43358436f1e4f3ba92b16b95872afccf45e6cdb277d365e4fe5ea16f546a96"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/rapporto-c-g0-g5.md",
+      "bytes": 1821,
+      "sha256": "43f5ab252653905a2e00309b62cd6688832e106b9e5edc2804a332c1d66968b0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/rapporto-g6-r01.json",
+      "bytes": 1883,
+      "sha256": "d380dfc4d6651334fa0a90fdc7e028a19617d3142c6bc4fea3fc7ee42f1ca051"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/rapporto-g6-r02.json",
+      "bytes": 1566,
+      "sha256": "77c1b5cf194230c0bbdd7b33f6f95669f1d83a05969534c838cc4e527a27fbd8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/ricontrollo-g1.md",
+      "bytes": 1556,
+      "sha256": "6f128d6da29fcef4d22637276693b33c23f936b6d5d6bfa91b855978f202e6a4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.1-2026-09-12/target-scope.pdf",
+      "bytes": 18782,
+      "sha256": "c83381cb578a0b05f3be63bee706b19a4411dd0009230f1cc32c4a48be246ebf"
+    }
+  ]
+}

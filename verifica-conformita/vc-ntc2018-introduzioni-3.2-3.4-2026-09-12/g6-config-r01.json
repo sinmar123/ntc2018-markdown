@@ -1,0 +1,95 @@
+{
+  "scope": "3-introduzioni-3.2-3.4",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\testo-depurato.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        49,
+        56,
+        61
+      ]
+    },
+    {
+      "id": "circ",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        46,
+        47,
+        54,
+        76
+      ]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:49",
+        "circ:46",
+        "circ:47"
+      ],
+      "righe": [
+        [
+          1,
+          58
+        ]
+      ],
+      "limiti": "NTC p. fisica 49: dalla rubrica 3.2 fino a prima della rubrica 3.2.1. Circolare pp. fisiche 46-47: dalla rubrica C3.2 fino alla fine della figura C3.2.1 c e sua didascalia comprese; il successivo C3.2.1 inizia a p. 48 ed è escluso. Escludere tutto ciò che precede le rubriche assegnate.",
+      "assets": [
+        {
+          "name": "resa-target.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b01\\target.pdf",
+          "sha256": "f9f906baced9cfa328b0c91a6073e4cf631ace89271462f61132bd6b1f20a1bb"
+        },
+        {
+          "name": "resa-target-01.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b01\\target-01.png",
+          "sha256": "2905075d97ce3e8b053ac45a3687b06e16609cc57e5cbe5918f5802ec1e38fc9"
+        },
+        {
+          "name": "resa-target-02.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b01\\target-02.png",
+          "sha256": "ba3e092c487412e89afec48d8821fe43e1a3498376c5f479c77cd20368dbd2fa"
+        },
+        {
+          "name": "resa-target-03.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b01\\target-03.png",
+          "sha256": "3a424cd19a51227161c41795a6524e22c779fcc3a3b38ebe4cfabad5bce376de"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "pagine": [
+        "ntc:56",
+        "circ:54",
+        "ntc:61",
+        "circ:76"
+      ],
+      "righe": [
+        [
+          59,
+          71
+        ]
+      ],
+      "limiti": "NTC p. fisica 56: dalla rubrica 3.3 fino a prima della rubrica 3.3.1; NTC p. 61: dalla rubrica 3.4 fino a prima della rubrica 3.4.1. Circolare p. 54: dalla rubrica C3.3 fino a prima della rubrica C3.3.1; p. 76: dalla rubrica C3.4 fino a prima della rubrica C3.4.1. Escludere le sezioni precedenti e successive.",
+      "assets": [
+        {
+          "name": "resa-target.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b02\\target.pdf",
+          "sha256": "a060f8fe0a7b08cf9dc0f8ac22a030dd8197e8d1daf1238c848e0e8792ae943e"
+        },
+        {
+          "name": "resa-target-01.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b02\\target-01.png",
+          "sha256": "341a383ea2246b4b85b89b07833020b74c21627ee8a45cfdbc117aaf3a46bac4"
+        }
+      ]
+    }
+  ]
+}

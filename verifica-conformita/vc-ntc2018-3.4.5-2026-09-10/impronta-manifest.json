@@ -1,0 +1,10 @@
+{
+  "tipo": "chiusura_esterna_manifest_g7_finale",
+  "firma": "Hermes NTC-VC / HRM",
+  "manifest": "manifest-rilascio-finale.json",
+  "manifest_sha256": "307297ef683a92a1372c5afdddec779d3efb7153e428a29cfe7d53ba51ae0ea8",
+  "files": 62,
+  "integrita": "OK",
+  "esito_comando": "exit code 0; files 62; integrita OK; giudizio_vc NON_EMESSO",
+  "nota": "Evidenza esterna al manifest per evitare autoreferenze. Il dossier usa percorsi relativi alla radice del progetto ed è replicato nel blocco isolato sotto /blocco/g7."
+}

@@ -1,0 +1,555 @@
+--- a/cap03/3.6-introduzione.md
++++ b/cap03/3.6-introduzione.md
+@@ -1,10 +1,10 @@
+ ﻿[Torna all'indice del § 3.6](./indice-3.6.md) | [Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+
+ 
+
+-# 3.6. Azioni eccezionali
+
++# 3.6. AZIONI ECCEZIONALI
+
+ 
+
+ ## Norma
+
+ 
+
+-Le azioni eccezionali sono quelle che si presentano in occasione di eventi quali incendi, esplosioni e urti.
+
++Le azioni eccezionali sono quelle che si presentano in occasione di eventi quali incendi, esplosioni ed urti.
+
+ 
+
+ È opportuno che le costruzioni possiedano un grado adeguato di robustezza, in funzione dell'uso previsto della costruzione, individuando gli scenari di rischio e le azioni eccezionali rilevanti ai fini della sua progettazione, secondo quanto indicato al §2.2.5.
+
+ 
+
+@@ -18,7 +18,7 @@
+ 
+
+ ## Circolare
+
+ 
+
+-## C3.6. Azioni eccezionali
+
++## C3.6 AZIONI ECCEZIONALI
+
+ *Circolare 21/01/2019 n. 7 C.S.LL.PP., §C3.6*
+
+ 
+
+ Il presente paragrafo fornisce indicazioni per la quantificazione degli effetti delle azioni eccezionali che intervengono in scenari di rischio ben identificati quali incendi, esplosioni ed urti. Attraverso la combinazione eccezionale delle azioni, di cui al § 2.5.3, è possibile dimensionare le membrature interessate da tali azioni.
+
+@@ -31,4 +31,4 @@
+ 
+
+ La norma UNI EN 1991-1-7 fornisce regole di carattere generale per la salvaguardia degli edifici e delle opere di ingegneria civile nei confronti di azioni derivanti da esplosioni e urti.
+
+ 
+
+-Per le costruzioni progettate per limitare il rischio di esplosioni, ai fini della salvaguardia dell'individuo e della collettività, nonché delle proprietà limitrofe e dei beni direttamente esposti, occorre anche tenere conto delle disposizioni contenute nel D.M. 3 agosto 2015.
+
++Per le costruzioni progettate per limitare il rischio di esplosioni, ai fini della salvaguardia dell'individuo e della collettività, nonché delle proprietà limitrofe e dei beni direttamente esposti, occorre anche tenere conto delle disposizioni contenute nel D.M. 3 agosto 2015
+
+--- a/cap03/3.6.1-azioni-eccezionali-incendio.md
++++ b/cap03/3.6.1-azioni-eccezionali-incendio.md
+@@ -1,6 +1,6 @@
+ ﻿[Torna all'indice del § 3.6](./indice-3.6.md) | [Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+
+ 
+
+-# 3.6.1. Incendio
+
++# 3.6.1. INCENDIO
+
+ 
+
+ <!-- INDICE-INTERNO:INIZIO -->
+
+ **Indice interno**
+
+@@ -28,7 +28,7 @@
+ ## Norma
+
+ 
+
+ <a id="toc-ntc2018-3-6-1-1"></a>
+
+-### 3.6.1.1 Definizioni
+
++### 3.6.1.1 DEFINIZIONI
+
+ 
+
+ Per *incendio*, si intende la combustione autoalimentata ed incontrollata di materiali combustibili presenti in un compartimento.
+
+ 
+
+@@ -71,7 +71,7 @@
+ Nel caso di presenza di elementi strutturali lignei è possibile considerare solo una quota parte del loro contributo alla determinazione del carico di incendio, da definire con riferimento a riconosciute normative o documenti di comprovata validità.
+
+ 
+
+ <a id="toc-ntc2018-3-6-1-2"></a>
+
+-### 3.6.1.2 Richieste di prestazione
+
++### 3.6.1.2 RICHIESTE DI PRESTAZIONE
+
+ 
+
+ Le prestazioni richieste alle strutture di una costruzione, in funzione degli obiettivi definiti al §2.2.3, sono individuate in termini di livello nella Tab. 3.5.IV.
+
+ 
+
+@@ -90,21 +90,21 @@
+ I livelli di prestazione e le connesse classi di resistenza al fuoco sono individuati in relazione alla destinazione d'uso dell'edificio, al tipo e al quantitativo di materiale combustibile in esso presente, alla sua estensione/altezza, al massimo affollamento ipotizzabile e alle misure di protezione antincendio presenti nell'opera.
+
+ 
+
+ <a id="toc-ntc2018-3-6-1-3"></a>
+
+-### 3.6.1.3 Classi di resistenza al fuoco
+
++### 3.6.1.3 CLASSI DI RESISTENZA AL FUOCO
+
+ 
+
+ Le *classi* di resistenza al fuoco sono: 15, 20, 30, 45, 60, 90, 120, 180, 240 e 360; esse esprimono il tempo, in minuti primi, durante il quale la resistenza al fuoco deve essere garantita.
+
+ 
+
+ Le classi di resistenza al fuoco sono riferite all'incendio convenzionale rappresentato dalle curve di incendio nominali.
+
+ 
+
+ <a id="toc-ntc2018-3-6-1-4"></a>
+
+-### 3.6.1.4 Criteri di progettazione
+
++### 3.6.1.4 CRITERI DI PROGETTAZIONE
+
+ 
+
+ La progettazione delle strutture in condizioni di incendio deve garantire il raggiungimento delle prestazioni indicate al §3.6.1.2.
+
+ 
+
+ La sicurezza del sistema strutturale in caso di incendio si determina sulla base della resistenza al fuoco dei singoli elementi strutturali, di porzioni di struttura o dell'intero sistema costruttivo.
+
+ 
+
+ <a id="toc-ntc2018-3-6-1-5"></a>
+
+-### 3.6.1.5 Procedura di analisi della resistenza al fuoco
+
++### 3.6.1.5 PROCEDURA DI ANALISI DELLA RESISTENZA AL FUOCO
+
+ 
+
+ L'analisi della resistenza al fuoco può essere così articolata:
+
+ 
+
+@@ -121,13 +121,13 @@
+ - curva nominale d'incendio, da individuare tra quelle indicate successivamente, per l'intervallo di tempo di esposizione pari alla classe di resistenza al fuoco prevista, senza alcuna fase di raffreddamento,
+
+ - curva naturale d'incendio, da individuare tenendo conto dell'intera durata dello stesso, compresa la fase di raffreddamento fino al ritorno alla temperatura ambiente.
+
+ 
+
+-Nel caso di incendio di materiali combustibili prevalentemente di natura cellulosica, la curva di incendio nominale è la *curva di incendio nominale standard* definita come segue:
+
++Nel caso di incendio di materiali combustibili prevalentemente di natura cellulosica, la curva di incendio nominale di riferimento è la *curva di incendio nominale standard* definita come segue:
+
+ 
+
+ $$\theta_g = 20 + 345 \log_{10}(8t + 1) \text{ [°C]} \tag{3.6.2}$$
+
+ 
+
+ dove $\theta_g$ è la temperatura dei gas caldi, espressa in °C, e t è il tempo espresso in minuti primi.
+
+ 
+
+-Nel caso di incendio di quantità rilevanti di idrocarburi o altre sostanze con equivalente velocità di rilascio termico, la curva di incendio nominale standard può essere sostituita con la *curva nominale degli idrocarburi* seguente:
+
++Nel caso di incendi di quantità rilevanti di idrocarburi o altre sostanze con equivalente velocità di rilascio termico, la curva di incendio nominale standard può essere sostituita con la *curva nominale degli idrocarburi* seguente:
+
+ 
+
+ $$\theta_g = 1080 \left(1 - 0{,}325 \cdot e^{-0{,}167t} - 0{,}675 \cdot e^{-2{,}5t}\right) + 20 \text{ [°C]} \tag{3.6.3}$$
+
+ 
+
+@@ -177,10 +177,10 @@
+ ## Circolare
+
+ 
+
+ <a id="toc-ntc2018-c3-6-1"></a>
+
+-### C3.6.1. Incendio
+
++### C3.6.1 INCENDIO
+
+ 
+
+ <a id="toc-ntc2018-c3-6-1-1"></a>
+
+-#### C3.6.1.1. Definizioni
+
++#### C3.6.1.1 DEFINIZIONI
+
+ 
+
+ Si chiariscono di seguito le seguenti definizioni:
+
+ 
+
+@@ -190,7 +190,7 @@
+ Si precisa che nel caso di presenza di elementi strutturali *lignei* è possibile considerare solo una quota parte del loro contributo alla determinazione del carico di incendio, da definire con riferimento a riconosciute normative o documenti di comprovata validità; utili riferimenti sono disponibili nella lettera circolare della Direzione Centrale per la Prevenzione e la Sicurezza Tecnica del Dipartimento dei Vigili del Fuoco, del Soccorso Pubblico e della Difesa Civile prot. P414/4122 sott. 5 del 28/5/2008 o nel D.M. 3 agosto 2015.
+
+ 
+
+ <a id="toc-ntc2018-c3-6-1-2"></a>
+
+-#### C3.6.1.2. Richieste di prestazione
+
++#### C3.6.1.2 RICHIESTE DI PRESTAZIONE
+
+ 
+
+ Con riferimento al § 3.6.1.2 delle NTC, le disposizioni del Ministero dell'interno richiamate al punto precedente, sono contenute nei seguenti decreti:
+
+ 
+
+@@ -203,20 +203,20 @@
+ 
+
+ Si precisa che la resistenza al fuoco richiesta, se misurata in minuti di incendio standard secondo la curva ISO 834 che approssima l'accrescimento delle temperature a partire dal momento di incendio generalizzato (flash over), è una quantificazione convenzionale non direttamente confrontabile con i tempi reali di evacuazione o di intervento.
+
+ 
+
+-Il progetto delle strutture sulla base di detta resistenza convenzionale porta comunque ad una capacità coerente con i richiesti livelli di prestazione.
+
++Il progetto delle strutture sulla base di detta resistenza convenzionale porta comunque ad una capacità coerente con i richiesti livelli di prestazione
+
+ 
+
+ <a id="toc-ntc2018-c3-6-1-3"></a>
+
+-#### C3.6.1.3. Classi di resistenza al fuoco
+
++#### C3.6.1.3 CLASSI DI RESISTENZA AL FUOCO
+
+ 
+
+ Le classi di resistenza al fuoco sono da riferirsi all'incendio nominale di riferimento per il compartimento antincendio: in genere l'incendio di riferimento è costituito dalla curva nominale ISO 834. Non è ovviamente esclusa la possibilità di applicazione delle classi a differenti incendi nominali (idrocarburi, incendi esterni).
+
+ 
+
+ <a id="toc-ntc2018-c3-6-1-4"></a>
+
+-#### C3.6.1.4. Criteri di progettazione
+
++#### C3.6.1.4 CRITERI DI PROGETTAZIONE
+
+ 
+
+ La sicurezza del sistema strutturale in caso di incendio può essere determinata sulla base della resistenza al fuoco dei singoli elementi strutturali, di porzioni di struttura o dell'intero sistema costruttivo, valutando opportunamente lo schema statico di riferimento e secondo l'incendio convenzionale di progetto adottato. In generale, in caso di ricorso a curve di incendio naturali, ci si riferisce all'intero schema strutturale. In caso di adozione di curve di incendio nominali è possibile effettuare analisi per singoli elementi strutturali.
+
+ 
+
+ <a id="toc-ntc2018-c3-6-1-5"></a>
+
+-#### C3.6.1.5. Procedura di analisi della resistenza al fuoco
+
++#### C3.6.1.5 PROCEDURA DI ANALISI DELLA RESISTENZA AL FUOCO
+
+ 
+
+ **C3.6.1.5.1 Incendio di progetto**
+
+ 
+
+--- a/cap03/3.6.2-azioni-eccezionali-esplosioni.md
++++ b/cap03/3.6.2-azioni-eccezionali-esplosioni.md
+@@ -1,6 +1,6 @@
+ ﻿[Torna all'indice del § 3.6](./indice-3.6.md) | [Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+
+ 
+
+-# 3.6.2. Esplosioni
+
++# 3.6.2. ESPLOSIONI
+
+ 
+
+ <!-- INDICE-INTERNO:INIZIO -->
+
+ **Indice interno**
+
+@@ -19,14 +19,14 @@
+ ## Norma
+
+ 
+
+ <a id="toc-ntc2018-3-6-2-1"></a>
+
+-### 3.6.2.1 Generalità
+
++### 3.6.2.1 GENERALITÀ
+
+ 
+
+ Gli effetti delle esplosioni possono essere tenuti in conto nella progettazione di quelle costruzioni in cui possono presentarsi miscele esplosive di polveri o gas in aria o in cui sono contenuti materiali esplosivi.
+
+ 
+
+ Sono escluse da questo capitolo le azioni derivanti da esplosioni che si verificano all'esterno della costruzione.
+
+ 
+
+ <a id="toc-ntc2018-3-6-2-2"></a>
+
+-### 3.6.2.2 Classificazione delle azioni dovute alle esplosioni
+
++### 3.6.2.2 CLASSIFICAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI
+
+ 
+
+ Le azioni di progetto dovute alle esplosioni sono classificate, sulla base degli effetti che possono produrre sulle costruzioni, in tre categorie, come indicate in Tab. 3.6.I.
+
+ 
+
+@@ -39,7 +39,7 @@
+ | 3 | Effetti generalizzati sulle strutture |
+
+ 
+
+ <a id="toc-ntc2018-3-6-2-3"></a>
+
+-### 3.6.2.3 Modellazione delle azioni dovute alle esplosioni
+
++### 3.6.2.3 MODELLAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI
+
+ 
+
+ Le esplosioni esercitano sulle costruzioni onde di pressione. Per le costruzioni usuali, è ammesso che tali onde di pressione siano convenzionalmente ricondotte a distribuzioni di pressioni statiche equivalenti, purché comprovate da modelli teorici adeguati.
+
+ 
+
+@@ -59,18 +59,18 @@
+ 
+
+ Il rapporto fra l'area dei componenti di sfogo e il volume da proteggere deve soddisfare la relazione:
+
+ 
+
+-$$0{,}05 \text{ m}^{-1} \leq A_v / V \leq 0{,}15 \text{ m}^{-1} \tag{3.6.6}$$
+
++$$0{,}05 \text{ m}^{-1} \leq A_v / V \leq 0{,}15 \text{ m}^{-1}. \tag{3.6.6}$$
+
+ 
+
+ Queste espressioni sono valide in ambienti o in zone di edifici il cui volume totale non superi 1.000 m³.
+
+ 
+
+ La pressione dovuta all'esplosione è intesa agire simultaneamente su tutte le pareti dell'ambiente o del gruppo di ambienti considerati.
+
+ 
+
+-Comunque, tutti gli elementi chiave e le loro connessioni devono essere progettati per sopportare una pressione statica equivalente con valore di progetto $p_d$= 20 kN/m², applicata in ogni direzione, insieme con la reazione che ci si attende venga trasmessa direttamente alle membrature dell'elemento chiave da ogni elemento costruttivo, ad esso collegato, altresì soggetto alla stessa pressione.
+
++Comunque, tutti gli elementi chiave e le loro connessioni devono essere progettati per sopportare una pressione statica equivalente con valore di progetto $p_d$= 20 kN/m², applicata da ogni direzione, insieme con la reazione che ci si attende venga trasmessa direttamente alle membrature dell'elemento chiave da ogni elemento costruttivo, ad esso collegato, altresì soggetto alla stessa pressione.
+
+ 
+
+ Per esplosioni di Categoria 3 devono essere effettuati studi più approfonditi.
+
+ 
+
+ <a id="toc-ntc2018-3-6-2-4"></a>
+
+-### 3.6.2.4 Criteri di progettazione
+
++### 3.6.2.4 CRITERI DI PROGETTAZIONE
+
+ 
+
+ Sono considerati accettabili i danneggiamenti localizzati, anche gravi, dovuti ad esplosioni, a condizione che ciò non esponga al pericolo l'intera struttura o che la capacità portante sia mantenuta per un tempo sufficiente affinché siano prese le necessarie misure di emergenza.
+
+ 
+
+@@ -86,10 +86,10 @@
+ ## Circolare
+
+ 
+
+ <a id="toc-ntc2018-c3-6-2"></a>
+
+-### C3.6.2. Esplosioni
+
++### C3.6.2 ESPLOSIONI
+
+ 
+
+ <a id="toc-ntc2018-c3-6-2-3"></a>
+
+-#### C3.6.2.3. Modellazione delle azioni dovute alle esplosioni
+
++#### C3.6.2.3 MODELLAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI
+
+ 
+
+ Si precisa che le esplosioni esercitano sulle costruzioni onde di pressione.
+
+ 
+
+--- a/cap03/3.6.3-azioni-eccezionali-urti.md
++++ b/cap03/3.6.3-azioni-eccezionali-urti.md
+@@ -1,6 +1,6 @@
+ ﻿[Torna all'indice del § 3.6](./indice-3.6.md) | [Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+
+ 
+
+-# 3.6.3. Urti
+
++# 3.6.3. URTI
+
+ 
+
+ <!-- INDICE-INTERNO:INIZIO -->
+
+ **Indice interno**
+
+@@ -19,7 +19,7 @@
+ ## Norma
+
+ 
+
+ <a id="toc-ntc2018-3-6-3-1"></a>
+
+-### 3.6.3.1 Generalità
+
++### 3.6.3.1 GENERALITÀ
+
+ 
+
+ Nel seguito vengono definite le azioni dovute a:
+
+ 
+
+@@ -27,10 +27,10 @@
+ - urti da traffico ferroviario;
+
+ - urti da imbarcazioni ed aeromobili.
+
+ 
+
+-Non vengono prese in esame le azioni dovute a fenomeni naturali, come la caduta di rocce, le frane o le valanghe.
+
++Non vengono prese in esame le azioni eccezionali dovute a fenomeni naturali, come la caduta di rocce, le frane o le valanghe.
+
+ 
+
+ <a id="toc-ntc2018-3-6-3-2"></a>
+
+-### 3.6.3.2 Classificazione delle azioni dovute agli urti
+
++### 3.6.3.2 CLASSIFICAZIONE DELLE AZIONI DOVUTE AGLI URTI
+
+ 
+
+ Le azioni di progetto dovute agli urti sono classificate, sulla base degli effetti che possono produrre sulle costruzioni, in tre categorie, come indicato nella Tab. 3.6.II.
+
+ 
+
+@@ -45,7 +45,7 @@
+ Le azioni dovute agli urti devono essere applicate a quegli elementi strutturali, o ai loro sistemi di protezione, per i quali le relative conseguenze appartengono alle categorie 2 e 3.
+
+ 
+
+ <a id="toc-ntc2018-3-6-3-3"></a>
+
+-### 3.6.3.3 Urti da traffico veicolare
+
++### 3.6.3.3 URTI DA TRAFFICO VEICOLARE
+
+ 
+
+ <a id="toc-ntc2018-3-6-3-3-1"></a>
+
+ #### 3.6.3.3.1 Traffico veicolare sotto ponti o altre strutture
+
+@@ -64,7 +64,7 @@
+ | Strade locali | - | 750 |
+
+ | Strade urbane | - | 500 |
+
+ | Aree di parcheggio e autorimesse | Automobili | 50 |
+
+-| | Veicoli destinati al trasporto di merci, aventi massa massima superiore a 3,5 t | 150 |
+
++| Aree di parcheggio e autorimesse | Veicoli destinati al trasporto di merci, aventi massa massima superiore a 3,5 t | 150 |
+
+ 
+
+ Per urti di automobili su membrature verticali, la forza risultante di collisione F deve essere applicata sulla struttura 0,5 m al di sopra della superficie di marcia. L'area di applicazione della forza è pari a 0,25 m (in altezza) per il valore più piccolo tra 1,50 m e la larghezza della membratura (in larghezza).
+
+ 
+
+@@ -93,14 +93,14 @@
+ 
+
+ Le azioni da considerare nelle verifiche locali dell'impalcato dovranno essere definite in accordo al §5.1.3.10.
+
+ 
+
+-Le forze di collisione da veicoli sugli elementi strutturali eventualmente presenti al disopra del livello della carreggiata sono quelle specificate nel §3.6.3.3.1
+
++Le forze di collisione da veicoli sugli elementi strutturali eventualmente presenti al disopra del livello di carreggiata sono quelle specificate nel §3.6.3.3.1
+
+ 
+
+ <a id="toc-ntc2018-3-6-3-4"></a>
+
+-### 3.6.3.4 Urti da traffico ferroviario
+
++### 3.6.3.4 URTI DA TRAFFICO FERROVIARIO
+
+ 
+
+ Al verificarsi di un deragliamento può esservi il rischio di collisione fra i veicoli deragliati e le strutture adiacenti la ferrovia. Queste ultime dovranno essere progettate in modo da resistere alle azioni conseguenti ad una tale evenienza.
+
+ 
+
+-Dette azioni devono determinarsi sulla base di una specifica analisi di rischio, tenendo conto della presenza di eventuali elementi protettivi o sacrificali (respingenti) oppure di condizioni di impianto che possano ridurre il rischio dell'evento (marciapiedi, controrotaie, ecc.). Queste azioni non si applicano sui sostegni di tettoie o di pensiline di impianti ferroviari.
+
++Dette azioni devono determinarsi sulla base di una specifica analisi di rischio, tenendo conto della presenza di eventuali elementi protettivi o sacrificali (respingenti) oppure di condizioni di impianto che possano ridurre il rischio di accadimento dell'evento (marciapiedi, controrotaie, ecc.). Queste azioni non si applicano sui sostegni di tettoie o di pensiline di impianti ferroviari.
+
+ 
+
+ In mancanza di specifiche analisi di rischio possono assumersi le seguenti azioni statiche equivalenti, in funzione della distanza d degli elementi esposti dall'asse del binario:
+
+ 
+
+@@ -115,6 +115,6 @@
+ Queste forze dovranno essere applicate a 1,80 m dal piano del ferro e non dovranno essere considerate agenti simultaneamente.
+
+ 
+
+ <a id="toc-ntc2018-3-6-3-5"></a>
+
+-### 3.6.3.5 Urti di imbarcazioni ed aeromobili
+
++### 3.6.3.5 URTI DI IMBARCAZIONI ED AEROMOBILI
+
+ 
+
+ Le azioni derivanti da urti di imbarcazioni ed aeromobili vanno valutate sulla base delle indicazioni riportate in documenti di comprovata validità, di cui al Cap. 12.
+

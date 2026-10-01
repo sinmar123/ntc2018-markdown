@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=2018-02-20&atto.codiceRedazionale=18A00716&tipoSerie=serie_generale&tipoVigenza=originario",
+      "title": "D.M. 17 gennaio 2018, atto completo",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Aggiornamento delle «Norme tecniche per le costruzioni».",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=2019-02-11&atto.codiceRedazionale=19A00855&tipoSerie=serie_generale&tipoVigenza=originario",
+      "title": "Circolare 21 gennaio 2019 n. 7, atto completo",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "21 gennaio 2019, n. 7 C.S.LL.PP.",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=2023-03-22&atto.codiceRedazionale=23A01847&tipoSerie=serie_generale&tipoVigenza=originario",
+      "title": "D.M. 9 marzo 2023, atto completo",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "Modifiche ed integrazioni al decreto 17 gennaio 2018",
+          "added": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=23A01847&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2023-03-22&art.progressivo=0",
+      "title": "D.M. 9 marzo 2023, articolo 1",
+      "accessed": "2026-09-09",
+      "quotes": [
+        {
+          "text": "All'art. 2 del decreto ministeriale 17 gennaio 2018 sono  apportate le seguenti modificazioni ed integrazioni:",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "sospesa  l'applicazione  del  punto  11.4.2",
+          "added": "2026-09-09"
+        },
+        {
+          "text": "sospesa l'applicazione del punto 11.5.2",
+          "added": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

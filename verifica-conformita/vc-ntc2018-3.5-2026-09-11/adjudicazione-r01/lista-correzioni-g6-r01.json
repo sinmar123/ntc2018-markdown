@@ -1,0 +1,113 @@
+{
+  "versione": 1,
+  "scope": "ntc2018-3.5",
+  "giro_g6": 1,
+  "stato": "CONGELATA",
+  "data": "2026-09-11",
+  "firma": "Codex / CDX, ruolo C Sol high",
+  "rapporto_g6": {
+    "path": "C:/Users/sandro/AppData/Local/Temp/vc-35-cdx-20260911-r01/b01/rapporto-g6.json",
+    "sha256": "f8c6db33679525b33534a8b167d8667d1fae7c13909ba4dff1e9c1686eb967d0",
+    "copertura": "74/74",
+    "rilievi": 6,
+    "dubbi": 0
+  },
+  "operazioni": [
+    {
+      "ordine": 1,
+      "id_rilievo": "NTC-64-COND-3.5.2-02",
+      "tipo": "sostituzione_testo_esatta",
+      "path": "cap03/3.5.2-temperatura-temperatura-dell-aria-esterna.md",
+      "occorrenze_attese": 1,
+      "prima": "- per fasi di costruzione o fasi transitorie con durata prevista in sede di progetto compresa fra tre mesi ed un anno, si assumerà $T_R$ ≥ 10 anni.",
+      "dopo": "- per fasi di costruzione o fasi transitorie con durata prevista in sede di progetto compresa fra tre mesi d un anno, si assumerà $T_R$ ≥ 10 anni; [1](./annotazioni/3.5.2-anomalie-fonte.md#af-3-5-2-01-d-un-anno-e-punto-e-virgola-finale)",
+      "classe_target": "ERR-MD",
+      "anomalia_fonte": "AF-3.5.2-01"
+    },
+    {
+      "ordine": 2,
+      "id_rilievo": "NTC-64-FIG-3.5.1",
+      "tipo": "rigenerazione_asset_da_raster_pagina",
+      "path": "cap03/img/fig-3.5.1-zone-temperatura-mappa.png",
+      "sha256_prima": "ba010c97226194cd779a206e0dbf2e9343b0f188c7fa4f2b81343693c2a1f118",
+      "input_raster": "_tmp_render/cap03/vc-3.5-20260910/apertura-r02/ntc-p64-600dpi.png",
+      "provenienza_pdf": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "provenienza_pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagina_fisica": 64,
+      "dpi_input": 600,
+      "crop_pixel_xyxy_0_based": [1720, 2020, 3240, 3680],
+      "dimensioni_output_attese_pixel": [1520, 1660],
+      "istruzione_esatta": "Aprire il PNG a 600 dpi indicato, estrarre senza ridimensionamento il rettangolo pixel 0-based con bordo sinistro 1720, superiore 2020, destro escluso 3240 e inferiore escluso 3680, quindi salvare il crop come PNG nel path di output sovrascrivendo il solo asset. Non ricampionare, non ricostruire né ritoccare la figura.",
+      "verifica_richiesta": "L'output deve mostrare l'intera carta e due distinti elementi insulari sotto la Sicilia; non deve includere la didascalia né contenuto esterno alla figura. Registrare nuovo SHA-256 e controllo visivo. La risoluzione informativa nativa resta quella delle cinque bande JPEG xref 1091-1095, circa 351 dpi effettivi in pagina; il crop a 600 dpi serve alla resa e non crea dettaglio nativo aggiuntivo.",
+      "classe_target": "ERR-MD"
+    },
+    {
+      "ordine": 3,
+      "id_rilievo": "NTC-65-TAB-3.5.I-EST-CHIARA",
+      "tipo": "sostituzione_testo_esatta",
+      "path": "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+      "occorrenze_attese": 1,
+      "prima": "| | Superficie chiara | 2 °C | 30 °C |",
+      "dopo": "| Estate | Superficie chiara | 2 °C | 30 °C |",
+      "classe_target": "ERR-MD",
+      "normalizzazione": 6
+    },
+    {
+      "ordine": 4,
+      "id_rilievo": "NTC-65-TAB-3.5.I-EST-SCURA",
+      "tipo": "sostituzione_testo_esatta",
+      "path": "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+      "occorrenze_attese": 1,
+      "prima": "| | Superficie scura | 4 °C | 42 °C |",
+      "dopo": "| Estate | Superficie scura | 4 °C | 42 °C |",
+      "classe_target": "ERR-MD",
+      "normalizzazione": 6
+    },
+    {
+      "ordine": 5,
+      "id_rilievo": "NTC-65-TAB-3.5.I-INV",
+      "tipo": "sostituzione_testo_esatta",
+      "path": "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+      "occorrenze_attese": 1,
+      "prima": "| Inverno | | 0 °C | 0 °C |",
+      "dopo": "| Inverno | Inverno | 0 °C | 0 °C |",
+      "classe_target": "ERR-MD",
+      "normalizzazione": 6
+    },
+    {
+      "ordine": 6,
+      "id_rilievo": "CIRC-81-P-C3.5-01",
+      "tipo": "sostituzione_testo_esatta",
+      "path": "cap03/3.5-introduzione.md",
+      "occorrenze_attese": 1,
+      "prima": "Larga parte di questo Capitolo resta invariato al passaggio dalle precedenti NTC alle attuali. In particolare non vengono modificati né il § 3.5.1 relativo alle generalità, né il § 3.5.3 in cui si definisce la temperatura dell'aria interna, né il § 3.5.4 relativo alla distribuzione della temperatura negli elementi strutturali, né il § 3.5.5 che definisce le azioni termiche sugli edifici, né il § 3.5.6 che fornisce indicazioni relativamente alle precauzioni da adottare per le strutture soggette ad azioni speciali, né infine il § 3.5.7 relativo alle valutazioni degli effetti delle azioni termiche sui materiali strutturali.",
+      "dopo": "Larga parte di questo Capitolo resta invariato al passaggio dalle precedenti NTC alle attuali. In particolare non vengono modificati né il § 3.5.1 relativo alle generalità, né il § 3.5.3 in cui si definisce la temperatura dell'aria interna, né il § 3.5.4 relativo alla distribuzione della temperatura negli elementi strutturali, né il § 3.5.5 che definisce le azioni termiche sugli edifici, né il § 3.5.6 che fornisce indicazioni relativamente alle precauzioni da adottare per le strutture soggette ad azioni termiche speciali, né infine il § 3.5.7 relativo alle valutazioni degli effetti delle azioni termiche sui materiali strutturali.",
+      "classe_target": "ERR-MD"
+    },
+    {
+      "ordine": 7,
+      "id_rilievo": "AF-3.5.2-01",
+      "tipo": "creazione_file_testo_esatto",
+      "path": "cap03/annotazioni/3.5.2-anomalie-fonte.md",
+      "deve_non_esistere": true,
+      "contenuto_esatto": "---\ntitle: Anomalie della fonte conservate - § 3.5.2 NTC 2018\naliases:\n  - Anomalie fonte 3.5.2\n  - AF-3.5.2\ntags:\n  - formazione/normativa\n  - ntc2018\n  - annotazioni\n---\n\n[Torna alle annotazioni del capitolo 3](README.md) | [Torna al § 3.5.2](../3.5.2-temperatura-temperatura-dell-aria-esterna.md#toc-ntc2018-3-5-2-norma)\n\n# Anomalie della fonte conservate - § 3.5.2\n\nL'anomalia qui documentata è riprodotta nel Markdown senza correzioni e appartiene alla classe `AF`. Non sono presenti correzioni `AF-COR` nello scope.\n\nFonte congelata: `verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf`, SHA-256 `dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46`. La pagina citata è fisica.\n\n## AF-3.5.2-01 - «d un anno» e punto e virgola finale\n\n- Riferimento: NTC 2018, § 3.5.2, pagina fisica 64.\n- Fonte: `compresa fra tre mesi d un anno, si assumerà $T_R$ ≥ 10 anni;`.\n- Tipo: omissione ortografica e punteggiatura anomala della fonte.\n- Prova: lettura diretta del ritaglio a 600 dpi e conferma sul livello caratteri del PDF; un secondo lettore fonte-only in contesto separato ha confermato `d un`, senza `e` né apostrofo, e il punto e virgola finale, senza dubbi.\n- Esito: forma e punteggiatura anomale conservate alla lettera.\n\n**Firma:** Codex / CDX, 2026-09-11.\n"
+    },
+    {
+      "ordine": 8,
+      "id_rilievo": "AF-3.5.2-01-INDICE",
+      "tipo": "sostituzione_testo_esatta",
+      "path": "cap03/annotazioni/README.md",
+      "occorrenze_attese": 1,
+      "prima": "| § 3.4.3 (AF-3.4.3-01/08) | [Anomalie della fonte conservate](3.4.3-anomalie-fonte.md) | **Da leggere prima di correggere formule, riferimenti o concordanze per inferenza**: la fonte lascia senza condizione il secondo ramo della `[C3.4.4]`, alterna `C3.4.x` e `C.3.4.x`, stampa `k ≤ dγ` e `sin` corsivo, e conserva quattro anomalie grammaticali. Il Markdown riproduce tutte e otto le anomalie; nessuna `AF-COR`. |",
+      "dopo": "| § 3.5.2 (AF-3.5.2-01) | [Anomalia della fonte conservata](3.5.2-anomalie-fonte.md) | **Da leggere prima di correggere per inferenza la seconda durata transitoria del § 3.5.2**: la fonte stampa `d un anno` e chiude la voce con punto e virgola; il Markdown conserva entrambi. |\n| § 3.4.3 (AF-3.4.3-01/08) | [Anomalie della fonte conservate](3.4.3-anomalie-fonte.md) | **Da leggere prima di correggere formule, riferimenti o concordanze per inferenza**: la fonte lascia senza condizione il secondo ramo della `[C3.4.4]`, alterna `C3.4.x` e `C.3.4.x`, stampa `k ≤ dγ` e `sin` corsivo, e conserva quattro anomalie grammaticali. Il Markdown riproduce tutte e otto le anomalie; nessuna `AF-COR`. |",
+      "classe": "apparato_editoriale_portabile"
+    }
+  ],
+  "vincoli": [
+    "Applicare soltanto le otto operazioni elencate e verificare prima che ogni stringa 'prima' compaia nel numero atteso.",
+    "Non modificare altri testi normativi, asset o file di governo.",
+    "Dopo l'applicazione, produrre diff contro questa lista, nuovo hash dell'asset, nuovo snapshot, render canonico e preflight.",
+    "Il richiamo numerato all'annotazione è un apparato editoriale portabile e deve essere rimosso meccanicamente dal prossimo pacchetto G6.",
+    "Dopo le correzioni è obbligatorio un nuovo G6 integrale; il controllo dei soli punti corretti non basta."
+  ]
+}

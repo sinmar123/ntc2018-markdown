@@ -1,0 +1,23 @@
+{
+  "versione": 1,
+  "pagine": [
+    "ntc:63"
+  ],
+  "files": [
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 214,
+      "sha256": "468fa9b23c47472865075feb497aa4be02561baac68710dce975daab720dfe3d"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "fonte-ntc-63.png",
+      "bytes": 436471,
+      "sha256": "94f7963c2d682e1bf8e27ab3fe0d3c37019ba683d8f6488d2c77f2dc52c89656"
+    }
+  ]
+}

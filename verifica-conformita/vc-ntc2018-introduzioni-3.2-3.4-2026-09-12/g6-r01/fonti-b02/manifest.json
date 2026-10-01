@@ -1,0 +1,30 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "fonte-circ-54-area-01-600dpi.png",
+      "bytes": 50953,
+      "sha256": "4779e6214d3cb2091ecaa17112fff9ff3e83ebfcb7f36a45fc19e1ad5a8dc0f6"
+    },
+    {
+      "path": "fonte-circ-76-area-02-600dpi.png",
+      "bytes": 27486,
+      "sha256": "c0ee609cb51616e683c09555e5b17b1e2a812858aaf47cf80f1cf0fae91902fd"
+    },
+    {
+      "path": "fonte-ntc-56-area-03-600dpi.png",
+      "bytes": 13319,
+      "sha256": "d5e4a3aa3a1c89a60c68324452f4b461bb9d79e6bfc23beaaf38b85ec4a4154a"
+    },
+    {
+      "path": "fonte-ntc-61-area-04-600dpi.png",
+      "bytes": 12877,
+      "sha256": "3a573f1b0e7d74368275b4d3a2b175219c5d359d034f0faccf6a2e04e7bd168c"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 2464,
+      "sha256": "3b5305b3d048fe3b039486176238c5280eff295a75abb6d9136e0e7464f23207"
+    }
+  ]
+}

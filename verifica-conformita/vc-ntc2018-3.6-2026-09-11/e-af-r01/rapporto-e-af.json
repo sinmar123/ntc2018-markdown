@@ -1,0 +1,50 @@
+{
+  "firma": "Codex / CDX (E, esecutore effettivo)",
+  "stato": "applicata",
+  "addendum": "_tmp_render/cap03/vc-3.6-20260911-cdx/addendum-rinvii-af.json",
+  "sha256_addendum": "9624acbaa565b7645fb976a28038cdee9fc67f36e78f65c313689f938bcf785d",
+  "annotazione": {
+    "origine": "_tmp_render/cap03/vc-3.6-20260911-cdx/c/3.6-anomalie-fonte.md",
+    "destinazione": "cap03/annotazioni/3.6-anomalie-fonte.md",
+    "sha256_origine_atteso": "bd1f92365753739478a4b9f7af02ce26c5079043752799c274c05eb157dd5612",
+    "sha256_origine_effettivo": "bd1f92365753739478a4b9f7af02ce26c5079043752799c274c05eb157dd5612"
+  },
+  "conteggio_applicato": 6,
+  "id_applicati": [
+    "INDICE-AF-3.6",
+    "NAV-AF-3.6-01",
+    "NAV-AF-3.6-02",
+    "NAV-AF-3.6-03",
+    "NAV-AF-3.6-04",
+    "NAV-AF-3.6-05"
+  ],
+  "target": [
+    {
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "sha256_prima": "c0f96fd566217dc08e559681eae0c8eadad3ebe37c7230c48f8cde150582a5c4",
+      "sha256_dopo": "aca057650fb132f8defc6385afb328e1818cfb1c0bd9465fcbcc7c5090ac3e8d",
+      "copia_pre_e_af": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-af-r01/pre-e-af/3.6.1-azioni-eccezionali-incendio.md"
+    },
+    {
+      "percorso": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "sha256_prima": "50004291028a75682428b87b5f0e20705e53ff662e308f5b83feed4a4f0ec1ed",
+      "sha256_dopo": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748",
+      "copia_pre_e_af": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-af-r01/pre-e-af/3.6.2-azioni-eccezionali-esplosioni.md"
+    },
+    {
+      "percorso": "cap03/annotazioni/README.md",
+      "sha256_prima": "8ee1f5ee97db57d3f82173b8c0082e72bf39e1fba566cc0a01d3a6c88514d5e3",
+      "sha256_dopo": "a328397f9d698b47381626d0ea47a8125759f0021384db924e948a13e06e6236",
+      "copia_pre_e_af": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-af-r01/pre-e-af/README.md"
+    }
+  ],
+  "diff": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-af-r01/diff-unico-completo.diff",
+  "sha256_diff": "9864ae1c656f0cf9352ee0f6fd62e51f42abd969f86356c6c2c86214861870eb",
+  "verifiche": {
+    "hash_annotazione": true,
+    "unicita_prima": true,
+    "assenza_sovrapposizioni": true,
+    "diff_meccanico_coincide_addendum": true,
+    "testo_normativo_depurato_identico": true
+  }
+}

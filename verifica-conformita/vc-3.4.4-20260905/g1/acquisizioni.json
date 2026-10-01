@@ -1,0 +1,38 @@
+{
+  "firma": "CDX",
+  "fonti": [
+    {
+      "nome": "gu-ntc-scheda.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+      "url_finale": "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+      "bytes": 17286,
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff",
+      "acquisizione": "2026-09-05T12:17:56.790703+02:00"
+    },
+    {
+      "nome": "gu-modifica-2023-art1.html",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=23A01847&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2023-03-22&art.progressivo=0",
+      "url_finale": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=23A01847&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2023-03-22&art.progressivo=0",
+      "bytes": 8724,
+      "sha256": "a1886dfd0e2a333180717913b214d8a5d8e1bfb1f65c10ffcd04182ec552c539",
+      "acquisizione": "2026-09-05T12:17:56.728087+02:00"
+    },
+    {
+      "nome": "cslp-ntc.html",
+      "url": "https://cslp.mit.gov.it/normativa/nuove-norme-tecniche-le-costruzioni",
+      "url_finale": "https://cslp.mit.gov.it/normativa/nuove-norme-tecniche-le-costruzioni",
+      "bytes": 39600,
+      "sha256": "75b59cd8bbcea5c1c9a8006dc2da047ddca1672c29aedc98e5980dee0119be83",
+      "acquisizione": "2026-09-05T12:17:56.773157+02:00"
+    },
+    {
+      "nome": "pdf-ntc-in-memoria",
+      "url": "https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20180220&edizione=0&estensione=pdf&numeroGazzetta=42&numeroSupplemento=8&progressivo=0&tipoSerie=SG&tipoSupplemento=SO",
+      "url_finale": "https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20180220&edizione=0&estensione=pdf&numeroGazzetta=42&numeroSupplemento=8&progressivo=0&tipoSerie=SG&tipoSupplemento=SO",
+      "bytes": 9888288,
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "acquisizione": "2026-09-05T12:17:59.385879+02:00"
+    }
+  ],
+  "pdf_identico": true
+}

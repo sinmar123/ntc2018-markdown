@@ -1,0 +1,27 @@
+{
+  "firma": "CDX, preparazione meccanica fonte",
+  "creato": "2026-09-11T19:17:39.812590+02:00",
+  "metodo": "PyMuPDF insert_pdf, pagine intere preservate senza rasterizzazione",
+  "fonti": [
+    {
+      "atto": "ntc",
+      "origine": "GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "origine_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine_originali_fisiche": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "pagine_estratto_fisiche": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "fonte-ntc-vettoriale.pdf",
+      "sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3"
+    }
+  ],
+  "uso": "Solo fonti ufficiali. Applicare i confini neutrali del PERIMETRO. Le prove aggiuntive prodotte dal verificatore vanno nella cartella separata autorizzata, mai nel pacchetto fonte."
+}

@@ -1,0 +1,26 @@
+{
+  "firma": "CDX",
+  "data": "2026-09-12",
+  "ordine_di_sandro": "si applica tutto",
+  "gruppi": 7,
+  "sostituzioni": 15,
+  "asset_copiati": [
+    {
+      "source": "_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\prove\\circ-p47-fig-C3.2.1a-vettoriale-bbox-165-337-425-437-600dpi.png",
+      "target": "cap03\\img\\fig-C3.2.1a-variabilita-ag-TR.png",
+      "sha256": "bc5015b5b0bb01a17c782508008020b0977534aa3f2443d96cceccb3acc48d89"
+    },
+    {
+      "source": "_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\prove\\circ-p47-fig-C3.2.1b-vettoriale-bbox-165-450-425-552-600dpi.png",
+      "target": "cap03\\img\\fig-C3.2.1b-variabilita-Fo-TR.png",
+      "sha256": "03117c3864652938271a0b58d8c60ec1a67781758cf8af4308bca562e0c88604"
+    },
+    {
+      "source": "_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\prove\\circ-p47-fig-C3.2.1c-vettoriale-bbox-165-565-425-668-600dpi.png",
+      "target": "cap03\\img\\fig-C3.2.1c-variabilita-Tc-TR.png",
+      "sha256": "1904ce4544355d7485f7c6deefa385759f7b66bcada41709efe493b2503ad182"
+    }
+  ],
+  "lista_sha256": "c9fa5e9f5b38da3a8f020b1ad49242d96e24f81fef373ac2f0bcc5466accd1e4",
+  "snapshot_iniziale_sha256": "4d937d1ff875047646cc714a5fd17c4648d4c976a7990afb8a2ec3a9f2daf953"
+}

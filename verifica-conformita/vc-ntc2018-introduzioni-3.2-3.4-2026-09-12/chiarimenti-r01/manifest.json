@@ -1,0 +1,35 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "dati-fonti.json",
+      "bytes": 10076,
+      "sha256": "af4face8a7e3d3313f941e32496589020a8a7159a5fde96cecb464dbbac5513b"
+    },
+    {
+      "path": "fonte-circ-46-area-01-600dpi.png",
+      "bytes": 51014,
+      "sha256": "e4379aef7d73affba7fca381a1337e3c64a10ffbf8273c231b45f951df3e8d02"
+    },
+    {
+      "path": "fonte-circ-47-area-02-600dpi.png",
+      "bytes": 137130,
+      "sha256": "3778b4226692b426da96748468007c18a78c0d56551357b20d8bd75325bf4fee"
+    },
+    {
+      "path": "fonte-circ-47-area-03-600dpi.png",
+      "bytes": 33614,
+      "sha256": "e49a0534eeaf9b696a546d9299a0d82f455e750995b2852960b5706f16636c34"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 847,
+      "sha256": "0d1091f11bcdbdbf807a1682df9fa55a4dcd409da6e8e2cf08ea731cf9a842e9"
+    },
+    {
+      "path": "tracce-caratteri.json",
+      "bytes": 254337,
+      "sha256": "b9b4b06782a25ad18a7181687c39d4049b51e05466351f557688d50b233f5428"
+    }
+  ]
+}

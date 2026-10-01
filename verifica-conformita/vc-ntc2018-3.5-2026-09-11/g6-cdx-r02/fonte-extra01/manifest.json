@@ -1,0 +1,50 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ntc-p64-localizzazione-600dpi.png",
+      "bytes": 709705,
+      "sha256": "910f97b92fafc787da1900987547655df576639996ae159f494a3c151927a321"
+    },
+    {
+      "path": "ntc-p64-raster-xref1091.jpeg",
+      "bytes": 29379,
+      "sha256": "18b304003dad59421f56c501c38974c8d0f4981d44b710441f492562429a75cd"
+    },
+    {
+      "path": "ntc-p64-raster-xref1092.jpeg",
+      "bytes": 31668,
+      "sha256": "6e3a65a5a62e3ceda3bdb5f7c663709bf46c50520f1a87ee195d1197647f8c32"
+    },
+    {
+      "path": "ntc-p64-raster-xref1093.jpeg",
+      "bytes": 45064,
+      "sha256": "9c4120c297e596cbce06830f656390ddfd05b8364b296854a6fcadba445dd067"
+    },
+    {
+      "path": "ntc-p64-raster-xref1094.jpeg",
+      "bytes": 25893,
+      "sha256": "ec573123ee06007762430bc83ef1cf225d6cb4c699e028fbfbe257fd9cf28773"
+    },
+    {
+      "path": "ntc-p64-raster-xref1095.jpeg",
+      "bytes": 13430,
+      "sha256": "2b69169167fafefffbb5cf2d54f1de1aa287c1a39ed47cb63305a9023832f101"
+    },
+    {
+      "path": "ntc-p65-localizzazione-600dpi.png",
+      "bytes": 89289,
+      "sha256": "03c5efb43cbaf9d6f340d215d2bfce6e5d36945b6d2bfc03b46f952df0f82d74"
+    },
+    {
+      "path": "ntc-p65-raster-xref1105.png",
+      "bytes": 23931,
+      "sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 5397,
+      "sha256": "b946ed04b6b219a392474655513cd1a1b08cee400cb0f50270b5783344ddfc46"
+    }
+  ]
+}

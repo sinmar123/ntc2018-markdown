@@ -1,0 +1,21 @@
+{
+  "firma": "CDX, preparazione meccanica fonte",
+  "origine": "GU-2018-42-SO8-DM-17-01-2018.pdf",
+  "origine_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+  "pagine_originali_fisiche": [
+    66,
+    67,
+    68
+  ],
+  "pagine_estratto_fisiche": [
+    1,
+    2,
+    3
+  ],
+  "metodo": "PyMuPDF insert_pdf, pagine intere preservate senza rasterizzazione",
+  "creato": "2026-09-11T18:27:53.066370+02:00",
+  "file": "fonte-vettoriale.pdf",
+  "bytes": 976796,
+  "sha256": "040ebe7cc499b17bb4bdb3cfbc1e5cdd3968aa4b2be3d502a52dfa8bfa5b482e",
+  "uso": "Solo fonte ufficiale. I confini neutrali dello scope sono nel PERIMETRO del blocco. Per ogni decisione su glifi, indici, segni o numeri produrre ritagli >=600 dpi e, se necessario, ispezionare font/codifica/posizione dalla pagina. Nessun giudizio o dato target in questo supplemento."
+}

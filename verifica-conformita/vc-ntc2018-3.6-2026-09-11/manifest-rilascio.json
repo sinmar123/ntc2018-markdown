@@ -1,0 +1,1750 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.6-introduzione.md",
+      "bytes": 2902,
+      "sha256": "420192c0c7ac67132dfc829bd0d1d2711ba6068e5b7757b23fd7c2d8d9db1913"
+    },
+    {
+      "path": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "bytes": 22625,
+      "sha256": "5163e9708ef4701cb0eba389fa23ede49c230c1b28629cf4422c93373aaa4cce"
+    },
+    {
+      "path": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "bytes": 5057,
+      "sha256": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748"
+    },
+    {
+      "path": "cap03/3.6.3-azioni-eccezionali-urti.md",
+      "bytes": 7394,
+      "sha256": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db"
+    },
+    {
+      "path": "cap03/annotazioni/3.6-anomalie-fonte.md",
+      "bytes": 3635,
+      "sha256": "bd1f92365753739478a4b9f7af02ce26c5079043752799c274c05eb157dd5612"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "bytes": 9888288,
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "bytes": 50658045,
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/addendum-rinvii-af.json",
+      "bytes": 2955,
+      "sha256": "9624acbaa565b7645fb976a28038cdee9fc67f36e78f65c313689f938bcf785d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/circ-081.png",
+      "bytes": 585024,
+      "sha256": "cf0b6e9acf1847d5ae6ff4bffeea9878a9d47efc56422da79c22312042913c4a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/circ-082.png",
+      "bytes": 599206,
+      "sha256": "961951a053223bad88c15ea81080e285d4f3f79e9b10be5838de987c79a27daa"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/circ-083.png",
+      "bytes": 334457,
+      "sha256": "a76454a776f6b7f75c81ed2fcbdbdc28c9ff7f9528cd2d66f1f0732724dd6b1d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-circ081-prosa-rubriche.png",
+      "bytes": 723517,
+      "sha256": "ec90c06329df84455146f4be014891b9aad9483e75749648f8875a49318a5298"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-circ082-prosa-rubriche.png",
+      "bytes": 1224284,
+      "sha256": "12dd49a44c6b70d4753caa562b7f462d7194fefa694656763b6e30fc37df4542"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-circ083-prosa-rubriche.png",
+      "bytes": 611235,
+      "sha256": "68e6fe4cdfcc2bd8a821c4bfed447c83fad400d1691c0fc5adc72d7ad65666c0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc066-formula-3.6.1.png",
+      "bytes": 68377,
+      "sha256": "0ba89f9f4a17288b14bcf2b47fc68f4821a6a2a2afc7a0a3cb3ec21b445b36cb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc066-prosa-rubriche.png",
+      "bytes": 617635,
+      "sha256": "01df75fa786b063d415efbf093b75c8212b41d967ff458a8f533aeb313742f4b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc067-condizioni-3.6.1.png",
+      "bytes": 166520,
+      "sha256": "2bb382afb4d1adaf40aad53cbffd758432a7e9fae89afc6f80098b6cc7ae0421"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc067-prosa-rubriche.png",
+      "bytes": 676732,
+      "sha256": "42fe9ef443ef98fca68c3cad62d688f33594a677f8e05d028d332b6a017c2ee2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc067-tab-3.5.IV.png",
+      "bytes": 245523,
+      "sha256": "5e673a74f2526a0da066425d56aa2090784f0c14f4413c66048e2c11898b8036"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc068-formule-3.6.2-4.png",
+      "bytes": 290135,
+      "sha256": "e0893e60751b91b963bacaa1b824a1829d692199c487c277bb12f25afd603428"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc068-prosa-rubriche.png",
+      "bytes": 1039431,
+      "sha256": "2f1475e757d446b3f4682516bd7ef89c0e29ecee320ee3bf033bd774fe1ef244"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc069-prosa-rubriche.png",
+      "bytes": 884132,
+      "sha256": "2b76a79fcf26edd9ae74ea89c32278a3d55f4f663201cb797d3a42db3d84255b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc069-tab-3.6.I-formule-3.6.5-6.png",
+      "bytes": 416213,
+      "sha256": "ea5d35a4d90cc91a393cb46a23f8692221d671ae8e061beca35fbe5657657240"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc070-formule-3.6.8-9.png",
+      "bytes": 287849,
+      "sha256": "47d8dee9212ab7d97e16ade10eba1aaa4c0125fc8cc738c5d26d000c14056d44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc070-prosa-rubriche.png",
+      "bytes": 145458,
+      "sha256": "504f4acb50a90d2e482a758122e8c9f23eff49090379a4f9f6f843ecd6a1f482"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc070-tab-3.6.II-formula-3.6.7-tab-3.6.III.png",
+      "bytes": 464040,
+      "sha256": "8c5dd1980bee6ee71c560f0f915a40b83b6bb8dd0728f2dab3359384ac869c6b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc071-condizioni-urti-ferroviari.png",
+      "bytes": 257672,
+      "sha256": "5a917c67f39a18db2d9b3897b551e8832be7ea7eb41b92b6f7ba58135dfcbd18"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/dettaglio-ntc071-prosa-rubriche.png",
+      "bytes": 609866,
+      "sha256": "922153ab19cfb07107309e58e22e061988106a4e536252146fb17e40588d6d32"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/lista-correzioni-r02.json",
+      "bytes": 4589,
+      "sha256": "6091bcd5c17d39968d47fd773b7629274f19152e15c99f52d83934fdc22b6c3b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/lista-correzioni.json",
+      "bytes": 14180,
+      "sha256": "f26c2754629da1b98a8f0a47d679d158421befae7727bc1856fd0b45c748d2fc"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/ntc-066.png",
+      "bytes": 510554,
+      "sha256": "cb971fe887cff88fdb132036995ec0631e2e2e52161a5c38a388fb1a0efb807e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/ntc-067.png",
+      "bytes": 530914,
+      "sha256": "16948c1b5a51e46cb50104f1ee4857d9256f5f7427a64f82ed624050884d44c2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/ntc-068.png",
+      "bytes": 558845,
+      "sha256": "d07445d0467ce0b3e906eb6898325e59b121efc5e29d316f02bb7a7bf6c46884"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/ntc-069.png",
+      "bytes": 450047,
+      "sha256": "95bbed0aa6daf0e3ce65fc678434ce6368ac403fe4fa4c36828d758b3c9ea22d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/ntc-070.png",
+      "bytes": 490575,
+      "sha256": "160f97ec308c3abc87469e02f37908ca5a0305671f3d0839ea2048fda8c385dc"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/ntc-071.png",
+      "bytes": 333029,
+      "sha256": "c04160ac1ae201996dffb6c0468c41a5d528eef9a2bb3bc3dba3e6e789dc1f93"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/provenienza-prove.json",
+      "bytes": 22852,
+      "sha256": "e6ee0a9ff37af6636d0cfcce7e4497bcaef281ff3c0129c89b4ffb94a404a7c3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/rapporto-c.md",
+      "bytes": 22944,
+      "sha256": "cfda217ce411add53207475b69fabe52298c34c28edb9be28f3b3cc70ad0fedd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/renderer-underline-test-288dpi.png",
+      "bytes": 39527,
+      "sha256": "3c0fa6d12cddf70834471d1cd91a18852b69d61190c6b4cbfeb4b03d710dc6cf"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/renderer-underline-test.json",
+      "bytes": 2364,
+      "sha256": "44c1239ebbc417b0c656a5ebe495ae1beb196007167252a5cb60064107b724df"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/renderer-underline-test.md",
+      "bytes": 181,
+      "sha256": "47f9db6e2d75849b5418efa01b417458f11d2ad2f73c94baf87b15a71bf5089c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c/renderer-underline-test.pdf",
+      "bytes": 9464,
+      "sha256": "87f80b95417e3ee2269091f91f4a43a92d8bd15f2601cd9ebbf0d719affbe682"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/config-g6-r01.json",
+      "bytes": 7218,
+      "sha256": "67c81e0021e61e3c083a182d4bd28144f8b78ef6a75ebcecc929f3cb275f02e7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/config-g6-r02.json",
+      "bytes": 6231,
+      "sha256": "01713ab1d7a823c36a6afad952a5d746be47538c8ea0e06cf00db1ea1710541e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-af-r01/diff-unico-completo.diff",
+      "bytes": 11191,
+      "sha256": "9864ae1c656f0cf9352ee0f6fd62e51f42abd969f86356c6c2c86214861870eb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-af-r01/pre-e-af/3.6.1-azioni-eccezionali-incendio.md",
+      "bytes": 22312,
+      "sha256": "c0f96fd566217dc08e559681eae0c8eadad3ebe37c7230c48f8cde150582a5c4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-af-r01/pre-e-af/3.6.2-azioni-eccezionali-esplosioni.md",
+      "bytes": 4978,
+      "sha256": "50004291028a75682428b87b5f0e20705e53ff662e308f5b83feed4a4f0ec1ed"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-af-r01/pre-e-af/README.md",
+      "bytes": 6043,
+      "sha256": "8ee1f5ee97db57d3f82173b8c0082e72bf39e1fba566cc0a01d3a6c88514d5e3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-af-r01/rapporto-e-af.json",
+      "bytes": 2270,
+      "sha256": "cff2722c2ad86f21b2746b1fe69c72a29927233c743e76175d8ec942fde285ea"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01/diff-unico-completo.diff",
+      "bytes": 18036,
+      "sha256": "8fb0b27092d90f51792393aef864506bed60f5c292ebce9ad749758e8fd2bcc2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01/pre-e/3.6-introduzione.md",
+      "bytes": 2901,
+      "sha256": "2da8c458bd6a7c4027d1a212f843734f5e5ba6c3dbdffe737a733c5478e16f68"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01/pre-e/3.6.1-azioni-eccezionali-incendio.md",
+      "bytes": 22311,
+      "sha256": "8467ef1a618c9e71b29d5c6e07195567f01e34c71318cb3f79b20abe06d0b2c9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01/pre-e/3.6.2-azioni-eccezionali-esplosioni.md",
+      "bytes": 4981,
+      "sha256": "fea1d303cd1edbc19f2c5d2f6d0c756556c42d0784d7276b69de030db1f9e695"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01/pre-e/3.6.3-azioni-eccezionali-urti.md",
+      "bytes": 7337,
+      "sha256": "810145103536dc7b95e1bb139d4c9e2840aae0c9e0745ac37c1fe4a3b3581661"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01/rapporto-e.json",
+      "bytes": 2786,
+      "sha256": "fabe55a92763dfaf2754b0de823eb9a96ff2b6cfb84f4c113ed552e7cf8e82b6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/diff-unico-completo.diff",
+      "bytes": 5032,
+      "sha256": "9b1e8b30a825de9b1830e810c8fb7b732b1ceca78d18c773bd66a9fc72757e06"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6-introduzione.md",
+      "bytes": 2900,
+      "sha256": "65355da12f44a3cfe2ed8ccd51ee9d7004ac7fccf8c320d0db19cf19ab8a3cfd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6.1-azioni-eccezionali-incendio.md",
+      "bytes": 22620,
+      "sha256": "aca057650fb132f8defc6385afb328e1818cfb1c0bd9465fcbcc7c5090ac3e8d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6.2-azioni-eccezionali-esplosioni.md",
+      "bytes": 5057,
+      "sha256": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6.3-azioni-eccezionali-urti.md",
+      "bytes": 7394,
+      "sha256": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/rapporto-e-r02.json",
+      "bytes": 2647,
+      "sha256": "e3168c17217d7f014e0ef981ce1059480b36cd0a8f0ec36f4a662657d8e89594"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1/circolare-atto.html",
+      "bytes": 17417,
+      "sha256": "d24bdb2082927e996e12702965f920cb5d15f321db809232d54a3294d110eea6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1/dm2023-art1.html",
+      "bytes": 8724,
+      "sha256": "a1886dfd0e2a333180717913b214d8a5d8e1bfb1f65c10ffcd04182ec552c539"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1/fonti-ricontrollo.json",
+      "bytes": 1214,
+      "sha256": "6cc868e699db1c5f538fec0818e355ba73cb1e0699f4b9852f0990d9a60a7cc3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1/ntc-atto.html",
+      "bytes": 17286,
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1/ricognizione-riusata-20260909.md",
+      "bytes": 3756,
+      "sha256": "63e171589ec7665c0b8c61b367a3f6565815604c3978e847180e1d4a1ee08b6f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1/ricontrollo-g1.md",
+      "bytes": 1989,
+      "sha256": "b109369ddaef2ccce90f963a69ea6ff0fb3c80cdbcb50e5401d609fc009f832b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/render.log",
+      "bytes": 265,
+      "sha256": "1f41f701c1444893d7e981cfb8200195a4894399a46b8cd86416d4776f9c1a0e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/target-blocco.md",
+      "bytes": 13298,
+      "sha256": "c8f38dce5eecb5c1225f1f09ee1e8a78af59d296ad6cb8eaed52d797c62e05d1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/target-blocco.pdf",
+      "bytes": 40715,
+      "sha256": "699b26c9274695d43aee9e5efb9848eb293f8637f8cd805db9c9b5fa2dac5b74"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/target-p01-200dpi.png",
+      "bytes": 371825,
+      "sha256": "2e4035df6621cf87dcdf589ba292475b45ea8f776003d9f98a391f2471b8386d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/target-p02-200dpi.png",
+      "bytes": 393607,
+      "sha256": "d64edb98e7b094c3ba1c4a08f6a1fb31090f8ec28f404be48f5269cf6b12b7d9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/target-p03-200dpi.png",
+      "bytes": 321423,
+      "sha256": "67d6b11f923273cee90fb4338ccbbff9aa78868c1635eafaff0118a025f44827"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/target-p04-200dpi.png",
+      "bytes": 225879,
+      "sha256": "f9f5391186e6d58704b78b88080e056791a49c1535ed7f816b35bf6b6e590f8a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01/testo-pdf.txt",
+      "bytes": 13197,
+      "sha256": "7c16a061d87453cba20e8ef6e0396fb4d290bf887e5db117b16422de9121aecd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/render.log",
+      "bytes": 265,
+      "sha256": "cca6d86d7dbec970bdc7382a8a5a604ff70ed8b5e27322ede686a5e4fc22ac8d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/target-blocco.md",
+      "bytes": 10016,
+      "sha256": "377a4a90d990aff47429bdc05e800770e171eab94c32e42ca80e06d08483c43a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/target-blocco.pdf",
+      "bytes": 37087,
+      "sha256": "d9ec2ff6d5ef41055e5c63dea2520f9c5ff1aa08876e13b74691099f4299ddf8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/target-p01-200dpi.png",
+      "bytes": 295041,
+      "sha256": "773fd2a327d0cada74d8f354b23c7fbe310f7ccc7ce5bd57807efa38d6283cc0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/target-p02-200dpi.png",
+      "bytes": 284173,
+      "sha256": "d95a22905cb9f0bd9efa84b6f3b22a6e4179036a34e8aad03df7f77297eb500e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/target-p03-200dpi.png",
+      "bytes": 351508,
+      "sha256": "8f0d90bc85e2657b7af78876ba25ecb683ef377620e0e95f93f45eae425bac3b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/target-p04-200dpi.png",
+      "bytes": 118126,
+      "sha256": "d93f3c0c7be2767426696e7380f35f972c15eea93218ca9cb55cf40e6ef2fb07"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02/testo-pdf.txt",
+      "bytes": 9786,
+      "sha256": "b7f92418cde5541f8af15ef10aa39fe450908a1d5bea43474e66956063afcdfe"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/render.log",
+      "bytes": 265,
+      "sha256": "4cf6b8ebeb6bdacc80c635bff0e7c3818eb5f22761b293fdde8ad18565a28e58"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/target-blocco.md",
+      "bytes": 10414,
+      "sha256": "1b35c205333f2893464dcd8ab73d07268e680093d9335c1f9d7d1188f20d4551"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/target-blocco.pdf",
+      "bytes": 32760,
+      "sha256": "5007c43f52d61999c53dad057dd904a85fa4ecb65ac7ed29c9280ee23d0abadd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/target-p01-200dpi.png",
+      "bytes": 466178,
+      "sha256": "e20a5ceac59ebf08f6c153ba1fc43e529830a6f6ccf26bba413f4b476a2df328"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/target-p02-200dpi.png",
+      "bytes": 410515,
+      "sha256": "5b82971a209ac0db6d42cbf4e7dd7debd2d27a2c8b42d364f5ff0b273afaa424"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/target-p03-200dpi.png",
+      "bytes": 153325,
+      "sha256": "1b1789b519ad504d7e56a31e8be81889c99ec58b22a116b72e8580b05df890c1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03/testo-pdf.txt",
+      "bytes": 10457,
+      "sha256": "e998a9c975b36face2c6ca1aea62e1694d90536d9728d7f71d88bbb616b9ce4f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/mappa-composito.json",
+      "bytes": 1438,
+      "sha256": "358b293d8cfeff79d9a152944e153a29f363729806978551a58374fa100d3dea"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/riscontro-editoriale-finale.json",
+      "bytes": 430,
+      "sha256": "cb3edce673d0afba69a71c1633ffeea75cf19c0104a66fb96544173f08ef6fc8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/riscontro-meccanico.json",
+      "bytes": 4142,
+      "sha256": "33bf6f54db7f415cfc97969937bef1691d17ff8b69d330b65eeba9bd89b27c07"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/snapshot-target-finale.json",
+      "bytes": 901,
+      "sha256": "f78911a20fc0bbaa00d043bee52f009fa8e4ace185872c49042202fe11570dbc"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/target-scope.md",
+      "bytes": 33728,
+      "sha256": "f14823cc7bee1bb8ceb61330dc4738c11223565ef1922cf4502624bda89fd6b7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/target-scope.pdf",
+      "bytes": 120093,
+      "sha256": "32520569ceb6b737a7a6353743e22285092b1619b234141998cd690427af9b52"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/render.log",
+      "bytes": 265,
+      "sha256": "3a491ec4f54ffa309d0295d1ed5c66cd42d90701b351e5b5bae6c6632ab96d04"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-blocco.md",
+      "bytes": 16873,
+      "sha256": "444e32fbbe4d64dc3aaed98f7c8360633fe73e12843e9fcc9c6af66e49a816f7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-blocco.pdf",
+      "bytes": 46429,
+      "sha256": "e266d625fd89d7a2f4e02b9be216c21f976ffddf66c882d289b6b360eca5a209"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-p01-200dpi.png",
+      "bytes": 368973,
+      "sha256": "1c54e65c7e8716ebbf89111d8e384c5978bb56cf2285e623085002e242135e36"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-p02-200dpi.png",
+      "bytes": 367611,
+      "sha256": "e95a1090d9de6ce5e4d04fba0760ef70c35f37ce6f5cd0dc720f302d21fe3c61"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-p03-200dpi.png",
+      "bytes": 349008,
+      "sha256": "27fb095ea574ee58a7d23a7c906d4c4f3835e393a34e6ceaf8536a2614b313c8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-p04-200dpi.png",
+      "bytes": 322552,
+      "sha256": "e58b468156b3b3b951efc0db94cb491df2d824117a4cfcdcc58b5065a7dbf8c0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/target-p05-200dpi.png",
+      "bytes": 265122,
+      "sha256": "f698b45594d985fb81fae774b9b41cf40fd31ef27dfbfa2c8681bf844507c689"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b01/testo-pdf.txt",
+      "bytes": 16655,
+      "sha256": "9d9245ac74076eea316973877a655fb0b40e7e73733b4bb9789a2d01ca0ab0ff"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/render.log",
+      "bytes": 265,
+      "sha256": "3322fb500275837eacb605246440d45379ed1386328d92d871b29d0b1b0769e8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-blocco.md",
+      "bytes": 16863,
+      "sha256": "f8fe230f2874aa00dda3351ca0d12ff20222b918cda6ff4d15be20fd54120cf4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-blocco.pdf",
+      "bytes": 43168,
+      "sha256": "b3e08420b38f81520d626ac0030d950d70fe6c5a883ba2f633cc7efbc96980c7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-p01-200dpi.png",
+      "bytes": 273728,
+      "sha256": "b7249e079ff73555703bd78c0012bfe3ed30a9ceb392d1902a984e624999e8d7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-p02-200dpi.png",
+      "bytes": 366005,
+      "sha256": "0b600245bfa4c7f9d860337579a1c78bf22d4d0118537fb3647c2573caf937e3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-p03-200dpi.png",
+      "bytes": 453400,
+      "sha256": "559b0f707a984f80ec0f4ed8a727f69ef79fac88b5c5301e3bb50fc9e5eafb12"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-p04-200dpi.png",
+      "bytes": 426319,
+      "sha256": "ccd2926785b8f804114c745acd7759e7b871f60b7852f12ed5b36649ba49d403"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/target-p05-200dpi.png",
+      "bytes": 169876,
+      "sha256": "3ab2a1de94c82ff1e2977ce66f05b152fd8f60a937601c7f443a4073eca0fbc0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/b02/testo-pdf.txt",
+      "bytes": 16718,
+      "sha256": "e0b3925bece79dc806c1971d61cbdcdf8bb66a0def0f4605b6a02a8e1ff44fc7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/controlli-meccanici.json",
+      "bytes": 866,
+      "sha256": "962571963224ab41c8b1ee62aca0cd49d6703b0990773dac9f7a963884db45ee"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/lista-snapshot-finale.json",
+      "bytes": 228,
+      "sha256": "0536acf662fc409ccace20d4a36bfa2e70905c776c027105c85c0889ec038d60"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/lista-snapshot.json",
+      "bytes": 182,
+      "sha256": "20923f204acc60a4e02e79404968ab6c3573adc1cc0c723f7bd9620f27ad3077"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/mappa-composito.json",
+      "bytes": 1438,
+      "sha256": "ccc332aa2a791377308a30ed12d8e2182e600b69298931531c5ce690bd4d9e66"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/riscontro-meccanico.json",
+      "bytes": 3532,
+      "sha256": "012447373da684390767f3c6a382dd4fa34a854155cf239a03374e9065c6cd66"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/snapshot-target-finale.json",
+      "bytes": 901,
+      "sha256": "cd6a442021675c0bbaa29641f10551506f88cbbba0363759a981ef1f67ade672"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/target-scope.md",
+      "bytes": 33736,
+      "sha256": "9055b7674a7afab52937cadf2c864006603a34d8e7382d901f3b65982da418c2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02/target-scope.pdf",
+      "bytes": 96159,
+      "sha256": "35d3586eda7a6f3659e93c84da536db7d999f3672b1335a81478134f7735baad"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b01/fonte-vettoriale.pdf",
+      "bytes": 976796,
+      "sha256": "040ebe7cc499b17bb4bdb3cfbc1e5cdd3968aa4b2be3d502a52dfa8bfa5b482e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b01/lista-input.json",
+      "bytes": 44,
+      "sha256": "2ced55d7d115881151455267c1e01a8e4dfe87f2e2366f02d75f0410591633d2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b01/manifest-comune.json",
+      "bytes": 344,
+      "sha256": "619d1b7f67482a59655df6c7c5359c2a0c3dec4cc397cab0c920d6f13c22932b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b01/manifest.json",
+      "bytes": 359,
+      "sha256": "a0f5eb80969dd5a09f72487656000717f4f3350ba0ee45adc9ca8341f813f160"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b01/provenienza.json",
+      "bytes": 884,
+      "sha256": "6f006300b230856f41209c9e946cff128c26dbb2fb688cd8b938a2c69a5c3804"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b02/fonte-vettoriale.pdf",
+      "bytes": 862642,
+      "sha256": "9ec25459057d9148733eeee55b94340cba67eeb1e9de2d2e6fe7ce99995d0a79"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b02/lista-input.json",
+      "bytes": 44,
+      "sha256": "2ced55d7d115881151455267c1e01a8e4dfe87f2e2366f02d75f0410591633d2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b02/manifest-comune.json",
+      "bytes": 344,
+      "sha256": "56b06e9c7212455350376671901d4b178041309e4d0f24748f1a0cd1391b13d8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b02/manifest.json",
+      "bytes": 359,
+      "sha256": "36c497a8e55e49f0df04c671810d3a17b3488a2ac68cf47c642dfe2c0ff8fd39"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b02/provenienza.json",
+      "bytes": 884,
+      "sha256": "0f7208d1459d36e7dc9c6af56ee311a876364e34340393d1080b93acd2afca65"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b03/fonte-vettoriale.pdf",
+      "bytes": 520241,
+      "sha256": "6aa0e96a08ba07461b3d7d33fa7d54c90b1b6088f4e3da957c84dce243216667"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b03/lista-input.json",
+      "bytes": 44,
+      "sha256": "2ced55d7d115881151455267c1e01a8e4dfe87f2e2366f02d75f0410591633d2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b03/manifest-comune.json",
+      "bytes": 344,
+      "sha256": "db2d6b28e599f38dd66bdb0e2e1c716806e46307e0920052bcf0c5d7a6bfb043"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b03/manifest.json",
+      "bytes": 359,
+      "sha256": "13c77c2b1de9b9f549304336af5240b03246232d7990795a76f4f95435cabf5f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti/b03/provenienza.json",
+      "bytes": 887,
+      "sha256": "4034bfe2a1c02bd7b49cce9b4074007597c897208d53bc1989d07b09f664a5e4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/codifica-posizioni-vettoriali.json",
+      "bytes": 491268,
+      "sha256": "2139f11a86325b0f087faa003f0f044c81e467648c3f181a42b13f633db303b3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-66-formula-3.6.1-1200dpi.png",
+      "bytes": 41605,
+      "sha256": "96f72445466d1829e2f9f606e6b20392dec0bb124da957fd9a0b9feb8435177b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-66-scope-a-600dpi.png",
+      "bytes": 221496,
+      "sha256": "234fe9a6553a7a7ce4183db6a5bcea9e00e97f42e663b6498105832034ca5de8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-66-scope-b-600dpi.png",
+      "bytes": 291264,
+      "sha256": "b68d66d1f81a02a5ab30643a01d68662075576a412a1c4371f03b35273c3f455"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-67-definizioni-formula-1200dpi.png",
+      "bytes": 192069,
+      "sha256": "c270afacb818f41fc717141ca4f38f3f0c31baaadfa99da6a6da0dc43d18d7b4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-67-scope-a-600dpi.png",
+      "bytes": 225856,
+      "sha256": "3859fec2ca91e1b6f62701decdf309bf0e650a11cf525a349da044df55b2dec3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-67-scope-b-600dpi.png",
+      "bytes": 244680,
+      "sha256": "862eff5d8e20208a46d65838f149c1db64dbf89480723f0c3f615029e3ef295e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-67-scope-c-600dpi.png",
+      "bytes": 165878,
+      "sha256": "4a4f0561942145f015ee1c1ab2cba7e51cee291eb756eb23a85b0084028f9f78"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-67-tab-3.5.IV-600dpi.png",
+      "bytes": 123293,
+      "sha256": "40c3fff027249fd3edf4bbcaa9fafad23f2309fde5087135999bd053bc05c945"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-68-formule-3.6.2-3.6.4-1200dpi.png",
+      "bytes": 279691,
+      "sha256": "d54ff95d639f1faaf771ce2c55fb3a716f96942ec6873bf788bd965fd22b73a3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-68-scope-a-600dpi.png",
+      "bytes": 218011,
+      "sha256": "4558d833127c09730f46735f8721892822ff850a50d09ab9b2178724fc8dbb16"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-68-scope-b-600dpi.png",
+      "bytes": 241588,
+      "sha256": "b9430af694d08c3812e85c4714b2339201fd942b6ba895cf554b6bb405d0d9fa"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/ntc-68-scope-c-600dpi.png",
+      "bytes": 204588,
+      "sha256": "d0d497350cdbe7c7d740edf599e9d3b648ff4a69777676c7208764a5d23ecd5b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/prova-vettoriale-e-apostrofo-bullet.json",
+      "bytes": 351166,
+      "sha256": "48b98493e256648a7c22478126e89f6aba65c44a29cf1060a138229dc905b49b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/provenienza-prove-target.json",
+      "bytes": 3618,
+      "sha256": "d143145a57952571b1501bffb34392966e8fc763a96e1ec6fcb949f1499608a7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/provenienza-prove.json",
+      "bytes": 13686,
+      "sha256": "92351c92fb2faa32e8803cfd8e7fface72135e0309d51b60cfd240c8d4c886f4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/target-p01-curve-alternative-900dpi.png",
+      "bytes": 105775,
+      "sha256": "b1aea6a1b6528ff6b032818dfce1cda0d5917bba4cfed2326e75b49febaa4432"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/target-p01-e-opportuno-1200dpi.png",
+      "bytes": 105765,
+      "sha256": "b2d71d3790d36e24b8e4bb5b86bc8fec74b62e3c2e8118f198371a28d4204a1b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/target-p01-formula-3.6.1-1200dpi.png",
+      "bytes": 21914,
+      "sha256": "f3f059e3c457bfe7fe255a4c21f7e17a3a97799a67858d89744b0c8001e0805f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/target-p02-definizioni-formula-1200dpi.png",
+      "bytes": 206731,
+      "sha256": "98ea2c78c6d1a796664da0eafe87e897453f7500852baacd2952acbc0d67e0c6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/target-p02-tab-3.5.IV-600dpi.png",
+      "bytes": 194181,
+      "sha256": "89c491614080aea7ac9867f772717bb52ec7e952e54b1472559e4a31187a4ad3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01/target-p03-formule-3.6.2-3.6.4-1200dpi.png",
+      "bytes": 300801,
+      "sha256": "bfa32f7dc8ed103e55ed65979d357df8ae7a10bfd3e9e91bad2e513ecf3877ea"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/codifica-posizioni.json",
+      "bytes": 361412,
+      "sha256": "1b5a8306f2103644c83890f2460eb62514951e0c835ce12f14fe3bf16e679f31"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/fonte-vettoriale.pdf",
+      "bytes": 862642,
+      "sha256": "9ec25459057d9148733eeee55b94340cba67eeb1e9de2d2e6fe7ce99995d0a79"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p69-formula-3.6.5a-600dpi.png",
+      "bytes": 18746,
+      "sha256": "034985f5fde7eb374c783edc13c94ad0092f1d1c85354db5576d011c73253a39"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p69-formula-3.6.5b-600dpi.png",
+      "bytes": 19502,
+      "sha256": "73dee91011d402c82a77e82255c0b22648a3eaf229107100623497d01d1597ab"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p69-formula-3.6.6-600dpi.png",
+      "bytes": 14562,
+      "sha256": "ef1d17ddfae4b167212a6cf563011efec5a612cef850214f1427c25dafe56d13"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p69-inline-pd20-600dpi.png",
+      "bytes": 88004,
+      "sha256": "ed526d18dbda9f6afb24d7b392b165b0b29823695f6c4851cd38d22a9541d922"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p69-intera-600dpi.png",
+      "bytes": 1066278,
+      "sha256": "4d6e34ae2d4547b930b49d0cae26e5a6fdbdbfefb0ebba788d29f4a9ad578d5a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p69-tab-3.6.I-600dpi.png",
+      "bytes": 72828,
+      "sha256": "eb414d2dd915d3fdf5c9adb7b0f09b1ff9a8bf1f0fd04b35df96f38963dc9b68"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p70-formula-3.6.7-600dpi.png",
+      "bytes": 19291,
+      "sha256": "adda8fe1098f08245a7a45c57811deecf5eeea2ea49b9766452ee8588feea021"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p70-formula-3.6.8-600dpi.png",
+      "bytes": 25277,
+      "sha256": "2d401dd02bacf74a065601a243bb415d72b3df2d88ac4e451a82fff617db1c65"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p70-formula-3.6.9-600dpi.png",
+      "bytes": 21754,
+      "sha256": "df8b42e10ac5f2210601bdb376162bd9f32d19dd8c3c65264058edb8d3e9dbf7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p70-intera-600dpi.png",
+      "bytes": 1189819,
+      "sha256": "2a5c0406ab45d60222b1e6c2323c52fb6348e2e5585f7377be4d7788aa2b329a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p70-tab-3.6.II-600dpi.png",
+      "bytes": 68599,
+      "sha256": "498e0664cd8253786d2538529f30ba74928278c00a14a7e87436abb8c3d93851"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p70-tab-3.6.III-600dpi.png",
+      "bytes": 137387,
+      "sha256": "b19ba6dfc2100b79a4c6e0ec1e0a3824d48c3bb0949c343ac0e76789db92bb2b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p71-condizioni-distanza-600dpi.png",
+      "bytes": 158501,
+      "sha256": "3b83e831e9febb741c43c949eaf7c287cfede2434904f07a231abffe6a04aa2e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/p71-intera-600dpi.png",
+      "bytes": 825724,
+      "sha256": "2d80b4cfb46e2af809fb6c58a573de58178e161dd031029416b22b45c89d104f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/provenienza-fonte.json",
+      "bytes": 884,
+      "sha256": "0f7208d1459d36e7dc9c6af56ee311a876364e34340393d1080b93acd2afca65"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/provenienza-prove.json",
+      "bytes": 4317,
+      "sha256": "697080c99e44cace446c4f9e77f9592b46bd90395d21ca2509429c6b7f57c218"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p1-formule-365a-366-600dpi.png",
+      "bytes": 123147,
+      "sha256": "339a1d25e72c7da9d9382cc77d7cc5eb7e4b7127c788c2df2d4821a4897d8523"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p2-formula-367-600dpi.png",
+      "bytes": 16974,
+      "sha256": "d063de6c471d7f44f8ff4f8f14d482eaa7e5b0ea1df5bcd5c32e989eae8366ee"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p2-tab-36II-600dpi.png",
+      "bytes": 100500,
+      "sha256": "b6f80a4f41ab2b90ae5dc7048836741e2d5182297cfce36cb381ce5d463b2788"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p2-tab-36III-parte1-600dpi.png",
+      "bytes": 117934,
+      "sha256": "634ee073237da103cc9547afb774582ae26d7566e54b7275919b2df97c366475"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p3-formula-368-600dpi.png",
+      "bytes": 14020,
+      "sha256": "b25e83cc83fcabdf0a85e1ac362e6ae8cf82a672082dedd691b75c794bee29cb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p3-formula-369-600dpi.png",
+      "bytes": 14381,
+      "sha256": "21f8000a273ced1616513e2d9f56a1a7e7b6587dce73f0eaebc704bb57d5f874"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p3-tab-36III-parte2-600dpi.png",
+      "bytes": 113889,
+      "sha256": "523db970fe81dd8d50659d4631041b11644a6a1f11f92f85f81a220d0dc9218a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02/target-p4-condizioni-distanza-600dpi.png",
+      "bytes": 165889,
+      "sha256": "e61a4a4afdd8ed6caa15303df5ede748033689acf81da8a130df86830a30b413"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/g6-r01-fonte-definizioni-p81-600dpi.png",
+      "bytes": 195720,
+      "sha256": "4520db6803ea31a34e6d0e16ebe13510477e6a4916c688af88a1c93f77ab2ad5"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/g6-r01-target-definizioni-p01-600dpi.png",
+      "bytes": 235787,
+      "sha256": "d8985dbf462be3f0c128726de87b92f0da46488659c48f81df8ea61afe59e64d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/p81-qfd-lorda-600dpi.png",
+      "bytes": 60857,
+      "sha256": "aa00cc5e2eae38ec2a00cb4f9733d7ad71d97316a549f97550a734c9f7848eda"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/p81-scope-600dpi.png",
+      "bytes": 692020,
+      "sha256": "96d4b164c2974602f2c299ac45047919c6f9e13e92d2a6306f854462802ab050"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/p82-rubriche-1-5-1-e-1-5-3-600dpi.png",
+      "bytes": 218721,
+      "sha256": "d1e4e36dc7fc9d42811cbf86bc07b79deb7d2e58d00b011b0d0c406e2e2de1ff"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/p82-scope-600dpi.png",
+      "bytes": 1189246,
+      "sha256": "846eb4d42fb6137dd98fd029ec5040319ba0ae0b591767af3ecf9cdbe665ac36"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/p83-rubrica-1-5-4-600dpi.png",
+      "bytes": 20843,
+      "sha256": "8d53e97388f8ff5138ae898725b71041c5955424e991a9bc7c8f5fc2f282c7c8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/p83-scope-600dpi.png",
+      "bytes": 589102,
+      "sha256": "366dcb0a01196c7ab68635331b9577b0b0dd34ccc35534236100b72bfc3977ce"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03/provenienza-v.json",
+      "bytes": 7147,
+      "sha256": "62fca7c4760cd4405c7eaa0e6f80484088d2a3327cd63837ac7844743ec93e72"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/PERIMETRO.md",
+      "bytes": 280,
+      "sha256": "04cf3d945ade358f346f1fc53e15249abfa67c494f4a2196a3a59aaedb3a0579"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/congelamento.json",
+      "bytes": 474,
+      "sha256": "fcecd3611ce1650f2a8895fae7b72f68dd07c1fa6173f5314c2be98ecca7e79a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/fonte-ntc-66.png",
+      "bytes": 548534,
+      "sha256": "9c894bd1469fa20f1ebaba035ef340a41c20e6461f9a93dd5a3d7ee89e0c145d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/fonte-ntc-67.png",
+      "bytes": 566899,
+      "sha256": "4e059377e079a0eab090ddb3abe55d1878bc7238ddc2926f062250481a127b6e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/fonte-ntc-68.png",
+      "bytes": 589520,
+      "sha256": "a3bde93322db2ab794cb484dfa1fb4860f4714e77c2b72b80c5be240e8afbc82"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/input-confronto.json",
+      "bytes": 2378,
+      "sha256": "92db86d4cd1e4df95cceab8eb9f923ef2d04a579c3d64cfe406a72251aea3c4e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/input-fonte.json",
+      "bytes": 1022,
+      "sha256": "e190ac9109f1a55c00f51a70c9797fc50af0b98196dcd8b0a0af4e7016554691"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/inventario.json",
+      "bytes": 17098,
+      "sha256": "7be59cc6d135a3ed965919698a10e2f71f53573eb0ff6b4d463fc2b5e0cfd981"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/rapporto-g6.json",
+      "bytes": 8204,
+      "sha256": "98fd603ace0ce53980964989c401347226c744f6f7d0b8da5c23cbbb5db09ea2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/resa-target/target-blocco.pdf",
+      "bytes": 40715,
+      "sha256": "699b26c9274695d43aee9e5efb9848eb293f8637f8cd805db9c9b5fa2dac5b74"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/resa-target/target-p01-200dpi.png",
+      "bytes": 371825,
+      "sha256": "2e4035df6621cf87dcdf589ba292475b45ea8f776003d9f98a391f2471b8386d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/resa-target/target-p02-200dpi.png",
+      "bytes": 393607,
+      "sha256": "d64edb98e7b094c3ba1c4a08f6a1fb31090f8ec28f404be48f5269cf6b12b7d9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/resa-target/target-p03-200dpi.png",
+      "bytes": 321423,
+      "sha256": "67d6b11f923273cee90fb4338ccbbff9aa78868c1635eafaff0118a025f44827"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/resa-target/target-p04-200dpi.png",
+      "bytes": 225879,
+      "sha256": "f9f5391186e6d58704b78b88080e056791a49c1535ed7f816b35bf6b6e590f8a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b01/testo.md",
+      "bytes": 13149,
+      "sha256": "7da0cc1bf744a08d92e4f3e32d6f4563b7d836b311f35bad175053664c1526eb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/PERIMETRO.md",
+      "bytes": 217,
+      "sha256": "d06c52ca58ba42db5a36a73c69683350aba8d6598c38f8285eeb80e66b8bfa48"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/congelamento.json",
+      "bytes": 464,
+      "sha256": "298c931b0857b44f27c13cd626f38cd4bb2d3d71bd4b822c0aeacb01b7731788"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/fonte-ntc-69.png",
+      "bytes": 494506,
+      "sha256": "44ca2b559b37b090c28a878f3b369655bfdbf358f781f3c2fdd34ade245f3e82"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/fonte-ntc-70.png",
+      "bytes": 529380,
+      "sha256": "baaeacf701a10cd5736ae3167996ada4903226a172d931b522712faf94f80cd4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/fonte-ntc-71.png",
+      "bytes": 391096,
+      "sha256": "3d99d1535c9bedcdbbce11e436bf70b61b9c65adeff1977f72d10878f31134aa"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/input-confronto.json",
+      "bytes": 2376,
+      "sha256": "b984423d4428963272f6b727ddbf2cd0318e2bbda664b35912e2459a25325ce3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/input-fonte.json",
+      "bytes": 1022,
+      "sha256": "0781a90e23ebe39f4d4727b5c4ee7a46bbad83b0b3bff211e69a702762bf4226"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/inventario.json",
+      "bytes": 7565,
+      "sha256": "645ae464eabf7a308cd9522cf66a8b68459f71993f4760c53314f2fab9499edb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/rapporto-g6.json",
+      "bytes": 4054,
+      "sha256": "3e49e6614cc30a1aa1ac125d8c1b50235c40778ef761e19d678a22c7e83bc04f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/resa-target/target-blocco.pdf",
+      "bytes": 37087,
+      "sha256": "d9ec2ff6d5ef41055e5c63dea2520f9c5ff1aa08876e13b74691099f4299ddf8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/resa-target/target-p01-200dpi.png",
+      "bytes": 295041,
+      "sha256": "773fd2a327d0cada74d8f354b23c7fbe310f7ccc7ce5bd57807efa38d6283cc0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/resa-target/target-p02-200dpi.png",
+      "bytes": 284173,
+      "sha256": "d95a22905cb9f0bd9efa84b6f3b22a6e4179036a34e8aad03df7f77297eb500e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/resa-target/target-p03-200dpi.png",
+      "bytes": 351508,
+      "sha256": "8f0d90bc85e2657b7af78876ba25ecb683ef377620e0e95f93f45eae425bac3b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/resa-target/target-p04-200dpi.png",
+      "bytes": 118126,
+      "sha256": "d93f3c0c7be2767426696e7380f35f972c15eea93218ca9cb55cf40e6ef2fb07"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b02/testo.md",
+      "bytes": 9860,
+      "sha256": "2e9349cbed86addd78b4370c82738076e373c57cab1f588a93de8331d4e22d4f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/PERIMETRO.md",
+      "bytes": 288,
+      "sha256": "7f5575a3ded8fa6c19a5c6dcee146f2ca7acb55c270c96c89ebe0676a4e527ef"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/congelamento.json",
+      "bytes": 456,
+      "sha256": "79e1ed14a9043de9bac7ecbc5de8ee75077bf614ce9ff637c7710dda7a8d3d2b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/fonte-circ-81.png",
+      "bytes": 606541,
+      "sha256": "b4cf34432f528e4ab94ed6f8252e5add656604292605a4b619cd62a38eaef396"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/fonte-circ-82.png",
+      "bytes": 616593,
+      "sha256": "1d31d7af328a46a8c0b80079a64677573243c31d1f3591ece3aa040932e83aeb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/fonte-circ-83.png",
+      "bytes": 388750,
+      "sha256": "f67746cdabd72d16bc76c341ac332033b763d4c3b665427650ae22a3f649e100"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/input-confronto.json",
+      "bytes": 2211,
+      "sha256": "46a5642594b86ab7c91948dafea754e266ec2a5aa28882f7bfba24693c01c054"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/input-fonte.json",
+      "bytes": 1028,
+      "sha256": "9498535c9677ebb48b36f2185087d8bca0ed17c6fa1559471e94049a3b403ccd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/inventario.json",
+      "bytes": 11521,
+      "sha256": "d5ce469bebbf3b56acd63fd3e7c3b468c56fc094ef604126d8e83441340ccfbf"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/rapporto-g6.json",
+      "bytes": 6806,
+      "sha256": "adbe23c7b8c36a9c84aad34b0ef40d1b2e875166a0a35e6c4a7affaf71156fa4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/resa-target/target-blocco.pdf",
+      "bytes": 32760,
+      "sha256": "5007c43f52d61999c53dad057dd904a85fa4ecb65ac7ed29c9280ee23d0abadd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/resa-target/target-p01-200dpi.png",
+      "bytes": 466178,
+      "sha256": "e20a5ceac59ebf08f6c153ba1fc43e529830a6f6ccf26bba413f4b476a2df328"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/resa-target/target-p02-200dpi.png",
+      "bytes": 410515,
+      "sha256": "5b82971a209ac0db6d42cbf4e7dd7debd2d27a2c8b42d364f5ff0b273afaa424"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/resa-target/target-p03-200dpi.png",
+      "bytes": 153325,
+      "sha256": "1b1789b519ad504d7e56a31e8be81889c99ec58b22a116b72e8580b05df890c1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/b03/testo.md",
+      "bytes": 10332,
+      "sha256": "19dcdda563acbe69a72e31b19f197840077d5af8660f621fec532e08a423ca74"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01/coordinamento.json",
+      "bytes": 8007,
+      "sha256": "986516331d101af2ba1b1b30dab6699518524b90819400de278cfcc961fcecd7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b01/fonte-ntc-vettoriale.pdf",
+      "bytes": 1299304,
+      "sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b01/lista-manifest.json",
+      "bytes": 59,
+      "sha256": "50e183e26a0ebe3161ac9bd249204965ec4f77ad39f037ca66449d771497cfb7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b01/manifest-comune.json",
+      "bytes": 349,
+      "sha256": "449b9d580bd8f2d8586fd3e1d526a92b7c351989e8e2148fe8649e68f9141854"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b01/provenienza.json",
+      "bytes": 900,
+      "sha256": "cb2c0f7f6c2435346675032dc835617fc0e942575ae91ad3ea306d0cffa8f904"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b02/fonte-circ-vettoriale.pdf",
+      "bytes": 520241,
+      "sha256": "09046dff4a95a031b2ff7c86f112ee7381270456b6e48f11529ba71b8ca05539"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b02/fonte-ntc-vettoriale.pdf",
+      "bytes": 540173,
+      "sha256": "dfd77bcf6e0c39d40d1c3a83c8b96f24f3f6d94f30596af60e3a1013ba7223b5"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b02/lista-manifest.json",
+      "bytes": 91,
+      "sha256": "2f199ac2ca723ea84e6c2c4d87f7784433e1c2db9fd7c3f7d015d4f885eaca4f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b02/manifest-comune.json",
+      "bytes": 511,
+      "sha256": "eb4c4894e1d2a994ca4e96327dd167443631a398ca11571e919b0640675c12c1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti/b02/provenienza.json",
+      "bytes": 1332,
+      "sha256": "ae6c0c6b20f2315d7f0c53acd014afbe66ad1daaef94db369d56270275fe1f94"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/apparati-vettoriali.json",
+      "bytes": 193493,
+      "sha256": "26e504cac677765c6daaa4b35da6b57df2cc6e0e41489a4bbd42d7d06587ac0a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/crop-manifest.json",
+      "bytes": 6512,
+      "sha256": "5264ace8d5ce1f8b92fe8d648e5011939cd808cd9d151e92a38eaa0c1114448d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/inspect_source.py",
+      "bytes": 4671,
+      "sha256": "5699aa9589fc8b3688bfef6f1c1e7d4d9db4ca619127d1b7772ebc5b68fb097d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/inspect_target.py",
+      "bytes": 4638,
+      "sha256": "efb953b61800bc39f39a6e2df058db93c7d4b71020f3c5ebe4005ef107ebc7e4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p66-formula-3.6.1-600dpi.png",
+      "bytes": 58142,
+      "sha256": "d9fadb5b925301b0874e8b28d0e6e77a7371c50ea5a19d09be8ca6863e8eb245"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p67-dove-3.6.1-600dpi.png",
+      "bytes": 154581,
+      "sha256": "bd08a7732bf04a6cd9596904e49e07d26cb6797ecc85cab6292ca5df9e343a69"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p68-formula-3.6.2-600dpi.png",
+      "bytes": 64160,
+      "sha256": "25baef9797cda41e8afbeb1a5470351315927c7521390cf7e6e00fe69d6d002c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p68-formula-3.6.3-600dpi.png",
+      "bytes": 54841,
+      "sha256": "d6a5c4d1bfb81ecb0fae00b1484b53ebdc7a8d21345007f82c5a82eb29c0105d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p68-formula-3.6.4-600dpi.png",
+      "bytes": 53245,
+      "sha256": "517f4205d1f7a7ddf84514bbeac840dacab406469931864279e738ce6b98afee"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p69-dove-3.6.5ab-600dpi.png",
+      "bytes": 122860,
+      "sha256": "a766b5e0581b7cf796c1b4c1f83f8a829422b17473dbadd3f8dbdd9d5d0a0199"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p69-formula-3.6.6-600dpi.png",
+      "bytes": 38982,
+      "sha256": "2e2bc6ce711e50845bc076a3fc41a63398e8d742240ce9154f6735787736553e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p69-formule-3.6.5ab-600dpi.png",
+      "bytes": 79112,
+      "sha256": "0aa180529cddddc311e8a947a0d4447bfa9697c9f0a3ae8f101b162ac15f3643"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/p69-inline-pd20-600dpi.png",
+      "bytes": 117649,
+      "sha256": "212640efbe18fd28404f2e5f1c7426ba9e807b567786daaf88b18c70459c409b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/pdf-lines.txt",
+      "bytes": 21333,
+      "sha256": "eac0fec13569486090973298210e16fc78bcee7dd2eb33ece76cea0adb20dc48"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/pdf-spans.json",
+      "bytes": 663874,
+      "sha256": "de58143c8c941158f0f8aafe9bda56626097122141ede55e116373b332f7d446"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-formula-crop-manifest.json",
+      "bytes": 4008,
+      "sha256": "5dada18c127738fc3e68123e1fa933e532c63034e5c31e40c789e8bd4bcc3e6f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-lines.txt",
+      "bytes": 19412,
+      "sha256": "5ee185957d4a91579ef586b6e22796ad02878e522a1eccf5a1b5497f42c9fe08"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p01-formula-3.6.1-1-600dpi.png",
+      "bytes": 26769,
+      "sha256": "0759e35ef3a126e940d064cda425ab9d56684484cb2fa1cb2f12efc0815ae2d9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p02-dove-3.6.1-600dpi.png",
+      "bytes": 194618,
+      "sha256": "f091fd1637d92775f50818aba6371c4bde15635c4eb2edb8f6cd43f598425a95"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p03-formula-3.6.2-1-600dpi.png",
+      "bytes": 42186,
+      "sha256": "afaa5942764614615e0aa5bd4cafeb0adda0d5ea308405afe6e190768e239106"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p03-formula-3.6.3-1-600dpi.png",
+      "bytes": 47014,
+      "sha256": "aaeb7693c28fc035c505aa5fef1eba756bb8f9084f9fe4182b5792b036681f36"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p03-formula-3.6.4-1-600dpi.png",
+      "bytes": 45869,
+      "sha256": "9b049eabd0d16b7265ecbde45777d0f76503ffe50cb367b86503916f4e0d48ea"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p04-top-600dpi.png",
+      "bytes": 98920,
+      "sha256": "7ae2c17a3214291e5a5116a30f751a48d66a5632fbc8c0baa76c65d568149e81"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p04-top-proof.json",
+      "bytes": 31464,
+      "sha256": "095899fb3f703d0a5fc20522392d17a1e8a3a6b85838fcda07ee944e90d3c091"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p05-formula-3.6.5a-1-600dpi.png",
+      "bytes": 19627,
+      "sha256": "b99bde11e7af2e3b6a8874f198f9851dad608f66d6a8bcaf30b7d3c49ec0f925"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p05-formula-3.6.5b-1-600dpi.png",
+      "bytes": 31357,
+      "sha256": "9a3f3b92466fc491d2d3b447bb18844647ffc45ae0451bd1fb10c7a93fa2bd0f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-p05-formula-3.6.6-1-600dpi.png",
+      "bytes": 36309,
+      "sha256": "12e60921b1236750a19702420cb1dbff92c97706adbe4fd5afd233523f11ff6e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b01/target-spans.json",
+      "bytes": 2004033,
+      "sha256": "6bd2398462f1cc39ab98c90bc235202134bebdb5dd5ee9ddf66b471e15a2320e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/analizza_fonte.py",
+      "bytes": 2618,
+      "sha256": "b2d4fc99156e7a8381eeb844065d62e2e3fc92a4b19fd7394ff1a89284f01901"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/circ-81-inline-qfd.png",
+      "bytes": 10984,
+      "sha256": "efd85c870946222f5d26b3e92142d34982574231cf37049481ee956cdec349b3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/circ-82-rubrica-C3.6.1.5.1.png",
+      "bytes": 15581,
+      "sha256": "fb0979ab976b8bb762738f609c9a6613e1ee3e68d89334c9bc3a7b59d68ac7a6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/circ-82-rubrica-C3.6.1.5.3.png",
+      "bytes": 18869,
+      "sha256": "c2fc1d97f0d2477d44d4700af57ce9e717844733fa35ccff215543c28562027d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/circ-83-rubrica-C3.6.1.5.4.png",
+      "bytes": 16488,
+      "sha256": "fc272644fa68f63e700a89deeea23b75bb52a93bcfc25b278bda697688d5323d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/confronto_lessicale.py",
+      "bytes": 3105,
+      "sha256": "5d5d8e853c3e6484416c99f7ad78be35ae1d0a9e792a7610fdd40d136ff90e92"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/crea_ritagli.py",
+      "bytes": 3109,
+      "sha256": "24f60020e5e90687be4dc0c98caa7a4b2cc95bef69f4ee794cd7f27c428180b5"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/estratto-fonte-circ.txt",
+      "bytes": 14040,
+      "sha256": "87c3cd7b986195b874de392e3f70d376b394afd4de3c8ad4a1103bbea2401f6d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/estratto-fonte-ntc.txt",
+      "bytes": 8150,
+      "sha256": "078d56990ee081cae130d022d40ff8e4d5fe64b6ad77517bc8a9cdd08938d175"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/estratto-target.txt",
+      "bytes": 18274,
+      "sha256": "747a32b55f5317b0701e55b3aafe3f4761a7fec41de6ed53e7ae2d91b4014d9f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/glifi-vettoriali.json",
+      "bytes": 3547,
+      "sha256": "1f9f51cb9f4067ac03db5e0fb7c414239888c42c0db8ff1cd90092f348eeeda5"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/layout-vettoriale.json",
+      "bytes": 8600608,
+      "sha256": "25011cadea671a01e270db45fb90e2cda230bd6d7689c909411a3eff1dd0cf9a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/ntc-70-formula-3.6.7.png",
+      "bytes": 19201,
+      "sha256": "6d8f7b2ce51069909868dd6e743f5d62f22cf4113ca5f79820ca3a080636c556"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/ntc-70-formula-3.6.8.png",
+      "bytes": 26909,
+      "sha256": "17364f648aec5ccddd151bd4b3a074bd4aab4913c3c3da4015b35c50a306649f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/ntc-70-formula-3.6.9.png",
+      "bytes": 23803,
+      "sha256": "ae595461f6cf37935a9b3abea49be41a9ad6755af37741c969602c4a1d4a2018"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/ntc-70-tab-3.6.II.png",
+      "bytes": 68691,
+      "sha256": "ef95576a936b629a8d0a59e2d95da424747f15a5e6add688cbc9dc12a909fd1b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/ntc-70-tab-3.6.III.png",
+      "bytes": 137758,
+      "sha256": "d23d534a1663cb2e97cd3e01d1e6bc1667866e0fe6eed3eabb034360ea86b9a4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/ntc-71-condizioni-distanza.png",
+      "bytes": 131902,
+      "sha256": "4456744e9052f508f75c75da0127248baa9d2891dacdfb5b4ce5a32f906d1db8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/provenienza-ritagli.json",
+      "bytes": 5269,
+      "sha256": "e45a44d06d485d3da7e904533565a3498418e3aec9b183c6d290f43dd4c1f99a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove/b02/verifica_struttura.py",
+      "bytes": 4038,
+      "sha256": "ba6eaa2ab8bae3572c8d2e87f71771051cedcc72860102f19b5e51f966570f44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/PERIMETRO.md",
+      "bytes": 279,
+      "sha256": "9444cd61c69fb60eebb09b662eb699bbeefe2976deed7b5eed4036f81b912180"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/congelamento.json",
+      "bytes": 477,
+      "sha256": "295ba5cf86fb0a3c9e846ece56c6056b815bf08633bc839e7c1a9db44a2d8593"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/fonte-ntc-66.png",
+      "bytes": 548534,
+      "sha256": "9c894bd1469fa20f1ebaba035ef340a41c20e6461f9a93dd5a3d7ee89e0c145d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/fonte-ntc-67.png",
+      "bytes": 566899,
+      "sha256": "4e059377e079a0eab090ddb3abe55d1878bc7238ddc2926f062250481a127b6e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/fonte-ntc-68.png",
+      "bytes": 589520,
+      "sha256": "a3bde93322db2ab794cb484dfa1fb4860f4714e77c2b72b80c5be240e8afbc82"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/fonte-ntc-69.png",
+      "bytes": 494506,
+      "sha256": "44ca2b559b37b090c28a878f3b369655bfdbf358f781f3c2fdd34ade245f3e82"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/input-confronto.json",
+      "bytes": 2701,
+      "sha256": "ba668a071a1bb5c3a84f8acf53a23b9db36fc7a34d9c19e2f1c39c2e941fb546"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/input-fonte.json",
+      "bytes": 1189,
+      "sha256": "6b20600232cfa2b5783154b236c48232eda5662c19e3f9a6003c8771e683a156"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/inventario.json",
+      "bytes": 24387,
+      "sha256": "4c7d3af51cbe73cfe1ff4b1d1078d3be96417e7f311ade7d6e7e889f2ce37ea9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/rapporto-g6.json",
+      "bytes": 5850,
+      "sha256": "b0a7af0111f15c653841b9112115fdde42e34bdb4187d315a5ec939d2e6304ad"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/resa-target/target-blocco.pdf",
+      "bytes": 46429,
+      "sha256": "e266d625fd89d7a2f4e02b9be216c21f976ffddf66c882d289b6b360eca5a209"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/resa-target/target-p01-200dpi.png",
+      "bytes": 368973,
+      "sha256": "1c54e65c7e8716ebbf89111d8e384c5978bb56cf2285e623085002e242135e36"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/resa-target/target-p02-200dpi.png",
+      "bytes": 367611,
+      "sha256": "e95a1090d9de6ce5e4d04fba0760ef70c35f37ce6f5cd0dc720f302d21fe3c61"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/resa-target/target-p03-200dpi.png",
+      "bytes": 349008,
+      "sha256": "27fb095ea574ee58a7d23a7c906d4c4f3835e393a34e6ceaf8536a2614b313c8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/resa-target/target-p04-200dpi.png",
+      "bytes": 322552,
+      "sha256": "e58b468156b3b3b951efc0db94cb491df2d824117a4cfcdcc58b5065a7dbf8c0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/resa-target/target-p05-200dpi.png",
+      "bytes": 265122,
+      "sha256": "f698b45594d985fb81fae774b9b41cf40fd31ef27dfbfa2c8681bf844507c689"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b01/testo.md",
+      "bytes": 16663,
+      "sha256": "25cc042264d0a6ab4a735bbc9955afb47747370732f7e4a037d97c5ea620212c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/PERIMETRO.md",
+      "bytes": 365,
+      "sha256": "96f7059384a53ef7740fe32a006464529eef82c6e7b138785e976607db8e009e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/congelamento.json",
+      "bytes": 475,
+      "sha256": "780ee5ec39457d78b8bc896a9456fed89db9dc4d02d6fd9daafd380897782880"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/fonte-circ-81.png",
+      "bytes": 606541,
+      "sha256": "b4cf34432f528e4ab94ed6f8252e5add656604292605a4b619cd62a38eaef396"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/fonte-circ-82.png",
+      "bytes": 616593,
+      "sha256": "1d31d7af328a46a8c0b80079a64677573243c31d1f3591ece3aa040932e83aeb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/fonte-circ-83.png",
+      "bytes": 388750,
+      "sha256": "f67746cdabd72d16bc76c341ac332033b763d4c3b665427650ae22a3f649e100"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/fonte-ntc-70.png",
+      "bytes": 529380,
+      "sha256": "baaeacf701a10cd5736ae3167996ada4903226a172d931b522712faf94f80cd4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/fonte-ntc-71.png",
+      "bytes": 391096,
+      "sha256": "3d99d1535c9bedcdbbce11e436bf70b61b9c65adeff1977f72d10878f31134aa"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/input-confronto.json",
+      "bytes": 2857,
+      "sha256": "d7e9346bb284adbcd23dc3b0a5ea9a1d78df293fc2e61b0935e0e7aefe8b86e8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/input-fonte.json",
+      "bytes": 1362,
+      "sha256": "dbec91716ac397389a5a8ffaaf9812f733418f9365b76920a57620bf23144b1d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/inventario.json",
+      "bytes": 15519,
+      "sha256": "1701b6e16cf2bfe27fd5d66c1b2024085f5700f1fce9eb39c4fcec70972cdeab"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/rapporto-g6.json",
+      "bytes": 6207,
+      "sha256": "fc7289c1c43d6b6083c0e1bd35eda3ebfc14a24d6098770c0abdfe666651f96b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/resa-target/target-blocco.pdf",
+      "bytes": 43168,
+      "sha256": "b3e08420b38f81520d626ac0030d950d70fe6c5a883ba2f633cc7efbc96980c7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/resa-target/target-p01-200dpi.png",
+      "bytes": 273728,
+      "sha256": "b7249e079ff73555703bd78c0012bfe3ed30a9ceb392d1902a984e624999e8d7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/resa-target/target-p02-200dpi.png",
+      "bytes": 366005,
+      "sha256": "0b600245bfa4c7f9d860337579a1c78bf22d4d0118537fb3647c2573caf937e3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/resa-target/target-p03-200dpi.png",
+      "bytes": 453400,
+      "sha256": "559b0f707a984f80ec0f4ed8a727f69ef79fac88b5c5301e3bb50fc9e5eafb12"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/resa-target/target-p04-200dpi.png",
+      "bytes": 426319,
+      "sha256": "ccd2926785b8f804114c745acd7759e7b871f60b7852f12ed5b36649ba49d403"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/resa-target/target-p05-200dpi.png",
+      "bytes": 169876,
+      "sha256": "3ab2a1de94c82ff1e2977ce66f05b152fd8f60a937601c7f443a4073eca0fbc0"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/b02/testo.md",
+      "bytes": 16685,
+      "sha256": "16f70834763de7577995749e7d4ca8edfe4fe3850f7b8b58dcc2dcdd7dbd735b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02/coordinamento.json",
+      "bytes": 6854,
+      "sha256": "735d0276a5a9a5e591f776a57d4f7a7715cbe27e1ff39299f813b72b229b33bd"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/identita-effettive.json",
+      "bytes": 3811,
+      "sha256": "5db85925514127791838b7d12a238fc2bf59fd02b8c0a832d3880edaeb7f87e5"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/mappa-conservazione.json",
+      "bytes": 6995,
+      "sha256": "772bbcdd51ad40f92b5c96c03ec7a87088ab6a7abd4dbf7305c011b875aa2ba4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/metodo/catalogo-congelato.md",
+      "bytes": 5485,
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/metodo/procedura-congelata.md",
+      "bytes": 34040,
+      "sha256": "4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/recupero-confezionamento-g6-r01b.json",
+      "bytes": 1601,
+      "sha256": "a998657fb2296352e3fcabc5cf040945fa37bffa83aa4e297b45efeacc183ec3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/traccia-letture-v-r02.json",
+      "bytes": 153791,
+      "sha256": "7f739f0c93354e8e67eca58e6a5590e47c4277f1dbd0a2e861de909d60fb6bbb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/traccia-letture-v.json",
+      "bytes": 213025,
+      "sha256": "25436d5c2c446d08b86871e1f0d62374ae549d46cf639879f792a354c0bf7e48"
+    }
+  ]
+}

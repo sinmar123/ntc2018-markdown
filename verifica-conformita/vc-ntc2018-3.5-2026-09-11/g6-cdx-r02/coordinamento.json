@@ -1,0 +1,93 @@
+{
+  "versione": 1,
+  "scope": "3.5",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-scope.md",
+  "snapshot_sha256": "cfe9119fad6da4d7e1f778b8b69ee04f8d67ae5c62626d7e876c1fcf7c1a31b1",
+  "clean_sha256": "cfe9119fad6da4d7e1f778b8b69ee04f8d67ae5c62626d7e876c1fcf7c1a31b1",
+  "procedura_sha256": "4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c",
+  "catalogo_sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6",
+  "fonti": {
+    "ntc": {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    "circ": {
+      "id": "circ",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        81
+      ]
+    }
+  },
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:63",
+        "ntc:64",
+        "ntc:65",
+        "ntc:66",
+        "circ:81"
+      ],
+      "righe": [
+        [
+          1,
+          136
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 3.5 nella pagina fisica 63 fino alla fine della Tab. 3.5.III nella pagina fisica 66, prima della rubrica 3.6. Escludere le parti precedenti a 3.5 nella pagina 63 e dalla rubrica 3.6 in poi nella pagina 66. Circolare: dalla rubrica C3.5 nella pagina fisica 81 fino alla fine del capoverso C3.5.2, prima della rubrica C3.6. Escludere le parti precedenti a C3.5 e dalla rubrica C3.6 in poi.",
+      "assets": [
+        {
+          "name": "img/fig-3.5.1-zone-temperatura-mappa.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\img\\fig-3.5.1-zone-temperatura-mappa.png",
+          "sha256": "fec8da7e6de1b4009d6d7a79ce88e7d0c136bd252e5242f5f5a8ab25536f7ff1"
+        },
+        {
+          "name": "img/fig-3.5.2-temperatura-elemento-schema.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\img\\fig-3.5.2-temperatura-elemento-schema.png",
+          "sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02"
+        },
+        {
+          "name": "resa-target/target-scope.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-scope.pdf",
+          "sha256": "ed8cd4258d01464bca80d358f3533822177c3225f99c50ef391c99a796983f76"
+        },
+        {
+          "name": "resa-target/target-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-p01-200dpi.png",
+          "sha256": "4a07ee6d84271ddb96d053fcfca2dfe8d46a2edd09ed9fd530e3d5004ae72e1e"
+        },
+        {
+          "name": "resa-target/target-p02-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-p02-200dpi.png",
+          "sha256": "9438a99d0f4de3d479bbfe083705f349234ad58b8f6143451baa86a82e4e6e99"
+        },
+        {
+          "name": "resa-target/target-p03-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-p03-200dpi.png",
+          "sha256": "ad0b02ec48a4190c7d60cc4a999b0ef488260a0392878bd0bdfc4abb206a31a8"
+        },
+        {
+          "name": "resa-target/target-p04-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-p04-200dpi.png",
+          "sha256": "c1adf4edf6ea9202cb06a5a513c63cc4158ec9ba755f5e862fe680edd60c8a4c"
+        },
+        {
+          "name": "resa-target/target-p05-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.5-20260911-cdx\\g5-cdx-r02\\target-p05-200dpi.png",
+          "sha256": "a3b381c6c2262790cc8f8266c9dacf2d895691cef663cf5a703044a5e3ec6b85"
+        }
+      ],
+      "target_sha256": "cfe9119fad6da4d7e1f778b8b69ee04f8d67ae5c62626d7e876c1fcf7c1a31b1",
+      "manifest_fonte_sha256": "0709f93c792deda92aad8814285c9601938852ecafb16cd780c5159b97490a03"
+    }
+  ]
+}

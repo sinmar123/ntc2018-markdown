@@ -1,0 +1,56 @@
+{
+  "firma": "Codex (CDX), verificatore V indipendente b01",
+  "esito": "OK",
+  "snapshot_prima_sha256": "b28f0f73ae8a2a8695fabaafc8f15dd7bf5e1c8bf94c1aa4824f753fd2c06a06",
+  "snapshot_dopo_sha256": "d42ee91c2f86d631a69827f5f2dd7fe5ef0523815d923742ae079e58bb242c66",
+  "disposizione_rilievi": [
+    {
+      "indice_originario": 1,
+      "id": "B01-C46-P02",
+      "posizione": "capoverso «Il dato di partenza», INGV",
+      "disposizione": "FALSO_POSITIVO",
+      "motivazione": "dati-fonti.json identifica INGV come PalatinoLinotype-Bold, flags 20, alla p. 46; il ritaglio diretto 600 dpi conferma il neretto. Il target **INGV** è fedele."
+    },
+    {
+      "indice_originario": 2,
+      "id": "B01-C47-P09",
+      "posizione": "capoverso «Il valore di a_g», INGV",
+      "disposizione": "FALSO_POSITIVO",
+      "motivazione": "dati-fonti.json identifica INGV come PalatinoLinotype-Bold, flags 20, alla p. 47; il ritaglio diretto 600 dpi conferma il neretto. Il target **INGV** è fedele."
+    },
+    {
+      "indice_originario": 3,
+      "id": "B01-C47-P10",
+      "posizione": "capoverso «I valori», F_O",
+      "disposizione": "FALSO_POSITIVO",
+      "motivazione": "questa occorrenza differisce da quella del precedente «Il valore»: tracce-caratteri.json registra O maiuscola U+004F, glyph 44, in corpo 4,7869 dopo F; il ritaglio 600 dpi concorda. Il target $F_O$ conserva la fonte."
+    },
+    {
+      "indice_originario": 4,
+      "id": "B01-C47-P10",
+      "posizione": "capoverso «I valori», T*_{C}",
+      "disposizione": "FALSO_POSITIVO",
+      "motivazione": "nella stessa occorrenza tracce-caratteri.json registra T U+0054 e * U+002A nello span a corpo pieno e C U+0043 nello span ridotto; le origini di T e * coincidono. Il ritaglio 600 dpi concorda e il target $T*_{C}$ conserva la composizione anomala della fonte."
+    },
+    {
+      "indice_originario": 5,
+      "id": "B01-C47-CAP02",
+      "posizione": "didascalia Figura C3.2.1 b, F_o",
+      "disposizione": "ERRORE_CORRETTO",
+      "motivazione": "pur essendo nello stesso span corsivo, la o U+006F ha origine y=561,92096 contro y=560,15002 della F, identico abbassamento del pedice R rispetto a T; il ritaglio 600 dpi conferma. La modifica unica da $Fo$ a $F_o$ è quindi necessaria e corretta."
+    }
+  ],
+  "copertura_originaria_richiamata": "Richiamata la copertura G6 originaria di 24/24 ID; non è stato ripetuto il confronto integrale.",
+  "punto_render_verificato": {
+    "id": "B01-C47-CAP02",
+    "testo": "testo-r02.md:53 contiene $F_o$",
+    "resa": "resa-target-r02-p02.png rende la o al pedice nella didascalia b, coerente con fonte-circ-47-area-03-600dpi.png",
+    "controllo_meccanico": "confronto-resa.json localizza l'unica variazione alla pagina 2, bbox px [208,1495,1128,1518]; pagine 1 e 3, b02 e tutti gli asset risultano invariati"
+  },
+  "letture": {
+    "chiarimenti_r01": ["manifest.json","provenienza.json","fonte-circ-46-area-01-600dpi.png","fonte-circ-47-area-02-600dpi.png","fonte-circ-47-area-03-600dpi.png","dati-fonti.json, soli span contestati","tracce-caratteri.json, sole tracce contestate e origini individuali"],
+    "modifica_r02": ["manifest.json","diff-mirato.patch","riepilogo-meccanico.json","confronto-resa.json","correzione-mirata.json","testo-r02.md, sola riga modificata e contesto necessario","resa-target-r02-p02.png"]
+  },
+  "isolamento": "Usati soltanto il contesto b01 già autorizzato e i due nuovi percorsi autorizzati; non letti workspace, coordinamento, altri blocchi o rapporti. Nessuna modifica agli input o ai target, nessun render, processo lungo o sottoagente.",
+  "rilievi_aperti": []
+}

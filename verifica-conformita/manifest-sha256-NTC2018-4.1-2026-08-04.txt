@@ -1,0 +1,26 @@
+# Manifest SHA-256 NTC 2018 § 4.1 + Circolare § C4.1, 2026-08-04
+# Algoritmo: SHA-256
+# Formato: hash  byte  percorso relativo alla radice del progetto
+# Asset collegati: 17
+
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+93360710906737ff6a9c3d5f91b54e353282e2c1ab08d57deab099f7465d8964  135473  cap04/4.1-calcestruzzo.md
+e507c0968fc34b9ecee0cedf09e20d50d5570bbb4018853f237a9af9580c6a7f  19110  cap04/indice-cap04.md
+fe912d0ddc80aa1036562fdcc0abbf74bbfd6dd4a1f980c0da5b84df931ca6a0  16409  cap04/img/fig-4.1.1-modelli-sigma-eps-calcestruzzo.png
+8eb08dab6ebdf147b4983e8cb35687cb6fec54fb26140c54a059a07cfedf09a0  31448  cap04/img/fig-4.1.2-modelli-sigma-eps-confinato.png
+a47c50f7ca72f934816db34f62415a003e3f4d7ff692b52f50dd6ffd977aae84  32327  cap04/img/fig-4.1.3-modelli-sigma-eps-acciaio.png
+1dc133b38e688be7845c42dba119c6af66361f6f5b608801646704f70c375ae0  64966  cap04/img/fig-4.1.4-sezione-pressoinflessa.png
+a2c95d579ff6bc0b38eb4bd6327cf5d621bec7b28e3b4b9274c733d30a5fcc75  27021  cap04/img/fig-c4.1.1-ridistribuzione-travi-continue.png
+60127f94dd0369f4efeac6e1f466c98224f92a729d5587f770cd6f8f77002bbd  64992  cap04/img/fig-c4.1.2-momenti-nodo-discordi.png
+0dc5c861883285ac8ed94d9c221fdd1875d64410c347a5a5ee2b2de46824b01c  61447  cap04/img/fig-c4.1.3-momenti-nodo-concordi.png
+f2adb04fb750a5dddfb6a97774aaef475a5d815314cccf80ad59b97b937dc4b4  60520  cap04/img/fig-c4.1.4-ridistribuzione-travi-opposto.png
+e979d0b2b1c0aaa6f8088fcf5341b5079605dead64cac84fe14c39137412f8ab  62378  cap04/img/fig-c4.1.5-ridistribuzione-travi-concorde.png
+1d98473069772c0344f18cbebe9a45aa8bc4d5161dc3a68cf7a203d1f9e61272  90893  cap04/img/fig-c4.1.6-diagrammi-momenti-ridistribuzione.png
+afa03b3760796055cecf16a315016fe087a719229797b0425ceefc6df1e3b730  186779  cap04/img/fig-c4.1.7-pressione-laterale-confinamento.png
+ddb43d1d39ec80036c4700f48977549c204b54780eb4fb024b6a04f4f23e1e81  32564  cap04/img/fig-c4.1.8-volume-confinato-staffe.png
+c20078415437727d90dd55e670d28e18b0432e05b19357e0e956c1dde81ce6ef  111417  cap04/img/fig-c4.1.9-sigma-epsilon-cls-confinato.png
+b5be6412aee48d25f087fb94c3fe54fe91bd73225c36caa956166539394c2a02  87535  cap04/img/fig-c4.1.10-area-tesa-efficace.png
+d6cdbb13f0145b8a827339e673d61297ea8107075141570c9d40f4c386cd47e2  35936  cap04/img/fig-c4.1.11-ampiezza-fessure.png
+2629d1e56448397357a6b83c8f7c6ea95831164cc90d44e7f78c3a07e1ed4993  28798  cap04/img/fig-c4.1.12-momento-curvatura-duttilita.png
+3b7816c00fb3e72e9cea43d8fb54565290bd70420fa538bce253aff7ad40879e  9250  cap04/img/fig-c4.1.13-sigma-epsilon-cls-leggero.png

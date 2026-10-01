@@ -1,0 +1,29 @@
+# Manifest SHA-256 - ntc2018-3.3.7 - 2026-08-31
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+595389d8410ec5bbe58707f7047fdd00036125c954379445de61426a6f4eb008  5266  cap03/3.3.7-vento-coefficiente-di-esposizione.md
+5536d25d42daf60ceb0d970aac77cb5ddb2aebecc8c1f2fe72bc53f95e539265  126932  cap03/img/fig-3.3.2-categorie-esposizione-ritaglio.png
+bd48a99a22233fbbc7a5f73f18eb55ea464443ea74d1712ad0feec9f96cfc864  148502  cap03/img/fig-3.3.3-coefficiente-esposizione-grafico.png
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+cc049aad0e212ed4e7e90437772dcf4c9e680b0cf804fa28ed07c35f9000b882  2086  _tmp_render/ricomposizione-livello3-20260826/08-riepilogo-finale.md
+7d38333edd98cab76066429657d7db3531479e5aad254d08b3135718c66ce8a2  4661  _tmp_render/cap03/vc-3.3.7-20260831/continuita/corrente.md
+dab08bddd3b9ac5b428002d3cb26136f30a02309e908a57c308dcb6b001e0b92  4819  _tmp_render/cap03/vc-3.3.7-20260831/continuita/staging.md
+f46ec641f21d4956017e926a3a35013e8f97decf1a8c742a4efd5310183922b3  1008  _tmp_render/cap03/vc-3.3.7-20260831/continuita/rapporto-riuso-e-controlli.md
+98ee35f5ceac00d6810c4e528fc00e7b72650105cf29aee907ce17e85b34ab04  5129  _tmp_render/cap03/vc-3.3-260806/g6-r01/04-rilievi-congelati.md
+a3d709534ffa5ff6f6931206aaef759fff6c6afea6662641e0472cd3395cc6a7  6816  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B02/esito-verificatore.md
+e8fc7798b3b5c6d377af5c99e0a171999e1dbb351bb07fda330c556fef0a9364  7910  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B03/esito-verificatore.md
+e2d331350f46231ebc4a0e56badf5665ed12292b2aaab6d79a78cc29f146caa4  2622  _tmp_render/cap03/vc-3.3.7-20260831/g6-r01/rapporto-g6.md
+4af997f5878fe14ef0c5d2770af5574f0edf4e6d841f6a7989205b595aa7fc88  2889  _tmp_render/cap03/vc-3.3.7-20260831/g6-r02/rapporto-g6.md
+a21bc58262567be728d9de00bd51582043cedfc074a7657522a1d1d800ee3908  4660  _tmp_render/cap03/vc-3.3.7-20260831/g6-r02/pacchetto/scope.md
+a96a396adc60b0f93993cec9dab48e531bab94086d5f3f99bdc8490f0ba229e3  812906  _tmp_render/cap03/vc-3.3.7-20260831/g6-r02/pacchetto/fonte/ntc-p58.png
+f57cd4b096cfe5b525e6d0f7becae02d0b36b522b2dd46e130643de6f36f9243  771743  _tmp_render/cap03/vc-3.3.7-20260831/g6-r02/pacchetto/fonte/ntc-p59.png
+6afa545348569b25edebf416376a9863d7d52d69f4e85dd6ad31ec29323c8458  1091774  _tmp_render/cap03/vc-3.3.7-20260831/g6-r02/pacchetto/fonte/ntc-p60.png
+021aff4f0c725a6fe45a62f2deefc0f1b3139df389085d5d10a4b74445679a1c  884662  _tmp_render/cap03/vc-3.3.7-20260831/g6-r02/pacchetto/fonte/circ-p55.png
+63037a1ad2648cf9341150db686190ff7d37018e036c08979b125ce591919432  296058  _tmp_render/cap03/vc-3.3.7-20260831/render-finale.pdf
+634b919be5ab470791ea7511fbdb3e74c0a07431917745805dfbe7bf1ce2b784  239220  _tmp_render/cap03/vc-3.3.7-20260831/render-finale-page-1.png
+856f26a55a794542f2dc0a2ee93fd5b56f7967ba5bc46894b751ceb5b9fbe283  174302  _tmp_render/cap03/vc-3.3.7-20260831/render-finale-page-2.png
+2eef61912057241238c65eb2b95f5b6e9384d4fde46edcb1e0844fe131c3196b  170802  _tmp_render/cap03/vc-3.3.7-20260831/render-finale-page-3.png
+37db867c4d30bcea02fe438d7ad519804f99d20758d2f289fd6eefeb516021ce  310021  _tmp_render/cap03/vc-3.3.7-20260831/render-finale-page-4.png
+effca03fb18216e9fc0a2d33e45efa5aa7b94d2666eb5a4a083c92a182b16487  1589  strumenti/prepara-scope-g6.py
+8ba92fc6de65e64d111317a6bfcab41df2d49dc87a5505a62f7587ee13e89b4b  6534  strumenti/render-capitolo.py

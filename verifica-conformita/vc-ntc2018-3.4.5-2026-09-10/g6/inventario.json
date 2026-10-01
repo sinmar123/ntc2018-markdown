@@ -1,0 +1,80 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "NTC63-RUB-001",
+      "pagina": "ntc:63",
+      "riferimento": "Rubrica 3.4.5 «COEFFICIENTE TERMICO», fra Tab. 3.4.I e il capoverso seguente; controllo integrale."
+    },
+    {
+      "id": "NTC63-PRO-001",
+      "pagina": "ntc:63",
+      "riferimento": "Unico capoverso del § 3.4.5, da «Il coefficiente termico» alla relazione finale; controllo integrale."
+    },
+    {
+      "id": "NTC63-FOR-001",
+      "pagina": "ntc:63",
+      "riferimento": "Relazione inline finale C con pedice t, segno uguale e valore 1."
+    },
+    {
+      "id": "NTC63-CON-001",
+      "pagina": "ntc:63",
+      "riferimento": "Condizione nell’ultima frase: assenza di studio specifico e documentato, con prescrizione della relazione finale."
+    },
+    {
+      "id": "CIRC81-RUB-001",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.4.5 «COEFFICIENTE TERMICO», prima del primo capoverso; controllo integrale."
+    },
+    {
+      "id": "CIRC81-PRO-001",
+      "pagina": "circ:81",
+      "riferimento": "Primo capoverso del § C3.4.5, da «Valori del coefficiente» a «edifici»; controllo integrale."
+    },
+    {
+      "id": "CIRC81-CON-001",
+      "pagina": "circ:81",
+      "riferimento": "Raccomandazione del primo capoverso sui valori inferiori all’unità."
+    },
+    {
+      "id": "CIRC81-PRO-002",
+      "pagina": "circ:81",
+      "riferimento": "Secondo capoverso, da «Laddove adeguatamente motivato» all’unità W/m²K°; controllo integrale."
+    },
+    {
+      "id": "CIRC81-CON-002",
+      "pagina": "circ:81",
+      "riferimento": "Eccezione motivata del secondo capoverso: sola copertura e condizioni congiunte sui due valori di soglia."
+    },
+    {
+      "id": "CIRC81-PRO-003",
+      "pagina": "circ:81",
+      "riferimento": "Terzo capoverso, da «Per edifici» a «al suolo»; controllo integrale."
+    },
+    {
+      "id": "CIRC81-CON-003",
+      "pagina": "circ:81",
+      "riferimento": "Caso con temperatura interna sotto 0 °C, esempi, valore 1,2 e indipendenza dal carico della neve al suolo."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:63",
+      "riferimento": "Tutta l’area precedente a 3.4.5: testatina, continuazione iniziale, §§ 3.4.3.2, 3.4.3.3 e 3.4.4, Figg. 3.4.2-3.4.3 e Tab. 3.4.I comprese."
+    },
+    {
+      "pagina": "ntc:63",
+      "riferimento": "Tutta l’area da 3.5 «AZIONI DELLA TEMPERATURA» al fondo pagina, compreso § 3.5.1."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Testatina editoriale sopra la rubrica C3.4.5."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Tutta l’area da C3.5 al fondo pagina: C3.5.2, C3.6, C3.6.1 e C3.6.1.1 compresi."
+    }
+  ],
+  "dubbi": []
+}

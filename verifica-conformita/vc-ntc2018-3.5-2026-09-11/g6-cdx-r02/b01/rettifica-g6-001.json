@@ -1,0 +1,148 @@
+{
+  "firma": "Codex/CDX, verificatore critico G6 indipendente",
+  "oggetto": "Rettifica esclusiva della descrizione della prova raster in rapporto-g6.json e precisazione dei metadati di sessione e temporali; nessun input, target o rapporto originario modificato.",
+  "hash_rapporto_originario": "63575bddbd7f861e0abbe935c2940cb36a16b2d0afad3e956a5264180268124d",
+  "integrazione_fonte": {
+    "cartella": "C:/Users/sandro/AppData/Local/Temp/vc-35-cdx-r02-fonte-extra01/",
+    "manifest_sha256": "d20b8c517130eaed9f979fbcc12103a4de9ff19c1320b8d1faa7587c2602e3e9",
+    "provenienza_sha256": "b946ed04b6b219a392474655513cd1a1b08cee400cb0f50270b5783344ddfc46",
+    "integrita": "9/9 file del manifesto conformi per dimensione e SHA-256",
+    "originali_raster": [
+      {
+        "figura": "Fig. 3.5.1",
+        "pagina_fisica": 64,
+        "xref": 1091,
+        "file": "ntc-p64-raster-xref1091.jpeg",
+        "natura": "JPEG incorporato originale, estratto byte per byte senza ricampionamento; frammento 1 di 5",
+        "dimensioni_px": [697, 176],
+        "bbox_pdf_pt": [226.9770050048828, 257.1639709472656, 369.843017578125, 293.22998046875],
+        "dpi_metadati": [96, 96],
+        "dpi_effettivi_da_bbox": [351.2661905802998, 351.3557548542026],
+        "sha256": "18b304003dad59421f56c501c38974c8d0f4981d44b710441f492562429a75cd",
+        "codepoint": "non applicabili al raster"
+      },
+      {
+        "figura": "Fig. 3.5.1",
+        "pagina_fisica": 64,
+        "xref": 1092,
+        "file": "ntc-p64-raster-xref1092.jpeg",
+        "natura": "JPEG incorporato originale, estratto byte per byte senza ricampionamento; frammento 2 di 5",
+        "dimensioni_px": [697, 176],
+        "bbox_pdf_pt": [226.9770050048828, 293.1939697265625, 369.843017578125, 329.22998046875],
+        "dpi_metadati": [96, 96],
+        "dpi_effettivi_da_bbox": [351.2661905802998, 351.64824682341543],
+        "sha256": "6e3a65a5a62e3ceda3bdb5f7c663709bf46c50520f1a87ee195d1197647f8c32",
+        "codepoint": "non applicabili al raster"
+      },
+      {
+        "figura": "Fig. 3.5.1",
+        "pagina_fisica": 64,
+        "xref": 1093,
+        "file": "ntc-p64-raster-xref1093.jpeg",
+        "natura": "JPEG incorporato originale, estratto byte per byte senza ricampionamento; frammento 3 di 5",
+        "dimensioni_px": [697, 176],
+        "bbox_pdf_pt": [226.9770050048828, 329.1940002441406, 369.843017578125, 365.2300109863281],
+        "dpi_metadati": [96, 96],
+        "dpi_effettivi_da_bbox": [351.2661905802998, 351.64824682341543],
+        "sha256": "9c4120c297e596cbce06830f656390ddfd05b8364b296854a6fcadba445dd067",
+        "codepoint": "non applicabili al raster"
+      },
+      {
+        "figura": "Fig. 3.5.1",
+        "pagina_fisica": 64,
+        "xref": 1094,
+        "file": "ntc-p64-raster-xref1094.jpeg",
+        "natura": "JPEG incorporato originale, estratto byte per byte senza ricampionamento; frammento 4 di 5",
+        "dimensioni_px": [697, 176],
+        "bbox_pdf_pt": [226.9770050048828, 365.1940002441406, 369.843017578125, 401.260009765625],
+        "dpi_metadati": [96, 96],
+        "dpi_effettivi_da_bbox": [351.2661905802998, 351.3557548542026],
+        "sha256": "ec573123ee06007762430bc83ef1cf225d6cb4c699e028fbfbe257fd9cf28773",
+        "codepoint": "non applicabili al raster"
+      },
+      {
+        "figura": "Fig. 3.5.1",
+        "pagina_fisica": 64,
+        "xref": 1095,
+        "file": "ntc-p64-raster-xref1095.jpeg",
+        "natura": "JPEG incorporato originale, estratto byte per byte senza ricampionamento; frammento 5 di 5",
+        "dimensioni_px": [697, 176],
+        "bbox_pdf_pt": [226.9770050048828, 401.2239990234375, 369.843017578125, 437.1099853515625],
+        "dpi_metadati": [96, 96],
+        "dpi_effettivi_da_bbox": [351.2661905802998, 353.1183421888713],
+        "sha256": "2b69169167fafefffbb5cf2d54f1de1aa287c1a39ed47cb63305a9023832f101",
+        "codepoint": "non applicabili al raster"
+      },
+      {
+        "figura": "Fig. 3.5.2",
+        "pagina_fisica": 65,
+        "xref": 1105,
+        "file": "ntc-p65-raster-xref1105.png",
+        "natura": "PNG incorporato originale unico, estratto byte per byte senza ricampionamento",
+        "dimensioni_px": [588, 380],
+        "bbox_pdf_pt": [191.0970001220703, 278.1940002441406, 404.9129943847656, 417.9100036621094],
+        "dpi_metadati": [96, 96],
+        "dpi_effettivi_da_bbox": [198.0020257417497, 195.82581329749985],
+        "sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02",
+        "codepoint": "non applicabili al raster"
+      }
+    ],
+    "localizzazioni_600dpi": [
+      {
+        "file": "ntc-p64-localizzazione-600dpi.png",
+        "natura": "rasterizzazione diretta a 600 dpi usata soltanto per localizzazione",
+        "dimensioni_px": [1325, 1634],
+        "clip_pdf_pt": [218.9770050048828, 249.16397094726562, 377.843017578125, 445.1099853515625],
+        "dpi": [600, 600],
+        "sha256": "910f97b92fafc787da1900987547655df576639996ae159f494a3c151927a321"
+      },
+      {
+        "file": "ntc-p65-localizzazione-600dpi.png",
+        "natura": "rasterizzazione diretta a 600 dpi usata soltanto per localizzazione",
+        "dimensioni_px": [1916, 1299],
+        "clip_pdf_pt": [183.0970001220703, 270.1940002441406, 412.9129943847656, 425.9100036621094],
+        "dpi": [600, 600],
+        "sha256": "03c5efb43cbaf9d6f340d215d2bfce6e5d36945b6d2bfc03b46f952df0f82d74"
+      }
+    ]
+  },
+  "controlli": [
+    {
+      "id": "N35-FIG-351",
+      "pagina": "ntc:64",
+      "target_asset": "img/fig-3.5.1-zone-temperatura-mappa.png",
+      "target_asset_sha256": "fec8da7e6de1b4009d6d7a79ce88e7d0c136bd252e5242f5f5a8ab25536f7ff1",
+      "target_dimensioni_px": [1520, 1660],
+      "target_dpi_metadati": [96, 96],
+      "resa": "resa-target/target-p02-200dpi.png",
+      "prova": "I cinque originali JPEG 697×176 px sono bande consecutive verticali con identica coordinata x e bbox contigue, con sovrapposizioni di circa 0,036 pt ai giunti. La composizione nativa misura 697×880 px. Il target è una ricomposizione derivata, con margini e ricampionamento, quindi le sue dimensioni non sono native della fonte. Il confronto visivo integrale sugli originali e sulla localizzazione a 600 dpi conferma corpo completo, confini, campiture, isole, etichette ZONA I-IV e disposizione. Come riscontro secondario, dopo solo allineamento delle aree d’inchiostro, la correlazione in scala di grigi è 0,978164.",
+      "esito": "CONFORME"
+    },
+    {
+      "id": "N35-FIG-352",
+      "pagina": "ntc:65",
+      "target_asset": "img/fig-3.5.2-temperatura-elemento-schema.png",
+      "target_asset_sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02",
+      "target_dimensioni_px": [588, 380],
+      "target_dpi_metadati": [96, 96],
+      "resa": "resa-target/target-p04-200dpi.png",
+      "prova": "L’asset target coincide byte per byte con l’unico PNG incorporato originale xref 1105. Il confronto dell’originale e della localizzazione a 600 dpi conferma integralmente scala, profilo termico, frecce, delimitazioni, tutte le etichette e la disposizione. I 96 dpi sono metadati; alla bbox PDF corrispondono circa 198,002×195,826 dpi effettivi.",
+      "esito": "CONFORME"
+    }
+  ],
+  "esito": "OK",
+  "rilievi": [],
+  "conferma_o_revisione_g6": {
+    "decisione": "CONFERMA",
+    "esito_g6": "OK invariato",
+    "rettifica": "La precedente prova chiamava native le dimensioni degli asset target. La prova corretta identifica invece i sei raster incorporati originali, la ripartizione in cinque frammenti della Fig. 3.5.1 e distingue dpi effettivi da metadati. La rettifica non cambia il giudizio di conformità delle due figure."
+  },
+  "metadati_precisati": {
+    "sessione_effettiva": "01a0910c-8056-7bb0-ae6b-aecc452a0c0a",
+    "congelamento_utc": "2026-09-11T15:22:04.856533Z",
+    "misura_orologio_preaccesso_target_utc": "2026-09-11T15:22:38.2230622Z",
+    "primo_accesso_effettivo_target_utc": "2026-09-11T15:22:49.255Z",
+    "distinzione": "La misura delle 15:22:38.2230622Z precede la lettura; il primo accesso effettivo è la chiamata exec delle 15:22:49.255Z. Entrambi sono successivi al congelamento."
+  },
+  "isolamento": "Rispettato: per questa integrazione sono stati letti soltanto il blocco b01 già autorizzato e C:/Users/sandro/AppData/Local/Temp/vc-35-cdx-r02-fonte-extra01/; nessuna delega e nessuna attività G7."
+}

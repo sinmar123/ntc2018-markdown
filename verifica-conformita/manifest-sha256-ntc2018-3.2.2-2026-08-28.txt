@@ -1,0 +1,20 @@
+# Manifest SHA-256 - ntc2018-3.2.2 - 2026-08-28
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+b0e539d976c230e709bc6af524360fc211ba1dcf41c43229cf476c4951c89556  13404  cap03/3.2.2-azione-sismica-categorie-di-sottosuolo-e-condizioni-topografiche.md
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+345e8805b51dfbe1a8e2658db362cca996f842deeb8e0a75c44580195bf422b8  1163762  _tmp_render/cap03/vc-3.2.2-20260828/g6-r03/preparazione/fonte/ntc-p50-scope-3.2.2-600dpi.png
+2718a21b61c20c9fb9c4e639cbbfd6ae066fd4d206d895e1847cd7073aa2d550  377928  _tmp_render/cap03/vc-3.2.2-20260828/g6-r03/preparazione/fonte/ntc-p51-scope-3.2.2-600dpi.png
+f68bac303e11d828f3177f2bc2cfdab818b8715849f21806784eabe96a359d43  1295510  _tmp_render/cap03/vc-3.2.2-20260828/g6-r03/preparazione/fonte/circ-p50-scope-C3.2.2-600dpi.png
+d3fdede991646974d7e46f2dc1af7670a1994d44ff70dad3ccef5fb8d3409cf1  675908  _tmp_render/cap03/vc-3.2.2-20260828/g6-r03/preparazione/fonte/circ-p51-scope-C3.2.2-600dpi.png
+630c171f8e6ace2c3944af864616607259a7126383fc767cf8a81c383468f16a  1477  _tmp_render/cap03/vc-3.2.2-20260828/preflight/rapporto-consolidato-g0-g5.md
+4b621cd670e3bf5de35908b6933e4a1411ff830bfde155c66ba158a0cec50ab8  41563  _tmp_render/cap03/vc-3.2.2-20260828/preflight/render-scope-finale.pdf
+5527ccc3bede8529ffda978d687c485e594778ad2082f969c6db8087252f0c5c  1789  _tmp_render/cap03/vc-3.2.2-20260828/apparati/riconciliazione/registro-finale.md
+ae2870cf8ddf4cec59d9c69fc90bb993604c734c2e6fc384977f04e35f6e1281  6725  _tmp_render/cap03/vc-3.2.2-20260828/g6-r01/rapporto-consolidato.md
+3ca2b1571f4b0d2824946b56e1c74bcefa8788ed91472b77d7301b4c0049c845  3617  _tmp_render/cap03/vc-3.2.2-20260828/g6-r02/rapporto-consolidato.md
+e60c410300be86d209de22beaddf0ccada024d02f0c762b45633f9c345ebe1c0  1014  _tmp_render/cap03/vc-3.2.2-20260828/g6-r02/adjudicazione-post-g6.md
+abcc417fee258cb6ef5c6ef5d7c960f3f39f80566728e0a782c987c6a8beda29  4112  _tmp_render/cap03/vc-3.2.2-20260828/g6-r03/rapporto-consolidato.md
+2c6a445dc58b1c16230d88cb41e80b87e1966cf73831f5850bae4b44d99427e7  1203  _tmp_render/cap03/vc-3.2.2-20260828/g6-r03/correzione-e-chiusura-deroga.md
+8cd3993d5b257cee3bdc2f44d48a22005dfe6d5e069ee7385a97dcf3984bb729  955  _tmp_render/cap03/vc-3.2.2-20260828/preflight/rapporto-controllo-mirato-finale.md
+c5a69a252e654b5a8ab62c74094ceacc8bd11cc915c0876cb78f1e9a5fafdab6  4101  cap03/annotazioni/3.2.2-anomalie-fonte.md

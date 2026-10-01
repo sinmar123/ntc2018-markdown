@@ -1,0 +1,26 @@
+{
+  "firma": "CDX, coordinatore C",
+  "data": "2026-09-05",
+  "atti_nello_scope": ["D.M. 17 gennaio 2018, allegato tecnico § 3.4.4"],
+  "metodo": "Nuova ricognizione web del 2026-09-05 e acquisizioni ufficiali conservate nella medesima cartella. Nessun riuso di una ricognizione di data diversa.",
+  "query": [
+    "site.gazzettaufficiale.it \"17 gennaio 2018\" \"norme tecniche\" \"9 marzo 2023\"",
+    "site.cslp.mit.gov.it \"Norme tecniche\" \"2026\" \"2018\"",
+    "\"17 gennaio 2018\" \"3.4.4\" rettifica modifiche, domini gazzettaufficiale.it e mit.gov.it",
+    "\"17 gennaio 2018\" \"Modifiche\" \"2026\", domini gazzettaufficiale.it e mit.gov.it"
+  ],
+  "fonti_aperte": [
+    "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+    "https://www.gazzettaufficiale.it/eli/id/2023/03/22/23A01847/sg",
+    "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=23A01847&art.dataPubblicazioneGazzetta=2023-03-22&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+    "https://cslp.mit.gov.it/normativa/nuove-norme-tecniche-le-costruzioni"
+  ],
+  "valutazione": [
+    "La scheda GU identifica il decreto, la data di pubblicazione, il supplemento e il codice 18A00716. Le etichette Avviso di rettifica ed Errata corrige non offrono nella scheda acquisita un collegamento a un atto di rettifica.",
+    "Il D.M. 9 marzo 2023 modifica l'art. 2 del decreto: periodo transitorio e sospensioni dei punti 11.4.2 e 11.5.2. Letto integralmente l'art. 1 modificativo, lettere a-c: nessuna modifica al § 3.4.4.",
+    "Il sito CSLP conserva la scheda delle NTC; questa sola scheda non prova la vigenza. Le ricerche mirate non hanno restituito modifiche o rettifiche del contenuto dello scope.",
+    "I risultati recenti contenenti rinvii alle NTC e modifiche di altri atti non sono stati usati come prova di una modifica al § 3.4.4."
+  ],
+  "esito": "G1 OK alla data dichiarata, limitatamente alla ricognizione sulle fonti ufficiali indicate e al contenuto del § 3.4.4.",
+  "integrita": "PDF ufficiale corrente acquisito in memoria, byte e SHA-256 confrontati positivamente con la copia congelata; dettagli in acquisizioni.json."
+}

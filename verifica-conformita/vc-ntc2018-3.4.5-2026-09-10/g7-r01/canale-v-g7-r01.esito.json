@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T09:20:10+02:00",
+  "richiesta": "vc-345-g7-r01.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (3 user messages, 67 total messages)\n\nsession_id: 20260909_165403_00ba4e\nOsservato: le evidenze sostengono la conformità del corpus e della resa, la copertura G6 di 11 ID e la chiusura append-only del rilievo CIRC81-PRO-001. Le pagine raster e il render finale risultano leggibili.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7: KO\n\nRestano aperti tre ERR-AUDIT:\n\n1. La chiusura e la rettifica richiamano VC-NTC/3 con impronta 4bd444…, mentre il manifest contiene una procedura identificata come revisione 2/VC-NTC/2 con impronta dichiarata 178121….\n2. Il rapporto G2-G4 iniziale indica erroneamente C3.4.5.1 come inizio dell’area successiva, mentre fonte e perimetro mostrano C3.5.\n3. Lo stesso rapporto associa le normalizzazioni a numeri non coerenti con il catalogo congelato.\n\nNon ho potuto ricalcolare autonomamente le impronte. L’estrazione integrale dei due PDF fonte è fallita per pagine che richiedono OCR; ho potuto osservare le pagine raster pertinenti. Non ho rieseguito script, render o ricognizioni web.\n\nNon ho rifatto l’inventario e non ho modificato alcuna evidenza.\ngiudizio-g7.json scritto\n"
+}

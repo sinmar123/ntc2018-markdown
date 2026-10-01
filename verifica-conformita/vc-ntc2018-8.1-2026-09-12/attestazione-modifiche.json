@@ -1,0 +1,11 @@
+{
+  "firma": "GROK-V3 / grok-4.6 xhigh",
+  "tipo": "controllo-modifiche",
+  "procedura": "VC-NTC/4",
+  "esito": "OK",
+  "id_chiusi": ["CIRC-C8.1-P1", "CIRC-C8.1-P3"],
+  "altre_variazioni": false,
+  "resa_controllata": true,
+  "residui": [],
+  "letture": ["diff-corsivi.md", "testo-prima.md", "testo-dopo.md", "fonte-circ-254-600dpi.png", "resa-dopo-p01.png"]
+}

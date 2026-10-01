@@ -1,0 +1,225 @@
+{
+  "firma": "Codex/CDX (GPT-6), verificatore critico G6 indipendente",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "N35-RUB-350",
+      "pagina": "ntc:63",
+      "riferimento": "Rubrica 3.5 «AZIONI DELLA TEMPERATURA», nel terzo inferiore della pagina."
+    },
+    {
+      "id": "N35-RUB-351",
+      "pagina": "ntc:63",
+      "riferimento": "Rubrica 3.5.1 «GENERALITÀ», subito sotto la rubrica 3.5."
+    },
+    {
+      "id": "N35-PRO-351",
+      "pagina": "ntc:63",
+      "riferimento": "I due capoversi completi di 3.5.1, dalla variazione della temperatura esterna alla presenza di elementi non strutturali isolanti; controllo integrale."
+    },
+    {
+      "id": "N35-RUB-352",
+      "pagina": "ntc:64",
+      "riferimento": "Rubrica 3.5.2 «TEMPERATURA DELL’ARIA ESTERNA», in apertura di pagina."
+    },
+    {
+      "id": "N35-PRO-352-A",
+      "pagina": "ntc:64",
+      "riferimento": "Primi due capoversi di 3.5.2, dalla definizione di T_est, T_max e T_min fino all’introduzione della riduzione del periodo di ritorno; notazioni inline incluse."
+    },
+    {
+      "id": "N35-COND-352",
+      "pagina": "ntc:64",
+      "riferimento": "Le due condizioni puntate sulle fasi di costruzione o transitorie, comprese le durate, le disuguaglianze di T_R, i valori in anni e la punteggiatura; entrambe controllate integralmente."
+    },
+    {
+      "id": "N35-PRO-352-B",
+      "pagina": "ntc:64",
+      "riferimento": "Capoverso da «In mancanza di adeguate indagini statistiche» a «definiti singolarmente», incluso il rinvio alla Fig. 3.5.1 e le notazioni T_max/T_min."
+    },
+    {
+      "id": "N35-FIG-351",
+      "pagina": "ntc:64",
+      "riferimento": "Corpo completo della Fig. 3.5.1: carta dell’Italia, confini e campiture delle quattro zone, isole e scritte ZONA I, II, III e IV."
+    },
+    {
+      "id": "N35-DID-FIG-351",
+      "pagina": "ntc:64",
+      "riferimento": "Didascalia completa «Fig. 3.5.1 – Zone della temperatura dell’aria esterna.» sotto la carta."
+    },
+    {
+      "id": "N35-PRO-352-C",
+      "pagina": "ntc:64",
+      "riferimento": "Capoverso successivo alla Fig. 3.5.1, da «Nelle espressioni seguenti» alla definizione dell’altitudine a_s; unità e notazioni inline incluse."
+    },
+    {
+      "id": "N35-ZONE-352",
+      "pagina": "ntc:64",
+      "riferimento": "Quattro blocchi Zona I-IV, ciascuno con rubrica e lista territoriale completa, da Valle d’Aosta fino a Calabria e Sicilia; escluso il contenuto delle formule censite separatamente."
+    },
+    {
+      "id": "N35-FML-351-358",
+      "pagina": "ntc:64",
+      "riferimento": "Otto formule esposte e numerate [3.5.1]-[3.5.8], due per ciascuna Zona I-IV; controllo integrale di membri, segni, prodotti, coefficienti, divisione per 1000, pedici e tag."
+    },
+    {
+      "id": "N35-RUB-353",
+      "pagina": "ntc:64",
+      "riferimento": "Rubrica 3.5.3 «TEMPERATURA DELL’ARIA INTERNA», nel fondo pagina."
+    },
+    {
+      "id": "N35-PRO-353",
+      "pagina": "ntc:64",
+      "riferimento": "Unico capoverso di 3.5.3, dalla mancanza di valutazioni più precise all’assunzione della temperatura interna; T_int e unità incluse."
+    },
+    {
+      "id": "N35-RUB-354",
+      "pagina": "ntc:65",
+      "riferimento": "Rubrica 3.5.4 «DISTRIBUZIONE DELLA TEMPERATURA NEGLI ELEMENTI STRUTTURALI», in apertura di pagina."
+    },
+    {
+      "id": "N35-PRO-354-A",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso introduttivo di 3.5.4, dalla descrizione del campo di temperatura alla parola «mediante»."
+    },
+    {
+      "id": "N35-COND-354",
+      "pagina": "ntc:65",
+      "riferimento": "Condizioni letterate a) e b), integralmente: componente uniforme con relazione inline ΔT_u = T − T_0 e componenti variabili ΔT_My e ΔT_Mz, inclusi assi, pedici e punteggiatura."
+    },
+    {
+      "id": "N35-PRO-354-B",
+      "pagina": "ntc:65",
+      "riferimento": "Cinque capoversi successivi alle condizioni, da «Nel caso di strutture soggette» al rinvio alla Tab. 3.5.I; tutti i rinvii e simboli inline T, T_0, T_est, T_int, T_sup,est e T_sup,int inclusi."
+    },
+    {
+      "id": "N35-FIG-352",
+      "pagina": "ntc:65",
+      "riferimento": "Corpo completo della Fig. 3.5.2: diagramma temperatura-sezione con scala in °C, profilo, frecce, delimitazioni e tutte le etichette ESTERNO, INTERNO, MATERIALE ISOLANTE, ELEMENTO STRUTTURALE e simboli di temperatura."
+    },
+    {
+      "id": "N35-DID-FIG-352",
+      "pagina": "ntc:65",
+      "riferimento": "Didascalia completa «Fig. 3.5.2 - Andamento della temperatura all’interno di un elemento strutturale»."
+    },
+    {
+      "id": "N35-DID-TAB-35I",
+      "pagina": "ntc:65",
+      "riferimento": "Titolo completo «Tab. 3.5.I - Contributo dell’irraggiamento solare»."
+    },
+    {
+      "id": "N35-TAB-35I",
+      "pagina": "ntc:65",
+      "riferimento": "Tabella 3.5.I completa: testata gerarchica a quattro colonne logiche, sottotestate delle esposizioni, tre righe Estate e una riga Inverno; controllo integrale di ogni etichetta, valore, unità, ordine e accorpamento, distinguendo celle vuote e celle unite."
+    },
+    {
+      "id": "N35-RUB-355",
+      "pagina": "ntc:65",
+      "riferimento": "Rubrica 3.5.5 «AZIONI TERMICHE SUGLI EDIFICI»."
+    },
+    {
+      "id": "N35-PRO-355",
+      "pagina": "ntc:65",
+      "riferimento": "I due capoversi completi di 3.5.5, inclusi i due casi alternativi, ΔT_u, T e il rinvio alla Tab. 3.5.II."
+    },
+    {
+      "id": "N35-DID-TAB-35II",
+      "pagina": "ntc:65",
+      "riferimento": "Titolo completo «Tab. 3.5.II – Valori di ΔT_u per gli edifici»."
+    },
+    {
+      "id": "N35-TAB-35II",
+      "pagina": "ntc:65",
+      "riferimento": "Tabella 3.5.II completa: due intestazioni e quattro righe di corpo; controllo integrale di tipi di struttura, abbreviazioni, segni ±, valori, unità e ordine."
+    },
+    {
+      "id": "N35-RUB-356",
+      "pagina": "ntc:65",
+      "riferimento": "Rubrica 3.5.6 «PARTICOLARI PRECAUZIONI NEL PROGETTO DI STRUTTURE SOGGETTE AD AZIONI TERMICHE SPECIALI»."
+    },
+    {
+      "id": "N35-PRO-356",
+      "pagina": "ntc:65",
+      "riferimento": "Unico capoverso di 3.5.6, da «Strutture ed elementi strutturali» a «specifiche condizioni di servizio»."
+    },
+    {
+      "id": "N35-RUB-357",
+      "pagina": "ntc:66",
+      "riferimento": "Rubrica 3.5.7 «EFFETTI DELLE AZIONI TERMICHE», in apertura di pagina."
+    },
+    {
+      "id": "N35-PRO-357",
+      "pagina": "ntc:66",
+      "riferimento": "Unico capoverso di 3.5.7, incluso il coefficiente α_T e il rinvio alla Tab. 3.5.III."
+    },
+    {
+      "id": "N35-DID-TAB-35III",
+      "pagina": "ntc:66",
+      "riferimento": "Titolo completo «Tab. 3.5.III - Coefficienti di dilatazione termica a temperatura ambiente»."
+    },
+    {
+      "id": "N35-TAB-35III",
+      "pagina": "ntc:66",
+      "riferimento": "Tabella 3.5.III completa: due intestazioni e otto righe di corpo, da Alluminio a Legno (ortogonale alle fibre); controllo integrale di materiali, simbolo α_T, unità con esponente, valori singoli, intervalli col segno ÷ e ordine."
+    },
+    {
+      "id": "C35-RUB-350",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.5 «AZIONI DELLA TEMPERATURA», circa al primo terzo della pagina."
+    },
+    {
+      "id": "C35-PRO-350",
+      "pagina": "circ:81",
+      "riferimento": "Unico capoverso di C3.5, da «Larga parte di questo Capitolo» alla valutazione degli effetti sui materiali strutturali; controllati integralmente i rinvii ai §§ 3.5.1 e 3.5.3-3.5.7."
+    },
+    {
+      "id": "C35-RUB-352",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.5.2 «TEMPERATURA DELL’ARIA ESTERNA»."
+    },
+    {
+      "id": "C35-PRO-352",
+      "pagina": "circ:81",
+      "riferimento": "Unico capoverso di C3.5.2, da «Modifiche significative» fino ai periodi di ritorno per le fasi transitorie; controllo integrale di durate, articolazione nelle quattro zone e condizioni descritte."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:63",
+      "riferimento": "Tutto il contenuto normativo precedente alla rubrica 3.5, compresi il residuo di 3.4.3.1, 3.4.3.2, 3.4.3.3, 3.4.4, Tab. 3.4.I e 3.4.5."
+    },
+    {
+      "pagina": "ntc:66",
+      "riferimento": "Dalla rubrica 3.6 «AZIONI ECCEZIONALI» in poi, compresi 3.6.1, 3.6.1.1 e la formula [3.6.1]."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Dall’inizio pagina fino alla fine di C3.4.5, immediatamente prima della rubrica C3.5."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Dalla rubrica C3.6 «AZIONI ECCEZIONALI» in poi, compresi C3.6.1 e C3.6.1.1."
+    },
+    {
+      "pagina": "ntc:63",
+      "riferimento": "Testatina della Gazzetta Ufficiale, data, numero editoriale di pagina e quattro codici grafici al piede."
+    },
+    {
+      "pagina": "ntc:64",
+      "riferimento": "Testatina della Gazzetta Ufficiale, data, numero editoriale di pagina e quattro codici grafici al piede."
+    },
+    {
+      "pagina": "ntc:65",
+      "riferimento": "Testatina della Gazzetta Ufficiale, data, numero editoriale di pagina e quattro codici grafici al piede."
+    },
+    {
+      "pagina": "ntc:66",
+      "riferimento": "Testatina della Gazzetta Ufficiale, data, numero editoriale di pagina e quattro codici grafici al piede."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Testatina della Gazzetta Ufficiale, data, numero editoriale di pagina e quattro codici grafici al piede."
+    }
+  ],
+  "dubbi": []
+}

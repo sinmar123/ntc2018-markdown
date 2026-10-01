@@ -1,0 +1,10 @@
+{
+  "firma": "GROK / grok-4.6 xhigh, su ordine di Sandro",
+  "giudizio_g7": "OK",
+  "scope": "8.2",
+  "snapshot_sha256": "69158160ab7980444f6c3e9157b82020dfaa71eb158d3db651799a0dd314ffb5",
+  "manifest_sha256": "96fa1c77eb45fc794947b1dcf7cbf3052ccd77bae307f5eb6faea9e2de79f0c2",
+  "gate": {"G0": "OK", "G1": "OK", "G2": "OK", "G3": "OK", "G4": "OK", "G5": "OK", "G6": "OK", "G7": "OK"},
+  "rilievi_aperti": [],
+  "motivazione": "VC del § 8.2 svolta insieme da Sandro e GROK. Confronto C: NTC p. 294 conforme; tre ERR-MD di presentazione in C8.2 (R1 rubrica, R2 capoversi, R3 nota). Correzioni applicate e nota 1 sistemata insieme (richiamo in coda al capoverso, linee di inizio e fine). Sandro ha escluso G6 indipendente e ogni ulteriore ripassata e ha ordinato VC-OK. G5/G6 isolato non eseguiti."
+}

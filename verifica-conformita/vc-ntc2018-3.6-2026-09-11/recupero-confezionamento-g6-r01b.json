@@ -1,0 +1,30 @@
+{
+  "firma": "CDX",
+  "anomalia": "rivela b02 includeva con rglob le prove generate da V, poi verifica-pacchetto richiedeva il solo insieme canonico di input.",
+  "classe": "ERR-AUDIT tecnico del manifest, precedente al primo accesso V al target valido",
+  "tentativo_originale": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911",
+  "pacchetto_nuovo": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911",
+  "azione": "Nuovo prepara comune, copie byte-identiche degli inventari fonte-prima. Input originali e primo tentativo conservati; nessuna sovrascrittura o cambio del target. Prove V conservate separatamente nel primo staging.",
+  "base_procedurale": "Specifica strumenti: nuova destinazione dopo preparazione interrotta. Procedura §8: errore nel solo manifest, input invariati; nessuna lettura vietata o mancanza di copertura, nessun nuovo inventario necessario.",
+  "verifiche": [
+    {
+      "blocco": "b01",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "7be59cc6d135a3ed965919698a10e2f71f53573eb0ff6b4d463fc2b5e0cfd981"
+    },
+    {
+      "blocco": "b02",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "645ae464eabf7a308cd9522cf66a8b68459f71993f4760c53314f2fab9499edb"
+    },
+    {
+      "blocco": "b03",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "d5ce469bebbf3b56acd63fd3e7c3b468c56fc094ef604126d8e83441340ccfbf"
+    }
+  ],
+  "giri_consumati_prima_recupero": 0
+}

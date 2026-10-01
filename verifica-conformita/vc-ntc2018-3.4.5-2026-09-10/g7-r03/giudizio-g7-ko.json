@@ -1,0 +1,62 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "giudizio_g7": "KO",
+  "scope": "3.4.5",
+  "snapshot_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+  "manifest": "/blocco/g7/manifest-rilascio-r03.json",
+  "manifest_sha256": null,
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_precedenti": [
+    {
+      "id": "G7-R02-ERR-AUDIT-001",
+      "stato": "CHIUSO",
+      "verifica": "rettifica-evidenze-g7-r02.json stabilisce 04db73b18947bd364331d32afa58f1008179acd181c906975106b6b643132f74 come impronta corretta del manifest R01; il medesimo valore compare nel record di manifest-rilascio.json nel manifest R03."
+    },
+    {
+      "id": "G7-R02-ERR-AUDIT-002",
+      "stato": "CHIUSO",
+      "verifica": "errata-PROCEDURA-VC-r03.json rettifica append-only il richiamo interno da VC-NTC/2 a VC-NTC/3, identifica la procedura congelata mediante revisione e impronta e dichiara invariati criteri, gate e canone G6."
+    }
+  ],
+  "rilievi_aperti": [
+    {
+      "id": "G7-R03-ERR-AUDIT-001",
+      "classe": "ERR-AUDIT",
+      "posizione": "Chiusura esterna della catena del manifest R03",
+      "prova": "Lo schema positivo prescritto richiede manifest_sha256, ma nelle evidenze consegnate non è presente l’impronta di manifest-rilascio-r03.json. Non dispongo in questa sessione di uno strumento di calcolo delle impronte e non posso inventare il valore. La catena R03 non è quindi chiudibile con un giudizio positivo osservabile.",
+      "stato": "APERTO"
+    }
+  ],
+  "riscontrato": [
+    "Il manifest R03 conserva i giudizi negativi R01 e R02, le rettifiche append-only e le rispettive impronte dichiarate.",
+    "I due rilievi del G7 R02 risultano chiusi dalle nuove evidenze senza sovrascrivere i documenti storici.",
+    "Le impronte dichiarate per target, fonti, render, asset e pacchetto G6 coincidono con quelle dei manifest precedenti; non risulta dichiarata alcuna modifica a tali oggetti.",
+    "La copia congelata della procedura R3 e la relativa errata sono entrambe registrate nel manifest R03."
+  ],
+  "non_riscontrato": [
+    "Non ho potuto osservare o ricalcolare l’impronta SHA-256 del manifest R03.",
+    "Non ho ricalcolato le altre impronte né rieseguito script, render o G6; ho verificato il solo delta documentale come prescritto."
+  ],
+  "motivazione": "Il delta R03 risolve correttamente i due rilievi del G7 R02 e gli invarianti documentati restano stabili. Non posso tuttavia emettere G7 OK perché manca il valore osservabile richiesto per manifest_sha256 del manifest corrente e questa sessione non dispone di uno strumento per calcolarlo. Il difetto riguarda la chiusura documentale, non il corpus o il G6.",
+  "letture": [
+    "/blocco/g7/ISTRUZIONI-G7-R03.md",
+    "/blocco/g7/rettifica-evidenze-g7-r02.json",
+    "/blocco/g7/errata-PROCEDURA-VC-r03.json",
+    "/blocco/g7/manifest-rilascio-r03.json",
+    "/blocco/g7/manifest-rilascio-r02.json",
+    "/blocco/g7/manifest-rilascio.json",
+    "/blocco/g7/metodo/PROCEDURA-VC-r03-congelata.md",
+    "/blocco/g7/g7-r02/giudizio-g7-ko.json",
+    "/blocco/g7/g7-r02/canale-v-g7-r02.esito.json"
+  ],
+  "isolamento": "Verifica limitata a /blocco/g7 e al delta append-only R03. Non ho aperto percorsi esterni, non ho rifatto l’inventario e non ho modificato fonti, target, manifest, rapporti o adjudicazioni. Ho sovrascritto esclusivamente /blocco/giudizio-g7.json come richiesto."
+}

@@ -1,0 +1,101 @@
+=== target page 1 ===
+[56.69,55.17,266.25,69.52] 3.6. AZIONI ECCEZIONALI
+[56.69,80.54,512.70,90.50] Le azioni eccezionali sono quelle che si presentano in occasione di eventi quali incendi, esplosioni ed urti.
+[56.69,98.47,555.30,132.34] E’ opportuno che le costruzioni possiedano un grado adeguato di robustezza, in funzione dell’uso previsto della costruzione, individuando gli scenari di rischio e le azioni eccezionali rilevanti ai fini della sua progettazione, secondo quanto indicato al §2.2.5.
+[56.69,140.31,556.96,174.19] Per le costruzioni in cui sia necessario limitare il rischio d’incendio per la salvaguardia dell’individuo e della col- lettività, nonché delle proprietà limitrofe e dei beni direttamente esposti al fuoco, devono essere eseguite verifiche specifiche del livello di prestazione strutturale antincendio.
+[56.69,182.16,555.31,204.07] Le strutture devono essere altresì verificate nei confronti delle esplosioni e degli urti per verosimili scenari di rischio o su richiesta del committente.
+[56.69,212.04,556.97,233.96] Le azioni eccezionali considerate nel progetto saranno combinate con le altre azioni mediante la regola di combi- nazione eccezionale di cui al §2.5.3.
+[56.69,253.43,185.58,267.77] 3.6.1. INCENDIO
+[56.69,278.79,167.41,288.75] 3.6.1.1 DEFINIZIONI
+[56.69,297.19,555.30,319.10] Per incendio, si intende la combustione autoalimentata ed incontrollata di materiali combustibili presenti in un compartimento.
+[55.93,327.08,555.31,360.95] Ai fini della presente norma si fa riferimento ad un incendio convenzionale di progetto definito attraverso una curva di incendio che rappresenta l’andamento, in funzione del tempo, della temperatura media dei gas di combustione nell’intorno della superficie degli elementi strutturali.
+[56.69,368.92,247.70,378.88] La curva di incendio di progetto può essere:
+[56.04,386.85,555.30,408.77] nominale: curva adottata per la classificazione delle costruzioni e per le verifiche di resistenza al fuoco di tipo convenzionale;
+[56.04,416.74,555.30,438.66] naturale: curva determinata in base a modelli d’incendio e a parametri fisici che definiscono le variabili di stato all’interno del compartimento.
+[56.69,446.63,555.30,480.50] La capacità di compartimentazione in caso di incendio è l’attitudine di un elemento costruttivo a conservare, sotto l’azione del fuoco, oltre alla propria stabilità, un suﬀiciente isolamento termico ed una suﬀiciente tenuta ai fumi ed ai gas caldi della combustione, nonché tutte le altre prestazioni se richieste.
+[56.69,488.47,555.31,522.34] La capacità portante in caso di incendio è l’attitudine di una struttura, di una parte della struttura o di un elemento strutturale a conservare una suﬀiciente resistenza meccanica sotto l’azione del fuoco con riferimento alle altre azioni agenti.
+[56.69,530.31,555.30,564.19] La resistenza al fuoco riguarda la capacità portante in caso di incendio per una struttura, per una parte della struttura o per un elemento strutturale nonché la capacità di compartimentazione rispetto all’incendio per gli elementi di separazione sia strutturali, come muri e solai, sia non strutturali, come porte e tramezzi.
+[56.69,572.16,555.30,594.07] Per compartimento antincendio si intende una parte della costruzione delimitata da elementi costruttivi idonei a garantire, sotto l’azione del fuoco e per un dato intervallo di tempo, la capacità di compartimentazione.
+[56.69,602.04,555.30,623.96] Per carico di incendio si intende il potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in base ai parametri indicativi della partecipazione alla combustione dei singoli materiali.
+[56.69,631.93,477.05,641.89] Per carico d’incendio specifico si intende il carico di incendio riferito all’unità di superficie lorda.
+[56.69,649.86,555.31,671.78] Per carico di incendio specifico di progetto si intende il carico di incendio specifico corretto in base ai parametri indicatori del rischio di incendio del compartimento e dei fattori relativi alle misure di protezione presenti.
+[56.69,679.75,473.02,691.60] I valori del carico d’incendio specifico di progetto (𝑞𝑓,𝑑) sono determinati mediante la relazione:
+[258.36,709.64,555.31,722.06] 𝑞𝑓,𝑑= 𝑞𝑓⋅𝛿𝑞1 ⋅𝛿𝑞2 ⋅𝛿𝑛 [3.6.1]
+[303.51,757.17,308.49,767.13] 1
+=== target page 2 ===
+[56.69,58.63,79.11,68.59] dove:
+[68.87,76.56,555.31,147.63] • 𝑞𝑓è il valore nominale del carico d’incendio [MJ/m²]. • 𝛿𝑞1 ≥1,00 è un fattore che tiene conto del rischio di incendio in relazione alla superficie del compartimento • 𝛿𝑞2 ≥0,80 è un fattore che tiene conto del rischio di incendio in relazione al tipo di attività svolta nel compartimento • 𝛿𝑛= ∏ 10 𝑖=1 𝛿𝑛𝑖≥0,20 è un fattore che tiene conto delle differenti misure di protezione dall’incendio (sistemi automatici di estinzione, rivelatori, rete idranti, squadre antincendio, ecc.)
+[56.43,155.60,556.70,213.38] Qualora nel compartimento siano presenti elevate dissimmetrie nella distribuzione dei materiali combustibili il valore nominale 𝑞𝑓del carico d’incendio è calcolato anche con riferimento all’effettiva distribuzione dello stesso. Per distribuzioni molto concentrate del materiale combustibile si può fare riferimento all’incendio localizzato, valutando, in ogni caso, se si hanno le condizioni per lo sviluppo di un incendio generalizzato. Le indicazioni per il calcolo del carico di incendio specifico di progetto sono fornite nel decreto del Ministro dell’Interno 9 marzo 2007 e ss.mm.ii.
+[56.69,221.35,555.31,255.23] Per incendio localizzato deve intendersi un focolaio d’incendio che interessa una zona limitata del compartimento antincendio, con sviluppo di calore concentrato in prossimità degli elementi strutturali posti superiormente al focolaio o immediatamente adiacenti.
+[56.69,263.20,555.31,297.07] Nel caso di presenza di elementi strutturali lignei è possibile considerare solo una quota parte del loro contributo alla determinazione del carico di incendio, da definire con riferimento a riconosciute normative o documenti di comprovata validità.
+[56.69,313.02,260.11,322.98] 3.6.1.2 RICHIESTE DI PRESTAZIONE
+[56.69,331.41,555.30,353.33] Le prestazioni richieste alle strutture di una costruzione, in funzione degli obiettivi definiti al §2.2.3, sono individuate in termini di livello nella Tab. 3.5.IV.
+[56.69,361.30,296.08,371.26] Tab. 3.5.IV - Livelli di prestazione in caso di incendi
+[56.69,387.15,555.30,576.44] Livello I Nessun requisito specifico di resistenza al fuoco dove le conseguenze del collasso delle strutture siano accettabili o dove il rischio di incendio sia trascurabile; Livello II Mantenimento dei requisiti di resistenza al fuoco delle strutture per un periodo suﬀiciente a garantire l’evacuazione degli occupanti in luogo sicuro all’esterno della costruzione; Livello III Mantenimento dei requisiti di resistenza al fuoco delle strutture per un periodo congruo con la gestione dell’emergenza; Livello IV Requisiti di resistenza al fuoco delle strutture per garantire, dopo la fine dell’incendio, un limitato danneggiamento delle strutture stesse; Livello V Requisiti di resistenza al fuoco delle strutture per garantire, dopo la fine dell’incendio, il mantenimento della totale funzionalità delle strutture stesse.
+[56.69,602.46,557.24,660.25] I livelli di prestazione comportano classi di resistenza al fuoco, da stabilire per i diversi tipi di costruzioni. In particolare, per le costruzioni nelle quali si svolgono attività soggette al controllo del Corpo Nazionale dei Vigili del Fuoco, oppure disciplinate da specifiche regole tecniche di prevenzione incendi, i livelli di prestazione e le connesse classi di resistenza al fuoco sono stabiliti dalle disposizioni emanate dal Ministero dell’Interno ai sensi del D. Lgs. 8 marzo 2006, n. 139 e successive modificazioni e integrazioni.
+[56.69,668.22,555.30,702.09] I livelli di prestazione e le connesse classi di resistenza al fuoco sono individuati in relazione alla destinazione d’uso dell’edificio, al tipo e al quantitativo di materiale combustibile in esso presente, alla sua estensione/altezza, al massimo affollamento ipotizzabile e alle misure di protezione antincendio presenti nell’opera.
+[303.51,757.17,308.49,767.13] 2
+=== target page 3 ===
+[56.69,58.63,292.67,68.59] 3.6.1.3 CLASSI DI RESISTENZA AL FUOCO
+[56.69,77.02,555.31,98.94] Le classi di resistenza al fuoco sono: 15, 20, 30, 45, 60, 90, 120, 180, 240 e 360; esse esprimono il tempo, in minuti primi, durante il quale la resistenza al fuoco deve essere garantita.
+[56.69,106.91,557.24,116.87] Le classi di resistenza al fuoco sono riferite all’incendio convenzionale rappresentato dalle curve di incendio nominali.
+[56.69,132.82,264.74,142.78] 3.6.1.4 CRITERI DI PROGETTAZIONE
+[56.69,151.22,555.30,173.13] La progettazione delle strutture in condizioni di incendio deve garantire il raggiungimento delle prestazioni indicate al §3.6.1.2.
+[56.69,181.10,555.30,203.02] La sicurezza del sistema strutturale in caso di incendio si determina sulla base della resistenza al fuoco dei singoli elementi strutturali, di porzioni di struttura o dell’intero sistema costruttivo.
+[56.69,218.97,421.77,228.93] 3.6.1.5 PROCEDURA DI ANALISI DELLA RESISTENZA AL FUOCO
+[56.69,237.37,315.14,247.33] L’analisi della resistenza al fuoco può essere così articolata:
+[68.87,255.30,424.19,301.13] • individuazione dell’incendio di progetto appropriato alla costruzione in esame; • analisi della evoluzione della temperatura all’interno degli elementi strutturali; • analisi del comportamento meccanico delle strutture esposte al fuoco; • verifiche di sicurezza.
+[56.69,317.07,556.97,338.99] 3.6.1.5.1 Incendio di progetto Secondo l’incendio convenzionale di progetto adottato, l’andamento delle tem- perature viene valutato con riferimento a una delle due seguenti condizioni:
+[68.87,346.96,555.30,392.79] • curva nominale d’incendio, da individuare tra quelle indicate successivamente, per l’intervallo di tempo di esposizione pari alla classe di resistenza al fuoco prevista, senza alcuna fase di raffreddamento, • curva naturale d’incendio, da individuare tenendo conto dell’intera durata dello stesso, compresa la fase di raffreddamento fino al ritorno alla temperatura ambiente.
+[56.69,400.76,555.30,422.68] Nel caso di incendio di materiali combustibili prevalentemente di natura cellulosica, la curva di incendio nominale di riferimento è la curva di incendio nominale standard definita come segue:
+[238.21,442.60,555.31,455.43] 𝜃𝑔= 20 + 345 log10(8𝑡+ 1) [°C] [3.6.2]
+[56.69,466.51,465.19,478.36] dove 𝜃𝑔è la temperatura dei gas caldi, espressa in °C, e t è il tempo espresso in minuti primi.
+[56.69,484.45,556.69,506.36] Nel caso di incendi di quantità rilevanti di idrocarburi o altre sostanze con equivalente velocità di rilascio termico, la curva di incendio nominale standard può essere sostituita con la curva nominale degli idrocarburi seguente:
+[186.35,525.08,555.31,538.13] 𝜃𝑔= 1080 (1 −0,325 ⋅𝑒−0,167𝑡−0,675 ⋅𝑒−2,5𝑡) + 20 [°C] [3.6.3]
+[56.69,550.20,556.70,572.12] Nel caso di incendi sviluppatisi all’interno del compartimento, ma che coinvolgono strutture poste all’esterno, per queste ultime la curva di incendio nominale standard può essere sostituita con la curva nominale esterna seguente:
+[190.84,590.84,555.31,603.89] 𝜃𝑔= 660 (1 −0,687 ⋅𝑒−0,32𝑡−0,313 ⋅𝑒−3,8𝑡) + 20 [°C] [3.6.4]
+[56.69,615.95,553.08,625.92] Gli incendi convenzionali di progetto vengono generalmente applicati ad un compartimento dell’edificio alla volta.
+[56.69,633.89,555.67,655.80] Sono ammesse altresì specifiche curve nominali, per descrivere particolari scenari di incendio (tunnel curve, slow heating curve, ecc.), purché di comprovata validità.
+[56.69,671.75,556.97,717.58] 3.6.1.5.2 Analisi dell’evoluzione della temperatura Il campo termico all’interno dei componenti della strut- tura viene valutato risolvendo il corrispondente problema di propagazione del calore, tenendo conto del trasferimento di calore per irraggiamento e convezione dai gas di combustione alla superficie esterna degli elementi e considerando l’eventuale presenza di materiali protettivi.
+[303.51,757.17,308.49,767.13] 3
+=== target page 4 ===
+[56.69,58.63,555.30,92.50] 3.6.1.5.3 Analisi del comportamento meccanico Il comportamento meccanico della struttura viene analizzato tenendo conto della riduzione della resistenza meccanica dei componenti dovuta al danneggiamento dei materiali per effetto dell’aumento di temperatura.
+[56.69,100.47,555.30,122.39] L’analisi del comportamento meccanico deve essere effettuata per lo stesso periodo di tempo impiegato nell’analisi dell’evoluzione della temperatura.
+[56.69,130.36,556.96,152.27] Si deve tener conto della presenza delle azioni permanenti e di quelle azioni variabili che agiscono contemporanea- mente all’incendio secondo la combinazione eccezionale.
+[56.69,160.24,555.30,182.16] Non si prende in considerazione la possibilità di concomitanza dell’incendio con altre azioni eccezionali e con le azioni sismiche.
+[56.69,190.13,556.97,212.05] Si deve tener conto, ove necessario, degli effetti delle sollecitazioni indirette dovute alle dilatazioni termiche con- trastate, ad eccezione dei seguenti casi:
+[68.87,220.02,555.30,253.89] • è riconoscibile a priori che esse sono trascurabili o favorevoli; • sono implicitamente tenute in conto nei modelli semplificati e conservativi di comportamento strutturale in condizioni di incendio.
+[56.69,261.86,555.30,295.74] Le sollecitazioni indirette, dovute agli elementi strutturali adiacenti a quello preso in esame, possono essere trascurate quando i requisiti di sicurezza all’incendio sono valutati in riferimento alla curva nominale d’incendio e alle classi di resistenza al fuoco.
+[56.69,311.68,556.96,345.56] 3.6.1.5.4 Verifiche di sicurezza La verifica della resistenza al fuoco viene eseguita controllando che la resistenza meccanica venga mantenuta per il tempo corrispondente alla classe di resistenza al fuoco della struttura con riferi- mento alla curva nominale di incendio.
+[56.69,353.53,555.30,375.44] Nel caso in cui si faccia riferimento a una curva naturale d’incendio, le analisi e le verifiche devono essere estese all’intera durata dell’incendio, inclusa la fase di raffreddamento.
+[56.69,383.42,555.31,429.24] Fermo restando il rispetto delle disposizioni legislative emanate ai sensi del D.Lgs. 139/2006, nel caso in cui i requisiti di resistenza al fuoco delle strutture debbano essere mantenuti per un periodo limitato (ad esempio, livello di prestazione II di Tab. 3.5.IV), la verifica della capacità portante delle strutture potrà essere limitata a un tempo di esposizione all’incendio naturale congruente con il livello di prestazione scelto.
+[56.69,448.71,199.71,463.06] 3.6.2. ESPLOSIONI
+[56.69,474.07,170.17,484.04] 3.6.2.1 GENERALITÀ
+[56.69,492.47,555.30,514.39] Gli effetti delle esplosioni possono essere tenuti in conto nella progettazione di quelle costruzioni in cui possono presentarsi miscele esplosive di polveri o gas in aria o in cui sono contenuti materiali esplosivi.
+[56.69,522.36,531.55,532.32] Sono escluse da questo capitolo le azioni derivanti da esplosioni che si verificano all’esterno della costruzione.
+[56.69,548.27,447.34,558.23] 3.6.2.2 CLASSIFICAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI
+[56.69,566.66,555.30,588.58] Le azioni di progetto dovute alle esplosioni sono classificate, sulla base degli effetti che possono produrre sulle costruzioni, in tre categorie, come indicate in Tab. 3.6.I.
+[56.69,596.55,296.44,606.51] Tab. 3.6.I - Categorie di azione dovute alle esplosioni
+[168.67,622.51,329.23,632.47] Categoria di azione Possibili effetti
+[208.26,639.47,443.32,673.34] 1 Effetti trascurabili sulle strutture 2 Effetti localizzati su parte delle strutture 3 Effetti generalizzati sulle strutture
+[303.51,757.17,308.49,767.13] 4
+=== target page 5 ===
+[56.69,58.63,436.19,68.59] 3.6.2.3 MODELLAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI
+[56.69,77.02,555.31,110.89] Le esplosioni esercitano sulle costruzioni onde di pressione. Per le costruzioni usuali, è ammesso che tali onde di pressione siano convenzionalmente ricondotte a distribuzioni di pressioni statiche equivalenti, purché comprovate da modelli teorici adeguati.
+[56.69,118.87,344.65,128.83] Per esplosioni di Categoria 1 non è richiesto alcun tipo di verifica.
+[56.69,136.80,555.30,170.67] Per esplosioni di Categoria 2, ove negli ambienti a rischio di esplosione siano presenti idonei pannelli di sfogo, si può utilizzare la pressione statica equivalente nominale, espressa in kN/m², data dal valore maggiore fra quelli forniti dalle espressioni:
+[281.17,190.60,555.31,202.44] 𝑝𝑑= 3 + 𝑝𝑣 [3.6.5a]
+[240.21,225.25,555.31,238.30] 𝑝𝑑= 3 + 𝑝𝑣/2 + 0,04/(𝐴𝑣/𝑉)2 [3.6.5b]
+[56.69,250.37,79.11,260.33] dove:
+[68.87,268.30,556.69,314.13] • 𝑝𝑣è la pressione statica uniformemente distribuita in corrispondenza della quale le aperture di sfogo cedono, in kN/m² • 𝐴𝑣è l’area delle aperture di sfogo, in m² • 𝑉è il volume dell’ambiente, in m³
+[56.69,322.10,491.56,332.07] Il rapporto fra l’area dei componenti di sfogo e il volume da proteggere deve soddisfare la relazione:
+[239.67,348.37,555.31,363.83] 0,05 m−1 ≤𝐴𝑣/𝑉≤0,15 m−1. [3.6.6]
+[56.69,375.90,503.42,385.86] Queste espressioni sono valide in ambienti o in zone di edifici il cui volume totale non superi 1.000 m³.
+[56.69,393.83,555.30,415.75] La pressione dovuta all’esplosione è intesa agire simultaneamente su tutte le pareti dell’ambiente o del gruppo di ambienti considerati.
+[56.69,423.72,555.31,469.55] Comunque, tutti gli elementi chiave e le loro connessioni devono essere progettati per sopportare una pressione statica equivalente con valore di progetto 𝑝𝑑= 20 kN/m², applicata da ogni direzione, insieme con la reazione che ci si attende venga trasmessa direttamente alle membrature dell’elemento chiave da ogni elemento costruttivo, ad esso collegato, altresì soggetto alla stessa pressione.
+[56.69,477.52,388.49,487.48] Per esplosioni di Categoria 3 devono essere effettuati studi più approfonditi.
+[56.69,503.43,264.74,513.39] 3.6.2.4 CRITERI DI PROGETTAZIONE
+[56.69,521.83,555.31,555.70] Sono considerati accettabili i danneggiamenti localizzati, anche gravi, dovuti ad esplosioni, a condizione che ciò non esponga al pericolo l’intera struttura o che la capacità portante sia mantenuta per un tempo suﬀiciente aﬀinché siano prese le necessarie misure di emergenza.
+[56.69,563.67,418.40,573.63] Possono essere adottate, nella progettazione, opportune misure di protezione quali:
+[68.87,581.60,554.32,615.47] • la introduzione di superfici in grado di collassare sotto sovrappressioni prestabilite; • la introduzione di giunti strutturali allo scopo di separare porzioni di edificio a rischio di esplosione da altre; • la prevenzione di crolli significativi in conseguenza di cedimenti strutturali localizzati.
+[303.51,757.17,308.49,767.13] 5

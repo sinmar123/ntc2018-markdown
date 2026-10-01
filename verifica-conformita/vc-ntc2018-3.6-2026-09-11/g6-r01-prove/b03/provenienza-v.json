@@ -1,0 +1,64 @@
+{
+  "firma": "Codex (CDX), verificatore indipendente G6, blocco b03",
+  "fase": "FONTE-PRIMA",
+  "fonte_vettoriale": {
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b03\\fonte-vettoriale.pdf",
+    "sha256": "6aa0e96a08ba07461b3d7d33fa7d54c90b1b6088f4e3da957c84dce243216667",
+    "metodo_origine": "PyMuPDF insert_pdf, pagine intere preservate senza rasterizzazione",
+    "mappa_pagine": [
+      {"pagina_estratto": 1, "pagina_fisica_originale": 81, "chiave_input": "circ:81"},
+      {"pagina_estratto": 2, "pagina_fisica_originale": 82, "chiave_input": "circ:82"},
+      {"pagina_estratto": 3, "pagina_fisica_originale": 83, "chiave_input": "circ:83"}
+    ],
+    "integrita": "PDF aperto in sola lettura e non modificato"
+  },
+  "classificazione_aree": {
+    "perimetro_normativo": "vettoriale",
+    "dettaglio": "Testo e rubriche sono oggetti vettoriali; in circ:81 l'underline di 'lorda' è un tracciato vettoriale. Nessun raster ricade nel perimetro.",
+    "pagine_intere": "miste soltanto per quattro raster binari di servizio nel piè di pagina di ciascuna pagina, tutti fuori perimetro"
+  },
+  "raster_fuori_perimetro": [
+    {"pagina": "circ:81", "bbox_pt_comuni": [[323,765,378,820],[381,765,436,820],[439,765,494,820],[497,765,552,820]], "dimensioni_native_px": [208,208], "bpc": 1, "digest_md5": ["46cc16d4627763f8a715af6dc9a801f3","82909783df9f0bf1ddd356ac793fa33c","2c20fac476e8312ed91f33381505eda0","3f4bde19cf5a752ab8ee1f83a8da7e4e"]},
+    {"pagina": "circ:82", "bbox_pt_comuni": [[323,765,378,820],[381,765,436,820],[439,765,494,820],[497,765,552,820]], "dimensioni_native_px": [208,208], "bpc": 1, "digest_md5": ["85e5acb5753b859f691d6596a52aaad6","08e706b73532e8a885b208376d1ccd26","f1a3ee842daf40df3b19adc9fb89e9ec","5ebbc9a5704c3790c026e4633b2636f4"]},
+    {"pagina": "circ:83", "bbox_pt_comuni": [[323,765,378,820],[381,765,436,820],[439,765,494,820],[497,765,552,820]], "dimensioni_native_px": [208,208], "bpc": 1, "digest_md5": ["75dd018a65d982eeb72f66d9077a4ab3","ef7db5624cde510ce0d257b9ebe42d3b","711c91036c434a75085150dff0344ba8","2e4207f50f0cf7505643cd473cd3b638"]}
+  ],
+  "prove_600_dpi": [
+    {"file": "p81-scope-600dpi.png", "pagina": "circ:81", "clip_pt": [65,355,532,735], "pixel": [3893,3167], "sha256": "96d4b164c2974602f2c299ac45047919c6f9e13e92d2a6306f854462802ab050", "esito": "perimetro leggibile integralmente"},
+    {"file": "p82-scope-600dpi.png", "pagina": "circ:82", "clip_pt": [65,90,532,735], "pixel": [3893,5375], "sha256": "846eb4d42fb6137dd98fd029ec5040319ba0ae0b591767af3ecf9cdbe665ac36", "esito": "perimetro leggibile integralmente"},
+    {"file": "p83-scope-600dpi.png", "pagina": "circ:83", "clip_pt": [65,90,532,420], "pixel": [3893,2750], "sha256": "366dcb0a01196c7ab68635331b9577b0b0dd34ccc35534236100b72bfc3977ce", "esito": "perimetro leggibile integralmente"},
+    {"file": "p81-qfd-lorda-600dpi.png", "pagina": "circ:81", "clip_pt": [300,665,510,700], "pixel": [1750,293], "sha256": "aa00cc5e2eae38ec2a00cb4f9733d7ad71d97316a549f97550a734c9f7848eda", "esito": "stampa q con pedice f,d; parola lorda sottolineata"},
+    {"file": "p82-rubriche-1-5-1-e-1-5-3-600dpi.png", "pagina": "circ:82", "clip_pt": [65,562,315,732], "pixel": [2084,1417], "sha256": "d1e4e36dc7fc9d42811cbf86bc07b79deb7d2e58d00b011b0d0c406e2e2de1ff", "esito": "stampa C3.6.1.5.1 e C3.6.1.5.3"},
+    {"file": "p83-rubrica-1-5-4-600dpi.png", "pagina": "circ:83", "clip_pt": [65,200,230,225], "pixel": [1376,209], "sha256": "8d53e97388f8ff5138ae898725b71041c5955424e991a9bc7c8f5fc2f282c7c8", "esito": "stampa C3.6.1.5.4"}
+  ],
+  "codifica_e_posizione": [
+    {"pagina": "circ:81", "oggetto": "q_f,d", "font_base": "PalatinoLinotype-Italic", "corpo_base_pt": 7.805, "bbox_base_pt": [337.76,683.46,341.38,691.26], "codepoint_base": "U+0071", "font_pedice": "PalatinoLinotype-Roman", "corpo_pedice_pt": 4.787, "bbox_pedice_pt": [341.46,685.62,347.30,690.43], "codepoint_pedice": ["U+0066","U+002C","U+0064"], "esito": "codifica e stampa concordano"},
+    {"pagina": "circ:82", "oggetto": "C3.6.1.5.1", "font": "PalatinoLinotype-Bold", "corpo_pt": 7.805, "bbox_pt": [73.91,572.55,106.96,580.36], "estrazione_codepoint": ["U+0014","U+0015","U+0016","U+001D","U+0016","U+000E","U+0016","U+0009","U+0016","U+000E"], "esito": "codifica ToUnicode non utilizzabile; stampa 600 dpi univoca"},
+    {"pagina": "circ:82", "oggetto": "C3.6.1.5.3", "font": "PalatinoLinotype-Bold", "corpo_pt": 7.805, "bbox_pt": [73.92,718.77,106.94,726.58], "estrazione_codepoint": ["U+0014","U+0015","U+0016","U+001D","U+0016","U+000E","U+0016","U+0009","U+0016","U+0015"], "esito": "codifica ToUnicode non utilizzabile; stampa 600 dpi univoca"},
+    {"pagina": "circ:83", "oggetto": "C3.6.1.5.4", "font": "PalatinoLinotype-Bold", "corpo_pt": 7.805, "bbox_pt": [73.91,209.91,106.95,217.71], "estrazione_codepoint": ["U+0014","U+0015","U+0016","U+001D","U+0016","U+000E","U+0016","U+0009","U+0016","U+0007"], "esito": "codifica ToUnicode non utilizzabile; stampa 600 dpi univoca"}
+  ],
+  "percorsi_letti": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\ISTRUZIONI-V.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\PERIMETRO.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\canone.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\input-fonte.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\fonte-circ-81.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\fonte-circ-82.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\fonte-circ-83.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b03\\provenienza.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b03\\manifest-comune.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b03\\fonte-vettoriale.pdf",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\inventario.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\provenienza-v.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p81-scope-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p82-scope-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p83-scope-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p81-qfd-lorda-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p82-rubriche-1-5-1-e-1-5-3-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p83-rubrica-1-5-4-600dpi.png"
+  ],
+  "percorsi_esplorati": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b03"
+  ],
+  "isolamento": "Non sono stati aperti workspace, coordinamento.json, target, altre cartelle o conversazioni."
+}

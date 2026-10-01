@@ -1,0 +1,146 @@
+{
+  "firma": "Codex / CDX",
+  "scope": "3.5",
+  "rilevazione_utc": "2026-09-11T15:56:01.175963+00:00",
+  "inizio_ripresa_utc": "2026-09-11T14:32:59+00:00",
+  "durata_ripresa_minuti": 83.04,
+  "perimetro": "Ripresa nativa CDX fino alle registrazioni e ai controlli finali, misurata prima della risposta conclusiva. La rilevazione stessa e i token successivi non sono inclusi nei contatori già emessi.",
+  "nota_aggregazione": "Nessuna somma fra parent e figli: aggregazione del runtime non attestata. Input in cache è sottoinsieme degli input; ragionamento è sottoinsieme degli output. Nessuna percentuale di quota né stima di prezzo.",
+  "sessioni": [
+    {
+      "ruolo": "Coordinamento tecnico principale",
+      "agente": "/root",
+      "sessione": "01a090ca-db85-7ed3-b78f-b12a84fba0ed",
+      "modello": "gpt-6-astra",
+      "ragionamento": "xhigh",
+      "contesti": 1,
+      "turni_runtime_sessione": 4,
+      "contatore_al": "2026-09-11T15:55:32.761Z",
+      "metrica": "Delta fra ultimo contatore prima del subentro e ultimo contatore disponibile; include coordinamento tecnico, non la precedente ricognizione a domanda.",
+      "token": {
+        "input_tokens": 28825891,
+        "cached_input_tokens": 28105984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 94942,
+        "reasoning_output_tokens": 38511,
+        "total_tokens": 28920833
+      },
+      "baseline_pre_ripresa": {
+        "input_tokens": 782862,
+        "cached_input_tokens": 703232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6227,
+        "reasoning_output_tokens": 1326,
+        "total_tokens": 789089
+      },
+      "totale_sessione_ultimo": {
+        "input_tokens": 29608753,
+        "cached_input_tokens": 28809216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101169,
+        "reasoning_output_tokens": 39837,
+        "total_tokens": 29709922
+      }
+    },
+    {
+      "ruolo": "C e verbale/piano",
+      "agente": "/root/c35_sol",
+      "sessione": "01a090e4-8eb4-7773-886a-a908675c02cd",
+      "modello": "gpt-5.6-sol",
+      "ragionamento": "high",
+      "contesti": 1,
+      "turni_runtime_sessione": 11,
+      "contatore_al": "2026-09-11T15:50:52.698Z",
+      "metrica": "Ultimo contatore cumulativo della sessione, senza sommare gli aggiornamenti intermedi.",
+      "token": {
+        "input_tokens": 16582442,
+        "cached_input_tokens": 16229760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 69164,
+        "reasoning_output_tokens": 21785,
+        "total_tokens": 16651606
+      }
+    },
+    {
+      "ruolo": "Secondo lettore fonte-only",
+      "agente": "/root/c35_sol/lettore_fonte_35",
+      "sessione": "01a090fe-45f9-7b22-8b5e-a599762466ba",
+      "modello": "gpt-6-astra",
+      "ragionamento": "xhigh",
+      "contesti": 1,
+      "turni_runtime_sessione": 2,
+      "contatore_al": "2026-09-11T15:07:00.417Z",
+      "metrica": "Ultimo contatore cumulativo della sessione, senza sommare gli aggiornamenti intermedi.",
+      "token": {
+        "input_tokens": 137071,
+        "cached_input_tokens": 111872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 953,
+        "reasoning_output_tokens": 164,
+        "total_tokens": 138024
+      }
+    },
+    {
+      "ruolo": "E",
+      "agente": "/root/e35_terra_r01",
+      "sessione": "01a09104-f96c-7432-8f7a-fe949b8ddd8a",
+      "modello": "gpt-5.6-terra",
+      "ragionamento": "medium",
+      "contesti": 1,
+      "turni_runtime_sessione": 1,
+      "contatore_al": "2026-09-11T15:14:08.680Z",
+      "metrica": "Ultimo contatore cumulativo della sessione, senza sommare gli aggiornamenti intermedi.",
+      "token": {
+        "input_tokens": 760972,
+        "cached_input_tokens": 687872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10589,
+        "reasoning_output_tokens": 1753,
+        "total_tokens": 771561
+      }
+    },
+    {
+      "ruolo": "V G6 R01",
+      "agente": "/root/v35_b01_r01",
+      "sessione": "01a090eb-7224-7893-8b9b-4873d8449e79",
+      "modello": "gpt-5.6-sol",
+      "ragionamento": "xhigh",
+      "contesti": 1,
+      "turni_runtime_sessione": 2,
+      "contatore_al": "2026-09-11T14:59:21.520Z",
+      "metrica": "Ultimo contatore cumulativo della sessione, senza sommare gli aggiornamenti intermedi.",
+      "token": {
+        "input_tokens": 3849698,
+        "cached_input_tokens": 3646976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30306,
+        "reasoning_output_tokens": 13165,
+        "total_tokens": 3880004
+      }
+    },
+    {
+      "ruolo": "V G6 R02 e G7",
+      "agente": "/root/v35_b01_r02",
+      "sessione": "01a0910c-8056-7bb0-ae6b-aecc452a0c0a",
+      "modello": "gpt-5.6-sol",
+      "ragionamento": "xhigh",
+      "contesti": 1,
+      "turni_runtime_sessione": 5,
+      "contatore_al": "2026-09-11T15:44:20.837Z",
+      "metrica": "Ultimo contatore cumulativo della sessione, senza sommare gli aggiornamenti intermedi.",
+      "token": {
+        "input_tokens": 6621236,
+        "cached_input_tokens": 6312704,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 46629,
+        "reasoning_output_tokens": 20783,
+        "total_tokens": 6667865
+      }
+    }
+  ],
+  "precedente_hermes": "Consumi E e tentativi falliti restano nella scheda e nei relativi esiti archiviati. I contatori del coordinatore Hermes e dei tentativi senza eventi SSE non sono disponibili. La metrica Hermes separa cache e input, quindi non viene sommata ai contatori nativi.",
+  "confronto_3_4_5": {
+    "fonte": "verifica-conformita/scheda-scope-ntc2018-3.4.5.md e PROCEDURA-VC.md §10",
+    "esito": "Non è disponibile un confronto numerico affidabile di consumo completo: mancano contatori del precedente scope e parte di quelli Hermes del §3.5. Perimetri diversi: §3.4.5 su due pagine fonte, §3.5 su cinque pagine con otto Markdown. I due scope convergono al giro2/3; nella ripresa CDX non si è ripetuto il trasporto SSE fallito e il renderer locale era disponibile. Nessun risparmio percentuale dichiarato."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "firma": "CDX, coordinamento tecnico su giudizio C e catalogo N11",
+  "approvazione": "C Sol high ha approvato annotazione e punti di rinvio; marcatori numerici prescritti dalle convenzioni e dal depuratore comune.",
+  "copie": [
+    {
+      "origine": "_tmp_render/cap03/vc-3.6-20260911-cdx/c/3.6-anomalie-fonte.md",
+      "destinazione": "cap03/annotazioni/3.6-anomalie-fonte.md",
+      "sha256": "bd1f92365753739478a4b9f7af02ce26c5079043752799c274c05eb157dd5612"
+    }
+  ],
+  "sostituzioni": [
+    {
+      "id": "NAV-AF-3.6-01",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "sono individuate in termini di livello nella Tab. 3.5.IV.",
+      "dopo": "sono individuate in termini di livello nella Tab. 3.5.IV. [1](./annotazioni/3.6-anomalie-fonte.md#af-3-6-01-tabella-3-5-iv-nel-paragrafo-3-6)",
+      "tipo": "rinvio editoriale, rimosso dalla depurazione comune"
+    },
+    {
+      "id": "NAV-AF-3.6-02",
+      "percorso": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "prima": "applicata da ogni direzione,",
+      "dopo": "applicata da ogni direzione [2](./annotazioni/3.6-anomalie-fonte.md#af-3-6-02-applicata-da-ogni-direzione),",
+      "tipo": "rinvio editoriale, rimosso dalla depurazione comune"
+    },
+    {
+      "id": "NAV-AF-3.6-03",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "**C3.6.1.5.3 Analisi del comportamento meccanico**",
+      "dopo": "**C3.6.1.5.3 Analisi del comportamento meccanico** [3](./annotazioni/3.6-anomalie-fonte.md#af-3-6-03-assenza-c3-6-1-5-2)",
+      "tipo": "rinvio editoriale, rimosso dalla depurazione comune"
+    },
+    {
+      "id": "NAV-AF-3.6-04",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "nel paragrafo C3.6.1.1,",
+      "dopo": "nel paragrafo C3.6.1.1 [4](./annotazioni/3.6-anomalie-fonte.md#af-3-6-04-rinvio-c3-6-1-1-alle-curve),",
+      "tipo": "rinvio editoriale, rimosso dalla depurazione comune"
+    },
+    {
+      "id": "NAV-AF-3.6-05",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "sia previsto che siano mantenuti per",
+      "dopo": "sia previsto che siano mantenuti [5](./annotazioni/3.6-anomalie-fonte.md#af-3-6-05-i-requisiti-sia-previsto) per",
+      "tipo": "rinvio editoriale, rimosso dalla depurazione comune"
+    },
+    {
+      "id": "INDICE-AF-3.6",
+      "percorso": "cap03/annotazioni/README.md",
+      "prima": "| Riferimento | Annotazione | Stato |\n|---|---|---|",
+      "dopo": "| Riferimento | Annotazione | Stato |\n|---|---|---|\n| § 3.6 (AF-3.6-01/05) | [Anomalie della fonte conservate](3.6-anomalie-fonte.md) | Cinque anomalie di numerazione, rinvii e grammatica conservate alla lettera; nessuna AF-COR. |",
+      "tipo": "indice annotazioni"
+    }
+  ],
+  "vincolo": "Identità del testo normativo depurato prima e dopo; non cambiare alcuna altra parte del corpus."
+}

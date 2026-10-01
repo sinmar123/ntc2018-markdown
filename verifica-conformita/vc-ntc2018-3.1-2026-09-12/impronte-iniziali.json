@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "cap03/3.1-introduzione.md",
+      "sha256": "fdccd3a8f264017ed05a72cfb78bfd9c8397f6d3e46e8429b153f293c8d4caf4",
+      "bytes": 304
+    },
+    {
+      "path": "PROCEDURA-VC.md",
+      "sha256": "9c43358436f1e4f3ba92b16b95872afccf45e6cdb277d365e4fe5ea16f546a96",
+      "bytes": 40050
+    },
+    {
+      "path": "verifica-conformita/normalizzazioni-dichiarate-NTC2018.md",
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6",
+      "bytes": 5485
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "bytes": 9888288
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "bytes": 50658045
+    }
+  ]
+}

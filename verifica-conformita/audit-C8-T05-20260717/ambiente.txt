@@ -1,0 +1,25 @@
+AUDIT C8-T05 — Tabella C8.7.6.3.II
+Data/ora avvio-chiusura: 2026-07-17, chiusura 19:31 +0200 (Europe/Rome)
+Macchina: W520 (Claude Code CLI)
+
+Fonte PDF: raw/Circolare-7-2019-NTC.pdf
+  SHA-256: f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c
+  Pagine file 298-300 (stampate G.U. 294-296)
+Ritagli fonte riusati: _tmp_render/cap08/conformita-tabelle-formule-20260717-r04/fonte/
+  crop-p298-tabII-parte1.png, crop-p299-tabII-parte2.png, crop-p300-tabII-parte3.png
+  pagina-298/299/300-intera.png
+
+Markdown: cap08/8-esistenti.md, righe 1457-1465
+  SHA-256 pre-correzione:  d4d4ee4145232206613336529169a14c15590a7aced6e5a1c1674d5b0f6a099a
+  SHA-256 post-correzione: da2bf432e7eeee3271712b468a082606b8ee21cffd05dfb84addc3f6f78f3833
+
+Modelli:
+  Passaggio A  = Opus 4.8 (modello di sessione)
+  Passaggio B  = Sonnet
+  Arbitro CC   = Opus 4.8 (sessione)
+  Recheck      = Opus 4.8 (contesto pulito)
+Nessun uso di Fable (riservato a richiesta esplicita di Sandro).
+
+Strumenti: PyMuPDF/PIL per lo zoom didascalia (diff/zoom-didascalia-fine.png), Python 3 per il confronto meccanico (diff/confronta_triplo.py).
+
+Storia snapshot: partenza dallo snapshot di chiusura T04 (d4d4ee41). Nessuna modifica al markdown tra passaggio A e passaggio B. Correzione E1 promossa dopo la chiusura di entrambi i passaggi e l'adjudicazione sul PDF.

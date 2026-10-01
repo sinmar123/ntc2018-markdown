@@ -1,0 +1,16 @@
+{
+  "firma": "CDX",
+  "pagine": 3,
+  "pagine_cambiate": [
+    {
+      "pagina": 2,
+      "bbox_px": [
+        208,
+        1495,
+        1128,
+        1518
+      ]
+    }
+  ],
+  "metodo": "confronto pixel a 160 dpi; nessuna modifica delle PNG confrontate"
+}

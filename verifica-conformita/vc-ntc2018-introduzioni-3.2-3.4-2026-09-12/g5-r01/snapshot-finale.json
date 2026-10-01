@@ -1,0 +1,35 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.2-introduzione.md",
+      "bytes": 6837,
+      "sha256": "068777a007909d7a2f65ee72fff9f031373ff9f4416736434c191ed40d911f14"
+    },
+    {
+      "path": "cap03/3.3-introduzione.md",
+      "bytes": 1278,
+      "sha256": "5b46c5e6c1f603b464cd3e285dbb6ebbf9b5b46631e4bbe30bf759bb62a0b8a4"
+    },
+    {
+      "path": "cap03/3.4-introduzione.md",
+      "bytes": 296,
+      "sha256": "bfb349491b3440651f552bb0c1a0695907a0de5e53208a895c1f62b3abf42875"
+    },
+    {
+      "path": "cap03/img/fig-C3.2.1a-variabilita-ag-TR.png",
+      "bytes": 103989,
+      "sha256": "bc5015b5b0bb01a17c782508008020b0977534aa3f2443d96cceccb3acc48d89"
+    },
+    {
+      "path": "cap03/img/fig-C3.2.1b-variabilita-Fo-TR.png",
+      "bytes": 99286,
+      "sha256": "03117c3864652938271a0b58d8c60ec1a67781758cf8af4308bca562e0c88604"
+    },
+    {
+      "path": "cap03/img/fig-C3.2.1c-variabilita-Tc-TR.png",
+      "bytes": 101699,
+      "sha256": "1904ce4544355d7485f7c6deefa385759f7b66bcada41709efe493b2503ad182"
+    }
+  ]
+}

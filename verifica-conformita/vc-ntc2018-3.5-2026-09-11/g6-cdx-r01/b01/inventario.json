@@ -1,0 +1,399 @@
+{
+  "firma": "Codex / CDX, verificatore V indipendente, modello Sol, ragionamento xhigh",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "NTC-63-RUB-3.5",
+      "pagina": "ntc:63",
+      "riferimento": "Terzo inferiore, rubrica 3.5 «Azioni della temperatura», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-63-RUB-3.5.1",
+      "pagina": "ntc:63",
+      "riferimento": "Subito sotto la rubrica 3.5, rubrica 3.5.1 «Generalità», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-63-P-3.5.1-01",
+      "pagina": "ntc:63",
+      "riferimento": "Primo capoverso di 3.5.1, da «Variazioni giornaliere» a «elementi strutturali», controllo integrale."
+    },
+    {
+      "id": "NTC-63-P-3.5.1-02",
+      "pagina": "ntc:63",
+      "riferimento": "Secondo capoverso di 3.5.1, da «La severità delle azioni termiche» a «elementi non strutturali isolanti», controllo integrale."
+    },
+    {
+      "id": "NTC-64-RUB-3.5.2",
+      "pagina": "ntc:64",
+      "riferimento": "Inizio pagina, rubrica 3.5.2 «Temperatura dell’aria esterna», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-64-P-3.5.2-01",
+      "pagina": "ntc:64",
+      "riferimento": "Primo capoverso di 3.5.2, da «La temperatura dell’aria esterna» a «periodo di ritorno di 50 anni», inclusi simboli inline e definizioni di massimo e minimo, controllo integrale."
+    },
+    {
+      "id": "NTC-64-P-3.5.2-02",
+      "pagina": "ntc:64",
+      "riferimento": "Secondo capoverso di 3.5.2, da «Per un’opera di nuova realizzazione» a «come di seguito specificato», controllo integrale."
+    },
+    {
+      "id": "NTC-64-COND-3.5.2-01",
+      "pagina": "ntc:64",
+      "riferimento": "Prima voce rientrata sotto il secondo capoverso: condizione per durata prevista non superiore a tre mesi e relativo limite del periodo di ritorno; controllo integrale di testo, disuguaglianza, numero e unità."
+    },
+    {
+      "id": "NTC-64-COND-3.5.2-02",
+      "pagina": "ntc:64",
+      "riferimento": "Seconda voce rientrata sotto il secondo capoverso: condizione per durata compresa fra tre mesi e un anno e relativo limite del periodo di ritorno; controllo integrale di testo, disuguaglianza, numero e unità."
+    },
+    {
+      "id": "NTC-64-P-3.5.2-03",
+      "pagina": "ntc:64",
+      "riferimento": "Capoverso dopo le due condizioni, da «In mancanza di adeguate indagini statistiche» a «dovranno essere definiti singolarmente», inclusi rinvio alla figura e simboli inline, controllo integrale."
+    },
+    {
+      "id": "NTC-64-FIG-3.5.1",
+      "pagina": "ntc:64",
+      "riferimento": "Centro pagina, figura cartografica 3.5.1: sagoma d’Italia e isole, quattro campiture, confini e diciture ZONA I, ZONA II, ZONA III e ZONA IV; controllo visivo dell’intero rettangolo grafico."
+    },
+    {
+      "id": "NTC-64-DID-FIG-3.5.1",
+      "pagina": "ntc:64",
+      "riferimento": "Didascalia immediatamente sotto la carta, da «Fig. 3.5.1» alla chiusura della descrizione; controllo integrale."
+    },
+    {
+      "id": "NTC-64-P-3.5.2-04",
+      "pagina": "ntc:64",
+      "riferimento": "Capoverso sotto la Fig. 3.5.1, da «Nelle espressioni seguenti» a «realizzata la costruzione», incluse definizioni, simboli, unità e quota di riferimento, controllo integrale."
+    },
+    {
+      "id": "NTC-64-ZONA-I",
+      "pagina": "ntc:64",
+      "riferimento": "Blocco «Zona I»: etichetta e riga territoriale, dalla Valle d’Aosta all’Emilia Romagna, controllo integrale."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.1",
+      "pagina": "ntc:64",
+      "riferimento": "Prima formula esposta del blocco Zona I, tag [3.5.1]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.2",
+      "pagina": "ntc:64",
+      "riferimento": "Seconda formula esposta del blocco Zona I, tag [3.5.2]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-ZONA-II",
+      "pagina": "ntc:64",
+      "riferimento": "Blocco «Zona II»: etichetta e riga territoriale, dalla Liguria alla Basilicata, controllo integrale."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.3",
+      "pagina": "ntc:64",
+      "riferimento": "Prima formula esposta del blocco Zona II, tag [3.5.3]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.4",
+      "pagina": "ntc:64",
+      "riferimento": "Seconda formula esposta del blocco Zona II, tag [3.5.4]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-ZONA-III",
+      "pagina": "ntc:64",
+      "riferimento": "Blocco «Zona III»: etichetta e riga territoriale, da Marche a Puglia, controllo integrale."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.5",
+      "pagina": "ntc:64",
+      "riferimento": "Prima formula esposta del blocco Zona III, tag [3.5.5]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.6",
+      "pagina": "ntc:64",
+      "riferimento": "Seconda formula esposta del blocco Zona III, tag [3.5.6]; controllo integrale di entrambi i membri, punto decimale stampato, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-ZONA-IV",
+      "pagina": "ntc:64",
+      "riferimento": "Blocco «Zona IV»: etichetta e riga territoriale «Calabria, Sicilia», controllo integrale."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.7",
+      "pagina": "ntc:64",
+      "riferimento": "Prima formula esposta del blocco Zona IV, tag [3.5.7]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-FORM-3.5.8",
+      "pagina": "ntc:64",
+      "riferimento": "Seconda formula esposta del blocco Zona IV, tag [3.5.8]; controllo integrale di entrambi i membri, segni, prodotto, frazione, pedici e costanti."
+    },
+    {
+      "id": "NTC-64-RUB-3.5.3",
+      "pagina": "ntc:64",
+      "riferimento": "Fondo pagina, rubrica 3.5.3 «Temperatura dell’aria interna», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-64-P-3.5.3-01",
+      "pagina": "ntc:64",
+      "riferimento": "Unico capoverso di 3.5.3, da «In mancanza di più precise valutazioni» alla temperatura assunta, inclusi simbolo, valore e unità, controllo integrale."
+    },
+    {
+      "id": "NTC-65-RUB-3.5.4",
+      "pagina": "ntc:65",
+      "riferimento": "Inizio area normativa, rubrica 3.5.4 «Distribuzione della temperatura negli elementi strutturali», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-65-P-3.5.4-01",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso introduttivo di 3.5.4, da «Il campo di temperatura» a «descritto mediante», inclusi sezione, tipo di elemento e asse longitudinale, controllo integrale."
+    },
+    {
+      "id": "NTC-65-COND-3.5.4-A",
+      "pagina": "ntc:65",
+      "riferimento": "Voce a), componente uniforme: controllo integrale della prosa dalla descrizione della componente alla temperatura iniziale alla data della costruzione."
+    },
+    {
+      "id": "NTC-65-FORM-3.5.4-A",
+      "pagina": "ntc:65",
+      "riferimento": "Formula inline nella voce a), relazione della componente uniforme; controllo integrale di simbolo, uguaglianza, sottrazione e pedice."
+    },
+    {
+      "id": "NTC-65-COND-3.5.4-B",
+      "pagina": "ntc:65",
+      "riferimento": "Voce b), componenti variabili con legge lineare secondo i due assi principali della sezione; controllo integrale della prosa."
+    },
+    {
+      "id": "NTC-65-FORM-3.5.4-B",
+      "pagina": "ntc:65",
+      "riferimento": "Espressioni inline finali della voce b), coppia dei simboli delle componenti variabili; controllo integrale di delta, barre, lettere e gerarchie dei pedici."
+    },
+    {
+      "id": "NTC-65-P-3.5.4-02",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso successivo alle voci a)-b), da «Nel caso di strutture soggette» a «all’interno delle sezioni», controllo integrale."
+    },
+    {
+      "id": "NTC-65-DEF-3.5.4-01",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso sulla temperatura media attuale, da «La temperatura media attuale» al simbolo della superficie interna; controllo integrale della definizione e di tutti i simboli inline."
+    },
+    {
+      "id": "NTC-65-DEF-3.5.4-02",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso sulle temperature delle superfici, da «Le temperature della superficie esterna» al rinvio alla Fig. 3.5.2; controllo integrale di definizioni, simboli inline, pedici, meccanismi di trasferimento e rinvio."
+    },
+    {
+      "id": "NTC-65-FORM-3.5.4-T0",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso «In mancanza di determinazioni più precise»: condizione e formula inline per la temperatura iniziale, con valore e unità, controllo integrale."
+    },
+    {
+      "id": "NTC-65-P-3.5.4-03",
+      "pagina": "ntc:65",
+      "riferimento": "Capoverso immediatamente precedente la figura, da «Per la valutazione del contributo» al rinvio alla Tab. 3.5.I, controllo integrale."
+    },
+    {
+      "id": "NTC-65-FIG-3.5.2",
+      "pagina": "ntc:65",
+      "riferimento": "Figura 3.5.2 al centro: intero rettangolo grafico, scala verticale in °C con tacche e valori, profilo termico, limiti e tratteggi dell’elemento, frecce, simboli e diciture ESTERNO, INTERNO, MATERIALE ISOLANTE, ELEMENTO STRUTTURALE."
+    },
+    {
+      "id": "NTC-65-DID-FIG-3.5.2",
+      "pagina": "ntc:65",
+      "riferimento": "Didascalia immediatamente sotto la figura, da «Fig. 3.5.2» alla chiusura della descrizione; controllo integrale."
+    },
+    {
+      "id": "NTC-65-DID-TAB-3.5.I",
+      "pagina": "ntc:65",
+      "riferimento": "Didascalia della Tab. 3.5.I, immediatamente sopra la prima griglia, controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.I-HEAD",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.I, rettangolo delle due righe di testata: tre intestazioni di primo livello, con «Incremento di Temperatura» accorpata su due colonne; due sottointestazioni di esposizione, incluse direzioni e accoppiamento logico; controllo di tutte le celle, vuoti e accorpamenti."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.I-EST-RIFL",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.I, prima riga dati Estate: etichetta stagionale accorpata su tre righe, natura «Superficie riflettente» e due valori con °C; controllo integrale delle quattro celle logiche."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.I-EST-CHIARA",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.I, seconda riga dati Estate: cella stagione coperta dall’accorpamento, natura «Superficie chiara» e due valori con °C; controllo integrale delle quattro celle logiche."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.I-EST-SCURA",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.I, terza riga dati Estate: cella stagione coperta dall’accorpamento, natura «Superficie scura» e due valori con °C; controllo integrale delle quattro celle logiche."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.I-INV",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.I, riga Inverno: etichetta stagionale, cella vuota per natura della superficie e due valori con °C; controllo integrale delle quattro celle logiche."
+    },
+    {
+      "id": "NTC-65-RUB-3.5.5",
+      "pagina": "ntc:65",
+      "riferimento": "Rubrica 3.5.5 «Azioni termiche sugli edifici», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-65-COND-3.5.5-01",
+      "pagina": "ntc:65",
+      "riferimento": "Primo capoverso di 3.5.5: condizione in cui la temperatura non costituisce azione fondamentale, componente da considerare e rinvio alla Tab. 3.5.II; controllo integrale, incluso simbolo inline."
+    },
+    {
+      "id": "NTC-65-COND-3.5.5-02",
+      "pagina": "ntc:65",
+      "riferimento": "Secondo capoverso di 3.5.5: condizione in cui la temperatura costituisce azione fondamentale e valutazione richiesta; controllo integrale fino a «trasmissione del calore»."
+    },
+    {
+      "id": "NTC-65-DID-TAB-3.5.II",
+      "pagina": "ntc:65",
+      "riferimento": "Didascalia della Tab. 3.5.II, immediatamente sopra la seconda griglia, controllo integrale di numero, simbolo e titolo."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.II-HEAD",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.II, riga di testata completa: intestazione del tipo di struttura e intestazione simbolica della componente termica; controllo integrale di due celle e pedice."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.II-CA-ESP",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.II, prima riga dati: strutture in c.a. e c.a.p. esposte e relativo valore con segno ± e °C; controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.II-CA-PROT",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.II, seconda riga dati: strutture in c.a. e c.a.p. protette e relativo valore con segno ± e °C; controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.II-ACC-ESP",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.II, terza riga dati: strutture in acciaio esposte e relativo valore con segno ± e °C; controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-65-TAB-3.5.II-ACC-PROT",
+      "pagina": "ntc:65",
+      "riferimento": "Tab. 3.5.II, quarta riga dati: strutture in acciaio protette e relativo valore con segno ± e °C; controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-65-RUB-3.5.6",
+      "pagina": "ntc:65",
+      "riferimento": "Rubrica 3.5.6 «Particolari precauzioni nel progetto di strutture soggette ad azioni termiche speciali», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-65-P-3.5.6-01",
+      "pagina": "ntc:65",
+      "riferimento": "Unico capoverso di 3.5.6, da «Strutture ed elementi strutturali» a «specifiche condizioni di servizio», controllo integrale, inclusi esempi e prescrizione."
+    },
+    {
+      "id": "NTC-66-RUB-3.5.7",
+      "pagina": "ntc:66",
+      "riferimento": "Inizio pagina, rubrica 3.5.7 «Effetti delle azioni termiche», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-66-P-3.5.7-01",
+      "pagina": "ntc:66",
+      "riferimento": "Unico capoverso di 3.5.7, da «Per la valutazione degli effetti» al rinvio alla Tab. 3.5.III, incluso simbolo del coefficiente, controllo integrale."
+    },
+    {
+      "id": "NTC-66-DID-TAB-3.5.III",
+      "pagina": "ntc:66",
+      "riferimento": "Didascalia della Tab. 3.5.III, immediatamente sopra la griglia, controllo integrale di numero e titolo."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-HEAD",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga di testata: intestazione «Materiale» e intestazione del coefficiente con simbolo, fattore 10 elevato a esponente negativo e unità per grado Celsius; controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-ALLUMINIO",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Alluminio: denominazione e coefficiente 24, controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-ACCIAIO",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Acciaio da carpenteria: denominazione e coefficiente 12, controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-CLS",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Calcestruzzo strutturale: denominazione e coefficiente 10, controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-MISTE",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Strutture miste acciaio-calcestruzzo: denominazione e coefficiente 12, controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-CLS-ALL",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Calcestruzzo alleggerito: denominazione e coefficiente 7, controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-MURATURA",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Muratura: denominazione e intervallo 6 ÷ 10, controllo integrale delle due celle e del segno di intervallo."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-LEGNO-PAR",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Legno (parallelo alle fibre): denominazione, parentesi e coefficiente 5, controllo integrale delle due celle."
+    },
+    {
+      "id": "NTC-66-TAB-3.5.III-LEGNO-ORT",
+      "pagina": "ntc:66",
+      "riferimento": "Tab. 3.5.III, riga Legno (ortogonale alle fibre): denominazione, parentesi e intervallo 30 ÷ 70, controllo integrale delle due celle e del segno di intervallo."
+    },
+    {
+      "id": "CIRC-81-RUB-C3.5",
+      "pagina": "circ:81",
+      "riferimento": "Terzo superiore, rubrica C3.5 «Azioni della temperatura», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "CIRC-81-P-C3.5-01",
+      "pagina": "circ:81",
+      "riferimento": "Unico capoverso di C3.5, da «Larga parte di questo Capitolo» a «materiali strutturali», controllo integrale di tutte le proposizioni e dei rinvii ai paragrafi 3.5.1, 3.5.3, 3.5.4, 3.5.5, 3.5.6 e 3.5.7."
+    },
+    {
+      "id": "CIRC-81-RUB-C3.5.2",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.5.2 «Temperatura dell’aria esterna», controllo integrale di numero e titolo."
+    },
+    {
+      "id": "CIRC-81-P-C3.5.2-01",
+      "pagina": "circ:81",
+      "riferimento": "Primo periodo dell’unico capoverso C3.5.2, da «Modifiche significative» a «livello del mare», controllo integrale di variazioni descritte, quattro zone e dipendenza dalla quota."
+    },
+    {
+      "id": "CIRC-81-COND-C3.5.2-01",
+      "pagina": "circ:81",
+      "riferimento": "Secondo periodo dell’unico capoverso C3.5.2, da «In questo paragrafo» alla fine prima della rubrica C3.6: indicazione sui periodi di ritorno e due intervalli di durata delle fasi transitorie; controllo integrale."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:63",
+      "riferimento": "Tutto il contenuto precedente alla rubrica 3.5, comprese parti residue di 3.4.3.2, 3.4.3.3, 3.4.4, Tab. 3.4.I e 3.4.5; esclusi inoltre testatina editoriale, folio e codici tipografici di pagina."
+    },
+    {
+      "pagina": "ntc:64",
+      "riferimento": "Folio e codici tipografici al margine inferiore, estranei al testo normativo."
+    },
+    {
+      "pagina": "ntc:65",
+      "riferimento": "Testatina editoriale, folio e codici tipografici di pagina, estranei al testo normativo."
+    },
+    {
+      "pagina": "ntc:66",
+      "riferimento": "Dalla rubrica 3.6 «Azioni eccezionali» fino al fondo pagina; esclusi inoltre folio e codici tipografici di pagina."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Tutto il contenuto precedente alla rubrica C3.5, cioè C3.4.5 e i suoi tre capoversi; dalla rubrica C3.6 fino al fondo pagina; esclusi inoltre testatina editoriale, folio e codici tipografici di pagina."
+    }
+  ],
+  "dubbi": []
+}

@@ -1,0 +1,270 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "PROCEDURA-VC.md",
+      "bytes": 28440,
+      "sha256": "3ed1723a25f875fad7632b5a7b7ce773d435dcb685fec938ea18df2524be93db"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/PROCEDURA-VC-congelata.md",
+      "bytes": 28440,
+      "sha256": "3ed1723a25f875fad7632b5a7b7ce773d435dcb685fec938ea18df2524be93db"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/avvio.json",
+      "bytes": 606,
+      "sha256": "ed006b45793564656e5583edc4b7e462d25338e9991f2a514b111c1ce0cf201d"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/catalogo-congelato.md",
+      "bytes": 5485,
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/config-g6-r01.json",
+      "bytes": 912,
+      "sha256": "15a5a9cb8f827d4d904c35a40b07fd2bfbd67929640d3c827583fbb6349dcaec"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/confini-circolare-p080-200dpi.png",
+      "bytes": 395690,
+      "sha256": "8a66032edea8aa06fa5390cbd8dcfb886602158091d3f9644a0cd90cfe976bbf"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/confini-circolare-p080.txt",
+      "bytes": 3068,
+      "sha256": "cb225244a06fa758e2e11a92daa3df3aacbd9f32246104b9306b672dcecbf5e0"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/confini-circolare-p081-200dpi.png",
+      "bytes": 606541,
+      "sha256": "b4cf34432f528e4ab94ed6f8252e5add656604292605a4b619cd62a38eaef396"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/confini-circolare-p081.txt",
+      "bytes": 5596,
+      "sha256": "28e139db021a4f1654b1ef5dc5a5e307dd7120a4d71db0fe88e9470e7b4c409e"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/controlli-preflight.json",
+      "bytes": 1033,
+      "sha256": "40e07ee41e44fc00824d3b167d2dfea546efd2732fd0d8713042f4096566521d"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/correzione-congelata-r01.json",
+      "bytes": 777,
+      "sha256": "fd90f9fe0dc8f49733cfeff27e4cc5af15f7fe1ae14f317e9ab52c2b7d704983"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/correzioni-congelate-r00.json",
+      "bytes": 2046,
+      "sha256": "7beb585f28c7df3320ff0aa6082a1f8c59aa114fa175547b473243efb7f8524c"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/diff-correzione-finale.patch",
+      "bytes": 1542,
+      "sha256": "b5e277eafff5c89fa1e3dc594be265e63bf29f7964850e13f28466b9d23730cd"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/diff-fonte-target.txt",
+      "bytes": 172,
+      "sha256": "c1a0349c16d97dc47d7bc6a6f61d1cfb5f00d2b98da8da8496fab5ceb9122f51"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/esito-correzione-r00.json",
+      "bytes": 2787,
+      "sha256": "e483c37b8fd2753b1154162527ee21353a6f3616ee7daa6b6471f48a7f4832bb"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/esito-correzione-r01.json",
+      "bytes": 1380,
+      "sha256": "1bb3792b5e157597b57314fb74555ef854a7919b3bb5212778a7a280e7b1a6b6"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/fonte-ntc-p063-200dpi.png",
+      "bytes": 436471,
+      "sha256": "94f7963c2d682e1bf8e27ab3fe0d3c37019ba683d8f6488d2c77f2dc52c89656"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/fonte-ntc-p063-scope-600dpi.png",
+      "bytes": 217941,
+      "sha256": "5c36d40a94b98370b8138fafffd70484e262f5303aecb9de79ee198407b40657"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/fonte-ntc-p063-vettori.json",
+      "bytes": 402750,
+      "sha256": "7c796c671981fb3fe06079d358dda012997eaca1f3a283f2332634c29c520cc0"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/g1/acquisizioni.json",
+      "bytes": 2324,
+      "sha256": "d9c4863eb44fd427dc684294d4fe41e805190d6ad54a3b2bd2350a359c7d08fe"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/g1/cslp-ntc.html",
+      "bytes": 39600,
+      "sha256": "75b59cd8bbcea5c1c9a8006dc2da047ddca1672c29aedc98e5980dee0119be83"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/g1/gu-modifica-2023-art1.html",
+      "bytes": 8724,
+      "sha256": "a1886dfd0e2a333180717913b214d8a5d8e1bfb1f65c10ffcd04182ec552c539"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/g1/gu-ntc-scheda.html",
+      "bytes": 17286,
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/g1/ricognizione.json",
+      "bytes": 2260,
+      "sha256": "0b21a38fd15886ed132aaf0fa06596582e570ebaf72f8c8bc183f1c82593edaf"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/provenienza-fonte.json",
+      "bytes": 1776,
+      "sha256": "ad2aa92c4ea47593e88150956e3e4acb7cfe2434c1f9d36a6d71b26e12386649"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/rapporto-c-g0-g5.md",
+      "bytes": 8473,
+      "sha256": "21c195abf536be4279fd438af513e9ae9a10e667578812de1e95672a2667ae1b"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/render-finale-p01.png",
+      "bytes": 105598,
+      "sha256": "2d3b5fe925a0c075faea2383f832404a7b400972d58099ead8a1893041a231d3"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/render-finale.pdf",
+      "bytes": 21625,
+      "sha256": "96d96b170b9dae7a46521001d6eb2fd0492d0b70c56dee6acd2923014293d21c"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/snapshot-finale.md",
+      "bytes": 1294,
+      "sha256": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/snapshot-iniziale.md",
+      "bytes": 1226,
+      "sha256": "e36dc2c928373cc3093e14abb9b1937d5862243b1fce2555ddc4debf6e8dc929"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/testo-depurato.md",
+      "bytes": 985,
+      "sha256": "0e667ceb92e982f3ceaeaa071144cba54ebee2fd6bd32b93fc9e1ce15a3f9405"
+    },
+    {
+      "path": "_tmp_render/cap03/vc-3.4.4-20260905/trascrizione-fonte-c.md",
+      "bytes": 978,
+      "sha256": "4768811fc4821a1ab91dd9c80bc13a34aa0bb63e02b04c2cd5a5aad51e0d381f"
+    },
+    {
+      "path": "cap03/3.4.4-neve-coefficiente-di-esposizione.md",
+      "bytes": 1294,
+      "sha256": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "bytes": 9888288,
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "bytes": 50658045,
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+    },
+    {
+      "path": "verifica-conformita/normalizzazioni-dichiarate-NTC2018.md",
+      "bytes": 5485,
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/PERIMETRO.md",
+      "bytes": 214,
+      "sha256": "468fa9b23c47472865075feb497aa4be02561baac68710dce975daab720dfe3d"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/congelamento.json",
+      "bytes": 558,
+      "sha256": "f697214fc3596832eeae4f9da877cd6a6840aa4965c3d6c3f95ee0e7a208b4f3"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/fonte-ntc-63.png",
+      "bytes": 436471,
+      "sha256": "94f7963c2d682e1bf8e27ab3fe0d3c37019ba683d8f6488d2c77f2dc52c89656"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/input-confronto.json",
+      "bytes": 1073,
+      "sha256": "4aef2c7f77a6587397046424c5105b2bfdef520a8a60a6858973f932c5a30ce4"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/input-fonte.json",
+      "bytes": 512,
+      "sha256": "f49408ee703a6ac8a3c53e446e6bd1fa472a99eb7f9cc4efb1f33666962adce2"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/inventario.json",
+      "bytes": 9979,
+      "sha256": "32da1470c583f0aa35f19df1b61a30e36113a881808a9e14f060a30e82b61c9f"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/rapporto-g6.json",
+      "bytes": 10040,
+      "sha256": "3f11e8f2c35cd9c2a13f8ccd45d92945ae70097ffd66eeb27301c59b16c43462"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/b01/testo.md",
+      "bytes": 974,
+      "sha256": "b9b2483b5fc70437c940edf075c674d7fa6786c82683a454bfc59105a15103b2"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/coordinamento.json",
+      "bytes": 1458,
+      "sha256": "12f3dd3908466ccc65441b223f291b549cd403992bd671566cc6468624ac78b4"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/fonte-dettaglio/fonte-ntc-p063-scope-600dpi.png",
+      "bytes": 217941,
+      "sha256": "5c36d40a94b98370b8138fafffd70484e262f5303aecb9de79ee198407b40657"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/fonte-dettaglio/fonte-ntc-p063-vettori.json",
+      "bytes": 402750,
+      "sha256": "7c796c671981fb3fe06079d358dda012997eaca1f3a283f2332634c29c520cc0"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/fonte-dettaglio/lista.json",
+      "bytes": 92,
+      "sha256": "4346b535515af7a8d1da63c0b38e2e06fce796172ad47a5a4037e9cfa30c00fa"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/fonte-dettaglio/manifest.json",
+      "bytes": 526,
+      "sha256": "7b20ceabb463d234b8d83fa12f67da5c69b3d9fda62fbfd3cbef5fc51e2a4b7f"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/g6-r01b/fonte-dettaglio/provenienza-fonte.json",
+      "bytes": 1776,
+      "sha256": "ad2aa92c4ea47593e88150956e3e4acb7cfe2434c1f9d36a6d71b26e12386649"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/rapporto-c-chiusura.md",
+      "bytes": 3094,
+      "sha256": "0e5f936ce0e0b108e756e088ad0d1eae42bfde74fd2f44dd42ee018d2e05e3c6"
+    },
+    {
+      "path": "verifica-conformita/vc-3.4.4-20260905/sequenza-g6-r01b.json",
+      "bytes": 2462,
+      "sha256": "1861dd3245b389c86233bb3ef7f26567658d25fe4b3ad2962cf7dbee2404ccc1"
+    }
+  ]
+}

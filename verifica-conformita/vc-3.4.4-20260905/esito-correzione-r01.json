@@ -1,0 +1,37 @@
+{
+  "firma": "CDX, esecutore correttore E",
+  "data": "2026-09-05",
+  "scope": "3.4.4",
+  "modello": "gpt-5.6-sol",
+  "effort": "high",
+  "approvazione": {
+    "esito": "APPROVATA",
+    "ruolo": "Sol",
+    "motivazione": "La fonte a 600 dpi stampa Topografia e Descrizione in grassetto; il render canonico R00 le rendeva in tondo normale. La sostituzione congelata ripristina la sola veste grafica delle due testate."
+  },
+  "file_letti": [
+    "_tmp_render/cap03/vc-3.4.4-20260905/correzione-congelata-r01.json",
+    "_tmp_render/cap03/vc-3.4.4-20260905/fonte-ntc-p063-scope-600dpi.png",
+    "cap03/3.4.4-neve-coefficiente-di-esposizione.md"
+  ],
+  "sostituzioni_eseguite": [
+    {
+      "id": "R03",
+      "occorrenze_attese": 1,
+      "occorrenze_prima": 1,
+      "occorrenze_dopo": 1,
+      "prima": "| Topografia | Descrizione | $\\mathbf{C}_{\\mathbf{E}}$ |",
+      "dopo": "| **Topografia** | **Descrizione** | $\\mathbf{C}_{\\mathbf{E}}$ |"
+    }
+  ],
+  "hash_sha256": {
+    "prima": "d1a0e167a41086ff323a65164c62aab2bf96e1ad9cea7902bf0e8570d8bb236e",
+    "dopo": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448"
+  },
+  "diff_vincolato_alla_lista": {
+    "esito": "OK",
+    "metodo": "L'inversione letterale dell'unica sostituzione R03 sul target finale ricostruisce l'hash dello snapshot iniziale.",
+    "differenze_extra": 0
+  },
+  "gate_chiusi": []
+}

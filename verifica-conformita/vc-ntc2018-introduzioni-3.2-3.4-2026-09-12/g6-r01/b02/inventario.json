@@ -1,0 +1,149 @@
+{
+  "firma": "Codex (CDX), GPT-6, verificatore V indipendente b02",
+  "fase": "FONTE-PRIMA",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "B02-NTC-33-RUB",
+      "pagina": "ntc:56",
+      "tipo": "rubrica",
+      "riferimento": "folio stampato 52, area superiore: rubrica 3.3. AZIONI DEL VENTO; controllo integrale di numero e titolo"
+    },
+    {
+      "id": "B02-NTC-33-P1",
+      "pagina": "ntc:56",
+      "tipo": "prosa",
+      "riferimento": "subito sotto la rubrica 3.3, primo capoverso, da «Il vento» a «effetti dinamici»; periodo intero, incluse direzione, variazione nel tempo e nello spazio e qualificazioni"
+    },
+    {
+      "id": "B02-NTC-33-C1",
+      "pagina": "ntc:56",
+      "tipo": "condizione",
+      "riferimento": "secondo capoverso della 3.3, primo periodo, da «Per le costruzioni usuali» al rinvio «§ 3.3.3»; periodo e rinvio controllati integralmente"
+    },
+    {
+      "id": "B02-NTC-33-C2",
+      "pagina": "ntc:56",
+      "tipo": "condizione",
+      "riferimento": "secondo capoverso della 3.3, secondo periodo, da «Per le costruzioni di forma o tipologia inusuale» a «stato dell’arte»; elenco completo dei casi e prescrizione conclusiva"
+    },
+    {
+      "id": "B02-NTC-34-RUB",
+      "pagina": "ntc:61",
+      "tipo": "rubrica",
+      "riferimento": "folio stampato 57, sommità pagina: rubrica 3.4. AZIONI DELLA NEVE; controllo integrale di numero e titolo"
+    },
+    {
+      "id": "B02-CIRC-C33-RUB",
+      "pagina": "circ:54",
+      "tipo": "rubrica",
+      "riferimento": "folio stampato 50, metà inferiore: rubrica C3.3 AZIONI DEL VENTO; controllo integrale di numero e titolo"
+    },
+    {
+      "id": "B02-CIRC-C33-P1",
+      "pagina": "circ:54",
+      "tipo": "prosa",
+      "riferimento": "capoverso unico tra C3.3 e C3.3.1, da «Sparisce nel passaggio» a «NTC 2008»; periodo intero, confronti NTC 2008/2018 e richiami ai §§ 3.3.1 e 3.3.2 compresi"
+    },
+    {
+      "id": "B02-CIRC-C34-RUB",
+      "pagina": "circ:76",
+      "tipo": "rubrica",
+      "riferimento": "folio stampato 72, sommità pagina: rubrica C3.4 AZIONI DELLA NEVE; controllo integrale di numero e titolo"
+    }
+  ],
+  "apparati": {
+    "formule": [],
+    "condizioni": [
+      "B02-NTC-33-C1",
+      "B02-NTC-33-C2"
+    ],
+    "figure": [],
+    "didascalie": [],
+    "tabelle": [],
+    "note": []
+  },
+  "esclusioni": [
+    {
+      "id": "B02-EX-NTC56-A",
+      "pagina": "ntc:56",
+      "riferimento": "testata editoriale della Gazzetta sopra la rubrica 3.3"
+    },
+    {
+      "id": "B02-EX-NTC56-B",
+      "pagina": "ntc:56",
+      "riferimento": "dalla rubrica 3.3.1 VELOCITÀ BASE DI RIFERIMENTO fino al fondo pagina, inclusi formule, definizioni, tabella e testo successivo"
+    },
+    {
+      "id": "B02-EX-NTC56-C",
+      "pagina": "ntc:56",
+      "riferimento": "folio e marcature editoriali di fondo pagina"
+    },
+    {
+      "id": "B02-EX-NTC61-A",
+      "pagina": "ntc:61",
+      "riferimento": "dalla rubrica 3.4.1 CARICO DELLA NEVE SULLE COPERTURE fino al fondo pagina, inclusi formula, definizioni, sezioni 3.4.2, figura e didascalia"
+    },
+    {
+      "id": "B02-EX-NTC61-B",
+      "pagina": "ntc:61",
+      "riferimento": "folio e marcature editoriali di fondo pagina"
+    },
+    {
+      "id": "B02-EX-CIRC54-A",
+      "pagina": "circ:54",
+      "riferimento": "dall’inizio pagina fino a prima della rubrica C3.3: prosecuzione del § C3.2.5, elenco, prosa, formula [C3.2.5] e definizione"
+    },
+    {
+      "id": "B02-EX-CIRC54-B",
+      "pagina": "circ:54",
+      "riferimento": "dalla rubrica C3.3.1 VELOCITÀ BASE DI RIFERIMENTO fino al fondo pagina, comprese le sezioni successive"
+    },
+    {
+      "id": "B02-EX-CIRC54-C",
+      "pagina": "circ:54",
+      "riferimento": "testata, folio e marcature editoriali della Gazzetta"
+    },
+    {
+      "id": "B02-EX-CIRC76-A",
+      "pagina": "circ:76",
+      "riferimento": "dalla rubrica C3.4.1 CARICO DELLA NEVE SULLE COPERTURE fino al fondo pagina, comprese formule, definizioni, figura, didascalia e sezioni successive"
+    },
+    {
+      "id": "B02-EX-CIRC76-B",
+      "pagina": "circ:76",
+      "riferimento": "folio e marcature editoriali di fondo pagina"
+    }
+  ],
+  "dubbi": [],
+  "letture": [
+    "b02/ISTRUZIONI-V.md",
+    "b02/PERIMETRO.md",
+    "b02/canone.md",
+    "b02/input-fonte.json",
+    "b02/fonte-ntc-56.png",
+    "b02/fonte-ntc-61.png",
+    "b02/fonte-circ-54.png",
+    "b02/fonte-circ-76.png",
+    "fonti-b02/manifest.json",
+    "fonti-b02/provenienza.json",
+    "fonti-b02/fonte-ntc-56-area-03-600dpi.png",
+    "fonti-b02/fonte-ntc-61-area-04-600dpi.png",
+    "fonti-b02/fonte-circ-54-area-01-600dpi.png",
+    "fonti-b02/fonte-circ-76-area-02-600dpi.png"
+  ],
+  "isolamento": {
+    "tipo": "restrizione istruttiva, non sandbox",
+    "percorsi_letti": [
+      "C:/Users/sandro/AppData/Local/Temp/vc-intro-32-34-20260912-v-r01/b02",
+      "C:/Users/sandro/AppData/Local/Temp/vc-intro-32-34-20260912-v-r01-fonti-b02"
+    ],
+    "workspace_aperto": false,
+    "altri_blocchi_aperti": false,
+    "coordinamento_aperto": false,
+    "cronologia_o_rapporti_altrui_aperti": false,
+    "target_aperto": false,
+    "render_autonomi_generati": false,
+    "processi_lunghi_avviati": false
+  }
+}

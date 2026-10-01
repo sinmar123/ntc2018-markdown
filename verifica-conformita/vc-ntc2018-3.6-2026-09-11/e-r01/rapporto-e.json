@@ -1,0 +1,86 @@
+{
+  "scope": "§ 3.6 NTC 2018 e C3.6 Circolare 7/2019",
+  "data": "2026-09-11",
+  "ruolo": "E",
+  "firma": "Codex / CDX (esecutore effettivo)",
+  "stato": "applicata",
+  "lista": "_tmp_render/cap03/vc-3.6-20260911-cdx/c/lista-correzioni.json",
+  "sha256_lista": "f26c2754629da1b98a8f0a47d679d158421befae7727bc1856fd0b45c748d2fc",
+  "totale_lista": 38,
+  "conteggio_applicato": 38,
+  "id_applicati": [
+    "C36-001",
+    "C36-002",
+    "C36-003",
+    "C36-004",
+    "C36-005",
+    "C36-006",
+    "C36-007",
+    "C36-008",
+    "C36-009",
+    "C36-010",
+    "C36-011",
+    "C36-012",
+    "C36-013",
+    "C36-014",
+    "C36-015",
+    "C36-016",
+    "C36-017",
+    "C36-018",
+    "C36-019",
+    "C36-020",
+    "C36-021",
+    "C36-022",
+    "C36-023",
+    "C36-024",
+    "C36-025",
+    "C36-026",
+    "C36-027",
+    "C36-028",
+    "C36-029",
+    "C36-030",
+    "C36-031",
+    "C36-032",
+    "C36-033",
+    "C36-034",
+    "C36-035",
+    "C36-036",
+    "C36-037",
+    "C36-038"
+  ],
+  "target": [
+    {
+      "percorso": "cap03/3.6-introduzione.md",
+      "sha256_prima": "2da8c458bd6a7c4027d1a212f843734f5e5ba6c3dbdffe737a733c5478e16f68",
+      "sha256_dopo": "65355da12f44a3cfe2ed8ccd51ee9d7004ac7fccf8c320d0db19cf19ab8a3cfd",
+      "copia_pre_e": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r01/pre-e/3.6-introduzione.md"
+    },
+    {
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "sha256_prima": "8467ef1a618c9e71b29d5c6e07195567f01e34c71318cb3f79b20abe06d0b2c9",
+      "sha256_dopo": "04403b6ecad484ecbda0206da820cdcfce75a8b4849979fe2047b727c7d1363d",
+      "copia_pre_e": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r01/pre-e/3.6.1-azioni-eccezionali-incendio.md"
+    },
+    {
+      "percorso": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "sha256_prima": "fea1d303cd1edbc19f2c5d2f6d0c756556c42d0784d7276b69de030db1f9e695",
+      "sha256_dopo": "2d5c6c258e3d4d60ed195b56d305ea68c7b1e1e24812f8dbdb0825391bbfa377",
+      "copia_pre_e": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r01/pre-e/3.6.2-azioni-eccezionali-esplosioni.md"
+    },
+    {
+      "percorso": "cap03/3.6.3-azioni-eccezionali-urti.md",
+      "sha256_prima": "810145103536dc7b95e1bb139d4c9e2840aae0c9e0745ac37c1fe4a3b3581661",
+      "sha256_dopo": "fe319b80c8a36e1881d6ccce749eeee18eadc2a4cb51e7fd1e802d582e1ef539",
+      "copia_pre_e": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r01/pre-e/3.6.3-azioni-eccezionali-urti.md"
+    }
+  ],
+  "diff": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r01/diff-unico-completo.diff",
+  "sha256_diff": "8fb0b27092d90f51792393aef864506bed60f5c292ebce9ad749758e8fd2bcc2",
+  "verifiche": {
+    "stato_lista_congelata": true,
+    "hash_snapshot_iniziale": true,
+    "unicita_prima": true,
+    "assenza_sovrapposizioni": true,
+    "diff_meccanico_coincide_lista": true
+  }
+}

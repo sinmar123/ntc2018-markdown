@@ -1,0 +1,40 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 214,
+      "sha256": "468fa9b23c47472865075feb497aa4be02561baac68710dce975daab720dfe3d"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 558,
+      "sha256": "f697214fc3596832eeae4f9da877cd6a6840aa4965c3d6c3f95ee0e7a208b4f3"
+    },
+    {
+      "path": "fonte-ntc-63.png",
+      "bytes": 436471,
+      "sha256": "94f7963c2d682e1bf8e27ab3fe0d3c37019ba683d8f6488d2c77f2dc52c89656"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 512,
+      "sha256": "f49408ee703a6ac8a3c53e446e6bd1fa472a99eb7f9cc4efb1f33666962adce2"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 9979,
+      "sha256": "32da1470c583f0aa35f19df1b61a30e36113a881808a9e14f060a30e82b61c9f"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 974,
+      "sha256": "b9b2483b5fc70437c940edf075c674d7fa6786c82683a454bfc59105a15103b2"
+    }
+  ]
+}

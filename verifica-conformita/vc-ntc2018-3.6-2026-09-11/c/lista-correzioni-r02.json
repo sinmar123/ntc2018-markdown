@@ -1,0 +1,94 @@
+{
+  "scope": "§ 3.6 NTC 2018 e C3.6 Circolare 7/2019",
+  "data": "2026-09-11",
+  "ruolo": "C",
+  "firma": "Codex / CDX",
+  "stato": "congelata",
+  "giro_origine_g6": 1,
+  "totale": 5,
+  "snapshot_corrente": {
+    "cap03/3.6-introduzione.md": "65355da12f44a3cfe2ed8ccd51ee9d7004ac7fccf8c320d0db19cf19ab8a3cfd",
+    "cap03/3.6.1-azioni-eccezionali-incendio.md": "aca057650fb132f8defc6385afb328e1818cfb1c0bd9465fcbcc7c5090ac3e8d",
+    "cap03/3.6.2-azioni-eccezionali-esplosioni.md": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748",
+    "cap03/3.6.3-azioni-eccezionali-urti.md": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db"
+  },
+  "snapshot_atteso_dopo_r02": {
+    "cap03/3.6-introduzione.md": "420192c0c7ac67132dfc829bd0d1d2711ba6068e5b7757b23fd7c2d8d9db1913",
+    "cap03/3.6.1-azioni-eccezionali-incendio.md": "5163e9708ef4701cb0eba389fa23ede49c230c1b28629cf4422c93373aaa4cce",
+    "cap03/3.6.2-azioni-eccezionali-esplosioni.md": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748",
+    "cap03/3.6.3-azioni-eccezionali-urti.md": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db"
+  },
+  "rapporti_g6": {
+    "b01": {
+      "esito": "KO",
+      "sha256": "98fd603ace0ce53980964989c401347226c744f6f7d0b8da5c23cbbb5db09ea2"
+    },
+    "b02": {
+      "esito": "OK",
+      "sha256": "3e49e6614cc30a1aa1ac125d8c1b50235c40778ef761e19d678a22c7e83bc04f"
+    },
+    "b03": {
+      "esito": "KO",
+      "sha256": "adbe23c7b8c36a9c84aad34b0ef40d1b2e875166a0a35e6c4a7affaf71156fa4"
+    }
+  },
+  "rilievi": [
+    {
+      "id": "C36-R02-001",
+      "origine_g6": "B01-66-P01",
+      "classe": "ERR-MD",
+      "percorso": "cap03/3.6-introduzione.md",
+      "prima": "È opportuno",
+      "dopo": "E’ opportuno",
+      "occorrenze_attese": 1,
+      "prova": "NTC, pagina fisica 66; b01/prove-v/ntc-66-scope-a-600dpi.png, target-p01-e-opportuno-1200dpi.png e prova-vettoriale-e-apostrofo-bullet.json: fonte E U+0045 + U+2019, target U+00C8.",
+      "AF_COR": false
+    },
+    {
+      "id": "C36-R02-002",
+      "origine_g6": "B01-66-C01",
+      "classe": "ERR-MD",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "- *nominale:*",
+      "dopo": "*nominale:*",
+      "occorrenze_attese": 1,
+      "prova": "NTC, pagina fisica 66; b01/prove-v/ntc-66-scope-b-600dpi.png, target-p01-curve-alternative-900dpi.png e prova-vettoriale-e-apostrofo-bullet.json: nessun marcatore in fonte, bullet U+2022 nel target.",
+      "AF_COR": false
+    },
+    {
+      "id": "C36-R02-003",
+      "origine_g6": "B01-66-C02",
+      "classe": "ERR-MD",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "- *naturale:*",
+      "dopo": "\n*naturale:*",
+      "occorrenze_attese": 1,
+      "prova": "NTC, pagina fisica 66; b01/prove-v/ntc-66-scope-b-600dpi.png, target-p01-curve-alternative-900dpi.png e prova-vettoriale-e-apostrofo-bullet.json: nessun marcatore in fonte, bullet U+2022 nel target.",
+      "AF_COR": false
+    },
+    {
+      "id": "C36-R02-004",
+      "origine_g6": "B03-C81-006-C3611-DEF01-02",
+      "classe": "ERR-MD",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "- la *capacità di compartimentazione* è riferibile",
+      "dopo": "- la capacità di compartimentazione è riferibile",
+      "occorrenze_attese": 1,
+      "prova": "Circolare, pagina fisica 81; b03/prove-v/g6-r01-fonte-definizioni-p81-600dpi.png, g6-r01-target-definizioni-p01-600dpi.png e provenienza-v.json: fonte PalatinoLinotype-Roman, target LMRoman10-Italic.",
+      "AF_COR": false
+    },
+    {
+      "id": "C36-R02-005",
+      "origine_g6": "B03-C81-008-ENF-LORDA",
+      "classe": "ERR-MD",
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "prima": "superficie **lorda**",
+      "dopo": "superficie [lorda]{.underline}",
+      "occorrenze_attese": 1,
+      "prova": "Circolare, pagina fisica 81; b03/prove-v/g6-r01-fonte-definizioni-p81-600dpi.png, g6-r01-target-definizioni-p01-600dpi.png e provenienza-v.json: fonte romana con tratto vettoriale sottolineato, target bold. Test locale c/renderer-underline-test.*: [lorda]{.underline} rende LMRoman10-Regular con linea vettoriale separata nel renderer canonico.",
+      "AF_COR": false
+    }
+  ],
+  "esito_adjudicazione": "5 accolti su 5; ripristini letterali; nessuna nuova AF-COR",
+  "prescrizione_post_esecuzione": "Ricontrollo C del diff r02, nuovo G5 e nuovo G6 completo con verificatori freschi."
+}

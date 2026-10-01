@@ -1,0 +1,234 @@
+--- a/cap03/annotazioni/3.6-anomalie-fonte.md
++++ b/cap03/annotazioni/3.6-anomalie-fonte.md
+@@ -0,0 +1,70 @@
++---
+
++title: Anomalie della fonte conservate nel § 3.6 - NTC 2018
+
++aliases:
+
++  - Anomalie fonte 3.6 NTC 2018
+
++tags:
+
++  - formazione/normativa
+
++  - ntc2018
+
++  - annotazioni
+
++  - anomalie-fonte
+
++---
+
++
+
++[Torna alle annotazioni del capitolo 3](README.md) | [Apri il § 3.6](../3.6-introduzione.md)
+
++
+
++# Anomalie della fonte conservate nel § 3.6
+
++
+
++Questa nota documenta cinque anomalie delle NTC 2018 e della Circolare 21 gennaio 2019, n. 7 C.S.LL.PP., conservate alla lettera nel Markdown. Sono tutte classificate `AF`; non è applicata alcuna correzione `AF-COR`.
+
++
+
++Fonti congelate:
+
++
+
++- `verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf`, SHA-256 `dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46`;
+
++- `verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf`, SHA-256 `f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c`.
+
++
+
++Le pagine citate sono fisiche, cioè indici PDF 1-based.
+
++
+
++<a id="af-3-6-01-tabella-3-5-iv-nel-paragrafo-3-6"></a>
+
++## AF-3.6-01 - Tab. 3.5.IV nel § 3.6.1
+
++
+
++- Riferimento: NTC 2018, § 3.6.1.2, pagina fisica 67.
+
++- Fonte: `Tab. 3.5.IV` nel richiamo e nella didascalia della tabella dei livelli di prestazione in caso di incendi.
+
++- Tipo: numerazione interna apparentemente ereditata dal § 3.5.
+
++- Prova: lettura diretta della pagina e del ritaglio a 600 dpi `dettaglio-ntc067-tab-3.5.IV.png`; il controllo R5 precedente aveva già segnalato la particolarità e la fonte ufficiale ne conferma la grafia.
+
++- Esito: numero `3.5.IV` conservato, senza rinumerazione per analogia.
+
++
+
++<a id="af-3-6-02-applicata-da-ogni-direzione"></a>
+
++## AF-3.6-02 - «applicata da ogni direzione»
+
++
+
++- Riferimento: NTC 2018, § 3.6.2.3, pagina fisica 69.
+
++- Fonte: `applicata da ogni direzione`.
+
++- Tipo: preposizione grammaticalmente anomala.
+
++- Prova: lettura diretta del ritaglio a 600 dpi `dettaglio-ntc069-prosa-rubriche.png`.
+
++- Esito: la preposizione `da` è conservata alla lettera; non va sostituita con `in` per plausibilità linguistica.
+
++
+
++<a id="af-3-6-03-assenza-c3-6-1-5-2"></a>
+
++## AF-3.6-03 - Assenza di C3.6.1.5.2
+
++
+
++- Riferimento: Circolare, § C3.6.1.5, pagine fisiche 82-83.
+
++- Fonte: la sequenza delle rubriche passa da `C3.6.1.5.1 Incendio di progetto` a `C3.6.1.5.3 Analisi del comportamento meccanico` e poi a `C3.6.1.5.4 Verifiche di sicurezza`.
+
++- Tipo: discontinuità della numerazione dei sottoparagrafi.
+
++- Prova: lettura congiunta delle pagine fisiche 82 e 83, rese a 600 dpi in `dettaglio-circ082-prosa-rubriche.png` e `dettaglio-circ083-prosa-rubriche.png`.
+
++- Esito: non si introduce un § C3.6.1.5.2 assente dalla fonte.
+
++
+
++<a id="af-3-6-04-rinvio-c3-6-1-1-alle-curve"></a>
+
++## AF-3.6-04 - Rinvio a C3.6.1.1 per le curve nominali
+
++
+
++- Riferimento: Circolare, § C3.6.1.5.1, pagina fisica 82.
+
++- Fonte: `ulteriori rispetto a quelle citate nel paragrafo C3.6.1.1`.
+
++- Tipo: rinvio interno apparentemente incongruo, perché C3.6.1.1 contiene definizioni e non l'elenco delle curve nominali.
+
++- Prova: lettura diretta della pagina fisica 82 e confronto con C3.6.1.1 nella pagina fisica 81.
+
++- Esito: il rinvio `C3.6.1.1` è conservato senza rettifica per inferenza.
+
++
+
++<a id="af-3-6-05-i-requisiti-sia-previsto"></a>
+
++## AF-3.6-05 - «i requisiti ... sia previsto che siano mantenuti»
+
++
+
++- Riferimento: Circolare, § C3.6.1.5.4, pagina fisica 83.
+
++- Fonte: `nel caso in cui i requisiti di resistenza al fuoco delle strutture sia previsto che siano mantenuti`.
+
++- Tipo: discordanza grammaticale.
+
++- Prova: lettura diretta del ritaglio a 600 dpi `dettaglio-circ083-prosa-rubriche.png`.
+
++- Esito: la forma singolare `sia previsto` è conservata alla lettera.
+
++
+
++**Firma:** Codex / CDX, 2026-09-11.
+
+--- a/cap03/3.6.1-azioni-eccezionali-incendio.md
++++ b/cap03/3.6.1-azioni-eccezionali-incendio.md
+@@ -73,7 +73,7 @@
+ <a id="toc-ntc2018-3-6-1-2"></a>
+
+ ### 3.6.1.2 RICHIESTE DI PRESTAZIONE
+
+ 
+
+-Le prestazioni richieste alle strutture di una costruzione, in funzione degli obiettivi definiti al §2.2.3, sono individuate in termini di livello nella Tab. 3.5.IV.
+
++Le prestazioni richieste alle strutture di una costruzione, in funzione degli obiettivi definiti al §2.2.3, sono individuate in termini di livello nella Tab. 3.5.IV. [1](./annotazioni/3.6-anomalie-fonte.md#af-3-6-01-tabella-3-5-iv-nel-paragrafo-3-6)
+
+ 
+
+ **Tab. 3.5.IV** - *Livelli di prestazione in caso di incendi*
+
+ 
+
+@@ -225,9 +225,9 @@
+ - curva nominale d'incendio, da individuare tra quelle indicate successivamente, per l'intervallo di tempo di esposizione pari alla classe di resistenza al fuoco prevista, senza alcuna fase di raffreddamento;
+
+ - curva naturale d'incendio, da individuare tenendo conto dell'intera durata dello stesso, compresa la fase di raffreddamento fino al ritorno alla temperatura ambiente oppure a condizioni termiche ritenute ininfluenti per le strutture.
+
+ 
+
+-Si evidenzia infine la possibilità di utilizzare specifiche curve nominali, ulteriori rispetto a quelle citate nel paragrafo C3.6.1.1, per descrivere particolari scenari di incendio, purché di comprovata validità (*"slow heating curve"*, descritta al punto 4.3 della norma UNI EN 13501-2; *"tunnel curve"*, non ancora standardizzata a livello europeo, ma codificata in Italia (UNI 11076), Olanda (RWS), in Germania (ZTV) o in Francia (HCM, Curva degli idrocarburi modificata; etc.).
+
+-
+
+-**C3.6.1.5.3 Analisi del comportamento meccanico**
+
++Si evidenzia infine la possibilità di utilizzare specifiche curve nominali, ulteriori rispetto a quelle citate nel paragrafo C3.6.1.1 [4](./annotazioni/3.6-anomalie-fonte.md#af-3-6-04-rinvio-c3-6-1-1-alle-curve), per descrivere particolari scenari di incendio, purché di comprovata validità (*"slow heating curve"*, descritta al punto 4.3 della norma UNI EN 13501-2; *"tunnel curve"*, non ancora standardizzata a livello europeo, ma codificata in Italia (UNI 11076), Olanda (RWS), in Germania (ZTV) o in Francia (HCM, Curva degli idrocarburi modificata; etc.).
+
++
+
++**C3.6.1.5.3 Analisi del comportamento meccanico** [3](./annotazioni/3.6-anomalie-fonte.md#af-3-6-03-assenza-c3-6-1-5-2)
+
+ 
+
+ Il comportamento meccanico della struttura è analizzato tenendo conto della riduzione della resistenza meccanica dei componenti dovuta al danneggiamento dei materiali per effetto dell'aumento di temperatura, con le regole specificate ai punti 4.1.13, 4.2.11, 4.3.9, 4.4.14, 4.5.11 delle NTC.
+
+ 
+
+@@ -241,4 +241,4 @@
+ 
+
+ Qualora si eseguano verifiche con curve nominali di incendio la verifica di resistenza può essere effettuata senza tener conto della fase di raffreddamento che invece deve essere presa in considerazione quando si faccia riferimento a curve di incendio naturale, in accordo a quanto disposto al § 3.6.1.5.1 delle NTC.
+
+ 
+
+-Fermo restando il rispetto delle disposizioni legislative emanate ai sensi del D.Lgs. 139/2006, nel caso in cui i requisiti di resistenza al fuoco delle strutture sia previsto che siano mantenuti per un periodo limitato (ad esempio, livello di prestazione II di tab. 3.5.IV), la verifica della capacità portante delle strutture potrà essere limitata a un tempo di esposizione all'incendio naturale congruente con il livello di prestazione scelto. Il D.M. 3/8/2015 quantifica il tempo di verifica per il livello II in caso di curve naturali nel doppio del tempo richiesto per l'esodo degli occupanti con un minimo di 30 minuti a decorrere dall'innesco.
+
++Fermo restando il rispetto delle disposizioni legislative emanate ai sensi del D.Lgs. 139/2006, nel caso in cui i requisiti di resistenza al fuoco delle strutture sia previsto che siano mantenuti [5](./annotazioni/3.6-anomalie-fonte.md#af-3-6-05-i-requisiti-sia-previsto) per un periodo limitato (ad esempio, livello di prestazione II di tab. 3.5.IV), la verifica della capacità portante delle strutture potrà essere limitata a un tempo di esposizione all'incendio naturale congruente con il livello di prestazione scelto. Il D.M. 3/8/2015 quantifica il tempo di verifica per il livello II in caso di curve naturali nel doppio del tempo richiesto per l'esodo degli occupanti con un minimo di 30 minuti a decorrere dall'innesco.
+
+--- a/cap03/3.6.2-azioni-eccezionali-esplosioni.md
++++ b/cap03/3.6.2-azioni-eccezionali-esplosioni.md
+@@ -65,7 +65,7 @@
+ 
+
+ La pressione dovuta all'esplosione è intesa agire simultaneamente su tutte le pareti dell'ambiente o del gruppo di ambienti considerati.
+
+ 
+
+-Comunque, tutti gli elementi chiave e le loro connessioni devono essere progettati per sopportare una pressione statica equivalente con valore di progetto $p_d$= 20 kN/m², applicata da ogni direzione, insieme con la reazione che ci si attende venga trasmessa direttamente alle membrature dell'elemento chiave da ogni elemento costruttivo, ad esso collegato, altresì soggetto alla stessa pressione.
+
++Comunque, tutti gli elementi chiave e le loro connessioni devono essere progettati per sopportare una pressione statica equivalente con valore di progetto $p_d$= 20 kN/m², applicata da ogni direzione [2](./annotazioni/3.6-anomalie-fonte.md#af-3-6-02-applicata-da-ogni-direzione), insieme con la reazione che ci si attende venga trasmessa direttamente alle membrature dell'elemento chiave da ogni elemento costruttivo, ad esso collegato, altresì soggetto alla stessa pressione.
+
+ 
+
+ Per esplosioni di Categoria 3 devono essere effettuati studi più approfonditi.
+
+ 
+
+--- a/cap03/annotazioni/README.md
++++ b/cap03/annotazioni/README.md
+@@ -36,6 +36,7 @@
+ 
+
+ | Riferimento | Annotazione | Stato |
+
+ |---|---|---|
+
++| § 3.6 (AF-3.6-01/05) | [Anomalie della fonte conservate](3.6-anomalie-fonte.md) | Cinque anomalie di numerazione, rinvii e grammatica conservate alla lettera; nessuna AF-COR. |
+
+ | § 3.5.2 (AF-3.5.2-01) | [Anomalia della fonte conservata](3.5.2-anomalie-fonte.md) | **Da leggere prima di correggere per inferenza la seconda durata transitoria del § 3.5.2**: la fonte stampa `d un anno` e chiude la voce con punto e virgola; il Markdown conserva entrambi. |
+
+ | § 3.4.3 (AF-3.4.3-01/08) | [Anomalie della fonte conservate](3.4.3-anomalie-fonte.md) | **Da leggere prima di correggere formule, riferimenti o concordanze per inferenza**: la fonte lascia senza condizione il secondo ramo della `[C3.4.4]`, alterna `C3.4.x` e `C.3.4.x`, stampa `k ≤ dγ` e `sin` corsivo, e conserva quattro anomalie grammaticali. Il Markdown riproduce tutte e otto le anomalie; nessuna `AF-COR`. |
+
+ | § 3.4.2 (AF-3.4.2-01/09) | [Anomalie della fonte conservate](3.4.2-anomalie-fonte.md) | **Da leggere prima di correggere per inferenza testo, decimali, tag, parentesi, spaziatura, concordanze o pedici del § 3.4.2/C3.4.2**: la fonte stampa `d un anno`, `provincie`, alterna punti e virgola decimali, usa il tag `[C3.4.1]` contro il rinvio `C.3.4.1.`, lascia aperta una parentesi nella definizione di `$P_n$`, giustappone `C3.4.1n`, usa nella Circolare pedici di `$q$` a doppio livello, scrive `immutato sia i valori` e `In esse` dopo il richiamo singolare. Il Markdown conserva tutte e nove le anomalie. |
+

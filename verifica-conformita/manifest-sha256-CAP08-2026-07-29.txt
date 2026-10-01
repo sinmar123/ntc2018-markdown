@@ -1,0 +1,9 @@
+# Manifest SHA-256 CAP08 2026-07-29
+# Algoritmo: SHA-256
+# Formato: hash  byte  percorso relativo alla radice del progetto
+# Asset collegati: nessuno
+
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+14457ad1b2f3a4931eb82dedfe64bda28367526761eb57e0392eb104b7fdf225  293759  cap08/8-esistenti.md
+5e550dd8f57f88255ab3235a58b9f0be4308d794e6e771b9007b2d4dfccae0b0  5403  cap08/indice-cap08.md

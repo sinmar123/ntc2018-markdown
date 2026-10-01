@@ -1,0 +1,148 @@
+[
+  {
+    "tag": "3.6.1",
+    "pdf_page": 1,
+    "tag_bbox_points": [
+      529.2850341796875,
+      709.64013671875,
+      555.306640625,
+      719.6027221679688
+    ],
+    "clip_points": [
+      45.0,
+      687.64013671875,
+      567.0,
+      737.6027221679688
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p01-formula-3.6.1-1-600dpi.png",
+    "sha256": "0759e35ef3a126e940d064cda425ab9d56684484cb2fa1cb2f12efc0815ae2d9"
+  },
+  {
+    "tag": "3.6.2",
+    "pdf_page": 3,
+    "tag_bbox_points": [
+      529.2850341796875,
+      442.6031494140625,
+      555.306640625,
+      452.56573486328125
+    ],
+    "clip_points": [
+      45.0,
+      420.6031494140625,
+      567.0,
+      470.56573486328125
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p03-formula-3.6.2-1-600dpi.png",
+    "sha256": "afaa5942764614615e0aa5bd4cafeb0adda0d5ea308405afe6e190768e239106"
+  },
+  {
+    "tag": "3.6.3",
+    "pdf_page": 3,
+    "tag_bbox_points": [
+      529.2849731445312,
+      526.2891235351562,
+      555.306640625,
+      536.251708984375
+    ],
+    "clip_points": [
+      45.0,
+      504.28912353515625,
+      567.0,
+      554.251708984375
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p03-formula-3.6.3-1-600dpi.png",
+    "sha256": "aaeb7693c28fc035c505aa5fef1eba756bb8f9084f9fe4182b5792b036681f36"
+  },
+  {
+    "tag": "3.6.4",
+    "pdf_page": 3,
+    "tag_bbox_points": [
+      529.2849731445312,
+      592.0431518554688,
+      555.306640625,
+      602.0057373046875
+    ],
+    "clip_points": [
+      45.0,
+      570.0431518554688,
+      567.0,
+      620.0057373046875
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p03-formula-3.6.4-1-600dpi.png",
+    "sha256": "9b049eabd0d16b7265ecbde45777d0f76503ffe50cb367b86503916f4e0d48ea"
+  },
+  {
+    "tag": "3.6.5a",
+    "pdf_page": 5,
+    "tag_bbox_points": [
+      524.302978515625,
+      190.5961456298828,
+      555.3069458007812,
+      200.55874633789062
+    ],
+    "clip_points": [
+      45.0,
+      168.5961456298828,
+      567.0,
+      218.55874633789062
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p05-formula-3.6.5a-1-600dpi.png",
+    "sha256": "b99bde11e7af2e3b6a8874f198f9851dad608f66d6a8bcaf30b7d3c49ec0f925"
+  },
+  {
+    "tag": "3.6.5b",
+    "pdf_page": 5,
+    "tag_bbox_points": [
+      523.7449951171875,
+      226.4611358642578,
+      555.306884765625,
+      236.42373657226562
+    ],
+    "clip_points": [
+      45.0,
+      204.4611358642578,
+      567.0,
+      254.42373657226562
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p05-formula-3.6.5b-1-600dpi.png",
+    "sha256": "9a3f3b92466fc491d2d3b447bb18844647ffc45ae0451bd1fb10c7a93fa2bd0f"
+  },
+  {
+    "tag": "3.6.6",
+    "pdf_page": 5,
+    "tag_bbox_points": [
+      529.2850341796875,
+      351.9901428222656,
+      555.306640625,
+      361.9527282714844
+    ],
+    "clip_points": [
+      45.0,
+      329.9901428222656,
+      567.0,
+      379.9527282714844
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p05-formula-3.6.6-1-600dpi.png",
+    "sha256": "12e60921b1236750a19702420cb1dbff92c97706adbe4fd5afd233523f11ff6e"
+  },
+  {
+    "tag": "dove-3.6.1",
+    "pdf_page": 2,
+    "clip_points": [
+      45.0,
+      45.0,
+      570.0,
+      170.0
+    ],
+    "dpi": 600,
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\target-p02-dove-3.6.1-600dpi.png",
+    "sha256": "f091fd1637d92775f50818aba6371c4bde15635c4eb2edb8f6cd43f598425a95"
+  }
+]

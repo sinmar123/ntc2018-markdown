@@ -1,0 +1,80 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 280,
+      "sha256": "04cf3d945ade358f346f1fc53e15249abfa67c494f4a2196a3a59aaedb3a0579"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 474,
+      "sha256": "fcecd3611ce1650f2a8895fae7b72f68dd07c1fa6173f5314c2be98ecca7e79a"
+    },
+    {
+      "path": "fonte-ntc-66.png",
+      "bytes": 548534,
+      "sha256": "9c894bd1469fa20f1ebaba035ef340a41c20e6461f9a93dd5a3d7ee89e0c145d"
+    },
+    {
+      "path": "fonte-ntc-67.png",
+      "bytes": 566899,
+      "sha256": "4e059377e079a0eab090ddb3abe55d1878bc7238ddc2926f062250481a127b6e"
+    },
+    {
+      "path": "fonte-ntc-68.png",
+      "bytes": 589520,
+      "sha256": "a3bde93322db2ab794cb484dfa1fb4860f4714e77c2b72b80c5be240e8afbc82"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 1022,
+      "sha256": "e190ac9109f1a55c00f51a70c9797fc50af0b98196dcd8b0a0af4e7016554691"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 17098,
+      "sha256": "7be59cc6d135a3ed965919698a10e2f71f53573eb0ff6b4d463fc2b5e0cfd981"
+    },
+    {
+      "path": "resa-target/target-blocco.pdf",
+      "bytes": 40715,
+      "sha256": "699b26c9274695d43aee9e5efb9848eb293f8637f8cd805db9c9b5fa2dac5b74"
+    },
+    {
+      "path": "resa-target/target-p01-200dpi.png",
+      "bytes": 371825,
+      "sha256": "2e4035df6621cf87dcdf589ba292475b45ea8f776003d9f98a391f2471b8386d"
+    },
+    {
+      "path": "resa-target/target-p02-200dpi.png",
+      "bytes": 393607,
+      "sha256": "d64edb98e7b094c3ba1c4a08f6a1fb31090f8ec28f404be48f5269cf6b12b7d9"
+    },
+    {
+      "path": "resa-target/target-p03-200dpi.png",
+      "bytes": 321423,
+      "sha256": "67d6b11f923273cee90fb4338ccbbff9aa78868c1635eafaff0118a025f44827"
+    },
+    {
+      "path": "resa-target/target-p04-200dpi.png",
+      "bytes": 225879,
+      "sha256": "f9f5391186e6d58704b78b88080e056791a49c1535ed7f816b35bf6b6e590f8a"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 13149,
+      "sha256": "7da0cc1bf744a08d92e4f3e32d6f4563b7d836b311f35bad175053664c1526eb"
+    }
+  ]
+}

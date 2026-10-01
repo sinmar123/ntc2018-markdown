@@ -1,0 +1,9 @@
+# Manifest SHA-256 - ntc2018-3.1.1 - 2026-08-27
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+6b24bfaa2009cab169c81406b2cedce1f2581ed5d60dab5acee3afebdbf4c8a2  872  cap03/3.1.1-opere-civili-generalita.md
+c71525aecb4b6078814b3edd7f8bbff6e9063be7700bd420c7981c75dac32d55  5172  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+b4b963a4aa7f992b96c6a6478aea41836476faf798ebd9e7fad1b65566b2e377  126104  _tmp_render/cap03/vc-3.1.1-20260827/fonte/ntc-p46-scope-3.1.1-600dpi.png
+e3c3e528a39e7d561a980cc238686635282163a8e351f1177a8f3f58fbfb712c  2266  _tmp_render/cap03/vc-3.1.1-20260827/preflight/rapporto-preflight.md
+bf21c1bf21c7a71f045db262dedc9b14d0eff932921263d0f8da4109b3539e03  8316  _tmp_render/cap03/vc-3.1.1-20260827/preflight/md-confronto-render.pdf
+5b1f54ae903798e4732efac24e0409a28dc1fb4df91e64afc8c8e6507949e1ba  1279  _tmp_render/cap03/vc-3.1.1-20260827/g6-r01/rapporto-consolidato.md

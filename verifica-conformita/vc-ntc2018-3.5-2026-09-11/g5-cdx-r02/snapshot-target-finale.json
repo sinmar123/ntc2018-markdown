@@ -1,0 +1,55 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.5-introduzione.md",
+      "bytes": 950,
+      "sha256": "b963768d94fbd72d33baae26efb18a71dcfb5998cff2d2dd7f189e503521249c"
+    },
+    {
+      "path": "cap03/3.5.1-temperatura-generalita.md",
+      "bytes": 765,
+      "sha256": "7bedfd012ac7d8185b3082ef8ed6b28346a69a1e7cab23dabff5cd9ae674e848"
+    },
+    {
+      "path": "cap03/3.5.2-temperatura-temperatura-dell-aria-esterna.md",
+      "bytes": 3543,
+      "sha256": "5242a12816ea4c2bfdc0fa71dc8af8e934481d5fad592a832ef21fec36e5bf31"
+    },
+    {
+      "path": "cap03/3.5.3-temperatura-temperatura-dell-aria-interna.md",
+      "bytes": 553,
+      "sha256": "f2df392f0050867ed2198e2824750d12e6a2a51f5cf6e2f603eb4f6c325ab7d9"
+    },
+    {
+      "path": "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+      "bytes": 2494,
+      "sha256": "5f2d207a728b6c8a68d3e33ad767290b1bfd94a2b464250a0ce691e76a4fd7c7"
+    },
+    {
+      "path": "cap03/3.5.5-temperatura-azioni-termiche-sugli-edifici.md",
+      "bytes": 1251,
+      "sha256": "2613cf4b3049901100e21728a6a88dba55ee011f8fd9bccc68e87e0979865db1"
+    },
+    {
+      "path": "cap03/3.5.6-temperatura-particolari-precauzioni-nel-progetto-di-strutture-soggette-ad-azioni.md",
+      "bytes": 722,
+      "sha256": "28479b8b43f1d891b0d4ccf31fc8f54730566c49eae9cf9414ab07c3fab5f9ea"
+    },
+    {
+      "path": "cap03/3.5.7-temperatura-effetti-delle-azioni-termiche.md",
+      "bytes": 971,
+      "sha256": "e51f8561ff072ad710575ab92502dea4704a0cbf3f4be31209c8ea23b8c50ea3"
+    },
+    {
+      "path": "cap03/img/fig-3.5.1-zone-temperatura-mappa.png",
+      "bytes": 716633,
+      "sha256": "fec8da7e6de1b4009d6d7a79ce88e7d0c136bd252e5242f5f5a8ab25536f7ff1"
+    },
+    {
+      "path": "cap03/img/fig-3.5.2-temperatura-elemento-schema.png",
+      "bytes": 23931,
+      "sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02"
+    }
+  ]
+}

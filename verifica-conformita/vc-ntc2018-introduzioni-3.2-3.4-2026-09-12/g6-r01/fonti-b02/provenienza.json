@@ -1,0 +1,65 @@
+{
+  "firma": "CDX",
+  "prove_fonte": [
+    {
+      "file": "fonte-circ-54-area-01-600dpi.png",
+      "pagina": "circ:54",
+      "bbox_pdf": [
+        68,
+        343,
+        245,
+        403
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "4779e6214d3cb2091ecaa17112fff9ff3e83ebfcb7f36a45fc19e1ad5a8dc0f6"
+    },
+    {
+      "file": "fonte-circ-76-area-02-600dpi.png",
+      "pagina": "circ:76",
+      "bbox_pdf": [
+        68,
+        88,
+        265,
+        135
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "c0ee609cb51616e683c09555e5b17b1e2a812858aaf47cf80f1cf0fae91902fd"
+    },
+    {
+      "file": "fonte-ntc-56-area-03-600dpi.png",
+      "pagina": "ntc:56",
+      "bbox_pdf": [
+        65,
+        88,
+        245,
+        115
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "sha256": "d5e4a3aa3a1c89a60c68324452f4b461bb9d79e6bfc23beaaf38b85ec4a4154a"
+    },
+    {
+      "file": "fonte-ntc-61-area-04-600dpi.png",
+      "pagina": "ntc:61",
+      "bbox_pdf": [
+        68,
+        86,
+        250,
+        114
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "sha256": "3a573f1b0e7d74368275b4d3a2b175219c5d359d034f0faccf6a2e04e7bd168c"
+    }
+  ]
+}

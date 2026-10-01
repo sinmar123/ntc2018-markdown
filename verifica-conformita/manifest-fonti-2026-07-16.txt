@@ -1,0 +1,53 @@
+MANIFEST FONTI — VERIFICA DI CONFORMITÀ NTC 2018 (protocollo VC-8, sottoprotocollo VC8-G4-TF)
+Progetto: normativa/ntc2018--norme-costruzioni
+Data calcolo hash: 2026-07-16 13:23 (ora locale) — algoritmo SHA-256 (Python 3.10.10, hashlib)
+Compilato da: Claude Code (CC), modello Fable 5
+Occasione: avvio pilota C8 — lotti C8-T01 (Tabelle C8.5.I-C8.5.II) e C8-F01 (Formule C8.5.4.1-C8.5.4.3 e definizioni collegate)
+
+------------------------------------------------------------------------------
+FONTE 1 — NORMA
+Nome file    : NTC_18 con segnalibri (X.x.x.).pdf
+Percorso     : normativa/ntc2018--norme-costruzioni/raw/NTC_18 con segnalibri (X.x.x.).pdf
+SHA-256      : 54deff30c1584d81ead95b8bdcabd57b5553e187d24949963fb2c1f518180684
+Dimensione   : 10.350.910 byte
+Pagine       : 372
+Atto         : D.M. Infrastrutture 17 gennaio 2018 — "Aggiornamento delle «Norme tecniche
+               per le costruzioni»" (NTC 2018)
+Pubblicazione: Supplemento ordinario n. 8 alla Gazzetta Ufficiale n. 42 del 20-02-2018,
+               Serie generale (edizione GU; intestazione verificata sulla prima pagina del PDF)
+
+------------------------------------------------------------------------------
+FONTE 2 — CIRCOLARE
+Nome file    : Circolare-7-2019-NTC.pdf
+Percorso     : normativa/ntc2018--norme-costruzioni/raw/Circolare-7-2019-NTC.pdf
+SHA-256      : f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c
+Dimensione   : 50.658.045 byte
+Pagine       : 348
+Atto         : Circolare 21 gennaio 2019, n. 7 C.S.LL.PP. — "Istruzioni per l'applicazione
+               dell'«Aggiornamento delle Norme tecniche per le costruzioni» di cui al
+               decreto ministeriale 17 gennaio 2018"
+Pubblicazione: Supplemento ordinario n. 5 alla Gazzetta Ufficiale n. 35 dell'11-02-2019,
+               Serie generale (edizione GU; intestazione verificata sulla prima pagina del PDF)
+Nota pagine  : pagina stampata GU = pagina file PDF - 4 (es. p. PDF 261 = p. GU 257)
+
+------------------------------------------------------------------------------
+SNAPSHOT MARKDOWN E REGISTRO AL MOMENTO DEL CONGELAMENTO (pre-audit)
+File         : cap08/8-esistenti.md
+SHA-256      : 9d2334c028ef25c483246216033da432d8064127c4dc38f4ea30eea10b2ef9c0
+Dimensione   : 270.031 byte
+Stato        : snapshot PRE-correzioni del pilota; copia in
+               _tmp_render/cap08/conformita-tabelle-formule-20260716-r01/markdown/
+
+File         : registro-dettaglio-verifica-ntc2018.csv
+SHA-256      : bda5d718f9cb3f9ed1683c3005554e62fb2328473241fb27e171dde9b48b5830
+Dimensione   : 566.967 byte
+Stato        : versione al congelamento dello scope (1.724 unità, prima dell'aggiornamento
+               delle righe pilota)
+
+------------------------------------------------------------------------------
+Cartella di audit del pilota:
+_tmp_render/cap08/conformita-tabelle-formule-20260716-r01/
+(fonte/, passaggio-a/, passaggio-b/, markdown/, diff/, tavole/, registro.md, ambiente.txt)
+
+Il presente manifest congela le fonti del pilota C8-T01/C8-F01. Ogni verifica successiva
+che riscontri hash diversi deve aprire un nuovo snapshot e non aggiornare questo file.

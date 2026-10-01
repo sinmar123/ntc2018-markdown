@@ -1,0 +1,21 @@
+{
+  "firma": "Codex / CDX, coordinamento tecnico",
+  "data": "2026-09-11",
+  "indici": {
+    "comando": "python -X utf8 strumenti/genera-indici-interni.py --verifica",
+    "exit_code": 0,
+    "file": 311,
+    "collegamenti_interni": 1754,
+    "esito": "OK"
+  },
+  "registro": {
+    "comando": "python -X utf8 strumenti/lint-registro-verifica.py",
+    "exit_code": 0,
+    "righe": 379,
+    "colonne": 11,
+    "errori": 0,
+    "avvisi": 1,
+    "descrizione_avviso": "35 file residui pre-ricomposizione non indicizzati, già censiti dall'allineamento GROK e fuori dal perimetro normativo attivo."
+  },
+  "nota": "Risultati delle esecuzioni dopo le cinque correzioni E r02. Una precedente invocazione con --check è stata respinta dal parser senza modifiche; l'opzione effettiva è --verifica. Il giudizio visivo G5 è riservato a C e non deriva da questi controlli."
+}

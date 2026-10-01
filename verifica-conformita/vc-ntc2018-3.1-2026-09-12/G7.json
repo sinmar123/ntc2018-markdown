@@ -1,0 +1,26 @@
+{
+  "firma": "Codex (CDX), verificatore V indipendente",
+  "giudizio_g7": "OK",
+  "scope": "3.1",
+  "snapshot_sha256": "eed07e9a0857055ac55c4e03cdd2413ec08575d2e3434cb847522a39651f80de",
+  "manifest_sha256": "54bc37ba8532beb669e3cd4c79a14ab8a19cc6d33365846db3aac20d9a553b7f",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "motivazione": "Riconciliazione finale positiva. C ha delimitato due sole rubriche e ha chiuso, dopo approvazione di Sandro, i due ERR-MD iniziali di presentazione, riconfrontando il diff completo senza modifiche estranee. G1 combina la ricognizione del 2026-09-09 con il ricontrollo mirato del 2026-09-12. V ha operato in contesto indipendente con inventario fonte-prima congelato prima della rivelazione e G6 integrale sullo snapshot finale: 2/2 elementi coperti, esito OK, zero rilievi. Piano e verbale proposto concordano su perimetro, ruoli, snapshot, manifest integro 40/40 e registrazione della sola riga 3.1 come VC-OK.",
+  "limiti": [
+    "G7 è una riconciliazione documentale sul fascicolo compatto; i punti fonte-target già coperti integralmente in G6 non sono stati riverificati.",
+    "La ricognizione G1 è riferita al 2026-09-09 con ricontrollo mirato del 2026-09-12; la data del verbale non ne estende l'orizzonte temporale.",
+    "Controlli eseguiti da agenti AI; nessuna revisione umana integrale.",
+    "XLSX escluso per ordine dell'utente; consumi dello scope non consolidati.",
+    "Resa di viewer diversi da quello canonico nei limiti del catalogo delle normalizzazioni."
+  ]
+}

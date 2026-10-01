@@ -1,0 +1,37 @@
+{
+  "versione": 1,
+  "scope": "3.4.4",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\cap03\\3.4.4-neve-coefficiente-di-esposizione.md",
+  "snapshot_sha256": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448",
+  "clean_sha256": "b9b2483b5fc70437c940edf075c674d7fa6786c82683a454bfc59105a15103b2",
+  "procedura_sha256": "3ed1723a25f875fad7632b5a7b7ce773d435dcb685fec938ea18df2524be93db",
+  "catalogo_sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6",
+  "fonti": {
+    "ntc": {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        63
+      ]
+    }
+  },
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:63"
+      ],
+      "righe": [
+        [
+          1,
+          11
+        ]
+      ],
+      "limiti": "Solo il paragrafo 3.4.4: dalla sua rubrica fino al termine della tabella che lo segue, prima della rubrica 3.4.5. Sono escluse tutte le parti precedenti e successive presenti sulla pagina.",
+      "target_sha256": "b9b2483b5fc70437c940edf075c674d7fa6786c82683a454bfc59105a15103b2",
+      "assets": [],
+      "manifest_fonte_sha256": "f49408ee703a6ac8a3c53e446e6bd1fa472a99eb7f9cc4efb1f33666962adce2"
+    }
+  ]
+}

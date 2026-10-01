@@ -1,0 +1,27 @@
+{
+  "firma": "Codex (CDX), verificatore V indipendente",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "V-NTC-3.1-RUBRICA",
+      "pagina": "ntc:46",
+      "riferimento": "parte alta della pagina, rubrica completa 3.1 OPERE CIVILI E INDUSTRIALI; controllato integralmente l'intero blocco entro il confine che termina prima della rubrica 3.1.1; nessuna prosa, formula, condizione, figura o didascalia nel perimetro"
+    },
+    {
+      "id": "V-CIRC-C3.1-RUBRICA",
+      "pagina": "circ:46",
+      "riferimento": "parte alta della pagina, rubrica completa C3.1 OPERE CIVILI ED INDUSTRIALI; controllato integralmente l'intero blocco entro il confine che termina prima della rubrica C3.1.3; nessuna prosa, formula, condizione, figura o didascalia nel perimetro"
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:46",
+      "riferimento": "testatina editoriale superiore e ogni contenuto dalla rubrica 3.1.1 GENERALITÀ in avanti, inclusi prosa, tabella e rubriche successive"
+    },
+    {
+      "pagina": "circ:46",
+      "riferimento": "testatina editoriale superiore e ogni contenuto dalla rubrica C3.1.3 CARICHI PERMANENTI NON STRUTTURALI in avanti, incluse prosa e rubriche successive"
+    }
+  ],
+  "dubbi": []
+}

@@ -1,0 +1,14 @@
+{
+  "agente": "CDX",
+  "avvio": "2026-09-05T12:12:28.888827+02:00",
+  "fonte": {
+    "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+    "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+  },
+  "target": {
+    "path": "cap03/3.4.4-neve-coefficiente-di-esposizione.md",
+    "sha256": "e36dc2c928373cc3093e14abb9b1937d5862243b1fce2555ddc4debf6e8dc929"
+  },
+  "procedura_sha256": "3ed1723a25f875fad7632b5a7b7ce773d435dcb685fec938ea18df2524be93db",
+  "catalogo_sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+}

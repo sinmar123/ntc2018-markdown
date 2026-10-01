@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T10:11:51+02:00",
+  "richiesta": "vc-345-g7-r05.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (7 user messages, 171 total messages)\nOsservato: la directory portabile contiene 62 file, come dichiarato dal manifest finale e dall’evidenza esterna. Le impronte dichiarate di target, fonti, render, procedura, catalogo e pacchetto G6 coincidono con la catena R03-R04. Le copie ricollocate direttamente controllate conservano contenuto e dimensioni delle evidenze precedenti.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7 finale: OK\n\nG0-G7: tutti OK\nRilievi aperti: nessuno\n\nImpronta del manifest finale:\n\n307297ef683a92a1372c5afdddec779d3efb7153e428a29cfe7d53ba51ae0ea8\n\nNon ho ricalcolato autonomamente le impronte: ho importato l’impronta e l’esito di integrità dall’output dello script conservato in impronta-manifest-finale.json. Non ho rieseguito G6, inventario, render, confronto o ricognizione di vigenza.\n\nNon ho rifatto l’inventario e non ho modificato altre evidenze.\n\nsession_id: 20260909_165403_00ba4e\ngiudizio-g7.json scritto\n"
+}

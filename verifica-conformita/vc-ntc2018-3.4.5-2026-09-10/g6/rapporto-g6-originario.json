@@ -1,0 +1,45 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "esito": "KO",
+  "coperti": [
+    "NTC63-RUB-001",
+    "NTC63-PRO-001",
+    "NTC63-FOR-001",
+    "NTC63-CON-001",
+    "CIRC81-RUB-001",
+    "CIRC81-PRO-001",
+    "CIRC81-CON-001",
+    "CIRC81-PRO-002",
+    "CIRC81-CON-002",
+    "CIRC81-PRO-003",
+    "CIRC81-CON-003"
+  ],
+  "normalizzazioni": [
+    1,
+    2,
+    3,
+    11
+  ],
+  "rilievi": [
+    {
+      "id": "CIRC81-PRO-001",
+      "pagina": "circ:81",
+      "posizione": "Primo capoverso del § C3.4.5.",
+      "prova": "Fonte e testo.md coincidono integralmente sul capoverso da «L’adozione di valori» a «linea generale.». Il riferimento congelato dell’ID indica invece gli estremi «Valori del coefficiente» ed «edifici», che non delimitano quel capoverso. Difetto dell’inventario, non del corpus.",
+      "classe_proposta": "ERR-AUDIT"
+    }
+  ],
+  "letture": [
+    "/blocco/ISTRUZIONI-V.md",
+    "/blocco/PERIMETRO.md",
+    "/blocco/canone.md",
+    "/blocco/input-confronto.json",
+    "/blocco/inventario.json",
+    "/blocco/fonte-ntc-63.png",
+    "/blocco/fonte-circ-81.png",
+    "/blocco/testo.md",
+    "/blocco/resa-target/render-3.4.5.pdf",
+    "/blocco/resa-target/render-3.4.5-200dpi.png"
+  ],
+  "isolamento": "Confronto integrale limitato ai file consegnati in /blocco. Nessun accesso a coordinamento.json, workspace o rapporti esterni. Gli apparati di navigazione della resa sono stati esclusi ai sensi della normalizzazione 11. Il testo normativo e la resa visiva risultano conformi alle due fonti; il KO dipende esclusivamente dal rilievo ERR-AUDIT sull’inventario congelato."
+}

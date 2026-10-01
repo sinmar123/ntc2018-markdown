@@ -1,0 +1,55 @@
+[
+  {
+    "query": "site:gazzettaufficiale.it \"17 gennaio 2018\" \"Norme tecniche per le costruzioni\" modifica",
+    "result": {
+      "success": true,
+      "data": {
+        "web": [
+          {
+            "url": "https://newsletter.gazzettaufficiale.it/archivio/2019/newsletter_3_2019.html",
+            "title": "<newsletter_3_2019> - Gazzetta Ufficiale",
+            "description": "... Norme tecniche per le costruzioni\"» di cui al decreto ministeriale 17 gennaio 2018. Decreto semplificazione, conversione in Legge. In G.U. n. 36 del 12 ...",
+            "position": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "query": "site:gazzettaufficiale.it \"Circolare 21 gennaio 2019, n. 7\" modifica NTC",
+    "result": {
+      "success": true,
+      "data": {
+        "web": [
+          {
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.dataPubblicazioneGazzetta=2022-09-22&atto.codiceRedazionale=22A05323&atto.tipoProvvedimento=ORDINANZA",
+            "title": "Untitled",
+            "description": "... NTC 2018, cosi' come precisato al punto C.8.4.3 della circolare n. 7 del 21 gennaio 2019». Ha concluso, dunque, invitando il Comune di Tolentino, alla luce ...",
+            "position": 1
+          },
+          {
+            "url": "http://www.gazzettaufficiale.it/atto/concorsi/caricaDettaglioAtto/originario;jsessionid=M7a-mrufknXZ5Kz+MtBfdw__.ntc-as3-guri2a?atto.dataPubblicazioneGazzetta=2019-11-15&atto.codiceRedazionale=19E13935",
+            "title": "ministero della difesa - Gazzetta Ufficiale",
+            "description": "e successive modifiche e integrazioni e, in particolare, il libro IV, contenente le norme per il reclutamento del personale militare;",
+            "position": 2
+          },
+          {
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario;jsessionid=MWZTQ+4623TI5IH2C25Heg__.ntc-as1-guri2b?atto.dataPubblicazioneGazzetta=2013-07-16&atto.codiceRedazionale=13A06115&elenco30giorni=false",
+            "title": "ministero della salute - Gazzetta Ufficiale",
+            "description": "Autorizzazione all'immissione in commercio del prodotto fitosanitario «Zolfo Ventilato Ramato S MCT». (13A06115) (GU Serie Generale n.165 del 16 ...",
+            "position": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "query": "site:gazzettaufficiale.it 18A00716 rettifica errata corrige",
+    "result": {
+      "success": true,
+      "data": {
+        "web": []
+      }
+    }
+  }
+]

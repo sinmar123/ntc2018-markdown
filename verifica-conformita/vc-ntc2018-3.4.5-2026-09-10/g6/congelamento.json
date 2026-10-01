@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-09T17:04:44.327096+00:00",
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "inventario_sha256": "70fc44ed20f24ecf4b67b1ad242d457ca9e2299b9721852eccc7e4521a6865d2",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "a151d996e38cbad05c2920f7a228b68a3e21b7b7813238e4ee34e071b6230a33"
+}

@@ -1,0 +1,31 @@
+{
+  "tipo": "rettifica_append_only_inventario",
+  "firma": "Hermes NTC-VC / HRM",
+  "procedura": "VC-NTC/3 §§ 7-8",
+  "inventario_originale_sha256": "70fc44ed20f24ecf4b67b1ad242d457ca9e2299b9721852eccc7e4521a6865d2",
+  "input_confronto_sha256": "880b71f0ba7fd08fda1b99a2589065d08753fdc3472bdef73aa9a8ab0fae05a8",
+  "rapporto_g6_originale_sha256": "8c0282e4a2bd5383e714e3220a794fa08be17ca9afac4e2af8073664b89f911d",
+  "adjudicazione": {
+    "rilievo": "CIRC81-PRO-001",
+    "classe": "ERR-AUDIT",
+    "natura": "errore descrittivo nella sola mappatura dell'inventario congelato",
+    "copertura_mancante": false,
+    "target_modificato": false,
+    "fonti_modificate": false,
+    "asset_modificati": false,
+    "manifest_congelato_modificato": false,
+    "rapporto_g6_originale_modificato": false,
+    "azione": "rettifica append-only e verifica dell'evidenza interessata, senza nuovo G6 integrale"
+  },
+  "rettifica": {
+    "id": "CIRC81-PRO-001",
+    "pagina": "circ:81",
+    "campo": "riferimento",
+    "valore_congelato": "Primo capoverso del § C3.4.5, da «Valori del coefficiente» a «edifici»; controllo integrale.",
+    "valore_rettificato": "Primo capoverso del § C3.4.5, da «L’adozione di valori» a «linea generale.»; controllo integrale."
+  },
+  "motivazione": "Il rapporto G6 R03 attesta che V ha confrontato integralmente il capoverso corretto contro la pagina fonte, testo.md, PDF e PNG e che testo e resa sono conformi. Il difetto riguarda soltanto gli estremi descrittivi dell'ID congelato. L'inventario originale resta immutato; questa aggiunta ne rettifica la lettura ai fini della catena delle evidenze.",
+  "giro_g6": 2,
+  "max_giri": 3,
+  "stato": "DA_VERIFICARE_DA_V"
+}

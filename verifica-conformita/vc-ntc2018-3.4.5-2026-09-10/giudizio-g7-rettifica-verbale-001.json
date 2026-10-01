@@ -1,0 +1,54 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "giudizio_g7": "OK",
+  "scope": "3.4.5",
+  "snapshot_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+  "manifest_sha256": "e338cac1d900f68473c48e30f7dfe11a6070cd4abf4649d8faf39415759a4586",
+  "manifest_rettifica_sha256": "93e838f8f5ecd8c17e512c25282992289d0177792dc209b4710de0d0df471984",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "anomalie": [
+    {
+      "id": "AF-3.4.5-01",
+      "classe": "A/AF",
+      "pagina": "Circolare, pagina fisica 81",
+      "prova": "Il secondo capoverso del § C3.4.5 termina con 1 W/m²K° senza punto fermo; il target conserva la medesima assenza.",
+      "stato": "CONSERVATA"
+    }
+  ],
+  "rilievi_aperti": [],
+  "riscontrato": [
+    "La rettifica dichiara esplicitamente la natura AI delle attività C, E e V, l’assenza di revisione umana integrale e il container separato del canale V privo del montaggio /workspace.",
+    "La pagina fonte osservata mostra l’assenza del punto dopo 1 W/m²K° e target.md conserva esattamente tale forma; la classificazione A/AF è coerente con il canone e non ricade in N, AF-COR o ERR-MD.",
+    "La rettifica riporta gli URL ufficiali del D.M. 17 gennaio 2018, della Circolare n. 7/2019 e del D.M. 9 marzo 2023, incluso l’articolo 1; coincidono con quelli documentati nel rapporto G0-G1.",
+    "Verbale originario, target, rapporto G6 e giudizio base R06 conservano le impronte dichiarate nel manifest della rettifica; l’evidenza esterna attesta integrità OK."
+  ],
+  "non_riscontrato": [
+    "Non ho verificato tecnicamente a posteriori il montaggio storico del container: ne ho riscontrato l’attestazione documentale e la coerenza con le letture registrate.",
+    "Non ho ricalcolato autonomamente le impronte né aperto gli URL sul web; ho confrontato i valori e gli URL presenti nelle evidenze consegnate.",
+    "Non ho rieseguito G6, inventario, render o confronto, come prescritto dalla consegna R07."
+  ],
+  "motivazione": "La rettifica append-only integra tutti e tre i punti richiesti senza modificare verbale originario, target, fonti, G6 o manifest base. L’anomalia AF-3.4.5-01 è leggibile nella fonte e conservata nel target; natura AI, revisione umana, isolamento e URL ufficiali sono dichiarati puntualmente. Il manifest della rettifica è attestato integro e non emergono rilievi aperti.",
+  "letture": [
+    "/blocco/g7/rettifica-verbale-001/ISTRUZIONI-G7-R07.md",
+    "/blocco/g7/rettifica-verbale-001/rettifica-001-verbale.md",
+    "/blocco/g7/rettifica-verbale-001/verbale-originario.md",
+    "/blocco/g7/rettifica-verbale-001/manifest-rettifica-001.json",
+    "/blocco/g7/rettifica-verbale-001/impronta-manifest-rettifica-001.json",
+    "/blocco/g7/rettifica-verbale-001/giudizio-g7-base-r06.json",
+    "/blocco/g7/rettifica-verbale-001/rapporto-g6-r03.json",
+    "/blocco/g7/rettifica-verbale-001/rapporto-c-g0-g1.md",
+    "/blocco/g7/rettifica-verbale-001/target.md",
+    "/blocco/g7/rettifica-verbale-001/normalizzazioni-congelate.md",
+    "/blocco/g7/rettifica-verbale-001/fonte-circolare-p81.png"
+  ],
+  "isolamento": "Verifica limitata a /blocco/g7/rettifica-verbale-001. Non ho aperto percorsi esterni, non ho rifatto l’inventario e non ho modificato verbale, fonti, target, manifest, G6 o adjudicazioni. Ho sovrascritto esclusivamente /blocco/giudizio-g7.json come richiesto."
+}

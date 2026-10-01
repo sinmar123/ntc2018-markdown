@@ -1,0 +1,11 @@
+{
+  "tipo": "chiusura_esterna_manifest_g7",
+  "firma": "Hermes NTC-VC / HRM",
+  "manifest": "manifest-rilascio-r03.json",
+  "manifest_sha256": "17a29d8ea850ef95cbf07a0e242c8e59392cf2e85eb138c9b1ecf7062e97145a",
+  "files": 54,
+  "integrita": "OK",
+  "comando": "python strumenti/vc-supporto.py verifica-manifest /opt/data/vc-ntc-3.4.5-g6-r03/b01/g7 /opt/data/vc-ntc-3.4.5-g6-r03/b01/g7/manifest-rilascio-r03.json",
+  "esito_comando": "exit code 0; files 54; integrita OK; giudizio_vc NON_EMESSO",
+  "nota": "Questa evidenza è esterna al manifest per evitare autoreferenze, come prescritto dal § 9. Manifest e file da esso elencati non sono stati modificati dopo il calcolo."
+}

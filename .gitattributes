@@ -1,0 +1,3 @@
+# Nessuna conversione dei finali di riga, su nessuna macchina: le VC misurano
+# l'impronta SHA-256 dei file, e il W520 ha core.autocrlf=true di sistema.
+* -text

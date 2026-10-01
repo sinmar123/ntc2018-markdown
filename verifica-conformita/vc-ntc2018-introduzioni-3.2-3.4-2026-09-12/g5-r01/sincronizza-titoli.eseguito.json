@@ -1,0 +1,12 @@
+{
+  "fase": "SCRITTO",
+  "scope": "3-introduzioni-3.2-3.4",
+  "righe": [
+    "3.2",
+    "3.3",
+    "3.4"
+  ],
+  "titoli_aggiornati": 3,
+  "file": "registro-verifica-conformita-ntc2018.csv",
+  "controlli": "OK"
+}

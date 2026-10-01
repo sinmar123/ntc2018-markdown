@@ -1,0 +1,27 @@
+[
+  {
+    "path": "cap03/3.5-introduzione.md",
+    "sha256": "cd3ef8bd12279d9f23f2155ff6da3a197fe86c7df13412ddeba04866d42dd759",
+    "bytes": 941
+  },
+  {
+    "path": "cap03/3.5.2-temperatura-temperatura-dell-aria-esterna.md",
+    "sha256": "40c612d2d4d0379b043d7e52b722b42c7a9d66e78381dd08e1d65496f88144c0",
+    "bytes": 3454
+  },
+  {
+    "path": "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+    "sha256": "c56600cbac9e61efd11d8f8ee58dfbf51501ce9ab001270b1d0ad1f6ea3efacd",
+    "bytes": 2472
+  },
+  {
+    "path": "cap03/annotazioni/README.md",
+    "sha256": "2102b9a19435cf077c2e13c8f3c22824499eb0a9e2eebd682028a0025768ed85",
+    "bytes": 5763
+  },
+  {
+    "path": "cap03/img/fig-3.5.1-zone-temperatura-mappa.png",
+    "sha256": "ba010c97226194cd779a206e0dbf2e9343b0f188c7fa4f2b81343693c2a1f118",
+    "bytes": 747410
+  }
+]

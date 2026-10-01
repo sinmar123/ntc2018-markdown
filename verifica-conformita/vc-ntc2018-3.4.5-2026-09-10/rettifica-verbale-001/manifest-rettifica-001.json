@@ -1,0 +1,55 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-G7-R07.md",
+      "bytes": 1175,
+      "sha256": "640ee3e1cba50bd8f7ab351f0560fda25d7e3fe7a8eecdcebe27172d029d7de8"
+    },
+    {
+      "path": "PROCEDURA-VC-r03-congelata.md",
+      "bytes": 34040,
+      "sha256": "4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c"
+    },
+    {
+      "path": "fonte-circolare-p81.png",
+      "bytes": 1345893,
+      "sha256": "88cfbd26977364f00a8c05c6ad883abe0476082ad8c15094e0e6929c9774b8e6"
+    },
+    {
+      "path": "giudizio-g7-base-r06.json",
+      "bytes": 2708,
+      "sha256": "bafadafecdc3001439ba5d26523e72a0fd6aab1195e79d23159aa7d6cf1d937e"
+    },
+    {
+      "path": "normalizzazioni-congelate.md",
+      "bytes": 5485,
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+    },
+    {
+      "path": "rapporto-c-g0-g1.md",
+      "bytes": 3756,
+      "sha256": "63e171589ec7665c0b8c61b367a3f6565815604c3978e847180e1d4a1ee08b6f"
+    },
+    {
+      "path": "rapporto-g6-r03.json",
+      "bytes": 1626,
+      "sha256": "8c0282e4a2bd5383e714e3220a794fa08be17ca9afac4e2af8073664b89f911d"
+    },
+    {
+      "path": "rettifica-001-verbale.md",
+      "bytes": 3274,
+      "sha256": "21c410847bdb497c9c3af8500fd697e700b735f9bf38773e9e1ad0c327eb710c"
+    },
+    {
+      "path": "target.md",
+      "bytes": 1557,
+      "sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5"
+    },
+    {
+      "path": "verbale-originario.md",
+      "bytes": 6288,
+      "sha256": "8a89b8834b51b3a9102d8308fbb25a3165533e4729d343da155b8ed334abcd2b"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "fonte-ntc-vettoriale.pdf",
+      "bytes": 1299304,
+      "sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 900,
+      "sha256": "cb2c0f7f6c2435346675032dc835617fc0e942575ae91ad3ea306d0cffa8f904"
+    }
+  ]
+}

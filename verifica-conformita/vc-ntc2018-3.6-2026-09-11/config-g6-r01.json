@@ -1,0 +1,153 @@
+{
+  "scope": "3.6",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\target-scope.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id": "circ",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        81,
+        82,
+        83
+      ]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:66",
+        "ntc:67",
+        "ntc:68"
+      ],
+      "righe": [
+        [
+          1,
+          149
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 3.6 nella pagina fisica 66 fino alla fine del paragrafo 3.6.1.5.4 nella pagina fisica 68. In pagina 66 escludere tutto ciò che precede la rubrica 3.6. Intestazioni e piè di pagina della Gazzetta non appartengono al testo del paragrafo.",
+      "assets": [
+        {
+          "name": "resa-target/target-blocco.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b01\\target-blocco.pdf",
+          "sha256": "699b26c9274695d43aee9e5efb9848eb293f8637f8cd805db9c9b5fa2dac5b74"
+        },
+        {
+          "name": "resa-target/target-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b01\\target-p01-200dpi.png",
+          "sha256": "2e4035df6621cf87dcdf589ba292475b45ea8f776003d9f98a391f2471b8386d"
+        },
+        {
+          "name": "resa-target/target-p02-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b01\\target-p02-200dpi.png",
+          "sha256": "d64edb98e7b094c3ba1c4a08f6a1fb31090f8ec28f404be48f5269cf6b12b7d9"
+        },
+        {
+          "name": "resa-target/target-p03-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b01\\target-p03-200dpi.png",
+          "sha256": "67d6b11f923273cee90fb4338ccbbff9aa78868c1635eafaff0118a025f44827"
+        },
+        {
+          "name": "resa-target/target-p04-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b01\\target-p04-200dpi.png",
+          "sha256": "f9f5391186e6d58704b78b88080e056791a49c1535ed7f816b35bf6b6e590f8a"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "pagine": [
+        "ntc:69",
+        "ntc:70",
+        "ntc:71"
+      ],
+      "righe": [
+        [
+          150,
+          305
+        ]
+      ],
+      "limiti": "NTC: interi paragrafi 3.6.2 e 3.6.3 nelle pagine fisiche 69-71, dalla rubrica 3.6.2 al termine del 3.6.3.5. Intestazioni e piè di pagina della Gazzetta non appartengono al testo del paragrafo.",
+      "assets": [
+        {
+          "name": "resa-target/target-blocco.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b02\\target-blocco.pdf",
+          "sha256": "d9ec2ff6d5ef41055e5c63dea2520f9c5ff1aa08876e13b74691099f4299ddf8"
+        },
+        {
+          "name": "resa-target/target-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b02\\target-p01-200dpi.png",
+          "sha256": "773fd2a327d0cada74d8f354b23c7fbe310f7ccc7ce5bd57807efa38d6283cc0"
+        },
+        {
+          "name": "resa-target/target-p02-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b02\\target-p02-200dpi.png",
+          "sha256": "d95a22905cb9f0bd9efa84b6f3b22a6e4179036a34e8aad03df7f77297eb500e"
+        },
+        {
+          "name": "resa-target/target-p03-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b02\\target-p03-200dpi.png",
+          "sha256": "8f0d90bc85e2657b7af78876ba25ecb683ef377620e0e95f93f45eae425bac3b"
+        },
+        {
+          "name": "resa-target/target-p04-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b02\\target-p04-200dpi.png",
+          "sha256": "d93f3c0c7be2767426696e7380f35f972c15eea93218ca9cb55cf40e6ef2fb07"
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "pagine": [
+        "circ:81",
+        "circ:82",
+        "circ:83"
+      ],
+      "righe": [
+        [
+          306,
+          387
+        ]
+      ],
+      "limiti": "Circolare: dalla rubrica C3.6 nella pagina fisica 81 fino al termine del paragrafo C3.6.2.3 nella pagina fisica 83. In pagina 81 escludere tutto ciò che precede la rubrica C3.6. Intestazioni e piè di pagina della Gazzetta non appartengono al testo del paragrafo.",
+      "assets": [
+        {
+          "name": "resa-target/target-blocco.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b03\\target-blocco.pdf",
+          "sha256": "5007c43f52d61999c53dad057dd904a85fa4ecb65ac7ed29c9280ee23d0abadd"
+        },
+        {
+          "name": "resa-target/target-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b03\\target-p01-200dpi.png",
+          "sha256": "e20a5ceac59ebf08f6c153ba1fc43e529830a6f6ccf26bba413f4b476a2df328"
+        },
+        {
+          "name": "resa-target/target-p02-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b03\\target-p02-200dpi.png",
+          "sha256": "5b82971a209ac0db6d42cbf4e7dd7debd2d27a2c8b42d364f5ff0b273afaa424"
+        },
+        {
+          "name": "resa-target/target-p03-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b03\\target-p03-200dpi.png",
+          "sha256": "1b1789b519ad504d7e56a31e8be81889c99ec58b22a116b72e8580b05df890c1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "firma": "Codex (CDX), verificatore V indipendente b01",
+  "esito": "KO",
+  "coperti": [
+    "B01-NTC49-R01","B01-NTC49-P01","B01-NTC49-P02","B01-NTC49-P03","B01-NTC49-D01","B01-NTC49-P04",
+    "B01-C46-R01","B01-C46-P01","B01-C46-P02","B01-C46-P03","B01-C46-P04","B01-C46-P05","B01-C46-P06",
+    "B01-C47-P07","B01-C47-P08","B01-C47-D01","B01-C47-P09","B01-C47-P10","B01-C47-F01","B01-C47-CAP01","B01-C47-F02","B01-C47-CAP02","B01-C47-F03","B01-C47-CAP03"
+  ],
+  "normalizzazioni": [1,2,10],
+  "rilievi": [
+    {
+      "id": "B01-C46-P02",
+      "pagina": "circ:46",
+      "posizione": "capoverso «Il dato di partenza», sigla finale INGV",
+      "prova": "fonte-circ-46.png stampa INGV in tondo regolare; testo.md:21 aggiunge grassetto (**INGV**) e resa-target-01.png lo rende in grassetto",
+      "classe_proposta": "ERR-MD"
+    },
+    {
+      "id": "B01-C47-P09",
+      "pagina": "circ:47",
+      "posizione": "capoverso «Il valore di a_g», sigla INGV",
+      "prova": "fonte-circ-47-area-02-600dpi.png stampa INGV in tondo regolare; testo.md:41 aggiunge grassetto (**INGV**) e resa-target-02.png lo rende in grassetto",
+      "classe_proposta": "ERR-MD"
+    },
+    {
+      "id": "B01-C47-P10",
+      "pagina": "circ:47",
+      "posizione": "inizio del capoverso «I valori», secondo simbolo",
+      "prova": "fonte-circ-47-area-02-600dpi.png stampa F con pedice o minuscolo; testo.md:43 contiene $F_O$ e resa-target-02.png rende O maiuscolo al pedice",
+      "classe_proposta": "ERR-MD"
+    },
+    {
+      "id": "B01-C47-P10",
+      "pagina": "circ:47",
+      "posizione": "inizio del capoverso «I valori», terzo simbolo",
+      "prova": "fonte-circ-47-area-02-600dpi.png stampa T con C al pedice e asterisco all'apice; testo.md:43 contiene $T*_{C}$ e resa-target-02.png rende l'asterisco sulla linea di base",
+      "classe_proposta": "ERR-MD"
+    },
+    {
+      "id": "B01-C47-CAP02",
+      "pagina": "circ:47",
+      "posizione": "didascalia della Figura C3.2.1 b, simbolo della grandezza",
+      "prova": "fonte-circ-47-area-04-600dpi.png stampa F con pedice o; testo.md:53 contiene $Fo$ senza pedice e resa-target-02.png lo rende sulla linea di base",
+      "classe_proposta": "ERR-MD"
+    }
+  ],
+  "attestazione": "Confrontati integralmente tutti i 24 ID con le pagine fonte già osservate, testo.md, tre asset e tre pagine di resa. Le tre figure coincidono integralmente con le prove fonte, compresi assi, tacche, nove marker, curve, griglie e unità; gli asset hanno le stesse impronte delle tre prove 600 dpi consegnate. Nessuna omissione o aggiunta ulteriore rilevata.",
+  "letture": {
+    "fonte_gia_letta_nello_stesso_contesto": {
+      "b01": ["ISTRUZIONI-V.md","PERIMETRO.md","canone.md","input-fonte.json","fonte-circ-46.png","fonte-circ-47.png","fonte-ntc-49.png"],
+      "fonti_aggiuntive": ["manifest.json","provenienza.json","fonte-circ-46-area-01-600dpi.png","fonte-circ-47-area-02-600dpi.png","fonte-circ-47-area-03-600dpi.png","fonte-circ-47-area-04-600dpi.png","fonte-circ-47-area-05-600dpi.png","fonte-circ-47-area-06-600dpi.png","fonte-circ-47-area-07-600dpi.png","fonte-circ-47-area-08-600dpi.png","fonte-circ-47-area-09-600dpi.png","fonte-ntc-49-area-10-600dpi.png","fonte-ntc-49-area-11-600dpi.png","fonte-ntc-49-area-12-600dpi.png"]
+    },
+    "target_g6": ["congelamento.json","input-confronto.json","inventario.json","testo.md","img/fig-C3.2.1a-variabilita-ag-TR.png","img/fig-C3.2.1b-variabilita-Fo-TR.png","img/fig-C3.2.1c-variabilita-Tc-TR.png","resa-target-01.png","resa-target-02.png","resa-target-03.png"]
+  },
+  "isolamento": "Isolamento istruttivo rispettato: letti soltanto b01 e le prove fonte aggiuntive autorizzate. Non aperti workspace, coordinamento, altri blocchi, cronologia, rapporti altrui o altri target; nessun input modificato, nuovo render, processo lungo o sottoagente."
+}

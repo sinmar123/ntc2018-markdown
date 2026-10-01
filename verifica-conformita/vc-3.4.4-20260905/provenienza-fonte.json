@@ -1,0 +1,97 @@
+{
+  "firma": "CDX",
+  "pdf": {
+    "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+    "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+  },
+  "pagina_fisica": 63,
+  "clip_pt": [
+    72.0,
+    438.0,
+    555.0,
+    577.0
+  ],
+  "dpi": 600,
+  "metodo": "PyMuPDF get_pixmap dalla pagina PDF; rawdict senza immagini per font, codepoint e coordinate",
+  "immagini_pagina": [
+    {
+      "xref": 1082,
+      "width": 208,
+      "height": 208,
+      "rects": [
+        [
+          323.0,
+          765.0,
+          378.0,
+          820.0
+        ]
+      ]
+    },
+    {
+      "xref": 1083,
+      "width": 208,
+      "height": 208,
+      "rects": [
+        [
+          381.0,
+          765.0,
+          436.0,
+          820.0
+        ]
+      ]
+    },
+    {
+      "xref": 1084,
+      "width": 208,
+      "height": 208,
+      "rects": [
+        [
+          439.0,
+          765.0,
+          494.0,
+          820.0
+        ]
+      ]
+    },
+    {
+      "xref": 1085,
+      "width": 208,
+      "height": 208,
+      "rects": [
+        [
+          497.0,
+          765.0,
+          552.0,
+          820.0
+        ]
+      ]
+    },
+    {
+      "xref": 1080,
+      "width": 439,
+      "height": 324,
+      "rects": [
+        [
+          248.9669952392578,
+          183.2440185546875,
+          346.322998046875,
+          253.030029296875
+        ]
+      ]
+    },
+    {
+      "xref": 1081,
+      "width": 490,
+      "height": 270,
+      "rects": [
+        [
+          204.53700256347656,
+          312.27398681640625,
+          390.75299072265625,
+          414.90997314453125
+        ]
+      ]
+    }
+  ],
+  "immagini_intersecanti": []
+}

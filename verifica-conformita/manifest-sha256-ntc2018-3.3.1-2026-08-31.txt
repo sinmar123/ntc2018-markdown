@@ -1,0 +1,29 @@
+﻿# Manifest SHA-256 - ntc2018-3.3.1 - 2026-08-31
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+f9116d86bd340884e93151d8e295b6e7b06daecc21771bd1e9ca3d13ed00a1ba  4238  cap03/3.3.1-vento-velocita-base-di-riferimento.md
+59efa69fa7c618cc42b35bde4cc9327a2656b720b97ee7380246da7027c13f4c  69477  cap03/img/fig-3.3.1-mappa-zone-vento-ritaglio.png
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+cc049aad0e212ed4e7e90437772dcf4c9e680b0cf804fa28ed07c35f9000b882  2086  _tmp_render/ricomposizione-livello3-20260826/08-riepilogo-finale.md
+fb96efd67502d285e135314cc4043a9911e20b2e69951586495a4ac22a221900  3768  _tmp_render/cap03/vc-3.3.1-20260831/continuita/corrente-depurato.md
+a586b2b412486c0cb4bd0ac5000c709464672f9d512b347f65f3f660aade778e  3796  _tmp_render/cap03/vc-3.3.1-20260831/continuita/staging-depurato.md
+0b22e9cf7ffa457b44edf4f91e13269834eaeaba575178d185355d24d99073bf  2711  _tmp_render/cap03/vc-3.3.1-20260831/continuita/rapporto-riuso-e-controlli.md
+e4a0eb1f3e706be5e712dfe8a5d5867ac5c4f76d8dabb9eaa51a139d7ae42bce  11457  _tmp_render/cap03/vc-3.3-260806/g6-r01/inventario-source-only/inventario-fonte.md
+98ee35f5ceac00d6810c4e528fc00e7b72650105cf29aee907ce17e85b34ab04  5129  _tmp_render/cap03/vc-3.3-260806/g6-r01/04-rilievi-congelati.md
+4210785be03396b83f00d1baf618dc9e2886ff9396fab751af4b086a8e07fb4d  5458  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B01/esito-verificatore.md
+a3d709534ffa5ff6f6931206aaef759fff6c6afea6662641e0472cd3395cc6a7  6816  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B02/esito-verificatore.md
+45a55fc851b089ba2e1f8417c8eedd6b844c0fd82af7e6d89b0d3acda8071537  1437  _tmp_render/cap03/vc-3.3.1-20260831/g6-r01/fonte-prima/inventario-fonte-riusato.md
+a05e9c7185edfb26b207bed5c96d052800155ae4d9570d6699e4ac88d18372fa  733  _tmp_render/cap03/vc-3.3.1-20260831/g6-r01/manifest-ingressi.csv
+9556a4f3a485b8459fe9ee7bd34ec0660a9ddf13622dfac5c14b21750b4753b5  4956  _tmp_render/cap03/vc-3.3.1-20260831/g6-r01/rapporto-g6.md
+a0e215ce296aff74ce124ec9ec21d3f87b7164f6d65e5317aed560fd041286cd  733  _tmp_render/cap03/vc-3.3.1-20260831/g6-r02/manifest-ingressi.csv
+089394fd7b1c5a911fd867ea135fc85eb1944b580bf6a4b32f83015fedf7e3f1  4446  _tmp_render/cap03/vc-3.3.1-20260831/g6-r02/rapporto-g6.md
+b065d2f9433137a93620015070b42ddcd74b5e2b95fa952e0a179c2aac0e2b06  3619  _tmp_render/cap03/vc-3.3.1-20260831/g6-r02/pacchetto/scope.md
+63295f9ec46b8c1caafeb7b7658f3744b00fca45cc6d1190d82f9ba154d92a5a  822432  _tmp_render/cap03/vc-3.3.1-20260831/g6-r02/pacchetto/fonte/ntc-p56.png
+606aeb8a8cdf838ca86f0b08a53a5bf5eff9c86ce203028a1ee268172823211b  826002  _tmp_render/cap03/vc-3.3.1-20260831/g6-r02/pacchetto/fonte/ntc-p57.png
+6f9bc2b395d0eb87b13bb64f754db69f0bf3880df045ff3a2b164d8deaf482c7  933733  _tmp_render/cap03/vc-3.3.1-20260831/g6-r02/pacchetto/fonte/circ-p54.png
+9e93400a628d271adfcca683e28e65bdaa7bb2c8768f6480671e8a169cde7fbe  111024  _tmp_render/cap03/vc-3.3.1-20260831/render-finale.pdf
+68061e1ba6b9d2788d3ad20f0c023bba2da4ea5080cc5323d2a6f298a3e4555f  158391  _tmp_render/cap03/vc-3.3.1-20260831/render-finale-page-1.png
+a134e8394534dee2b2cf6dabba20b7ab01f89b6e2ab8efd977aa2cc4086bd9ae  111588  _tmp_render/cap03/vc-3.3.1-20260831/render-finale-page-2.png
+cdf3c2dd9c2862cde30f631c4c280396c663ea7886f898a2876ca8902e11ac15  181844  _tmp_render/cap03/vc-3.3.1-20260831/render-finale-page-3.png
+b37c4040a05d27474a188c3ee50a1e25a39e2dab28ea467f2b26e097602fa5cd  80025  _tmp_render/cap03/vc-3.3.1-20260831/indici-post-r01/manifest.csv

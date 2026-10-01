@@ -1,0 +1,21 @@
+{
+  "firma": "CDX, preparazione meccanica fonte",
+  "origine": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "origine_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "pagine_originali_fisiche": [
+    81,
+    82,
+    83
+  ],
+  "pagine_estratto_fisiche": [
+    1,
+    2,
+    3
+  ],
+  "metodo": "PyMuPDF insert_pdf, pagine intere preservate senza rasterizzazione",
+  "creato": "2026-09-11T18:27:54.254114+02:00",
+  "file": "fonte-vettoriale.pdf",
+  "bytes": 520241,
+  "sha256": "6aa0e96a08ba07461b3d7d33fa7d54c90b1b6088f4e3da957c84dce243216667",
+  "uso": "Solo fonte ufficiale. I confini neutrali dello scope sono nel PERIMETRO del blocco. Per ogni decisione su glifi, indici, segni o numeri produrre ritagli >=600 dpi e, se necessario, ispezionare font/codifica/posizione dalla pagina. Nessun giudizio o dato target in questo supplemento."
+}

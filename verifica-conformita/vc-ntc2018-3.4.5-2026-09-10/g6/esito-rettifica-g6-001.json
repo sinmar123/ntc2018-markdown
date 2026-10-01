@@ -1,0 +1,21 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "esito": "OK",
+  "rettifica": "rettifica-inventario-001.json",
+  "id": "CIRC81-PRO-001",
+  "verifica": "Gli estremi rettificati, da «L’adozione di valori» a «linea generale.», delimitano integralmente e soltanto il primo capoverso del § C3.4.5. Il capoverso coincide nella fonte circ:81, in testo.md, nel PDF e nella resa PNG, salva la variante ammessa fra apostrofo diritto e curvo. Il valore rettificato chiude il difetto descrittivo dell’inventario senza modificare copertura o corpus. Il contenuto osservato di fonte, target e asset, nonché il manifest input-confronto.json, è invariato rispetto alle letture del G6 R03. Non sono emersi altri rilievi nel delta verificato.",
+  "letture": [
+    "/blocco/ISTRUZIONI-V.md",
+    "/blocco/ISTRUZIONI-RETTIFICA-G6-001.md",
+    "/blocco/rettifica-inventario-001.json",
+    "/blocco/input-confronto.json",
+    "/blocco/inventario.json",
+    "/blocco/fonte-circ-81.png",
+    "/blocco/testo.md",
+    "/blocco/resa-target/render-3.4.5.pdf",
+    "/blocco/resa-target/render-3.4.5-200dpi.png"
+  ],
+  "isolamento": "Verifica limitata al delta CIRC81-PRO-001 e ai file della cartella /blocco. Nessun percorso esterno, coordinamento.json, workspace o altro rapporto è stato aperto. Inventario, congelamento, manifest e rapporto G6 originario non sono stati modificati.",
+  "rilievo_originario": "CHIUSO",
+  "esito_g6_post_rettifica": "OK"
+}

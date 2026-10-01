@@ -1,0 +1,391 @@
+﻿riga;campo;valore_A;valore_B;valore_MD;esito_A_vs_B;esito_A_vs_MD
+1;Categoria;Gas per uso medico;Gas per uso medico;Gas per uso medico;IDENTICA;IDENTICA
+1;Componente;Serbatoi di ossigeno;Serbatoi di ossigeno;Serbatoi di ossigeno;IDENTICA;IDENTICA
+1;Vulnerabilita;Alta;Alta;Alta;IDENTICA;IDENTICA
+1;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+1;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+1;V1;1;1;1;IDENTICA;IDENTICA
+1;V2;2;2;2;IDENTICA;IDENTICA
+1;V3;3;3;3;IDENTICA;IDENTICA
+1;V4;;;;IDENTICA;IDENTICA
+1;A1;1;1;1;IDENTICA;IDENTICA
+1;A2;2;2;2;IDENTICA;IDENTICA
+1;A3;3;3;3;IDENTICA;IDENTICA
+1;A4;4;4;4;IDENTICA;IDENTICA
+2;Categoria;Gas per uso medico;Gas per uso medico;Gas per uso medico;IDENTICA;IDENTICA
+2;Componente;Bombole di azoto;Bombole di azoto;Bombole di azoto;IDENTICA;IDENTICA
+2;Vulnerabilita;Molto alta;Molto alta;Molto alta;IDENTICA;IDENTICA
+2;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+2;Costo;Molto basso;Molto basso;Molto basso;IDENTICA;IDENTICA
+2;V1;1;1;1;IDENTICA;IDENTICA
+2;V2;2;2;2;IDENTICA;IDENTICA
+2;V3;3;3;3;IDENTICA;IDENTICA
+2;V4;4;4;4;IDENTICA;IDENTICA
+2;A1;1;1;1;IDENTICA;IDENTICA
+2;A2;2;2;2;IDENTICA;IDENTICA
+2;A3;3;3;3;IDENTICA;IDENTICA
+2;A4;4;4;4;IDENTICA;IDENTICA
+3;Categoria;Impianto elettrico d'emergenza;Impianto elettrico d'emergenza;Impianto elettrico d'emergenza;IDENTICA;IDENTICA
+3;Componente;Batterie per la corrente elettrica d'emergenza;Batterie per la corrente elettrica d'emergenza;Batterie per la corrente elettrica d'emergenza;IDENTICA;IDENTICA
+3;Vulnerabilita;Molto alta;Molto alta;Molto alta;IDENTICA;IDENTICA
+3;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+3;Costo;Molto basso;Molto basso;Molto basso;IDENTICA;IDENTICA
+3;V1;1;1;1;IDENTICA;IDENTICA
+3;V2;2;2;2;IDENTICA;IDENTICA
+3;V3;3;3;3;IDENTICA;IDENTICA
+3;V4;4;4;4;IDENTICA;IDENTICA
+3;A1;1;1;1;IDENTICA;IDENTICA
+3;A2;2;2;2;IDENTICA;IDENTICA
+3;A3;3;3;3;IDENTICA;IDENTICA
+3;A4;4;4;4;IDENTICA;IDENTICA
+4;Categoria;Impianto elettrico d'emergenza;Impianto elettrico d'emergenza;Impianto elettrico d'emergenza;IDENTICA;IDENTICA
+4;Componente;Generatore della elettrico d'emergenza;Generatore della elettrico d'emergenza;Generatore della elettrico d'emergenza;IDENTICA;IDENTICA
+4;Vulnerabilita;Alta;Alta;Alta;IDENTICA;IDENTICA
+4;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+4;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+4;V1;1;1;1;IDENTICA;IDENTICA
+4;V2;2;2;2;IDENTICA;IDENTICA
+4;V3;3;3;3;IDENTICA;IDENTICA
+4;V4;;;;IDENTICA;IDENTICA
+4;A1;1;1;1;IDENTICA;IDENTICA
+4;A2;2;2;2;IDENTICA;IDENTICA
+4;A3;3;3;3;IDENTICA;IDENTICA
+4;A4;4;4;4;IDENTICA;IDENTICA
+5;Categoria;Impianto elettrico d'emergenza;Impianto elettrico d'emergenza;Impianto elettrico d'emergenza;IDENTICA;IDENTICA
+5;Componente;Batterie per i generatori di corrente elettrica d'emergenza;Batterie per i generatori di corrente elettrica d'emergenza;Batterie per i generatori di corrente elettrica d'emergenza;IDENTICA;IDENTICA
+5;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+5;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+5;Costo;Molto basso;Molto basso;Molto basso;IDENTICA;IDENTICA
+5;V1;1;1;1;IDENTICA;IDENTICA
+5;V2;2;2;2;IDENTICA;IDENTICA
+5;V3;3;3;3;IDENTICA;IDENTICA
+5;V4;;;;IDENTICA;IDENTICA
+5;A1;1;1;1;IDENTICA;IDENTICA
+5;A2;2;2;2;IDENTICA;IDENTICA
+5;A3;3;3;3;IDENTICA;IDENTICA
+5;A4;;;;IDENTICA;IDENTICA
+6;Categoria;Ascensori;Ascensori;Ascensori;IDENTICA;IDENTICA
+6;Componente;Guide dell'ascensore;Guide dell'ascensore;Guide dell'ascensore;IDENTICA;IDENTICA
+6;Vulnerabilita;Molto alta;Molto alta;Molto alta;IDENTICA;IDENTICA
+6;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+6;Costo;Medio-alto;Medio-alto;Medio-alto;IDENTICA;IDENTICA
+6;V1;1;1;1;IDENTICA;IDENTICA
+6;V2;2;2;2;IDENTICA;IDENTICA
+6;V3;;;;IDENTICA;IDENTICA
+6;V4;;;;IDENTICA;IDENTICA
+6;A1;1;1;1;IDENTICA;IDENTICA
+6;A2;2;2;2;IDENTICA;IDENTICA
+6;A3;3;3;3;IDENTICA;IDENTICA
+6;A4;4;4;4;IDENTICA;IDENTICA
+7;Categoria;Ascensori;Ascensori;Ascensori;IDENTICA;IDENTICA
+7;Componente;Motori e generatori dell'ascensore;Motori e generatori dell'ascensore;Motori e generatori dell'ascensore;IDENTICA;IDENTICA
+7;Vulnerabilita;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+7;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+7;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+7;V1;1;1;1;IDENTICA;IDENTICA
+7;V2;;;;IDENTICA;IDENTICA
+7;V3;;;;IDENTICA;IDENTICA
+7;V4;;;;IDENTICA;IDENTICA
+7;A1;1;1;1;IDENTICA;IDENTICA
+7;A2;2;2;2;IDENTICA;IDENTICA
+7;A3;3;3;3;IDENTICA;IDENTICA
+7;A4;;;;IDENTICA;IDENTICA
+8;Categoria;Ascensori;Ascensori;Ascensori;IDENTICA;IDENTICA
+8;Componente;Pannelli elettrici e di controllo dell'ascensore;Pannelli elettrici e di controllo dell'ascensore;Pannelli elettrici e di controllo dell'ascensore;IDENTICA;IDENTICA
+8;Vulnerabilita;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+8;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+8;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+8;V1;1;1;1;IDENTICA;IDENTICA
+8;V2;2;2;2;IDENTICA;IDENTICA
+8;V3;;;;IDENTICA;IDENTICA
+8;V4;;;;IDENTICA;IDENTICA
+8;A1;1;1;1;IDENTICA;IDENTICA
+8;A2;2;2;2;IDENTICA;IDENTICA
+8;A3;3;3;3;IDENTICA;IDENTICA
+8;A4;;;;IDENTICA;IDENTICA
+9;Categoria;Apparecchiature per la comunicazione;Apparecchiature per la comunicazione;Apparecchiature per la comunicazione;IDENTICA;IDENTICA
+9;Componente;"Computer e schermi nei ""call centers"" d'emergenza";"Computer e schermi nei ""call centers"" d'emergenza";"Computer e schermi nei ""call centers"" d'emergenza";IDENTICA;IDENTICA
+9;Vulnerabilita;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+9;Importanza;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+9;Costo;Molto basso;Molto basso;Molto basso;IDENTICA;IDENTICA
+9;V1;1;1;1;IDENTICA;IDENTICA
+9;V2;2;2;2;IDENTICA;IDENTICA
+9;V3;3;3;3;IDENTICA;IDENTICA
+9;V4;;;;IDENTICA;IDENTICA
+9;A1;1;1;1;IDENTICA;IDENTICA
+9;A2;2;2;2;IDENTICA;IDENTICA
+9;A3;3;3;3;IDENTICA;IDENTICA
+9;A4;4;4;4;IDENTICA;IDENTICA
+10;Categoria;Apparecchiature per la comunicazione;Apparecchiature per la comunicazione;Apparecchiature per la comunicazione;IDENTICA;IDENTICA
+10;Componente;"Armadietti non ancorati che supportano le apparecchiature telefoniche per i ""call centers"" d'emergenza";"Armadietti non ancorati che supportano le apparecchiature telefoniche per i ""call centers"" d'emergenza";"Armadietti non ancorati che supportano le apparecchiature telefoniche per i ""call centers"" d'emergenza";IDENTICA;IDENTICA
+10;Vulnerabilita;Alta;Alta;Alta;IDENTICA;IDENTICA
+10;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+10;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+10;V1;1;1;1;IDENTICA;IDENTICA
+10;V2;2;2;2;IDENTICA;IDENTICA
+10;V3;3;3;3;IDENTICA;IDENTICA
+10;V4;;;;IDENTICA;IDENTICA
+10;A1;1;1;1;IDENTICA;IDENTICA
+10;A2;2;2;2;IDENTICA;IDENTICA
+10;A3;3;3;3;IDENTICA;IDENTICA
+10;A4;4;4;4;IDENTICA;IDENTICA
+11;Categoria;Apparecchiature per la comunicazione;Apparecchiature per la comunicazione;Apparecchiature per la comunicazione;IDENTICA;IDENTICA
+11;Componente;"Interruttori e pannelli da muro dell'impianto telefonico dei ""call centers"" d'emergenza";"Interruttori e pannelli da muro dell'impianto telefonico dei ""call centers"" d'emergenza";"Interruttori e pannelli da muro dell'impianto telefonico dei ""call centers"" d'emergenza";IDENTICA;IDENTICA
+11;Vulnerabilita;Bassa;Bassa;Bassa;IDENTICA;IDENTICA
+11;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+11;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+11;V1;;;;IDENTICA;IDENTICA
+11;V2;;;;IDENTICA;IDENTICA
+11;V3;;;;IDENTICA;IDENTICA
+11;V4;;;;IDENTICA;IDENTICA
+11;A1;1;1;1;IDENTICA;IDENTICA
+11;A2;2;2;2;IDENTICA;IDENTICA
+11;A3;3;3;3;IDENTICA;IDENTICA
+11;A4;;;;IDENTICA;IDENTICA
+12;Categoria;Apparecchiature e rifornimenti medici;Apparecchiature e rifornimenti medici;Apparecchiature e rifornimenti medici;IDENTICA;IDENTICA
+12;Componente;Scaffali per stoccaggio di medicinali e altri importanti materiali medici di scorta;Scaffali per stoccaggio di medicinali e altri importanti materiali medici di scorta;Scaffali per stoccaggio di medicinali e altri importanti materiali medici di scorta;IDENTICA;IDENTICA
+12;Vulnerabilita;Alta;Alta;Alta;IDENTICA;IDENTICA
+12;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+12;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+12;V1;1;1;1;IDENTICA;IDENTICA
+12;V2;2;2;2;IDENTICA;IDENTICA
+12;V3;;;;IDENTICA;IDENTICA
+12;V4;;;;IDENTICA;IDENTICA
+12;A1;1;1;1;IDENTICA;IDENTICA
+12;A2;2;2;2;IDENTICA;IDENTICA
+12;A3;3;3;3;IDENTICA;IDENTICA
+12;A4;;;;IDENTICA;IDENTICA
+13;Categoria;Apparecchiature e rifornimenti medici;Apparecchiature e rifornimenti medici;Apparecchiature e rifornimenti medici;IDENTICA;IDENTICA
+13;Componente;Apparecchiature mediche;Apparecchiature mediche;Apparecchiature mediche;IDENTICA;IDENTICA
+13;Vulnerabilita;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+13;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+13;Costo;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+13;V1;1;1;1;IDENTICA;IDENTICA
+13;V2;2;2;2;IDENTICA;IDENTICA
+13;V3;;;;IDENTICA;IDENTICA
+13;V4;;;;IDENTICA;IDENTICA
+13;A1;1;1;1;IDENTICA;IDENTICA
+13;A2;2;2;2;IDENTICA;IDENTICA
+13;A3;3;3;3;IDENTICA;IDENTICA
+13;A4;;;;IDENTICA;IDENTICA
+14;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+14;Componente;Caldaie;Caldaie;Caldaie;IDENTICA;IDENTICA
+14;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+14;Importanza;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+14;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+14;V1;1;1;1;IDENTICA;IDENTICA
+14;V2;2;2;2;IDENTICA;IDENTICA
+14;V3;;;;IDENTICA;IDENTICA
+14;V4;;;;IDENTICA;IDENTICA
+14;A1;1;1;1;IDENTICA;IDENTICA
+14;A2;2;2;2;IDENTICA;IDENTICA
+14;A3;3;3;3;IDENTICA;IDENTICA
+14;A4;;;;IDENTICA;IDENTICA
+15;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+15;Componente;Cabine contenenti i trasformatori elettrici;Cabine contenenti i trasformatori elettrici;Cabine contenenti i trasformatori elettrici;IDENTICA;IDENTICA
+15;Vulnerabilita;Bassa;Bassa;Bassa;IDENTICA;IDENTICA
+15;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+15;Costo;Medio-basso;Medio-basso;Medio-basso;IDENTICA;IDENTICA
+15;V1;1;1;1;IDENTICA;IDENTICA
+15;V2;;;;IDENTICA;IDENTICA
+15;V3;;;;IDENTICA;IDENTICA
+15;V4;;;;IDENTICA;IDENTICA
+15;A1;1;1;1;IDENTICA;IDENTICA
+15;A2;2;2;2;IDENTICA;IDENTICA
+15;A3;3;3;3;IDENTICA;IDENTICA
+15;A4;;;;IDENTICA;IDENTICA
+16;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+16;Componente;Tipici componenti da installarsi sul pavimento o sul tetto montati su isolatori per le vibrazioni;Tipici componenti da installarsi sul pavimento o sul tetto montati su isolatori per le vibrazioni;Tipici componenti da installarsi sul pavimento o sul tetto montati su isolatori per le vibrazioni;IDENTICA;IDENTICA
+16;Vulnerabilita;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+16;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+16;Costo;Medio-basso;Medio-basso;Medio-basso;IDENTICA;IDENTICA
+16;V1;1;1;1;IDENTICA;IDENTICA
+16;V2;2;2;2;IDENTICA;IDENTICA
+16;V3;;;;IDENTICA;IDENTICA
+16;V4;;;;IDENTICA;IDENTICA
+16;A1;1;1;1;IDENTICA;IDENTICA
+16;A2;2;2;2;IDENTICA;IDENTICA
+16;A3;3;3;3;IDENTICA;IDENTICA
+16;A4;;;;IDENTICA;IDENTICA
+17;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+17;Componente;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento >1.6, componenti soggetti al ribaltamento;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento >1.6, componenti soggetti al ribaltamento;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento >1.6, componenti soggetti al ribaltamento;IDENTICA;IDENTICA
+17;Vulnerabilita;Alta;Alta;Alta;IDENTICA;IDENTICA
+17;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+17;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+17;V1;1;1;1;IDENTICA;IDENTICA
+17;V2;2;2;2;IDENTICA;IDENTICA
+17;V3;;;;IDENTICA;IDENTICA
+17;V4;;;;IDENTICA;IDENTICA
+17;A1;1;1;1;IDENTICA;IDENTICA
+17;A2;2;2;2;IDENTICA;IDENTICA
+17;A3;3;3;3;IDENTICA;IDENTICA
+17;A4;;;;IDENTICA;IDENTICA
+18;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+18;Componente;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento tra 1 e 1.6.;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento tra 1 e 1.6.;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento tra 1 e 1.6.;IDENTICA;IDENTICA
+18;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+18;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+18;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+18;V1;1;1;1;IDENTICA;IDENTICA
+18;V2;2;2;2;IDENTICA;IDENTICA
+18;V3;;;;IDENTICA;IDENTICA
+18;V4;;;;IDENTICA;IDENTICA
+18;A1;1;1;1;IDENTICA;IDENTICA
+18;A2;2;2;2;IDENTICA;IDENTICA
+18;A3;3;3;3;IDENTICA;IDENTICA
+18;A4;;;;IDENTICA;IDENTICA
+19;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+19;Componente;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento < 1;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento < 1;Tipici componenti o serbatoi fissati al pavimento o installati sul tetto con un rapporto di ribaltamento < 1;IDENTICA;IDENTICA
+19;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+19;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+19;Costo;Basso;Basso;Basso;IDENTICA;IDENTICA
+19;V1;1;1;1;IDENTICA;IDENTICA
+19;V2;2;2;2;IDENTICA;IDENTICA
+19;V3;;;;IDENTICA;IDENTICA
+19;V4;;;;IDENTICA;IDENTICA
+19;A1;1;1;1;IDENTICA;IDENTICA
+19;A2;2;2;2;IDENTICA;IDENTICA
+19;A3;;;;IDENTICA;IDENTICA
+19;A4;;;;IDENTICA;IDENTICA
+20;Categoria;Componenti fissati al pavimento o sul tetto(4);Componenti fissati al pavimento o sul tetto⁽⁴⁾;Componenti fissati al pavimento o sul tetto (4);SOSTANZIALE;SOSTANZIALE
+20;Componente;Pedane d'appoggio;Pedane d'appoggio;Pedane d'appoggio;IDENTICA;IDENTICA
+20;Vulnerabilita;Medio-bassa;Medio-bassa;Medio-bassa;IDENTICA;IDENTICA
+20;Importanza;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+20;Costo;Medio-alto;Medio-alto;Medio-alto;IDENTICA;IDENTICA
+20;V1;;;;IDENTICA;IDENTICA
+20;V2;;;;IDENTICA;IDENTICA
+20;V3;;;;IDENTICA;IDENTICA
+20;V4;;;;IDENTICA;IDENTICA
+20;A1;1;1;1;IDENTICA;IDENTICA
+20;A2;2;2;2;IDENTICA;IDENTICA
+20;A3;;;;IDENTICA;IDENTICA
+20;A4;;;;IDENTICA;IDENTICA
+21;Categoria;Sistemi di distribuzione;Sistemi di distribuzione;Sistemi di distribuzione;IDENTICA;IDENTICA
+21;Componente;Tubature sospese nei sistemi critici con un diametro nominale >200 mm e su attacchi lunghi più di 500 mm;Tubature sospese nei sistemi critici con un diametro nominale >200 mm e su attacchi lunghi più di 500 mm;Tubature sospese nei sistemi critici con un diametro nominale >200 mm e su attacchi lunghi più di 500 mm;IDENTICA;IDENTICA
+21;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+21;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+21;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+21;V1;1;1;1;IDENTICA;IDENTICA
+21;V2;2;2;2;IDENTICA;IDENTICA
+21;V3;;;;IDENTICA;IDENTICA
+21;V4;;;;IDENTICA;IDENTICA
+21;A1;1;1;1;IDENTICA;IDENTICA
+21;A2;2;2;2;IDENTICA;IDENTICA
+21;A3;3;3;3;IDENTICA;IDENTICA
+21;A4;;;;IDENTICA;IDENTICA
+22;Categoria;Sistemi di distribuzione;Sistemi di distribuzione;Sistemi di distribuzione;IDENTICA;IDENTICA
+22;Componente;Tubature sospese di diametro nominale >100 mm e attacchi lunghi più di 300 mm;Tubature sospese di diametro nominale >100 mm e attacchi lunghi più di 300 mm;Tubature sospese di diametro nominale >100 mm e attacchi lunghi più di 300 mm;IDENTICA;IDENTICA
+22;Vulnerabilita;Medio-bassa;Medio-bassa;Medio-bassa;IDENTICA;IDENTICA
+22;Importanza;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+22;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+22;V1;;;;IDENTICA;IDENTICA
+22;V2;;;;IDENTICA;IDENTICA
+22;V3;;;;IDENTICA;IDENTICA
+22;V4;;;;IDENTICA;IDENTICA
+22;A1;1;1;1;IDENTICA;IDENTICA
+22;A2;2;2;2;IDENTICA;IDENTICA
+22;A3;;;;IDENTICA;IDENTICA
+22;A4;;;;IDENTICA;IDENTICA
+23;Categoria;Sistemi di distribuzione;Sistemi di distribuzione;Sistemi di distribuzione;IDENTICA;IDENTICA
+23;Componente;Condotto per gli impianti di riscaldamento, ventilazione, e condizionamento d'aria;Condotto per gli impianti di riscaldamento, ventilazione, e condizionamento d'aria;Condotto per gli impianti di riscaldamento, ventilazione, e condizionamento d'aria;IDENTICA;IDENTICA
+23;Vulnerabilita;Bassa;Bassa;Bassa;IDENTICA;IDENTICA
+23;Importanza;Medio-alta;Medio-alta;Medio-alta;IDENTICA;IDENTICA
+23;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+23;V1;;;;IDENTICA;IDENTICA
+23;V2;;;;IDENTICA;IDENTICA
+23;V3;;;;IDENTICA;IDENTICA
+23;V4;;;;IDENTICA;IDENTICA
+23;A1;1;1;1;IDENTICA;IDENTICA
+23;A2;;;;IDENTICA;IDENTICA
+23;A3;;;;IDENTICA;IDENTICA
+23;A4;;;;IDENTICA;IDENTICA
+24;Categoria;Sistemi di distribuzione;Sistemi di distribuzione;Sistemi di distribuzione;IDENTICA;IDENTICA
+24;Componente;Componenti dell'impianto elettrico come condotti contenenti i cavi e piattaforme di sostegno dei condotti per la distribuzione dell'energia elettrica;Componenti dell'impianto elettrico come condotti contenenti i cavi e piattaforme di sostegno dei condotti per la distribuzione dell'energia elettrica;Componenti dell'impianto elettrico come condotti contenenti i cavi e piattaforme di sostegno dei condotti per la distribuzione dell'energia elettrica;IDENTICA;IDENTICA
+24;Vulnerabilita;Bassa;Bassa;Bassa;IDENTICA;IDENTICA
+24;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+24;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+24;V1;;;;IDENTICA;IDENTICA
+24;V2;;;;IDENTICA;IDENTICA
+24;V3;;;;IDENTICA;IDENTICA
+24;V4;;;;IDENTICA;IDENTICA
+24;A1;1;1;1;IDENTICA;IDENTICA
+24;A2;;;;IDENTICA;IDENTICA
+24;A3;;;;IDENTICA;IDENTICA
+24;A4;;;;IDENTICA;IDENTICA
+25;Categoria;Componenti architettonici;Componenti architettonici;Componenti architettonici;IDENTICA;IDENTICA
+25;Componente;Soffitto sospeso o a pannelli;Soffitto sospeso o a pannelli;Soffitto sospeso o a pannelli;IDENTICA;IDENTICA
+25;Vulnerabilita;Bassa;Bassa;Bassa;IDENTICA;IDENTICA
+25;Importanza;Medio-bassa;Medio-bassa;Medio-bassa;IDENTICA;IDENTICA
+25;Costo;Medio;Medio;Medio;IDENTICA;IDENTICA
+25;V1;;;;IDENTICA;IDENTICA
+25;V2;;;;IDENTICA;IDENTICA
+25;V3;;;;IDENTICA;IDENTICA
+25;V4;;;;IDENTICA;IDENTICA
+25;A1;1;1;1;IDENTICA;IDENTICA
+25;A2;;;;IDENTICA;IDENTICA
+25;A3;;;;IDENTICA;IDENTICA
+25;A4;;;;IDENTICA;IDENTICA
+26;Categoria;Componenti architettonici;Componenti architettonici;Componenti architettonici;IDENTICA;IDENTICA
+26;Componente;Lampadari su controsoffitti;Lampadari su controsoffitti;Lampadari su controsoffitti;IDENTICA;IDENTICA
+26;Vulnerabilita;Bassa;Bassa;Bassa;IDENTICA;IDENTICA
+26;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+26;Costo;Medio-basso;Medio-basso;Medio-basso;IDENTICA;IDENTICA
+26;V1;1;1;1;IDENTICA;IDENTICA
+26;V2;;;;IDENTICA;IDENTICA
+26;V3;;;;IDENTICA;IDENTICA
+26;V4;;;;IDENTICA;IDENTICA
+26;A1;1;1;1;IDENTICA;IDENTICA
+26;A2;2;2;2;IDENTICA;IDENTICA
+26;A3;;;;IDENTICA;IDENTICA
+26;A4;;;;IDENTICA;IDENTICA
+27;Categoria;Componenti architettonici;Componenti architettonici;Componenti architettonici;IDENTICA;IDENTICA
+27;Componente;Tamponamenti interni non armati in muratura;Tamponamenti interni non armati in muratura;Tamponamenti interni non armati in muratura;IDENTICA;IDENTICA
+27;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+27;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+27;Costo;Molto alto;Molto alto;Molto alto;IDENTICA;IDENTICA
+27;V1;;;;IDENTICA;IDENTICA
+27;V2;;;;IDENTICA;IDENTICA
+27;V3;;;;IDENTICA;IDENTICA
+27;V4;;;;IDENTICA;IDENTICA
+27;A1;1;1;1;IDENTICA;IDENTICA
+27;A2;2;2;2;IDENTICA;IDENTICA
+27;A3;;;;IDENTICA;IDENTICA
+27;A4;;;;IDENTICA;IDENTICA
+28;Categoria;Componenti architettonici;Componenti architettonici;Componenti architettonici;IDENTICA;IDENTICA
+28;Componente;Muri esterni di mattoni non rinforzati;Muri esterni di mattoni non rinforzati;Muri esterni di mattoni non rinforzati;IDENTICA;IDENTICA
+28;Vulnerabilita;Media;Media;Media;IDENTICA;IDENTICA
+28;Importanza;Media;Media;Media;IDENTICA;IDENTICA
+28;Costo;Molto alto;Molto alto;Molto alto;IDENTICA;IDENTICA
+28;V1;;;;IDENTICA;IDENTICA
+28;V2;;;;IDENTICA;IDENTICA
+28;V3;;;;IDENTICA;IDENTICA
+28;V4;;;;IDENTICA;IDENTICA
+28;A1;1;1;1;IDENTICA;IDENTICA
+28;A2;2;2;2;IDENTICA;IDENTICA
+28;A3;;;;IDENTICA;IDENTICA
+28;A4;;;;IDENTICA;IDENTICA
+29;Categoria;Sostanze Pericolose;Sostanze Pericolose;Sostanze Pericolose;IDENTICA;IDENTICA
+29;Componente;Tamponamenti e altri componenti in aree con materiale biologico o infettivo;Tamponamenti e altri componenti in aree con materiale biologico o infettivo;Tamponamenti e altri componenti in aree con materiale biologico o infettivo;IDENTICA;IDENTICA
+29;Vulnerabilita;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+29;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+29;Costo;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+29;V1;1;1;1;IDENTICA;IDENTICA
+29;V2;2;2;2;IDENTICA;IDENTICA
+29;V3;3;3;3;IDENTICA;IDENTICA
+29;V4;4;4;4;IDENTICA;IDENTICA
+29;A1;1;1;1;IDENTICA;IDENTICA
+29;A2;2;2;2;IDENTICA;IDENTICA
+29;A3;3;3;3;IDENTICA;IDENTICA
+29;A4;4;4;4;IDENTICA;IDENTICA
+30;Categoria;Sostanze Pericolose;Sostanze Pericolose;Sostanze Pericolose;IDENTICA;IDENTICA
+30;Componente;Aree con stoccaggio o uso di materiale pericolosi di tipo chimico, nucleare o biologico;Aree con stoccaggio o uso di materiale pericolosi di tipo chimico, nucleare o biologico;Aree con stoccaggio o uso di materiale pericolosi di tipo chimico, nucleare o biologico;IDENTICA;IDENTICA
+30;Vulnerabilita;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+30;Importanza;Alta;Alta;Alta;IDENTICA;IDENTICA
+30;Costo;Variabile;Variabile;Variabile;IDENTICA;IDENTICA
+30;V1;1;1;1;IDENTICA;IDENTICA
+30;V2;2;2;2;IDENTICA;IDENTICA
+30;V3;3;3;3;IDENTICA;IDENTICA
+30;V4;4;4;4;IDENTICA;IDENTICA
+30;A1;1;1;1;IDENTICA;IDENTICA
+30;A2;2;2;2;IDENTICA;IDENTICA
+30;A3;3;3;3;IDENTICA;IDENTICA
+30;A4;4;4;4;IDENTICA;IDENTICA

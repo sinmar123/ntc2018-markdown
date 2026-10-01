@@ -1,0 +1,50 @@
+{
+  "firma": "CDX",
+  "coordinatore_ripresa": {
+    "modello": "gpt-6-astra",
+    "ragionamento": "xhigh",
+    "sessione": "01a07217-7b68-7e41-b916-b776c06c2be0"
+  },
+  "verificatore": {
+    "modello": "gpt-5.6-sol",
+    "ragionamento": "xhigh",
+    "sessione": "01a0721a-d71c-7df1-b63b-27b83b9aa661",
+    "agente": "/root/v_344_r01b"
+  },
+  "giro_g6": 1,
+  "max_giri": 3,
+  "tentativo_precedente": "respinto prima del congelamento e della rivelazione; conservato nel dossier storico",
+  "congelamento": {
+    "versione": 1,
+    "data_utc": "2026-09-05T15:11:11.652598+00:00",
+    "firma": {
+      "identita_effettiva": "gpt-5.6-sol, reasoning xhigh",
+      "nome_agente": "/root/v_344_r01b",
+      "ruolo": "V indipendente VC NTC, fase FONTE-PRIMA"
+    },
+    "inventario_sha256": "32da1470c583f0aa35f19df1b61a30e36113a881808a9e14f060a30e82b61c9f",
+    "esito_provvisorio": "LEGGIBILE",
+    "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+    "manifest_fonte_sha256": "f49408ee703a6ac8a3c53e446e6bd1fa472a99eb7f9cc4efb1f33666962adce2"
+  },
+  "primo_accesso_target": {
+    "timestamp_utc": "2026-09-05T15:11:57.264Z",
+    "prova": "comunicazione di V al coordinatore, metadato temporale runtime",
+    "chiamata_lettura_utc": "2026-09-05T15:11:50.596Z"
+  },
+  "isolamento": "restrizione istruttiva alle cartelle b01 e fonte-dettaglio; nessuna sandbox filesystem",
+  "nota_sequenza": "Fonte-prima conclusa; rivela e verifica-pacchetto OK; solo dopo assegnazione confronto e primo accesso comunicato da V. Le prove supplementari sono state consegnate prima dell?inventario.",
+  "g6_esito": {
+    "esito": "OK",
+    "copertura_id": "19/19",
+    "input_integri": "7/7",
+    "ERR-MD": 0,
+    "ERR-AUDIT": 0,
+    "DUBBIO": 0
+  },
+  "controllo_letture": {
+    "esito": "Le 13 chiamate custom_tool_call fino alla chiusura G6 sono state lette dal coordinatore nel JSONL: accessi filesystem nelle sole cartelle b01 e fonte-dettaglio; nessun materiale vietato. La prima lettura del target ? successiva al congelamento.",
+    "limite": "Restrizione istruttiva, non sandbox. I messaggi interagente cifrati non sono parte del controllo indipendente dei comandi filesystem.",
+    "nota": "Precisazione successiva al rapporto V: i comandi filesystem sono recuperabili nel campo input delle custom_tool_call; la nota prudenziale originaria del rapporto G6 non viene riscritta."
+  }
+}

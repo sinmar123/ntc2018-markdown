@@ -1,0 +1,70 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 353,
+      "sha256": "60e6726d5a765dedbc51d20be69f00388c56e3b870298d8fd0bbc33e1a4e7aac"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 454,
+      "sha256": "931ed31825576ed6cbfff713d6126a66546efd03ea3c2e770ec209d823812c96"
+    },
+    {
+      "path": "fonte-circ-54.png",
+      "bytes": 521655,
+      "sha256": "4a289ee035c84ff5e156a0eda411bfa354898e6e79939f6dca57c30a82d1ca92"
+    },
+    {
+      "path": "fonte-circ-76.png",
+      "bytes": 491367,
+      "sha256": "7f19106807e375fe5315c2cd7aeebf814c630980067c9adb14c84e9be140cd21"
+    },
+    {
+      "path": "fonte-ntc-56.png",
+      "bytes": 465343,
+      "sha256": "30d2697365a5bde0a2422d09ae4a1ec5e503b3664cbe6c30abc64501ce675806"
+    },
+    {
+      "path": "fonte-ntc-61.png",
+      "bytes": 554959,
+      "sha256": "895498fa3257263035e674fb7336346b6615ce8c5cf4a9212ae62f82d2c03dd6"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 1193,
+      "sha256": "3636b26679544d54d9026020e0b5e27970189a93f76e2f17cc0ebf86e751beb3"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 5240,
+      "sha256": "85ccddb0bf1aa5c394d4ecaa70385d0058ca0d0cff0cfabc6c3cea45b15dd809"
+    },
+    {
+      "path": "resa-target-01.png",
+      "bytes": 108206,
+      "sha256": "341a383ea2246b4b85b89b07833020b74c21627ee8a45cfdbc117aaf3a46bac4"
+    },
+    {
+      "path": "resa-target.pdf",
+      "bytes": 10550,
+      "sha256": "a060f8fe0a7b08cf9dc0f8ac22a030dd8197e8d1daf1238c848e0e8792ae943e"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 1011,
+      "sha256": "17c2f5bf1426e23e8de6260635001f9692b4ac89488cad0b92ad93aaf9fc60cd"
+    }
+  ]
+}

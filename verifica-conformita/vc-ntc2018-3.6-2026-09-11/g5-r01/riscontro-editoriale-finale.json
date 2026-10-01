@@ -1,0 +1,12 @@
+{
+  "firma": "CDX",
+  "identita_composito": "OK",
+  "sha256_composito": "f14823cc7bee1bb8ceb61330dc4738c11223565ef1922cf4502624bda89fd6b7",
+  "snapshot_finale": {
+    "files": 5,
+    "manifest_sha256": "f78911a20fc0bbaa00d043bee52f009fa8e4ace185872c49042202fe11570dbc",
+    "integrita": "OK",
+    "giudizio_vc": "NON_EMESSO"
+  },
+  "resa": "Identica; nessuna rigenerazione necessaria per rinvii editoriali depurati"
+}

@@ -1,0 +1,10 @@
+{
+  "firma": "CDX",
+  "motivo": "Rettifica della sola regressione di pedice introdotta da NC-C-05: fonte stampata e origine di disegno confermano o a pedice; ripristino della fedeltà richiesta da Sandro. Altri quattro rilievi sottoposti a riconciliazione sui dati fonte, senza correzioni al target.",
+  "prima_sha256": "068777a007909d7a2f65ee72fff9f031373ff9f4416736434c191ed40d911f14",
+  "dopo_sha256": "fa0bc7aeaf2a9e7c3c5b60115d012b71e35315c365f7a871bc623e5734e1756c",
+  "prima": "**Figura C3.2.1 b** - *Variabilità di $Fo$ con $T_R$:",
+  "dopo": "**Figura C3.2.1 b** - *Variabilità di $F_o$ con $T_R$:",
+  "giro_g6": 1,
+  "nuovo_g6_integrale": false
+}

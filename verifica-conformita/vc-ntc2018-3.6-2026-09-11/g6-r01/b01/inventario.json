@@ -1,0 +1,356 @@
+{
+  "firma": "Codex / CDX, modello GPT-6, verificatore indipendente G6 del blocco b01",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "B01-66-R01",
+      "pagina": "ntc:66",
+      "riferimento": "Rubrica 3.6 «AZIONI ECCEZIONALI», rettangolo PDF x 78-226, y 254-266 pt; numero e titolo controllati integralmente."
+    },
+    {
+      "id": "B01-66-P01",
+      "pagina": "ntc:66",
+      "riferimento": "Cinque capoversi del § 3.6, da «Le azioni eccezionali» a «di cui al § 2.5.3», x 78-522, y 270-382 pt; inclusi i rinvii §§ 2.2.5 e 2.5.3."
+    },
+    {
+      "id": "B01-66-R02",
+      "pagina": "ntc:66",
+      "riferimento": "Rubrica 3.6.1 «INCENDIO», x 78-165, y 397-406 pt."
+    },
+    {
+      "id": "B01-66-R03",
+      "pagina": "ntc:66",
+      "riferimento": "Rubrica 3.6.1.1 «DEFINIZIONI», x 78-172, y 421-429 pt."
+    },
+    {
+      "id": "B01-66-D01",
+      "pagina": "ntc:66",
+      "riferimento": "Definizione di incendio, capoverso x 78-512, y 433-441 pt, controllato integralmente."
+    },
+    {
+      "id": "B01-66-D02",
+      "pagina": "ntc:66",
+      "riferimento": "Definizione di incendio convenzionale di progetto e curva di incendio, capoverso x 78-522, y 446-475 pt, controllato integralmente."
+    },
+    {
+      "id": "B01-66-C01",
+      "pagina": "ntc:66",
+      "riferimento": "Enunciato «La curva di incendio di progetto può essere» e ramo nominale, x 78-510, y 479-501 pt; condizione controllata integralmente."
+    },
+    {
+      "id": "B01-66-C02",
+      "pagina": "ntc:66",
+      "riferimento": "Ramo naturale della curva di incendio, x 78-522, y 505-524 pt; condizione controllata integralmente."
+    },
+    {
+      "id": "B01-66-D03",
+      "pagina": "ntc:66",
+      "riferimento": "Tre definizioni consecutive: capacità di compartimentazione, capacità portante in caso di incendio e resistenza al fuoco, x 78-522, y 528-615 pt; tutti e tre i capoversi controllati integralmente."
+    },
+    {
+      "id": "B01-66-D04",
+      "pagina": "ntc:66",
+      "riferimento": "Tre definizioni consecutive: compartimento antincendio, carico di incendio e carico d’incendio specifico, x 78-522, y 619-674 pt; tutti e tre i capoversi controllati integralmente."
+    },
+    {
+      "id": "B01-66-D05",
+      "pagina": "ntc:66",
+      "riferimento": "Definizione di carico di incendio specifico di progetto, x 78-522, y 679-698 pt, controllata integralmente."
+    },
+    {
+      "id": "B01-66-I01",
+      "pagina": "ntc:66",
+      "riferimento": "Capoverso introduttivo della relazione con inline q_f,d, x 78-405, y 702-712 pt."
+    },
+    {
+      "id": "B01-66-F01",
+      "pagina": "ntc:66",
+      "riferimento": "Formula [3.6.1], x 190-371, y 714-725 pt: q_f,d = q_f · δ_q1 · δ_q2 · δ_n; controllati pedici, tre punti di moltiplicazione e tag."
+    },
+    {
+      "id": "B01-67-D01",
+      "pagina": "ntc:67",
+      "riferimento": "Blocco «dove», definizione di q_f e unità [MJ/m²], x 83-324, y 93-112 pt."
+    },
+    {
+      "id": "B01-67-C01",
+      "pagina": "ntc:67",
+      "riferimento": "Condizione e definizione δ_q1 ≥ 1,00, x 83-362, y 116-135 pt; pedice, disuguaglianza e valore controllati a 1200 dpi."
+    },
+    {
+      "id": "B01-67-C02",
+      "pagina": "ntc:67",
+      "riferimento": "Condizione e definizione δ_q2 ≥ 0,80, x 83-362, y 139-157 pt; pedice, disuguaglianza e valore controllati a 1200 dpi."
+    },
+    {
+      "id": "B01-67-F01",
+      "pagina": "ntc:67",
+      "riferimento": "Definizione δ_n = ∏ da i=1 a 10 di δ_ni ≥ 0,20 e testo sulle misure di protezione, x 83-369, y 160-190 pt; produttoria, estremi, pedici e disuguaglianza controllati a 1200 dpi."
+    },
+    {
+      "id": "B01-67-C03",
+      "pagina": "ntc:67",
+      "riferimento": "Capoverso condizionale sulle dissimmetrie e distribuzioni concentrate, da «Qualora nel compartimento» al rinvio al decreto del Ministro dell’Interno 9 marzo 2007 e ss.mm.ii., x 83-514, y 207-256 pt; controllo integrale."
+    },
+    {
+      "id": "B01-67-D02",
+      "pagina": "ntc:67",
+      "riferimento": "Definizione di incendio localizzato, x 83-514, y 260-289 pt, controllata integralmente."
+    },
+    {
+      "id": "B01-67-C04",
+      "pagina": "ntc:67",
+      "riferimento": "Condizione relativa agli elementi strutturali lignei e al loro contributo, x 83-512, y 293-312 pt, controllata integralmente."
+    },
+    {
+      "id": "B01-67-R01",
+      "pagina": "ntc:67",
+      "riferimento": "Rubrica 3.6.1.2 «RICHIESTE DI PRESTAZIONE», x 83-220, y 326-334 pt."
+    },
+    {
+      "id": "B01-67-P01",
+      "pagina": "ntc:67",
+      "riferimento": "Capoverso introduttivo del § 3.6.1.2, x 83-514, y 337-356 pt; inclusi rinvio § 2.2.3 e richiamo Tab. 3.5.IV."
+    },
+    {
+      "id": "B01-67-T01",
+      "pagina": "ntc:67",
+      "riferimento": "Tab. 3.5.IV, didascalia e griglia x 83-365, y 371-481 pt: cinque righe logiche Livello I-V, senza testata, con descrizione e punteggiatura di ciascuna cella controllate integralmente."
+    },
+    {
+      "id": "B01-67-P02",
+      "pagina": "ntc:67",
+      "riferimento": "Capoverso sulle classi connesse ai livelli e sulle disposizioni del Ministero dell’Interno, x 83-514, y 491-540 pt; inclusi Corpo Nazionale dei Vigili del Fuoco e D. Lgs. 8 marzo 2006, n. 139."
+    },
+    {
+      "id": "B01-67-P03",
+      "pagina": "ntc:67",
+      "riferimento": "Capoverso sui criteri per livelli e classi, da destinazione d’uso a misure di protezione, x 83-514, y 544-573 pt, controllato integralmente."
+    },
+    {
+      "id": "B01-67-R02",
+      "pagina": "ntc:67",
+      "riferimento": "Rubrica 3.6.1.3 «CLASSI DI RESISTENZA AL FUOCO», x 83-237, y 587-595 pt."
+    },
+    {
+      "id": "B01-67-C05",
+      "pagina": "ntc:67",
+      "riferimento": "Elenco completo delle classi 15, 20, 30, 45, 60, 90, 120, 180, 240 e 360 e relativa definizione temporale, x 83-514, y 599-617 pt."
+    },
+    {
+      "id": "B01-67-P04",
+      "pagina": "ntc:67",
+      "riferimento": "Capoverso sul riferimento delle classi alle curve di incendio nominali, x 83-478, y 621-630 pt."
+    },
+    {
+      "id": "B01-67-R03",
+      "pagina": "ntc:67",
+      "riferimento": "Rubrica 3.6.1.4 «CRITERI DI PROGETTAZIONE», x 83-223, y 644-652 pt."
+    },
+    {
+      "id": "B01-67-P05",
+      "pagina": "ntc:67",
+      "riferimento": "Due capoversi del § 3.6.1.4, x 83-512, y 656-687 pt; controllo integrale, incluso rinvio § 3.6.1.2."
+    },
+    {
+      "id": "B01-67-R04",
+      "pagina": "ntc:67",
+      "riferimento": "Rubrica 3.6.1.5 «PROCEDURA DI ANALISI DELLA RESISTENZA AL FUOCO», x 83-304, y 701-709 pt."
+    },
+    {
+      "id": "B01-67-P06",
+      "pagina": "ntc:67",
+      "riferimento": "Capoverso introduttivo «L’analisi della resistenza al fuoco può essere così articolata», x 83-283, y 712-721 pt."
+    },
+    {
+      "id": "B01-68-L01",
+      "pagina": "ntc:68",
+      "riferimento": "Continuazione del § 3.6.1.5: elenco completo di quattro fasi, x 81-361, y 97-141 pt; ordine e punteggiatura controllati integralmente."
+    },
+    {
+      "id": "B01-68-R01",
+      "pagina": "ntc:68",
+      "riferimento": "Rubrica 3.6.1.5.1 «Incendio di progetto», x 81-204, y 153-162 pt."
+    },
+    {
+      "id": "B01-68-P01",
+      "pagina": "ntc:68",
+      "riferimento": "Enunciato introduttivo alle due condizioni dell’incendio convenzionale, x 81-517, y 165-184 pt."
+    },
+    {
+      "id": "B01-68-C01",
+      "pagina": "ntc:68",
+      "riferimento": "Prima condizione: curva nominale e intervallo pari alla classe, senza fase di raffreddamento, x 87-517, y 188-207 pt; controllo integrale."
+    },
+    {
+      "id": "B01-68-C02",
+      "pagina": "ntc:68",
+      "riferimento": "Seconda condizione: curva naturale per l’intera durata, compreso raffreddamento fino alla temperatura ambiente, x 87-515, y 209-227 pt; controllo integrale."
+    },
+    {
+      "id": "B01-68-C03",
+      "pagina": "ntc:68",
+      "riferimento": "Condizione per materiali prevalentemente cellulosici e introduzione della curva nominale standard, x 81-517, y 229-248 pt."
+    },
+    {
+      "id": "B01-68-F01",
+      "pagina": "ntc:68",
+      "riferimento": "Formula [3.6.2], x 171-369, y 246-262 pt: θ_g = 20 + 345 log_10 (8t + 1) [°C]; controllati pedice, base del logaritmo, parentesi, operatori, unità e tag a 1200 dpi."
+    },
+    {
+      "id": "B01-68-D01",
+      "pagina": "ntc:68",
+      "riferimento": "Definizioni di θ_g e t e rispettive unità, capoverso x 81-395, y 265-275 pt."
+    },
+    {
+      "id": "B01-68-C04",
+      "pagina": "ntc:68",
+      "riferimento": "Condizione per quantità rilevanti di idrocarburi o sostanze equivalenti e introduzione della curva nominale degli idrocarburi, x 81-515, y 279-298 pt."
+    },
+    {
+      "id": "B01-68-F02",
+      "pagina": "ntc:68",
+      "riferimento": "Formula [3.6.3], x 135-369, y 298-314 pt: θ_g = 1080 (1 − 0,325 · e^(−0,167t) − 0,675 · e^(−2,5t)) + 20 [°C]; controllati coefficienti, segni, punti, esponenti, parentesi, unità e tag a 1200 dpi."
+    },
+    {
+      "id": "B01-68-C05",
+      "pagina": "ntc:68",
+      "riferimento": "Condizione per incendi interni che coinvolgono strutture esterne e introduzione della curva nominale esterna, x 81-517, y 317-336 pt."
+    },
+    {
+      "id": "B01-68-F03",
+      "pagina": "ntc:68",
+      "riferimento": "Formula [3.6.4], x 138-369, y 336-352 pt: θ_g = 660 (1 − 0,687 · e^(−0,32t) − 0,313 · e^(−3,8t)) + 20 [°C]; controllati coefficienti, segni, punti, esponenti, parentesi, unità e tag a 1200 dpi."
+    },
+    {
+      "id": "B01-68-P02",
+      "pagina": "ntc:68",
+      "riferimento": "Due capoversi conclusivi del § 3.6.1.5.1, da applicazione a un compartimento alla volta ad ammissibilità di curve specifiche, x 81-517, y 355-387 pt; controllo integrale."
+    },
+    {
+      "id": "B01-68-R02",
+      "pagina": "ntc:68",
+      "riferimento": "Rubrica 3.6.1.5.2 «Analisi dell’evoluzione della temperatura», x 81-277, y 399-408 pt."
+    },
+    {
+      "id": "B01-68-P03",
+      "pagina": "ntc:68",
+      "riferimento": "Unico capoverso del § 3.6.1.5.2 sul campo termico e trasferimento di calore, x 81-517, y 411-440 pt, controllato integralmente."
+    },
+    {
+      "id": "B01-68-R03",
+      "pagina": "ntc:68",
+      "riferimento": "Rubrica 3.6.1.5.3 «Analisi del comportamento meccanico», x 81-265, y 453-461 pt."
+    },
+    {
+      "id": "B01-68-P04",
+      "pagina": "ntc:68",
+      "riferimento": "Primi due capoversi del § 3.6.1.5.3, da riduzione della resistenza allo stesso periodo dell’analisi termica, x 81-517, y 465-506 pt; controllo integrale."
+    },
+    {
+      "id": "B01-68-C06",
+      "pagina": "ntc:68",
+      "riferimento": "Prescrizione su azioni permanenti e variabili contemporanee all’incendio secondo la combinazione eccezionale, x 81-517, y 510-529 pt."
+    },
+    {
+      "id": "B01-68-C07",
+      "pagina": "ntc:68",
+      "riferimento": "Esclusione della concomitanza con altre azioni eccezionali e sismiche, x 81-515, y 533-542 pt."
+    },
+    {
+      "id": "B01-68-C08",
+      "pagina": "ntc:68",
+      "riferimento": "Prescrizione sugli effetti delle sollecitazioni indirette da dilatazioni termiche contrastate e introduzione delle eccezioni, x 81-515, y 546-565 pt."
+    },
+    {
+      "id": "B01-68-C09",
+      "pagina": "ntc:68",
+      "riferimento": "Prima eccezione: effetti riconoscibili a priori come trascurabili o favorevoli, x 81-300, y 569-578 pt."
+    },
+    {
+      "id": "B01-68-C10",
+      "pagina": "ntc:68",
+      "riferimento": "Seconda eccezione: effetti implicitamente considerati nei modelli semplificati e conservativi, x 81-515, y 582-601 pt."
+    },
+    {
+      "id": "B01-68-C11",
+      "pagina": "ntc:68",
+      "riferimento": "Condizione per trascurare le sollecitazioni indirette dovute agli elementi adiacenti, x 81-509, y 605-624 pt, controllata integralmente."
+    },
+    {
+      "id": "B01-68-R04",
+      "pagina": "ntc:68",
+      "riferimento": "Rubrica 3.6.1.5.4 «Verifiche di sicurezza», x 81-208, y 634-642 pt."
+    },
+    {
+      "id": "B01-68-C12",
+      "pagina": "ntc:68",
+      "riferimento": "Verifica della resistenza meccanica per il tempo corrispondente alla classe con curva nominale, x 81-515, y 645-664 pt."
+    },
+    {
+      "id": "B01-68-C13",
+      "pagina": "ntc:68",
+      "riferimento": "Condizione con curva naturale: analisi e verifiche estese all’intera durata, inclusa la fase di raffreddamento, x 81-517, y 668-687 pt."
+    },
+    {
+      "id": "B01-68-C14",
+      "pagina": "ntc:68",
+      "riferimento": "Condizione finale ai sensi del D.Lgs. 139/2006 per requisiti mantenuti per periodo limitato, con richiamo al livello II della Tab. 3.5.IV, x 81-517, y 691-731 pt; controllo integrale fino alla fine del paragrafo."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:66",
+      "riferimento": "Tutto ciò che precede la rubrica 3.6, compreso § 3.5.7 e Tab. 3.5.III, y < 254 pt, escluso espressamente dal PERIMETRO.md."
+    },
+    {
+      "pagina": "ntc:66",
+      "riferimento": "Intestazione della Gazzetta e piè di pagina, inclusi numero stampato 62 e quattro raster incorporati a y 765-820 pt, estranei al testo normativo nel perimetro."
+    },
+    {
+      "pagina": "ntc:67",
+      "riferimento": "Intestazione della Gazzetta e piè di pagina, inclusi numero stampato 63 e quattro raster incorporati a y 765-820 pt, estranei al testo normativo nel perimetro."
+    },
+    {
+      "pagina": "ntc:68",
+      "riferimento": "Intestazione della Gazzetta e piè di pagina, inclusi numero stampato 64 e quattro raster incorporati a y 765-820 pt, estranei al testo normativo nel perimetro."
+    }
+  ],
+  "dubbi": [],
+  "letture": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b01",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\ISTRUZIONI-V.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\PERIMETRO.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\canone.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\input-fonte.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\fonte-ntc-66.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\fonte-ntc-67.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\fonte-ntc-68.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b01\\fonte-vettoriale.pdf",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b01\\provenienza.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b01\\manifest-comune.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-66-scope-a-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-66-scope-b-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-66-formula-3.6.1-1200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-67-scope-a-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-67-scope-b-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-67-scope-c-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-67-definizioni-formula-1200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-67-tab-3.5.IV-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-68-scope-a-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-68-scope-b-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-68-scope-c-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\ntc-68-formule-3.6.2-3.6.4-1200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\provenienza-prove.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v\\codifica-posizioni-vettoriali.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\inventario.json"
+  ],
+  "prove": {
+    "cartella": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v",
+    "provenienza": "prove-v/provenienza-prove.json",
+    "codifica_posizioni": "prove-v/codifica-posizioni-vettoriali.json",
+    "classificazione": "Contenuto nel perimetro interamente vettoriale; raster incorporati soltanto nei piè di pagina esclusi. Mappatura estratto 1→fisica originale 66, 2→67, 3→68."
+  },
+  "isolamento": "Consultate esclusivamente la cartella di input b01 e l’integrazione fonte b01 autorizzata; nessun target, coordinamento, workspace, altra cartella o conversazione aperti."
+}

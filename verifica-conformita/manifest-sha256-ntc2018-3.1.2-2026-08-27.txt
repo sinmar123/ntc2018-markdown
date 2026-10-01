@@ -1,0 +1,10 @@
+# Manifest SHA-256 - ntc2018-3.1.2 - 2026-08-27
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+c89175b4fab3660a3e1853a32b53cc4851957bc27d5f041720ba68107b6e3e9b  2106  cap03/3.1.2-opere-civili-pesi-propri-dei-materiali-strutturali.md
+c71525aecb4b6078814b3edd7f8bbff6e9063be7700bd420c7981c75dac32d55  5172  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+7740e6a58fd3d7ed3a9886df0911dbbb82bc1f3e90701958426307461f101246  610107  _tmp_render/cap03/vc-3.1.2-20260827/fonte/ntc-p46-scope-3.1.2-600dpi.png
+174523a86bc3f2f72c452c8f86ed96502c43d857d239b140a90c322097df574c  2662  _tmp_render/cap03/vc-3.1.2-20260827/preflight/rapporto-preflight.md
+e5289851d8501337f6a49d95866f9be1f4eae59fce50422410fe57ddfbbc37b0  20230  _tmp_render/cap03/vc-3.1.2-20260827/preflight/md-confronto-corretto-render.pdf
+32a2c994d388c9ae9b199b859ccc2e7ad86539611ab32ffd4ce797e714135d34  1532  _tmp_render/cap03/vc-3.1.2-20260827/tabella/riconciliazione/registro-finale.md
+981a1dc793047beb6d7a48c5583a9d7b481c0e270e75e7c6c51cba633d52a832  4594  _tmp_render/cap03/vc-3.1.2-20260827/g6-r01/rapporto-consolidato.md

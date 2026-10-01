@@ -1,0 +1,40 @@
+{
+  "firma": "CDX",
+  "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "render": [
+    {
+      "file": "fonte-circ-46-area-01-600dpi.png",
+      "pagina": 46,
+      "bbox": [
+        73,
+        553,
+        429,
+        577
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "fonte-circ-47-area-02-600dpi.png",
+      "pagina": 47,
+      "bbox": [
+        68,
+        216,
+        528,
+        275
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "fonte-circ-47-area-03-600dpi.png",
+      "pagina": 47,
+      "bbox": [
+        122,
+        550,
+        475,
+        567
+      ],
+      "dpi": 600
+    }
+  ]
+}

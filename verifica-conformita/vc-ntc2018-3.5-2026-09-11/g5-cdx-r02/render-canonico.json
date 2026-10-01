@@ -1,0 +1,11 @@
+{
+  "firma": "Codex / CDX, script",
+  "ambiente": "WSL Ubuntu, container hermes-ntc-vc, renderer canonico locale",
+  "versioni": {
+    "pandoc": "pandoc 3.11",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)"
+  },
+  "returncode": 0,
+  "stdout": "reso: /workspace/normativa/ntc2018--norme-costruzioni/_tmp_render/cap03/vc-3.5-20260911-cdx/g5-cdx-r02/target-scope.pdf\nwarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.\ncontrollo tag: nessun tag reso con parentesi tonde\ncontrollo didascalie: nessuna didascalia automatica Figure/Figura N:\n",
+  "stderr": ""
+}

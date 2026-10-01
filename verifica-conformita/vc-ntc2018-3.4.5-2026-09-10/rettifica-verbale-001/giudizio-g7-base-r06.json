@@ -1,0 +1,38 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "giudizio_g7": "OK",
+  "scope": "3.4.5",
+  "snapshot_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+  "manifest_sha256": "e338cac1d900f68473c48e30f7dfe11a6070cd4abf4649d8faf39415759a4586",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "riscontrato": [
+    "Il nuovo percorso cap03/3.4.5-neve-coefficiente-termico.md esiste, è leggibile e coincide nel contenuto osservato e nella dimensione con il target già giudicato; il manifest gli attribuisce la medesima impronta dello snapshot.",
+    "Il dossier portabile contiene 66 file e il percorso vivo del target è presente separatamente; impronta-manifest-finale-r02.json documenta 67 file manifestati, exit code 0 e integrità OK.",
+    "Il manifest finale R02 conserva sotto il dossier il manifest finale R01, il giudizio positivo R05, il relativo esito di canale e la rettifica che motiva l’aggiunta del percorso vivo.",
+    "Le impronte dichiarate per target, fonti, asset, procedura, catalogo e G6 restano quelle già giudicate e non emergono nuovi rilievi dal delta append-only."
+  ],
+  "non_riscontrato": [
+    "Non ho ricalcolato autonomamente le impronte: l’impronta del manifest finale R02 e l’integrità dei file sono importate dall’output dello script conservato in impronta-manifest-finale-r02.json.",
+    "Non ho rieseguito G6, inventario, render, confronto, registrazione o ricognizione di vigenza, perché la consegna R06 limita la verifica al delta append-only."
+  ],
+  "motivazione": "Il delta aggiunge il percorso vivo richiesto senza modificare il target e conserva la precedente chiusura positiva nel dossier portabile. L’evidenza esterna attesta l’integrità del manifest finale R02 e non risultano variazioni degli invarianti o rilievi aperti. Il G7 resta quindi positivo sul manifest corrente.",
+  "letture": [
+    "/blocco/g7/ISTRUZIONI-G7-R06.md",
+    "/blocco/g7/manifest-rilascio-finale-r02.json",
+    "/blocco/g7/impronta-manifest-finale-r02.json",
+    "/blocco/g7/cap03/3.4.5-neve-coefficiente-termico.md",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/g7-r05/giudizio-g7-ok-portabile-r01.json",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/g7-r05/rettifica-manifest-per-registra.md"
+  ],
+  "isolamento": "Verifica limitata a /blocco/g7 e al delta R06. Non ho aperto percorsi esterni, non ho rifatto l’inventario e non ho modificato fonti, target, manifest, rapporti o adjudicazioni. Ho sovrascritto esclusivamente /blocco/giudizio-g7.json come richiesto."
+}

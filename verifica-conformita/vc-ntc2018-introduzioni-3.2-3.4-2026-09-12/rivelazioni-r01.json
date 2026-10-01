@@ -1,0 +1,30 @@
+{
+  "b01": {
+    "inventario": {
+      "schema": "OK",
+      "elementi": 24,
+      "pagine": 3,
+      "giudizio_vc": "NON_EMESSO"
+    },
+    "rivelazione": {
+      "blocco": "b01",
+      "integrita": "OK",
+      "files": 17,
+      "giudizio_vc": "NON_EMESSO"
+    }
+  },
+  "b02": {
+    "inventario": {
+      "schema": "OK",
+      "elementi": 8,
+      "pagine": 4,
+      "giudizio_vc": "NON_EMESSO"
+    },
+    "rivelazione": {
+      "blocco": "b02",
+      "integrita": "OK",
+      "files": 13,
+      "giudizio_vc": "NON_EMESSO"
+    }
+  }
+}

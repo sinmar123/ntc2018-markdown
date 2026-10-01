@@ -1,0 +1,47 @@
+{
+  "ruolo": "E",
+  "descrizione": "Hermes NTC-VC, applicazione di sostituzioni esatte approvate senza chiusura gate",
+  "sessioni": [
+    {
+      "id": "20260910_185522_efe78c",
+      "modello": "gpt-5.6-terra",
+      "provider": "openai-codex",
+      "ragionamento": "medium",
+      "api_call_count": 19,
+      "tool_call_count": 55,
+      "input_tokens": 119671,
+      "cache_read_tokens": 1604480,
+      "output_tokens": 12805,
+      "reasoning_tokens": 5366,
+      "costo_usd": 0.0,
+      "costo_stato": "included"
+    },
+    {
+      "id": "20260910_193518_2d97d6",
+      "modello": "gpt-5.6-terra",
+      "provider": "openai-codex",
+      "ragionamento": "medium",
+      "api_call_count": 5,
+      "tool_call_count": 13,
+      "input_tokens": 65328,
+      "cache_read_tokens": 182272,
+      "output_tokens": 1261,
+      "reasoning_tokens": 249,
+      "costo_usd": 0.0,
+      "costo_stato": "included"
+    }
+  ],
+  "totali_figli": {
+    "contesti": 2,
+    "tentativi": 2,
+    "api_call_count": 24,
+    "tool_call_count": 68,
+    "input_tokens": 184999,
+    "cache_read_tokens": 1786752,
+    "output_tokens": 14066,
+    "reasoning_tokens": 5615,
+    "costo_usd": 0.0,
+    "costo_stato": "included"
+  },
+  "nota": "Cache inclusa negli input; reasoning incluso negli output. Il coordinatore non è sommato. Dati letti dai metadati redatti delle sessioni Hermes."
+}

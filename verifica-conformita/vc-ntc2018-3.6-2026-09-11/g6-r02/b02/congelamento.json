@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-11T17:38:36.519280+00:00",
+  "firma": "CDX, verificatore V indipendente G6, modello effettivo gpt-5.6-sol xhigh",
+  "inventario_sha256": "1701b6e16cf2bfe27fd5d66c1b2024085f5700f1fce9eb39c4fcec70972cdeab",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "dbec91716ac397389a5a8ffaaf9812f733418f9365b76920a57620bf23144b1d"
+}

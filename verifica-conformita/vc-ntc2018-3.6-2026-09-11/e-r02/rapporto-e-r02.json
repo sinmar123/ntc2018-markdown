@@ -1,0 +1,54 @@
+{
+  "firma": "Codex / CDX (E, esecutore effettivo)",
+  "stato": "applicata",
+  "lista": "_tmp_render/cap03/vc-3.6-20260911-cdx/c/lista-correzioni-r02.json",
+  "sha256_lista": "6091bcd5c17d39968d47fd773b7629274f19152e15c99f52d83934fdc22b6c3b",
+  "conteggio_applicato": 5,
+  "id_applicati": [
+    "C36-R02-001",
+    "C36-R02-002",
+    "C36-R02-003",
+    "C36-R02-004",
+    "C36-R02-005"
+  ],
+  "target": [
+    {
+      "percorso": "cap03/3.6-introduzione.md",
+      "sha256_prima": "65355da12f44a3cfe2ed8ccd51ee9d7004ac7fccf8c320d0db19cf19ab8a3cfd",
+      "sha256_dopo": "420192c0c7ac67132dfc829bd0d1d2711ba6068e5b7757b23fd7c2d8d9db1913",
+      "sha256_atteso_dopo": "420192c0c7ac67132dfc829bd0d1d2711ba6068e5b7757b23fd7c2d8d9db1913",
+      "copia_pre_e_r02": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r02/pre-e-r02/3.6-introduzione.md"
+    },
+    {
+      "percorso": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "sha256_prima": "aca057650fb132f8defc6385afb328e1818cfb1c0bd9465fcbcc7c5090ac3e8d",
+      "sha256_dopo": "5163e9708ef4701cb0eba389fa23ede49c230c1b28629cf4422c93373aaa4cce",
+      "sha256_atteso_dopo": "5163e9708ef4701cb0eba389fa23ede49c230c1b28629cf4422c93373aaa4cce",
+      "copia_pre_e_r02": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r02/pre-e-r02/3.6.1-azioni-eccezionali-incendio.md"
+    },
+    {
+      "percorso": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "sha256_prima": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748",
+      "sha256_dopo": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748",
+      "sha256_atteso_dopo": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748",
+      "copia_pre_e_r02": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r02/pre-e-r02/3.6.2-azioni-eccezionali-esplosioni.md"
+    },
+    {
+      "percorso": "cap03/3.6.3-azioni-eccezionali-urti.md",
+      "sha256_prima": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db",
+      "sha256_dopo": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db",
+      "sha256_atteso_dopo": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db",
+      "copia_pre_e_r02": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r02/pre-e-r02/3.6.3-azioni-eccezionali-urti.md"
+    }
+  ],
+  "diff": "_tmp_render/cap03/vc-3.6-20260911-cdx/e-r02/diff-unico-completo.diff",
+  "sha256_diff": "9b1e8b30a825de9b1830e810c8fb7b732b1ceca78d18c773bd66a9fc72757e06",
+  "verifiche": {
+    "hash_lista_atteso": true,
+    "hash_snapshot_iniziali": true,
+    "unicita_prima": true,
+    "assenza_sovrapposizioni": true,
+    "diff_meccanico_coincide_lista": true,
+    "hash_attesi_dopo_r02": true
+  }
+}

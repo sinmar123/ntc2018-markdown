@@ -1,0 +1,83 @@
+11-2-2019                     Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE               Serie generale - n. 35
+
+
+
+
+       C3.4.5      COEFFICIENTE TERMICO
+
+       L’adozione di valori inferiori all’unità del coefficiente termico è da sconsigliarsi in linea generale.
+
+      Laddove adeguatamente motivato può applicarsi solamente per coperture ricadenti in località nelle quali il carico della neve al
+       suolo è superiore a 1,5 kN/m2, e caratterizzate da trasmittanza superiore a 1 W/m2K°
+
+       Per edifici nei quali la temperatura interna è mantenuta intenzionalmente sotto 0°C (edifici frigoriferi, impianti per il pattinaggio
+      su ghiaccio ecc.) si raccomanda di assumere il valore del coefficiente termico pari a 1,2, indipendentemente dal valore del carico
+      neve al suolo.
+
+
+     C3.5     AZIONI DELLA TEMPERATURA
+
+      Larga parte di questo Capitolo resta invariato al passaggio dalle precedenti NTC alle attuali. In particolare non vengono
+       modificati né il § 3.5.1 relativo alle generalità, né il § 3.5.3 in cui si definisce la temperatura dell’aria interna, né il § 3.5.4 relativo
+        alla distribuzione della temperatura negli elementi strutturali, né il § 3.5.5 che definisce le azioni termiche sugli edifici, né il §
+        3.5.6 che fornisce indicazioni relativamente alle precauzioni da adottare per le strutture soggette ad azioni termiche speciali, né
+        infine il § 3.5.7 relativo alle valutazioni degli effetti delle azioni termiche sui materiali strutturali.
+
+
+       C3.5.2      TEMPERATURA DELL’ARIA ESTERNA
+
+       Modifiche significative sono state apportate solo in questo paragrafo relativo alle temperature massime e minime da adottarsi per
+         l’aria esterna; tali temperature, che nelle precedenti NTC venivano assunte uguali per l’intero territorio nazionale, nelle attuali
+      vengono differenziate suddividendo il territorio nazionale in quattro zone ed in ciascuna di esse tenendo anche conto della quota
+       del sito della costruzione sul livello del mare. In questo paragrafo vengono anche indicati i valori dei periodi di ritorno delle
+       temperature dell’aria da assumere per fasi transitorie di durata compresa fra uno e tre mesi, ovvero fra tre mesi ed un anno.
+
+
+     C3.6     AZIONI ECCEZIONALI
+
+           Il presente paragrafo fornisce indicazioni per la quantificazione degli effetti delle azioni eccezionali che intervengono in scenari di
+        rischio ben identificati quali incendi, esplosioni ed urti. Attraverso la combinazione eccezionale delle azioni, di cui al § 2.5.3, è
+        possibile dimensionare le membrature interessate da tali azioni.
+
+       Gli scenari di rischio da prendere in considerazione nella progettazione sono riportati in specifici decreti e regolamenti o, in
+       assenza, in documenti di comprovata validità. Fermi restando gli scenari sopra descritti il committente può individuare ulteriori
+        specifici scenari sulla base di una valutazione del rischio.
+
+      La norma UNI EN 1991-1-2 fornisce regole di carattere generale per la salvaguardia degli edifici e delle opere di ingegneria civile
+       nei confronti dell’incendio.
+
+       Per le costruzioni progettate per limitare il rischio d’incendio, ai fini della salvaguardia dell’individuo e della collettività, nonché
+        delle proprietà limitrofe e dei beni direttamente esposti al fuoco, occorre anche tenere conto delle disposizioni contenute nel D.M.
+       9 marzo 2007 o, in alternativa, nel D.M. 3 agosto 2015.
+
+      La norma UNI EN 1991-1-7 fornisce regole di carattere generale per la salvaguardia degli edifici e delle opere di ingegneria civile
+       nei confronti di azioni derivanti da esplosioni e urti.
+
+       Per le costruzioni progettate per  limitare il rischio di esplosioni, ai fini della  salvaguardia dell’individuo e della collettività,
+      nonché delle proprietà limitrofe e dei beni direttamente esposti, occorre anche tenere conto delle disposizioni contenute nel D.M.
+       3 agosto 2015
+
+
+       C3.6.1      INCENDIO
+
+
+        C3.6.1.1      DEFINIZIONI
+
+        Si chiariscono di seguito le seguenti definizioni:
+
+                -   la capacità di compartimentazione è riferibile ai requisiti REI nonché ad ulteriori requisiti aggiuntivi attribuibili agli
+             elementi delimitanti un compartimento antincendio ai fini della mitigazione del rischio di incendio. Utili indicazioni in
+             merito sono riportate nel D.M. 16 febbraio 2007, nel D.M. 3 agosto 2015 e nella UNI EN 13501-2;
+
+                -    il carico d’incendio è il potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in
+             base ai parametri indicativi della partecipazione alla combustione dei singoli materiali. Come conseguenza si rende più
+                sintetica la definizione di carico d’incendio specifico, con la precisazione che è riferito all’unità di superficie lorda e che le
+              indicazioni per il calcolo del carico di incendio specifico di progetto (qf,d) sono fornite nel decreto del Ministro dell’Interno
+             9 marzo 2007 e nel D.M. 3 agosto 2015; la definizione del carico di incendio specifico di progetto può essere altresì
+               effettuata attraverso la norma UNI EN 1991-1-2 integrata dalla corrispondente Appendice Nazionale che richiama i due
+               decreti citati.
+
+
+
+
+                       — 77 —

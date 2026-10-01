@@ -1,0 +1,122 @@
+{
+  "firma": "Codex / CDX, modello GPT-6, verificatore indipendente G6 del blocco b01",
+  "target_pdf": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b01\\resa-target\\target-blocco.pdf",
+  "target_pdf_sha256": "699b26c9274695d43aee9e5efb9848eb293f8637f8cd805db9c9b5fa2dac5b74",
+  "classificazione_area": "target interamente vettoriale; nessuna immagine incorporata nelle quattro pagine",
+  "ritagli": [
+    {
+      "file": "target-p01-e-opportuno-1200dpi.png",
+      "pagina_target": 1,
+      "clip_pdf_pt": [
+        45,
+        88,
+        570,
+        136
+      ],
+      "dpi": 1200,
+      "pixel": [
+        8750,
+        801
+      ],
+      "spazio_colore": "DeviceGray",
+      "metodo": "PyMuPDF get_pixmap dal target-blocco.pdf vettoriale",
+      "contenuto": "prima frase potenzialmente difforme, resa ?? opportuno?",
+      "sha256": "b2d71d3790d36e24b8e4bb5b86bc8fec74b62e3c2e8118f198371a28d4204a1b"
+    },
+    {
+      "file": "target-p01-curve-alternative-900dpi.png",
+      "pagina_target": 1,
+      "clip_pdf_pt": [
+        45,
+        360,
+        570,
+        440
+      ],
+      "dpi": 900,
+      "pixel": [
+        6563,
+        1000
+      ],
+      "spazio_colore": "DeviceGray",
+      "metodo": "PyMuPDF get_pixmap dal target-blocco.pdf vettoriale",
+      "contenuto": "alternative nominale/naturale e marcatori di elenco visibili",
+      "sha256": "b1aea6a1b6528ff6b032818dfce1cda0d5917bba4cfed2326e75b49febaa4432"
+    },
+    {
+      "file": "target-p01-formula-3.6.1-1200dpi.png",
+      "pagina_target": 1,
+      "clip_pdf_pt": [
+        235,
+        688,
+        570,
+        723
+      ],
+      "dpi": 1200,
+      "pixel": [
+        5584,
+        584
+      ],
+      "spazio_colore": "DeviceGray",
+      "metodo": "PyMuPDF get_pixmap dal target-blocco.pdf vettoriale",
+      "contenuto": "formula [3.6.1] resa dal target",
+      "sha256": "f3f059e3c457bfe7fe255a4c21f7e17a3a97799a67858d89744b0c8001e0805f"
+    },
+    {
+      "file": "target-p02-definizioni-formula-1200dpi.png",
+      "pagina_target": 2,
+      "clip_pdf_pt": [
+        45,
+        48,
+        570,
+        135
+      ],
+      "dpi": 1200,
+      "pixel": [
+        8750,
+        1450
+      ],
+      "spazio_colore": "DeviceGray",
+      "metodo": "PyMuPDF get_pixmap dal target-blocco.pdf vettoriale",
+      "contenuto": "blocco dove, condizioni e produttoria resi dal target",
+      "sha256": "98ea2c78c6d1a796664da0eafe87e897453f7500852baacd2952acbc0d67e0c6"
+    },
+    {
+      "file": "target-p02-tab-3.5.IV-600dpi.png",
+      "pagina_target": 2,
+      "clip_pdf_pt": [
+        45,
+        335,
+        570,
+        565
+      ],
+      "dpi": 600,
+      "pixel": [
+        4375,
+        1918
+      ],
+      "spazio_colore": "DeviceGray",
+      "metodo": "PyMuPDF get_pixmap dal target-blocco.pdf vettoriale",
+      "contenuto": "didascalia e cinque righe della Tab. 3.5.IV rese dal target",
+      "sha256": "89c491614080aea7ac9867f772717bb52ec7e952e54b1472559e4a31187a4ad3"
+    },
+    {
+      "file": "target-p03-formule-3.6.2-3.6.4-1200dpi.png",
+      "pagina_target": 3,
+      "clip_pdf_pt": [
+        170,
+        382,
+        570,
+        565
+      ],
+      "dpi": 1200,
+      "pixel": [
+        6667,
+        3051
+      ],
+      "spazio_colore": "DeviceGray",
+      "metodo": "PyMuPDF get_pixmap dal target-blocco.pdf vettoriale",
+      "contenuto": "formule [3.6.2]-[3.6.4] rese dal target",
+      "sha256": "bfa32f7dc8ed103e55ed65979d357df8ae7a10bfd3e9e91bad2e513ecf3877ea"
+    }
+  ]
+}

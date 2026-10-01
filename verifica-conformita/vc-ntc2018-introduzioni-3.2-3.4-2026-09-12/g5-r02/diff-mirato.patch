@@ -1,0 +1,11 @@
+--- cap03/3.2-introduzione.md r01
++++ cap03/3.2-introduzione.md r02
+@@ -59,7 +59,7 @@
+ 
+ ![Fig. C3.2.1 b - Variabilità di F_o con T_R](img/fig-C3.2.1b-variabilita-Fo-TR.png)
+ 
+-**Figura C3.2.1 b** - *Variabilità di $Fo$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%*
++**Figura C3.2.1 b** - *Variabilità di $F_o$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%*
+ 
+ ![Fig. C3.2.1 c - Variabilità di T_C^* con T_R](img/fig-C3.2.1c-variabilita-Tc-TR.png)
+ 

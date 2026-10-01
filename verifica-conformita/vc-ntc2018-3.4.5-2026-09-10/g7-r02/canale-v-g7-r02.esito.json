@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T09:34:36+02:00",
+  "richiesta": "vc-345-g7-r02.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (4 user messages, 120 total messages)\n\nsession_id: 20260909_165403_00ba4e\nOsservato: il recupero documentale R02 chiude correttamente i tre rilievi del G7 R01. Il manifest R02 include la procedura R3 ed esclude dai propri record la copia R2; confine C3.5 e normalizzazioni 2 e 1 sono corretti. Gli invarianti dichiarati di target, fonti, render, asset e G6 risultano immutati.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7 R02: KO\n\nRestano aperti due ERR-AUDIT:\n\n1. L’impronta del manifest R01 è 04bd73… nella rettifica, ma 04db73… nel manifest R02.\n2. La procedura congelata si identifica come revisione 3, ma al § 2 prescrive ancora il valore letterale procedura: VC-NTC/2.\n\nNon ho potuto ricalcolare autonomamente le impronte né stabilire quale delle due impronte discordanti sia effettiva. Non ho rieseguito script, render o G6, in conformità alla verifica del solo delta.\n\nNon ho rifatto l’inventario e non ho modificato altre evidenze.\ngiudizio-g7.json scritto\n"
+}

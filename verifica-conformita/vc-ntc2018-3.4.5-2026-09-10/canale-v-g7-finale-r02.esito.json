@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T10:42:22+02:00",
+  "richiesta": "vc-345-g7-r06.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (8 user messages, 193 total messages)\nOsservato: il percorso vivo cap03/3.4.5-neve-coefficiente-termico.md è presente e coincide nel contenuto e nella dimensione con il target già giudicato. Il dossier portabile conserva manifest, giudizio R05 e rettifica. L’evidenza esterna documenta 67 file, codice di uscita 0 e integrità OK.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7 R06: OK\n\nG0-G7: tutti OK\nRilievi aperti: nessuno\n\nImpronta del manifest finale R02:\n\ne338cac1d900f68473c48e30f7dfe11a6070cd4abf4649d8faf39415759a4586\n\nNon ho ricalcolato autonomamente le impronte: ho importato impronta e integrità dall’evidenza impronta-manifest-finale-r02.json. Non ho rieseguito G6, inventario, render, confronto, registrazione o ricognizione di vigenza.\n\nNon ho rifatto l’inventario e non ho modificato altre evidenze.\n\nsession_id: 20260909_165403_00ba4e\ngiudizio-g7.json scritto\n"
+}

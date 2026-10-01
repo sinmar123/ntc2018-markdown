@@ -1,0 +1,19 @@
+﻿---
+aliases: [§ 6.12 - Fattibilità di opere su grandi aree]
+---
+
+[Torna all'indice del capitolo](./indice-cap06.md) | [Torna all'indice generale](../indice-ntc2018.md)
+
+# 6.12. Fattibilità di opere su grandi aree
+
+## Contenuto
+
+| Sezione | Titolo | File | Presenza |
+|:---:|---|---|---|
+| 6.12 | Introduzione e testo di livello 2 | [6.12-introduzione.md](./6.12-introduzione.md) | NTC/Circolare se presenti |
+| 6.12.1 | Indagini specifiche | [6.12.1-grandi-aree-indagini-specifiche.md](./6.12.1-grandi-aree-indagini-specifiche.md) | NTC e Circolare |
+| C6.12.2 | Verifiche di fattibilità | [c6.12.2-grandi-aree-verifiche-di-fattibilita.md](./c6.12.2-grandi-aree-verifiche-di-fattibilita.md) | sola Circolare |
+
+## Criterio editoriale
+
+I file seguono le sezioni naturali di livello 3 e adottano lo schema `6.12.z-grandi-aree-<argomento>.md`. Le sezioni presenti soltanto nella Circolare usano il prefisso `c`. Ogni file abbina NTC e Circolare quando entrambe esistono; gli stati VC storici non sono trasferiti automaticamente.

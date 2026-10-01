@@ -1,0 +1,18 @@
+{
+  "firma": "CDX, coordinatore C",
+  "data": "2026-09-05",
+  "scope": "3.4.4",
+  "snapshot_iniziale": "d1a0e167a41086ff323a65164c62aab2bf96e1ad9cea7902bf0e8570d8bb236e",
+  "rilievi": [
+    {
+      "id": "R03",
+      "classe": "ERR-MD",
+      "posizione": "prime due celle della testata",
+      "prova": "fonte-ntc-p063-scope-600dpi.png; render-finale-p01.png",
+      "motivazione": "Nel render canonico le prime due intestazioni non sono in grassetto, mentre la fonte le stampa in grassetto; la sola posizione in testata Markdown non conserva questa veste nel renderer canonico.",
+      "prima": "| Topografia | Descrizione | $\\mathbf{C}_{\\mathbf{E}}$ |",
+      "dopo": "| **Topografia** | **Descrizione** | $\\mathbf{C}_{\\mathbf{E}}$ |",
+      "occorrenze": 1
+    }
+  ]
+}

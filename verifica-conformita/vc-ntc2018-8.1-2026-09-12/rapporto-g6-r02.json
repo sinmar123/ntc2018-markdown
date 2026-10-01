@@ -1,0 +1,44 @@
+{
+  "firma": "GROK-V2 / grok-4.6 xhigh",
+  "esito": "KO",
+  "coperti": [
+    "NTC-8.1-RUB",
+    "NTC-8.1-P1",
+    "NTC-8.1-P2",
+    "CIRC-C8-ETI",
+    "CIRC-C8-TIT",
+    "CIRC-C8-P1",
+    "CIRC-C8-P2",
+    "CIRC-C8-P3",
+    "CIRC-C8-P4",
+    "CIRC-C8.1-RUB",
+    "CIRC-C8.1-P1",
+    "CIRC-C8.1-P2",
+    "CIRC-C8.1-P3",
+    "CIRC-C8.1-P4"
+  ],
+  "normalizzazioni": [1, 2],
+  "rilievi": [
+    {
+      "id": "CIRC-C8.1-P1",
+      "pagina": "circ:254",
+      "posizione": "primo capoverso di C8.1, subito dopo la rubrica",
+      "prova": "fonte-circ-254.png nativa ~200 dpi: «Le costruzioni esistenti» e i due virgolettati NTC («alla data della redazione della valutazione di sicurezza e/o del progetto d'intervento»; «completamente realizzata») sono in corsivo; testo.md rende l'intero capoverso in tondo, senza * né _. Parole, § e virgolette coincidono (NORM 2). Il corsivo è visibile a risoluzione nativa; interpolare a 600 dpi non aggiunge informazione.",
+      "classe": "ERR-MD"
+    },
+    {
+      "id": "CIRC-C8.1-P3",
+      "pagina": "circ:254",
+      "posizione": "terzo capoverso di C8.1, dopo «con l'espressione»",
+      "prova": "fonte-circ-254.png nativa ~200 dpi: l'espressione «struttura completamente realizzata» è in corsivo; testo.md la stampa in tondo senza marcatore. Il resto del capoverso (parole, «progetto di intervento», punto e virgola) coincide.",
+      "classe": "ERR-MD"
+    }
+  ],
+  "letture": [
+    "testo.md",
+    "fonte-ntc-294.png",
+    "fonte-circ-253.png",
+    "fonte-circ-254.png"
+  ],
+  "isolamento": "istruttivo"
+}

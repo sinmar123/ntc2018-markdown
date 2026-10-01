@@ -1,0 +1,191 @@
+[
+  {
+    "name": "p66-formula-3.6.1",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 1,
+    "physical_page": 66,
+    "clip_points": [
+      70.0,
+      690.0,
+      480.0,
+      736.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3417,
+      384
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p66-formula-3.6.1-600dpi.png",
+    "sha256": "d9fadb5b925301b0874e8b28d0e6e77a7371c50ea5a19d09be8ca6863e8eb245"
+  },
+  {
+    "name": "p67-dove-3.6.1",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 2,
+    "physical_page": 67,
+    "clip_points": [
+      75.0,
+      84.0,
+      530.0,
+      205.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3792,
+      1009
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p67-dove-3.6.1-600dpi.png",
+    "sha256": "bd08a7732bf04a6cd9596904e49e07d26cb6797ecc85cab6292ca5df9e343a69"
+  },
+  {
+    "name": "p68-formula-3.6.2",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 3,
+    "physical_page": 68,
+    "clip_points": [
+      70.0,
+      236.0,
+      500.0,
+      278.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3584,
+      351
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p68-formula-3.6.2-600dpi.png",
+    "sha256": "25baef9797cda41e8afbeb1a5470351315927c7521390cf7e6e00fe69d6d002c"
+  },
+  {
+    "name": "p68-formula-3.6.3",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 3,
+    "physical_page": 68,
+    "clip_points": [
+      70.0,
+      288.0,
+      500.0,
+      318.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3584,
+      250
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p68-formula-3.6.3-600dpi.png",
+    "sha256": "d6a5c4d1bfb81ecb0fae00b1484b53ebdc7a8d21345007f82c5a82eb29c0105d"
+  },
+  {
+    "name": "p68-formula-3.6.4",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 3,
+    "physical_page": 68,
+    "clip_points": [
+      70.0,
+      327.0,
+      500.0,
+      356.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3584,
+      242
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p68-formula-3.6.4-600dpi.png",
+    "sha256": "517f4205d1f7a7ddf84514bbeac840dacab406469931864279e738ce6b98afee"
+  },
+  {
+    "name": "p69-formule-3.6.5ab",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 4,
+    "physical_page": 69,
+    "clip_points": [
+      145.0,
+      329.0,
+      496.0,
+      390.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      2926,
+      509
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p69-formule-3.6.5ab-600dpi.png",
+    "sha256": "0aa180529cddddc311e8a947a0d4447bfa9697c9f0a3ae8f101b162ac15f3643"
+  },
+  {
+    "name": "p69-dove-3.6.5ab",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 4,
+    "physical_page": 69,
+    "clip_points": [
+      67.0,
+      375.0,
+      527.0,
+      473.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3834,
+      817
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p69-dove-3.6.5ab-600dpi.png",
+    "sha256": "a766b5e0581b7cf796c1b4c1f83f8a829422b17473dbadd3f8dbdd9d5d0a0199"
+  },
+  {
+    "name": "p69-formula-3.6.6",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 4,
+    "physical_page": 69,
+    "clip_points": [
+      70.0,
+      440.0,
+      490.0,
+      473.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3501,
+      276
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p69-formula-3.6.6-600dpi.png",
+    "sha256": "2e2bc6ce711e50845bc076a3fc41a63398e8d742240ce9154f6735787736553e"
+  },
+  {
+    "name": "p69-inline-pd20",
+    "source": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911\\b01\\fonte-ntc-vettoriale.pdf",
+    "source_sha256": "7a4e756ccb9df4ddfd34a4d3ee4fda63b470afb1836c089d3f2634b23ff91ee3",
+    "pdf_page": 4,
+    "physical_page": 69,
+    "clip_points": [
+      67.0,
+      520.0,
+      529.0,
+      599.0
+    ],
+    "dpi": 600,
+    "pixels": [
+      3851,
+      659
+    ],
+    "method": "PyMuPDF get_pixmap, direct render from vector PDF",
+    "path": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b01\\p69-inline-pd20-600dpi.png",
+    "sha256": "212640efbe18fd28404f2e5f1c7426ba9e807b567786daaf88b18c70459c409b"
+  }
+]

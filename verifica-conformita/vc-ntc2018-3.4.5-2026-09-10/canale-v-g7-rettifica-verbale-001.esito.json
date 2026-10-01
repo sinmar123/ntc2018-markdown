@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T14:00:18+02:00",
+  "richiesta": "vc-345-g7-r07-rettifica-verbale.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (9 user messages, 214 total messages)\nOsservato: la rettifica append-only integra i tre punti richiesti. Dichiara natura AI, assenza di revisione umana integrale e isolamento del canale V. La fonte mostra che il secondo capoverso termina con 1 W/m²K° senza punto, forma conservata nel target e correttamente classificata AF-3.4.5-01, A/AF. Gli URL ufficiali coincidono con il rapporto G0-G1.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7 R07: OK\n\nG0-G7: tutti OK\nRilievi aperti: nessuno\nAnomalia conservata: AF-3.4.5-01\n\nManifest base:\n\ne338cac1d900f68473c48e30f7dfe11a6070cd4abf4649d8faf39415759a4586\n\nManifest della rettifica:\n\n93e838f8f5ecd8c17e512c25282992289d0177792dc209b4710de0d0df471984\n\nNon ho verificato tecnicamente a posteriori il montaggio storico del container, ricalcolato le impronte o aperto gli URL sul web. Ho riscontrato le attestazioni e la loro coerenza documentale.\n\nNon ho rifatto G6, inventario, render o confronto e non ho modificato altre evidenze.\n\nsession_id: 20260909_165403_00ba4e\ngiudizio-g7.json scritto\n"
+}

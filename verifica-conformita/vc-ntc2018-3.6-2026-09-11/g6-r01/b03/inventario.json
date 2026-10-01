@@ -1,0 +1,257 @@
+{
+  "firma": "Codex (CDX), verificatore indipendente G6, blocco b03",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "B03-C81-001-RUB-C36",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.6 AZIONI ECCEZIONALI, bbox PDF [73.91,362.94,219.71,373.35]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C81-002-C36-P01-06",
+      "pagina": "circ:81",
+      "riferimento": "Sei capoversi integrali sotto C3.6, dal capoverso iniziale sulla quantificazione degli effetti al capoverso conclusivo sul rischio di esplosioni, bbox complessivo [73.91,378.75,523.26,557.57]",
+      "tipo": "gruppo_prosa",
+      "estensione": 6,
+      "controlli_specifici": ["rinvio § 2.5.3", "UNI EN 1991-1-2", "D.M. 9 marzo 2007", "D.M. 3 agosto 2015", "UNI EN 1991-1-7", "assenza del punto finale nell'ultimo capoverso"]
+    },
+    {
+      "id": "B03-C81-003-RUB-C361",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.6.1 INCENDIO, bbox [73.92,571.41,158.57,579.21]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C81-004-RUB-C3611",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.6.1.1 DEFINIZIONI, bbox [73.92,591.60,167.23,600.03]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C81-005-C3611-INTRO",
+      "pagina": "circ:81",
+      "riferimento": "Capoverso introduttivo alle definizioni, bbox [73.91,604.57,240.11,612.39]",
+      "tipo": "prosa"
+    },
+    {
+      "id": "B03-C81-006-C3611-DEF01-02",
+      "pagina": "circ:81",
+      "riferimento": "Due voci definitorie integrali, capacità di compartimentazione e carico d'incendio, bbox complessivo [86.19,617.08,523.30,722.91]",
+      "tipo": "gruppo_elenco",
+      "estensione": 2,
+      "controlli_specifici": ["REI", "D.M. 16 febbraio 2007", "UNI EN 13501-2", "superficie lorda sottolineata", "notazione q con pedice f,d", "Appendice Nazionale"]
+    },
+    {
+      "id": "B03-C81-007-INLINE-QFD",
+      "pagina": "circ:81",
+      "riferimento": "Notazione inline q con pedice f,d fra parentesi, bbox [337.76,683.44,347.30,691.27]; prova 600 dpi p81-qfd-lorda-600dpi.png",
+      "tipo": "inline_sostanziale"
+    },
+    {
+      "id": "B03-C81-008-ENF-LORDA",
+      "pagina": "circ:81",
+      "riferimento": "Parola 'lorda' sottolineata nella seconda definizione; tratto vettoriale bbox [473.31,679.41,491.62,679.82]; prova 600 dpi p81-qfd-lorda-600dpi.png",
+      "tipo": "enfasi_tipografica"
+    },
+    {
+      "id": "B03-C82-009-C3611-P03",
+      "pagina": "circ:82",
+      "riferimento": "Capoverso sugli elementi strutturali lignei e relativi riferimenti, bbox [73.91,99.65,523.30,149.63]",
+      "tipo": "prosa",
+      "controlli_specifici": ["prot. P414/4122 sott. 5", "28/5/2008", "D.M. 3 agosto 2015"]
+    },
+    {
+      "id": "B03-C82-010-RUB-C3612",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.2 RICHIESTE DI PRESTAZIONE, bbox [73.91,162.02,214.69,170.44]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C82-011-C3612-INTRO",
+      "pagina": "circ:82",
+      "riferimento": "Capoverso introduttivo all'elenco dei decreti, bbox [73.91,174.99,523.24,193.34]",
+      "tipo": "prosa",
+      "controlli_specifici": ["rinvio § 3.6.1.2 delle NTC", "virgola dopo 'punto precedente'"]
+    },
+    {
+      "id": "B03-C82-012-C3612-ELENCO-DM",
+      "pagina": "circ:82",
+      "riferimento": "Due voci integrali dell'elenco D.M. 9 marzo 2007 e D.M. 3 agosto 2015, bbox complessivo [86.19,198.12,523.25,240.69]",
+      "tipo": "gruppo_elenco",
+      "estensione": 2,
+      "controlli_specifici": ["punto e virgola finale prima voce", "punto finale seconda voce", "art. 15", "decreto legislativo 8 marzo 2006, n. 139"]
+    },
+    {
+      "id": "B03-C82-013-C3612-P02-05",
+      "pagina": "circ:82",
+      "riferimento": "Quattro capoversi integrali dopo l'elenco, da 'Sono fatte salve' a 'Il progetto delle strutture', bbox complessivo [73.91,245.97,523.27,409.08]",
+      "tipo": "gruppo_prosa",
+      "estensione": 4,
+      "controlli_specifici": ["art. 15 e n. 139", "§ 2.2.3", "Livello I-V", "Tab. 3.5.IV", "ISO 834", "flash over", "assenza del punto finale nell'ultimo capoverso"]
+    },
+    {
+      "id": "B03-C82-014-RUB-C3613",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.3 CLASSI DI RESISTENZA AL FUOCO, bbox [73.91,421.47,232.69,429.90]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C82-015-C3613-P01",
+      "pagina": "circ:82",
+      "riferimento": "Unico capoverso sulle classi e sugli incendi nominali, bbox [73.92,434.42,523.22,463.28]",
+      "tipo": "prosa",
+      "controlli_specifici": ["ISO 834", "parentetica idrocarburi/incendi esterni"]
+    },
+    {
+      "id": "B03-C82-016-RUB-C3614",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.4 CRITERI DI PROGETTAZIONE, bbox [73.92,475.66,217.08,484.09]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C82-017-C3614-P01",
+      "pagina": "circ:82",
+      "riferimento": "Unico capoverso sui criteri di progettazione e sui due tipi di curva, bbox [73.91,488.63,523.24,538.62]",
+      "tipo": "prosa"
+    },
+    {
+      "id": "B03-C82-018-RUB-C3615",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.5 PROCEDURA DI ANALISI DELLA RESISTENZA AL FUOCO, bbox [73.91,551.00,300.33,559.43]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C82-019-RUB-C36151",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.5.1 Incendio di progetto, bbox [73.91,572.55,197.83,580.36]; stampa verificata a 600 dpi",
+      "tipo": "rubrica",
+      "prova": "p82-rubriche-1-5-1-e-1-5-3-600dpi.png"
+    },
+    {
+      "id": "B03-C82-020-C36151-INTRO",
+      "pagina": "circ:82",
+      "riferimento": "Capoverso introduttivo alle due condizioni, bbox [73.91,584.89,523.20,603.23]",
+      "tipo": "prosa"
+    },
+    {
+      "id": "B03-C82-021-COND-CURVA-NOMINALE",
+      "pagina": "circ:82",
+      "riferimento": "Prima condizione, voce sulla curva nominale d'incendio, bbox [86.19,608.01,523.18,626.96]",
+      "tipo": "condizione"
+    },
+    {
+      "id": "B03-C82-022-COND-CURVA-NATURALE",
+      "pagina": "circ:82",
+      "riferimento": "Seconda condizione, voce sulla curva naturale d'incendio, bbox [86.20,631.64,523.38,661.09]",
+      "tipo": "condizione"
+    },
+    {
+      "id": "B03-C82-023-C36151-P02",
+      "pagina": "circ:82",
+      "riferimento": "Capoverso conclusivo sulle curve nominali specifiche, bbox [73.92,666.48,523.31,705.85]",
+      "tipo": "prosa",
+      "controlli_specifici": ["rinvio C3.6.1.1", "punto 4.3", "UNI EN 13501-2", "UNI 11076", "RWS", "ZTV", "HCM", "etc.)."]
+    },
+    {
+      "id": "B03-C82-024-INLINE-CURVE",
+      "pagina": "circ:82",
+      "riferimento": "Due locuzioni inglesi tra virgolette e in corsivo nel capoverso conclusivo: slow heating curve e tunnel curve; la seconda ha bbox [139.17,687.52,179.76,695.33]",
+      "tipo": "inline_sostanziale"
+    },
+    {
+      "id": "B03-C82-025-RUB-C36153",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.5.3 Analisi del comportamento meccanico, bbox [73.92,718.77,260.91,726.58]; stampa verificata a 600 dpi",
+      "tipo": "rubrica",
+      "prova": "p82-rubriche-1-5-1-e-1-5-3-600dpi.png"
+    },
+    {
+      "id": "B03-C83-026-C36153-P01-03",
+      "pagina": "circ:83",
+      "riferimento": "Tre capoversi integrali sotto Analisi del comportamento meccanico, bbox complessivo [73.91,99.65,523.27,196.98]",
+      "tipo": "gruppo_prosa",
+      "estensione": 3,
+      "controlli_specifici": ["punti 4.1.13, 4.2.11, 4.3.9, 4.4.14, 4.5.11", "§ 2.5.3", "condizioni di trascurabilità delle sollecitazioni indirette"]
+    },
+    {
+      "id": "B03-C83-027-RUB-C36154",
+      "pagina": "circ:83",
+      "riferimento": "Rubrica C3.6.1.5.4 Verifiche di sicurezza, bbox [73.91,209.91,202.55,217.71]; stampa verificata a 600 dpi",
+      "tipo": "rubrica",
+      "prova": "p83-rubrica-1-5-4-600dpi.png"
+    },
+    {
+      "id": "B03-C83-028-C36154-P01-03",
+      "pagina": "circ:83",
+      "riferimento": "Tre capoversi integrali sotto Verifiche di sicurezza, bbox complessivo [73.89,222.35,523.22,330.20]",
+      "tipo": "gruppo_prosa",
+      "estensione": 3,
+      "controlli_specifici": ["punti 4.1.13, 4.2.11, 4.3.9, 4.4.14, 4.5.11", "§ 3.6.1.5.1", "D.Lgs. 139/2006", "livello II", "tab. 3.5.IV", "D.M. 3/8/2015", "minimo di 30 minuti", "costrutto fonte 'sia previsto che siano mantenuti'"]
+    },
+    {
+      "id": "B03-C83-029-RUB-C362",
+      "pagina": "circ:83",
+      "riferimento": "Rubrica C3.6.2 ESPLOSIONI, bbox [73.89,344.04,166.34,351.85]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C83-030-RUB-C3623",
+      "pagina": "circ:83",
+      "riferimento": "Rubrica C3.6.2.3 MODELLAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI, bbox [73.88,364.23,311.15,372.66]",
+      "tipo": "rubrica"
+    },
+    {
+      "id": "B03-C83-031-C3623-P01-02",
+      "pagina": "circ:83",
+      "riferimento": "Due capoversi integrali di C3.6.2.3, dalle onde di pressione alle distribuzioni statiche equivalenti e al rinvio finale, bbox complessivo [73.91,377.18,523.25,408.64]",
+      "tipo": "gruppo_prosa",
+      "estensione": 2,
+      "controlli_specifici": ["condizione 'purché comprovate da modelli teorici adeguati'", "D.M. 3/8/2015"]
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "circ:81",
+      "riferimento": "Tutto il corpo precedente alla rubrica C3.6: C3.4.5, C3.5, C3.5.2 e relativa prosa, fino a y=341.11 pt",
+      "motivo": "Fuori dal confine iniziale del PERIMETRO.md"
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Intestazione Gazzetta y=57.74-73.56 pt; numero pagina e quattro raster di servizio y=764.91-820 pt",
+      "motivo": "Intestazioni e piè di pagina esclusi dal perimetro"
+    },
+    {
+      "pagina": "circ:82",
+      "riferimento": "Intestazione Gazzetta y=57.74-73.56 pt; numero pagina e quattro raster di servizio y=764.91-820 pt",
+      "motivo": "Intestazioni e piè di pagina esclusi dal perimetro"
+    },
+    {
+      "pagina": "circ:83",
+      "riferimento": "Intestazione Gazzetta y=57.74-73.56 pt; numero pagina e quattro raster di servizio y=764.91-820 pt",
+      "motivo": "Intestazioni e piè di pagina esclusi dal perimetro"
+    }
+  ],
+  "dubbi": [],
+  "copertura": {
+    "perimetro_osservato": "100%",
+    "rubriche": 12,
+    "unita_prosa_o_elenco": 31,
+    "condizioni_registrate_separatamente": 2,
+    "inline_sostanziali_registrati_separatamente": 2,
+    "enfasi_tipografiche_registrate_separatamente": 1,
+    "formule_esposte": 0,
+    "tabelle": 0,
+    "figure_o_didascalie": 0,
+    "note_a_pie_pagina": 0,
+    "ritagli_integrali_600_dpi": ["prove-v/p81-scope-600dpi.png", "prove-v/p82-scope-600dpi.png", "prove-v/p83-scope-600dpi.png"]
+  },
+  "osservazioni_fonte": [
+    "Le rubriche C3.6.1.5.1, C3.6.1.5.3 e C3.6.1.5.4 sono univoche nella stampa, ma la mappa ToUnicode del numero restituisce caratteri di controllo; la prova visiva a 600 dpi prevale ed è documentata in prove-v/provenienza-v.json.",
+    "La sequenza visibile passa da C3.6.1.5.1 a C3.6.1.5.3 senza una rubrica C3.6.1.5.2 nel perimetro osservato.",
+    "I capoversi conclusivi di C3.6 a p. 81 e di C3.6.1.2 a p. 82 non stampano il punto finale.",
+    "L'area normativa del perimetro è vettoriale; i soli raster presenti nelle pagine sono fuori perimetro nel piè di pagina."
+  ],
+  "prove": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\provenienza-v.json",
+  "isolamento": "Inventario formato senza accesso al target, al workspace, a coordinamento.json o ad altre cartelle."
+}

@@ -1,0 +1,810 @@
+{
+  "data": "2026-09-11",
+  "firma": "Codex / CDX",
+  "coordinate": "punti PDF, origine in alto a sinistra; bbox = [x0,y0,x1,y1]",
+  "fonti": {
+    "ntc": {
+      "pdf": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+    },
+    "circ": {
+      "pdf": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+    }
+  },
+  "accertamento_tipo_area": {
+    "metodo": "Per ogni pagina sono stati verificati page.get_images(full=True), page.get_image_rects(xref), page.get_drawings() e il livello testo. Ciascuna pagina contiene quattro raster 208x208 collocati nei riquadri x=323-552 pt, y=765-820 pt; nessun ritaglio a 600 dpi li interseca.",
+    "esito": "I ritagli probatori del testo, delle formule e delle tabelle sono interamente vettoriali. Le pagine complete a 200 dpi sono miste soltanto per i contrassegni GU del pi? di pagina, estranei allo scope sostanziale. Non ? quindi richiesta estrazione raster nativa per alcun elemento verificato."
+  },
+  "limiti_codifica": {
+    "testo_vettoriale": "Il livello testuale PyMuPDF ? stato usato come ausilio per localizzare e confrontare la prosa.",
+    "formule": "Alcune mappe caratteri del PDF non restituiscono in modo affidabile tutti i simboli matematici. Numeri, glifi e operatori sono stati giudicati sulle rese a 600 dpi; non ? rimasta alcuna ambiguit? che richiedesse una codifica vettoriale aggiuntiva.",
+    "raster_footer": "I quattro raster per pagina non sono stati usati come prova normativa e non sono stati estratti separatamente."
+  },
+  "prove": [
+    {
+      "file": "ntc-066.png",
+      "sha256": "cb971fe887cff88fdb132036995ec0631e2e2e52161a5c38a388fb1a0efb807e",
+      "source": "ntc",
+      "pagina_fisica": 66,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1115,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1116,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1117,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1118,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "ntc-067.png",
+      "sha256": "16948c1b5a51e46cb50104f1ee4857d9256f5f7427a64f82ed624050884d44c2",
+      "source": "ntc",
+      "pagina_fisica": 67,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1124,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1125,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1126,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1127,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "ntc-068.png",
+      "sha256": "d07445d0467ce0b3e906eb6898325e59b121efc5e29d316f02bb7a7bf6c46884",
+      "source": "ntc",
+      "pagina_fisica": 68,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1133,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1134,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1135,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1136,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "ntc-069.png",
+      "sha256": "95bbed0aa6daf0e3ce65fc678434ce6368ac403fe4fa4c36828d758b3c9ea22d",
+      "source": "ntc",
+      "pagina_fisica": 69,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1142,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1143,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1144,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1145,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "ntc-070.png",
+      "sha256": "160f97ec308c3abc87469e02f37908ca5a0305671f3d0839ea2048fda8c385dc",
+      "source": "ntc",
+      "pagina_fisica": 70,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1151,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1152,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1153,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1154,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "ntc-071.png",
+      "sha256": "c04160ac1ae201996dffb6c0468c41a5d528eef9a2bb3bc3dba3e6e789dc1f93",
+      "source": "ntc",
+      "pagina_fisica": 71,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1160,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1161,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1162,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1163,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "circ-081.png",
+      "sha256": "cf0b6e9acf1847d5ae6ff4bffeea9878a9d47efc56422da79c22312042913c4a",
+      "source": "circ",
+      "pagina_fisica": 81,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1282,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1283,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1284,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1285,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "circ-082.png",
+      "sha256": "961951a053223bad88c15ea81080e285d4f3f79e9b10be5838de987c79a27daa",
+      "source": "circ",
+      "pagina_fisica": 82,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1292,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1293,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1294,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1295,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "circ-083.png",
+      "sha256": "a76454a776f6b7f75c81ed2fcbdbdc28c9ff7f9528cd2d66f1f0732724dd6b1d",
+      "source": "circ",
+      "pagina_fisica": 83,
+      "bbox_pt": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "dpi": 200,
+      "metodo": "PyMuPDF, resa diretta della pagina PDF originale con alpha disattivato",
+      "uso": "localizzazione e lettura completa della pagina",
+      "tipo_area": "mista",
+      "immagini_raster_intersecate": [
+        {
+          "xref": 1301,
+          "bbox_pt": [
+            323.0,
+            765.0,
+            378.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1302,
+          "bbox_pt": [
+            381.0,
+            765.0,
+            436.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1303,
+          "bbox_pt": [
+            439.0,
+            765.0,
+            494.0,
+            820.0
+          ]
+        },
+        {
+          "xref": 1304,
+          "bbox_pt": [
+            497.0,
+            765.0,
+            552.0,
+            820.0
+          ]
+        }
+      ],
+      "nota_area": "Il solo raster ? costituito dai quattro contrassegni GU nel pi? di pagina, fuori dal testo normativo; il testo e gli apparati del ? 3.6/C3.6 sono vettoriali."
+    },
+    {
+      "file": "dettaglio-circ081-prosa-rubriche.png",
+      "sha256": "ec90c06329df84455146f4be014891b9aad9483e75749648f8875a49318a5298",
+      "source": "circ",
+      "pagina_fisica": 81,
+      "bbox_pt": [
+        54,
+        336,
+        558,
+        732
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-circ082-prosa-rubriche.png",
+      "sha256": "12dd49a44c6b70d4753caa562b7f462d7194fefa694656763b6e30fc37df4542",
+      "source": "circ",
+      "pagina_fisica": 82,
+      "bbox_pt": [
+        54,
+        78,
+        558,
+        738
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-circ083-prosa-rubriche.png",
+      "sha256": "68e6fe4cdfcc2bd8a821c4bfed447c83fad400d1691c0fc5adc72d7ad65666c0",
+      "source": "circ",
+      "pagina_fisica": 83,
+      "bbox_pt": [
+        54,
+        78,
+        558,
+        486
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc066-formula-3.6.1.png",
+      "sha256": "0ba89f9f4a17288b14bcf2b47fc68f4821a6a2a2afc7a0a3cb3ec21b445b36cb",
+      "source": "ntc",
+      "pagina_fisica": 66,
+      "bbox_pt": [
+        66,
+        684,
+        534,
+        738
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "formula [3.6.1]",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc066-prosa-rubriche.png",
+      "sha256": "01df75fa786b063d415efbf093b75c8212b41d967ff458a8f533aeb313742f4b",
+      "source": "ntc",
+      "pagina_fisica": 66,
+      "bbox_pt": [
+        54,
+        240,
+        558,
+        612
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc067-condizioni-3.6.1.png",
+      "sha256": "2bb382afb4d1adaf40aad53cbffd758432a7e9fae89afc6f80098b6cc7ae0421",
+      "source": "ntc",
+      "pagina_fisica": 67,
+      "bbox_pt": [
+        66,
+        84,
+        534,
+        210
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "condizioni successive alla [3.6.1]",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc067-prosa-rubriche.png",
+      "sha256": "42fe9ef443ef98fca68c3cad62d688f33594a677f8e05d028d332b6a017c2ee2",
+      "source": "ntc",
+      "pagina_fisica": 67,
+      "bbox_pt": [
+        66,
+        312,
+        534,
+        732
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc067-tab-3.5.IV.png",
+      "sha256": "5e673a74f2526a0da066425d56aa2090784f0c14f4413c66048e2c11898b8036",
+      "source": "ntc",
+      "pagina_fisica": 67,
+      "bbox_pt": [
+        66,
+        354,
+        534,
+        498
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "Tab. 3.5.IV",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc068-formule-3.6.2-4.png",
+      "sha256": "e0893e60751b91b963bacaa1b824a1829d692199c487c277bb12f25afd603428",
+      "source": "ntc",
+      "pagina_fisica": 68,
+      "bbox_pt": [
+        66,
+        228,
+        534,
+        372
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "formule [3.6.2]-[3.6.4]",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc068-prosa-rubriche.png",
+      "sha256": "2f1475e757d446b3f4682516bd7ef89c0e29ecee320ee3bf033bd774fe1ef244",
+      "source": "ntc",
+      "pagina_fisica": 68,
+      "bbox_pt": [
+        66,
+        132,
+        534,
+        744
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc069-prosa-rubriche.png",
+      "sha256": "2b76a79fcf26edd9ae74ea89c32278a3d55f4f663201cb797d3a42db3d84255b",
+      "source": "ntc",
+      "pagina_fisica": 69,
+      "bbox_pt": [
+        54,
+        78,
+        558,
+        690
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc069-tab-3.6.I-formule-3.6.5-6.png",
+      "sha256": "ea5d35a4d90cc91a393cb46a23f8692221d671ae8e061beca35fbe5657657240",
+      "source": "ntc",
+      "pagina_fisica": 69,
+      "bbox_pt": [
+        54,
+        198,
+        546,
+        480
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "Tab. 3.6.I e formule [3.6.5a]-[3.6.6]",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc070-formule-3.6.8-9.png",
+      "sha256": "47d8dee9212ab7d97e16ade10eba1aaa4c0125fc8cc738c5d26d000c14056d44",
+      "source": "ntc",
+      "pagina_fisica": 70,
+      "bbox_pt": [
+        54,
+        576,
+        546,
+        732
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "formule [3.6.8]-[3.6.9]",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc070-prosa-rubriche.png",
+      "sha256": "504f4acb50a90d2e482a758122e8c9f23eff49090379a4f9f6f843ecd6a1f482",
+      "source": "ntc",
+      "pagina_fisica": 70,
+      "bbox_pt": [
+        54,
+        78,
+        558,
+        204
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc070-tab-3.6.II-formula-3.6.7-tab-3.6.III.png",
+      "sha256": "8c5dd1980bee6ee71c560f0f915a40b83b6bb8dd0728f2dab3359384ac869c6b",
+      "source": "ntc",
+      "pagina_fisica": 70,
+      "bbox_pt": [
+        54,
+        210,
+        546,
+        534
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "Tabelle 3.6.II-III e formula [3.6.7]",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc071-condizioni-urti-ferroviari.png",
+      "sha256": "5a917c67f39a18db2d9b3897b551e8832be7ea7eb41b92b6f7ba58135dfcbd18",
+      "source": "ntc",
+      "pagina_fisica": 71,
+      "bbox_pt": [
+        54,
+        258,
+        546,
+        420
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "condizioni sugli urti ferroviari",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    },
+    {
+      "file": "dettaglio-ntc071-prosa-rubriche.png",
+      "sha256": "922153ab19cfb07107309e58e22e061988106a4e536252146fb17e40588d6d32",
+      "source": "ntc",
+      "pagina_fisica": 71,
+      "bbox_pt": [
+        54,
+        78,
+        558,
+        462
+      ],
+      "dpi": 600,
+      "metodo": "PyMuPDF, resa diretta del clip della pagina PDF originale con alpha disattivato",
+      "uso": "prosa e rubriche",
+      "tipo_area": "vettoriale",
+      "immagini_raster_intersecate": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "giudizio_g7": "OK",
+  "scope": "3.4.5",
+  "snapshot_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+  "manifest_sha256": "17a29d8ea850ef95cbf07a0e242c8e59392cf2e85eb138c9b1ecf7062e97145a",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "riscontrato": [
+    "impronta-manifest-r03.json identifica manifest-rilascio-r03.json con l’impronta riportata nel presente giudizio e attesta verifica del manifest conclusa con exit code 0 e integrità OK.",
+    "Il manifest R03 letto in questo contesto coincide per contenuto osservabile e dimensione con quello già esaminato nel G7 R03; il delta esterno dichiara che non è stato modificato dopo il calcolo.",
+    "Il precedente rilievo G7-R03-ERR-AUDIT-001 è chiuso dalla nuova evidenza. I rilievi dei G7 R01 e R02 risultavano già chiusi dalle rettifiche append-only conservate."
+  ],
+  "non_riscontrato": [
+    "Non ho ricalcolato autonomamente l’impronta: il valore è importato dall’output dello script conservato in impronta-manifest-r03.json.",
+    "Non ho rieseguito manifest, G6, inventario, render o confronto e non ho rivalutato la vigenza delle fonti, perché la consegna R04 limita la verifica al delta esterno."
+  ],
+  "motivazione": "L’evidenza esterna fornisce l’impronta mancante del manifest R03 e attesta l’esito positivo della sua verifica senza introdurre autoreferenza. Non risultano contraddizioni con il manifest già esaminato né modifiche dichiarate agli invarianti. L’ultimo rilievo documentale è quindi chiuso e non restano rilievi aperti.",
+  "letture": [
+    "/blocco/g7/ISTRUZIONI-G7-R04.md",
+    "/blocco/g7/impronta-manifest-r03.json",
+    "/blocco/g7/manifest-rilascio-r03.json",
+    "/blocco/g7/g7-r03/giudizio-g7-ko.json",
+    "/blocco/g7/g7-r03/canale-v-g7-r03.esito.json"
+  ],
+  "isolamento": "Verifica limitata a /blocco/g7 e al delta esterno R04. Non ho aperto percorsi esterni, non ho rifatto l’inventario e non ho modificato fonti, target, manifest, rapporti o adjudicazioni. Ho sovrascritto esclusivamente /blocco/giudizio-g7.json come richiesto."
+}

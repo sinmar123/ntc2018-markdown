@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-11T13:53:45+02:00",
+  "richiesta": "vc-35-g6-r01d-fonte-prima.richiesta.json",
+  "stato": "eseguita",
+  "fase": "fonte-prima",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.5-g6-r01d/b01",
+  "uscita": 1,
+  "log": "\nAPI call failed after 3 retries: Codex stream produced no SSE events for 12s after first byte (threshold: 12s)\n\nsession_id: 20260911_115402_4831e6\nsessione della fase 1: 20260911_115402_4831e6 (annotata in /home/sandro/.hermes-v-ntc/sessioni/_home_sandro_.hermes-ntc-vc_vc-ntc-3.5-g6-r01d_b01.id)\ninventario.json ASSENTE\n"
+}

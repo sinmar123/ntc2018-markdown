@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "dati-vettoriali.json",
+      "bytes": 77014,
+      "sha256": "6249bf9dcb57f9b00a3f2eea5f29a090af2bed7513e5223ec08f799c32a299d8"
+    },
+    {
+      "path": "ntc-p64-dettaglio-01-600dpi.png",
+      "bytes": 37056,
+      "sha256": "f93136b981de53d1f54ab461c67383042fef3ee5012b0fbfd10ea36ac586fa05"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 698,
+      "sha256": "b4b24986da523478d6c6beb42b5d4620310b369fe26e583b522192638169869c"
+    }
+  ]
+}

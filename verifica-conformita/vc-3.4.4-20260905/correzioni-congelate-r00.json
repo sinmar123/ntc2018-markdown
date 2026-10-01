@@ -1,0 +1,36 @@
+{
+  "firma": "CDX, coordinatore C, gpt-6-astra/max ereditato dalla sessione",
+  "data": "2026-09-05",
+  "scope": "3.4.4",
+  "snapshot_iniziale": "e36dc2c928373cc3093e14abb9b1937d5862243b1fce2555ddc4debf6e8dc929",
+  "prova": "fonte-ntc-p063-scope-600dpi.png; fonte-ntc-p063-vettori.json; provenienza-fonte.json",
+  "rilievi": [
+    {
+      "id": "R01",
+      "classe": "ERR-MD",
+      "posizione": "rubrica, riga 3 del file naturale",
+      "motivazione": "La fonte stampa il titolo in maiuscolo.",
+      "prima": "# 3.4.4. Coefficiente di esposizione",
+      "dopo": "# 3.4.4. COEFFICIENTE DI ESPOSIZIONE",
+      "occorrenze": 1
+    },
+    {
+      "id": "R02a",
+      "classe": "ERR-MD",
+      "posizione": "due notazioni C_E nel capoverso",
+      "motivazione": "La fonte ha base C e pedice E in tondo (PalatinoLinotype); il corsivo matematico del target non è una normalizzazione dichiarata. Non cambiano simboli, gerarchia, valore o segno.",
+      "prima": "Il coefficiente di esposizione $C_E$ tiene conto delle caratteristiche specifiche dell'area in cui sorge l'opera. Valori consigliati di questo coefficiente sono forniti in Tab. 3.4.I per diverse classi di esposizione. Se non diversamente indicato, si assumerà $C_E$ = 1.",
+      "dopo": "Il coefficiente di esposizione $\\mathrm{C}_{\\mathrm{E}}$ tiene conto delle caratteristiche specifiche dell'area in cui sorge l'opera. Valori consigliati di questo coefficiente sono forniti in Tab. 3.4.I per diverse classi di esposizione. Se non diversamente indicato, si assumerà $\\mathrm{C}_{\\mathrm{E}}$ = 1.",
+      "occorrenze": 1
+    },
+    {
+      "id": "R02b",
+      "classe": "ERR-MD",
+      "posizione": "testata, terza colonna della tabella",
+      "motivazione": "La fonte compone C e pedice E in tondo grassetto (PalatinoLinotype,Bold). La notazione corsiva nella didascalia è invece fedele e resta invariata.",
+      "prima": "| Topografia | Descrizione | $C_E$ |",
+      "dopo": "| Topografia | Descrizione | $\\mathbf{C}_{\\mathbf{E}}$ |",
+      "occorrenze": 1
+    }
+  ]
+}

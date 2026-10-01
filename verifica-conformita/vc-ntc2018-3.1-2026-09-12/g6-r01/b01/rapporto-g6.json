@@ -1,0 +1,20 @@
+{
+  "firma": "Codex (CDX), verificatore V indipendente",
+  "esito": "OK",
+  "coperti": [
+    "V-NTC-3.1-RUBRICA",
+    "V-CIRC-C3.1-RUBRICA"
+  ],
+  "normalizzazioni": [1],
+  "rilievi": [],
+  "letture": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01\\b01\\fonte-ntc-46.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01\\b01\\fonte-circ-46.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01-fonti-dettaglio\\ntc-p46-area-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01-fonti-dettaglio\\circ-p46-area-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01\\b01\\testo.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01\\b01\\resa-target.pdf",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc-3.1-intro-20260912-v-r01\\b01\\resa-target.png"
+  ],
+  "isolamento": "Restrizione istruttiva rispettata: letti soltanto il pacchetto b01 e le integrazioni fonte espressamente consegnate; nessun accesso al workspace, al coordinamento, ad altri rapporti o alla cronologia. Non è stata dichiarata una sandbox. Confronto integrale di tutti i componenti dei due elementi inventariati, senza campionamento."
+}

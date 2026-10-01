@@ -1,0 +1,40 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ntc-p64-localizzazione-inferiore-600dpi.png",
+      "bytes": 117593,
+      "sha256": "2b75623fe6b0109f5733bb81a36134c19068632b7113d16319b3fcdfee34ed81"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 3156,
+      "sha256": "72709bb174c3d4b6ca82f4e8040c2ff8cb92167c75b5326be4a922a3d7e971db"
+    },
+    {
+      "path": "raster-nativo-xref1091.jpeg",
+      "bytes": 29379,
+      "sha256": "18b304003dad59421f56c501c38974c8d0f4981d44b710441f492562429a75cd"
+    },
+    {
+      "path": "raster-nativo-xref1092.jpeg",
+      "bytes": 31668,
+      "sha256": "6e3a65a5a62e3ceda3bdb5f7c663709bf46c50520f1a87ee195d1197647f8c32"
+    },
+    {
+      "path": "raster-nativo-xref1093.jpeg",
+      "bytes": 45064,
+      "sha256": "9c4120c297e596cbce06830f656390ddfd05b8364b296854a6fcadba445dd067"
+    },
+    {
+      "path": "raster-nativo-xref1094.jpeg",
+      "bytes": 25893,
+      "sha256": "ec573123ee06007762430bc83ef1cf225d6cb4c699e028fbfbe257fd9cf28773"
+    },
+    {
+      "path": "raster-nativo-xref1095.jpeg",
+      "bytes": 13430,
+      "sha256": "2b69169167fafefffbb5cf2d54f1de1aa287c1a39ed47cb63305a9023832f101"
+    }
+  ]
+}

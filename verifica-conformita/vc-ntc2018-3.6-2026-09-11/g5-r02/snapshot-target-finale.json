@@ -1,0 +1,30 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.6-introduzione.md",
+      "bytes": 2902,
+      "sha256": "420192c0c7ac67132dfc829bd0d1d2711ba6068e5b7757b23fd7c2d8d9db1913"
+    },
+    {
+      "path": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "bytes": 22625,
+      "sha256": "5163e9708ef4701cb0eba389fa23ede49c230c1b28629cf4422c93373aaa4cce"
+    },
+    {
+      "path": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "bytes": 5057,
+      "sha256": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748"
+    },
+    {
+      "path": "cap03/3.6.3-azioni-eccezionali-urti.md",
+      "bytes": 7394,
+      "sha256": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db"
+    },
+    {
+      "path": "cap03/annotazioni/3.6-anomalie-fonte.md",
+      "bytes": 3635,
+      "sha256": "bd1f92365753739478a4b9f7af02ce26c5079043752799c274c05eb157dd5612"
+    }
+  ]
+}

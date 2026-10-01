@@ -1,0 +1,40 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "confronto-resa.json",
+      "bytes": 273,
+      "sha256": "192ba67730cff3dcda14eb118d6857f252b8fa14a0d4721de84b1939749ee6dd"
+    },
+    {
+      "path": "correzione-mirata.json",
+      "bytes": 669,
+      "sha256": "a91fcfe74f8be614bae7e4546c2b749faf209711ab83efa385bf20180351b7c5"
+    },
+    {
+      "path": "diff-mirato.patch",
+      "bytes": 548,
+      "sha256": "82c1c13636510be52b044fe22bb8415317074ff362ebbdba2bb91f735a98d9d0"
+    },
+    {
+      "path": "resa-target-r02-p02.png",
+      "bytes": 270039,
+      "sha256": "32c34851272dd0fe0d62359deec084fbc7db4864a94f5e8cb2724313ec7a2a2d"
+    },
+    {
+      "path": "resa-target-r02.pdf",
+      "bytes": 267285,
+      "sha256": "f0a40ba8d15037b5c18582cadf9f94d45be0124dcaa90e4d4919280c6a55fcef"
+    },
+    {
+      "path": "riepilogo-meccanico.json",
+      "bytes": 1496,
+      "sha256": "87385e97371dbd2b3fcc62af24a6902d1e7b1503214f3320eb6456672247d49e"
+    },
+    {
+      "path": "testo-r02.md",
+      "bytes": 6599,
+      "sha256": "7877987cc364f670e378e19943f9e67833f63eb9543e46d288417d47e97e3bdf"
+    }
+  ]
+}

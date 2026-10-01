@@ -1,0 +1,17 @@
+# Manifest SHA-256 - ntc2018-3.1.4 - 2026-08-27
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+776028cc5077b37cd3599398642a20774cc72e72161a64a1a0e643e60c3c6e3f  12542  cap03/3.1.4-opere-civili-sovraccarichi.md
+c71525aecb4b6078814b3edd7f8bbff6e9063be7700bd420c7981c75dac32d55  5172  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+28e0c0fc00ea5c0aaa0a866796249d39e29ea44b6a9f9f4f7518e3c31b2bb0bb  998852  _tmp_render/cap03/vc-3.1.4-20260827/fonte/ntc-p47-scope-3.1.4-600dpi.png
+3cbeed8260281af6e2b38f754112eab11ff3233c14b0d5ae5b20e50f84af6f2e  1084817  _tmp_render/cap03/vc-3.1.4-20260827/fonte/ntc-p48-scope-3.1.4-600dpi.png
+86ea13cc166770e7cec9c9667a986e0377b6be00bbd39d346ebb15117197e148  223362  _tmp_render/cap03/vc-3.1.4-20260827/fonte/ntc-p49-scope-3.1.4-600dpi.png
+b907a2c9d535199b829956647cda053e2076a91fb3690d408c6a77d856298578  591515  _tmp_render/cap03/vc-3.1.4-20260827/fonte/circ-p46-scope-C3.1.4-600dpi.png
+34b6255a618d07c77cfb72c51d006c1ed213e3140973884e5d79ab5c43925f22  91338  _tmp_render/cap03/vc-3.1.4-20260827/fonte/ntc-p47-tab-a-title-600dpi.png
+b67817b48a1570d477818fc4ac14b6f81fa5090fc256cdafaeb0578b08f1d80d  3845  _tmp_render/cap03/vc-3.1.4-20260827/preflight/rapporto-preflight.md
+cbc6687117f0cc397117f506bc0cae3e778eeba40fd54f546a58a2f030e39312  38702  _tmp_render/cap03/vc-3.1.4-20260827/preflight/md-confronto-corretto-render.pdf
+7407cf6b8690206aa7c3974b80ac3118cace90efecd352da54734bdebac3d8c3  2129  _tmp_render/cap03/vc-3.1.4-20260827/apparati/tabella/riconciliazione/registro-finale.md
+a07c4375c8639ea4a003c6ad126a527fdaf681f88383e25b27ddb2dd0d8f78a2  2538  _tmp_render/cap03/vc-3.1.4-20260827/g6-r01/rapporto-consolidato.md
+54a35cffec056fedb7136354fdbb396fe03679b8a612a00e94f1fc04ed82e8ff  1711  _tmp_render/cap03/vc-3.1.4-20260827/g6-r02/rapporto-consolidato.md
+65d6eacdd5f4c64269d662132385733fccafec2c9f5458560e3d5e59873d213a  1949  _tmp_render/cap03/vc-3.1.4-20260827/g6-r03/rapporto-consolidato.md

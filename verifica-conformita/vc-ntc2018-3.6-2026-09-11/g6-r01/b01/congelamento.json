@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-11T17:04:15.964663+00:00",
+  "firma": "Codex / CDX, modello GPT-6, verificatore indipendente G6 del blocco b01",
+  "inventario_sha256": "7be59cc6d135a3ed965919698a10e2f71f53573eb0ff6b4d463fc2b5e0cfd981",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "e190ac9109f1a55c00f51a70c9797fc50af0b98196dcd8b0a0af4e7016554691"
+}

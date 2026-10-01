@@ -1,0 +1,24 @@
+# Manifest SHA-256 - ntc2018-3.2.4 - 2026-08-29
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+4105f2d3dd29c453c640b782433e03eb9685c808e5fdbd371b87d2b52357f877  4291  cap03/3.2.4-azione-sismica-effetti-della-variabilita-spaziale-del-moto.md
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+4b38f196cac49e249ab35748eb0a9157017c822609bf667107dd8695641a4883  873529  _tmp_render/cap03/vc-3.2.4-20260829/preflight/fonte/ntc-p55-scope-3.2.4-600dpi.png
+3a91e01cf59acb3d757cafd5c23c82d49dc8411f5378078d517fd29b6336e7b4  4285  _tmp_render/cap03/vc-3.2.4-20260829/preflight/target-apertura.md
+8b6a8ab4d6643a964a351902379377d2fbff3e224a4e802ed97c52009bac539c  3795  _tmp_render/cap03/vc-3.2.4-20260829/preflight/md-scope-depurato-iniziale.md
+cf31336ac875276f4b5afaeb75839458554c926ffb73aa506569593db232db48  25442  _tmp_render/cap03/vc-3.2.4-20260829/preflight/render-iniziale.pdf
+2c84bce7404515ee5356c1435b5542ce5815fd6f3f93e6eb68017a97615564af  5185  _tmp_render/cap03/vc-3.2.4-20260829/preflight/rapporto-p0d-candidati.md
+2fa718dbc005dd38c4268e2bae3d61bec35da74cb883b2240b0a41701387bf48  7279  _tmp_render/cap03/vc-3.2.4-20260829/preflight/rapporto-p1-adjudicazione.md
+25dd452a85a11d1d6279e5e43ca5f3ba148554b2f1418755d7c20031077c93c5  5751  _tmp_render/cap03/vc-3.2.4-20260829/apparati/rapporto-p2-formule-source-first.md
+6609967ed3ff6f6df9704ed56d44144766039042955d6f48afddf3c394dc0f5c  1928  _tmp_render/cap03/vc-3.2.4-20260829/preflight/correzioni-p1-p2.md
+2f616de6d85ace62f17b805274e670ea01030b86346515b26d45741e136a609f  3801  _tmp_render/cap03/vc-3.2.4-20260829/preflight/md-scope-depurato-finale.md
+3fbd333d9a67f319f249a81e1ca4ccb4d84444b451d95100381084a4de81f9ae  27360  _tmp_render/cap03/vc-3.2.4-20260829/preflight/render-finale.pdf
+23e4eef321a1007af6d6cf3f316314bb39796542b837e73d9961e6335d67163b  442022  _tmp_render/cap03/vc-3.2.4-20260829/preflight/render-finale-pagina-1.png
+6ebdcba898aa636722261368959fa774a7d4518b2753985b4a6ce9237ecc192a  97919  _tmp_render/cap03/vc-3.2.4-20260829/preflight/render-finale-pagina-2.png
+b014b2e1410e25a2a5a51cb71e932c4ce2f441a7c996c0e064cff5bb2df68fd9  4971  _tmp_render/cap03/vc-3.2.4-20260829/preflight/rapporto-p0d-finale.md
+78607b9939bbf9da69709971e9f48072d9631c4dbb1c00714d26e58322643ec8  1728  _tmp_render/cap03/vc-3.2.4-20260829/apparati/rapporto-p2-3214-postcorrezione.md
+bc331f7d607fcc3151961d571ab726da9667c1d22769d556eaccee10e0b16652  1349  _tmp_render/cap03/vc-3.2.4-20260829/preflight/rapporto-consolidato-g0-g5.md
+955e2bd78edb2046145775a763b76f580d1f27a625a63f76ac6a992d176c7e2b  458  _tmp_render/cap03/vc-3.2.4-20260829/g6-r01/manifest-ingressi.sha256
+b1f28751feae8e84275309b6ee3ab365a61b81ed5236a06beaa7a84c3f3bc763  5619  _tmp_render/cap03/vc-3.2.4-20260829/g6-r01/fonte-prima/inventario-fonte.md
+f2be7ea03176e0dabd39aad295ee3687f1e9e3e24f6249dfb8d19e7bbace3d2e  2611  _tmp_render/cap03/vc-3.2.4-20260829/g6-r01/rapporto-g6.md
+e760ea8404c59aea9a2c9e58ea856a5d980a77b8549b274f7d3d3dc7bd58f562  1228  _tmp_render/cap03/vc-3.2.4-20260829/g6-r01/rapporto-coordinamento.md

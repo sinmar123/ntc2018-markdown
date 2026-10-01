@@ -1,0 +1,28 @@
+[
+  {
+    "id": "NC-3.1-INTRO-001",
+    "file": "cap03/3.1-introduzione.md",
+    "posizione": "riga 3",
+    "pagina_fisica": 46,
+    "prova": "ntc-p46-rubrica-e-confine-600dpi.png",
+    "prima": "# 3.1. Opere civili e industriali",
+    "dopo": "# 3.1. OPERE CIVILI E INDUSTRIALI",
+    "classe": "ERR-MD",
+    "effetto": "sola presentazione",
+    "decisione": "da approvare",
+    "esito": "aperta"
+  },
+  {
+    "id": "NC-3.1-INTRO-002",
+    "file": "cap03/3.1-introduzione.md",
+    "posizione": "riga 11",
+    "pagina_fisica": 46,
+    "prova": "circolare-p46-rubrica-e-confine-600dpi.png",
+    "prima": "## C3.1. Opere civili ed industriali",
+    "dopo": "## C3.1 OPERE CIVILI ED INDUSTRIALI",
+    "classe": "ERR-MD",
+    "effetto": "sola presentazione",
+    "decisione": "da approvare",
+    "esito": "aperta"
+  }
+]

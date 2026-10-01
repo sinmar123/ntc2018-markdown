@@ -1,0 +1,40 @@
+{
+  "firma": "CDX, preparazione meccanica fonte",
+  "creato": "2026-09-11T19:17:40.597555+02:00",
+  "metodo": "PyMuPDF insert_pdf, pagine intere preservate senza rasterizzazione",
+  "fonti": [
+    {
+      "atto": "ntc",
+      "origine": "GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "origine_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine_originali_fisiche": [
+        70,
+        71
+      ],
+      "pagine_estratto_fisiche": [
+        1,
+        2
+      ],
+      "file": "fonte-ntc-vettoriale.pdf",
+      "sha256": "dfd77bcf6e0c39d40d1c3a83c8b96f24f3f6d94f30596af60e3a1013ba7223b5"
+    },
+    {
+      "atto": "circ",
+      "origine": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "origine_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine_originali_fisiche": [
+        81,
+        82,
+        83
+      ],
+      "pagine_estratto_fisiche": [
+        1,
+        2,
+        3
+      ],
+      "file": "fonte-circ-vettoriale.pdf",
+      "sha256": "09046dff4a95a031b2ff7c86f112ee7381270456b6e48f11529ba71b8ca05539"
+    }
+  ],
+  "uso": "Solo fonti ufficiali. Applicare i confini neutrali del PERIMETRO. Le prove aggiuntive prodotte dal verificatore vanno nella cartella separata autorizzata, mai nel pacchetto fonte."
+}

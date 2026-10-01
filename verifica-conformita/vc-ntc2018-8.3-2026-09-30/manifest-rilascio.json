@@ -1,0 +1,50 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap08/8.3-valutazione-sicurezza.md",
+      "bytes": 10237,
+      "sha256": "4edeaeea47bddd2fd20f85f96df429f5236993b55b69033c8122a968de2a03e6"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "bytes": 9888288,
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "bytes": 50658045,
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.3-2026-09-30/catalogo-congelato.md",
+      "bytes": 5485,
+      "sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.3-2026-09-30/lettura-ritaglio.json",
+      "bytes": 157,
+      "sha256": "715808f4c5a416767aa95b67975b677c5471cd50c7020b3ba06a69b456403139"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.3-2026-09-30/procedura-congelata.md",
+      "bytes": 42218,
+      "sha256": "403157d71ba00bababeefad6b920915e631627bdf55e9ff1e9679cdbeea8383c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.3-2026-09-30/resa-dopo-correzione.pdf",
+      "bytes": 24360,
+      "sha256": "e9b923cb52b0771091cb1f5fede226979217dc94049a3e146c48e6ec3a139e5d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.3-2026-09-30/ritaglio-terreno-fondazione-600dpi.png",
+      "bytes": 110309,
+      "sha256": "66cb531e2380b97e8e89504c8765bcf2ff4c9abc4876f96f5830ca1bfbfad240"
+    },
+    {
+      "path": "verifica-conformita/verbale-VC-ntc2018-8.3-2026-09-30.md",
+      "bytes": 3240,
+      "sha256": "939e638c6a2c58ac8700fe97cf4880eb543c9f9455ace8fc9407fc616ae73c0c"
+    }
+  ]
+}

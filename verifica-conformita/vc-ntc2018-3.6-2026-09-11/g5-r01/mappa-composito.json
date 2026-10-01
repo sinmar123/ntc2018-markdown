@@ -1,0 +1,65 @@
+{
+  "segmenti": [
+    {
+      "atto": "ntc",
+      "file": "cap03/3.6-introduzione.md",
+      "righe": [
+        1,
+        11
+      ]
+    },
+    {
+      "atto": "ntc",
+      "file": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "righe": [
+        13,
+        148
+      ]
+    },
+    {
+      "atto": "ntc",
+      "file": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "righe": [
+        150,
+        208
+      ]
+    },
+    {
+      "atto": "ntc",
+      "file": "cap03/3.6.3-azioni-eccezionali-urti.md",
+      "righe": [
+        210,
+        304
+      ]
+    },
+    {
+      "atto": "circ",
+      "file": "cap03/3.6-introduzione.md",
+      "righe": [
+        306,
+        318
+      ]
+    },
+    {
+      "atto": "circ",
+      "file": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "righe": [
+        320,
+        379
+      ]
+    },
+    {
+      "atto": "circ",
+      "file": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "righe": [
+        381,
+        387
+      ]
+    }
+  ],
+  "righe_totali": 387,
+  "esclusioni_editoriali": [
+    "*Circolare 21/01/2019 n. 7 C.S.LL.PP., §C3.6*"
+  ],
+  "note": "Righe vuote tra segmenti da assegnare al blocco precedente; ordine NTC completo seguito da Circolare completa. Depuratore comune e sola esclusione aggiuntiva della riga editoriale identificativa dell’atto approvata da C, nessuna riscrittura normativa."
+}

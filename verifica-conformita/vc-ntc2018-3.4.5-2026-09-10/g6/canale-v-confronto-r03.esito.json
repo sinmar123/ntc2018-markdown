@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-09T19:50:28+02:00",
+  "richiesta": "p6-legittima-ma-prematura.richiesta.json",
+  "stato": "eseguita",
+  "fase": "confronto",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione della fase 1: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (1 user message, 28 total messages)\n\nsession_id: 20260909_165403_00ba4e\nOsservato: confronto integrale di tutti gli 11 ID dell’inventario con le due pagine fonte, testo.md, PDF e resa PNG.\n\nScritto: /blocco/rapporto-g6.json\n\nEsito: KO per un solo rilievo ERR-AUDIT. Il riferimento congelato di CIRC81-PRO-001 non delimita correttamente il primo capoverso della Circolare. Il testo normativo e la resa visiva sono invece conformi alle fonti.\n\nResta aperto: la correzione della mappatura nell’inventario congelato. Nessun dubbio di lettura e nessun ERR-MD rilevato.\n\nMi fermo dopo G6.\nrapporto-g6.json scritto\n"
+}

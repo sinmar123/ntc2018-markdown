@@ -1,0 +1,186 @@
+{
+  "firma": "CDX, verificatore V indipendente G6, modello effettivo gpt-5.6-sol xhigh",
+  "metodo": "PyMuPDF 1.27.1, rasterizzazione diretta del PDF vettoriale con matrice 600/72 e clip in coordinate PDF",
+  "ritagli": [
+    {
+      "pagina": "ntc:70",
+      "indice_pdf_zero_based": 0,
+      "oggetto": "Tabella 3.6.II: didascalia, testata e tre righe",
+      "clip_pdf_pt": [
+        65,
+        224,
+        380,
+        286
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\ntc-70-tab-3.6.II.png",
+      "pixel": [
+        2626,
+        518
+      ],
+      "sha256": "ef95576a936b629a8d0a59e2d95da424747f15a5e6add688cbc9dc12a909fd1b"
+    },
+    {
+      "pagina": "ntc:70",
+      "indice_pdf_zero_based": 0,
+      "oggetto": "Formula [3.6.7], inclusi pedici e parentesi del tag",
+      "clip_pdf_pt": [
+        175,
+        375,
+        380,
+        398
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\ntc-70-formula-3.6.7.png",
+      "pixel": [
+        1709,
+        192
+      ],
+      "sha256": "6d8f7b2ce51069909868dd6e743f5d62f22cf4113ca5f79820ca3a080636c556"
+    },
+    {
+      "pagina": "ntc:70",
+      "indice_pdf_zero_based": 0,
+      "oggetto": "Tabella 3.6.III: didascalia, testata e tutte le righe/celle",
+      "clip_pdf_pt": [
+        65,
+        413,
+        380,
+        526
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\ntc-70-tab-3.6.III.png",
+      "pixel": [
+        2626,
+        943
+      ],
+      "sha256": "d23d534a1663cb2e97cd3e01d1e6bc1667866e0fe6eed3eabb034360ea86b9a4"
+    },
+    {
+      "pagina": "ntc:70",
+      "indice_pdf_zero_based": 0,
+      "oggetto": "Formula [3.6.8], inclusi pedici e parentesi del tag",
+      "clip_pdf_pt": [
+        190,
+        607,
+        380,
+        630
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\ntc-70-formula-3.6.8.png",
+      "pixel": [
+        1584,
+        192
+      ],
+      "sha256": "17364f648aec5ccddd151bd4b3a074bd4aab4913c3c3da4015b35c50a306649f"
+    },
+    {
+      "pagina": "ntc:70",
+      "indice_pdf_zero_based": 0,
+      "oggetto": "Formula [3.6.9], incluse parentesi del tag",
+      "clip_pdf_pt": [
+        195,
+        696,
+        380,
+        718
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\ntc-70-formula-3.6.9.png",
+      "pixel": [
+        1542,
+        184
+      ],
+      "sha256": "ae595461f6cf37935a9b3abea49be41a9ad6755af37741c969602c4a1d4a2018"
+    },
+    {
+      "pagina": "ntc:71",
+      "indice_pdf_zero_based": 1,
+      "oggetto": "Tre condizioni sulla distanza d e quattro valori di forza",
+      "clip_pdf_pt": [
+        65,
+        291,
+        405,
+        383
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\ntc-71-condizioni-distanza.png",
+      "pixel": [
+        2834,
+        767
+      ],
+      "sha256": "4456744e9052f508f75c75da0127248baa9d2891dacdfb5b4ce5a32f906d1db8"
+    },
+    {
+      "pagina": "circ:81",
+      "indice_pdf_zero_based": 0,
+      "oggetto": "Notazione inline q con pedice f,d",
+      "clip_pdf_pt": [
+        320,
+        678,
+        365,
+        697
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\circ-81-inline-qfd.png",
+      "pixel": [
+        376,
+        159
+      ],
+      "sha256": "efd85c870946222f5d26b3e92142d34982574231cf37049481ee956cdec349b3"
+    },
+    {
+      "pagina": "circ:82",
+      "indice_pdf_zero_based": 1,
+      "oggetto": "Rubrica C3.6.1.5.1",
+      "clip_pdf_pt": [
+        65,
+        566,
+        280,
+        585
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\circ-82-rubrica-C3.6.1.5.1.png",
+      "pixel": [
+        1793,
+        159
+      ],
+      "sha256": "fb0979ab976b8bb762738f609c9a6613e1ee3e68d89334c9bc3a7b59d68ac7a6"
+    },
+    {
+      "pagina": "circ:82",
+      "indice_pdf_zero_based": 1,
+      "oggetto": "Rubrica C3.6.1.5.3",
+      "clip_pdf_pt": [
+        65,
+        712,
+        300,
+        731
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\circ-82-rubrica-C3.6.1.5.3.png",
+      "pixel": [
+        1959,
+        159
+      ],
+      "sha256": "c2fc1d97f0d2477d44d4700af57ce9e717844733fa35ccff215543c28562027d"
+    },
+    {
+      "pagina": "circ:83",
+      "indice_pdf_zero_based": 2,
+      "oggetto": "Rubrica C3.6.1.5.4",
+      "clip_pdf_pt": [
+        65,
+        203,
+        250,
+        222
+      ],
+      "dpi": 600,
+      "file": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911\\b02\\circ-83-rubrica-C3.6.1.5.4.png",
+      "pixel": [
+        1543,
+        159
+      ],
+      "sha256": "fc272644fa68f63e700a89deeea23b75bb52a93bcfc25b278bda697688d5323d"
+    }
+  ]
+}

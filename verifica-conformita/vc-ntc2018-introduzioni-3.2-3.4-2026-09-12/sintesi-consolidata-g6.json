@@ -1,0 +1,22 @@
+{
+  "firma": "CDX",
+  "scope": "3-introduzioni-3.2-3.4",
+  "giro_g6": 1,
+  "copertura_originaria": 32,
+  "blocchi": {
+    "b01": {
+      "esito_originario": "KO",
+      "coperti": 24,
+      "rilievi_originari": 5
+    },
+    "b02": {
+      "esito_originario": "OK",
+      "coperti": 8,
+      "rilievi_originari": 0
+    }
+  },
+  "attestazione_finale": "controllo-modifiche-r02/attestazione-v-modifiche.json",
+  "esito_consolidato": "OK",
+  "rilievi_aperti": [],
+  "nota": "Rapporti integrali originari invariati. Quattro falsi positivi documentati dai dati fonte; un pedice corretto e verificato in modo localizzato. Nessun secondo G6 integrale."
+}

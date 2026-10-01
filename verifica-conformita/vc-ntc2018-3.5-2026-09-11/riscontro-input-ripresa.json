@@ -1,0 +1,63 @@
+{
+  "firma": "Codex / CDX",
+  "data": "2026-09-11",
+  "controlli": [
+    {
+      "file": "verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "esito": "OK"
+    },
+    {
+      "file": "verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-scope.pdf",
+      "sha256": "58e5e7283543d4aec4cc3c3b7b8844487a5bea8746607d797e7b1a62b4ef0b2c",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-p01-200dpi.png",
+      "sha256": "7b92e440233501ddf68d8559c93f5b96eb6f743ccb40d1ff1929551dafe6df42",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-p02-200dpi.png",
+      "sha256": "adce5fb68b324a70bca77e7e84e9370535e5425ae02c3249d5800cc02e53c547",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-p03-200dpi.png",
+      "sha256": "8b311d889b2a0b1e650ab720cb109308fd2cf645445546aa434f2c251097601a",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-p04-200dpi.png",
+      "sha256": "c2befe40a0dfd4059cb391a078a1e02d7b137f4bddc02359f55b42369d9596f0",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-p05-200dpi.png",
+      "sha256": "2b98961f552e5f8419041e4eb15cbc103d0796602c4fdeb988daab520b03b015",
+      "esito": "OK"
+    },
+    {
+      "file": "_tmp_render\\cap03\\vc-3.5-20260910\\g5-r02\\target-scope.md",
+      "sha256": "6962e1b4de3b9cc9a0148c388b40f28fb83d5e57c93e4f537b6f4547eabb7bba",
+      "esito": "OK"
+    }
+  ],
+  "snapshot_manifest_verificato": "_tmp_render/cap03/vc-3.5-20260910/g5-r02/snapshot-target-finale.json",
+  "snapshot_esito": "10/10 OK",
+  "collaudo_canale_nativo": {
+    "modello": "gpt-5.6-sol",
+    "ragionamento": "high",
+    "agente": "/root/c35_sol",
+    "separazione_contesto": "fork_turns=none",
+    "esecuzione": "letture locali e riscontro C svolti con risposta ricevuta",
+    "continuita": "marcatore sintetico consegnato nel primo messaggio e richiamato esattamente in risposta a un successivo messaggio, senza file di appoggio",
+    "esito": "OK",
+    "limite": "collaudo del canale nativo; non dichiara riparato il trasporto Hermes SSE e non prova una sandbox di lettura"
+  }
+}

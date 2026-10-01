@@ -1,0 +1,114 @@
+{
+  "firma": "CDX, script",
+  "snapshot": {
+    "files": 4,
+    "manifest_sha256": "ecb19d4d6fc1bd6ff41e4e948e0c5880304a20cd4182ea81933b4c02a5f242ae",
+    "integrita": "OK",
+    "giudizio_vc": "NON_EMESSO"
+  },
+  "resa": "Tre blocchi prodotti con render-capitolo.py, PDF complessivo concatenato senza modificare le pagine canoniche.",
+  "blocchi": [
+    {
+      "id": "b01",
+      "righe": [
+        1,
+        149
+      ],
+      "pagine_pdf": 4,
+      "pdf": {
+        "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b01/target-blocco.pdf",
+        "bytes": 40715,
+        "sha256": "699b26c9274695d43aee9e5efb9848eb293f8637f8cd805db9c9b5fa2dac5b74"
+      },
+      "png": [
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b01/target-p01-200dpi.png",
+          "bytes": 371825,
+          "sha256": "2e4035df6621cf87dcdf589ba292475b45ea8f776003d9f98a391f2471b8386d"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b01/target-p02-200dpi.png",
+          "bytes": 393607,
+          "sha256": "d64edb98e7b094c3ba1c4a08f6a1fb31090f8ec28f404be48f5269cf6b12b7d9"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b01/target-p03-200dpi.png",
+          "bytes": 321423,
+          "sha256": "67d6b11f923273cee90fb4338ccbbff9aa78868c1635eafaff0118a025f44827"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b01/target-p04-200dpi.png",
+          "bytes": 225879,
+          "sha256": "f9f5391186e6d58704b78b88080e056791a49c1535ed7f816b35bf6b6e590f8a"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "righe": [
+        150,
+        305
+      ],
+      "pagine_pdf": 4,
+      "pdf": {
+        "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b02/target-blocco.pdf",
+        "bytes": 37087,
+        "sha256": "d9ec2ff6d5ef41055e5c63dea2520f9c5ff1aa08876e13b74691099f4299ddf8"
+      },
+      "png": [
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b02/target-p01-200dpi.png",
+          "bytes": 295041,
+          "sha256": "773fd2a327d0cada74d8f354b23c7fbe310f7ccc7ce5bd57807efa38d6283cc0"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b02/target-p02-200dpi.png",
+          "bytes": 284173,
+          "sha256": "d95a22905cb9f0bd9efa84b6f3b22a6e4179036a34e8aad03df7f77297eb500e"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b02/target-p03-200dpi.png",
+          "bytes": 351508,
+          "sha256": "8f0d90bc85e2657b7af78876ba25ecb683ef377620e0e95f93f45eae425bac3b"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b02/target-p04-200dpi.png",
+          "bytes": 118126,
+          "sha256": "d93f3c0c7be2767426696e7380f35f972c15eea93218ca9cb55cf40e6ef2fb07"
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "righe": [
+        306,
+        387
+      ],
+      "pagine_pdf": 3,
+      "pdf": {
+        "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b03/target-blocco.pdf",
+        "bytes": 32760,
+        "sha256": "5007c43f52d61999c53dad057dd904a85fa4ecb65ac7ed29c9280ee23d0abadd"
+      },
+      "png": [
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b03/target-p01-200dpi.png",
+          "bytes": 466178,
+          "sha256": "e20a5ceac59ebf08f6c153ba1fc43e529830a6f6ccf26bba413f4b476a2df328"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b03/target-p02-200dpi.png",
+          "bytes": 410515,
+          "sha256": "5b82971a209ac0db6d42cbf4e7dd7debd2d27a2c8b42d364f5ff0b273afaa424"
+        },
+        {
+          "path": "_tmp_render/cap03/vc-3.6-20260911-cdx/g5-r01/b03/target-p03-200dpi.png",
+          "bytes": 153325,
+          "sha256": "1b1789b519ad504d7e56a31e8be81889c99ec58b22a116b72e8580b05df890c1"
+        }
+      ]
+    }
+  ],
+  "pdf_complessivo_sha256": "32520569ceb6b737a7a6353743e22285092b1619b234141998cd690427af9b52",
+  "giudizio_visivo": "DA_EMETTERE_DA_C"
+}

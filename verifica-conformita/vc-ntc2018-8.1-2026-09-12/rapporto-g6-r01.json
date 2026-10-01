@@ -1,0 +1,47 @@
+{
+  "firma": "GROK-V / grok-4.6 xhigh",
+  "esito": "KO",
+  "coperti": [
+    "NTC-8.1-R",
+    "NTC-8.1-C1",
+    "NTC-8.1-C2",
+    "CIRC-C8-TIT",
+    "CIRC-C8-C1",
+    "CIRC-C8-C2",
+    "CIRC-C8-C3",
+    "CIRC-C8-C4",
+    "CIRC-C8.1-R",
+    "CIRC-C8.1-C1",
+    "CIRC-C8.1-C2",
+    "CIRC-C8.1-C3",
+    "CIRC-C8.1-C4"
+  ],
+  "normalizzazioni": [1, 2],
+  "rilievi": [
+    {
+      "id": "CIRC-C8-TIT",
+      "pagina": "circ:253",
+      "prova": "Fonte p. fisica 249: etichetta in riquadro «CAPITOLO C8.» più titolo «COSTRUZIONI ESISTENTI». testo.md rende «## C8. COSTRUZIONI ESISTENTI» e omette la parola stampata «CAPITOLO». L'omissione non è nel catalogo delle normalizzazioni.",
+      "classe": "ERR-MD"
+    },
+    {
+      "id": "CIRC-C8-C1",
+      "pagina": "circ:254",
+      "prova": "Fonte p. fisica 250: quattro capoversi introduttivi C8 distinti (CIRC-C8-C1…C4), da «Le costruzioni esistenti rappresentano» a «questo testo.». testo.md, unico blocco dopo ## C8., li fonde in un solo capoverso. Il catalogo n.1 copre a capo/spazi/rientri intra-capoverso, non la fusione di capoversi; nello stesso file i due capoversi NTC 8.1 restano separati. Il testo verbale dei quattro capoversi è per il resto conforme.",
+      "classe": "ERR-MD"
+    },
+    {
+      "id": "CIRC-C8.1-C1",
+      "pagina": "circ:254",
+      "prova": "Fonte p. fisica 250: quattro capoversi di C8.1 distinti (CIRC-C8.1-C1…C4), da «Le costruzioni esistenti sono definite» a «punto 8.4 delle NTC.». testo.md, unico blocco dopo ## C8.1 OGGETTO, li fonde in un solo capoverso. Stessa difformità strutturale, non ammessa dal catalogo n.1. Testo verbale per il resto conforme (virgolette e apostrofi: catalogo n.2).",
+      "classe": "ERR-MD"
+    }
+  ],
+  "letture": [
+    "testo.md",
+    "fonte-ntc-294.png",
+    "fonte-circ-253.png",
+    "fonte-circ-254.png"
+  ],
+  "isolamento": "istruttivo"
+}

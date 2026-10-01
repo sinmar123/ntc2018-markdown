@@ -1,0 +1,19 @@
+# Manifest SHA-256 NTC 2018 § 4.2-4.2.4.1.2.9 + Circolare § C4.2-C4.2.3.7, 2026-08-06
+# Algoritmo: SHA-256
+# Formato: hash  byte  percorso relativo alla radice del progetto
+# Asset collegati: 10
+
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+eccefb75094e290c75a9496d4d902bcff9bfecd7542affa566c23c69296e8994  55636  cap04/4.2-acciaio.md
+e0240658099423bb0eae7a30c9bf477f973c023f4c1411c3efa4b6a46f5bbc1d  19745  cap04/indice-cap04.md
+edcfe573b5b437a7e34ed300f9b63fb1a2bdfc8ff484e766ce91576fb9fd71bf  154273  cap04/img/tab-4.2.III-rapporti-parti-interne.png
+8b8b1f55142c95e3a644a50ea851e5322f0d76509b20ab3ede3cff2b6e4f82f4  111227  cap04/img/tab-4.2.IV-piattabande-esterne.png
+66ae74d78a4972baffeb9160e87bc3314584ce95c96ea0d5ad755ebf01cc68cd  284079  cap04/img/tab-4.2.V-angolari-tubolari.png
+8826e68f578668a5d91b4ae1296db68bb1738a3058f6e129c95dc0e307b41d0d  10529  cap04/img/fig-c4.2.1-configurazione-deformata-telai.png
+4df7fac1ffb7c7d7a590ad14f8557542b94c4f5fb3ad10d4fce022eedc2a65ae  34689  cap04/img/fig-c4.2.2-imperfezioni-globali.png
+543618e06e799e068cbae0f0e458dfe09ea4cbd4f9da7613e24ecedf8e0ec3d8  95432  cap04/img/fig-c4.2.3-effetti-imperfezioni-orizzontamenti.png
+fd0b6425c891106007032add5b74e0258d725094da12b581325bf5d6f03c18da  37554  cap04/img/fig-c4.2.4-sistemi-forze-equivalenti.png
+7e854158ade30080269b0c59d1d4b485fb767b653dfc9df12474bd446d9a587b  7596  cap04/img/tab-c4.2.I-schema-imperfezioni-locali.png
+a77f3131f110893694e2d42e4c8884c6d6e09c134ddbebd48a14113f01fcbfe5  115771  cap04/img/fig-c4.2.5-forze-equivalenti-controvento.png
+a49736f7d90b5f99e64d289cb829d9690add57c975d00b7e72c675b2aac8af0c  153591  cap04/img/fig-c4.2.6-forze-giunzioni-piattabande.png

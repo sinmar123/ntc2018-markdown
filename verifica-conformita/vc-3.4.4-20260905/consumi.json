@@ -1,0 +1,108 @@
+{
+  "firma": "CDX",
+  "data_registrazione": "2026-09-05T17:32:44.056360+02:00",
+  "scope": "3.4.4 completato",
+  "coordinatori_separati": [
+    {
+      "sessione_log": "rollout-2026-09-05T11-59-05-01a07101-e740-7b53-bdbb-781440b9bdae.jsonl",
+      "modello": "gpt-6-astra",
+      "ragionamento": "max",
+      "misura_timestamp_utc": "2026-09-05T10:38:06.261Z",
+      "ultimo_contatore": {
+        "input_tokens": 5183850,
+        "cached_input_tokens": 5006464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 34059,
+        "reasoning_output_tokens": 11484,
+        "total_tokens": 5217909
+      },
+      "baseline_pre_scope": {
+        "input_tokens": 242211,
+        "cached_input_tokens": 184704,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2405,
+        "reasoning_output_tokens": 1057,
+        "total_tokens": 244616
+      },
+      "delta_scope": {
+        "input_tokens": 4941639,
+        "cached_input_tokens": 4821760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 31654,
+        "reasoning_output_tokens": 10427,
+        "total_tokens": 4973293
+      }
+    },
+    {
+      "sessione_log": "rollout-2026-09-05T17-02-16-01a07217-7b68-7e41-b916-b776c06c2be0.jsonl",
+      "modello": "gpt-6-astra",
+      "ragionamento": "xhigh",
+      "misura_timestamp_utc": "2026-09-05T15:31:04.720Z",
+      "ultimo_contatore": {
+        "input_tokens": 4011161,
+        "cached_input_tokens": 3891840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 24500,
+        "reasoning_output_tokens": 6157,
+        "total_tokens": 4035661
+      },
+      "perimetro": "Intera sessione di ripresa, fino all’ultimo contatore disponibile dopo registrazioni e giornale; esclusi il responso finale e le operazioni successive a tale contatore."
+    }
+  ],
+  "sessioni_figlie_separate": [
+    {
+      "sessione": "01a07113-907a-72b3-9422-579cdc56eee8",
+      "agente": "/root/e_344",
+      "modello": "gpt-5.6-sol",
+      "ragionamento": "high",
+      "input_tokens": 1237016,
+      "cached_input_tokens": 1173760,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 9394,
+      "reasoning_output_tokens": 2000,
+      "total_tokens": 1246410
+    },
+    {
+      "sessione": "01a0711c-ebee-7022-bb1f-ac6ece0cf4b9",
+      "agente": "/root/v_344",
+      "modello": "gpt-5.6-sol",
+      "ragionamento": "xhigh",
+      "input_tokens": 1254865,
+      "cached_input_tokens": 1182720,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16003,
+      "reasoning_output_tokens": 3968,
+      "total_tokens": 1270868
+    },
+    {
+      "sessione": "01a0721a-d71c-7df1-b63b-27b83b9aa661",
+      "agente": "/root/v_344_r01b",
+      "modello": "gpt-5.6-sol",
+      "ragionamento": "xhigh",
+      "input_tokens": 2842876,
+      "cached_input_tokens": 2734336,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 30509,
+      "reasoning_output_tokens": 9797,
+      "total_tokens": 2873385
+    }
+  ],
+  "contesti": {
+    "C": 2,
+    "E": 1,
+    "V": 2
+  },
+  "tentativi": {
+    "fonte_prima_respinto_prima_del_target": 1,
+    "fonte_prima_valido": 1,
+    "giri_g6_effettivi": 1,
+    "g7": 1
+  },
+  "limiti": [
+    "Contatori cumulativi letti all’ultimo campione valido, non sommati fra aggiornamenti.",
+    "Nessun totale fra parent e figli: il runtime non chiarisce se i perimetri siano disgiunti. Le righe restano separate.",
+    "Input in cache inclusi negli input; reasoning incluso negli output.",
+    "Prima base osservata comprendente preparazione, correzioni, tentativo respinto, ripresa e chiusura, nei limiti temporali dei campioni indicati.",
+    "Non è una misura in euro, della quota dell’abbonamento o di un risparmio percentuale. Non è disponibile una misura omogenea del metodo precedente."
+  ]
+}

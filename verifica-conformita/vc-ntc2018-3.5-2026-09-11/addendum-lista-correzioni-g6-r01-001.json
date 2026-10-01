@@ -1,0 +1,34 @@
+{
+  "versione": 1,
+  "tipo": "ADDENDUM_APPEND_ONLY",
+  "data": "2026-09-11",
+  "firma": "Codex / CDX",
+  "lista_base": {
+    "path": "_tmp_render/cap03/vc-3.5-20260911-cdx/lista-correzioni-g6-r01.json",
+    "sha256": "6ca6843e575cfb9e8c14f8b7ded72b686280fb254f1e59ac7b17d27bfec82963",
+    "stato": "CONGELATA E INVARIATA"
+  },
+  "motivo": "Completamento meccanico del rinvio portabile già prescritto dall'operazione 1: lo slug esplicito richiamato non coincide con quello che sarebbe generato automaticamente dalla rubrica dell'annotazione.",
+  "operazione_complementare": {
+    "id": "AF-3.5.2-01-ANCORA",
+    "tipo": "sostituzione_testo_esatta_sul_file_creato_dall_operazione_7",
+    "path": "cap03/annotazioni/3.5.2-anomalie-fonte.md",
+    "fase": "Dopo aver creato il file col contenuto esatto dell'operazione 7 della lista base e prima dei controlli finali di E.",
+    "occorrenze_attese": 1,
+    "prima": "## AF-3.5.2-01 - «d un anno» e punto e virgola finale",
+    "dopo": "<a id=\"af-3-5-2-01-d-un-anno-e-punto-e-virgola-finale\"></a>\n## AF-3.5.2-01 - «d un anno» e punto e virgola finale",
+    "esito_atteso": "Il rinvio `[1](./annotazioni/3.5.2-anomalie-fonte.md#af-3-5-2-01-d-un-anno-e-punto-e-virgola-finale)` dell'operazione 1 raggiunge l'àncora HTML esplicita anche fuori da Obsidian."
+  },
+  "natura": "Rettifica puramente meccanica dell'apparato editoriale; nessuna modifica a lettura della fonte, classificazione, testo normativo, asset o giudizio C.",
+  "prova_secondo_lettore": {
+    "resoconto": "_tmp_render/cap03/vc-3.5-20260911-cdx/prova-secondo-lettore-fonte-only.md",
+    "sessione_jsonl": "_tmp_render/cap03/vc-3.5-20260911-cdx/secondo-lettore-fonte-only-sessione-01a090fe-45f9-7b22-8b5e-a599762466ba.jsonl",
+    "sessione_jsonl_sha256": "0c7a1945da3d64fb7f97844500c08b0db6af0907d3dcbdc7496e8610aa973581"
+  },
+  "vincoli": [
+    "Non modificare né riscrivere la lista base o l'adjudicazione già congelate.",
+    "Applicare questo addendum insieme alla lista base come unica integrazione append-only.",
+    "Non modificare altri contenuti dell'annotazione oltre all'inserimento dell'àncora indicata."
+  ]
+}
+

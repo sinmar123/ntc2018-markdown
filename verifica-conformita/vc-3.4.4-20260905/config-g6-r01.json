@@ -1,0 +1,30 @@
+{
+  "scope": "3.4.4",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\cap03\\3.4.4-neve-coefficiente-di-esposizione.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        63
+      ]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:63"
+      ],
+      "righe": [
+        [
+          1,
+          11
+        ]
+      ],
+      "limiti": "Solo il paragrafo 3.4.4: dalla sua rubrica fino al termine della tabella che lo segue, prima della rubrica 3.4.5. Sono escluse tutte le parti precedenti e successive presenti sulla pagina."
+    }
+  ]
+}

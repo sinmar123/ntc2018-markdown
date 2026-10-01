@@ -1,0 +1,29 @@
+# Manifest SHA-256 - ntc2018-3.2.3 - 2026-08-28
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+636bc58f3d21d214a2b980fd73499409d5a4fbf089d06b016353e02461897192  32872  cap03/3.2.3-azione-sismica-valutazione-dell-azione-sismica.md
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+9566fe67f01e010260873405836e0f28f63c62e7df67b2bb9006acc565c5147e  976948  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/ntc-p51-scope-3.2.3-600dpi.png
+3c28005df72aee9ab7128d762a6f9059446078d2fa5b4f9aac67a952e1fdf6ea  1495351  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/ntc-p52-scope-3.2.3-600dpi.png
+d34e41794246ec3a5c9b7828c1b0fab08952b9ce0fd6ef42b3136e071fe70343  1445671  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/ntc-p53-scope-3.2.3-600dpi.png
+b7db9da736ac39ba0f97e9c92713212a3df4a2dcd60bceab5e272116b5326deb  1823000  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/ntc-p54-scope-3.2.3-600dpi.png
+7d766950772e604dec78ff28db394b7bb0ec7fefebb1b1033fa53d8a4ad3ca4b  160773  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/ntc-p55-scope-3.2.3-600dpi.png
+df5594a8f8f6ac35c813ad94fed5f15c29b5a8d58ac8312045589d96caa6d6f6  850932  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/circ-p51-scope-C3.2.3-600dpi.png
+cedcb9a4f7842145d11bd5cd957e8232c7bd984e0c2176d860259981bf1eb4f7  1390494  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/circ-p52-scope-C3.2.3-600dpi.png
+5fe611dc60213c475565a3e98b841b31f0c74da8d5d0286734103f2da5e1ef59  1898480  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/circ-p53-scope-C3.2.3-600dpi.png
+8abf89f98103a51d91256452a868ea71616c884d3c0406698032e34015056eaa  432713  _tmp_render/cap03/vc-3.2.3-20260828/g6-preparazione/fonte/circ-p54-scope-C3.2.3-600dpi.png
+f09b92b2699fea5a25168375c027e37c3c726de86138b6f4ce7e114db2f8af7e  81300  cap03/img/fig-C3.2.3-coefficiente-SS.png
+2557cf7977636b8a52d256b2d82981a7f7b95c6eb72ffdd3ffc2f11e245d414f  96744  cap03/img/fig-C3.2.4-coefficiente-CC.png
+8f182a286afb4f22a3d6b779933f17b0e9f2fd29fddc53f48e53f728f5a46ac0  1668  _tmp_render/cap03/vc-3.2.3-20260828/preflight/rapporto-consolidato-g0-g5.md
+7b54398c3e50bef9307fe91cc28b4989e0c7d1c65fe2cbc29724f8fee46b0966  1139  _tmp_render/cap03/vc-3.2.3-20260828/preflight/rapporto-postcorrezione-cdx.md
+3ce260416f448cf9cdb6561daf26346f0420714f3477a323796a39da6a0c7e78  260908  _tmp_render/cap03/vc-3.2.3-20260828/preflight/render-scope-finale.pdf
+02f1b2972c8af3b22f58b4f8ed774303186576824ea9f5901339911897f4eed2  10861  _tmp_render/cap03/vc-3.2.3-20260828/apparati/passaggio-b-critico/rapporto.md
+80fa07ccb734e929c8cbcae9dc38a0146cc964983f09e676026b6cb92adaba68  6275  _tmp_render/cap03/vc-3.2.3-20260828/apparati/riconciliazione/rapporto-postcorrezione.md
+c8c5b4d4e2384bf04843d596871d31bd84fc7b7d34f887b9aa06e0e4eb395d01  844  _tmp_render/cap03/vc-3.2.3-20260828/apparati/riconciliazione/supplemento-post-g6.md
+16d3231290a39dc05f94ff41afa56b856b9a0421471e99f828930f0652c21981  2396  _tmp_render/cap03/vc-3.2.3-20260828/g6-r01/rapporto-consolidato.md
+2dd7e44f6293fe635fa5dc81c11ea4132ad712a90928ebb4568bb511b8ab1684  3340  _tmp_render/cap03/vc-3.2.3-20260828/g6-r02/rapporto-consolidato.md
+5220ace01a9cec4348395a20b4aee5bd8c7c901a165f60780e17d5a1ec6d9e03  792  _tmp_render/cap03/vc-3.2.3-20260828/g6-r02/adjudicazione-post-g6.md
+5820ff70600d8d26fc01af2cb339841978d37318c64d6b3e7e1036b653314266  1899  _tmp_render/cap03/vc-3.2.3-20260828/g6-r03/rapporto-consolidato.md
+b91a612bd9ea801a6ecad1aa9364ac3b80d374f61a4b3c8fb75f950a4ca51d3e  1172  _tmp_render/cap03/vc-3.2.3-20260828/g6-r03/adjudicazione-post-g6.md
+e7221c22d4a6940873dbf11bf79a1d72530816f76a4a6851a982cf2b8aacdcca  3388  cap03/annotazioni/3.2.3-anomalie-fonte.md

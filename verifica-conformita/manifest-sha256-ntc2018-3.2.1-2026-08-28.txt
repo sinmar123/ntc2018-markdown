@@ -1,0 +1,18 @@
+# Manifest SHA-256 - ntc2018-3.2.1 - 2026-08-28
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+d63652647c796ab4b473827eb35d285529f7041fd3e04ff9e0caa480d6ee7d20  13937  cap03/3.2.1-azione-sismica-stati-limite-e-relative-probabilita-di-superamento.md
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+5481d9bda202473f506d00521f4a93ac5d4cd7f0466ed410b239e52d4c84a33b  536978  _tmp_render/cap03/vc-3.2.1-20260828/g6-r01/preparazione/fonte/ntc-p49-scope-3.2.1-600dpi.png
+4982b33bef26f8c1c5ae79da68d3ac85630baa3c3ca0861382c4714c414e00f8  207948  _tmp_render/cap03/vc-3.2.1-20260828/g6-r01/preparazione/fonte/ntc-p50-scope-3.2.1-600dpi.png
+906fc2a17483946d011355ac9eebee1acbc46b279568a1f5c5cce8d7040b4684  1116876  _tmp_render/cap03/vc-3.2.1-20260828/g6-r01/preparazione/fonte/circ-p48-scope-C3.2.1-600dpi.png
+fe85190b16836528179a651b01a62243c59caf3b31d5010a58aa124a3114f15a  1038432  _tmp_render/cap03/vc-3.2.1-20260828/g6-r01/preparazione/fonte/circ-p49-scope-C3.2.1-600dpi.png
+93fed92a9a95a3ec43c0361ee810be4785fb992560480249df107db791a1b066  323009  _tmp_render/cap03/vc-3.2.1-20260828/g6-r01/preparazione/fonte/circ-p50-scope-C3.2.1-600dpi.png
+f02d192530d689143156824edb19e02ab0c734fb92dee1436e467e6568b4cf6f  188230  cap03/img/fig-C3.2.2-variazione-R-CU-PVR.png
+638dd142fdbfc3dc2a74c6c8506a3fede7e41c85660966c99d24504a2f6b45a2  5946  _tmp_render/cap03/vc-3.2.1-20260828/preflight/rapporto-consolidato-g0-g5.md
+566508695dcb29d0f63e679e5c8622bfeb9eb588ff69bfd75713cadbec272a6d  180995  _tmp_render/cap03/vc-3.2.1-20260828/preflight/render-scope.pdf
+a3943f6264f29316bc5eda9e663ba91e277374781f7c0ee6448fe10780f210ce  14393  _tmp_render/cap03/vc-3.2.1-20260828/apparati/riconciliazione/registro-finale-precorrezione.md
+edd808196438a00b135834707a72aefbacc708033262d5e0a78e0f6969998a13  4660  _tmp_render/cap03/vc-3.2.1-20260828/g6-r03/rapporto-consolidato.md
+932df5d538e280d78133ce863afc4ef1394cbe063792428cf82bcced08ae807a  1206  _tmp_render/cap03/vc-3.2.1-20260828/g6-r03/adjudicazione-post-g6.md
+90ef00b6a2012cd37dec46c3a35f61afbb53ed51ba3d43c613619a309d2c5c9a  2544  cap03/annotazioni/3.2.1-anomalie-fonte.md

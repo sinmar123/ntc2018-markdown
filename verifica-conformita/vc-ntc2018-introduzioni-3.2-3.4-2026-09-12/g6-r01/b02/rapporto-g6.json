@@ -1,0 +1,125 @@
+{
+  "firma": "Codex (CDX), GPT-6, verificatore V indipendente b02",
+  "fase": "G6",
+  "esito": "OK",
+  "coperti": [
+    "B02-NTC-33-RUB",
+    "B02-NTC-33-P1",
+    "B02-NTC-33-C1",
+    "B02-NTC-33-C2",
+    "B02-NTC-34-RUB",
+    "B02-CIRC-C33-RUB",
+    "B02-CIRC-C33-P1",
+    "B02-CIRC-C34-RUB"
+  ],
+  "attestazione": "Confronto integrale, senza campionamento, di tutti gli elementi inventariati contro le quattro pagine fonte, i dettagli a 600 dpi, testo.md e la resa effettiva di una pagina; rubriche, prosa, condizioni, rinvii, numeri, apostrofi e punteggiatura risultano conformi.",
+  "normalizzazioni": [
+    {
+      "catalogo": 1,
+      "applicazioni": "spaziatura del simbolo § e ricomposizione o nuova sillabazione delle parole a fine riga nella resa"
+    },
+    {
+      "catalogo": 2,
+      "applicazioni": "apostrofo diritto nel Markdown equivalente all’apostrofo tipografico della fonte; la resa mostra il glifo tipografico"
+    }
+  ],
+  "rilievi": [],
+  "prove": [
+    {
+      "pagina": "ntc:56",
+      "fonte": [
+        "b02/fonte-ntc-56.png",
+        "fonti-b02/fonte-ntc-56-area-03-600dpi.png"
+      ],
+      "target": [
+        "b02/testo.md",
+        "b02/resa-target.pdf",
+        "b02/resa-target-01.png"
+      ],
+      "esito": "conformi B02-NTC-33-RUB, B02-NTC-33-P1, B02-NTC-33-C1 e B02-NTC-33-C2"
+    },
+    {
+      "pagina": "circ:54",
+      "fonte": [
+        "b02/fonte-circ-54.png",
+        "fonti-b02/fonte-circ-54-area-01-600dpi.png"
+      ],
+      "target": [
+        "b02/testo.md",
+        "b02/resa-target.pdf",
+        "b02/resa-target-01.png"
+      ],
+      "esito": "conformi B02-CIRC-C33-RUB e B02-CIRC-C33-P1"
+    },
+    {
+      "pagina": "ntc:61",
+      "fonte": [
+        "b02/fonte-ntc-61.png",
+        "fonti-b02/fonte-ntc-61-area-04-600dpi.png"
+      ],
+      "target": [
+        "b02/testo.md",
+        "b02/resa-target.pdf",
+        "b02/resa-target-01.png"
+      ],
+      "esito": "conforme B02-NTC-34-RUB"
+    },
+    {
+      "pagina": "circ:76",
+      "fonte": [
+        "b02/fonte-circ-76.png",
+        "fonti-b02/fonte-circ-76-area-02-600dpi.png"
+      ],
+      "target": [
+        "b02/testo.md",
+        "b02/resa-target.pdf",
+        "b02/resa-target-01.png"
+      ],
+      "esito": "conforme B02-CIRC-C34-RUB"
+    }
+  ],
+  "letture": {
+    "istruzioni_e_perimetro": [
+      "b02/ISTRUZIONI-V.md",
+      "b02/PERIMETRO.md",
+      "b02/canone.md",
+      "b02/input-fonte.json",
+      "b02/inventario.json",
+      "fonti-b02/manifest.json",
+      "fonti-b02/provenienza.json"
+    ],
+    "fonti_pagina": [
+      "b02/fonte-ntc-56.png",
+      "b02/fonte-ntc-61.png",
+      "b02/fonte-circ-54.png",
+      "b02/fonte-circ-76.png"
+    ],
+    "prove_600dpi": [
+      "fonti-b02/fonte-ntc-56-area-03-600dpi.png",
+      "fonti-b02/fonte-ntc-61-area-04-600dpi.png",
+      "fonti-b02/fonte-circ-54-area-01-600dpi.png",
+      "fonti-b02/fonte-circ-76-area-02-600dpi.png"
+    ],
+    "target_rivelato": [
+      "b02/testo.md",
+      "b02/resa-target.pdf",
+      "b02/resa-target-01.png"
+    ]
+  },
+  "isolamento": {
+    "tipo": "restrizione istruttiva, non sandbox",
+    "percorsi_letti": [
+      "C:/Users/sandro/AppData/Local/Temp/vc-intro-32-34-20260912-v-r01/b02",
+      "C:/Users/sandro/AppData/Local/Temp/vc-intro-32-34-20260912-v-r01-fonti-b02"
+    ],
+    "workspace_aperto": false,
+    "altri_blocchi_aperti": false,
+    "coordinamento_aperto": false,
+    "cronologia_o_rapporti_altrui_aperti": false,
+    "solo_target_rivelato_aperto": true,
+    "target_modificato": false,
+    "input_congelati_modificati": false,
+    "render_autonomi_generati": false,
+    "processi_lunghi_avviati": false
+  }
+}

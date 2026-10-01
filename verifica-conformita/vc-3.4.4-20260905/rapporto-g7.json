@@ -1,0 +1,220 @@
+{
+  "versione": 1,
+  "data": "2026-09-05",
+  "firma": {
+    "agente": "/root/v_344_r01b",
+    "identita_effettiva": "gpt-5.6-sol",
+    "ragionamento": "xhigh",
+    "ruolo": "V, verificatore critico indipendente e decisore G7"
+  },
+  "giudizio_g7": "OK",
+  "rilascio": {
+    "consentito_al_coordinatore": true,
+    "condizione": "Tutti i gate G0-G7 sono OK e non restano rilievi aperti sullo snapshot registrato.",
+    "giudizio_vc_prima_di_g7": "NON_EMESSO",
+    "nota": "Il presente giudizio chiude G7; le registrazioni di rilascio e l'emissione documentale di VC-OK restano al coordinatore."
+  },
+  "scope": {
+    "atto": "D.M. 17 gennaio 2018, allegato tecnico",
+    "paragrafo": "3.4.4",
+    "confini": "Dalla rubrica 3.4.4 al termine della Tab. 3.4.I, prima della rubrica 3.4.5.",
+    "fonte_pagina": "ntc:63, pagina fisica PDF 63, folio stampato 59",
+    "target": "cap03/3.4.4-neve-coefficiente-di-esposizione.md",
+    "snapshot_finale_sha256": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448",
+    "vigenza_dichiarata": "2026-09-05"
+  },
+  "gate": {
+    "G0": {
+      "esito": "OK",
+      "prova": "Perimetro univoco sulla fonte NTC, pagina fisica 63. La Circolare termina C3.4.3 a pagina fisica 80 e apre C3.4.5 a pagina fisica 81; non esiste un autonomo C3.4.4 da includere. Nessuna parte precedente o successiva della pagina NTC appartiene allo scope."
+    },
+    "G1": {
+      "esito": "OK",
+      "prova": "Acquisizioni ufficiali GU e CSLP del 2026-09-05 conservate con URL e SHA-256. Il PDF ufficiale acquisito è binariamente identico alla copia congelata. L'art. 1 del D.M. 9 marzo 2023 modifica l'art. 2 e i punti 11.4.2 e 11.5.2, senza incidere sul § 3.4.4; la ricognizione non rileva altre modifiche pertinenti."
+    },
+    "G2": {
+      "esito": "OK",
+      "prova": "Copertura integrale del file naturale e delle 11 righe depurate sulla sola pagina ntc:63, senza lacune o sovrapposizioni. Navigazione, indice interno, ancora e contenitore Norma sono esclusi come apparati editoriali."
+    },
+    "G3": {
+      "esito": "OK",
+      "prova": "Le famiglie iniziali ERR-MD R01, R02a e R02b e la successiva R03 sono state congelate prima dell'applicazione, corrette con sostituzioni esatte e riconfrontate. Il diff finale contiene soltanto tali quattro sostituzioni e zero cambiamenti estranei."
+    },
+    "G4": {
+      "esito": "OK",
+      "prova": "Riconciliati rubrica, capoverso, didascalia, tabella con tre intestazioni e nove celle di corpo, quattro notazioni C con pedice E, relazione C_E = 1 e rinvio Tab. 3.4.I. Fonte a 600 dpi e dati vettoriali attestano cassa e veste tonda, corsiva o grassetta. Nessuna formula esposta, figura, nota, asset, anomalia A o AF-COR."
+    },
+    "G5": {
+      "esito": "OK",
+      "prova": "Preflight finale positivo: snapshot, diff vincolato, confronto fonte-target, quattro link, mappa delle righe e indici globali. Il render canonico è stato riaperto e osservato integralmente in G7: una pagina completa, leggibile, senza tagli, sovrapposizioni, caratteri mancanti o tag anomali. Rubrica, prosa, didascalia, testate, nove celle e quattro pedici E sono resi correttamente."
+    },
+    "G6": {
+      "esito": "OK",
+      "prova": "V indipendente gpt-5.6-sol/xhigh, contesto /root/v_344_r01b: inventario fonte-prima congelato prima della rivelazione del target; 19/19 ID coperti, 7/7 input integri, ERR-MD 0, ERR-AUDIT 0, DUBBIO 0. Il controllo C ha recuperato e letto tutte le 13 custom_tool_call filesystem fino alla chiusura G6: accessi entro gli input ammessi e primo accesso al target successivo al congelamento."
+    },
+    "G7": {
+      "esito": "OK",
+      "prova": "Manifest riaperto con lo strumento ufficiale, catena degli hash verificata, ruoli e indipendenza confermati, evidenze G0-G6 pertinenti lette e render finale osservato integralmente. Zero rilievi aperti o condizioni sospensive."
+    }
+  },
+  "copertura": {
+    "pagine_primarie": [
+      "ntc:63"
+    ],
+    "righe_depurate": "1-11, integrali",
+    "inventario_g6": "19/19 elementi",
+    "contenuti": {
+      "rubriche": 1,
+      "capoversi": 1,
+      "didascalie_tabella": 1,
+      "tabelle": 1,
+      "celle_intestazione": 3,
+      "celle_corpo": 9,
+      "notazioni_C_E": 4,
+      "relazioni_inline": 1,
+      "rinvii_tabella": 1,
+      "formule_esposte": 0,
+      "figure": 0,
+      "note": 0,
+      "asset": 0
+    },
+    "esito": "COMPLETA"
+  },
+  "normalizzazioni": [
+    {
+      "catalogo": 1,
+      "applicazione": "spaziature, a capo e ricomposizione della parola sillabata a fine riga"
+    },
+    {
+      "catalogo": 2,
+      "applicazione": "apostrofi dritti e curvi"
+    },
+    {
+      "catalogo": 10,
+      "applicazione": "separatore della didascalia en dash/hyphen-minus"
+    },
+    {
+      "catalogo": 11,
+      "applicazione": "depurazione degli apparati di navigazione e dell'indice interno dal confronto normativo"
+    }
+  ],
+  "anomalie_e_correzioni": {
+    "anomalie_A": [],
+    "correzioni_AF_COR": [],
+    "rilievi_chiusi": [
+      {
+        "id": "R01",
+        "classe_originaria": "ERR-MD",
+        "oggetto": "cassa maiuscola della rubrica",
+        "stato": "CHIUSO"
+      },
+      {
+        "id": "R02a",
+        "classe_originaria": "ERR-MD",
+        "oggetto": "due notazioni C_E tonde nel capoverso",
+        "stato": "CHIUSO"
+      },
+      {
+        "id": "R02b",
+        "classe_originaria": "ERR-MD",
+        "oggetto": "notazione C_E tonda e grassetta nella testata",
+        "stato": "CHIUSO"
+      },
+      {
+        "id": "R03",
+        "classe_originaria": "ERR-MD",
+        "oggetto": "grassetto delle intestazioni Topografia e Descrizione nel renderer canonico",
+        "stato": "CHIUSO"
+      }
+    ],
+    "rilievi_aperti": []
+  },
+  "catena_hash": {
+    "fonte_pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+    "procedura_corrente_e_congelata_sha256": "3ed1723a25f875fad7632b5a7b7ce773d435dcb685fec938ea18df2524be93db",
+    "catalogo_corrente_e_congelato_sha256": "d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6",
+    "snapshot_iniziale_sha256": "e36dc2c928373cc3093e14abb9b1937d5862243b1fce2555ddc4debf6e8dc929",
+    "dopo_R00_sha256": "d1a0e167a41086ff323a65164c62aab2bf96e1ad9cea7902bf0e8570d8bb236e",
+    "snapshot_finale_e_target_corrente_sha256": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448",
+    "testo_g6_depurato_sha256": "b9b2483b5fc70437c940edf075c674d7fa6786c82683a454bfc59105a15103b2",
+    "inventario_g6_sha256": "32da1470c583f0aa35f19df1b61a30e36113a881808a9e14f060a30e82b61c9f",
+    "rapporto_g6_sha256": "3f11e8f2c35cd9c2a13f8ccd45d92945ae70097ffd66eeb27301c59b16c43462",
+    "render_finale_p01_sha256": "2d3b5fe925a0c075faea2383f832404a7b400972d58099ead8a1893041a231d3",
+    "manifest_rilascio_sha256": "7e7b8870d2eba6818009154e3b412f33b5f10a6f18d5040f8eee7b4defd1de78"
+  },
+  "manifest": {
+    "path": "verifica-conformita/vc-3.4.4-20260905/manifest-rilascio.json",
+    "file": 53,
+    "comando": "python -X utf8 strumenti/vc-supporto.py verifica-manifest . verifica-conformita/vc-3.4.4-20260905/manifest-rilascio.json",
+    "exit_code": 0,
+    "output": {
+      "files": 53,
+      "integrita": "OK",
+      "giudizio_vc": "NON_EMESSO"
+    }
+  },
+  "sequenza_g6": {
+    "congelamento_utc": "2026-09-05T15:11:11.652598+00:00",
+    "prima_lettura_target_utc": "2026-09-05T15:11:50.596Z",
+    "ordine": "VALIDO",
+    "isolamento": "Restrizione istruttiva alle cartelle b01 e fonte-dettaglio, senza sandbox filesystem.",
+    "controllo_documentale_C": "Tutte le 13 custom_tool_call filesystem fino alla chiusura G6 sono state recuperate e lette dal JSONL; accessi entro gli input ammessi. I messaggi interagente cifrati non rientrano nel controllo indipendente dei comandi filesystem.",
+    "rapporto_V_originario": "Conservato invariato; il chiarimento successivo sulla recuperabilità delle chiamate è documentato nella sequenza e nel rapporto C."
+  },
+  "ruoli": {
+    "C_iniziale": {
+      "identita": "gpt-6-astra/max",
+      "attivita": "G0-G5 e classificazione",
+      "ha_corretto_target": false
+    },
+    "C_ripresa": {
+      "identita": "gpt-6-astra/xhigh",
+      "attivita": "riconferma G0-G5, preparazione chiusura e controllo documentale G6",
+      "ha_corretto_target": false
+    },
+    "E": {
+      "identita": "gpt-5.6-sol/high",
+      "attivita": "approvazione puntuale e applicazione delle sole sostituzioni congelate R00 e R01",
+      "ha_chiuso_G6_o_G7": false
+    },
+    "V": {
+      "identita": "gpt-5.6-sol/xhigh",
+      "agente": "/root/v_344_r01b",
+      "sessione": "01a0721a-d71c-7df1-b63b-27b83b9aa661",
+      "attivita": "inventario fonte-prima, G6 integrale e G7",
+      "ha_corretto_target": false
+    },
+    "separazione": "C e V sono distinti dall'esecutore delle correzioni; V usa un contesto nuovo e indipendente, distinto dalla sessione del coordinatore."
+  },
+  "natura_revisione": {
+    "tipo": "verifica eseguita da agenti AI con script locali per le attività meccaniche",
+    "revisione_umana_integrale": false
+  },
+  "prove_lette_o_osservate_in_G7": [
+    "PROCEDURA-VC.md § 5, § 6 e § 9",
+    "verifica-conformita/vc-3.4.4-20260905/rapporto-c-chiusura.md",
+    "verifica-conformita/vc-3.4.4-20260905/manifest-rilascio.json",
+    "_tmp_render/cap03/vc-3.4.4-20260905/rapporto-c-g0-g5.md",
+    "atti G1 acquisizioni.json, ricognizione.json e contenuto pertinente degli HTML ufficiali congelati",
+    "confini Circolare pagine fisiche 80-81",
+    "liste di correzione R00/R01, esiti E e diff finale",
+    "snapshot iniziale e finale, target corrente, testo depurato, trascrizione fonte C e preflight",
+    "sequenza, coordinamento, congelamento, input-confronto e rapporto G6 archiviato",
+    "_tmp_render/cap03/vc-3.4.4-20260905/render-finale-p01.png, osservato integralmente",
+    "verifica ufficiale del manifest e ricalcolo mirato degli SHA-256 decisivi"
+  ],
+  "limiti": [
+    "Il giudizio vale soltanto per il § 3.4.4, per lo snapshot SHA-256 6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448 e per la vigenza dichiarata al 2026-09-05.",
+    "Non è documentata una revisione umana integrale.",
+    "La resa verificata è quella del renderer canonico; per altri viewer vale il catalogo delle normalizzazioni.",
+    "Il rapporto G7 e il futuro verbale sono esterni al manifest di rilascio per evitare autoreferenze e devono riportarne l'impronta.",
+    "In alcune frasi narrative dei rapporti C di chiusura e ripresa, caratteri non ASCII risultano sostituiti da «?». Il difetto è documentale e non blocca G7: scope, tempi, identità, esiti e hash decisivi sono univoci e corroborati dai JSON strutturati, dai rapporti precedenti e dalle prove primarie."
+  ],
+  "contatori_finali": {
+    "ERR-MD_aperti": 0,
+    "ERR-AUDIT_aperti": 0,
+    "DUBBIO_aperti": 0,
+    "rilievi_aperti": 0
+  },
+  "conclusione": "G7 OK. Tutti i gate G0-G7 sono OK, la copertura è integrale, la catena degli hash è integra e non restano rilievi. Il coordinatore può procedere alle registrazioni di chiusura sullo snapshot dichiarato."
+}

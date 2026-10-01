@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T09:58:13+02:00",
+  "richiesta": "vc-345-g7-r04.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (6 user messages, 157 total messages)\n\nsession_id: 20260909_165403_00ba4e\nOsservato: l’evidenza esterna impronta-manifest-r03.json fornisce l’impronta mancante del manifest R03 e documenta l’esecuzione del controllo con codice di uscita 0 e integrità OK. Non sono emerse contraddizioni con il manifest già esaminato.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7 R04: OK\n\nG0-G7: tutti OK\nRilievi aperti: nessuno\n\nImpronta del manifest R03 riportata nel giudizio:\n\n17a29d8ea850ef95cbf07a0e242c8e59392cf2e85eb138c9b1ecf7062e97145a\n\nNon ho ricalcolato autonomamente l’impronta: il valore è stato importato dall’output dello script conservato nell’evidenza esterna. Non ho rieseguito manifest, G6, inventario, render o confronto.\n\nNon ho rifatto l’inventario e non ho modificato altre evidenze.\ngiudizio-g7.json scritto\n"
+}

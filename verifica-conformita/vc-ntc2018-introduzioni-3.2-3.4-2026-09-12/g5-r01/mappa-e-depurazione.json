@@ -1,0 +1,45 @@
+{
+  "firma": "CDX",
+  "blocchi": [
+    {
+      "id": "b01",
+      "files": [
+        "cap03/3.2-introduzione.md"
+      ],
+      "testo": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b01\\testo-depurato.md",
+      "righe": [
+        [
+          1,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "b02",
+      "files": [
+        "cap03/3.3-introduzione.md",
+        "cap03/3.4-introduzione.md"
+      ],
+      "testo": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-introduzioni-3.2-3.4-20260912-cdx\\g5-r01\\b02\\testo-depurato.md",
+      "righe": [
+        [
+          59,
+          71
+        ]
+      ]
+    }
+  ],
+  "esclusioni_aggiuntive": [
+    {
+      "file": "cap03/3.2-introduzione.md",
+      "riga": "*Circolare 21/01/2019 n. 7 C.S.LL.PP., §C3.2*\n",
+      "motivo": "identificazione editoriale dell’atto"
+    },
+    {
+      "file": "cap03/3.4-introduzione.md",
+      "riga": "*Circolare 21/01/2019 n. 7 C.S.LL.PP., §C3.4*\n",
+      "motivo": "identificazione editoriale dell’atto"
+    }
+  ],
+  "metodo": "depuratore comune; esclusa l’identificazione editoriale già giudicata da C; nessuna modifica del testo normativo depurato"
+}

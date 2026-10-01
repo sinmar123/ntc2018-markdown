@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.2-introduzione.md",
+      "bytes": 6771,
+      "sha256": "2490e7f7b4eac7b45fa7a56bd6a8b503442292ef7dd7d661c65d784f5b4b127f"
+    },
+    {
+      "path": "cap03/3.3-introduzione.md",
+      "bytes": 1257,
+      "sha256": "0400efc8a0ff13ccba1bf60b97956901ae73c5a373bb166df9a2cb33e8e1b43c"
+    },
+    {
+      "path": "cap03/3.4-introduzione.md",
+      "bytes": 285,
+      "sha256": "a7a6ab9d67e9d893d74a05c791e4a9e5a4e9ef1e535c95302dc4c50d87ba48bc"
+    }
+  ]
+}

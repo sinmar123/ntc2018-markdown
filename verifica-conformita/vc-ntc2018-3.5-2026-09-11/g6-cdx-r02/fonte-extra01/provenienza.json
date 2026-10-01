@@ -1,0 +1,187 @@
+{
+  "firma": "Codex / CDX, script fonte",
+  "pdf": "GU-2018-42-SO8-DM-17-01-2018.pdf",
+  "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+  "elementi": [
+    {
+      "pagina_fisica": 64,
+      "xref": 1091,
+      "file": "ntc-p64-raster-xref1091.jpeg",
+      "width_px": 697,
+      "height_px": 176,
+      "xres_metadata": 96,
+      "yres_metadata": 96,
+      "bbox_pdf_pt": [
+        [
+          226.9770050048828,
+          257.1639709472656,
+          369.843017578125,
+          293.22998046875
+        ]
+      ],
+      "dpi_effettivi_per_bbox": [
+        {
+          "x": 351.2661905802998,
+          "y": 351.3557548542026
+        }
+      ],
+      "sha256": "18b304003dad59421f56c501c38974c8d0f4981d44b710441f492562429a75cd",
+      "metodo": "PyMuPDF extract_image, byte originali incorporati senza ricampionamento",
+      "codepoint": "non applicabili al raster"
+    },
+    {
+      "pagina_fisica": 64,
+      "xref": 1092,
+      "file": "ntc-p64-raster-xref1092.jpeg",
+      "width_px": 697,
+      "height_px": 176,
+      "xres_metadata": 96,
+      "yres_metadata": 96,
+      "bbox_pdf_pt": [
+        [
+          226.9770050048828,
+          293.1939697265625,
+          369.843017578125,
+          329.22998046875
+        ]
+      ],
+      "dpi_effettivi_per_bbox": [
+        {
+          "x": 351.2661905802998,
+          "y": 351.64824682341543
+        }
+      ],
+      "sha256": "6e3a65a5a62e3ceda3bdb5f7c663709bf46c50520f1a87ee195d1197647f8c32",
+      "metodo": "PyMuPDF extract_image, byte originali incorporati senza ricampionamento",
+      "codepoint": "non applicabili al raster"
+    },
+    {
+      "pagina_fisica": 64,
+      "xref": 1093,
+      "file": "ntc-p64-raster-xref1093.jpeg",
+      "width_px": 697,
+      "height_px": 176,
+      "xres_metadata": 96,
+      "yres_metadata": 96,
+      "bbox_pdf_pt": [
+        [
+          226.9770050048828,
+          329.1940002441406,
+          369.843017578125,
+          365.2300109863281
+        ]
+      ],
+      "dpi_effettivi_per_bbox": [
+        {
+          "x": 351.2661905802998,
+          "y": 351.64824682341543
+        }
+      ],
+      "sha256": "9c4120c297e596cbce06830f656390ddfd05b8364b296854a6fcadba445dd067",
+      "metodo": "PyMuPDF extract_image, byte originali incorporati senza ricampionamento",
+      "codepoint": "non applicabili al raster"
+    },
+    {
+      "pagina_fisica": 64,
+      "xref": 1094,
+      "file": "ntc-p64-raster-xref1094.jpeg",
+      "width_px": 697,
+      "height_px": 176,
+      "xres_metadata": 96,
+      "yres_metadata": 96,
+      "bbox_pdf_pt": [
+        [
+          226.9770050048828,
+          365.1940002441406,
+          369.843017578125,
+          401.260009765625
+        ]
+      ],
+      "dpi_effettivi_per_bbox": [
+        {
+          "x": 351.2661905802998,
+          "y": 351.3557548542026
+        }
+      ],
+      "sha256": "ec573123ee06007762430bc83ef1cf225d6cb4c699e028fbfbe257fd9cf28773",
+      "metodo": "PyMuPDF extract_image, byte originali incorporati senza ricampionamento",
+      "codepoint": "non applicabili al raster"
+    },
+    {
+      "pagina_fisica": 64,
+      "xref": 1095,
+      "file": "ntc-p64-raster-xref1095.jpeg",
+      "width_px": 697,
+      "height_px": 176,
+      "xres_metadata": 96,
+      "yres_metadata": 96,
+      "bbox_pdf_pt": [
+        [
+          226.9770050048828,
+          401.2239990234375,
+          369.843017578125,
+          437.1099853515625
+        ]
+      ],
+      "dpi_effettivi_per_bbox": [
+        {
+          "x": 351.2661905802998,
+          "y": 353.1183421888713
+        }
+      ],
+      "sha256": "2b69169167fafefffbb5cf2d54f1de1aa287c1a39ed47cb63305a9023832f101",
+      "metodo": "PyMuPDF extract_image, byte originali incorporati senza ricampionamento",
+      "codepoint": "non applicabili al raster"
+    },
+    {
+      "pagina_fisica": 64,
+      "file": "ntc-p64-localizzazione-600dpi.png",
+      "clip_pdf_pt": [
+        218.9770050048828,
+        249.16397094726562,
+        377.843017578125,
+        445.1099853515625
+      ],
+      "dpi": 600,
+      "metodo": "rasterizzazione diretta della pagina fisica; localizzazione soltanto"
+    },
+    {
+      "pagina_fisica": 65,
+      "xref": 1105,
+      "file": "ntc-p65-raster-xref1105.png",
+      "width_px": 588,
+      "height_px": 380,
+      "xres_metadata": 96,
+      "yres_metadata": 96,
+      "bbox_pdf_pt": [
+        [
+          191.0970001220703,
+          278.1940002441406,
+          404.9129943847656,
+          417.9100036621094
+        ]
+      ],
+      "dpi_effettivi_per_bbox": [
+        {
+          "x": 198.0020257417497,
+          "y": 195.82581329749985
+        }
+      ],
+      "sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02",
+      "metodo": "PyMuPDF extract_image, byte originali incorporati senza ricampionamento",
+      "codepoint": "non applicabili al raster"
+    },
+    {
+      "pagina_fisica": 65,
+      "file": "ntc-p65-localizzazione-600dpi.png",
+      "clip_pdf_pt": [
+        183.0970001220703,
+        270.1940002441406,
+        412.9129943847656,
+        425.9100036621094
+      ],
+      "dpi": 600,
+      "metodo": "rasterizzazione diretta della pagina fisica; localizzazione soltanto"
+    }
+  ]
+}

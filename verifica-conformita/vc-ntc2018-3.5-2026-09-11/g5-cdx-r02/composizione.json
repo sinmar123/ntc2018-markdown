@@ -1,0 +1,39 @@
+{
+  "firma": "Codex / CDX, script meccanico",
+  "sorgenti": [
+    "cap03/3.5-introduzione.md",
+    "cap03/3.5.1-temperatura-generalita.md",
+    "cap03/3.5.2-temperatura-temperatura-dell-aria-esterna.md",
+    "cap03/3.5.3-temperatura-temperatura-dell-aria-interna.md",
+    "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+    "cap03/3.5.5-temperatura-azioni-termiche-sugli-edifici.md",
+    "cap03/3.5.6-temperatura-particolari-precauzioni-nel-progetto-di-strutture-soggette-ad-azioni.md",
+    "cap03/3.5.7-temperatura-effetti-delle-azioni-termiche.md"
+  ],
+  "righe": 136,
+  "righe_non_vuote": 79,
+  "sha256_composito": "cfe9119fad6da4d7e1f778b8b69ee04f8d67ae5c62626d7e876c1fcf7c1a31b1",
+  "metodo": "depura comune; Norma in ordine degli otto file, poi Circolare; esclusa riga editoriale Circolare 21/01/2019; rimozione meccanica rinvii annotazioni",
+  "mappa_pagine_righe": {
+    "ntc:63": [
+      1,
+      8
+    ],
+    "ntc:64": [
+      9,
+      61
+    ],
+    "ntc:65": [
+      62,
+      112
+    ],
+    "ntc:66": [
+      113,
+      129
+    ],
+    "circ:81": [
+      130,
+      136
+    ]
+  }
+}

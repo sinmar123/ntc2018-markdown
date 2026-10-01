@@ -1,0 +1,30 @@
+{
+  "tipo": "rettifica_append_only_evidenze_g7_r02",
+  "firma": "Hermes NTC-VC / HRM",
+  "giudizio_g7_r02_sha256": "44dca2a727a36a4bf522a7224e3515667bdb57039bab5a477a423367ee62e916",
+  "rettifiche": [
+    {
+      "rilievo": "G7-R02-ERR-AUDIT-001",
+      "campo": "rettifica-evidenze-g7-r01.json.manifest_g7_r01_sha256",
+      "valore_errato": "04bd73b18947bd364331d32afa58f1008179acd181c906975106b6b643132f74",
+      "valore_corretto": "04db73b18947bd364331d32afa58f1008179acd181c906975106b6b643132f74",
+      "prova": "impronta ricalcolata del file manifest-rilascio.json e record corrispondente del manifest R02"
+    },
+    {
+      "rilievo": "G7-R02-ERR-AUDIT-002",
+      "campo": "PROCEDURA-VC-r03-congelata.md, § 2",
+      "valore_errato": "procedura: VC-NTC/2",
+      "valore_corretto": "procedura: VC-NTC/3",
+      "prova": "frontmatter revisione 3 e SHA-256 4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c; il richiamo /2 è un residuo descrittivo e non modifica i criteri"
+    }
+  ],
+  "invarianti": {
+    "target_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+    "fonti_modificate": false,
+    "asset_modificati": false,
+    "g6_modificato": false,
+    "giro_g6": 2
+  },
+  "azione": "nuovo manifest e riapertura del solo G7",
+  "stato": "DA_VERIFICARE_IN_G7_R03"
+}

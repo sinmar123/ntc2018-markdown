@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "fonte-circ-vettoriale.pdf",
+      "bytes": 520241,
+      "sha256": "09046dff4a95a031b2ff7c86f112ee7381270456b6e48f11529ba71b8ca05539"
+    },
+    {
+      "path": "fonte-ntc-vettoriale.pdf",
+      "bytes": 540173,
+      "sha256": "dfd77bcf6e0c39d40d1c3a83c8b96f24f3f6d94f30596af60e3a1013ba7223b5"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 1332,
+      "sha256": "ae6c0c6b20f2315d7f0c53acd014afbe66ad1daaef94db369d56270275fe1f94"
+    }
+  ]
+}

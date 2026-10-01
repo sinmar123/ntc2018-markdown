@@ -1,0 +1,52 @@
+{
+  "firma": "Codex (CDX), verificatore V b01 e responsabile G7",
+  "giudizio_g7": "OK",
+  "scope": "3-introduzioni-3.2-3.4",
+  "snapshot_sha256": "d42ee91c2f86d631a69827f5f2dd7fe5ef0523815d923742ae079e58bb242c66",
+  "manifest_sha256": "f7c0c9932f80681bebe067e9d6333723bad9b43e21dc937d76c7383c73d330db",
+  "manifest_file": 151,
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "gate_dettagli": {
+    "G0": {"esito":"OK"},
+    "G1": {"esito":"OK"},
+    "G2": {"esito":"OK"},
+    "G3": {"esito":"OK"},
+    "G4": {"esito":"OK"},
+    "G5": {"esito":"OK","evidenza":"snapshot finale identificato e manifest di rilascio con integrità già verificata"},
+    "G6": {"esito":"OK","evidenza":"copertura originaria 32/32 in un solo giro integrale: b02 OK; b01 KO originario conservato, quattro falsi positivi esclusi e unico errore di pedice corretto e verificato localmente; zero residui"},
+    "G7": {"esito":"OK","evidenza":"piano, proposta di verbale, sintesi consolidata G6 e rapporto b02 riconciliati senza contraddizioni materiali"}
+  },
+  "rilievi_aperti": [],
+  "motivazione_sintetica": "La catena G0-G5 risulta chiusa e il manifest di 151 file è integro. Il G6 originario ha coperto tutti i 32 ID; l'unica difformità reale, il pedice o nella didascalia C3.2.1 b, è stata corretta e verificata sulla nuova resa, mentre gli altri quattro rilievi sono falsi positivi risolti con font, codepoint, origini e ritagli ufficiali. b02 e gli asset sono invariati. La proposta di verbale è compatibile con le evidenze e lo scope può essere dichiarato VC-OK.",
+  "copertura": {
+    "id_originari": 32,
+    "giri_g6_integrali": 1,
+    "controlli_locali_successivi": 1,
+    "residui": 0
+  },
+  "verbale_proposto": "riconciliato come proposta; il giudizio G7 è espresso autonomamente nel presente file",
+  "limiti_effettivi": [
+    "G7 è una riconciliazione compatta delle evidenze già prodotte, non una nuova lettura integrale delle fonti e del target.",
+    "I controlli sono stati eseguiti da agenti AI; non vi è stata revisione umana integrale. Sandro ha approvato le correzioni.",
+    "L'isolamento dei V era istruttivo e non una sandbox tecnica.",
+    "La ricognizione normativa è quella congelata il 2026-09-09, con ricontrollo mirato GU del 2026-09-12; la data del verbale non ne estende l'ambito.",
+    "La resa di viewer diversi dal template resta soggetta alle normalizzazioni del catalogo."
+  ],
+  "letture_g7": [
+    "_tmp_render/cap03/vc-introduzioni-3.2-3.4-20260912-cdx/piano-compatto-g7.json",
+    "_tmp_render/cap03/vc-introduzioni-3.2-3.4-20260912-cdx/verbale-proposto.md",
+    "verifica-conformita/vc-ntc2018-introduzioni-3.2-3.4-2026-09-12/sintesi-consolidata-g6.json",
+    "verifica-conformita/vc-ntc2018-introduzioni-3.2-3.4-2026-09-12/g6-r01/b02/rapporto-g6.json",
+    "verifica-conformita/vc-ntc2018-introduzioni-3.2-3.4-2026-09-12/controllo-modifiche-r02/attestazione-v-modifiche.json, già prodotta e mantenuta nello stesso contesto"
+  ],
+  "isolamento_g7": "Nessun nuovo agente o render; nessuna modifica agli input congelati o al registro. Letti soltanto i documenti indicati per la riconciliazione G7; non necessari rapporto-c.md e annotazione permanente."
+}

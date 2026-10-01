@@ -1,0 +1,116 @@
+{
+  "firma": "Codex / CDX, fornitura meccanica fonte",
+  "pdf": "GU-2018-42-SO8-DM-17-01-2018.pdf",
+  "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+  "pagina_fisica": 64,
+  "domanda_V": "Quali elementi grafici distinti stampa la figura fino al suo estremo inferiore?",
+  "raster_nativi": [
+    {
+      "file": "raster-nativo-xref1091.jpeg",
+      "xref": 1091,
+      "pixel": [
+        697,
+        176
+      ],
+      "bbox_pdf_punti": [
+        226.9770050048828,
+        257.1639709472656,
+        369.843017578125,
+        293.22998046875
+      ],
+      "dpi_effettivi_in_pagina": [
+        351.2661905802998,
+        351.3557548542026
+      ],
+      "sha256": "18b304003dad59421f56c501c38974c8d0f4981d44b710441f492562429a75cd"
+    },
+    {
+      "file": "raster-nativo-xref1092.jpeg",
+      "xref": 1092,
+      "pixel": [
+        697,
+        176
+      ],
+      "bbox_pdf_punti": [
+        226.9770050048828,
+        293.1939697265625,
+        369.843017578125,
+        329.22998046875
+      ],
+      "dpi_effettivi_in_pagina": [
+        351.2661905802998,
+        351.64824682341543
+      ],
+      "sha256": "6e3a65a5a62e3ceda3bdb5f7c663709bf46c50520f1a87ee195d1197647f8c32"
+    },
+    {
+      "file": "raster-nativo-xref1093.jpeg",
+      "xref": 1093,
+      "pixel": [
+        697,
+        176
+      ],
+      "bbox_pdf_punti": [
+        226.9770050048828,
+        329.1940002441406,
+        369.843017578125,
+        365.2300109863281
+      ],
+      "dpi_effettivi_in_pagina": [
+        351.2661905802998,
+        351.64824682341543
+      ],
+      "sha256": "9c4120c297e596cbce06830f656390ddfd05b8364b296854a6fcadba445dd067"
+    },
+    {
+      "file": "raster-nativo-xref1094.jpeg",
+      "xref": 1094,
+      "pixel": [
+        697,
+        176
+      ],
+      "bbox_pdf_punti": [
+        226.9770050048828,
+        365.1940002441406,
+        369.843017578125,
+        401.260009765625
+      ],
+      "dpi_effettivi_in_pagina": [
+        351.2661905802998,
+        351.3557548542026
+      ],
+      "sha256": "ec573123ee06007762430bc83ef1cf225d6cb4c699e028fbfbe257fd9cf28773"
+    },
+    {
+      "file": "raster-nativo-xref1095.jpeg",
+      "xref": 1095,
+      "pixel": [
+        697,
+        176
+      ],
+      "bbox_pdf_punti": [
+        226.9770050048828,
+        401.2239990234375,
+        369.843017578125,
+        437.1099853515625
+      ],
+      "dpi_effettivi_in_pagina": [
+        351.2661905802998,
+        353.1183421888713
+      ],
+      "sha256": "2b69169167fafefffbb5cf2d54f1de1aa287c1a39ed47cb63305a9023832f101"
+    }
+  ],
+  "metodo": "PyMuPDF Document.extract_image senza ricampionamento; bbox dalla pagina originale. Il PNG a 600 dpi localizza la porzione inferiore, senza aggiungere risoluzione ai raster nativi.",
+  "localizzazione": {
+    "file": "ntc-p64-localizzazione-inferiore-600dpi.png",
+    "dpi": 600,
+    "bbox_pdf_punti": [
+      216.0,
+      392.0,
+      381.0,
+      451.0
+    ]
+  },
+  "codepoint": "non applicabili al contenuto dei raster; nessuna lettura proposta"
+}

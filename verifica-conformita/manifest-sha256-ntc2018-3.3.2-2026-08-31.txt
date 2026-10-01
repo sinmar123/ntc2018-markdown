@@ -1,0 +1,28 @@
+# Manifest SHA-256 - ntc2018-3.3.2 - 2026-08-31
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+b9c678cce3396e90f10fec3f435b27b8d34dc7379253851dbe1e8f5fbfe1d80e  3652  cap03/3.3.2-vento-velocita-di-riferimento.md
+f1b7efd2d676230afd24dede8dd915cb03cd765e45b7c07761d22d5f72faf503  93464  cap03/img/fig-C3.3.1-coefficiente-alfa-r-schema.png
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+cc049aad0e212ed4e7e90437772dcf4c9e680b0cf804fa28ed07c35f9000b882  2086  _tmp_render/ricomposizione-livello3-20260826/08-riepilogo-finale.md
+9ec2014bafba983091ced1e63fe0a7738e042ef47ea7df97253884e205116df5  3181  _tmp_render/cap03/vc-3.3.2-20260831/continuita/corrente.md
+959421158ab149c7c025e4a08a3cd2a529b1c079af2fe173701dcb5b338f6487  3209  _tmp_render/cap03/vc-3.3.2-20260831/continuita/staging.md
+958d5a9e1498f5fdfcd30604d4cc98d5220719185583eb2583904e69fa546346  2513  _tmp_render/cap03/vc-3.3.2-20260831/continuita/rapporto-riuso-e-controlli.md
+e4a0eb1f3e706be5e712dfe8a5d5867ac5c4f76d8dabb9eaa51a139d7ae42bce  11457  _tmp_render/cap03/vc-3.3-260806/g6-r01/inventario-source-only/inventario-fonte.md
+98ee35f5ceac00d6810c4e528fc00e7b72650105cf29aee907ce17e85b34ab04  5129  _tmp_render/cap03/vc-3.3-260806/g6-r01/04-rilievi-congelati.md
+4210785be03396b83f00d1baf618dc9e2886ff9396fab751af4b086a8e07fb4d  5458  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B01/esito-verificatore.md
+a3d709534ffa5ff6f6931206aaef759fff6c6afea6662641e0472cd3395cc6a7  6816  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B02/esito-verificatore.md
+e8fc7798b3b5c6d377af5c99e0a171999e1dbb351bb07fda330c556fef0a9364  7910  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B03/esito-verificatore.md
+93c3464891352e0ce3674f3057ad4f1cf74a9fdc1f0f8d71be4af9d96fe88af4  4384  _tmp_render/cap03/vc-3.3.2-20260831/g6-r01/rapporto-g6.md
+6b0d40a468644b22c3bbb9a1d63f99d1f2cb4320bc3f6fa7dd4a72e90b6c7d97  4435  _tmp_render/cap03/vc-3.3.2-20260831/g6-r02/rapporto-g6.md
+54fa6fdbab54a07d50f55e55b99a1480b0752ceefe0f4e67ea354043e718835a  3033  _tmp_render/cap03/vc-3.3.2-20260831/g6-r02/pacchetto/scope.md
+c872116562095dcada38734a3ccff562198ffa8d07940198585e6288385136e5  842505  _tmp_render/cap03/vc-3.3.2-20260831/g6-r02/pacchetto/fonte/ntc-p57.png
+d95c0fa68f2bc6aa4648ecd53c4bd7357dcaf73784d18d079e446904fed886cb  948988  _tmp_render/cap03/vc-3.3.2-20260831/g6-r02/pacchetto/fonte/circ-p54.png
+021aff4f0c725a6fe45a62f2deefc0f1b3139df389085d5d10a4b74445679a1c  884662  _tmp_render/cap03/vc-3.3.2-20260831/g6-r02/pacchetto/fonte/circ-p55.png
+f1b7efd2d676230afd24dede8dd915cb03cd765e45b7c07761d22d5f72faf503  93464  _tmp_render/cap03/vc-3.3.2-20260831/g6-r02/pacchetto/asset-markdown/fig-C3.3.1-coefficiente-alfa-r-schema.png
+439c704388bf623b96053ed130c1e3889c327296bfea4905c9f7a5a9d62b5483  105069  _tmp_render/cap03/vc-3.3.2-20260831/render-finale.pdf
+f6437073fa13930f892f7699a52cc19b28a8953dd00e81a62aeaf4803c3870ac  219261  _tmp_render/cap03/vc-3.3.2-20260831/render-finale-page-1.png
+8dc0d8181e42eee38e7813e85bac7210e13218133b61dffe4d374d3ee0569a8f  192883  _tmp_render/cap03/vc-3.3.2-20260831/render-finale-page-2.png
+effca03fb18216e9fc0a2d33e45efa5aa7b94d2666eb5a4a083c92a182b16487  1589  strumenti/prepara-scope-g6.py
+d1c99dc28f63f85cbf5e7d5ed0f9c973e391a3c48899f2cdcc4a29989c7a9056  5642  strumenti/render-capitolo.py

@@ -1,0 +1,28 @@
+# Repository pubblico della conversione NTC 2018 (preparato il 2026-10-01, CC).
+# Restano nel workspace e non vanno su GitHub:
+
+# lavorazioni storiche, materiale grezzo e prompt consumati
+raw/
+_tmp_render/
+old/
+PROMPT-CONSUMATO-*.md
+PROMPT-IN-CORSO-*.md
+.agents/
+
+# evidenze pesanti delle VC: pagine e ritagli si rigenerano dai PDF ufficiali
+verifica-conformita/**/*.png
+verifica-conformita/**/*.jpg
+verifica-conformita/**/*.jpeg
+verifica-conformita/**/*.pdf
+# i due PDF della Gazzetta invece servono alle verifiche, anche nel cloud
+!verifica-conformita/fonte-ufficiale/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# sito generato (GitHub Pages lo costruisce da sé)
+_sito/
+site/

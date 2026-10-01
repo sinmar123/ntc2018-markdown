@@ -1,0 +1,44 @@
+{
+  "firma": "Codex (CDX), verificatore V indipendente b01",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {"id":"B01-NTC49-R01","pagina":"ntc:49","riferimento":"p. fisica 49 (stampata 45), rubrica 3.2. AZIONE SISMICA; numero, punto finale e titolo inclusi","tipo":"rubrica"},
+    {"id":"B01-NTC49-P01","pagina":"ntc:49","riferimento":"primo capoverso sotto 3.2, da «Le azioni sismiche» a «risposta sismica locale»; controllo integrale","tipo":"prosa"},
+    {"id":"B01-NTC49-P02","pagina":"ntc:49","riferimento":"secondo capoverso, da «La pericolosità sismica» a «area della costruzione»; prosa, rinvii e simboli inline a_g, S_e(T), P_VR, V_R integralmente controllati","tipo":"prosa_condizioni"},
+    {"id":"B01-NTC49-P03","pagina":"ntc:49","riferimento":"terzo capoverso, da «Ai fini della presente normativa» ai due punti dopo «rigido orizzontale»; simboli P_VR e V_R inclusi","tipo":"prosa_condizioni"},
+    {"id":"B01-NTC49-D01","pagina":"ntc:49","riferimento":"blocco rientrato di tre definizioni subito dopo P03: righe a_g, F_o e T_C*; simboli, apice, pedici, testo e punteggiatura integralmente controllati","tipo":"definizioni"},
+    {"id":"B01-NTC49-P04","pagina":"ntc:49","riferimento":"ultimo capoverso prima della rubrica 3.2.1, da «Per i valori» a «successivi aggiornamenti»; simboli e riferimenti integralmente controllati","tipo":"prosa_rinvii"},
+
+    {"id":"B01-C46-R01","pagina":"circ:46","riferimento":"p. fisica 46 (stampata 42), rubrica C3.2 AZIONE SISMICA; numero e titolo inclusi","tipo":"rubrica"},
+    {"id":"B01-C46-P01","pagina":"circ:46","riferimento":"primo capoverso sotto C3.2, da «Il § 3.2» a «stato delle conoscenze»; controllo integrale","tipo":"prosa_rinvii"},
+    {"id":"B01-C46-P02","pagina":"circ:46","riferimento":"secondo capoverso, da «Il dato di partenza» a «(INGV)»; controllo integrale","tipo":"prosa"},
+    {"id":"B01-C46-P03","pagina":"circ:46","riferimento":"terzo capoverso, da «L’azione sismica» a «costruzione per costruzione»; controllo integrale","tipo":"prosa_condizioni"},
+    {"id":"B01-C46-P04","pagina":"circ:46","riferimento":"quarto capoverso, da «Tale approccio» a «parità di sicurezza»; controllo integrale","tipo":"prosa"},
+    {"id":"B01-C46-P05","pagina":"circ:46","riferimento":"quinto capoverso, da «La pericolosità sismica di un sito» fino ai simboli P_VR; virgolette, corsivi, V_R e P_VR integralmente controllati","tipo":"prosa_definizioni"},
+    {"id":"B01-C46-P06","pagina":"circ:46","riferimento":"sesto e ultimo capoverso, da «Ai fini della determinazione» a «categoria T1»; controllo integrale","tipo":"prosa_condizioni"},
+
+    {"id":"B01-C47-P07","pagina":"circ:47","riferimento":"p. fisica 47 (stampata 43), primo capoverso, da «Le caratteristiche del moto sismico» a «spettro di risposta elastico in accelerazione»; P_VR incluso","tipo":"prosa"},
+    {"id":"B01-C47-P08","pagina":"circ:47","riferimento":"secondo capoverso, da «È ammessa la possibilità» ai due punti dopo «seguenti grandezze»; P_VR incluso","tipo":"prosa_condizioni"},
+    {"id":"B01-C47-D01","pagina":"circ:47","riferimento":"blocco rientrato di tre definizioni con segno =: righe a_g, F_o e T_C*; simboli, apice, pedici, testo e punteggiatura integralmente controllati","tipo":"definizioni"},
+    {"id":"B01-C47-P09","pagina":"circ:47","riferimento":"capoverso da «Il valore di a_g» a «pericolosità di riferimento»; tutti i simboli inline integralmente controllati","tipo":"prosa_simboli"},
+    {"id":"B01-C47-P10","pagina":"circ:47","riferimento":"capoverso da «I valori di a_g» a «§ 3.2.5»; date, rinvii, percentuale, simboli a_g/F_o/T_C*/T_R e citazioni delle Figure C3.2.1 a, b, c integralmente controllati","tipo":"prosa_rinvii_condizioni"},
+    {"id":"B01-C47-F01","pagina":"circ:47","riferimento":"Figura C3.2.1 a, intero grafico: assi a_g (g) e T_R (anni), tacche e valori, griglia, nove marker etichettati, curva media continua e due limiti tratteggiati","tipo":"figura"},
+    {"id":"B01-C47-CAP01","pagina":"circ:47","riferimento":"didascalia completa immediatamente sotto Figura C3.2.1 a; numero, simboli a_g/T_R, testo e 95% inclusi","tipo":"didascalia"},
+    {"id":"B01-C47-F02","pagina":"circ:47","riferimento":"Figura C3.2.1 b, intero grafico: assi F_o (-) e T_R (anni), tacche e valori, griglia, nove marker etichettati, curva media continua e due limiti tratteggiati","tipo":"figura"},
+    {"id":"B01-C47-CAP02","pagina":"circ:47","riferimento":"didascalia completa immediatamente sotto Figura C3.2.1 b; numero, simboli F_o/T_R, testo e 95% inclusi","tipo":"didascalia"},
+    {"id":"B01-C47-F03","pagina":"circ:47","riferimento":"Figura C3.2.1 c, intero grafico: assi T_C* (s) e T_R (anni), tacche e valori, griglia, nove marker etichettati, curva media continua e due limiti tratteggiati","tipo":"figura"},
+    {"id":"B01-C47-CAP03","pagina":"circ:47","riferimento":"didascalia completa immediatamente sotto Figura C3.2.1 c; numero, simboli T_C*/T_R, testo e 95% inclusi","tipo":"didascalia"}
+  ],
+  "esclusioni": [
+    {"pagina":"ntc:49","riferimento":"intestazione editoriale, materiale da 3.1.4.3 fino a prima della rubrica 3.2, rubrica 3.2.1 e tutto ciò che segue, numero pagina e marcatori tipografici di piede"},
+    {"pagina":"circ:46","riferimento":"intestazione editoriale e tutto il materiale precedente la rubrica C3.2; numero pagina e marcatori tipografici di piede"},
+    {"pagina":"circ:47","riferimento":"numero pagina e marcatori tipografici di piede; il successivo C3.2.1, che inizia a p. fisica 48, è fuori perimetro e non è stato letto"}
+  ],
+  "dubbi": [],
+  "copertura": "Controllo fonte-prima integrale del perimetro: 2 rubriche, 15 capoversi, 2 blocchi di definizioni (3 righe ciascuno), 3 figure complete e 3 didascalie. Nessuna tabella, nota, formula numerata o formula esposta ulteriore nel perimetro.",
+  "letture": {
+    "b01": ["ISTRUZIONI-V.md","PERIMETRO.md","canone.md","input-fonte.json","fonte-circ-46.png","fonte-circ-47.png","fonte-ntc-49.png"],
+    "fonti_aggiuntive": ["manifest.json","provenienza.json","fonte-circ-46-area-01-600dpi.png","fonte-circ-47-area-02-600dpi.png","fonte-circ-47-area-03-600dpi.png","fonte-circ-47-area-04-600dpi.png","fonte-circ-47-area-05-600dpi.png","fonte-circ-47-area-06-600dpi.png","fonte-circ-47-area-07-600dpi.png","fonte-circ-47-area-08-600dpi.png","fonte-circ-47-area-09-600dpi.png","fonte-ntc-49-area-10-600dpi.png","fonte-ntc-49-area-11-600dpi.png","fonte-ntc-49-area-12-600dpi.png"]
+  },
+  "isolamento": "Isolamento istruttivo rispettato: letti soltanto i due percorsi autorizzati; non aperti workspace, altri blocchi, coordinamento.json, cronologia, rapporti altrui o target. Nessun nuovo render, processo lungo o sottoagente."
+}

@@ -1,0 +1,21 @@
+{
+  "firma": "Hermes NTC-VC / HRM",
+  "ruolo_verificato": "E",
+  "mandato_r01": "/opt/data/mandato-e-3.5.md",
+  "sessione_r01": "20260910_185522_efe78c",
+  "esito_diff_r01": "CONFORME ALLA LISTA CONGELATA",
+  "interventi_elementari_r01": 15,
+  "effetto_aggiuntivo": "solo allineamento meccanico dell'indice interno C3.5.2; confronto backup pre-indici: 1 file modificato su 311",
+  "asset_r01": {
+    "fig-3.5.1-zone-temperatura-mappa.png": "ba010c97226194cd779a206e0dbf2e9343b0f188c7fa4f2b81343693c2a1f118",
+    "fig-3.5.2-componenti-temperatura.png": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02"
+  },
+  "rilievo_c_preflight": "Il nome del secondo asset nel mandato R01 non coincideva con il collegamento vivo del target.",
+  "mandato_r02": "/opt/data/mandato-e-3.5-r02.md",
+  "sessione_r02": "20260910_193518_2d97d6",
+  "esito_r02": "Creato l'asset col nome effettivamente richiamato, copia byte-identica.",
+  "asset_finale_fig_3_5_2_sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02",
+  "controllo_visivo_asset": "OK",
+  "gate_chiusi_da_e": [],
+  "data": "2026-09-10"
+}

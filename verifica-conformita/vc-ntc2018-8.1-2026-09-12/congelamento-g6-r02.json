@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-11T18:02:00.920684+00:00",
+  "firma": "GROK-V2 / grok-4.6 xhigh",
+  "inventario_sha256": "fc6fda7517423b2bc3e787b9c6eb408812d7bf08a68885dfd0a9a3618f9d4d59",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "664f67444b21d7e4733be3fe99701e387fb6348663f9a1be4f63f7e12625214c"
+}

@@ -1,0 +1,303 @@
+{
+  "firma": "CDX, verificatore V indipendente G6, modello effettivo gpt-5.6-sol xhigh",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "B02-NTC70-RUB-001",
+      "pagina": "ntc:70",
+      "riferimento": "Rubrica 3.6.3 «URTI», prima riga del corpo normativo; controllo integrale di numero e titolo."
+    },
+    {
+      "id": "B02-NTC70-RUB-002",
+      "pagina": "ntc:70",
+      "riferimento": "Rubrica 3.6.3.1 «GENERALITÀ», immediatamente sotto 3.6.3; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-PRO-001",
+      "pagina": "ntc:70",
+      "riferimento": "Intero contenuto di 3.6.3.1: dal capoverso iniziale «Nel seguito vengono definite» al capoverso finale sulle azioni eccezionali naturali; compreso l'elenco intermedio di tre voci, controllato integralmente."
+    },
+    {
+      "id": "B02-NTC70-RUB-003",
+      "pagina": "ntc:70",
+      "riferimento": "Rubrica 3.6.3.2 «CLASSIFICAZIONE DELLE AZIONI DOVUTE AGLI URTI»; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-PRO-002",
+      "pagina": "ntc:70",
+      "riferimento": "Primo capoverso di 3.6.3.2, dalla classificazione delle azioni al rinvio alla Tab. 3.6.II; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-TAB-001",
+      "pagina": "ntc:70",
+      "riferimento": "Tab. 3.6.II «Categorie di azione»: didascalia e intera griglia logica 2 colonne x 4 righe, testata compresa; controllati integralmente ordine, intestazioni e tutte le sei celle del corpo. Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/ntc-70-tab-3.6.II.png."
+    },
+    {
+      "id": "B02-NTC70-PRO-003",
+      "pagina": "ntc:70",
+      "riferimento": "Capoverso successivo alla Tab. 3.6.II, dalle azioni dovute agli urti alle conseguenze delle categorie 2 e 3; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-RUB-004",
+      "pagina": "ntc:70",
+      "riferimento": "Rubrica 3.6.3.3 «URTI DA TRAFFICO VEICOLARE»; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-RUB-005",
+      "pagina": "ntc:70",
+      "riferimento": "Rubrica 3.6.3.3.1 «Traffico veicolare sotto ponti o altre strutture»; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-PRO-004",
+      "pagina": "ntc:70",
+      "riferimento": "Primo capoverso di 3.6.3.3.1, dalla direzione delle azioni da urto alla parola introduttiva «con»; comprese le notazioni inline F con pedici d,x e d,y e la condizione di non simultaneità."
+    },
+    {
+      "id": "B02-NTC70-FOR-001",
+      "pagina": "ntc:70",
+      "riferimento": "Formula esposta [3.6.7], F con pedice d,y = 0,50 F con pedice d,x; struttura, virgola decimale, pedici e tag controllati integralmente. Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/ntc-70-formula-3.6.7.png. Il segno = e le parentesi quadre hanno mappa vettoriale discordante, documentata in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-NTC70-PRO-005",
+      "pagina": "ntc:70",
+      "riferimento": "Capoverso immediatamente successivo a [3.6.7], dall'assenza di determinazioni più accurate al rinvio alla Tab. 3.6.III; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-TAB-002",
+      "pagina": "ntc:70",
+      "riferimento": "Tab. 3.6.III «Forze statiche equivalenti agli urti di veicoli»: didascalia e intera griglia logica 3 colonne x 6 righe, testata compresa; controllati integralmente intestazioni, unità, trattini, cinque righe di dati, valori e accorpamento su due righe della voce «Aree di parcheggio e autorimesse». Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/ntc-70-tab-3.6.III.png."
+    },
+    {
+      "id": "B02-NTC70-PRO-006",
+      "pagina": "ntc:70",
+      "riferimento": "I due capoversi successivi alla Tab. 3.6.III, relativi rispettivamente agli urti di automobili e agli urti sulle membrature verticali; controllati integralmente, comprese quote, aree di applicazione e confronti dimensionali."
+    },
+    {
+      "id": "B02-NTC70-PRO-007",
+      "pagina": "ntc:70",
+      "riferimento": "Capoverso sugli elementi strutturali orizzontali sopra la strada, dalla relativa apertura fino a «è data da:»; controllo integrale."
+    },
+    {
+      "id": "B02-NTC70-FOR-002",
+      "pagina": "ntc:70",
+      "riferimento": "Formula esposta [3.6.8], F = r F con pedice d,x; struttura, pedice e tag controllati integralmente. Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/ntc-70-formula-3.6.8.png; parentesi del tag documentate in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-NTC70-COND-001",
+      "pagina": "ntc:70",
+      "riferimento": "Intero capoverso «dove il fattore r»: tre intervalli di altezza del sottovia, andamento lineare e frase sull'applicazione della forza alle superfici verticali; condizioni e valori controllati integralmente."
+    },
+    {
+      "id": "B02-NTC70-PRO-008",
+      "pagina": "ntc:70",
+      "riferimento": "I due capoversi successivi sulle azioni all'intradosso e sull'area di applicazione 0,25 per 0,25 m; controllo integrale, compresi inclinazione e unità."
+    },
+    {
+      "id": "B02-NTC70-PRO-009",
+      "pagina": "ntc:70",
+      "riferimento": "Capoverso sulle costruzioni con presenza regolare di carrelli elevatori, fino a «pari a»; controllo integrale, compresa la quota di applicazione."
+    },
+    {
+      "id": "B02-NTC70-FOR-003",
+      "pagina": "ntc:70",
+      "riferimento": "Formula esposta [3.6.9], F = 5 W; struttura, coefficiente e tag controllati integralmente. Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/ntc-70-formula-3.6.9.png; parentesi del tag documentate in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-NTC70-DEF-001",
+      "pagina": "ntc:70",
+      "riferimento": "Capoverso finale della pagina e di 3.6.3.3.1, definizione di W dal peso complessivo del carrello al massimo carico trasportabile; controllo integrale."
+    },
+    {
+      "id": "B02-NTC71-RUB-001",
+      "pagina": "ntc:71",
+      "riferimento": "Rubrica 3.6.3.3.2 «Traffico veicolare sopra i ponti», in testa al corpo; controllo integrale."
+    },
+    {
+      "id": "B02-NTC71-PRO-001",
+      "pagina": "ntc:71",
+      "riferimento": "Intero contenuto di 3.6.3.3.2: tre capoversi, dalla forza orizzontale equivalente di collisione ai rinvii §§ 5.1.3.10 e 3.6.3.3.1; controllo integrale di valori, quote e condizioni."
+    },
+    {
+      "id": "B02-NTC71-RUB-002",
+      "pagina": "ntc:71",
+      "riferimento": "Rubrica 3.6.3.4 «URTI DA TRAFFICO FERROVIARIO»; controllo integrale."
+    },
+    {
+      "id": "B02-NTC71-PRO-002",
+      "pagina": "ntc:71",
+      "riferimento": "Primi tre capoversi di 3.6.3.4, dal rischio di collisione per deragliamento fino all'introduzione delle azioni statiche equivalenti in funzione della distanza d; controllo integrale."
+    },
+    {
+      "id": "B02-NTC71-COND-001",
+      "pagina": "ntc:71",
+      "riferimento": "Intero elenco gerarchico delle azioni statiche equivalenti: tre condizioni di distanza d e quattro sotto-voci con forze e direzioni; controllo integrale di punti elenco, disuguaglianze, valori e unità. Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/ntc-71-condizioni-distanza.png. I glifi stampati dei punti elenco e di ≤ hanno mappa vettoriale discordante, documentata in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-NTC71-PRO-003",
+      "pagina": "ntc:71",
+      "riferimento": "Capoverso finale di 3.6.3.4, dall'applicazione delle forze a 1,80 m dal piano del ferro alla non simultaneità; controllo integrale."
+    },
+    {
+      "id": "B02-NTC71-RUB-003",
+      "pagina": "ntc:71",
+      "riferimento": "Rubrica 3.6.3.5 «URTI DI IMBARCAZIONI ED AEROMOBILI»; controllo integrale."
+    },
+    {
+      "id": "B02-NTC71-PRO-004",
+      "pagina": "ntc:71",
+      "riferimento": "Unico capoverso di 3.6.3.5, dalla valutazione degli urti di imbarcazioni e aeromobili al rinvio al Cap. 12; controllo integrale e termine del perimetro NTC."
+    },
+    {
+      "id": "B02-C81-RUB-001",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.6 «AZIONI ECCEZIONALI», punto iniziale del perimetro Circolare; controllo integrale."
+    },
+    {
+      "id": "B02-C81-PRO-001",
+      "pagina": "circ:81",
+      "riferimento": "Intero testo introduttivo di C3.6: sei capoversi, dal «presente paragrafo» al capoverso finale sulle disposizioni per il rischio di esplosioni; controllati integralmente rinvii, norme e date."
+    },
+    {
+      "id": "B02-C81-RUB-002",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.6.1 «INCENDIO»; controllo integrale."
+    },
+    {
+      "id": "B02-C81-RUB-003",
+      "pagina": "circ:81",
+      "riferimento": "Rubrica C3.6.1.1 «DEFINIZIONI»; controllo integrale."
+    },
+    {
+      "id": "B02-C81-PRO-002",
+      "pagina": "circ:81",
+      "riferimento": "Contenuto di C3.6.1.1 presente in pagina: capoverso introduttivo e due definizioni in elenco, dalla capacità di compartimentazione al richiamo finale dei due decreti; tutte le righe e i marcatori controllati integralmente."
+    },
+    {
+      "id": "B02-C81-INL-001",
+      "pagina": "circ:81",
+      "riferimento": "Notazione inline q con pedice f,d nella seconda definizione di C3.6.1.1; gerarchia del pedice e punteggiatura controllate. Prova 600 dpi: C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/circ-81-inline-qfd.png; font, codepoint e posizione in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-C82-PRO-001",
+      "pagina": "circ:82",
+      "riferimento": "Capoverso in testa alla pagina che completa C3.6.1.1, sugli elementi strutturali lignei e sui riferimenti normativi; controllo integrale fino a «agosto 2015»."
+    },
+    {
+      "id": "B02-C82-RUB-001",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.2 «RICHIESTE DI PRESTAZIONE»; controllo integrale."
+    },
+    {
+      "id": "B02-C82-PRO-002",
+      "pagina": "circ:82",
+      "riferimento": "Apertura di C3.6.1.2 e intero elenco di due decreti, dal rinvio al § 3.6.1.2 NTC alla seconda voce conclusa con il decreto legislativo n. 139; controllo integrale."
+    },
+    {
+      "id": "B02-C82-PRO-003",
+      "pagina": "circ:82",
+      "riferimento": "Quattro capoversi successivi di C3.6.1.2, da «Sono fatte salve» a «livelli di prestazione»; controllo integrale di rinvii, livelli, esempi, inciso «flash over» e punteggiatura finale."
+    },
+    {
+      "id": "B02-C82-RUB-002",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.3 «CLASSI DI RESISTENZA AL FUOCO»; controllo integrale."
+    },
+    {
+      "id": "B02-C82-PRO-004",
+      "pagina": "circ:82",
+      "riferimento": "Unico capoverso di C3.6.1.3, dalle classi riferite all'incendio nominale alle classi per differenti incendi nominali; controllo integrale."
+    },
+    {
+      "id": "B02-C82-RUB-003",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.4 «CRITERI DI PROGETTAZIONE»; controllo integrale."
+    },
+    {
+      "id": "B02-C82-PRO-005",
+      "pagina": "circ:82",
+      "riferimento": "Unico capoverso di C3.6.1.4, dalla sicurezza del sistema strutturale alle analisi per singoli elementi; controllo integrale."
+    },
+    {
+      "id": "B02-C82-RUB-004",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.5 «PROCEDURA DI ANALISI DELLA RESISTENZA AL FUOCO»; controllo integrale."
+    },
+    {
+      "id": "B02-C82-RUB-005",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.5.1 «Incendio di progetto»; lettura stampata verificata nel ritaglio 600 dpi C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/circ-82-rubrica-C3.6.1.5.1.png. La mappa vettoriale del numero usa codepoint di controllo, documentati in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-C82-COND-001",
+      "pagina": "circ:82",
+      "riferimento": "Apertura di C3.6.1.5.1 e intero elenco delle due condizioni alternative, curva nominale e curva naturale d'incendio; controllati integralmente marcatori, intervalli, raffreddamento e chiuse."
+    },
+    {
+      "id": "B02-C82-PRO-006",
+      "pagina": "circ:82",
+      "riferimento": "Capoverso successivo di C3.6.1.5.1 sulle ulteriori curve nominali, da «Si evidenzia infine» all'esempio francese; controllo integrale di virgolette, parentesi, sigle e riferimenti."
+    },
+    {
+      "id": "B02-C82-RUB-006",
+      "pagina": "circ:82",
+      "riferimento": "Rubrica C3.6.1.5.3 «Analisi del comportamento meccanico», ultima riga del corpo della pagina; lettura stampata verificata nel ritaglio 600 dpi C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/circ-82-rubrica-C3.6.1.5.3.png. La sequenza visibile passa da C3.6.1.5.1 a C3.6.1.5.3; la mappa vettoriale del numero è documentata in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-C83-PRO-001",
+      "pagina": "circ:83",
+      "riferimento": "Intero testo di C3.6.1.5.3 in pagina, tre capoversi dal comportamento meccanico alla possibilità di trascurare le sollecitazioni indirette; controllo integrale di tutti i rinvii numerici e delle condizioni."
+    },
+    {
+      "id": "B02-C83-RUB-001",
+      "pagina": "circ:83",
+      "riferimento": "Rubrica C3.6.1.5.4 «Verifiche di sicurezza»; lettura stampata verificata nel ritaglio 600 dpi C:/Users/sandro/AppData/Local/Temp/vc36-prove-v-r02-20260911/b02/circ-83-rubrica-C3.6.1.5.4.png. La mappa vettoriale del numero usa codepoint di controllo, documentati in glifi-vettoriali.json."
+    },
+    {
+      "id": "B02-C83-PRO-002",
+      "pagina": "circ:83",
+      "riferimento": "Intero testo di C3.6.1.5.4: tre capoversi, dai domini di verifica al minimo di 30 minuti dall'innesco; controllo integrale di rinvii, condizioni, valori e unità."
+    },
+    {
+      "id": "B02-C83-RUB-002",
+      "pagina": "circ:83",
+      "riferimento": "Rubrica C3.6.2 «ESPLOSIONI»; controllo integrale."
+    },
+    {
+      "id": "B02-C83-RUB-003",
+      "pagina": "circ:83",
+      "riferimento": "Rubrica C3.6.2.3 «MODELLAZIONE DELLE AZIONI DOVUTE ALLE ESPLOSIONI»; controllo integrale."
+    },
+    {
+      "id": "B02-C83-PRO-003",
+      "pagina": "circ:83",
+      "riferimento": "Intero contenuto di C3.6.2.3: due capoversi, dalle onde di pressione alle indicazioni del D.M. 3/8/2015; controllo integrale e termine del perimetro Circolare."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:70",
+      "riferimento": "Fascia editoriale superiore della Gazzetta e fascia inferiore con numero stampato 66, filetti e matrici grafiche: fuori scope."
+    },
+    {
+      "pagina": "ntc:71",
+      "riferimento": "Fascia editoriale superiore della Gazzetta e fascia inferiore con numero stampato 67, filetti e matrici grafiche: fuori scope."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Corpo precedente alla rubrica C3.6, comprendente C3.4.5, C3.5 e C3.5.2, escluso espressamente dal PERIMETRO."
+    },
+    {
+      "pagina": "circ:81",
+      "riferimento": "Fascia editoriale superiore della Gazzetta e fascia inferiore con numero stampato 77, filetti e matrici grafiche: fuori scope."
+    },
+    {
+      "pagina": "circ:82",
+      "riferimento": "Fascia editoriale superiore della Gazzetta e fascia inferiore con numero stampato 78, filetti e matrici grafiche: fuori scope."
+    },
+    {
+      "pagina": "circ:83",
+      "riferimento": "Fascia editoriale superiore della Gazzetta e fascia inferiore con numero stampato 79, filetti e matrici grafiche: fuori scope."
+    }
+  ],
+  "dubbi": []
+}

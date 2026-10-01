@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-11T17:37:58.099496+00:00",
+  "firma": "Codex, modello effettivo gpt-5.6-sol xhigh, verificatore V indipendente G6",
+  "inventario_sha256": "4c7d3af51cbe73cfe1ff4b1d1078d3be96417e7f311ade7d6e7e889f2ce37ea9",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "6b20600232cfa2b5783154b236c48232eda5662c19e3f9a6003c8771e683a156"
+}

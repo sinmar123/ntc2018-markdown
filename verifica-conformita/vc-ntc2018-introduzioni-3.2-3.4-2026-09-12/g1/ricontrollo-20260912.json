@@ -1,0 +1,31 @@
+{
+  "firma": "CDX",
+  "scope": "sola introduzione 3.1",
+  "ricognizione_riusata": "2026-09-09",
+  "ricontrollo": "2026-09-12",
+  "fonti": [
+    {
+      "file": "ntc-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+      "acquisizione": "2026-09-12T15:14:52.588912+02:00",
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff",
+      "bytes": 17286,
+      "voci_rettifica_segnaposto_ghost": {
+        "Avviso di rettifica": 0,
+        "Errata corrige": 0
+      }
+    },
+    {
+      "file": "circolare-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg",
+      "acquisizione": "2026-09-12T15:14:52.629042+02:00",
+      "sha256": "d24bdb2082927e996e12702965f920cb5d15f321db809232d54a3294d110eea6",
+      "bytes": 17417,
+      "voci_rettifica_segnaposto_ghost": {
+        "Avviso di rettifica": 0,
+        "Errata corrige": 0
+      }
+    }
+  ],
+  "nota": "Ricontrollo mirato delle schede ufficiali; esame di applicabilità a C. Il dato negativo non deriva dal solo hash."
+}

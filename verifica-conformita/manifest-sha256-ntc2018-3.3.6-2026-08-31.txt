@@ -1,0 +1,19 @@
+# Manifest SHA-256 - ntc2018-3.3.6 - 2026-08-31
+# formato: sha256  byte  percorso relativo alla radice del progetto
+dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46  9888288  verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf
+f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c  50658045  verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf
+b9be00155c36c76bcee189112bf5ac44a3dafc84b9fd79d04695762c4fa847b6  1144  cap03/3.3.6-vento-pressione-cinetica-di-riferimento.md
+d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6  5485  verifica-conformita/normalizzazioni-dichiarate-NTC2018.md
+cc049aad0e212ed4e7e90437772dcf4c9e680b0cf804fa28ed07c35f9000b882  2086  _tmp_render/ricomposizione-livello3-20260826/08-riepilogo-finale.md
+f6267519cac919231c7346bdbb3c59080c9d09ecc2d15637bf2191c312e1edad  560  _tmp_render/cap03/vc-3.3.6-20260831/continuita/corrente.md
+7d191898d7ca64cb36e6364bcdf272313d453599ee3e7786f6359a861e089bfd  682  _tmp_render/cap03/vc-3.3.6-20260831/continuita/staging.md
+2a114c1f459b8b3ccf2aecad25033835c760ba3265c08daf93a16b645607b1ba  596  _tmp_render/cap03/vc-3.3.6-20260831/continuita/rapporto-riuso-e-controlli.md
+98ee35f5ceac00d6810c4e528fc00e7b72650105cf29aee907ce17e85b34ab04  5129  _tmp_render/cap03/vc-3.3-260806/g6-r01/04-rilievi-congelati.md
+4210785be03396b83f00d1baf618dc9e2886ff9396fab751af4b086a8e07fb4d  5458  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B01/esito-verificatore.md
+e8fc7798b3b5c6d377af5c99e0a171999e1dbb351bb07fda330c556fef0a9364  7910  _tmp_render/cap03/vc-3.3-260806/g6-r01/pacchetti-ciechi/B03/esito-verificatore.md
+d50bc7ec4c56e2d95f8a7cfa438d1ad98100e66dda62700f6161fe8b16a0f8c0  1795  _tmp_render/cap03/vc-3.3.6-20260831/g6-r01/rapporto-g6.md
+bb5c18a649b70e2561e78ae6ecfca1872ae6aa56f0a41972e67b5a1cff5504a2  558  _tmp_render/cap03/vc-3.3.6-20260831/g6-r01/pacchetto/scope.md
+a96a396adc60b0f93993cec9dab48e531bab94086d5f3f99bdc8490f0ba229e3  812906  _tmp_render/cap03/vc-3.3.6-20260831/g6-r01/pacchetto/fonte/ntc-p58.png
+021aff4f0c725a6fe45a62f2deefc0f1b3139df389085d5d10a4b74445679a1c  884662  _tmp_render/cap03/vc-3.3.6-20260831/g6-r01/pacchetto/fonte/circ-p55.png
+fd5e4e3d10ac8cdd92c07507fb21994fb4fba25d98a04688d3fb360f672f7886  18942  _tmp_render/cap03/vc-3.3.6-20260831/render-finale.pdf
+3fee9c7cfb5d02e1e66a33e2a896c268cdc5d7684d6dd2113132fca2678a3f20  108616  _tmp_render/cap03/vc-3.3.6-20260831/render-finale-page-1.png

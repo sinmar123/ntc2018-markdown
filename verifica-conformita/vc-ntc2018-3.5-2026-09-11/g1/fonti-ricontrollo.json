@@ -1,0 +1,28 @@
+{
+  "firma": "Codex / CDX",
+  "ricognizione_riusata": "2026-09-09",
+  "ricontrollo": "2026-09-11",
+  "fonti": [
+    {
+      "file": "ntc-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+      "data_acquisizione": "2026-09-11",
+      "bytes": 17286,
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff"
+    },
+    {
+      "file": "circolare-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg",
+      "data_acquisizione": "2026-09-11",
+      "bytes": 17417,
+      "sha256": "d24bdb2082927e996e12702965f920cb5d15f321db809232d54a3294d110eea6"
+    },
+    {
+      "file": "dm2023-art1.html",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=23A01847&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2023-03-22&art.progressivo=0",
+      "data_acquisizione": "2026-09-11",
+      "bytes": 8724,
+      "sha256": "a1886dfd0e2a333180717913b214d8a5d8e1bfb1f65c10ffcd04182ec552c539"
+    }
+  ]
+}

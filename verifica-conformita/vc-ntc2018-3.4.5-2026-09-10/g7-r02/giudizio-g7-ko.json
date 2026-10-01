@@ -1,0 +1,73 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "giudizio_g7": "KO",
+  "scope": "3.4.5",
+  "snapshot_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+  "manifest_corrente": "/blocco/g7/manifest-rilascio-r02.json",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_g7_r01": [
+    {
+      "id": "G7-ERR-AUDIT-001",
+      "stato": "CHIUSO",
+      "verifica": "Il manifest R02 include metodo/PROCEDURA-VC-r03-congelata.md, identificata come revisione 3 e con impronta dichiarata 4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c; non contiene un record per la copia R2."
+    },
+    {
+      "id": "G7-ERR-AUDIT-002",
+      "stato": "CHIUSO",
+      "verifica": "La rettifica append-only indica C3.5 come confine successivo della Circolare, in accordo con PERIMETRO.md, rapporto G0-G1 e pagina fonte già osservata."
+    },
+    {
+      "id": "G7-ERR-AUDIT-003",
+      "stato": "CHIUSO",
+      "verifica": "La rettifica attribuisce apostrofi diritti o curvi alla normalizzazione 2 e spaziature, a capo e ricomposizione delle parole spezzate alla normalizzazione 1, in accordo con il catalogo congelato."
+    }
+  ],
+  "rilievi_aperti": [
+    {
+      "id": "G7-R02-ERR-AUDIT-001",
+      "classe": "ERR-AUDIT",
+      "posizione": "rettifica-evidenze-g7-r01.json, campo manifest_g7_r01_sha256; manifest-rilascio-r02.json, record manifest-rilascio.json",
+      "prova": "La rettifica dichiara per il manifest R01 l’impronta 04bd73b18947bd364331d32afa58f1008179acd181c906975106b6b643132f74; il manifest R02 dichiara invece 04db73b18947bd364331d32afa58f1008179acd181c906975106b6b643132f74. Le due sequenze differiscono nell’ordine di b e d e la catena non le riconcilia.",
+      "stato": "APERTO"
+    },
+    {
+      "id": "G7-R02-ERR-AUDIT-002",
+      "classe": "ERR-AUDIT",
+      "posizione": "metodo/PROCEDURA-VC-r03-congelata.md, § 2, riga 36",
+      "prova": "La procedura si identifica come revisione 3, ma prescrive ancora nella scheda il valore letterale procedura: VC-NTC/2. L’incoerenza interna non è spiegata né rettificata nelle evidenze R02.",
+      "stato": "APERTO"
+    }
+  ],
+  "riscontrato": [
+    "Il recupero documentale chiude puntualmente i tre rilievi G7 R01.",
+    "Le impronte dichiarate di target, fonti, render, asset e pacchetto G6 restano uguali fra i manifest R01 e R02 e la chiusura R02 dichiara invarianti tali oggetti.",
+    "Il giudizio G7 R01 e il manifest R01 sono conservati nel manifest R02 come passaggio storico negativo."
+  ],
+  "non_riscontrato": [
+    "Non ho potuto ricalcolare autonomamente le impronte SHA-256; ho confrontato le dichiarazioni presenti nelle evidenze.",
+    "Non ho rieseguito script, render, controlli di registro o G6, perché la consegna R02 limita la verifica al recupero documentale.",
+    "Non posso stabilire dalle sole dichiarazioni quale delle due impronte discordanti del manifest R01 sia quella effettiva."
+  ],
+  "motivazione": "I tre rilievi del G7 R01 risultano rettificati correttamente e gli invarianti documentati non mostrano variazioni. Il G7 R02 resta tuttavia negativo perché la nuova catena contiene un’impronta discordante per il manifest R01 e la procedura R3 congelata conserva un riferimento interno a VC-NTC/2. Sono difetti documentali, non rilievi sul corpus; richiedono rettifica append-only e nuovo controllo del solo delta.",
+  "letture": [
+    "/blocco/g7/ISTRUZIONI-G7-R02.md",
+    "/blocco/g7/rettifica-evidenze-g7-r01.json",
+    "/blocco/g7/chiusura-c-r02.md",
+    "/blocco/g7/manifest-rilascio-r02.json",
+    "/blocco/g7/manifest-rilascio.json",
+    "/blocco/g7/metodo/PROCEDURA-VC-r03-congelata.md",
+    "/blocco/g7/metodo/normalizzazioni-congelate.md",
+    "/blocco/g7/g7-r01/giudizio-g7-ko.json",
+    "/blocco/g7/g7-r01/canale-v-g7-r01.esito.json"
+  ],
+  "isolamento": "Verifica limitata a /blocco/g7 e al recupero documentale R02. Non ho aperto percorsi esterni, non ho rifatto l’inventario e non ho modificato evidenze, manifest, fonti, target o rapporti. Ho sovrascritto esclusivamente /blocco/giudizio-g7.json come richiesto."
+}

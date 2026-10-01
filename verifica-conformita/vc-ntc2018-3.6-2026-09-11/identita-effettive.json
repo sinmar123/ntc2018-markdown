@@ -1,0 +1,105 @@
+{
+  "firma": "Codex / CDX",
+  "data": "2026-09-11T19:45:55.923698+02:00",
+  "ruoli": [
+    {
+      "agente": "/root",
+      "sessione": "01a09143-9d60-7c82-b01d-ac7c03c2af52",
+      "profili": [
+        {
+          "modello": "gpt-6-astra",
+          "ragionamento": "xhigh"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T18-18-42-01a09143-9d60-7c82-b01d-ac7c03c2af52.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/c_36",
+      "sessione": "01a09145-764f-7a51-b363-6d4bba0c65ae",
+      "profili": [
+        {
+          "modello": "gpt-5.6-sol",
+          "ragionamento": "high"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T18-20-43-01a09145-764f-7a51-b363-6d4bba0c65ae.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/e_36_r01",
+      "sessione": "01a09157-a231-7760-ae52-19329005e257",
+      "profili": [
+        {
+          "modello": "gpt-5.6-terra",
+          "ragionamento": "medium"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T18-40-34-01a09157-a231-7760-ae52-19329005e257.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/v_36_b01_r01",
+      "sessione": "01a09163-9ae1-7222-8db3-f2e961cde654",
+      "profili": [
+        {
+          "modello": "gpt-5.6-sol",
+          "ragionamento": "xhigh"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T18-53-39-01a09163-9ae1-7222-8db3-f2e961cde654.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/v_36_b02_r01",
+      "sessione": "01a09163-dfe9-75e3-b9c8-9bbd2936cfac",
+      "profili": [
+        {
+          "modello": "gpt-5.6-sol",
+          "ragionamento": "xhigh"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T18-53-56-01a09163-dfe9-75e3-b9c8-9bbd2936cfac.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/v_36_b03_r01",
+      "sessione": "01a09164-3024-7671-b7f1-1841a3fc965a",
+      "profili": [
+        {
+          "modello": "gpt-5.6-sol",
+          "ragionamento": "xhigh"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T18-54-17-01a09164-3024-7671-b7f1-1841a3fc965a.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/v_36_b01_r02",
+      "sessione": "01a09184-1f20-7132-9b27-4a71712016bc",
+      "profili": [
+        {
+          "modello": "gpt-5.6-sol",
+          "ragionamento": "xhigh"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T19-29-10-01a09184-1f20-7132-9b27-4a71712016bc.jsonl",
+      "natura": "AI"
+    },
+    {
+      "agente": "/root/v_36_b02_r02",
+      "sessione": "01a09184-6918-7ed1-b57b-a7389ff94744",
+      "profili": [
+        {
+          "modello": "gpt-5.6-sol",
+          "ragionamento": "xhigh"
+        }
+      ],
+      "metadati_nativi": "C:\\Users\\sandro\\.codex\\sessions\\2026\\09\\11\\rollout-2026-09-11T19-29-29-01a09184-6918-7ed1-b57b-a7389ff94744.jsonl",
+      "natura": "AI"
+    }
+  ],
+  "rettifica_append_only": "Le autoetichette GPT-6 nei rapporti originari b01 e b02 del primo G6 sono inesatte: entrambi sono gpt-5.6-sol, xhigh, come i metadati nativi qui registrati. Gli originali restano invariati.",
+  "isolamento": "Separazione dei contesti, input consegnati in cartelle esterne e restrizione istruttiva; nessuna sandbox filesystem. Le chiamate V registrate sono conservate nelle due tracce.",
+  "revisione_umana_integrale": false
+}

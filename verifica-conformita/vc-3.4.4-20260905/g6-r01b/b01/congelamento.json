@@ -1,0 +1,13 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-05T15:11:11.652598+00:00",
+  "firma": {
+    "identita_effettiva": "gpt-5.6-sol, reasoning xhigh",
+    "nome_agente": "/root/v_344_r01b",
+    "ruolo": "V indipendente VC NTC, fase FONTE-PRIMA"
+  },
+  "inventario_sha256": "32da1470c583f0aa35f19df1b61a30e36113a881808a9e14f060a30e82b61c9f",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "f49408ee703a6ac8a3c53e446e6bd1fa472a99eb7f9cc4efb1f33666962adce2"
+}

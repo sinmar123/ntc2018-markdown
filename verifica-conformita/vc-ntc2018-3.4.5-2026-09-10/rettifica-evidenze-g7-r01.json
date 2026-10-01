@@ -1,0 +1,41 @@
+{
+  "tipo": "rettifica_append_only_evidenze_g7",
+  "firma": "Hermes NTC-VC / HRM",
+  "procedura": "VC-NTC/3 § 8",
+  "manifest_g7_r01_sha256": "04bd73b18947bd364331d32afa58f1008179acd181c906975106b6b643132f74",
+  "giudizio_g7_r01_sha256": "15054f77dbce3082431d96fa11fcdbb382a7d5804d7936708276204bd2867c20",
+  "rettifiche": [
+    {
+      "rilievo": "G7-ERR-AUDIT-001",
+      "natura": "copia di procedura errata nel manifest R01",
+      "valore_errato": "VC-NTC/2, SHA-256 1781211fee9da6aee04cfc084e858fe394923458e5261514518aea0441120dff",
+      "valore_corretto": "VC-NTC/3, SHA-256 4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c",
+      "azione": "il nuovo manifest esclude la copia R2 e include la copia congelata R3"
+    },
+    {
+      "rilievo": "G7-ERR-AUDIT-002",
+      "natura": "confine successivo errato nel rapporto G2-G4 iniziale",
+      "valore_errato": "fuori scope inizia C3.4.5.1 nella Circolare",
+      "valore_corretto": "fuori scope inizia C3.5 nella Circolare",
+      "azione": "rettifica descrittiva separata; rapporto originario invariato"
+    },
+    {
+      "rilievo": "G7-ERR-AUDIT-003",
+      "natura": "numeri di normalizzazione errati nel rapporto G2-G4 iniziale",
+      "valore_errato": "apostrofi N01; ritorni di riga e parole spezzate N03 e N10",
+      "valore_corretto": "apostrofi diritti o curvi N2; spaziature, a capo e ricomposizione delle parole spezzate a fine riga N1",
+      "azione": "rettifica descrittiva separata; rapporto originario invariato"
+    }
+  ],
+  "invarianti": {
+    "target_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+    "fonti_modificate": false,
+    "target_modificato": false,
+    "asset_modificati": false,
+    "g6_modificato": false,
+    "giro_g6": 2,
+    "rilievi_g6_residui": 0
+  },
+  "azione": "nuovo manifest verificato e riapertura del solo G7, senza nuovo G6",
+  "stato": "DA_VERIFICARE_IN_G7_R02"
+}

@@ -1,0 +1,258 @@
+{
+  "firma": {
+    "identita_effettiva": "gpt-5.6-sol, reasoning xhigh",
+    "nome_agente": "/root/v_344_r01b",
+    "ruolo": "V indipendente VC NTC, fase FONTE-PRIMA"
+  },
+  "esito_provvisorio": "LEGGIBILE",
+  "leggibilita": {
+    "stato": "LEGGIBILE",
+    "dichiarazione": "L'intero perimetro del paragrafo 3.4.4 è leggibile senza ambiguità nella pagina completa e nel ritaglio a 600 dpi. Sigle, pedici, numero romano della tabella, decimali e accenti sono confermati visivamente e dai dati vettoriali.",
+    "natura_area": "testo e linee vettoriali; nessuna immagine raster interseca il ritaglio di perimetro",
+    "pagina_fisica_pdf": 63,
+    "folio_stampato_osservato": 59,
+    "ritaglio_600dpi_pt": [72.0, 438.0, 555.0, 577.0]
+  },
+  "copertura": {
+    "pagina": "ntc:63",
+    "perimetro": "Dalla rubrica 3.4.4 compresa fino al termine della tabella Tab. 3.4.I, prima della rubrica 3.4.5.",
+    "stato": "100% del perimetro censito",
+    "conteggi": {
+      "rubriche": 1,
+      "capoversi": 1,
+      "notazioni_inline_sostanziali": 3,
+      "didascalie_tabella": 1,
+      "apparati_tabellari": 1,
+      "celle_intestazione": 3,
+      "celle_corpo": 9,
+      "figure": 0,
+      "formule_esposte": 0,
+      "note": 0
+    },
+    "assenze_verificate": [
+      "nessuna figura o didascalia di figura nel perimetro",
+      "nessuna formula esposta numerata o non numerata",
+      "nessuna nota o richiamo di nota",
+      "nessuna cella vuota, trattino o indicazione di non applicabilità",
+      "nessuna testata gerarchica e nessun accorpamento logico di celle"
+    ],
+    "vincolo_fonte_prima": "Nessun target è stato letto o ipotizzato."
+  },
+  "letture_effettuate": [
+    {
+      "file": "b01/PERIMETRO.md",
+      "modalita": "lettura integrale"
+    },
+    {
+      "file": "b01/canone.md",
+      "modalita": "lettura integrale"
+    },
+    {
+      "file": "b01/input-fonte.json",
+      "modalita": "lettura integrale"
+    },
+    {
+      "file": "b01/fonte-ntc-63.png",
+      "modalita": "osservazione integrale a risoluzione originale con view_image"
+    },
+    {
+      "file": "fonte-dettaglio/fonte-ntc-p063-scope-600dpi.png",
+      "modalita": "osservazione integrale a risoluzione originale con view_image"
+    },
+    {
+      "file": "fonte-dettaglio/fonte-ntc-p063-vettori.json",
+      "modalita": "lettura strutturale di tutti i blocchi, righe, span, caratteri, font, corpi, codepoint e coordinate del ritaglio"
+    },
+    {
+      "file": "fonte-dettaglio/provenienza-fonte.json",
+      "modalita": "lettura integrale"
+    },
+    {
+      "file": "fonte-dettaglio/manifest.json e lista.json",
+      "modalita": "lettura integrale per identificazione e impronte degli ausili"
+    }
+  ],
+  "elementi": [
+    {
+      "id": "344-RUB-01",
+      "tipo": "rubrica",
+      "pagina": "ntc:63",
+      "riferimento": "inizio del perimetro, bbox PDF x 79,83-235,53 pt, y 442,18-449,78 pt",
+      "lettura": "3.4.4. COEFFICIENTE DI ESPOSIZIONE",
+      "note": "Numero e titolo in grassetto; il numero termina con punto."
+    },
+    {
+      "id": "344-CAP-01",
+      "tipo": "capoverso",
+      "pagina": "ntc:63",
+      "riferimento": "unico capoverso subito sotto la rubrica, bbox PDF x 79,82-515,44 pt, y 455,12-474,99 pt",
+      "incipit": "Il coefficiente di esposizione C_E tiene conto delle caratteristiche specifiche dell’area in cui sorge l’opera.",
+      "contenuto_censito": "Indica che i valori consigliati sono forniti nella Tab. 3.4.I per diverse classi di esposizione e fissa C_E = 1 quando non diversamente indicato.",
+      "note": "Un solo capoverso su due righe tipografiche; la spezzatura que-/sto è un a capo con sillabazione, non due parole."
+    },
+    {
+      "id": "344-NOT-01",
+      "tipo": "notazione_inline",
+      "pagina": "ntc:63",
+      "riferimento": "prima riga del capoverso 344-CAP-01, subito dopo «coefficiente di esposizione»",
+      "lettura": "C_E",
+      "note": "E composto come pedice, corpo vettoriale 5,066 pt contro 7,599 pt del testo."
+    },
+    {
+      "id": "344-NOT-02",
+      "tipo": "rinvio_inline",
+      "pagina": "ntc:63",
+      "riferimento": "seconda riga del capoverso 344-CAP-01, dopo «sono forniti in»",
+      "lettura": "Tab. 3.4.I",
+      "note": "Ultimo carattere I latino maiuscolo, codepoint U+0049, coerente con la didascalia."
+    },
+    {
+      "id": "344-NOT-03",
+      "tipo": "notazione_inline",
+      "pagina": "ntc:63",
+      "riferimento": "chiusa del capoverso 344-CAP-01",
+      "lettura": "C_E = 1",
+      "note": "E in pedice; segno di uguaglianza e valore 1 chiaramente leggibili; segue punto fermo."
+    },
+    {
+      "id": "344-TAB-CAP-01",
+      "tipo": "didascalia_tabella",
+      "pagina": "ntc:63",
+      "riferimento": "subito sopra la griglia, bbox PDF x 79,83-237,12 pt, y 488,02-495,81 pt",
+      "lettura": "Tab. 3.4.I – Valori di C_E per diverse classi di esposizione",
+      "note": "«Tab. 3.4.I» in grassetto; titolo in corsivo; trattino en dash U+2013; E in pedice; nessun punto fermo finale visibile."
+    },
+    {
+      "id": "344-TAB-01",
+      "tipo": "apparato_tabellare",
+      "pagina": "ntc:63",
+      "riferimento": "griglia sotto 344-TAB-CAP-01, estensione testuale circa x 84,59-361,47 pt, y 498,66-571,25 pt",
+      "struttura": "Tre colonne nell'ordine Topografia, Descrizione, C_E; una riga di intestazione e tre righe di corpo nell'ordine Battuta dai venti, Normale, Riparata.",
+      "celle_logiche": 12,
+      "note": "Le andate a capo dentro le celle sono impaginazione. Non risultano celle vuote, trattini, accorpamenti logici o intestazioni aggiuntive."
+    },
+    {
+      "id": "344-TAB-H01",
+      "tipo": "cella_intestazione",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga intestazione, colonna 1",
+      "lettura": "Topografia"
+    },
+    {
+      "id": "344-TAB-H02",
+      "tipo": "cella_intestazione",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga intestazione, colonna 2",
+      "lettura": "Descrizione"
+    },
+    {
+      "id": "344-TAB-H03",
+      "tipo": "cella_intestazione",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga intestazione, colonna 3",
+      "lettura": "C_E",
+      "note": "E in pedice, corpo vettoriale 4,205 pt contro 5,927 pt della C."
+    },
+    {
+      "id": "344-TAB-R01C01",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 1, colonna Topografia",
+      "lettura": "Battuta dai venti",
+      "note": "Due righe tipografiche nella stessa cella."
+    },
+    {
+      "id": "344-TAB-R01C02",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 1, colonna Descrizione",
+      "lettura": "Aree pianeggianti non ostruite esposte su tutti i lati, senza costruzioni o alberi più alti",
+      "note": "Due righe tipografiche; nessun punto finale."
+    },
+    {
+      "id": "344-TAB-R01C03",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 1, colonna C_E",
+      "lettura": "0,9",
+      "note": "Virgola decimale."
+    },
+    {
+      "id": "344-TAB-R02C01",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 2, colonna Topografia",
+      "lettura": "Normale"
+    },
+    {
+      "id": "344-TAB-R02C02",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 2, colonna Descrizione",
+      "lettura": "Aree in cui non è presente una significativa rimozione di neve sulla costruzione prodotta dal vento, a causa del terreno, altre costruzioni o alberi",
+      "note": "Tre righe tipografiche; conserva letteralmente «costruzione prodotta dal vento»; nessun punto finale."
+    },
+    {
+      "id": "344-TAB-R02C03",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 2, colonna C_E",
+      "lettura": "1,0",
+      "note": "Virgola decimale."
+    },
+    {
+      "id": "344-TAB-R03C01",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 3, colonna Topografia",
+      "lettura": "Riparata"
+    },
+    {
+      "id": "344-TAB-R03C02",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 3, colonna Descrizione",
+      "lettura": "Aree in cui la costruzione considerata è sensibilmente più bassa del circostante terreno o circondata da costruzioni o alberi più alti",
+      "note": "Due righe tipografiche; nessun punto finale."
+    },
+    {
+      "id": "344-TAB-R03C03",
+      "tipo": "cella_corpo",
+      "pagina": "ntc:63",
+      "riferimento": "Tab. 3.4.I, riga corpo 3, colonna C_E",
+      "lettura": "1,1",
+      "note": "Virgola decimale."
+    }
+  ],
+  "esclusioni": [
+    {
+      "id": "344-EX-01",
+      "pagina": "ntc:63",
+      "riferimento": "testata della pagina sopra il corpo normativo",
+      "contenuto": "Data 20-2-2018, intestazione del Supplemento ordinario e numero della serie della Gazzetta Ufficiale",
+      "motivo": "fuori dal perimetro 3.4.4"
+    },
+    {
+      "id": "344-EX-02",
+      "pagina": "ntc:63",
+      "riferimento": "tutto il contenuto precedente alla rubrica 3.4.4",
+      "contenuto": "coda testuale precedente, paragrafi 3.4.3.2 e 3.4.3.3, figure 3.4.2 e 3.4.3 con relative didascalie",
+      "motivo": "esclusione espressa dal PERIMETRO.md"
+    },
+    {
+      "id": "344-EX-03",
+      "pagina": "ntc:63",
+      "riferimento": "tutto il contenuto successivo al bordo inferiore della Tab. 3.4.I, a partire dalla rubrica 3.4.5",
+      "contenuto": "paragrafo 3.4.5, rubrica 3.5, paragrafo 3.5.1 e testo seguente visibile",
+      "motivo": "esclusione espressa dal PERIMETRO.md"
+    },
+    {
+      "id": "344-EX-04",
+      "pagina": "ntc:63",
+      "riferimento": "piè di pagina",
+      "contenuto": "folio stampato 59, tratti laterali e quattro marcatori grafici quadrati",
+      "motivo": "fuori dal perimetro 3.4.4"
+    }
+  ],
+  "dubbi": []
+}

@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-09-12T15:51:04.699180+00:00",
+  "firma": "Codex (CDX), verificatore V indipendente b01",
+  "inventario_sha256": "4448ac7dd5dfc07a56d14b94763fc8bc703cbf73e0a60bf5c50bc1178d84263e",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44",
+  "manifest_fonte_sha256": "5c782b1961366a1f1d02f5de0e8a5378b007ec0aca49b117664a351198806f7e"
+}

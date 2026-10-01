@@ -1,0 +1,26 @@
+{
+  "firma": "CDX, verificatore V/G7, modello effettivo gpt-5.6-sol xhigh",
+  "giudizio_g7": "OK",
+  "scope": "3.6",
+  "snapshot_sha256": "cd6a442021675c0bbaa29641f10551506f88cbbba0363759a981ef1f67ade672",
+  "manifest_sha256": "cd72e9278aaede048b52e40b50134eb5b9b9264316f678c5f3c10ba59d17182f",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "motivazione": "Il comando comune verifica 349/349 file del manifest, inclusa l'identità delle copie congelate, e 5/5 file dello snapshot finale. L'addendum r02 del rapporto C chiude G0-G5; lista, rapporto E, diff e copie pre-E documentano l'applicazione esclusiva delle cinque correzioni r01, con hash iniziali storici e finali coincidenti. I due G6 r02 coprono integralmente 63 e 54 ID, entrambi con esito OK e zero rilievi. Le tracce attestano per ciascun V l'accesso al target dopo il congelamento, in contesti separati e con restrizione istruttiva; il recupero tecnico r01 è conservato e adjudicato senza consumo di un giro. Identità effettive e rettifiche append-only delle autoetichette r01 sono documentate. La ricognizione del 2026-09-09 e il ricontrollo mirato del 2026-09-11 coprono entrambi gli atti. Non emergono incoerenze o rilievi residui: G7 è OK e lo snapshot riceve giudizio VC-OK.",
+  "limiti": "Giudizio limitato al § 3.6 e allo snapshot indicato, interamente prodotto da agenti AI e senza revisione umana integrale. L'isolamento G6 è dimostrato da separazione dei contesti, input esterni, restrizione istruttiva e tracce delle letture; non da una sandbox filesystem. La vigenza è dichiarata alle date 2026-09-09 e 2026-09-11. La resa è quella del renderer canonico secondo il catalogo congelato; altri viewer possono differire. VC-OK non sostituisce le fonti ufficiali e una modifica dei file o delle fonti richiede rivalutazione.",
+  "rettifica_append_only": {
+    "originale": "rapporto-g7.json",
+    "sha256_originale": "94af65bf50b2b686614b522c7882d99850d8ee00214f6bf81da415bbf68d4311",
+    "motivo": "Rettifica del solo valore di schema giudizio_g7, da VC-OK a OK, ai sensi del § 8 della procedura congelata.",
+    "effetto": "Nessuna modifica del giudizio sostanziale: lo snapshot conserva giudizio VC-OK."
+  }
+}

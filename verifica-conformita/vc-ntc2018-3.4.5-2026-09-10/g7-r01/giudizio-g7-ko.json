@@ -1,0 +1,89 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "esito": "KO",
+  "giudizio": "G7 non può chiudersi con VC-OK. Le evidenze sostengono la conformità del corpus e della resa e documentano la chiusura append-only del rilievo G6, ma la catena di rilascio conserva incongruenze ERR-AUDIT non adjudicate. In particolare, la procedura dichiarata nel verbale e nella rettifica G6 non coincide con la procedura congelata inclusa nel manifest. Occorrono riconciliazione documentale, nuovo manifest verificato e riapertura del G7, senza rifare l’inventario né il G6 se target, fonti e asset restano invariati.",
+  "riscontrato": [
+    "Il perimetro, il target finale e il render leggibile coincidono con quelli verificati nel G6; il PNG non presenta tagli o sovrapposizioni evidenti.",
+    "Il rapporto G6 originario copre 11 ID e segnala il solo CIRC81-PRO-001 come ERR-AUDIT; la rettifica append-only e il successivo esito dello stesso V lo dichiarano CHIUSO e portano il G6 post-rettifica a OK.",
+    "Le impronte dichiarate per target, PDF, PNG, catalogo e pacchetto G6 sono coerenti fra manifest e rapporti pertinenti, salvo il rilievo sulla procedura.",
+    "Il dossier dichiara zero ERR-MD, zero DUBBIO, nessuna anomalia A, nessuna AF-COR e assenza di revisione umana integrale.",
+    "I percorsi richiamati dal manifest risultano presenti nella cartella consegnata."
+  ],
+  "non_riscontrato": [
+    "Non ho potuto ricalcolare autonomamente le impronte SHA-256: ho potuto soltanto confrontare le impronte dichiarate nei documenti.",
+    "L’estrazione dei due PDF fonte completi non è riuscita perché alcune pagine richiedono OCR; ho potuto osservare le pagine raster G6 pertinenti, che sono leggibili.",
+    "Non ho rieseguito gli script, il render, i controlli del registro o la ricognizione web di vigenza; ne ho riscontrato soltanto le evidenze congelate.",
+    "Non è documentata una sandbox tecnica di lettura per il G6; è documentato l’isolamento istruttivo e il registro delle letture."
+  ],
+  "rilievi": [
+    {
+      "id": "G7-ERR-AUDIT-001",
+      "classe": "ERR-AUDIT",
+      "prova": "chiusura-c.md dichiara procedura VC-NTC/3 con SHA-256 4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c; rettifica-inventario-001.json richiama VC-NTC/3. Il manifest include invece metodo/PROCEDURA-VC-congelata.md con SHA-256 dichiarato 1781211fee9da6aee04cfc084e858fe394923458e5261514518aea0441120dff, e il file si identifica come revisione 2/VC-NTC/2. Nessun file manifestato reca l’impronta della procedura dichiarata nel verbale.",
+      "stato": "APERTO"
+    },
+    {
+      "id": "G7-ERR-AUDIT-002",
+      "classe": "ERR-AUDIT",
+      "prova": "g2-g5/rapporto-c-g2-g4-iniziale.md indica che dopo il perimetro della Circolare inizi C3.4.5.1; PERIMETRO.md, rapporto G0-G1 e la pagina fonte mostrano invece C3.5. L’incongruenza non risulta rettificata o adjudicata.",
+      "stato": "APERTO"
+    },
+    {
+      "id": "G7-ERR-AUDIT-003",
+      "classe": "ERR-AUDIT",
+      "prova": "g2-g5/rapporto-c-g2-g4-iniziale.md attribuisce apostrofi, ritorni di riga e parole spezzate a N01, N03 e N10. Nel catalogo congelato tali materie ricadono nelle voci 2 e 1; le voci 3 e 10 riguardano rispettivamente LaTeX e separatori di didascalia. I riferimenti non sono riconciliati nelle evidenze.",
+      "stato": "APERTO"
+    }
+  ],
+  "azioni_richieste": [
+    "Identificare e congelare la procedura effettivamente usata, allineando revisione e impronta fra verbale e manifest.",
+    "Rettificare append-only o adjudicare le due incongruenze del rapporto G2-G4 iniziale.",
+    "Rigenerare e verificare il manifest di rilascio, quindi sottoporre nuovamente il solo delta documentale a G7."
+  ],
+  "letture": [
+    "/blocco/g7/chiusura-c.md",
+    "/blocco/g7/manifest-rilascio.json",
+    "/blocco/g7/metodo/PROCEDURA-VC-congelata.md",
+    "/blocco/g7/metodo/normalizzazioni-congelate.md",
+    "/blocco/g7/g0-g1/rapporto-c-g0-g1.md",
+    "/blocco/g7/g0-g1/g1-atti-completi-e-modifica.json",
+    "/blocco/g7/g0-g1/g1-citazioni-definitive.json",
+    "/blocco/g7/g0-g1/g1-fonti-ufficiali.json",
+    "/blocco/g7/g0-g1/g1-ricerche.json",
+    "/blocco/g7/g2-g5/rapporto-c-g2-g4-iniziale.md",
+    "/blocco/g7/g2-g5/rapporto-c-g3-g4-post-correzione.md",
+    "/blocco/g7/g2-g5/rapporto-c-g5-r02.md",
+    "/blocco/g7/g2-g5/diff-target-iniziale-finale.patch",
+    "/blocco/g7/g2-g5/target-iniziale-depurato.md",
+    "/blocco/g7/g2-g5/target-finale-depurato.md",
+    "/blocco/g7/g2-g5/render-finale-3.4.5.pdf",
+    "/blocco/g7/g2-g5/render-finale-3.4.5-200dpi.png",
+    "/blocco/g7/target/3.4.5-neve-coefficiente-termico.md",
+    "/blocco/g7/g6/ISTRUZIONI-V.md",
+    "/blocco/g7/g6/ISTRUZIONI-RETTIFICA-G6-001.md",
+    "/blocco/g7/g6/PERIMETRO.md",
+    "/blocco/g7/g6/canone.md",
+    "/blocco/g7/g6/input-fonte.json",
+    "/blocco/g7/g6/inventario.json",
+    "/blocco/g7/g6/congelamento.json",
+    "/blocco/g7/g6/input-confronto.json",
+    "/blocco/g7/g6/rapporto-g6-originario.json",
+    "/blocco/g7/g6/rettifica-inventario-001.json",
+    "/blocco/g7/g6/esito-rettifica-g6-001.json",
+    "/blocco/g7/g6/canale-v-confronto-r03.esito.json",
+    "/blocco/g7/g6/canale-v-rettifica-001.esito.json",
+    "/blocco/g7/g6/fonte-ntc-63.png",
+    "/blocco/g7/g6/fonte-circ-81.png"
+  ],
+  "letture_non_riuscite": [
+    {
+      "percorso": "/blocco/g7/fonti/NTC-DM-17-01-2018.pdf",
+      "motivo": "Estrazione fallita: una pagina richiede OCR."
+    },
+    {
+      "percorso": "/blocco/g7/fonti/Circolare-7-2019.pdf",
+      "motivo": "Estrazione fallita: più pagine richiedono OCR."
+    }
+  ],
+  "isolamento": "Ho letto esclusivamente /blocco/g7 e ho scritto il solo giudizio richiesto in /blocco. Non ho cercato né aperto percorsi esterni. Non ho modificato fonti, target, rapporti, adjudicazioni o manifest e non ho rifatto l’inventario."
+}

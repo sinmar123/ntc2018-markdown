@@ -1,0 +1,100 @@
+{
+  "firma": "Codex (CDX), verificatore indipendente G6, blocco b03",
+  "esito": "KO",
+  "coperti": [
+    "B03-C81-001-RUB-C36",
+    "B03-C81-002-C36-P01-06",
+    "B03-C81-003-RUB-C361",
+    "B03-C81-004-RUB-C3611",
+    "B03-C81-005-C3611-INTRO",
+    "B03-C81-006-C3611-DEF01-02",
+    "B03-C81-007-INLINE-QFD",
+    "B03-C81-008-ENF-LORDA",
+    "B03-C82-009-C3611-P03",
+    "B03-C82-010-RUB-C3612",
+    "B03-C82-011-C3612-INTRO",
+    "B03-C82-012-C3612-ELENCO-DM",
+    "B03-C82-013-C3612-P02-05",
+    "B03-C82-014-RUB-C3613",
+    "B03-C82-015-C3613-P01",
+    "B03-C82-016-RUB-C3614",
+    "B03-C82-017-C3614-P01",
+    "B03-C82-018-RUB-C3615",
+    "B03-C82-019-RUB-C36151",
+    "B03-C82-020-C36151-INTRO",
+    "B03-C82-021-COND-CURVA-NOMINALE",
+    "B03-C82-022-COND-CURVA-NATURALE",
+    "B03-C82-023-C36151-P02",
+    "B03-C82-024-INLINE-CURVE",
+    "B03-C82-025-RUB-C36153",
+    "B03-C83-026-C36153-P01-03",
+    "B03-C83-027-RUB-C36154",
+    "B03-C83-028-C36154-P01-03",
+    "B03-C83-029-RUB-C362",
+    "B03-C83-030-RUB-C3623",
+    "B03-C83-031-C3623-P01-02"
+  ],
+  "normalizzazioni": [1, 2],
+  "rilievi": [
+    {
+      "id": "B03-C81-006-C3611-DEF01-02",
+      "pagina": "circ:81",
+      "posizione": "Prima voce dell'elenco definitorio di C3.6.1.1, locuzione 'capacità di compartimentazione'; fonte bbox [108.22,617.68,221.89,625.51], target PDF p. 1 bbox [89.35,348.48,226.54,358.44]",
+      "prova": {
+        "fonte_600_dpi": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\g6-r01-fonte-definizioni-p81-600dpi.png",
+        "fonte_sha256": "4520db6803ea31a34e6d0e16ebe13510477e6a4916c688af88a1c93f77ab2ad5",
+        "target_600_dpi": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\g6-r01-target-definizioni-p01-600dpi.png",
+        "target_sha256": "d8985dbf462be3f0c128726de87b92f0da46488659c48f81df8ea61afe59e64d",
+        "riscontro_vettoriale": "La fonte compone l'intera riga in PalatinoLinotype-Roman, 7.805 pt; il target compone la locuzione in LMRoman10-Italic, 9.963 pt. testo.md aggiunge i marcatori *...*."
+      },
+      "differenza": "Corsivo aggiunto nel target, assente nella fonte.",
+      "classe_proposta": "ERR-MD"
+    },
+    {
+      "id": "B03-C81-008-ENF-LORDA",
+      "pagina": "circ:81",
+      "posizione": "Seconda voce dell'elenco definitorio di C3.6.1.1, parola 'lorda'; fonte testo bbox [473.23,672.94,491.48,680.77] e sottolineatura vettoriale [473.31,679.41,491.62,679.82], target PDF p. 1 bbox [204.42,420.21,232.68,430.17]",
+      "prova": {
+        "fonte_600_dpi": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\g6-r01-fonte-definizioni-p81-600dpi.png",
+        "fonte_sha256": "4520db6803ea31a34e6d0e16ebe13510477e6a4916c688af88a1c93f77ab2ad5",
+        "target_600_dpi": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\g6-r01-target-definizioni-p01-600dpi.png",
+        "target_sha256": "d8985dbf462be3f0c128726de87b92f0da46488659c48f81df8ea61afe59e64d",
+        "riscontro_vettoriale": "La fonte usa PalatinoLinotype-Roman con un tratto di sottolineatura separato; il target usa LMRoman10-Bold senza sottolineatura. testo.md codifica **lorda**."
+      },
+      "differenza": "La sottolineatura della fonte è sostituita dal grassetto, trasformazione non prevista dal catalogo.",
+      "classe_proposta": "ERR-MD"
+    }
+  ],
+  "verifica_integrale": {
+    "metodo": "Confronto di tutte le unità dell'inventario, senza campionamento, su testo Markdown, testo vettoriale dei PDF e resa PNG; controllo separato delle enfasi e della notazione inline.",
+    "testo": "Dopo le sole normalizzazioni N1 e N2 e la rimozione dei marcatori strutturali Markdown per il confronto verbale, fonte e target coincidono: 10158 caratteri normalizzati e 1913 token per parte.",
+    "apparati": "Tutte le 12 rubriche, le 31 unità di prosa o elenco, le due condizioni, q con pedice f,d e le due locuzioni inglesi in corsivo sono presenti e leggibili. Nessuna formula esposta, tabella, figura, didascalia o nota ricade nel perimetro.",
+    "resa_target": "target-blocco.pdf è vettoriale, consta di tre pagine e non contiene raster; le tre PNG sono state osservate integralmente. Non risultano omissioni, duplicazioni o tagli di contenuto."
+  },
+  "letture": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\congelamento.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\input-confronto.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\inventario.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\testo.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\resa-target\\target-blocco.pdf",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\resa-target\\target-p01-200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\resa-target\\target-p02-200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\resa-target\\target-p03-200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-20260911\\b03\\fonte-vettoriale.pdf",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\provenienza-v.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p81-scope-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p82-scope-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p83-scope-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p81-qfd-lorda-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p82-rubriche-1-5-1-e-1-5-3-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\p83-rubrica-1-5-4-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\g6-r01-fonte-definizioni-p81-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v\\g6-r01-target-definizioni-p01-600dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\rapporto-g6.json"
+  ],
+  "percorsi_esplorati": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01b-20260911\\b03\\resa-target"
+  ],
+  "isolamento": "Nessun accesso al target prima del congelamento. Durante G6 sono stati letti soltanto il pacchetto b03 autorizzato, il supplemento fonte b03 e la sottocartella prove-v del precedente pacchetto; nessun workspace, coordinamento.json, altro blocco, cartella o conversazione."
+}

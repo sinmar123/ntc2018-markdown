@@ -1,0 +1,61 @@
+{
+  "firma": "CDX, verificatore V indipendente G6, modello effettivo gpt-5.6-sol xhigh",
+  "metodo": "Confronto fra ritagli 600 dpi del PDF vettoriale e span PyMuPDF rawdict; coordinate in punti PDF dall'angolo superiore sinistro.",
+  "osservazioni": [
+    {
+      "pagina": "ntc:70",
+      "oggetto": "formula [3.6.7]",
+      "stampa": "F con pedice d,y = 0,50 F con pedice d,x; tag [3.6.7]",
+      "font_posizione": "formula TimesNewRoman, corpo 8,888 pt e pedici 5,333 pt, area x=194,67-243,77 y=381,06-393,32; tag PalatinoLinotype 7,959 pt con parentesi in Symbol 7,978 pt, area x=348,77-370,05 y=381,97-392,25",
+      "codifica": "il segno = stampato è estratto come U+0020 nel font Symbol a x=209,86-214,74; le parentesi quadre stampate sono estratte come U+003E e U+0040 nel font Symbol",
+      "ritaglio": "ntc-70-formula-3.6.7.png"
+    },
+    {
+      "pagina": "ntc:70",
+      "oggetto": "tag delle formule [3.6.8] e [3.6.9]",
+      "stampa": "parentesi quadre attorno ai numeri di formula",
+      "font_posizione": "Symbol 7,978 pt per le parentesi; [3.6.8] area x=348,77-370,05 y=613,06-623,34; [3.6.9] area x=348,77-370,05 y=701,46-711,73",
+      "codifica": "le parentesi quadre stampate sono estratte come U+003E e U+0040",
+      "ritagli": [
+        "ntc-70-formula-3.6.8.png",
+        "ntc-70-formula-3.6.9.png"
+      ]
+    },
+    {
+      "pagina": "ntc:71",
+      "oggetto": "elenco delle condizioni sulla distanza d",
+      "stampa": "punto elenco quadrato e segno minore o uguale nelle condizioni d ≤ 5 m e 5 m < d ≤ 15 m",
+      "font_posizione": "PalatinoLinotype 7,850 pt; primo punto elenco x=72,26-75,04 y=299,28-307,25; primo ≤ x=102,50-106,43 y=299,28-307,25; secondo punto elenco x=72,25-75,03 y=336,28-344,25",
+      "codifica": "il punto elenco quadrato è estratto come U+0221; il segno ≤ è estratto come U+01C2",
+      "ritaglio": "ntc-71-condizioni-distanza.png"
+    },
+    {
+      "pagina": "circ:81",
+      "oggetto": "notazione inline q con pedice f,d",
+      "stampa": "q in corsivo con pedice f,d",
+      "font_posizione": "q PalatinoLinotype-Italic 7,805 pt, x=337,76-341,38 y=683,46-691,26; pedice f,d PalatinoLinotype-Roman 4,787 pt, x=341,46-347,30 y=685,62-690,43",
+      "codifica": "q U+0071; pedice f,d U+0066 U+002C U+0064",
+      "ritaglio": "circ-81-inline-qfd.png"
+    },
+    {
+      "pagina": "circ:82",
+      "oggetto": "rubriche C3.6.1.5.1 e C3.6.1.5.3",
+      "stampa": "C3.6.1.5.1 Incendio di progetto; C3.6.1.5.3 Analisi del comportamento meccanico",
+      "font_posizione": "PalatinoLinotype-Bold 7,805 pt; numeri nelle aree x=73,91-106,96 y=572,55-580,36 e x=73,92-106,94 y=718,77-726,58",
+      "codifica": "la prima rubrica è estratta come U+0014 U+0015 U+0016 U+001D U+0016 U+000E U+0016 U+0009 U+0016 U+000E; la seconda differisce nell'ultimo codepoint, U+0015",
+      "ritagli": [
+        "circ-82-rubrica-C3.6.1.5.1.png",
+        "circ-82-rubrica-C3.6.1.5.3.png"
+      ]
+    },
+    {
+      "pagina": "circ:83",
+      "oggetto": "rubrica C3.6.1.5.4",
+      "stampa": "C3.6.1.5.4 Verifiche di sicurezza",
+      "font_posizione": "PalatinoLinotype-Bold 7,805 pt; numero x=73,91-106,95 y=209,91-217,71",
+      "codifica": "il numero è estratto come U+0014 U+0015 U+0016 U+001D U+0016 U+000E U+0016 U+0009 U+0016 U+0007",
+      "ritaglio": "circ-83-rubrica-C3.6.1.5.4.png"
+    }
+  ],
+  "esito": "Le letture stampate sono univoche nei ritagli; nessun dubbio residuo. Le difformità fra codepoint estratti e glifi stampati sono documentate e la stampa prevale secondo canone."
+}

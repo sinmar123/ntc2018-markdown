@@ -1,0 +1,9 @@
+{
+  "tipo": "chiusura_esterna_manifest_rettifica_verbale",
+  "firma": "Hermes NTC-VC / HRM",
+  "manifest": "manifest-rettifica-001.json",
+  "manifest_sha256": "93e838f8f5ecd8c17e512c25282992289d0177792dc209b4710de0d0df471984",
+  "files": 10,
+  "integrita": "OK",
+  "nota": "Evidenza esterna al manifest per evitare autoreferenze; verbale originario, target e G6 invariati."
+}

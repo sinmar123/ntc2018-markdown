@@ -1,0 +1,32 @@
+[
+  {
+    "path": "cap03/3.5-introduzione.md",
+    "sha256": "b963768d94fbd72d33baae26efb18a71dcfb5998cff2d2dd7f189e503521249c",
+    "bytes": 950
+  },
+  {
+    "path": "cap03/3.5.2-temperatura-temperatura-dell-aria-esterna.md",
+    "sha256": "5242a12816ea4c2bfdc0fa71dc8af8e934481d5fad592a832ef21fec36e5bf31",
+    "bytes": 3543
+  },
+  {
+    "path": "cap03/3.5.4-temperatura-distribuzione-della-temperatura-negli-elementi-strutturali.md",
+    "sha256": "5f2d207a728b6c8a68d3e33ad767290b1bfd94a2b464250a0ce691e76a4fd7c7",
+    "bytes": 2494
+  },
+  {
+    "path": "cap03/annotazioni/README.md",
+    "sha256": "8ee1f5ee97db57d3f82173b8c0082e72bf39e1fba566cc0a01d3a6c88514d5e3",
+    "bytes": 6043
+  },
+  {
+    "path": "cap03/img/fig-3.5.1-zone-temperatura-mappa.png",
+    "sha256": "fec8da7e6de1b4009d6d7a79ce88e7d0c136bd252e5242f5f5a8ab25536f7ff1",
+    "bytes": 716633
+  },
+  {
+    "path": "cap03/annotazioni/3.5.2-anomalie-fonte.md",
+    "sha256": "554711b40704d622d75ac73fe1cfb0ea769f8e291a2ec2bafc5a736a6a69d4a4",
+    "bytes": 1366
+  }
+]

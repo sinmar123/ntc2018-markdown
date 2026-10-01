@@ -1,0 +1,75 @@
+11-2-2019                     Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE               Serie generale - n. 35
+
+
+
+
+                 ls = 2h, con la limitazione: 5   ls 15 m.
+
+
+
+
+
+                                                                   - Coefficienti di forma per il carico neve in corrispondenza di sporgenze ed ostruzioni
+
+
+                Neve aggettante dal bordo di una copertura
+
+       In località poste a quota superiore a 800 m sul livello del mare, nella verifica delle parti di copertura a sbalzo sulle murature di
+        facciata si dovrà considerare l’azione della neve sospesa oltre il bordo della copertura, sommato al carico agente su quella parte
+       di tetto, secondo lo schema illustrato nella Figura C3.4.7.
+
+          I carichi dovuti alla neve sospesa in aggetto saranno considerati agenti in corrispondenza del bordo della copertura e si possono
+        calcolare mediante l’espressione:
+                                                                 qse  < Js2 / .                         "C3.4.6#
+
+
+       dove:
+
+              qse è il carico della neve per unità di lunghezza dovuto alla sospensione (vedasi la Figura C3.4.7);
+
+             qs  è il carico corrispondente alla distribuzione del manto più sfavorevole per la copertura in esame;
+
+      .  è il peso dell’unità di volume della neve, che per il presente calcolo può essere assunto pari a 3,0 kN/m3;
+
+           k  è un coefficiente funzione della irregolarità della forma della neve, pari a k=3/d, con k  d., essendo dla profondità del
+           manto nevoso sulla copertura in m (vedasi la Figura C.3.4.7).
+
+
+                                            d
+
+
+
+                                                            se
+
+
+
+
+
+                                                                                          - Neve aggettante dal bordo di una copertura
+
+
+                    Carichi della neve su barriere paraneve ed altri ostacoli
+
+       In talune condizioni la neve può scivolare via da un tetto a falde o curvo. In questo caso si assume pari a zero il coefficiente di
+         attrito tra la massa di neve e la superficie della copertura.
+
+       L’azione statica Fs impressa da una massa di neve che scivola su barriere paraneve o altri ostacoli, nella direzione dello
+       scivolamento, per unità di lunghezza dell’edificio può essere assunta uguale a:
+
+                                                     Fs  Js b sin                           "C3.4.7#
+
+
+       dove:
+
+             qs  è il carico della neve sulla copertura, relativo alla distribuzione uniforme più sfavorevole tra quelle proprie della zona
+               dalla quale la neve potrebbe scivolare;
+
+           b  è la distanza in pianta (misurata in orizzontale) tra il paraneve o l’ostacolo ed il successivo paraneve o il colmo del tetto;
+
+             angolo di inclinazione del tetto, misurato a partire dall’orizzontale.
+
+
+
+
+
+                       — 76 —

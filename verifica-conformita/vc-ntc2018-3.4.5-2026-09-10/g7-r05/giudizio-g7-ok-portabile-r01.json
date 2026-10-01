@@ -1,0 +1,45 @@
+{
+  "firma": "gpt-5.6-sol / openai-codex / Hermes Agent CLI",
+  "giudizio_g7": "OK",
+  "scope": "3.4.5",
+  "snapshot_sha256": "3541307932ff82abd016c34b325b6bb11877315ae8cc1db320b57d925cb7ebd5",
+  "manifest_sha256": "307297ef683a92a1372c5afdddec779d3efb7153e428a29cfe7d53ba51ae0ea8",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "riscontrato": [
+    "Il manifest finale elenca percorsi sotto verifica-conformita/vc-ntc2018-3.4.5-2026-09-10 e nella directory ricollocata risultano presenti 62 file, come dichiarato dall’evidenza esterna.",
+    "impronta-manifest-finale.json identifica manifest-rilascio-finale.json con l’impronta riportata nel presente giudizio e documenta exit code 0, 62 file e integrità OK.",
+    "Le impronte dichiarate degli invarianti, fra cui target, fonti, render, procedura, catalogo e pacchetto G6, coincidono con quelle già verificate nella catena R03-R04.",
+    "Le copie ricollocate direttamente lette di target, rapporto G6, procedura R3, chiusura finale, impronta R03 e giudizio R04 conservano contenuto osservabile e dimensioni delle corrispondenti evidenze già esaminate.",
+    "Tutti i rilievi G6 e G7 precedenti risultano chiusi e non sono emersi nuovi rilievi dalla ricollocazione."
+  ],
+  "non_riscontrato": [
+    "Non ho ricalcolato autonomamente le impronte: l’impronta del manifest finale e l’integrità delle copie sono importate dall’output dello script conservato in impronta-manifest-finale.json.",
+    "Non ho rieseguito G6, inventario, render, confronto o ricognizione di vigenza, poiché la consegna R05 limita la verifica alla ricollocazione portabile."
+  ],
+  "motivazione": "Il manifest finale e la sua impronta esterna documentano una ricollocazione integra delle evidenze già giudicate positivamente in R04. I file manifestati sono presenti nel prefisso portabile, gli invarianti dichiarati restano identici e non risultano rilievi aperti. La ricollocazione non richiede un nuovo G6 e il G7 resta positivo sul manifest finale.",
+  "letture": [
+    "/blocco/g7/ISTRUZIONI-G7-R05.md",
+    "/blocco/g7/chiusura-c-finale.md",
+    "/blocco/g7/manifest-rilascio-finale.json",
+    "/blocco/g7/impronta-manifest-finale.json",
+    "/blocco/g7/g7-r04/giudizio-g7-ok-intermedio.json",
+    "/blocco/g7/g7-r04/canale-v-g7-r04.esito.json",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/target/3.4.5-neve-coefficiente-termico.md",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/g6/rapporto-g6-originario.json",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/g7-r04/giudizio-g7-ok-intermedio.json",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/metodo/PROCEDURA-VC-r03-congelata.md",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/impronta-manifest-r03.json",
+    "/blocco/g7/verifica-conformita/vc-ntc2018-3.4.5-2026-09-10/chiusura-c-finale.md"
+  ],
+  "isolamento": "Verifica limitata a /blocco/g7 e alla ricollocazione portabile R05. Non ho aperto percorsi esterni, non ho rifatto l’inventario e non ho modificato fonti, target, manifest, rapporti o adjudicazioni. Ho sovrascritto esclusivamente /blocco/giudizio-g7.json come richiesto."
+}

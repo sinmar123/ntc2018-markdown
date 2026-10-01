@@ -1,0 +1,62 @@
+{
+  "firma": "Codex GPT-6 (CDX), verificatore V indipendente G6, blocco b02",
+  "fase": "FONTE-PRIMA",
+  "mappatura_pagine": [
+    {"pagina_input":"ntc:69","pagina_originale_fisica":69,"pagina_estratto_fisica":1},
+    {"pagina_input":"ntc:70","pagina_originale_fisica":70,"pagina_estratto_fisica":2},
+    {"pagina_input":"ntc:71","pagina_originale_fisica":71,"pagina_estratto_fisica":3}
+  ],
+  "accertamento_aree": {
+    "perimetro_normativo":"vettoriale",
+    "componenti":"testo e formule vettoriali; griglie delle tabelle come disegni vettoriali",
+    "raster":"quattro immagini 208 x 208 px per pagina, tutte nei piè di pagina esclusi, bbox pt 323-552 x 765-820",
+    "figure_nel_perimetro":false
+  },
+  "metodo": {
+    "render":"PyMuPDF 1.27.1, matrice 600/72, RGB senza alpha",
+    "codifica":"PyMuPDF rawdict, carattere per carattere con font, corpo e bbox in punti",
+    "esito":"resa stampata nitida; controllo visivo integrale delle tre pagine e dei dettagli; nessun dubbio residuo"
+  },
+  "discordanze_codifica_resa": [
+    "Nelle formule [3.6.5a-b] il segno più stampato è mappato come U+000E nel font Symbol.",
+    "Nella formula [3.6.6] il segno meno dell'esponente è mappato come U+0010 e il simbolo ≤ come lettera d nel font Symbol.",
+    "Nei tag di formula le parentesi quadre stampate sono mappate come > e @ nel font Symbol.",
+    "Nelle condizioni di p. 71 il simbolo ≤ stampato è mappato come U+01C2. In tutti i casi prevale la resa stampata, verificata nei ritagli a 600 dpi."
+  ],
+  "prove": [
+    {"file":"fonte-vettoriale.pdf","copertura":"copia binaria preservata dell'estratto vettoriale ufficiale"},
+    {"file":"provenienza-fonte.json","copertura":"provenienza ufficiale dell'estratto"},
+    {"file":"p69-intera-600dpi.png","copertura":"pagina originale fisica 69 integrale"},
+    {"file":"p70-intera-600dpi.png","copertura":"pagina originale fisica 70 integrale"},
+    {"file":"p71-intera-600dpi.png","copertura":"pagina originale fisica 71 integrale"},
+    {"file":"p69-tab-3.6.I-600dpi.png","copertura":"didascalia, testata e tutte le celle della Tab. 3.6.I"},
+    {"file":"p69-formula-3.6.5a-600dpi.png","copertura":"formula [3.6.5a]"},
+    {"file":"p69-formula-3.6.5b-600dpi.png","copertura":"formula [3.6.5b]"},
+    {"file":"p69-formula-3.6.6-600dpi.png","copertura":"formula [3.6.6]"},
+    {"file":"p69-inline-pd20-600dpi.png","copertura":"capoverso e formula inline p_d = 20 kN/m²"},
+    {"file":"p70-tab-3.6.II-600dpi.png","copertura":"didascalia, testata e tutte le celle della Tab. 3.6.II"},
+    {"file":"p70-formula-3.6.7-600dpi.png","copertura":"formula [3.6.7]"},
+    {"file":"p70-tab-3.6.III-600dpi.png","copertura":"didascalia, testata gerarchica, accorpamenti e tutte le celle della Tab. 3.6.III"},
+    {"file":"p70-formula-3.6.8-600dpi.png","copertura":"formula [3.6.8]"},
+    {"file":"p70-formula-3.6.9-600dpi.png","copertura":"formula [3.6.9]"},
+    {"file":"p71-condizioni-distanza-600dpi.png","copertura":"tutti i rami sulle distanze, valori, direzioni e quota di applicazione"},
+    {"file":"codifica-posizioni.json","copertura":"font, corpo, codepoint e posizione dei dettagli matematici sensibili"}
+  ],
+  "percorsi_input_letti": [
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/ISTRUZIONI-V.md",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/PERIMETRO.md",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/canone.md",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/input-fonte.json",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/fonte-ntc-69.png",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/fonte-ntc-70.png",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/fonte-ntc-71.png",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-fonti-vettoriali-20260911/b02/fonte-vettoriale.pdf",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-fonti-vettoriali-20260911/b02/provenienza.json",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-fonti-vettoriali-20260911/b02/manifest-comune.json"
+  ],
+  "directory_elencate": [
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-fonti-vettoriali-20260911/b02",
+    "C:/Users/sandro/AppData/Local/Temp/vc36-g6-r01-20260911/b02/prove-v"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "firma": "CDX",
+  "snapshot_sha256": "6e9a5f838301b7d04ed3dc6c39256fcaf6d78997f2f5567350d287bb6cafc448",
+  "diff_correzione": "OK, solo liste congelate R00 e R01",
+  "diff_fonte_target": "OK, zero residui",
+  "link_verificati": 4,
+  "link_invalidi": [],
+  "mappa": [
+    {
+      "pagina": "ntc:63",
+      "righe_depurate": [
+        1,
+        11
+      ],
+      "copertura": "integrale, unica, nessuna sovrapposizione"
+    }
+  ],
+  "inventario": {
+    "rubriche": 1,
+    "capoversi": 1,
+    "didascalie": 1,
+    "tabelle": 1,
+    "celle_intestazione": 3,
+    "celle_corpo": 9,
+    "notazioni_C_E": 4,
+    "relazioni_inline": 1,
+    "formule_esposte": 0,
+    "figure": 0,
+    "asset": 0
+  },
+  "indici_globali": "311 file e 1754 link interni verificati dallo script canonico; nessuna rigenerazione necessaria",
+  "render": "OK, una pagina controllata integralmente da C dopo R03; nessun taglio o sovrapposizione",
+  "staging": "C:\\Users\\sandro\\AppData\\Local\\Temp\\CDX-VC-344-20260905-G6R01"
+}

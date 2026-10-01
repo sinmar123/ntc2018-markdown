@@ -1,0 +1,31 @@
+{
+  "firma": "Codex / CDX, script",
+  "dpi": 200,
+  "pagine": [
+    {
+      "pagina": 1,
+      "path": "target-p01-200dpi.png",
+      "sha256": "4a07ee6d84271ddb96d053fcfca2dfe8d46a2edd09ed9fd530e3d5004ae72e1e"
+    },
+    {
+      "pagina": 2,
+      "path": "target-p02-200dpi.png",
+      "sha256": "9438a99d0f4de3d479bbfe083705f349234ad58b8f6143451baa86a82e4e6e99"
+    },
+    {
+      "pagina": 3,
+      "path": "target-p03-200dpi.png",
+      "sha256": "ad0b02ec48a4190c7d60cc4a999b0ef488260a0392878bd0bdfc4abb206a31a8"
+    },
+    {
+      "pagina": 4,
+      "path": "target-p04-200dpi.png",
+      "sha256": "c1adf4edf6ea9202cb06a5a513c63cc4158ec9ba755f5e862fe680edd60c8a4c"
+    },
+    {
+      "pagina": 5,
+      "path": "target-p05-200dpi.png",
+      "sha256": "a3b381c6c2262790cc8f8266c9dacf2d895691cef663cf5a703044a5e3ec6b85"
+    }
+  ]
+}

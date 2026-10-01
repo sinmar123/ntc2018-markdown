@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "fonte-ntc-p063-scope-600dpi.png",
+      "bytes": 217941,
+      "sha256": "5c36d40a94b98370b8138fafffd70484e262f5303aecb9de79ee198407b40657"
+    },
+    {
+      "path": "fonte-ntc-p063-vettori.json",
+      "bytes": 402750,
+      "sha256": "7c796c671981fb3fe06079d358dda012997eaca1f3a283f2332634c29c520cc0"
+    },
+    {
+      "path": "provenienza-fonte.json",
+      "bytes": 1776,
+      "sha256": "ad2aa92c4ea47593e88150956e3e4acb7cfe2434c1f9d36a6d71b26e12386649"
+    }
+  ]
+}

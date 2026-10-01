@@ -1,0 +1,65 @@
+--- a/cap03/3.6-introduzione.md
++++ b/cap03/3.6-introduzione.md
+@@ -6,7 +6,7 @@
+ 
+
+ Le azioni eccezionali sono quelle che si presentano in occasione di eventi quali incendi, esplosioni ed urti.
+
+ 
+
+-È opportuno che le costruzioni possiedano un grado adeguato di robustezza, in funzione dell'uso previsto della costruzione, individuando gli scenari di rischio e le azioni eccezionali rilevanti ai fini della sua progettazione, secondo quanto indicato al §2.2.5.
+
++E’ opportuno che le costruzioni possiedano un grado adeguato di robustezza, in funzione dell'uso previsto della costruzione, individuando gli scenari di rischio e le azioni eccezionali rilevanti ai fini della sua progettazione, secondo quanto indicato al §2.2.5.
+
+ 
+
+ Per le costruzioni in cui sia necessario limitare il rischio d'incendio per la salvaguardia dell'individuo e della collettività, nonché delle proprietà limitrofe e dei beni direttamente esposti al fuoco, devono essere eseguite verifiche specifiche del livello di prestazione strutturale antincendio.
+
+ 
+
+--- a/cap03/3.6.1-azioni-eccezionali-incendio.md
++++ b/cap03/3.6.1-azioni-eccezionali-incendio.md
+@@ -36,8 +36,9 @@
+ 
+
+ La curva di incendio di progetto può essere:
+
+ 
+
+-- *nominale:* curva adottata per la classificazione delle costruzioni e per le verifiche di resistenza al fuoco di tipo convenzionale;
+
+-- *naturale:* curva determinata in base a modelli d'incendio e a parametri fisici che definiscono le variabili di stato all'interno del compartimento.
+
++*nominale:* curva adottata per la classificazione delle costruzioni e per le verifiche di resistenza al fuoco di tipo convenzionale;
+
++
+
++*naturale:* curva determinata in base a modelli d'incendio e a parametri fisici che definiscono le variabili di stato all'interno del compartimento.
+
+ 
+
+ La *capacità di compartimentazione* in caso di incendio è l'attitudine di un elemento costruttivo a conservare, sotto l'azione del fuoco, oltre alla propria stabilità, un sufficiente isolamento termico ed una sufficiente tenuta ai fumi ed ai gas caldi della combustione, nonché tutte le altre prestazioni se richieste.
+
+ 
+
+@@ -184,8 +185,8 @@
+ 
+
+ Si chiariscono di seguito le seguenti definizioni:
+
+ 
+
+-- la *capacità di compartimentazione* è riferibile ai requisiti REI nonché ad ulteriori requisiti aggiuntivi attribuibili agli elementi delimitanti un compartimento antincendio ai fini della mitigazione del rischio di incendio. Utili indicazioni in merito sono riportate nel D.M. 16 febbraio 2007, nel D.M. 3 agosto 2015 e nella UNI EN 13501-2;
+
+-- il *carico d'incendio* è il potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in base ai parametri indicativi della partecipazione alla combustione dei singoli materiali. Come conseguenza si rende più sintetica la definizione di *carico d'incendio specifico*, con la precisazione che è riferito all'unità di superficie **lorda** e che le indicazioni per il calcolo del carico di incendio specifico di progetto ($q_{f,d}$) sono fornite nel decreto del Ministro dell'Interno 9 marzo 2007 e nel D.M. 3 agosto 2015; la definizione del carico di incendio specifico di progetto può essere altresì effettuata attraverso la norma UNI EN 1991-1-2 integrata dalla corrispondente Appendice Nazionale che richiama i due decreti citati.
+
++- la capacità di compartimentazione è riferibile ai requisiti REI nonché ad ulteriori requisiti aggiuntivi attribuibili agli elementi delimitanti un compartimento antincendio ai fini della mitigazione del rischio di incendio. Utili indicazioni in merito sono riportate nel D.M. 16 febbraio 2007, nel D.M. 3 agosto 2015 e nella UNI EN 13501-2;
+
++- il *carico d'incendio* è il potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in base ai parametri indicativi della partecipazione alla combustione dei singoli materiali. Come conseguenza si rende più sintetica la definizione di *carico d'incendio specifico*, con la precisazione che è riferito all'unità di superficie [lorda]{.underline} e che le indicazioni per il calcolo del carico di incendio specifico di progetto ($q_{f,d}$) sono fornite nel decreto del Ministro dell'Interno 9 marzo 2007 e nel D.M. 3 agosto 2015; la definizione del carico di incendio specifico di progetto può essere altresì effettuata attraverso la norma UNI EN 1991-1-2 integrata dalla corrispondente Appendice Nazionale che richiama i due decreti citati.
+
+ 
+
+ Si precisa che nel caso di presenza di elementi strutturali *lignei* è possibile considerare solo una quota parte del loro contributo alla determinazione del carico di incendio, da definire con riferimento a riconosciute normative o documenti di comprovata validità; utili riferimenti sono disponibili nella lettera circolare della Direzione Centrale per la Prevenzione e la Sicurezza Tecnica del Dipartimento dei Vigili del Fuoco, del Soccorso Pubblico e della Difesa Civile prot. P414/4122 sott. 5 del 28/5/2008 o nel D.M. 3 agosto 2015.
+
+ 
+

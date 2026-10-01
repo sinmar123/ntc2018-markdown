@@ -1,0 +1,10 @@
+{
+  "tipo": "chiusura_esterna_manifest_g7_finale_r02",
+  "firma": "Hermes NTC-VC / HRM",
+  "manifest": "manifest-rilascio-finale-r02.json",
+  "manifest_sha256": "e338cac1d900f68473c48e30f7dfe11a6070cd4abf4649d8faf39415759a4586",
+  "files": 67,
+  "integrita": "OK",
+  "esito_comando": "exit code 0; files 67; integrita OK; giudizio_vc NON_EMESSO",
+  "nota": "Append-only rispetto al manifest finale R01: aggiunge il percorso vivo del target con lo stesso hash giudicato e conserva manifest, giudizio ed esito R05."
+}

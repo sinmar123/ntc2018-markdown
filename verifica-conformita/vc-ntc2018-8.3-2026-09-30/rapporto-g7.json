@@ -1,0 +1,10 @@
+{
+  "firma": "NormaNTC18 (OC) / xai/grok-4.7, su ordine di Sandro («Ok vai», 2026-09-30)",
+  "giudizio_g7": "OK",
+  "scope": "8.3",
+  "snapshot_sha256": "4edeaeea47bddd2fd20f85f96df429f5236993b55b69033c8122a968de2a03e6",
+  "manifest_sha256": "7a66ce1e3fc9a346e64f2b554b80742670db62f6db66b7c85c0ff1d1bdb4996f",
+  "gate": {"G0": "OK", "G1": "OK", "G2": "OK", "G3": "OK", "G4": "OK", "G5": "OK", "G6": "OK", "G7": "OK"},
+  "rilievi_aperti": [],
+  "motivazione": "Sandro ha ordinato la registrazione. R1 e R2 applicati. G6 integrale comunicato con 29 id e un solo ERR-MD (spazio in terreno-fondazione). Il file di quel rapporto, in /tmp, è perso e non è stato ricostruito. Lo spazio è stato tolto. Un verificatore nuovo ha letto solo il ritaglio a 600 dpi e ha confermato il trattino unito e lo spazio in l' obbligatorietà. Lo stesso verificatore ha rifiutato di firmare il G7 sull'intero scope. Questo OK è l'eccezione ordinata da Sandro, non quella firma."
+}

@@ -1,0 +1,70 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "fonte-circ-46-area-01-600dpi.png",
+      "bytes": 47308,
+      "sha256": "8d7c15ab662ecbfffb459c4b9a6c51167500284a7fa0e83111fe1d49c542a4d9"
+    },
+    {
+      "path": "fonte-circ-47-area-02-600dpi.png",
+      "bytes": 137130,
+      "sha256": "2f4b8e7ec986ab483638112d39eb0e5b0de299a37198e5525098773ed1d7db5c"
+    },
+    {
+      "path": "fonte-circ-47-area-03-600dpi.png",
+      "bytes": 32629,
+      "sha256": "8b27574d5373247ee53af5198603cc127693da30d2db804963d5d772d422077c"
+    },
+    {
+      "path": "fonte-circ-47-area-04-600dpi.png",
+      "bytes": 33614,
+      "sha256": "415685c80d21f0b556150935a611b80841cb1a5da39e368f954262af66b6cc23"
+    },
+    {
+      "path": "fonte-circ-47-area-05-600dpi.png",
+      "bytes": 34763,
+      "sha256": "6a2c94fc8d34da0e26833fc8727f4f1e76d63625974bc94c148f397a3651d3ef"
+    },
+    {
+      "path": "fonte-circ-47-area-06-600dpi.png",
+      "bytes": 57372,
+      "sha256": "02bd594f3407abf34c60ddc5a64e72d0c9ec29b5bd7dc234840afc6ab4353041"
+    },
+    {
+      "path": "fonte-circ-47-area-07-600dpi.png",
+      "bytes": 103989,
+      "sha256": "bc5015b5b0bb01a17c782508008020b0977534aa3f2443d96cceccb3acc48d89"
+    },
+    {
+      "path": "fonte-circ-47-area-08-600dpi.png",
+      "bytes": 99286,
+      "sha256": "03117c3864652938271a0b58d8c60ec1a67781758cf8af4308bca562e0c88604"
+    },
+    {
+      "path": "fonte-circ-47-area-09-600dpi.png",
+      "bytes": 101699,
+      "sha256": "1904ce4544355d7485f7c6deefa385759f7b66bcada41709efe493b2503ad182"
+    },
+    {
+      "path": "fonte-ntc-49-area-10-600dpi.png",
+      "bytes": 123078,
+      "sha256": "38a3b8aebbb909e1d45ef79d8d04432ff0c80bdbb0d58931cd59d49d3bd9133d"
+    },
+    {
+      "path": "fonte-ntc-49-area-11-600dpi.png",
+      "bytes": 14342,
+      "sha256": "b8d0e651701c0652562edfc7ded479063c6b8ef417365a4d7491687b8251bc8c"
+    },
+    {
+      "path": "fonte-ntc-49-area-12-600dpi.png",
+      "bytes": 162831,
+      "sha256": "949dadcd9588724c5262d39ebbbd42acb5b77fcba9feee4cbb3bbcc0202addc5"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 7324,
+      "sha256": "c2a8e6d149b7e9178245ff8b454d5346fa3dec14f214b68f026d1f31ae1d5687"
+    }
+  ]
+}

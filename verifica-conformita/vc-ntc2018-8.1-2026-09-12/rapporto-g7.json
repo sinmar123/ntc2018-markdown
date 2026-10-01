@@ -1,0 +1,10 @@
+{
+  "firma": "GROK-V3 / grok-4.6 xhigh",
+  "giudizio_g7": "OK",
+  "scope": "8.1",
+  "snapshot_sha256": "80a2c5a3af47c879dda192b43e7a729fd81a9c30fd5a53407cb2a4c08bdd832b",
+  "manifest_sha256": "1f88b13eefe384615093760d5d3ee2276469f636dd2b93b58885f001ce7574cb",
+  "gate": {"G0":"OK","G1":"OK","G2":"OK","G3":"OK","G4":"OK","G5":"OK","G6":"OK","G7":"OK"},
+  "rilievi_aperti": [],
+  "motivazione": "G7 sul § 8.1 (VC-NTC/4), non un nuovo G6. Copertura integrale dal confronto R02: 14/14 (NTC-8.1-RUB/P1/P2, CIRC-C8-ETI/TIT/P1–P4, CIRC-C8.1-RUB/P1–P4). I due ERR-MD di corsivo CIRC-C8.1-P1 e CIRC-C8.1-P3 sono chiusi dal controllo localizzato VC-NTC/4 (attestazione-modifiche.json, esito OK: solo i corsivi Markdown su «Le costruzioni esistenti», i due virgolettati NTC e «struttura completamente realizzata»; zero altre variazioni; resa e Gazzetta coincidenti). giro_g6 resta 2. Gate G0–G5 OK dal rapporto C; G6 = R02 + controllo modifiche OK; G7 questo giudizio. Zero residui. Nessuna revisione umana integrale. Isolamento istruttivo."
+}

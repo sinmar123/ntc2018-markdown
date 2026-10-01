@@ -1,0 +1,35 @@
+{
+  "versione": 2,
+  "schema_inventario": 2,
+  "pagine": [
+    "ntc:63",
+    "circ:81"
+  ],
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 316,
+      "sha256": "0c4d526f8a19e3b57b11ad6c96f5833c45ccd32e205bd470a5ddc3e7b209cb05"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "fonte-circ-81.png",
+      "bytes": 1345893,
+      "sha256": "88cfbd26977364f00a8c05c6ad883abe0476082ad8c15094e0e6929c9774b8e6"
+    },
+    {
+      "path": "fonte-ntc-63.png",
+      "bytes": 933088,
+      "sha256": "9c8c46f2cef7e2d7fbe18958d92e5bcc08bc4577f33a8532efa6ce9a5644da0e"
+    }
+  ]
+}

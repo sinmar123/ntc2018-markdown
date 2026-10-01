@@ -1,0 +1,185 @@
+{
+  "firma": "CDX",
+  "prove_fonte": [
+    {
+      "file": "fonte-circ-46-area-01-600dpi.png",
+      "pagina": "circ:46",
+      "bbox_pdf": [
+        68,
+        502,
+        235,
+        555
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "8d7c15ab662ecbfffb459c4b9a6c51167500284a7fa0e83111fe1d49c542a4d9"
+    },
+    {
+      "file": "fonte-circ-47-area-02-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        68,
+        216,
+        528,
+        275
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "2f4b8e7ec986ab483638112d39eb0e5b0de299a37198e5525098773ed1d7db5c"
+    },
+    {
+      "file": "fonte-circ-47-area-03-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        122,
+        435,
+        475,
+        452
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "8b27574d5373247ee53af5198603cc127693da30d2db804963d5d772d422077c"
+    },
+    {
+      "file": "fonte-circ-47-area-04-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        122,
+        550,
+        475,
+        567
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "415685c80d21f0b556150935a611b80841cb1a5da39e368f954262af66b6cc23"
+    },
+    {
+      "file": "fonte-circ-47-area-05-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        120,
+        667,
+        478,
+        688
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "6a2c94fc8d34da0e26833fc8727f4f1e76d63625974bc94c148f397a3651d3ef"
+    },
+    {
+      "file": "fonte-circ-47-area-06-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        68,
+        165,
+        415,
+        220
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "02bd594f3407abf34c60ddc5a64e72d0c9ec29b5bd7dc234840afc6ab4353041"
+    },
+    {
+      "file": "fonte-circ-47-area-07-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        165,
+        337,
+        425,
+        437
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "bc5015b5b0bb01a17c782508008020b0977534aa3f2443d96cceccb3acc48d89"
+    },
+    {
+      "file": "fonte-circ-47-area-08-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        165,
+        450,
+        425,
+        552
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "03117c3864652938271a0b58d8c60ec1a67781758cf8af4308bca562e0c88604"
+    },
+    {
+      "file": "fonte-circ-47-area-09-600dpi.png",
+      "pagina": "circ:47",
+      "bbox_pdf": [
+        165,
+        565,
+        425,
+        668
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "sha256": "1904ce4544355d7485f7c6deefa385759f7b66bcada41709efe493b2503ad182"
+    },
+    {
+      "file": "fonte-ntc-49-area-10-600dpi.png",
+      "pagina": "ntc:49",
+      "bbox_pdf": [
+        68,
+        340,
+        528,
+        425
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "sha256": "38a3b8aebbb909e1d45ef79d8d04432ff0c80bdbb0d58931cd59d49d3bd9133d"
+    },
+    {
+      "file": "fonte-ntc-49-area-11-600dpi.png",
+      "pagina": "ntc:49",
+      "bbox_pdf": [
+        65,
+        225,
+        230,
+        252
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "sha256": "b8d0e651701c0652562edfc7ded479063c6b8ef417365a4d7491687b8251bc8c"
+    },
+    {
+      "file": "fonte-ntc-49-area-12-600dpi.png",
+      "pagina": "ntc:49",
+      "bbox_pdf": [
+        65,
+        280,
+        535,
+        353
+      ],
+      "dpi": 600,
+      "metodo": "render PyMuPDF da PDF ufficiale; aree vettoriali",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "sha256": "949dadcd9588724c5262d39ebbbd42acb5b77fcba9feee4cbb3bbcc0202addc5"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "firma": "Codex / CDX, ruolo V critico indipendente e decisore G7; sessione 01a0910c-8056-7bb0-ae6b-aecc452a0c0a; modello gpt-5.6-sol; ragionamento xhigh",
+  "giudizio_g7": "OK",
+  "scope": "3.5",
+  "snapshot_sha256": "bce58988f35b359df4ea503c1ce0785f4c11c97d395d57dc8d6ff13a913a9344",
+  "manifest_sha256": "2cee48a46d7bc510cc21a140b1b4159e5f508a8b950c04e9fb0ec67d6b201f66",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "motivazioni": [
+    "Il perimetro comprende integralmente NTC § 3.5, pagine fisiche 63-66, e Circolare § C3.5, pagina fisica 81; la vigenza è documentata dalla ricognizione del 2026-09-09 e dal ricontrollo ufficiale mirato del 2026-09-11.",
+    "Le correzioni adjudicate dopo il primo G6 sono state applicate da E distinto mediante lista congelata e addendum, poi riconfrontate da C sul nuovo snapshot e sulla resa canonica di cinque pagine. Testo, otto formule, tre tabelle, due figure, asset e apparati risultano completi e leggibili.",
+    "Il secondo G6 fonte-prima ha coperto integralmente 36/36 unità uniche sul medesimo snapshot, con zero rilievi. La rettifica append-only identifica correttamente i raster originali delle figure e precisa i metadati temporali e di sessione senza cambiare input, target, copertura o giudizio; C l'ha accolta.",
+    "La verifica meccanica del manifest conferma 133/133 file per dimensione e SHA-256; i dieci elementi dello snapshot coincidono con i file vivi e le nove copie consegnate al G6 coincidono con gli output G5. Non risultano AF-COR, ERR-MD, ERR-AUDIT, dubbi o adjudicazioni aperte; AF-3.5.2-01 è dichiarata e conservata alla lettera."
+  ],
+  "limiti": [
+    "La vigenza è attestata alle sole date 2026-09-09 e 2026-09-11; una modifica successiva delle fonti richiede una nuova valutazione.",
+    "La catena di controllo è interamente eseguita da agenti AI. Sandro ha autorizzato lo scope, ma non ha svolto né attestato una revisione umana integrale dello snapshot.",
+    "L'isolamento di V è istruttivo e sostenuto dalla traccia delle letture, non imposto da una sandbox del filesystem.",
+    "Il controllo visivo riguarda il PDF prodotto dal renderer canonico locale; la resa in viewer diversi resta soggetta alla normalizzazione dichiarata nel catalogo.",
+    "La prova del secondo lettore fonte-only è rappresentata nel manifest dal resoconto e dalla traccia filtrata; il log JSONL integrale, identificato per sessione e hash, è conservato fuori dal dossier definitivo. La conclusione sul punto è comunque confermata autonomamente dal successivo G6 integrale."
+  ]
+}

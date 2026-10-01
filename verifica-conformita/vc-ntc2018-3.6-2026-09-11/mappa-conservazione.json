@@ -1,0 +1,135 @@
+{
+  "firma": "CDX",
+  "spiegazione": "I documenti originari restano byte-identici. Questa mappa risolve i percorsi temporanei nelle copie definitive. La preparazione respinta resta nello storico di lavorazione. Il manifest dello snapshot r01 è storico e si riscontra contro le copie pre-E-r02 qui individuate, non contro i target vivi r02; l’annotazione è rimasta identica.",
+  "copie": [
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\metodo",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/metodo",
+      "file": 2
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g1",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g1",
+      "file": 6
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\e-r01",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r01",
+      "file": 6
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\e-af-r01",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-af-r01",
+      "file": 5
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\e-r02",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02",
+      "file": 6
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r02",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r02",
+      "file": 26
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\c",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/c",
+      "file": 34
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b01",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b01",
+      "file": 8
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b02",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b02",
+      "file": 8
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g5-r01\\b03",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g5-r01/b03",
+      "file": 7
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g6-r01-valido",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01",
+      "file": 51
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g6-r01-fonti-supplementari",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-fonti",
+      "file": 15
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g6-r01-tentativo-iniziale\\b01\\prove-v",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01",
+      "file": 22
+    },
+    {
+      "origine": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b01\\prove-v",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b01"
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g6-r01-tentativo-iniziale\\b02\\prove-v",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02",
+      "file": 26
+    },
+    {
+      "origine": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b02\\prove-v",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b02"
+    },
+    {
+      "origine": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\cap03\\vc-3.6-20260911-cdx\\g6-r01-tentativo-iniziale\\b03\\prove-v",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03",
+      "file": 9
+    },
+    {
+      "origine": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r01-20260911\\b03\\prove-v",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r01-prove/b03"
+    },
+    {
+      "origine": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-g6-r02-20260911",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02",
+      "file": 40
+    },
+    {
+      "origine": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-fonti-vettoriali-r02-20260911",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-fonti",
+      "file": 9
+    },
+    {
+      "origine": "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc36-prove-v-r02-20260911",
+      "copia": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/g6-r02-prove",
+      "file": 48
+    }
+  ],
+  "riscontro_snapshot_r01": [
+    {
+      "percorso_snapshot_r01": "cap03/3.6-introduzione.md",
+      "copia_storica_verificata": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6-introduzione.md",
+      "sha256": "65355da12f44a3cfe2ed8ccd51ee9d7004ac7fccf8c320d0db19cf19ab8a3cfd"
+    },
+    {
+      "percorso_snapshot_r01": "cap03/3.6.1-azioni-eccezionali-incendio.md",
+      "copia_storica_verificata": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6.1-azioni-eccezionali-incendio.md",
+      "sha256": "aca057650fb132f8defc6385afb328e1818cfb1c0bd9465fcbcc7c5090ac3e8d"
+    },
+    {
+      "percorso_snapshot_r01": "cap03/3.6.2-azioni-eccezionali-esplosioni.md",
+      "copia_storica_verificata": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6.2-azioni-eccezionali-esplosioni.md",
+      "sha256": "79876f12fb9e50c415d277c4826895167ba079037171f46ddae97963226ed748"
+    },
+    {
+      "percorso_snapshot_r01": "cap03/3.6.3-azioni-eccezionali-urti.md",
+      "copia_storica_verificata": "verifica-conformita/vc-ntc2018-3.6-2026-09-11/e-r02/pre-e-r02/3.6.3-azioni-eccezionali-urti.md",
+      "sha256": "141db059f59ab9ffa3aead41d11dd703d567bd1f4ba48091881ec22de58ed5db"
+    },
+    {
+      "percorso_snapshot_r01": "cap03/annotazioni/3.6-anomalie-fonte.md",
+      "copia_storica_verificata": "cap03/annotazioni/3.6-anomalie-fonte.md",
+      "sha256": "bd1f92365753739478a4b9f7af02ce26c5079043752799c274c05eb157dd5612"
+    }
+  ]
+}

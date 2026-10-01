@@ -1,0 +1,119 @@
+{
+  "firma": "GROK-V2 / grok-4.6 xhigh",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "NTC-8.1-RUB",
+      "pagina": "ntc:294",
+      "riferimento": "rubrica 8.1. OGGETTO, prima riga normativa dopo la testata; controllo integrale"
+    },
+    {
+      "id": "NTC-8.1-P1",
+      "pagina": "ntc:294",
+      "riferimento": "primo capoverso di 8.1 (due righe, da «Il presente capitolo» a «costruzioni esistenti»); controllo integrale"
+    },
+    {
+      "id": "NTC-8.1-P2",
+      "pagina": "ntc:294",
+      "riferimento": "secondo capoverso di 8.1 (due righe, da «Si definisce» a «completamente realizzata.»); termine del perimetro NTC; controllo integrale"
+    },
+    {
+      "id": "CIRC-C8-ETI",
+      "pagina": "circ:253",
+      "riferimento": "etichetta di capitolo in riquadro grigio «CAPITOLO C8.»; controllo integrale"
+    },
+    {
+      "id": "CIRC-C8-TIT",
+      "pagina": "circ:253",
+      "riferimento": "titolo di capitolo «COSTRUZIONI ESISTENTI» sotto la riga di filetto; resto pagina in bianco; controllo integrale"
+    },
+    {
+      "id": "CIRC-C8-P1",
+      "pagina": "circ:254",
+      "riferimento": "primo dei quattro capoversi introduttivi C8, prima di C8.1 (da «Le costruzioni esistenti rappresentano»); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8-P2",
+      "pagina": "circ:254",
+      "riferimento": "secondo capoverso introduttivo C8 (da «L'importanza che le criticità locali»); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8-P3",
+      "pagina": "circ:254",
+      "riferimento": "terzo capoverso introduttivo C8 (da «Tale maggiore attenzione si è anche tradotta»); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8-P4",
+      "pagina": "circ:254",
+      "riferimento": "quarto capoverso introduttivo C8 (da «La presente Circolare, quindi» fino a «ricondotti a questo testo.»); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8.1-RUB",
+      "pagina": "circ:254",
+      "riferimento": "rubrica C8.1 OGGETTO; controllo integrale"
+    },
+    {
+      "id": "CIRC-C8.1-P1",
+      "pagina": "circ:254",
+      "riferimento": "primo capoverso di C8.1 (definizione con rinvio al § 8.1 NTC e virgolettati); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8.1-P2",
+      "pagina": "circ:254",
+      "riferimento": "secondo capoverso di C8.1 (una riga, da «Detta definizione»); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8.1-P3",
+      "pagina": "circ:254",
+      "riferimento": "terzo capoverso di C8.1 (espressione in corsivo «struttura completamente realizzata», collaudo/strutture); controllo integrale"
+    },
+    {
+      "id": "CIRC-C8.1-P4",
+      "pagina": "circ:254",
+      "riferimento": "quarto capoverso di C8.1 (D.P.C.M. 9 febbraio 2011 e rinvio al punto 8.4 NTC); termine del perimetro Circolare; controllo integrale"
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:294",
+      "riferimento": "apparato di navigazione in testata (data, supplemento, serie)"
+    },
+    {
+      "pagina": "ntc:294",
+      "riferimento": "da rubrica 8.2. CRITERI GENERALI all'intero corpo di 8.2 (capoversi ed elenchi)"
+    },
+    {
+      "pagina": "ntc:294",
+      "riferimento": "da rubrica 8.3. VALUTAZIONE DELLA SICUREZZA al resto della colonna fino a fine pagina"
+    },
+    {
+      "pagina": "ntc:294",
+      "riferimento": "apparato di piede (folio stampato e riquadri di sicurezza)"
+    },
+    {
+      "pagina": "circ:253",
+      "riferimento": "apparato di navigazione in testata (data, supplemento, serie)"
+    },
+    {
+      "pagina": "circ:253",
+      "riferimento": "apparato di piede (folio stampato e riquadri di sicurezza)"
+    },
+    {
+      "pagina": "circ:254",
+      "riferimento": "apparato di navigazione in testata (data, supplemento, serie)"
+    },
+    {
+      "pagina": "circ:254",
+      "riferimento": "da rubrica C8.2 CRITERI GENERALI ai quattro capoversi visibili di C8.2"
+    },
+    {
+      "pagina": "circ:254",
+      "riferimento": "nota a piè ¹ (due capoversi; richiamo nel testo di C8.2)"
+    },
+    {
+      "pagina": "circ:254",
+      "riferimento": "apparato di piede (folio stampato e riquadri di sicurezza)"
+    }
+  ],
+  "dubbi": []
+}

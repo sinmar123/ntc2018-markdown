@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-09T20:55:43+02:00",
+  "richiesta": "vc-345-g6-r03-rettifica-001.richiesta.json",
+  "stato": "eseguita",
+  "fase": "confronto",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione della fase 1: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (2 user messages, 50 total messages)\n\nsession_id: 20260909_165403_00ba4e\nOsservato: nella cartella era presente la consegna successiva ISTRUZIONI-RETTIFICA-G6-001.md, che vieta di sovrascrivere rapporto-g6.json e richiede la verifica append-only del solo delta CIRC81-PRO-001.\n\nVerificato: gli estremi rettificati delimitano correttamente il primo capoverso del § C3.4.5. Fonte, testo.md, PDF e PNG coincidono. Il rilievo ERR-AUDIT originario è chiuso e non sono emersi altri rilievi nel delta.\n\nScritto:\n\n/blocco/esito-rettifica-g6-001.json\n\nEsito della rettifica: OK\nRilievo originario: CHIUSO\nEsito G6 post-rettifica: OK\n\n/blocco/rapporto-g6.json non è stato modificato. Mi fermo senza avviare G7.\nrapporto-g6.json scritto\n"
+}

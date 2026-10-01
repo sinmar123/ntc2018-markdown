@@ -1,0 +1,18 @@
+{
+  "firma": "Codex / CDX",
+  "scope": "3.5",
+  "tipo": "errata_append_only_procedura_congelata",
+  "file": "metodo/PROCEDURA-VC-r03-congelata.md",
+  "sha256": "4bd4440a6f9b204338e97ecf78c9bb74ab0d9e04f7478b9c97c436c62e817c7c",
+  "identificazione_autoritativa": {
+    "procedura_id": "VC-NTC",
+    "revisione": 3,
+    "data": "2026-09-09"
+  },
+  "rettifica": {
+    "posizione": "§ 2, periodo sui campi della scheda",
+    "testo_congelato": "procedura: VC-NTC/2",
+    "lettura_rettificata": "procedura: VC-NTC/3"
+  },
+  "effetto": "refuso nel richiamo esemplificativo; criteri, gate, canone e autorizzazioni invariati. Stessa rettifica già documentata nel dossier 3.4.5; applicata qui al § 3.5 senza alterare il file congelato."
+}

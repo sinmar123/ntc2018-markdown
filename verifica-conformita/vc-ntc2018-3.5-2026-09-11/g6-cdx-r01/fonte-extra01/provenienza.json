@@ -1,0 +1,17 @@
+{
+  "firma": "Codex / CDX, fornitura meccanica fonte",
+  "fonte": "Gazzetta Ufficiale, DM 17 gennaio 2018",
+  "pdf": "GU-2018-42-SO8-DM-17-01-2018.pdf",
+  "pdf_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+  "pagina_fisica": 64,
+  "rettangolo_punti_pdf": [
+    76.0,
+    180.0,
+    532.0,
+    211.0
+  ],
+  "dpi": 600,
+  "metodo": "PyMuPDF page.get_pixmap(dpi=600,clip=rect), dati vettoriali page.get_text(rawdict,clip=rect)",
+  "domanda_V": "Quale segno di punteggiatura stampa immediatamente dopo anni nella seconda voce rientrata di 3.5.2?",
+  "nota": "Sola fonte; nessuna lettura proposta. Dati vettoriali ausiliari, prevale il segno stampato."
+}

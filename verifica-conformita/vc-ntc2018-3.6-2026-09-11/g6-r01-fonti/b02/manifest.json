@@ -1,0 +1,15 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "fonte-vettoriale.pdf",
+      "bytes": 862642,
+      "sha256": "9ec25459057d9148733eeee55b94340cba67eeb1e9de2d2e6fe7ce99995d0a79"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 884,
+      "sha256": "0f7208d1459d36e7dc9c6af56ee311a876364e34340393d1080b93acd2afca65"
+    }
+  ]
+}

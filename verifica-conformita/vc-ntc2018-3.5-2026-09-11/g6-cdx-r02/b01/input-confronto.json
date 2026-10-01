@@ -1,0 +1,105 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 430,
+      "sha256": "78e3dbcc73355e16a37510688b927662c095965cb6a184566c00c25edb0fd8aa"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8705,
+      "sha256": "546023234aec119b42de98bb7499187fdb8445f1ac83e5b32743e13174c1eb44"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 458,
+      "sha256": "58c0cc1f43d224b0eec9e2bc43e624e25bd8e89a97c388c72047438231348039"
+    },
+    {
+      "path": "fonte-circ-81.png",
+      "bytes": 1345893,
+      "sha256": "88cfbd26977364f00a8c05c6ad883abe0476082ad8c15094e0e6929c9774b8e6"
+    },
+    {
+      "path": "fonte-ntc-63.png",
+      "bytes": 933088,
+      "sha256": "9c8c46f2cef7e2d7fbe18958d92e5bcc08bc4577f33a8532efa6ce9a5644da0e"
+    },
+    {
+      "path": "fonte-ntc-64.png",
+      "bytes": 1618180,
+      "sha256": "dc2b7bbb2d668cf45eb9f8d6bf98770e897f20bb889c6110f35e4347167d2505"
+    },
+    {
+      "path": "fonte-ntc-65.png",
+      "bytes": 1056134,
+      "sha256": "42e6c87d94fd6b5517ced73586dbdd129821eae8ce434c333828e464d93bb442"
+    },
+    {
+      "path": "fonte-ntc-66.png",
+      "bytes": 1232199,
+      "sha256": "b0dab7d141ed1050ec1083b89b45b36034f8d772c92f6780d89bafb115f81955"
+    },
+    {
+      "path": "img/fig-3.5.1-zone-temperatura-mappa.png",
+      "bytes": 716633,
+      "sha256": "fec8da7e6de1b4009d6d7a79ce88e7d0c136bd252e5242f5f5a8ab25536f7ff1"
+    },
+    {
+      "path": "img/fig-3.5.2-temperatura-elemento-schema.png",
+      "bytes": 23931,
+      "sha256": "42d8357bab9e67729e98dfc4ca9de4e360a865b0f583d47a9d0d61e386c85b02"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 1362,
+      "sha256": "0709f93c792deda92aad8814285c9601938852ecafb16cd780c5159b97490a03"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 9533,
+      "sha256": "32831eedadc8d07e5e7df6df689e3485a214e01847842e1163957831c4caa73b"
+    },
+    {
+      "path": "resa-target/target-p01-200dpi.png",
+      "bytes": 175108,
+      "sha256": "4a07ee6d84271ddb96d053fcfca2dfe8d46a2edd09ed9fd530e3d5004ae72e1e"
+    },
+    {
+      "path": "resa-target/target-p02-200dpi.png",
+      "bytes": 655658,
+      "sha256": "9438a99d0f4de3d479bbfe083705f349234ad58b8f6143451baa86a82e4e6e99"
+    },
+    {
+      "path": "resa-target/target-p03-200dpi.png",
+      "bytes": 246695,
+      "sha256": "ad0b02ec48a4190c7d60cc4a999b0ef488260a0392878bd0bdfc4abb206a31a8"
+    },
+    {
+      "path": "resa-target/target-p04-200dpi.png",
+      "bytes": 202362,
+      "sha256": "c1adf4edf6ea9202cb06a5a513c63cc4158ec9ba755f5e862fe680edd60c8a4c"
+    },
+    {
+      "path": "resa-target/target-p05-200dpi.png",
+      "bytes": 298850,
+      "sha256": "a3b381c6c2262790cc8f8266c9dacf2d895691cef663cf5a703044a5e3ec6b85"
+    },
+    {
+      "path": "resa-target/target-scope.pdf",
+      "bytes": 704931,
+      "sha256": "ed8cd4258d01464bca80d358f3533822177c3225f99c50ef391c99a796983f76"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 8490,
+      "sha256": "cfe9119fad6da4d7e1f778b8b69ee04f8d67ae5c62626d7e876c1fcf7c1a31b1"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "quando": "2026-09-10T09:43:49+02:00",
+  "richiesta": "vc-345-g7-r03.richiesta.json",
+  "stato": "eseguita",
+  "fase": "g7",
+  "blocco": "/home/sandro/.hermes-ntc-vc/vc-ntc-3.4.5-g6-r03/b01",
+  "uscita": 0,
+  "log": "riprendo la sessione del G6: 20260909_165403_00ba4e\n\n↻ Resumed session 20260909_165403_00ba4e \"Esegui fase 1 FONTE-PRIMA #6\" (5 user messages, 138 total messages)\nOsservato: il delta R03 chiude correttamente i due rilievi del G7 R02. L’impronta corretta del manifest R01 è riconciliata e l’errata append-only chiarisce il richiamo VC-NTC/2 rimasto nella procedura R3. Gli invarianti dichiarati di target, fonti, asset e G6 risultano mantenuti.\n\nScritto:\n\n/blocco/giudizio-g7.json\n\nGiudizio G7 R03: KO\n\nResta aperto un ERR-AUDIT: le evidenze non riportano l’impronta SHA-256 di manifest-rilascio-r03.json, richiesta dallo schema del giudizio positivo. In questa sessione non dispongo di uno strumento per calcolarla e non posso inventarla.\n\nNon ho ricalcolato le altre impronte né rieseguito script, render o G6. Non ho rifatto l’inventario e non ho modificato altre evidenze.\n\nsession_id: 20260909_165403_00ba4e\ngiudizio-g7.json scritto\n"
+}

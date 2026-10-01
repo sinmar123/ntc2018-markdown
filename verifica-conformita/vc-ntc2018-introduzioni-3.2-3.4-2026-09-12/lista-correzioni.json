@@ -1,0 +1,225 @@
+{
+  "firma": "CDX",
+  "data": "2026-09-12",
+  "scope": [
+    "cap03/3.2-introduzione.md",
+    "cap03/3.3-introduzione.md",
+    "cap03/3.4-introduzione.md"
+  ],
+  "fase": "confronto iniziale G0-G4",
+  "stato": "target invariati; attendere decisione di Sandro",
+  "correzioni": [
+    {
+      "id": "NC-C-01",
+      "azione": "sostituisci_testo_esatto",
+      "file": "multipli",
+      "posizione": "rubriche NTC e Circolare",
+      "pagina_prova": [
+        "prove/ntc-p49-rubrica-3.2-bbox-65-225-230-252-600dpi.png",
+        "prove/ntc-p56-rubrica-3.3-bbox-65-88-245-115-600dpi.png",
+        "prove/ntc-p61-rubrica-3.4-bbox-68-86-250-114-600dpi.png",
+        "prove/circ-p46-rubrica-3.2-bbox-68-502-235-555-600dpi.png",
+        "prove/circ-p54-rubrica-3.3-bbox-68-343-245-403-600dpi.png",
+        "prove/circ-p76-rubrica-3.4-bbox-68-88-265-135-600dpi.png"
+      ],
+      "prima": "vedi occorrenze",
+      "dopo": "vedi occorrenze",
+      "classe": "ERR-MD",
+      "effetto": "presentazione",
+      "decisione": "da_approvare",
+      "occorrenze": [
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 3",
+          "pagina": "NTC p. fisica 49",
+          "prima": "# 3.2. Azione sismica",
+          "dopo": "# 3.2. AZIONE SISMICA"
+        },
+        {
+          "file": "cap03/3.3-introduzione.md",
+          "posizione": "riga 3",
+          "pagina": "NTC p. fisica 56",
+          "prima": "# 3.3. Azioni del vento",
+          "dopo": "# 3.3. AZIONI DEL VENTO"
+        },
+        {
+          "file": "cap03/3.4-introduzione.md",
+          "posizione": "riga 3",
+          "pagina": "NTC p. fisica 61",
+          "prima": "# 3.4. Azioni della neve",
+          "dopo": "# 3.4. AZIONI DELLA NEVE"
+        },
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 23",
+          "pagina": "CIRC p. fisica 46",
+          "prima": "## C3.2. Azione sismica",
+          "dopo": "## C3.2 AZIONE SISMICA"
+        },
+        {
+          "file": "cap03/3.3-introduzione.md",
+          "posizione": "riga 11",
+          "pagina": "CIRC p. fisica 54",
+          "prima": "## C3.3. Azioni del vento",
+          "dopo": "## C3.3 AZIONI DEL VENTO"
+        },
+        {
+          "file": "cap03/3.4-introduzione.md",
+          "posizione": "riga 11",
+          "pagina": "CIRC p. fisica 76",
+          "prima": "## C3.4. Azioni della neve",
+          "dopo": "## C3.4 AZIONI DELLA NEVE"
+        }
+      ]
+    },
+    {
+      "id": "NC-C-02",
+      "azione": "sostituisci_testo_esatto",
+      "file": "cap03/3.2-introduzione.md",
+      "posizione": "righe 13-15 e 42-44",
+      "pagina_prova": [
+        "NTC p. fisica 49: prove/ntc-p49-elenco-parametri-bbox-68-340-528-425-600dpi.png",
+        "CIRC p. fisica 47: prove/circ-p47-elenco-parametri-bbox-68-165-415-220-600dpi.png"
+      ],
+      "prima": "vedi occorrenze",
+      "dopo": "vedi occorrenze",
+      "classe": "ERR-MD",
+      "effetto": "presentazione",
+      "decisione": "da_approvare",
+      "occorrenze": [
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "righe 13-15",
+          "pagina": "NTC p. fisica 49",
+          "prima": "- $a_g$ — accelerazione orizzontale massima al sito;\n- $F_o$ — valore massimo del fattore di amplificazione dello spettro in accelerazione orizzontale;\n- $T_C^*$ — valore di riferimento per la determinazione del periodo di inizio del tratto a velocità costante dello spettro in accelerazione orizzontale.",
+          "dopo": "$a_g$ accelerazione orizzontale massima al sito;\n\n$F_o$ valore massimo del fattore di amplificazione dello spettro in accelerazione orizzontale;\n\n$T_C^*$ valore di riferimento per la determinazione del periodo di inizio del tratto a velocità costante dello spettro in accelerazione orizzontale."
+        },
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "righe 42-44",
+          "pagina": "CIRC p. fisica 47",
+          "prima": "- $a_g$ = accelerazione massima al sito;\n- $F_o$ = valore massimo del fattore di amplificazione dello spettro in accelerazione orizzontale;\n- $T_C^*$ = periodo di inizio del tratto a velocità costante dello spettro in accelerazione orizzontale.",
+          "dopo": "$a_g$ = accelerazione massima al sito;\n\n$F_o$ = valore massimo del fattore di amplificazione dello spettro in accelerazione orizzontale;\n\n$T_C^*$ = periodo di inizio del tratto a velocità costante dello spettro in accelerazione orizzontale."
+        }
+      ]
+    },
+    {
+      "id": "NC-C-03",
+      "azione": "sostituisci_testo_esatto",
+      "file": "cap03/3.2-introduzione.md",
+      "posizione": "riga 46",
+      "pagina_prova": "CIRC p. fisica 47: prove/circ-p47-dallo-ingv-simboli-bbox-68-216-528-275-600dpi.png",
+      "prima": "attualmente fornita dall'INGV, mentre",
+      "dopo": "attualmente fornita dallo **INGV**, mentre",
+      "classe": "ERR-MD; la forma della fonte è anomalia A da conservare",
+      "effetto": "contenuto e presentazione",
+      "decisione": "da_approvare"
+    },
+    {
+      "id": "NC-C-04",
+      "azione": "sostituisci_testo_esatto",
+      "file": "cap03/3.2-introduzione.md",
+      "posizione": "riga 48, inizio del capoverso",
+      "pagina_prova": "CIRC p. fisica 47: prove/circ-p47-dallo-ingv-simboli-bbox-68-216-528-275-600dpi.png",
+      "prima": "I valori di $a_g$, $F_o$ e $T_C^*$ sono riportati",
+      "dopo": "I valori di $a_g$, $F_O$ e $T*_{C}$ sono riportati",
+      "classe": "ERR-MD; F_O e T*_{C} sono anomalie A della fonte da conservare",
+      "effetto": "contenuto",
+      "decisione": "da_approvare"
+    },
+    {
+      "id": "NC-C-05",
+      "azione": "sostituisci_testo_esatto",
+      "file": "cap03/3.2-introduzione.md",
+      "posizione": "righe 54, 58 e 62",
+      "pagina_prova": [
+        "CIRC p. fisica 47: prove/circ-p47-didascalia-C3.2.1a-bbox-122-435-475-452-600dpi.png",
+        "CIRC p. fisica 47: prove/circ-p47-didascalia-C3.2.1b-bbox-122-550-475-567-600dpi.png",
+        "CIRC p. fisica 47: prove/circ-p47-didascalia-C3.2.1c-bbox-120-667-478-688-600dpi.png"
+      ],
+      "prima": "vedi occorrenze",
+      "dopo": "vedi occorrenze",
+      "classe": "ERR-MD",
+      "effetto": "presentazione; contenuto per F_o/Fo nella didascalia b",
+      "decisione": "da_approvare",
+      "occorrenze": [
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 54",
+          "prima": "**Fig. C3.2.1 a** - Variabilità di $a_g$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%",
+          "dopo": "**Figura C3.2.1 a** - *Variabilità di $a_g$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%*"
+        },
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 58",
+          "prima": "**Fig. C3.2.1 b** - Variabilità di $F_o$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%",
+          "dopo": "**Figura C3.2.1 b** - *Variabilità di $Fo$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%*"
+        },
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 62",
+          "prima": "**Fig. C3.2.1 c** - Variabilità di $T_C^*$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%",
+          "dopo": "**Figura C3.2.1 c** - *Variabilità di $T_C^*$ con $T_R$: andamento medio sul territorio nazionale ed intervallo di confidenza al 95%*"
+        }
+      ]
+    },
+    {
+      "id": "NC-C-06",
+      "azione": "copia_file_binario",
+      "file": "multipli",
+      "posizione": "tre asset collegati alle righe 52, 56 e 60",
+      "pagina_prova": "CIRC p. fisica 47; fonte vettoriale, render a 600 dpi",
+      "prima": "tre file di destinazione assenti",
+      "dopo": "tre PNG presenti ai percorsi già collegati",
+      "classe": "ERR-MD",
+      "effetto": "contenuto/apparato assente",
+      "decisione": "da_approvare",
+      "occorrenze": [
+        {
+          "file": "cap03/img/fig-C3.2.1a-variabilita-ag-TR.png",
+          "posizione": "asset",
+          "prima": "assente",
+          "dopo": "copia byte per byte da _tmp_render/cap03/vc-introduzioni-3.2-3.4-20260912-cdx/prove/circ-p47-fig-C3.2.1a-vettoriale-bbox-165-337-425-437-600dpi.png"
+        },
+        {
+          "file": "cap03/img/fig-C3.2.1b-variabilita-Fo-TR.png",
+          "posizione": "asset",
+          "prima": "assente",
+          "dopo": "copia byte per byte da _tmp_render/cap03/vc-introduzioni-3.2-3.4-20260912-cdx/prove/circ-p47-fig-C3.2.1b-vettoriale-bbox-165-450-425-552-600dpi.png"
+        },
+        {
+          "file": "cap03/img/fig-C3.2.1c-variabilita-Tc-TR.png",
+          "posizione": "asset",
+          "prima": "assente",
+          "dopo": "copia byte per byte da _tmp_render/cap03/vc-introduzioni-3.2-3.4-20260912-cdx/prove/circ-p47-fig-C3.2.1c-vettoriale-bbox-165-565-425-668-600dpi.png"
+        }
+      ]
+    },
+    {
+      "id": "NC-C-07",
+      "azione": "sostituisci_testo_esatto",
+      "file": "cap03/3.2-introduzione.md",
+      "posizione": "riga 9, due simboli inline",
+      "pagina_prova": "NTC p. fisica 49: prove/ntc-p49-simboli-inline-bbox-65-280-535-353-600dpi.png; ritaglio osservato da CDX, pedici g/e confermati",
+      "prima": "vedi occorrenze",
+      "dopo": "vedi occorrenze",
+      "classe": "ERR-MD",
+      "effetto": "presentazione",
+      "decisione": "da_approvare",
+      "occorrenze": [
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 9, prima proposizione",
+          "prima": "massima attesa a_g in condizioni",
+          "dopo": "massima attesa $a_g$ in condizioni"
+        },
+        {
+          "file": "cap03/3.2-introduzione.md",
+          "posizione": "riga 9, seconda proposizione",
+          "prima": "ad essa corrispondente S_e(T), con riferimento",
+          "dopo": "ad essa corrispondente $S_e(T)$, con riferimento"
+        }
+      ]
+    }
+  ]
+}
