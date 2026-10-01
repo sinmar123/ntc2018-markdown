@@ -6,8 +6,10 @@
 - Nuovi: `.gitignore` (fuori `raw/`, `_tmp_render/`, `old/`, `.agents/`, i prompt consumati o in corso, immagini e pdf delle evidenze tranne i due PDF della Gazzetta), sezione «Sessione cloud» in `CLAUDE.md`, `PROMPT-IN-CORSO-ntc2018-repository-pubblico.md` per il W520 e `ntc2018-261001-prompt-cloud-sito.md` per la prima sessione cloud.
 - Controllo dei dati personali sui file pubblicabili: solo indirizzi di assistenza della Gazzetta e dell'IPZS, nessuna chiave, nessun numero di telefono.
 - Nessun file dei capitoli, del registro o della procedura è stato toccato.
+- Repository locale creato sul W520 da CC via ssh dal P53 (prompt preso in carico): commit `76e1aef`, 1.300 file (619 dei capitoli, 657 delle verifiche, gli altri di governo e strumenti), 76,7 MiB. Le sole immagini e i soli pdf sono le 117 figure dei capitoli e i due PDF della Gazzetta. Aggiunto `.gitattributes` con `* -text`: il W520 ha `core.autocrlf=true` di sistema, e senza quella riga git avrebbe cambiato i finali di riga, e con loro l'impronta dei file verificati; controllato con `git ls-files --eol` che i byte restano quelli del disco.
+- Non ancora su GitHub: sul W520 la chiave di `gh` è scaduta, e da ssh git non raggiunge le credenziali.
 
-Prossima azione: sul W520, `PROMPT-IN-CORSO-ntc2018-repository-pubblico.md`; prima va chiarito con Sandro se la VC con quattro righe `IN-CORSO` nel capitolo 8 è ferma.
+Prossima azione: Sandro, dallo schermo del W520, rinnova `gh auth login` e lancia `gh repo create sinmar123/ntc2018-markdown --public --source . --push`; poi si chiude `PROMPT-IN-CORSO-ntc2018-repository-pubblico.md` dal § 4. Resta da chiarire se la VC con quattro righe `IN-CORSO` nel capitolo 8 è ferma.
 
 ## 2026-09-30 - VC-OK del solo § 8.3, NormaNTC18 (OC)
 
