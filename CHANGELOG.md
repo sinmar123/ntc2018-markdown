@@ -10,6 +10,7 @@
 - Difetti nei capitoli, da correggere con la procedura VC: 314 `\tag{...}` scritti dopo i `$$` di chiusura in 46 file (33 `MAI-FATTA`, 13 non registrati; nessun `VC-OK`), che nel sito escono come formula in linea seguita da `$ \tag{...}` alla lettera; 4 note in stile Obsidian dopo i `$$` in `cap03/3.3-vento.md`, `3.3.1` e `3.3.2`; 7 ancore degli indici che non trovano il titolo (`cap05/indice-cap05.md` 4, `cap11/indice-cap11.md` 2, `cap03/annotazioni/tab-c3.3.i-refuso-cu.md` 1), declassate a INFO nella configurazione.
 - Non verificato: la pubblicazione vera su Pages, che parte dopo l'unione in `main` e con Pages impostato su «GitHub Actions»; il caricamento di MathJax dal CDN, bloccato dalla rete di questa sessione (provato con la stessa versione presa da npm); il riconoscimento della licenza da parte di GitHub, perché `LICENSE` rimanda al testo legale CC BY 4.0 invece di riportarlo (il sito di Creative Commons non è raggiungibile da qui).
 - Modelli: tutto il lavoro nella sessione (Opus); nessuna VC, nessun subagente.
+- 2026-10-12: aggiunto `ntc2018-261012-prompt-chrome-github.md`, il prompt per Claude su Chrome che attiva Pages, crea l'etichetta delle segnalazioni, unisce la PR #1 dopo conferma di Sandro e controlla il sito; contiene anche lo stato per ripartire.
 
 Prossima azione: Sandro rivede la pull request, attiva Pages con sorgente «GitHub Actions» e unisce; il W520 riporta in locale e scrive la voce di giornale. Poi: recuperare o estrarre le 115 figure mancanti e aprire uno scope VC per i `\tag` fuori dai `$$`.
 
