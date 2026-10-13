@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 8.5 - DEFINIZIONE DEL MODELLO DI RIFERIMENTO PER LE ANALISI]
----
-
-[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 8.5. DEFINIZIONE DEL MODELLO DI RIFERIMENTO PER LE ANALISI
 

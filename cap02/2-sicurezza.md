@@ -4,37 +4,37 @@
 
 ## Indice del capitolo
 
-- [[#2.1. Principi fondamentali|2.1 Principi fondamentali]]
-- [[#2.2. Requisiti delle opere strutturali|2.2 Requisiti delle opere strutturali]]
-  - [[#2.2.1. Stati Limite Ultimi (SLU)|2.2.1 Stati Limite Ultimi (SLU)]]
-  - [[#2.2.2. Stati Limite di Esercizio (SLE)|2.2.2 Stati Limite di Esercizio (SLE)]]
-  - [[#2.2.3. Sicurezza antincendio|2.2.3 Sicurezza antincendio]]
-  - [[#2.2.4. Durabilità|2.2.4 Durabilità]]
-  - [[#2.2.5. Robustezza|2.2.5 Robustezza]]
-  - [[#2.2.6. Verifiche|2.2.6 Verifiche]]
-- [[#2.3. Valutazione della sicurezza|2.3 Valutazione della sicurezza]]
-- [[#2.4. Vita nominale di progetto, classi d'uso e periodo di riferimento|2.4 Vita nominale, classi d'uso, periodo di riferimento]]
-  - [[#2.4.1. Vita nominale di progetto|2.4.1 Vita nominale di progetto]]
-  - [[#2.4.2. Classi d'uso|2.4.2 Classi d'uso]]
-  - [[#2.4.3. Periodo di riferimento per l'azione sismica|2.4.3 Periodo di riferimento per l'azione sismica]]
-- [[#2.5. Azioni sulle costruzioni|2.5 Azioni sulle costruzioni]]
-  - [[#2.5.1. Classificazione delle azioni|2.5.1 Classificazione delle azioni]]
-  - [[#2.5.2. Caratterizzazione delle azioni elementari|2.5.2 Caratterizzazione delle azioni elementari]]
-  - [[#2.5.3. Combinazioni delle azioni|2.5.3 Combinazioni delle azioni]]
-- [[#2.6. Azioni nelle verifiche agli stati limite|2.6 Azioni nelle verifiche agli stati limite]]
-  - [[#2.6.1. Stati limite ultimi|2.6.1 Stati limite ultimi (EQU, STR, GEO)]]
-  - [[#2.6.2. Stati limite di esercizio|2.6.2 Stati limite di esercizio]]
-- [[#C2.1 Principi fondamentali|C2.1 — Principi fondamentali (metodo semiprobabilistico, casistiche a-d)]]
-- [[#C2.2 Requisiti delle opere strutturali|C2.2 — Requisiti delle opere strutturali]]
-  - [[#C2.2.5 Robustezza|C2.2.5 Robustezza]]
-- [[#C2.3 Valutazione della sicurezza|C2.3 — Valutazione della sicurezza (metodi di livello superiore)]]
-- [[#C2.4 Vita nominale di progetto, classi d'uso e periodo di riferimento|C2.4 — Vita nominale, classi d'uso, periodo di riferimento]]
-  - [[#C2.4.1 Vita nominale di progetto|C2.4.1 Vita nominale di progetto (Fig. C2.1)]]
-  - [[#C2.4.2 Classi d'uso|C2.4.2 Classi d'uso]]
-  - [[#C2.4.3 Periodo di riferimento per l'azione sismica|C2.4.3 Periodo di riferimento V_R (Tab. C2.4.I)]]
-- [[#C2.5 Azioni sulle costruzioni|C2.5 — Azioni sulle costruzioni (G_k, combinazioni, coefficienti parziali)]]
-- [[#C2.6 Azioni nelle verifiche agli stati limite|C2.6 — Azioni nelle verifiche agli stati limite]]
-  - [[#C2.6.1 Stati limite ultimi|C2.6.1 SLU: EQU, STR, GEO, UPL, HYD]]
+- [2.1 Principi fondamentali](#21-principi-fondamentali)
+- [2.2 Requisiti delle opere strutturali](#22-requisiti-delle-opere-strutturali)
+  - [2.2.1 Stati Limite Ultimi (SLU)](#221-stati-limite-ultimi-slu)
+  - [2.2.2 Stati Limite di Esercizio (SLE)](#222-stati-limite-di-esercizio-sle)
+  - [2.2.3 Sicurezza antincendio](#223-sicurezza-antincendio)
+  - [2.2.4 Durabilità](#224-durabilità)
+  - [2.2.5 Robustezza](#225-robustezza)
+  - [2.2.6 Verifiche](#226-verifiche)
+- [2.3 Valutazione della sicurezza](#23-valutazione-della-sicurezza)
+- [2.4 Vita nominale, classi d'uso, periodo di riferimento](#24-vita-nominale-di-progetto-classi-duso-e-periodo-di-riferimento)
+  - [2.4.1 Vita nominale di progetto](#241-vita-nominale-di-progetto)
+  - [2.4.2 Classi d'uso](#242-classi-duso)
+  - [2.4.3 Periodo di riferimento per l'azione sismica](#243-periodo-di-riferimento-per-lazione-sismica)
+- [2.5 Azioni sulle costruzioni](#25-azioni-sulle-costruzioni)
+  - [2.5.1 Classificazione delle azioni](#251-classificazione-delle-azioni)
+  - [2.5.2 Caratterizzazione delle azioni elementari](#252-caratterizzazione-delle-azioni-elementari)
+  - [2.5.3 Combinazioni delle azioni](#253-combinazioni-delle-azioni)
+- [2.6 Azioni nelle verifiche agli stati limite](#26-azioni-nelle-verifiche-agli-stati-limite)
+  - [2.6.1 Stati limite ultimi (EQU, STR, GEO)](#261-stati-limite-ultimi)
+  - [2.6.2 Stati limite di esercizio](#262-stati-limite-di-esercizio)
+- [C2.1 — Principi fondamentali (metodo semiprobabilistico, casistiche a-d)](#c21-principi-fondamentali)
+- [C2.2 — Requisiti delle opere strutturali](#c22-requisiti-delle-opere-strutturali)
+  - [C2.2.5 Robustezza](#c225-robustezza)
+- [C2.3 — Valutazione della sicurezza (metodi di livello superiore)](#c23-valutazione-della-sicurezza)
+- [C2.4 — Vita nominale, classi d'uso, periodo di riferimento](#c24-vita-nominale-di-progetto-classi-duso-e-periodo-di-riferimento)
+  - [C2.4.1 Vita nominale di progetto (Fig. C2.1)](#c241-vita-nominale-di-progetto)
+  - [C2.4.2 Classi d'uso](#c242-classi-duso)
+  - [C2.4.3 Periodo di riferimento V_R (Tab. C2.4.I)](#c243-periodo-di-riferimento-per-lazione-sismica)
+- [C2.5 — Azioni sulle costruzioni (G_k, combinazioni, coefficienti parziali)](#c25-azioni-sulle-costruzioni)
+- [C2.6 — Azioni nelle verifiche agli stati limite](#c26-azioni-nelle-verifiche-agli-stati-limite)
+  - [C2.6.1 SLU: EQU, STR, GEO, UPL, HYD](#c261-stati-limite-ultimi)
 
 ---
 

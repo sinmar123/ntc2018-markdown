@@ -1,7 +1,3 @@
----
-aliases: [Cap. 9 — Collaudo statico]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 9 — Collaudo statico

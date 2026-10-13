@@ -49,9 +49,9 @@ Se il glifo contestato esiste soltanto nel raster, alla codifica/posizione vetto
 
 10. Separatore fra numero e testo della didascalia: `-`, `–` e `—` sono equivalenti e non producono rilievi di conformità. Quando la fonte usa `:`, il corpus può conservarlo oppure renderlo con uno dei tre trattini.
 
-11. Riga di navigazione in testa a ogni file e apparato Obsidian (wikilink `[[…]]`, àncore `^nome`, marcatori di nota): non sono testo della fonte e vanno tolti meccanicamente dai pacchetti dei blocchi ciechi del G6.
+11. Riga di navigazione in testa a ogni file e apparato di navigazione (wikilink `[[…]]`, àncore `^nome`, marcatori di nota): non sono testo della fonte e vanno tolti meccanicamente dai pacchetti dei blocchi ciechi del G6.
 
-12. Resa dei viewer che non usano il template di render, Obsidian compreso: i tag di formula vi appaiono fra tonde invece che fra quadre. Nel PDF prodotto da `strumenti/render-capitolo.py` le quadre sono corrette.
+12. Resa dei viewer che non usano il template di render: i tag di formula vi appaiono fra tonde invece che fra quadre. Nel PDF prodotto da `strumenti/render-capitolo.py` le quadre sono corrette.
 
 13. **Pedici e basi che la fonte compone a corpo pieno.** La fonte stampa `log10(A)` col `10` grande quanto le altre cifre e `Re` con la `e` grande; il corpus scrive `\log_{10}` e `R_e`.
 

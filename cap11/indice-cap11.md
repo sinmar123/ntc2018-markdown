@@ -1,7 +1,3 @@
----
-aliases: [Cap. 11 — Materiali e prodotti per uso strutturale]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 11 — Materiali e prodotti per uso strutturale

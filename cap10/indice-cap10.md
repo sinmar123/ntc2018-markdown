@@ -1,7 +1,3 @@
----
-aliases: [Cap. 10 — Redazione dei progetti strutturali]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 10 — Redazione dei progetti strutturali esecutivi e delle relazioni di calcolo

@@ -1,19 +1,10 @@
 ---
 title: Approfondimento - Tab. C3.3.I, possibile refuso C_U
-aliases:
-  - Tab. C3.3.I possibile refuso C_U
-  - Refuso C_U Tabella C3.3.I
-tags:
-  - formazione/normativa
-  - ntc2018
-  - vento
-  - revisione-documento
 stato: nota di approfondimento
 data: 2026-05-31
 tipo: probabile refuso non confermato
 riferimento: C3.3.8.1.1 - Tabella C3.3.I
 ---
-
 [Torna a 3.3 Vento](../3.3.8-vento-coefficienti-aerodinamici.md#c33811-pareti-verticali) - [Indice capitolo 3](../indice-cap03.md) - [Indice annotazioni](./README.md)
 
 # Approfondimento - Tabella C3.3.I: possibile refuso nelle intestazioni `$C_{U}$`

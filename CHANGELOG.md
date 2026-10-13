@@ -1,5 +1,18 @@
 # Changelog - NTC 2018
 
+## 2026-10-13 - Solo file Markdown: tolto ogni riferimento all'editor di note, CC cloud
+
+- Decisione di Sandro del 2026-10-13: il progetto lavora soltanto con file Markdown, senza un editor di note dedicato. Su sua richiesta il nome dell'editor usato fino a settembre è stato tolto da tutto il repository, storico ed evidenze compresi, e le sue sintassi dai capitoli non registrati.
+- Capitoli, solo file non presenti nel registro (indici, raccolte di capitolo, registri di revisione, annotazioni; nessun file `VC-OK` o comunque registrato): 879 wikilink `[[…]]` in 37 file convertiti in collegamenti Markdown relativi, tutti con destinazione e ancora controllate; tolte 102 chiavi `aliases` e `tags` dal front matter di 84 file; tolti 9 identificativi di blocco `^…` da `cap03/3.3-vento.md`. Nel sito le ancore interne funzionanti passano da 6.233 a 7.074, le rotte restano 0.
+- `PROCEDURA-VC.md` alla revisione 7: tolto il nome dell'editor e la richiesta del frontmatter `aliases` negli indici; resta il divieto dei wikilink `[[…]]`. Catalogo delle normalizzazioni: cambiano solo le diciture delle voci 11 e 12. Criteri, canone G6 e gate invariati. Lo scope 8.4 `IN-CORSO` registra l'impronta della revisione 6 e adotta la 7 al prossimo passaggio non iniziato, come prevede il § 1; la sua scheda non è stata toccata.
+- `strumenti/lint-registro-verifica.py`: il controllo che rifiutava i collegamenti dell'editor ora rifiuta qualsiasi URI di applicazione che non sia una pagina web.
+- Evidenze: 40 file congelati in `verifica-conformita/` modificati nelle sole frasi col nome, su scelta esplicita di Sandro avvisato che le loro impronte stanno nei manifest. I manifest non sono stati toccati: impronte prima e dopo in `verifica-conformita/rettifica-nome-editor-2026-10-13.md`.
+- Storico: voci di CHANGELOG e TODO riscritte senza il nome, con lo stesso contenuto. README e TODO rinviano alla revisione 7.
+- Restano gli identificativi `^…` in quattro paragrafi `VC-OK` (§§ 3.3.1, 3.3.2, 3.3.7, 3.3.8): si tolgono con uno scope VC dedicato, scelto da Sandro.
+- Controlli: nessuna occorrenza residua del nome (`git grep -i`); `lint-registro-verifica.py` 0 errori, 4 avvisi come prima; `genera-indici-interni.py --verifica` superata (311 file, 1.754 collegamenti); `costruisci-sito.py`, `mkdocs build --strict` e `controlla-sito.py` senza errori; nessun file registrato toccato. `test_vc_supporto.py` non parte qui per l'assenza di PyMuPDF, come su `main`.
+
+Prossima azione: Sandro unisce la PR; poi si apre lo scope VC per i quattro paragrafi `VC-OK` con gli identificativi `^…`.
+
 ## 2026-10-01 - Sito pubblico su GitHub Pages, licenze e modello di segnalazione, CC cloud
 
 - Su richiesta di Sandro (`ntc2018-261001-prompt-cloud-sito.md`), sul ramo `claude/lucid-ramanujan-so88m5` e con pull request. Nessun file di `cap*/`, del registro, della procedura o del `README.md` di radice è stato toccato.
@@ -789,7 +802,7 @@ Prossima azione: aprire una nuova sessione e avviare la VC dello scope scelto co
 - Sostituito il registro operativo a 42 colonne e 1.724 unità con `registro-verifica-conformita-ntc2018.csv` compatto: 311 righe, una per file naturale `x.y.z`, e 11 colonne nell'ordine concordato. Conservati gli stati storici per aggregazione senza attribuire nuovi esiti VC: 37 `DA-RICONFERMARE`, 20 `DA-RIFARE`, 254 `MAI-FATTA`.
 - Esposte per ciascun file le pagine fisiche NTC e Circolare già certe, compresse in intervalli; per 51 file la pagina Circolare non rilevata dal precedente inventario è rimasta vuota con nota esplicita. Date e verbali dei precedenti G7 sono collegati alle righe da riconfermare; le schede di scope sono collegate alle righe da rifare.
 - Riscritto `strumenti/genera-vista-xlsx-registro.py` per il nuovo schema e rigenerata la vista XLSX: 311 righe, 11 colonne, 368 collegamenti relativi standard ai Markdown e alle evidenze, filtro, convalida dello stato, colori condizionali e riquadro congelato in `B2`. Verifica cella per cella: zero differenze non dichiarate e zero formule.
-- Creato `strumenti/lint-registro-verifica.py`: controlla schema, progressivo, corrispondenza con i 311 file indicizzati, titoli H1, indici interni, pagine, stati, date, evidenze e assenza di URI Obsidian. Primo esito: `0 errori, 0 avvisi`.
+- Creato `strumenti/lint-registro-verifica.py`: controlla schema, progressivo, corrispondenza con i 311 file indicizzati, titoli H1, indici interni, pagine, stati, date, evidenze e assenza di URI dell'editor di note. Primo esito: `0 errori, 0 avvisi`.
 - `strumenti/genera-indici-interni.py` ora prende dal registro compatto l'elenco canonico dei file attivi, evitando di includere automaticamente copie obsolete ripristinate dalla sincronizzazione. Verifica superata su 311 file e 1.754 collegamenti interni.
 - Archiviati in `old/schema-registro-dettagliato-20260827/` il CSV a 42 colonne, la precedente vista XLSX, `indice-vc-ntc2018.csv`, il CSV a 38 colonne, generatore, linter e mappatore del vecchio indice VC. Archiviati in `old/schema-file-capitoli-pre-ricomposizione-20260827/` 14 file obsoleti dei §§ 4.2 e 11.3 ricomparsi durante la sincronizzazione. Raccolti in `old/sync-conflict-20260827/` 36 file di conflitto creati dalla sincronizzazione, conservandone i percorsi relativi. I prompt consumati ricomparsi sono stati nuovamente raccolti in `old/` dopo averne verificato l'identità.
 - Aggiornati README, TODO, indice generale, AGENTS locale e `old/README.md`. Verifica visiva della nuova vista in `_tmp_render/semplificazione-registro-20260827/`; vecchio schema integralmente recuperabile in `old/`.
@@ -811,11 +824,11 @@ Prossima azione: aprire una nuova sessione e avviare la VC dello scope scelto co
 
 - Creata `registro-verifica-conformita-ntc2018.xlsx`: un solo foglio `registro-vc`, 1.724 righe dati, 42 colonne, 1.643 collegamenti in `link_md`, riquadro congelato in `B2`, filtro automatico sull'intestazione, intestazione in grassetto e larghezze leggibili.
 - Sciolto il blocco che aveva fermato Codex: la skill `Spreadsheets` del suo runtime impone `@oai/artifact-tool` e vieta `openpyxl`, vincolo che in Claude Code non esiste. Conversione eseguita con `openpyxl 3.1.5`.
-- **Cambiata la decisione del prompt su indicazione di Sandro**: l'XLSX non diventa il registro unico. Il CSV resta la fonte operativa, cercabile con Grep, confrontabile riga per riga e senza conflitti di Obsidian Sync; l'XLSX è una vista derivata, da rigenerare e non da modificare a mano. Il CSV non è stato archiviato e generatore e lint non sono stati toccati, perché continuano a lavorare sulla fonte.
-- Trovato e aggirato un ostacolo che il prompt non prevedeva: scritta `link_md` come formula `HYPERLINK`, **Excel rifiuta il file**. Excel ammette al massimo 255 caratteri per una stringa letterale dentro una formula e 53 dei 1.643 URL `obsidian://` arrivano a 346. Diagnosi per esclusione su cinque varianti dello stesso registro: dati, riquadro congelato e filtro aprono, le formule no. Nella vista la colonna è quindi un collegamento ipertestuale vero, che regge fino a circa 2.084 caratteri; il prompt lo consentiva, chiedendo di conservare «collegamenti o formule».
+- **Cambiata la decisione del prompt su indicazione di Sandro**: l'XLSX non diventa il registro unico. Il CSV resta la fonte operativa, cercabile con Grep, confrontabile riga per riga e senza conflitti di sincronizzazione; l'XLSX è una vista derivata, da rigenerare e non da modificare a mano. Il CSV non è stato archiviato e generatore e lint non sono stati toccati, perché continuano a lavorare sulla fonte.
+- Trovato e aggirato un ostacolo che il prompt non prevedeva: scritta `link_md` come formula `HYPERLINK`, **Excel rifiuta il file**. Excel ammette al massimo 255 caratteri per una stringa letterale dentro una formula e 53 dei 1.643 URL dell'editor di note arrivano a 346. Diagnosi per esclusione su cinque varianti dello stesso registro: dati, riquadro congelato e filtro aprono, le formule no. Nella vista la colonna è quindi un collegamento ipertestuale vero, che regge fino a circa 2.084 caratteri; il prompt lo consentiva, chiedendo di conservare «collegamenti o formule».
 - Nuovo strumento `strumenti/genera-vista-xlsx-registro.py`: rigenera la vista dal CSV, poi la rilegge e la confronta cella per cella con la fonte, ricostruendo dall'XLSX la formula localizzata a partire da testo e URL del collegamento. Esce con codice diverso da zero alla prima differenza non dichiarata; `--verifica-soltanto` esegue il solo confronto.
 - Due scostamenti dichiarati e obbligati. Sei colonne interamente numeriche sono scritte come numeri, per renderle ordinabili in Excel; `capitolo` resta testo perché usa lo zero iniziale. Due celle di `titolo` sono state ripulite dai caratteri di controllo che XML non ammette: riga CSV 394 `NTC-5.1.3.3` (`U+0014`) e riga CSV 493 `NTC-6.1` (`U+0003` due volte), residui dell'estrazione dai segnalibri del PDF; in entrambi i casi `heading_md` riporta il titolo giusto.
-- Controlli finali: confronto cella per cella con zero differenze non dichiarate e ordine delle 1.724 unità conservato; apertura reale in Excel senza richiesta di ripristino, con 1.643 collegamenti nel foglio, `FreezePanes=True`, `SplitRow=1`, `SplitColumn=1`, zero iniziale di `capitolo` conservato e URL più lungo intatto; un collegamento lanciato davvero ha portato Obsidian sulla nota attesa. Excel normalizza in lettura `obsidian://open?vault=` in `obsidian://open/?vault=`, forma provata e funzionante.
+- Controlli finali: confronto cella per cella con zero differenze non dichiarate e ordine delle 1.724 unità conservato; apertura reale in Excel senza richiesta di ripristino, con 1.643 collegamenti nel foglio, `FreezePanes=True`, `SplitRow=1`, `SplitColumn=1`, zero iniziale di `capitolo` conservato e URL più lungo intatto; un collegamento lanciato davvero ha aperto la nota attesa nell'editor di note. Excel normalizza in lettura la forma dell'URI aggiungendo una barra prima di `?vault=`, forma provata e funzionante.
 - Nessuno stato VC modificato e nessuna verifica di conformità avviata. Verbale, script di conversione, controllo indipendente, script di apertura in Excel ed elenco dei caratteri rimossi in `_tmp_render/conversione-xlsx-20260827/`.
 - **Firma:** CC (Claude Code).
 
@@ -830,7 +843,7 @@ Prossima azione: aprire una nuova sessione e avviare la VC dello scope scelto co
 ## 2026-08-26 - diagnosticato il Not Found dei rinvii di testa
 
 - Riprodotto il caso segnalato sul § 2.2.3 e verificato il corpus vivo: 459 Markdown, 2.402 link, zero destinazioni mancanti e zero file normativi privi della navigazione di testa.
-- Accertato che i rinvii NTC sono normali link Markdown portabili, non wikilink Obsidian. `app-scrivania` lascia al browser i link relativi fra file e il server restituisce `Not Found`; gli ancoraggi interni come quelli di `bersdor-corrispondenza.md` funzionano perché restano nello stesso documento.
+- Accertato che i rinvii NTC sono normali link Markdown portabili, non wikilink `[[…]]`. `app-scrivania` lascia al browser i link relativi fra file e il server restituisce `Not Found`; gli ancoraggi interni come quelli di `bersdor-corrispondenza.md` funzionano perché restano nello stesso documento.
 - Nessun file normativo modificato. Rapporto in `_tmp_render/diagnosi-link-indici-20260826/`; correzione dell'app demandata da Sandro a un agente esterno.
 - **Firma:** CDX (Codex).
 
@@ -899,7 +912,7 @@ Prossima azione: aprire una nuova sessione e avviare la VC dello scope scelto co
 
 ## 2026-08-26 - `link_md` resi cliccabili direttamente da Excel
 
-- Sostituiti i 1.643 wikilink testuali della colonna `link_md` con formule italiane `COLLEG.IPERTESTUALE`, dirette a URI ufficiali `obsidian://open` codificati fino allo specifico heading.
+- Sostituiti i 1.643 wikilink testuali della colonna `link_md` con formule italiane `COLLEG.IPERTESTUALE`, dirette agli URI dell'editor di note, codificati fino allo specifico heading.
 - Verifica applicativa eseguita aprendo temporaneamente il CSV con Excel: `HasFormula=True`, testo visualizzato `Apri`, formula locale riconosciuta. Controllati inoltre 1.643/1.643 URI e destinazioni, senza errori.
 - Il § 4.1 continua a usare un solo file fisico, `cap04/4.1-calcestruzzo.md`; nei collegamenti cambia soltanto l'heading dopo `#`.
 - Lint globale confermato a `0 errori, 0 avvisi, 0 info`; stati di verifica ed esiti VC invariati. Snapshot ed evidenze in `_tmp_render/registro-link-excel-20260826/`.
@@ -908,7 +921,7 @@ Prossima azione: aprire una nuova sessione e avviare la VC dello scope scelto co
 ## 2026-08-26 - registro riallineato ai Markdown e dotato di link ai paragrafi
 
 - Riallineati meccanicamente 23 heading, compilate 4 mappature mancanti, corretti 8 conteggi di occorrenza e aggiornate 276 posizioni di riga nel registro di dettaglio. Nessun file normativo è stato modificato.
-- Aggiunta la colonna `link_md` con 1.643 collegamenti Obsidian diretti ai paragrafi, successivamente resi formule Excel attive. Le 81 unità non mappate univocamente restano senza collegamento.
+- Aggiunta la colonna `link_md` con 1.643 collegamenti diretti ai paragrafi, successivamente resi formule Excel attive. Le 81 unità non mappate univocamente restano senza collegamento.
 - Otto mappature certe sono passate da `DA_VERIFICARE` a `COMPLETA`; gli stati di verifica e gli esiti VC sono rimasti invariati. Riparate anche due righe CSV le cui note contenevano un punto e virgola non quotato.
 - Aggiornati `strumenti/genera-registro-dettaglio-verifica.py` e `strumenti/lint-registro-dettaglio.py` per includere e verificare `link_md`.
 - Lint globale finale: 1.724 righe, 38 colonne, `0 errori, 0 avvisi, 0 info`. Snapshot e manifest delle modifiche in `_tmp_render/registro-lint-20260826/`.
@@ -1497,7 +1510,7 @@ Sessione CC su richiesta di Sandro ("chiudi tutto quello che puoi su C8"). Metod
 
 ## 2026-07-17 - Ripristino post-incidente sync e chiusura del pilota conformità C8
 
-- Cartella ripristinata dopo l'incidente di sync del 16-17/7 (cancellazione partita dal P53 e propagata via Obsidian Sync): merge fra superstiti e copia pre-cancellazione, con verifica bit per bit dei 4 hash SHA-256 del manifest fonti (PDF norma e Circolare, cap08 pre-audit, registro dettaglio).
+- Cartella ripristinata dopo l'incidente di sync del 16-17/7 (cancellazione partita dal P53 e propagata dalla sincronizzazione dell'editor di note): merge fra superstiti e copia pre-cancellazione, con verifica bit per bit dei 4 hash SHA-256 del manifest fonti (PDF norma e Circolare, cap08 pre-audit, registro dettaglio).
 - Promosse sul file vivo `cap08/8-esistenti.md` le 14 correzioni ERR-MD del pilota C8 (audit A/B VC8-G4-TF del 16/7 sui materiali congelati); SHA-256 post-promozione `612a2c00…` conforme alla copia corretta ricontrollata 14/14 da verificatore fresco.
 - Registrati gli esiti nel registro di dettaglio: CIRC-C8.5.3.1 (perimetro TABELLE) e CIRC-C8.5.4.1 (perimetro FORMULE) → verifica `COMPLETA`, esito `OK` sullo snapshot manifest-fonti-2026-07-16, con audit_id, evidenza, date e doppio revisore compilati. Lint `strumenti/lint-registro-dettaglio.py`: 0 errori, 0 avvisi su 1.724 righe.
 - Evidenze finali dell'audit copiate da `_tmp_render/` in `verifica-conformita/audit-C8-T01-F01-20260716/` (registro, manifest esiti, riconciliazione A/B, scarti, dettagli celle e formule); nuovo verbale `verifica-conformita/promozione-pilota-c8-2026-07-17.md`.
@@ -1629,7 +1642,7 @@ Sessione CC su richiesta di Sandro ("chiudi tutto quello che puoi su C8"). Metod
 - `cap03/3.3-vento.md`: aggiornato il richiamo della Fig. 3.3.3 verso un nuovo ritaglio pulito del solo grafico del coefficiente di esposizione, senza intestazione di pagina.
 - `cap03/3.4-neve.md`: sostituiti i richiami delle Figure 3.4.1, 3.4.2, 3.4.3 e C3.4.1-C3.4.7 verso nuovi PNG estratti dai PDF sorgenti. I vecchi ritagli includevano testo tagliato, didascalie incorporate o zone sbagliate della pagina.
 - `cap03/3.5-temperatura.md`: sostituiti i richiami delle Figure 3.5.1 e 3.5.2 verso nuovi ritagli puliti della mappa delle zone di temperatura e dello schema di distribuzione della temperatura.
-- `cap03/img/`: creati 13 nuovi file con suffissi descrittivi `-grafico`, `-mappa` o `-schema`, per evitare cache di Obsidian sui vecchi file errati.
+- `cap03/img/`: creati 13 nuovi file con suffissi descrittivi `-grafico`, `-mappa` o `-schema`, per evitare che l'editor di note mostrasse dalla cache i vecchi file errati.
 - `_tmp_render/cap03/audit-immagini/`: prodotte tavole di controllo visivo delle immagini richiamate dal capitolo 3.
 
 ## 2026-06-03 - Pulizia esempi Markdown
@@ -1682,16 +1695,16 @@ Sessione CC su richiesta di Sandro ("chiudi tutto quello che puoi su C8"). Metod
 - `cap03/annotazioni/tab-c3.3.i-refuso-cu.md`: spostato qui l'approfondimento sul possibile refuso `$C_{U}$` della Tab. C3.3.I, mantenendo il testo normativo in `cap03/3.3-vento.md` più pulito.
 - `cap03/annotazioni/README.md`: aggiunto indice delle annotazioni del capitolo 3 e convenzione minima per future note collaborative.
 - `cap03/3.3-vento.md` e `cap03/indice-cap03.md`: aggiornati i rimandi verso la nuova cartella `annotazioni/`.
-- `cap03/3.3-vento.md`: spostate le note dentro la sezione finale "Note redazionali"; nel testo normativo restano solo note numerate con wikilink Obsidian accanto ai punti interessati, con link di ritorno al punto annotato.
+- `cap03/3.3-vento.md`: spostate le note dentro la sezione finale "Note redazionali"; nel testo normativo restano solo note numerate con wikilink accanto ai punti interessati, con link di ritorno al punto annotato.
 - `cap03/3.3-vento.md`: convertite nello stesso sistema anche le note precedenti sulle formule `[3.3.1]`, `[3.3.2]` e sulla Fig. 3.3.2; la Nota di Sandro sulla Tab. C3.3.I resta attribuita nel richiamo redazionale.
 - `cap03/3.3-vento.md`: aggiunta la voce "Note redazionali" nel sommario iniziale del file.
-- `cap03/3.3-vento.md`: aggiunto identificatore Obsidian al sommario (`^sommario-3-3`) e link "Torna al sommario" sotto le principali destinazioni dell'indice interno, come prova di navigazione su Obsidian W520/mobile.
+- `cap03/3.3-vento.md`: aggiunto identificatore di blocco al sommario (`^sommario-3-3`) e link "Torna al sommario" sotto le principali destinazioni dell'indice interno, come prova di navigazione sul W520 e sul telefono.
 - `cap03/annotazioni/fig-3.3.2-categorie-esposizione-lettura-llm.md`: spostata in annotazione separata la lettura tabellare dello schema della Fig. 3.3.2, così il capitolo principale resta più fedele al testo normativo.
 - `cap03/indice-cap03.md`: aggiunto il rimando all'approfondimento sulla Fig. 3.3.2 sotto il §3.3.7.
 - `cap03/3.4-neve.md`: rese heading reali le sottosezioni C3.4.3.3.1-C3.4.3.3.6 della Circolare neve; la Fig. C3.4.4 sulle coperture cilindriche era già presente, ma ora è raggiungibile dal sommario interno.
 - `cap03/indice-cap03.md`: aggiunti link diretti alle figure C3.4.4-C3.4.7 della Circolare neve.
-- `cap03/img/fig-C3.3.4-quote-riferimento-ritaglio.png`: riestratta dal PDF della Circolare la Fig. C3.3.4 sulle quote di riferimento negli edifici bassi e alti, usando un nuovo nome file per forzare il refresh su Obsidian mobile. Il vecchio file esisteva, ma il ritaglio precedente includeva tabella e testo della pagina invece della figura.
-- `cap03/img/fig-C3.3.5-coperture-piane-ritaglio.png`: riestratta dal PDF della Circolare la Fig. C3.3.5 sullo schema di riferimento per coperture piane, usando un nuovo nome file per forzare il refresh su Obsidian mobile. Il vecchio file mostrava testo precedente invece della figura.
+- `cap03/img/fig-C3.3.4-quote-riferimento-ritaglio.png`: riestratta dal PDF della Circolare la Fig. C3.3.4 sulle quote di riferimento negli edifici bassi e alti, usando un nuovo nome file per forzare l'aggiornamento sul telefono. Il vecchio file esisteva, ma il ritaglio precedente includeva tabella e testo della pagina invece della figura.
+- `cap03/img/fig-C3.3.5-coperture-piane-ritaglio.png`: riestratta dal PDF della Circolare la Fig. C3.3.5 sullo schema di riferimento per coperture piane, usando un nuovo nome file per forzare l'aggiornamento sul telefono. Il vecchio file mostrava testo precedente invece della figura.
 - `cap03/img/fig-C3.3.6-zone-coperture-piane-ritaglio.png`: riestratta dal PDF della Circolare la Fig. C3.3.6 sulla suddivisione delle coperture piane e sulle altezze di riferimento. Il vecchio file includeva anche Fig. C3.3.5, Tab. C3.3.III e testo precedente.
 - `README.md`: aggiunta la convenzione generale per tenere annotazioni e testo normativo separati, in vista di un possibile uso open source collaborativo.
 
@@ -2002,7 +2015,7 @@ Dettaglio nel registro `cap03/cap03-azioni-sulle-costruzioni-revisione.md`, § "
   - `cap11/11.8-prefabbricati.md` — generalità, stabilimenti, controllo produzione, qualificazione, documenti, dispositivi collegamento
   - `cap11/11.9-dispositivi-antisismici.md` — tipologie, qualificazione, accettazione, lineari [11.9.1]-[11.9.4] Tab. 11.9.I, non lineari [11.9.5]-[11.9.6] Tab. 11.9.II, viscosi [11.9.7]-[11.9.8] Tab. 11.9.III, elastomerici Tab. 11.9.IV, scorrimento [11.9.9], fusibili, vincolo provvisorio
   - `cap11/11.10-muratura.md` — elementi Tab. 11.10.I, [11.10.1]-[11.10.3], malte Tab. 11.10.II-V, parametri meccanici [11.10.4]-[11.10.9] Tab. 11.10.VI-VIII
-  - `cap11/indice-cap11.md` con sommario wikilink Obsidian e ricerca rapida per argomento
+  - `cap11/indice-cap11.md` con sommario a wikilink e ricerca rapida per argomento
   - Figure estratte: Fig. 11.9.1, Fig. 11.9.2
 - **Capitolo 7 — Figure**: estratte 13 figure dal PDF con PyMuPDF a 3x zoom (~216 DPI)
   - Fig. 7.4.1-7.4.6 (calcestruzzo sismico: travi, pilastri, pareti, momenti, taglio, bordi)
@@ -2023,7 +2036,7 @@ Dettaglio nel registro `cap03/cap03-azioni-sulle-costruzioni-revisione.md`, § "
   - `cap07/7.8-muratura.md` — ordinaria/armata/confinata, Tab. 7.8.I-II, [7.8.0]-[7.8.10], regole di dettaglio
   - `cap07/7.9-7.10-ponti-isolamento.md` — ponti (q₀, pile, impalcato, [7.9.1]-[7.9.23]), isolamento sismico ([7.10.1]-[7.10.5])
   - `cap07/7.11-geotecnica.md` — liquefazione (Fig. 7.11.1), pendii (Tab. 7.11.I), fondazioni (Tab. 7.11.II), sostegno (Tab. 7.11.III), paratie (Fig. 7.11.2-3), [7.11.1]-[7.11.12]
-  - `cap07/indice-cap07.md` con sommario wikilink Obsidian
+  - `cap07/indice-cap07.md` con sommario a wikilink
   - Figure da estrarre dal PDF
 - **Capitolo 12 — Riferimenti tecnici**: conversione completa della norma (1 p.)
   - `cap12/12-riferimenti.md` — Eurocodici, norme UNI EN, C.N.R., documenti di comprovata validità
@@ -2039,12 +2052,12 @@ Dettaglio nel registro `cap03/cap03-azioni-sulle-costruzioni-revisione.md`, § "
   - `cap06/6.4-fondazioni.md` — fondazioni superficiali (Tab. 6.4.I), fondazioni su pali (Tab. 6.4.II-VI, formule [6.4.1]-[6.4.5], fattori ξ), fondazioni miste, prove di carico
   - `cap06/6.5-6.6-sostegno-tiranti.md` — muri di sostegno (Tab. 6.5.I), paratie, tiranti di ancoraggio (Tab. 6.6.I-III, formule [6.6.1]-[6.6.2])
   - `cap06/6.7-6.12-altre-opere.md` — opere in sotterraneo, materiali sciolti e fronti di scavo (Tab. 6.8.I), miglioramento e rinforzo terreni, consolidamento opere esistenti, discariche e depositi inerti, fattibilità opere su grandi aree
-  - `cap06/indice-cap06.md` con sommario wikilink Obsidian
+  - `cap06/indice-cap06.md` con sommario a wikilink
   - Nessuna figura in questo capitolo
 - **Capitolo 5 — Ponti**: conversione completa della norma in 2 file
   - `cap05/5.1-ponti-stradali.md` — prescrizioni generali (altezza libera, compatibilità idraulica), azioni (Schemi di Carico 1-6, frenamento, centrifuga, vento, urto), combinazioni di carico (Tab. 5.1.IV-VI), verifiche (SLU, SLE, fatica modelli 1-4), strutture portanti, vincoli, opere accessorie, formule [5.1.1]-[5.1.4], Tab. 5.1.I-X, 6 figure
   - `cap05/5.2-ponti-ferroviari.md` — modelli di carico LM 71 (α=1,1), SW/0, SW/2, treno scarico, effetti dinamici (Φ₂, Φ₃, Tab. 5.2.II LΦ), azioni orizzontali (centrifuga, serpeggio, frenatura/avviamento), effetti aerodinamici, interazione treno-binario-struttura, azioni eccezionali (deragliamento, rottura catenaria), verifiche SLU/SLE, formule [5.2.1]-[5.2.11], Tab. 5.2.I-VIII, 14 figure
-  - `cap05/indice-cap05.md` con sommario wikilink Obsidian
+  - `cap05/indice-cap05.md` con sommario a wikilink
   - Aggiornato indice generale con sezione Ponti nella ricerca rapida
 - **Capitolo 4.6 — Altri sistemi costruttivi**: conversione completa della norma
   - `cap04/4.6-altri-sistemi.md` — dichiarazione idoneità, art. 52 D.P.R. 380/01

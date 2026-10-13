@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 4.4 - Costruzioni di legno]
----
-
-[Torna all'indice del capitolo](./indice-cap04.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap04.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 4.4. Costruzioni di legno
 

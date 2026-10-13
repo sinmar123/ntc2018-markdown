@@ -1,7 +1,3 @@
----
-aliases: [Cap. 7 — Progettazione per azioni sismiche]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 7 — Progettazione per azioni sismiche

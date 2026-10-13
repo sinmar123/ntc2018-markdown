@@ -1,10 +1,10 @@
 ---
 title: Procedura unica di conversione e verifica NTC 2018
 procedura_id: VC-NTC
-revisione: 6
-data: 2026-09-30
-approvazione: Sandro, uso esclusivo del CSV e cancellazione della vista XLSX autorizzati il 2026-09-12; esecutore OpenClaw e modelli leggeri su OpenRouter per le fasi facili chiesti il 2026-09-30
-redazione: CDX; revisione 6 CC
+revisione: 7
+data: 2026-10-13
+approvazione: Sandro, uso esclusivo del CSV e cancellazione della vista XLSX autorizzati il 2026-09-12; esecutore OpenClaw e modelli leggeri su OpenRouter per le fasi facili chiesti il 2026-09-30; solo file Markdown, senza editor di note, chiesto il 2026-10-13
+redazione: CDX; revisione 6 CC; revisione 7 CC cloud
 ---
 
 # Procedura unica VC NTC 2018
@@ -20,6 +20,8 @@ Ogni affinamento operativo si applica a questo file, incrementando `revisione` e
 La revisione e l'hash della procedura e del catalogo usati si congelano nelle evidenze di ciascuno scope. Per scope precedenti, alla ripresa autorizzata si registra l'adozione della revisione corrente al prossimo passaggio non iniziato, comprese correzioni e registrazioni, mantenendo snapshot, rilievi, adjudicazioni, contatore G6, limite autorizzato e decisioni pendenti. Un G6 già iniziato non cambia regole a metà: si termina secondo il disegno congelato, oppure si interrompe e se ne registra il consumo prima del successivo. Nessun esito storico viene reinterpretato o promosso per effetto di questo aggiornamento.
 
 La revisione 6 recepisce due decisioni di Sandro del 2026-09-30: le NTC passano a un agente OpenClaw dedicato, NormaNTC18, e per le fasi facili si usano modelli leggeri: Luna in abbonamento e, in alternativa, DeepSeek su OpenRouter, perché il testo normativo è pubblico. Aggiunge soltanto i profili OpenClaw al § 5 e il rinvio alla revisione 5 al § 10; criteri, canone G6, gate e catalogo restano invariati.
+
+La revisione 7 recepisce la decisione di Sandro del 2026-10-13 di lavorare soltanto con file Markdown, senza un editor di note dedicato. Toglie dal § 2 il nome di quell'editor e la richiesta del frontmatter `aliases` negli indici; resta il divieto dei wikilink `[[…]]`. Nel catalogo cambiano soltanto le diciture delle voci 11 e 12, non le trasformazioni. Criteri, canone G6 e gate restano invariati.
 
 La revisione 5 recepisce la decisione di Sandro del 2026-09-12 di lavorare soltanto sul CSV: vista XLSX eliminata e rigenerazione automatica rimossa. Mantiene la procedura semplificata della revisione 4 e non modifica verifiche o evidenze già chiuse.
 
@@ -45,7 +47,7 @@ La scheda conserva i campi già in uso, indicando in `procedura` la revisione ef
 
 - Capitoli in `capXX/` con `indice-capXX.md`, mai `index.md`; ogni sezione con figli ha `indice-x.y.md`, introduzione `x.y-introduzione.md` e file naturali `x.y.z-<tema>-<argomento>.md`. Sezioni senza livello 3 autonome; Capitoli 1 e 12 monolitici. Le sezioni presenti soltanto nella Circolare hanno prefisso `c` nel nome. Norma e Circolare si abbinano nel file naturale quando condividono il livello 3.
 - Ogni file naturale ha indice interno gerarchico dei due atti: link Markdown nello stesso documento e ancore HTML `toc-ntc2018-*`, fra marcatori `INDICE-INTERNO:INIZIO/FINE`. Generazione e controllo con `strumenti/genera-indici-interni.py`; rimozione meccanica dai pacchetti G6. Non mantenere a mano l'indice derivato.
-- Link Markdown relativi e portabili, con ancore esplicite quando occorrono; niente wikilink Obsidian. Ogni file rinvia all'indice di sezione, del capitolo e generale. Gli indici hanno sommario, link ai paragrafi e frontmatter `aliases`; il link al titolo principale non dipende da un'àncora implicita.
+- Link Markdown relativi e portabili, con ancore esplicite quando occorrono; niente wikilink `[[…]]`. Ogni file rinvia all'indice di sezione, del capitolo e generale. Gli indici hanno sommario e link ai paragrafi; il link al titolo principale non dipende da un'àncora implicita.
 - Formule LaTeX inline/display con il tag originale, tabelle Markdown e figure PNG in `img/`, con risoluzione adeguata alla fonte e senza ricampionamenti spacciati per nuovo dettaglio. Le prove sui glifi seguono il § 4. Annotazioni separate in `capXX/annotazioni/`, con rinvii portabili al testo pertinente.
 
 <!-- CANONE-G6:INIZIO -->

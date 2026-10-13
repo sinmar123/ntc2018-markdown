@@ -4,7 +4,7 @@ Conversione in Markdown delle Norme Tecniche per le Costruzioni (D.M. 17/01/2018
 
 ## Obiettivo
 
-Avere la normativa strutturale italiana in formato testo navigabile, consultabile da LLM e leggibile in qualsiasi viewer Markdown (Obsidian, VS Code, GitHub, ecc.).
+Avere la normativa strutturale italiana in formato testo navigabile, consultabile da LLM e leggibile in qualsiasi viewer Markdown (VS Code, GitHub, ecc.).
 
 ## Procedura operativa unica
 
@@ -36,7 +36,7 @@ Prossima azione: Nessuna sulla sola introduzione 3.1: VC conclusa. Attendere un 
 
 Prossima azione: Nessuna sul § 3.6: VC conclusa. Attendere un nuovo via libera prima di aprire altri scope.
 
-Dal 2026-09-12 tutti gli agenti seguono [PROCEDURA-VC.md](PROCEDURA-VC.md), dal 2026-09-30 nella revisione 6. È l'unica sede del ciclo, delle regole sugli apparati e della scelta degli esecutori. I precedenti cicli e profili NTC sono sostituiti da rinvii; il catalogo delle normalizzazioni resta l'allegato tecnico della procedura.
+Dal 2026-09-12 tutti gli agenti seguono [PROCEDURA-VC.md](PROCEDURA-VC.md), dal 2026-10-13 nella revisione 7. È l'unica sede del ciclo, delle regole sugli apparati e della scelta degli esecutori. I precedenti cicli e profili NTC sono sostituiti da rinvii; il catalogo delle normalizzazioni resta l'allegato tecnico della procedura.
 
 L'avvio usa `python strumenti/vc-supporto.py avvio [scope]` per lo stato e i soli estratti pertinenti; [specifica dei comandi](strumenti/vc-supporto.md). La [revisione 3 archiviata](old/PROCEDURA-VC-r03-20260909.md) e le versioni anteriori restano tracce storiche. La manutenzione non riapre scope né modifica il testo normativo.
 

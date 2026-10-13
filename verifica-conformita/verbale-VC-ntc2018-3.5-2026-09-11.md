@@ -60,7 +60,7 @@ La catena è stata eseguita da agenti AI: C critico `gpt-5.6-sol/high`; E vincol
 
 L'isolamento di V e del secondo lettore è stato istruttivo, con pacchetti distinti e letture controllate dalle tracce, non imposto da una sandbox del filesystem. Il target è stato rivelato a V solo dopo il congelamento dell'inventario; G7 è stato svolto dallo stesso V dopo la conclusione della fase cieca, come ammesso dalla procedura. I tentativi Hermes privi di inventario e testo sono conservati come esiti tecnici e non costituiscono giri G6.
 
-Il render canonico è stato prodotto nel container previsto, con Pandoc 3.11 e TeX Live 2026. Il PDF e le cinque pagine raster sono completi e leggibili. Vale il limite N12 del catalogo: nei viewer che non usano il template di render, Obsidian compreso, i tag di formula possono apparire fra parentesi tonde; nel PDF canonico sono correttamente fra parentesi quadre.
+Il render canonico è stato prodotto nel container previsto, con Pandoc 3.11 e TeX Live 2026. Il PDF e le cinque pagine raster sono completi e leggibili. Vale il limite N12 del catalogo: nei viewer che non usano il template di render, i tag di formula possono apparire fra parentesi tonde; nel PDF canonico sono correttamente fra parentesi quadre.
 
 ## Evidenze e catena delle impronte
 

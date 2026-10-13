@@ -1,7 +1,3 @@
----
-aliases: [Cap. 5 — Ponti]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 5 — Ponti

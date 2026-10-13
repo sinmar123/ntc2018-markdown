@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 11.5 - Sistemi di precompressione a cavi post-tesi e tiranti di ancoraggio]
----
-
-[Torna all'indice del capitolo](./indice-cap11.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap11.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 11.5. Sistemi di precompressione a cavi post-tesi e tiranti di ancoraggio
 

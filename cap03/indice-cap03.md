@@ -1,7 +1,3 @@
----
-aliases: [Cap. 3 — Azioni sulle costruzioni]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 3 — Azioni sulle costruzioni

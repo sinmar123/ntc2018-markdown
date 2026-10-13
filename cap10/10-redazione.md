@@ -4,20 +4,20 @@
 
 ## Indice del capitolo
 
-- [[#10.1 Caratteristiche generali|10.1 Caratteristiche generali (elaborati, relazione, grafici, manutenzione)]]
-- [[#10.2 Analisi e verifiche svolte con l'ausilio di codici di calcolo|10.2 Analisi con codici di calcolo (affidabilità, attendibilità)]]
-  - [[#10.2.1 Relazione di calcolo|10.2.1 Relazione di calcolo (tipo analisi, codice, risultati)]]
-  - [[#10.2.2 Valutazione indipendente del calcolo|10.2.2 Valutazione indipendente]]
-- [[#C10.1 Caratteristiche generali|C10.1 — Caratteristiche generali]]
-  - [[#Relazione di calcolo strutturale|Relazione di calcolo strutturale]]
-  - [[#Relazione sui materiali|Relazione sui materiali]]
-  - [[#Elaborati grafici|Elaborati grafici (scale 1:50/1:10)]]
-  - [[#Particolari costruttivi|Particolari costruttivi]]
-  - [[#Piano di manutenzione della parte strutturale dell'opera|Piano di manutenzione]]
-  - [[#Relazioni specialistiche|Relazioni specialistiche]]
-- [[#C10.2 Analisi e verifiche svolte con l'ausilio di codici di calcolo|C10.2 — Analisi con codici di calcolo]]
-  - [[#C10.2.1 Relazione di calcolo|C10.2.1 Relazione di calcolo (a.1-a.5, b.1-b.4)]]
-  - [[#C10.2.2 Valutazione indipendente del calcolo|C10.2.2 Valutazione indipendente (controllo incrociato)]]
+- [10.1 Caratteristiche generali (elaborati, relazione, grafici, manutenzione)](#101-caratteristiche-generali)
+- [10.2 Analisi con codici di calcolo (affidabilità, attendibilità)](#102-analisi-e-verifiche-svolte-con-lausilio-di-codici-di-calcolo)
+  - [10.2.1 Relazione di calcolo (tipo analisi, codice, risultati)](#1021-relazione-di-calcolo)
+  - [10.2.2 Valutazione indipendente](#1022-valutazione-indipendente-del-calcolo)
+- [C10.1 — Caratteristiche generali](#c101-caratteristiche-generali)
+  - [Relazione di calcolo strutturale](#relazione-di-calcolo-strutturale)
+  - [Relazione sui materiali](#relazione-sui-materiali)
+  - [Elaborati grafici (scale 1:50/1:10)](#elaborati-grafici)
+  - [Particolari costruttivi](#particolari-costruttivi)
+  - [Piano di manutenzione](#piano-di-manutenzione-della-parte-strutturale-dellopera)
+  - [Relazioni specialistiche](#relazioni-specialistiche)
+- [C10.2 — Analisi con codici di calcolo](#c102-analisi-e-verifiche-svolte-con-lausilio-di-codici-di-calcolo)
+  - [C10.2.1 Relazione di calcolo (a.1-a.5, b.1-b.4)](#c1021-relazione-di-calcolo)
+  - [C10.2.2 Valutazione indipendente (controllo incrociato)](#c1022-valutazione-indipendente-del-calcolo)
 
 ---
 

@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 9.2 - Prove di carico]
----
-
-[Torna all'indice del capitolo](./indice-cap09.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap09.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 9.2 Prove di carico
 

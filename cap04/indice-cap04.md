@@ -1,7 +1,3 @@
----
-aliases: [Cap. 4 — Costruzioni civili e industriali]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 4 — Costruzioni civili e industriali

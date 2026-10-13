@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 8.4 - CLASSIFICAZIONE DEGLI INTERVENTI]
----
-
-[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 8.4. CLASSIFICAZIONE DEGLI INTERVENTI
 

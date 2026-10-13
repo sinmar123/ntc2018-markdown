@@ -1,17 +1,9 @@
 ---
 title: Lettura tabellare della Fig. 3.3.2 - categorie di esposizione
-aliases:
-  - Fig. 3.3.2 lettura LLM
-tags:
-  - formazione/normativa
-  - ntc2018
-  - annotazioni
-  - vento
 tipo: trascrizione di supporto per interrogazione LLM
 riferimento: 3.3.7 - Fig. 3.3.2
 stato: da verificare sullo schema grafico originale
 ---
-
 [Torna a 3.3 Vento](../3.3.7-vento-coefficiente-di-esposizione.md#337-coefficiente-di-esposizione) - [Indice annotazioni](./README.md)
 
 # Lettura tabellare della Fig. 3.3.2

@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 8.7 - PROGETTAZIONE DEGLI INTERVENTI IN PRESENZA DI AZIONI SISMICHE]
----
-
-[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 8.7. PROGETTAZIONE DEGLI INTERVENTI IN PRESENZA DI AZIONI SISMICHE
 

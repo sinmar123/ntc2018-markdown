@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 2.4 - Vita nominale di progetto, classi d'uso e periodo di riferimento]
----
-
-[Torna all'indice del capitolo](./indice-cap02.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap02.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 2.4. Vita nominale di progetto, classi d'uso e periodo di riferimento
 

@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 3.1 - Opere civili e industriali]
----
-
-[Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 3.1. Opere civili e industriali
 

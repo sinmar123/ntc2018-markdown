@@ -1,17 +1,9 @@
 ---
 title: Revisione mirata — NTC 2018 cap. 3 Azioni sulle costruzioni
-aliases:
-  - Revisione capitolo 3 NTC 2018
-  - Revisione cap. 3 azioni sulle costruzioni
-tags:
-  - formazione/normativa
-  - ntc2018
-  - revisione-documento
 stato: completato - 40/40 file normativi del capitolo 3 VC-OK nel CSV
 sorgente_verificata: cap03/
 ultimo-aggiornamento: 2026-09-12
 ---
-
 # Revisione mirata — NTC 2018 cap. 3 Azioni sulle costruzioni
 
 ## Aggiornamento 2026-09-12 - Capitolo 3 completato
@@ -428,26 +420,26 @@ Prossima azione: Attendere un nuovo via libera prima di aprire il solo scope 3.4
 
 ## Indice del capitolo
 
-- [[#Inquadramento SGQ|Inquadramento SGQ]]
-- [[#Esito sintetico iniziale|Esito sintetico iniziale]]
-- [[#Verifica apparati del capitolo|Verifica apparati del capitolo]]
-  - [[#File presenti|File presenti]]
-  - [[#Consistenza apparati per file|Consistenza apparati per file]]
-- [[#Rilievi di revisione|Rilievi di revisione]]
-  - [[#R1 — Formula [3.2.0\] con numerazione anomala|R1 — Formula [3.2.0] con numerazione anomala]]
-  - [[#R2 — Formula [3.2.2\] usata quattro volte per i quattro rami dello spettro|R2 — Formula [3.2.2] usata quattro volte]]
-  - [[#R3 — Tab. 3.2.II: intestazione probabilmente errata|R3 — Tab. 3.2.II: intestazione errata]]
-  - [[#R4 — Assenza dei richiami alle figure in 3.2 non necessariamente anomala|R4 — Assenza richiami a figure in 3.2]]
-  - [[#R5 — Tab. 3.5.IV richiamata in 3.6|R5 — Tab. 3.5.IV richiamata in 3.6]]
-  - [[#R6 — Refuso testuale in 3.4 sulle fasi transitorie|R6 — Refuso testuale in 3.4 fasi transitorie]]
-  - [[#R7 — Refuso testuale in 3.5 sulle fasi transitorie|R7 — Refuso testuale in 3.5 fasi transitorie]]
-  - [[#R8 — Coerenza generale dei file 3.1, 3.3, 3.4, 3.5, 3.6|R8 — Coerenza generale file 3.1, 3.3-3.6]]
-  - [[#R9 — Indice capitolo e indice generale coerenti con il contenuto|R9 — Indice capitolo e generale]]
-- [[#Criterio di classificazione proposto|Criterio di classificazione proposto]]
-- [[#Prossimi controlli consigliati|Prossimi controlli consigliati]]
-- [[#Cronologia|Cronologia]]
-  - [[#2026-04-12 — Verifica sul PDF del §3.2|2026-04-12 — Verifica sul PDF del §3.2]]
-  - [[#2026-04-12 — Apertura file di revisione mirata del capitolo 3|2026-04-12 — Apertura file di revisione mirata]]
+- [Inquadramento SGQ](#inquadramento-sgq)
+- [Esito sintetico iniziale](#esito-sintetico-iniziale)
+- [Verifica apparati del capitolo](#verifica-apparati-del-capitolo)
+  - [File presenti](#file-presenti)
+  - [Consistenza apparati per file](#consistenza-apparati-per-file)
+- [Rilievi di revisione](#rilievi-di-revisione)
+  - [R1 — Formula [3.2.0] con numerazione anomala](#r1--formula-320-con-numerazione-anomala)
+  - [R2 — Formula [3.2.2] usata quattro volte](#r2--formula-322-usata-quattro-volte-per-i-quattro-rami-dello-spettro)
+  - [R3 — Tab. 3.2.II: intestazione errata](#r3--tab-32ii-intestazione-probabilmente-errata)
+  - [R4 — Assenza richiami a figure in 3.2](#r4--assenza-dei-richiami-alle-figure-in-32-non-necessariamente-anomala)
+  - [R5 — Tab. 3.5.IV richiamata in 3.6](#r5--tab-35iv-richiamata-in-36)
+  - [R6 — Refuso testuale in 3.4 fasi transitorie](#r6--refuso-testuale-in-34-sulle-fasi-transitorie)
+  - [R7 — Refuso testuale in 3.5 fasi transitorie](#r7--refuso-testuale-in-35-sulle-fasi-transitorie)
+  - [R8 — Coerenza generale file 3.1, 3.3-3.6](#r8--coerenza-generale-dei-file-31-33-34-35-36)
+  - [R9 — Indice capitolo e generale](#r9--indice-capitolo-e-indice-generale-coerenti-con-il-contenuto)
+- [Criterio di classificazione proposto](#criterio-di-classificazione-proposto)
+- [Prossimi controlli consigliati](#prossimi-controlli-consigliati)
+- [Cronologia](#cronologia)
+  - [2026-04-12 — Verifica sul PDF del §3.2](#2026-04-12--verifica-sul-pdf-del-32)
+  - [2026-04-12 — Apertura file di revisione mirata](#2026-04-12--apertura-file-di-revisione-mirata-del-capitolo-3)
 
 ---
 
@@ -531,17 +523,17 @@ Il capitolo 3 risulta già convertito e strutturato, ma prima di considerarlo af
 - `cap03/annotazioni/tab-c3.3.i-refuso-cu.md`: spostato qui l'approfondimento sul possibile refuso `$C_{U}$` della Tab. C3.3.I, mantenendo il testo normativo in `cap03/3.3-vento.md` più pulito.
 - `cap03/annotazioni/README.md`: aggiunto indice delle annotazioni del capitolo 3 e convenzione minima per future note collaborative.
 - `cap03/3.3-vento.md`, `cap03/indice-cap03.md` e `README.md`: aggiornati i rimandi e la convenzione generale per tenere annotazioni e testo normativo separati, in vista di un possibile uso open source collaborativo.
-- `cap03/3.3-vento.md`: spostate le note dentro la sezione finale "Note redazionali"; nel testo normativo restano solo note numerate con wikilink Obsidian accanto ai punti interessati, con link di ritorno al punto annotato.
+- `cap03/3.3-vento.md`: spostate le note dentro la sezione finale "Note redazionali"; nel testo normativo restano solo note numerate con wikilink accanto ai punti interessati, con link di ritorno al punto annotato.
 - `cap03/3.3-vento.md`: convertite nello stesso sistema anche le note precedenti sulle formule `[3.3.1]`, `[3.3.2]` e sulla Fig. 3.3.2; la Nota di Sandro sulla Tab. C3.3.I resta attribuita nel richiamo redazionale.
 - `cap03/3.3-vento.md`: aggiunta la voce "Note redazionali" nel sommario iniziale del file.
-- `cap03/3.3-vento.md`: aggiunto identificatore Obsidian al sommario (`^sommario-3-3`) e link "Torna al sommario" sotto le principali destinazioni dell'indice interno, come prova di navigazione su Obsidian W520/mobile.
+- `cap03/3.3-vento.md`: aggiunto identificatore di blocco al sommario (`^sommario-3-3`) e link "Torna al sommario" sotto le principali destinazioni dell'indice interno, come prova di navigazione sul W520 e sul telefono.
 - `cap03/annotazioni/fig-3.3.2-categorie-esposizione-lettura-llm.md`: spostata in annotazione separata la lettura tabellare dello schema della Fig. 3.3.2, così il capitolo principale resta più fedele al testo normativo.
 - `cap03/indice-cap03.md`: aggiunto il rimando all'approfondimento sulla Fig. 3.3.2 sotto il §3.3.7.
-- `cap03/3.4-neve.md`: verificato che la Fig. C3.4.4 sulle coperture cilindriche era presente come immagine e file PNG; trasformate le voci C3.4.3.3.1-C3.4.3.3.6 da grassetto a heading reali per renderle raggiungibili da Obsidian.
+- `cap03/3.4-neve.md`: verificato che la Fig. C3.4.4 sulle coperture cilindriche era presente come immagine e file PNG; trasformate le voci C3.4.3.3.1-C3.4.3.3.6 da grassetto a heading reali per renderle raggiungibili dai collegamenti.
 - `cap03/indice-cap03.md`: aggiunti link diretti alle figure C3.4.4-C3.4.7 della Circolare neve.
-- `cap03/img/fig-C3.3.4-quote-riferimento-ritaglio.png`: corretto il ritaglio della Fig. C3.3.4 con nuovo nome file, per forzare il refresh su Obsidian mobile. Il file precedente era presente e richiamato da `3.3-vento.md`, ma mostrava tabella e testo precedente; il nuovo file contiene la figura effettiva con gli schemi delle quote di riferimento.
-- `cap03/img/fig-C3.3.5-coperture-piane-ritaglio.png`: corretto il ritaglio della Fig. C3.3.5 con nuovo nome file, per forzare il refresh su Obsidian mobile. Il file precedente mostrava testo precedente; il nuovo file contiene lo schema di riferimento per coperture piane.
-- `cap03/img/fig-C3.3.6-zone-coperture-piane-ritaglio.png`: corretto il ritaglio della Fig. C3.3.6 con nuovo nome file, per forzare il refresh su Obsidian mobile. Il file precedente includeva anche Fig. C3.3.5, Tab. C3.3.III e testo precedente; il nuovo file contiene solo lo schema C3.3.6.
+- `cap03/img/fig-C3.3.4-quote-riferimento-ritaglio.png`: corretto il ritaglio della Fig. C3.3.4 con nuovo nome file, per forzare l'aggiornamento sul telefono. Il file precedente era presente e richiamato da `3.3-vento.md`, ma mostrava tabella e testo precedente; il nuovo file contiene la figura effettiva con gli schemi delle quote di riferimento.
+- `cap03/img/fig-C3.3.5-coperture-piane-ritaglio.png`: corretto il ritaglio della Fig. C3.3.5 con nuovo nome file, per forzare l'aggiornamento sul telefono. Il file precedente mostrava testo precedente; il nuovo file contiene lo schema di riferimento per coperture piane.
+- `cap03/img/fig-C3.3.6-zone-coperture-piane-ritaglio.png`: corretto il ritaglio della Fig. C3.3.6 con nuovo nome file, per forzare l'aggiornamento sul telefono. Il file precedente includeva anche Fig. C3.3.5, Tab. C3.3.III e testo precedente; il nuovo file contiene solo lo schema C3.3.6.
 
 ## Aggiornamenti 2026-05-31
 

@@ -1,7 +1,3 @@
----
-aliases: [Cap. 1 — Oggetto]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 1 — Oggetto

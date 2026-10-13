@@ -83,7 +83,7 @@ Sono dichiarate e ammesse, senza effetto sul contenuto normativo:
 - impiego di asset per gli apparati grafici e separazione dello schema grafico dalla matrice interrogabile della Tabella C4.2.I;
 - riga di navigazione iniziale e collegamenti strutturali esclusi meccanicamente dai confronti del testo normativo.
 
-Il render controllato con il template del corpus riproduce le parentesi dei tag della fonte. La resa di viewer che non usano quel template, compreso Obsidian, può mostrare i tag ordinari con parentesi diverse: ciò è dichiarato come normalizzazione di visualizzazione e non come difetto del corpus congelato.
+Il render controllato con il template del corpus riproduce le parentesi dei tag della fonte. La resa di viewer che non usano quel template può mostrare i tag ordinari con parentesi diverse: ciò è dichiarato come normalizzazione di visualizzazione e non come difetto del corpus congelato.
 
 ## Anomalie di classe AF conservate
 

@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 7.2 - Criteri generali di progettazione e modellazione]
----
-
-[Torna all'indice del capitolo](./indice-cap07.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap07.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 7.2. Criteri generali di progettazione e modellazione
 

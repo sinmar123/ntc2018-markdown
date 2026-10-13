@@ -16,7 +16,7 @@ Questa cartella raccoglie note tecniche, dubbi, verifiche e possibili refusi rel
 
 I file normativi del capitolo restano il più possibile fedeli al testo ufficiale. Le annotazioni sono separate e collegate dai punti interessati, così il testo della norma resta pulito e le osservazioni possono essere discusse, aggiornate o corrette senza alterare la trascrizione principale.
 
-Nei file normativi il richiamo è una nota numerata con collegamento Markdown relativo, per esempio `[1](./3.3-note-redazionali.md#nota-1)`, posta accanto alla tabella, formula o figura interessata. Anche i collegamenti di ritorno usano percorsi relativi e ancore Markdown, così restano attivi fuori da Obsidian.
+Nei file normativi il richiamo è una nota numerata con collegamento Markdown relativo, per esempio `[1](./3.3-note-redazionali.md#nota-1)`, posta accanto alla tabella, formula o figura interessata. Anche i collegamenti di ritorno usano percorsi relativi e ancore Markdown, così restano attivi in qualsiasi editor Markdown.
 
 **Il testo della nota sta in questa cartella, non in fondo al file normativo.** Dal 5/8/2026 il file normativo contiene soltanto ciò che sta nella fonte: la sezione «Note redazionali» che stava in coda a `3.3-vento.md` è stata spostata in `3.3-note-redazionali.md`. La ragione è nel ciclo di conversione e verifica, § 5, «Il file normativo contiene solo la fonte»: un blocco di Markdown che non corrisponde ad alcuna pagina della fonte non ha destinatario nel confronto cieco del G6, quindi o non lo controlla nessuno o viene segnalato come testo aggiunto a ogni giro.
 

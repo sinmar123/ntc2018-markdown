@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 6.12 - Fattibilità di opere su grandi aree]
----
-
-[Torna all'indice del capitolo](./indice-cap06.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap06.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 6.12. Fattibilità di opere su grandi aree
 

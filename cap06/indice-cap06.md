@@ -1,7 +1,3 @@
----
-aliases: [Cap. 6 — Progettazione geotecnica]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 6 — Progettazione geotecnica
