@@ -10,7 +10,9 @@ Lo script li copia in `_sito/docs/` e soltanto nella copia:
 - trasforma i collegamenti a file del repository fuori dai capitoli (per esempio i
   verbali in `verifica-conformita/`) in collegamenti al file su GitHub, e lascia come
   testo semplice quelli a cartelle escluse dal repository (`_tmp_render/`);
-- sostituisce le figure che mancano nel repository con un avviso testuale.
+- sostituisce le figure che mancano nel repository con un avviso testuale;
+- porta a capo il rimando alla nota scritto dopo i `$$` di chiusura di una formula,
+  che altrimenti uscirebbe in linea fra due «$».
 
 Genera inoltre la pagina iniziale dal registro, `mkdocs.yml` con la navigazione e
 `rapporto-costruzione.json` con i conteggi usati dai controlli.
@@ -41,6 +43,9 @@ SEGNALA_URL = REPO_URL + "/issues/new?template=errore-di-trascrizione.yml"
 RE_CAPITOLO = re.compile(r"^cap\d\d$")
 RE_IMMAGINE = re.compile(r'!\[([^\]]*)\]\(([^)\s]+)(\s+"[^"]*")?\)')
 RE_LINK = re.compile(r'(?<!!)\[([^\]]*)\]\(([^)\s]+)(\s+"[^"]*")?\)')
+# Formula display seguita, sulla stessa riga, dal rimando a una nota redazionale:
+# arithmatex la leggerebbe come formula in linea fra due «$». Nella copia la nota va a capo.
+RE_FORMULA_NOTA = re.compile(r'(?m)^(\$\$[^$\n]+\$\$)[ \t]+(\[\[?\d+\]?\]\([^)\s]+\))[ \t]*(\r?)$')
 
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
@@ -187,6 +192,8 @@ def trasforma(pagina: Path, testo: str, rapporto: dict) -> str:
         rapporto["collegamenti_tolti"].append({"pagina": rel_pagina, "bersaglio": dest})
         return etichetta
 
+    testo, n = RE_FORMULA_NOTA.subn(r"\1\3\n\3\n\2\3\n{: .rimando-nota }\3", testo)
+    rapporto["formule_con_nota"] += n
     testo = RE_IMMAGINE.sub(immagine, testo)
     return RE_LINK.sub(collegamento, testo)
 
@@ -304,7 +311,7 @@ def main() -> None:
         shutil.copytree(RADICE / cap, DOCS / cap)
 
     rapporto: dict = {"pagine_capitoli": 0, "riquadri": Counter(), "figure_mancanti": [],
-                      "collegamenti_github": [], "collegamenti_tolti": []}
+                      "collegamenti_github": [], "collegamenti_tolti": [], "formule_con_nota": 0}
     titoli: dict[str, str] = {}
     pagine_per_cap: dict[str, list[Path]] = defaultdict(list)
     for pagina in sorted(DOCS.rglob("*.md")):
@@ -352,6 +359,7 @@ def main() -> None:
           f"{len({f['file'] for f in rapporto['figure_mancanti']})} file distinti")
     print(f"collegamenti portati su GitHub: {len(rapporto['collegamenti_github'])}")
     print(f"collegamenti tolti (bersaglio escluso dal repository): {len(rapporto['collegamenti_tolti'])}")
+    print(f"formule display con rimando a nota portato a capo: {rapporto['formule_con_nota']}")
 
 
 if __name__ == "__main__":
