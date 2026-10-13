@@ -1,0 +1,11 @@
+--- prima/cap03/3.3.2-vento-velocita-di-riferimento.md
++++ dopo/cap03/3.3.2-vento-velocita-di-riferimento.md
+@@ -17,7 +17,7 @@
+ 
+ La velocità di riferimento $v_r$ è il valore medio su 10 minuti, a 10 m di altezza dal suolo su un terreno pianeggiante e omogeneo di categoria di esposizione II (vedi Tab. 3.3.II), riferito al periodo di ritorno di progetto $T_R$. Tale velocità è definita dalla relazione:
+ 
+-$$v_r = v_b \cdot c_r \tag{3.3.2}$$ [2](./annotazioni/3.3-note-redazionali.md#nota-2) ^formula-3-3-2
++$$v_r = v_b \cdot c_r \tag{3.3.2}$$ [2](./annotazioni/3.3-note-redazionali.md#nota-2)
+ 
+ dove
+ 

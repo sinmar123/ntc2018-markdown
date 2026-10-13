@@ -1,0 +1,56 @@
+--- prima/cap03/3.3.8-vento-coefficienti-aerodinamici.md
++++ dopo/cap03/3.3.8-vento-coefficienti-aerodinamici.md
+@@ -89,7 +89,7 @@
+ 
+ ***Figura C3.3.2** — a) Parametri caratteristici di edifici a pianta rettangolare, b) Edifici a pianta rettangolare: $c_{pe}$ per facce sopravento, sottovento e laterali*
+ 
+-**Tabella C3.3.I** — *Edifici a pianta rettangolare: $c_{pe}$ per facce sopravento, sottovento e laterali* [4](./annotazioni/3.3-note-redazionali.md#nota-4) ^tab-c3-3-i
++**Tabella C3.3.I** — *Edifici a pianta rettangolare: $c_{pe}$ per facce sopravento, sottovento e laterali* [4](./annotazioni/3.3-note-redazionali.md#nota-4)
+ 
+ | Faccia sopravento | $C_{U}=2{,}0$ | $C_{U}=1{,}5$ |
+ |---|---|---|
+@@ -102,7 +102,7 @@
+ 
+ ***Figura C3.3.3** — a) Schema planimetrico di riferimento, b) Suddivisione delle pareti verticali di edificio a pianta rettangolare in zone di uguale pressione (prospetti laterali)*
+ 
+-**Tabella C3.3.II** — *Edifici a pianta rettangolare: $c_{pe}$ per facce sopravento, sottovento e laterali* [5](./annotazioni/3.3-note-redazionali.md#nota-5) ^tab-c3-3-ii
++**Tabella C3.3.II** — *Edifici a pianta rettangolare: $c_{pe}$ per facce sopravento, sottovento e laterali* [5](./annotazioni/3.3-note-redazionali.md#nota-5)
+ 
+ | Zona | A | | B | | C | | D | | E | |
+ |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+@@ -157,7 +157,7 @@
+ 
+ ***Figura C3.3.6** — a) Suddivisione delle coperture piane in zone di uguale pressione, b) Altezza di riferimento per coperture piane con parapetti o raccordi (curvi e piani)*
+ 
+-**Tabella C3.3.IV** — *Coefficienti di pressione per coperture piane* [6](./annotazioni/3.3-note-redazionali.md#nota-6) ^tab-c3-3-iv
++**Tabella C3.3.IV** — *Coefficienti di pressione per coperture piane* [6](./annotazioni/3.3-note-redazionali.md#nota-6)
+ 
+ | | | Zona | | | | | | | |
+ |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+@@ -217,7 +217,7 @@
+ 
+ ***Figura C3.3.10** — Suddivisione delle coperture a semplice falda in zone di uguale pressione*
+ 
+-**Tabella C3.3.VII** — *Coefficienti di pressione per coperture a semplice falda (α in °): vento ortogonale alla direzione del colmo* [7](./annotazioni/3.3-note-redazionali.md#nota-7) ^tab-c3-3-vii
++**Tabella C3.3.VII** — *Coefficienti di pressione per coperture a semplice falda (α in °): vento ortogonale alla direzione del colmo* [7](./annotazioni/3.3-note-redazionali.md#nota-7)
+ 
+ **Direzione del vento Θ = 0°**
+ 
+@@ -306,7 +306,7 @@
+ 
+ ***Figura C3.3.14** — Suddivisione delle coperture a falda doppia in zone di uguale pressione*
+ 
+-**Tabella C3.3.XI** — *Coefficienti di pressione per coperture a doppia falda: vento in direzione ortogonale al colmo* [8](./annotazioni/3.3-note-redazionali.md#nota-8) ^tab-c3-3-xi
++**Tabella C3.3.XI** — *Coefficienti di pressione per coperture a doppia falda: vento in direzione ortogonale al colmo* [8](./annotazioni/3.3-note-redazionali.md#nota-8)
+ 
+ | | Direzione del vento Θ – 0° | | | | | | | | | |
+ |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+@@ -521,7 +521,7 @@
+ 
+ ***Figura C3.3.25** — Tettoie a falda multipla: individuazione dei vari elementi*
+ 
+-**Tabella C3.3.XVII** — *Coefficienti di forza per tettoie a semplice falda (α in °)* ^tab-c3-3-xvii
++**Tabella C3.3.XVII** — *Coefficienti di forza per tettoie a semplice falda (α in °)*
+ 
+ | Elemento n. | Posizione | Fattori riduttivi per tutti i valori di φ | |
+ |---|---|---|---|

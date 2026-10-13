@@ -1,0 +1,25 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.3.1-vento-velocita-base-di-riferimento.md",
+      "bytes": 4223,
+      "sha256": "95707ad1af99746f202c222261849a132a8c20ef3ceb2afa16f442f0fe992eec"
+    },
+    {
+      "path": "cap03/3.3.2-vento-velocita-di-riferimento.md",
+      "bytes": 3637,
+      "sha256": "f23a6d08fbdd908918a60541830beb7ca7e9fff0e8a2161482af4431bc58e5e7"
+    },
+    {
+      "path": "cap03/3.3.7-vento-coefficiente-di-esposizione.md",
+      "bytes": 5255,
+      "sha256": "f9d02b31c5d17ead1d33f19db4c4235f01623a0f69f9bbf0e1dae3b644f28b4a"
+    },
+    {
+      "path": "cap03/3.3.8-vento-coefficienti-aerodinamici.md",
+      "bytes": 55098,
+      "sha256": "371cb9a92fe158af5179b9ca1718d0bffe9bba21ec719ce0aa561d96816a90c5"
+    }
+  ]
+}

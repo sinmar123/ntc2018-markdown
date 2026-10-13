@@ -1,0 +1,26 @@
+{
+  "fase": "SCRITTO",
+  "scope": "3.3-ancore-blocco",
+  "righe": [
+    "3.3.1",
+    "3.3.2",
+    "3.3.7",
+    "3.3.8"
+  ],
+  "file": [
+    "registro-verifica-conformita-ntc2018.csv",
+    "verifica-conformita/scheda-scope-ntc2018-3.3-ancore-blocco.md"
+  ],
+  "nota": "Presa aggregata; nessun giudizio VC emesso",
+  "riapertura_vc_ok": {
+    "righe": [
+      "3.3.1",
+      "3.3.2",
+      "3.3.7",
+      "3.3.8"
+    ],
+    "motivo": "identificativi di blocco dell'editor di note, apparato di navigazione (catalogo, voce 11)",
+    "autorizzazione": "Sandro, 2026-10-13, lista di 9 righe approvata"
+  },
+  "controlli": "OK"
+}

@@ -1,0 +1,200 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap03/3.3.1-vento-velocita-base-di-riferimento.md",
+      "bytes": 4223,
+      "sha256": "95707ad1af99746f202c222261849a132a8c20ef3ceb2afa16f442f0fe992eec"
+    },
+    {
+      "path": "cap03/3.3.2-vento-velocita-di-riferimento.md",
+      "bytes": 3637,
+      "sha256": "f23a6d08fbdd908918a60541830beb7ca7e9fff0e8a2161482af4431bc58e5e7"
+    },
+    {
+      "path": "cap03/3.3.7-vento-coefficiente-di-esposizione.md",
+      "bytes": 5255,
+      "sha256": "f9d02b31c5d17ead1d33f19db4c4235f01623a0f69f9bbf0e1dae3b644f28b4a"
+    },
+    {
+      "path": "cap03/3.3.8-vento-coefficienti-aerodinamici.md",
+      "bytes": 55098,
+      "sha256": "371cb9a92fe158af5179b9ca1718d0bffe9bba21ec719ce0aa561d96816a90c5"
+    },
+    {
+      "path": "cap03/annotazioni/3.3-note-redazionali.md",
+      "bytes": 3806,
+      "sha256": "0a316310bf46455fe51055c9d6a2083df26e5f08a40488e0b27d30605d954ea8"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "bytes": 9888288,
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+    },
+    {
+      "path": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "bytes": 50658045,
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/attestazione-v-modifiche.json",
+      "bytes": 6937,
+      "sha256": "1404d616d058018bc0081dd4b151a76c169bdeeb7e24d7dc048ad5fbad11dbef"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/catalogo-congelato.md",
+      "bytes": 5472,
+      "sha256": "dd5f1b9980e6fd37bd0444277d8b69d6ac0c000b91c1cf659a4f9a398b4a7c43"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/diff-3.3.1-vento-velocita-base-di-riferimento.md.diff",
+      "bytes": 662,
+      "sha256": "3e434f5cf9f46c20baade3cc72616f34be5e31aab84028a590981b6efcbdd170"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/diff-3.3.2-vento-velocita-di-riferimento.md.diff",
+      "bytes": 609,
+      "sha256": "f3f0f7af7dadbbfd70add266cb5afd61401a180a0403a043725b7566ead44033"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/diff-3.3.7-vento-coefficiente-di-esposizione.md.diff",
+      "bytes": 652,
+      "sha256": "3656e775a22e713a279cb70a7fc97da19521a7573f11046c9fe0c460b159dd37"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/diff-3.3.8-vento-coefficienti-aerodinamici.md.diff",
+      "bytes": 3483,
+      "sha256": "9c5cf3e6e03569d3fc66da50d9ec4614a19eaa73149c41bac4e429ac496f337e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/g1/circolare-atto.html",
+      "bytes": 17417,
+      "sha256": "d24bdb2082927e996e12702965f920cb5d15f321db809232d54a3294d110eea6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/g1/dm2023-atto.html",
+      "bytes": 17286,
+      "sha256": "4a93a1dbbe873eb228a7a99c1bccb6fe8c26c572f7b478fd0753aac123530bf1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/g1/ntc-atto.html",
+      "bytes": 17286,
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/g1/ricognizione-20261013.json",
+      "bytes": 2129,
+      "sha256": "aabc6ea3d7d813277fda9e5f2d879365acd4b608c200d7e56b9e474ae0f4c8a4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/lista-correzioni.json",
+      "bytes": 5528,
+      "sha256": "55c0057666a84bf5f4b78f4be8eab21e556bd11bdf6d3484c122421ffa7355fb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/lista-snapshot.json",
+      "bytes": 209,
+      "sha256": "ee2f20ea2ca5f5573f59bea2724ffd5250aa533e4687abc57ffd0b7d66b0f9f1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/presa.eseguito.json",
+      "bytes": 623,
+      "sha256": "608c97b13294d1c4c0ceb1ae9388209af1d486b9c0020e399887015032f2a31a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/presa.json",
+      "bytes": 2913,
+      "sha256": "bf7c4f991b5036e9d16d1bf3b077a9cf36f29ebedd2f0b17f6c17aeb2568e898"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/procedura-congelata.md",
+      "bytes": 42688,
+      "sha256": "01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e67"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.1-vento-velocita-base-di-riferimento-p1-dopo.png",
+      "bytes": 128260,
+      "sha256": "9fe559bd2138859ee07a42b5f1c3c2172e847eec313e26058fa2279f4431352a"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.1-vento-velocita-base-di-riferimento-p1-prima.png",
+      "bytes": 131629,
+      "sha256": "24b6495e4fc666d10df3fa0532dda147053a4f1b391fab2922977b5c300c2f40"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.1-vento-velocita-base-di-riferimento-p2-dopo.png",
+      "bytes": 69307,
+      "sha256": "ef6ec72c4e1989c885af8fb61ccf65e886df014b1e3766567765a0d2e70cac42"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.1-vento-velocita-base-di-riferimento-p2-prima.png",
+      "bytes": 64608,
+      "sha256": "e9f97beaa2e4aae8de2d644c822d47e072899cfb25b3cc0821a3f2d9d5cc3405"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.2-vento-velocita-di-riferimento-p1-dopo.png",
+      "bytes": 125906,
+      "sha256": "ae1a0b721ec5b3928bfc424e4bda987bf393dfa0abaecb8e3d5b2805f84dd29c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.2-vento-velocita-di-riferimento-p1-prima.png",
+      "bytes": 125902,
+      "sha256": "8930ccdd497ac7ef384d6657a6ea587eac0ccd6feeba6ad1f6c07e13def183ee"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p10-dopo.png",
+      "bytes": 113220,
+      "sha256": "ec988c3905fe951e7b013bbd462e1491ed36d9ecb03a0af79114946ee31030a2"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p10-prima.png",
+      "bytes": 109129,
+      "sha256": "b470727396076b6adde5e480f5698f59518aad170253dfa038a751e5a150b38d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p9-dopo.png",
+      "bytes": 313680,
+      "sha256": "eb699fdd3e53e2e4ada6422a1b3947bf7a199d7e84e8fed2094c49315a1c4a07"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p9-prima.png",
+      "bytes": 317123,
+      "sha256": "0255fc0b390e068a53cbf871b264c2da4796550ac186feee11b732983b833b4e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/resa/confronto-resa.json",
+      "bytes": 3327,
+      "sha256": "8c552071cf48ce7bf465ab9b4164e75e85e4e2c9b667d65e0934dfa53c46ee82"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/snapshot-finale.json",
+      "bytes": 765,
+      "sha256": "f4d7fcba65ad3f529049634e1b7427b966c9de6dd6b55565a46638a63b8c0d67"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/snapshot-iniziale.json",
+      "bytes": 765,
+      "sha256": "4f7af5dc8ac2b5da210a8ed8ab831e26bba887599fa6763b7bb153154caaafe1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/target-iniziali/3.3.1-vento-velocita-base-di-riferimento.md",
+      "bytes": 4238,
+      "sha256": "f9116d86bd340884e93151d8e295b6e7b06daecc21771bd1e9ca3d13ed00a1ba"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/target-iniziali/3.3.2-vento-velocita-di-riferimento.md",
+      "bytes": 3652,
+      "sha256": "b9c678cce3396e90f10fec3f435b27b8d34dc7379253851dbe1e8f5fbfe1d80e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/target-iniziali/3.3.7-vento-coefficiente-di-esposizione.md",
+      "bytes": 5266,
+      "sha256": "595389d8410ec5bbe58707f7047fdd00036125c954379445de61426a6f4eb008"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/target-iniziali/3.3.8-vento-coefficienti-aerodinamici.md",
+      "bytes": 55178,
+      "sha256": "2997e1fd9e05b8f2045587c40d6d5cf0314c3f0a09d8811b59d7557ffd33125c"
+    }
+  ]
+}

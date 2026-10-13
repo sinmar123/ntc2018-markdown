@@ -6,6 +6,12 @@ ultimo-aggiornamento: 2026-09-12
 ---
 # Revisione mirata — NTC 2018 cap. 3 Azioni sulle costruzioni
 
+## Aggiornamento 2026-10-13 - §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8
+
+VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](../verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## Aggiornamento 2026-09-12 - Capitolo 3 completato
 
 Concluse le tre introduzioni residue: G0-G7 OK, G6 integrale 32/32 più un solo controllo localizzato del pedice nella didascalia b, zero residui. [Verbale](../verifica-conformita/verbale-VC-ntc2018-introduzioni-3.2-3.4-2026-09-12.md). Tutti i 40 file normativi del capitolo registrati VC-OK. Firma: CDX.

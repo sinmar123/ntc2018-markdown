@@ -1,0 +1,18 @@
+{
+ "scope": "3.3-ancore-blocco",
+ "righe": [
+  "3.3.1",
+  "3.3.2",
+  "3.3.7",
+  "3.3.8"
+ ],
+ "agente": "CCC",
+ "scheda": "verifica-conformita/scheda-scope-ntc2018-3.3-ancore-blocco.md",
+ "scheda_contenuto": "---\nscope_id: ntc2018-3.3-ancore-blocco\nstato: IN-CORSO\nagente: CCC\npresa_in_carico: 2026-10-13T16:58:45+00:00\nprocedura: VC-NTC/7\nprocedura_sha256: 01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e67\ncatalogo_sha256: dd5f1b9980e6fd37bd0444277d8b69d6ac0c000b91c1cf659a4f9a398b4a7c43\nfile_markdown: [cap03/3.3.1-vento-velocita-base-di-riferimento.md, cap03/3.3.2-vento-velocita-di-riferimento.md, cap03/3.3.7-vento-coefficiente-di-esposizione.md, cap03/3.3.8-vento-coefficienti-aerodinamici.md]\nrighe_registro: [\"3.3.1\", \"3.3.2\", \"3.3.7\", \"3.3.8\"]\nperimetro: \"correzione localizzata (§ 8): tolti 9 identificativi di blocco `^…` in coda a righe di formula, didascalia e titolo di tabella; testo normativo escluso\"\nriapertura_vc_ok: {motivo: \"identificativi di blocco dell'editor di note non più usato, apparato di navigazione della voce 11 del catalogo\", autorizzazione: \"Sandro, 2026-10-13, lista di 9 righe approvata («ok vai»)\"}\nsnapshot_iniziale: verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/snapshot-iniziale.json\nsnapshot_sha256: 4f7af5dc8ac2b5da210a8ed8ab831e26bba887599fa6763b7bb153154caaafe1\ngiro_g6: 1\nmax_giri: 3\nrilievi_aperti: 0\ngate: {G0: DA_FARE, G1: DA_FARE, G2: DA_FARE, G3: DA_FARE, G4: DA_FARE, G5: DA_FARE, G6: DA_FARE, G7: DA_FARE}\nprossimo_passo: \"Applicare la lista approvata, controllo delle modifiche di V e G7\"\nrouting_effettivo:\n  C: {agente: sessione cloud, modello: Opus, contesti: 1}\n  preparazione: script_locali\n  E: non_attivato\n  V: da_designare\nconsumi: {contatori: non_disponibili}\n---\n\n# Identificativi di blocco nei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8\n\n## Presa in carico 2026-10-13, CC cloud\n\nRiapertura di quattro paragrafi `VC-OK` per una correzione localizzata del § 8 della procedura, approvata da Sandro il 2026-10-13. La lista toglie 9 identificativi di blocco `^…` dall'apparato di navigazione; nessun testo della fonte cambia. Le impronte dei quattro file coincidono con gli snapshot dei rispettivi verbali VC-OK. `giro_g6: 1` indica il G6 integrale originario di ciascun file, che resta valido: questo scope non ne esegue uno nuovo, solo il controllo delle modifiche.\n\nProssima azione: Applicare la lista approvata, controllo delle modifiche di V e G7.\n",
+ "riapertura_vc_ok": {
+  "motivo": "identificativi di blocco dell'editor di note, apparato di navigazione (catalogo, voce 11)",
+  "autorizzazione": "Sandro, 2026-10-13, lista di 9 righe approvata"
+ },
+ "nota": "Riaperto per correzione localizzata approvata: tolti 9 identificativi di blocco; VC in corso, CC cloud.",
+ "prossima_azione": "Completare il controllo delle modifiche e il G7 dello scope 3.3-ancore-blocco."
+}

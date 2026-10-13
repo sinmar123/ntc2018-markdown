@@ -1,0 +1,121 @@
+{
+ "firma": "V a contesto nuovo, subagente della sessione cloud CC cloud",
+ "data": "2026-10-13",
+ "fonti": {
+  "GU-2018-42-SO8-DM-17-01-2018.pdf": {
+   "sha256_ricalcolato": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+   "atteso": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+   "coincide": true
+  },
+  "GU-2019-35-SO5-Circolare-7-2019.pdf": {
+   "sha256_ricalcolato": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+   "atteso": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+   "coincide": true
+  }
+ },
+ "diff": {
+  "metodo": "script Python (split su LF dei byte grezzi, confronto riga per riga prima/dopo, confronto esatto con testo_attuale e testo_proposto della lista)",
+  "righe_cambiate": {
+   "3.3.1": [
+    22
+   ],
+   "3.3.2": [
+    20
+   ],
+   "3.3.7": [
+    60
+   ],
+   "3.3.8": [
+    92,
+    105,
+    160,
+    220,
+    309,
+    524
+   ]
+  },
+  "corrispondenza_lista": "9/9: ogni riga prima == testo_attuale e dopo == testo_proposto; differenza = solo suffisso « ^nome»",
+  "righe_estranee": [],
+  "righe_mancanti": [],
+  "numero_righe": "invariato (71, 65, 77, 698)",
+  "bom": "presente prima e dopo in tutti e 4 i file",
+  "fine_riga": "LF, nessun CRLF, newline finale presente prima e dopo",
+  "coerenza_repository": "prima/ coincide con HEAD (12271a3), dopo/ coincide con l'albero di lavoro per i 4 file",
+  "rimandi_alle_ancore": "nessun link a #^formula-3-3-1/2, #^fig-3-3-2, #^tab-c3-3-* nei .md del progetto (esclusi _sito/, _tmp_render/, old/, verifica-conformita/)",
+  "esito": "OK"
+ },
+ "rilievi": {
+  "R01": {
+   "pagina_fonte": "NTC p. fisica 56",
+   "elemento": "formula [3.3.1]",
+   "esito": "OK",
+   "nota": "In GU: «v_b = v_b,0 · c_a  [3.3.1]», nessun «^formula-3-3-1» stampato (né nello strato testo). Riga dopo: formula con \\tag{3.3.1} e rimando [1] a Nota 1 (esistente); tolto solo « ^formula-3-3-1»; parte rimasta identica byte per byte al testo precedente meno il suffisso; la correzione non tocca il resto della riga."
+  },
+  "R02": {
+   "pagina_fonte": "NTC p. fisica 57",
+   "elemento": "formula [3.3.2]",
+   "esito": "OK",
+   "nota": "In GU: «v_r = v_b · c_r  [3.3.2]», nessun identificativo stampato. Riga dopo: formula con \\tag{3.3.2} e rimando [2] a Nota 2; tolto solo « ^formula-3-3-2»; parte rimasta identica byte per byte al testo precedente meno il suffisso; la correzione non tocca il resto della riga."
+  },
+  "R03": {
+   "pagina_fonte": "NTC p. fisica 59 (non 58: a p. 58 c'è solo il richiamo nel testo)",
+   "elemento": "didascalia Fig. 3.3.2",
+   "esito": "OK",
+   "nota": "In GU: «Fig. 3.3.2 - Definizione delle categorie di esposizione», nessun «^fig-3-3-2». Didascalia e rimando [3] invariati; tolto solo « ^fig-3-3-2»."
+  },
+  "R04": {
+   "pagina_fonte": "Circolare p. fisica 56",
+   "elemento": "titolo Tabella C3.3.I",
+   "esito": "OK",
+   "nota": "In GU: «Tabella C3.3.I: Edifici a pianta rettangolare: cpe per facce sopravento, sottovento e laterali», nessun identificativo. Titolo e rimando [4] invariati dalla correzione; tolto solo « ^tab-c3-3-i». Il separatore «—» al posto di «:» è normalizzazione preesistente coperta dalla nota redazionale, non introdotta qui."
+  },
+  "R05": {
+   "pagina_fonte": "Circolare p. fisica 56",
+   "elemento": "titolo Tabella C3.3.II",
+   "esito": "OK",
+   "nota": "In GU: «Tabella C3.3.II - Edifici a pianta rettangolare: cpe per facce sopravento, sottovento e laterali.», nessun identificativo. Titolo e rimando [5] invariati; tolto solo « ^tab-c3-3-ii»."
+  },
+  "R06": {
+   "pagina_fonte": "Circolare p. fisica 58",
+   "elemento": "titolo Tabella C3.3.IV",
+   "esito": "OK",
+   "nota": "In GU: «Tabella C3.3.IV - Coefficienti di pressione per coperture piane,», nessun identificativo. Titolo e rimando [6] invariati; tolto solo « ^tab-c3-3-iv»."
+  },
+  "R07": {
+   "pagina_fonte": "Circolare p. fisica 61",
+   "elemento": "titolo Tabella C3.3.VII",
+   "esito": "OK",
+   "nota": "In GU: «Tabella C3.3.VII - Coefficienti di pressione per coperture a semplice falda (α in °): vento ortogonale alla direzione del colmo.», nessun identificativo. Titolo e rimando [7] invariati; tolto solo « ^tab-c3-3-vii»."
+  },
+  "R08": {
+   "pagina_fonte": "Circolare p. fisica 63",
+   "elemento": "titolo Tabella C3.3.XI",
+   "esito": "OK",
+   "nota": "In GU: «Tabella C3.3.XI - Coefficienti di pressione per coperture a doppia falda: vento in direzione ortogonale al colmo.», nessun identificativo. Titolo e rimando [8] invariati; tolto solo « ^tab-c3-3-xi»."
+  },
+  "R09": {
+   "pagina_fonte": "Circolare p. fisica 70",
+   "elemento": "titolo Tabella C3.3.XVII",
+   "esito": "OK",
+   "nota": "In GU: «Tabella C3.3.XVII - Coefficienti di forza per tettoie a semplice falda (α in °).», nessun identificativo. Titolo invariato (nessun rimando di nota, né prima né dopo); tolto solo « ^tab-c3-3-xvii»."
+  }
+ },
+ "resa": {
+  "esito": "OK",
+  "3.3.1": "p1-p2: prima la riga dell'àncora faceva confluire l'elenco «- v_b,0 … - c_a …» in un paragrafo con i trattini letterali; dopo è un elenco puntato regolare. Testo, formula [3.3.1], nota di trascrizione AF-COR-3.3-02 e tabella Tab. 3.3.I identici; la riga Zona 4 scorre da p1 a p2 per il maggiore ingombro. Nessun contenuto perso o aggiunto.",
+  "3.3.2": "p1: stessa dimensione, differenza solo di spaziatura verticale (~10 px) dopo la formula [3.3.2]; testo e formule identici.",
+  "3.3.7": "resa identica pagina per pagina (dichiarato nella consegna; non sono presenti immagini da confrontare).",
+  "3.3.8_ausiliaria": "p9-p10: prima «Direzione del vento Θ = 0°» era incollato al titolo della Tabella C3.3.VII; dopo è un sottotitolo separato. Le righe della tabella Θ=0° (5°,5°,15°,15°,30°,30°,45°,45°,60°,75°) sono le stesse 10 e con gli stessi valori, ripartite diversamente fra p9 e p10; Θ=180°, Tabella C3.3.VIII e C3.3.8.1.4 identici."
+ },
+ "residui": [],
+ "osservazioni_non_bloccanti": [
+  "La copia generata _sito/docs/cap03/ (ignorata da git) contiene ancora le àncore: si allinea alla prossima costruzione del sito.",
+  "Le differenze di punteggiatura dei titoli (separatore «—» al posto di «:»/«-», punto o virgola finali) sono preesistenti e fuori dal perimetro di questa correzione."
+ ],
+ "esito": "OK",
+ "limiti": [
+  "Controllo limitato alle 9 righe cambiate e al loro contesto immediato: non è una rilettura integrale del contenuto dei paragrafi.",
+  "Resa: esaminate solo le pagine cambiate fornite; non ho rigenerato la resa per confermare che le altre pagine siano identiche (in particolare il § 3.3.7, dichiarato identico, e la resa del § 3.3.8, solo ausiliaria perché lo script canonico fallisce prima e dopo).",
+  "Non ho verificato il contenuto delle note redazionali 1-8, solo che le intestazioni Nota 1-8 esistono in cap03/annotazioni/3.3-note-redazionali.md e che i rimandi sono invariati."
+ ]
+}

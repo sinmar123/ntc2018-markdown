@@ -1,5 +1,14 @@
 # Changelog - NTC 2018
 
+## 2026-10-13 - VC-OK dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8 dopo correzione localizzata, CC cloud
+
+- Scope `3.3-ancore-blocco`, primo lavoro VC fatto interamente dal cloud: presa con `prendi` e `riapertura_vc_ok`, lista di 9 righe approvata da Sandro, applicata con script; diff 9/9 conforme, zero righe estranee.
+- G1 rifatto per intero il 2026-10-13 sulla Gazzetta Ufficiale (la ricognizione del 2026-09-09 superava i trenta giorni). G5 con resa prima/dopo: 5 pagine cambiate solo per la riga vuota non più assorbita dalla regola di resa; § 3.3.8 reso solo in forma ausiliaria in questo ambiente.
+- Controllo delle modifiche e G7 di V (subagente Opus a contesto nuovo): OK, zero residui. Manifest di 39 file.
+- VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-13 - Lavoro solo da GitHub: strumenti e regole per le sessioni cloud, CC cloud
 
 - Decisione di Sandro del 2026-10-13: GitHub diventa la copia principale e il lavoro si fa dalle sessioni cloud, senza il W520. La rete dell'ambiente cloud «Default» ora ammette `www.gazzettaufficiale.it`, `gazzettaufficiale.it`, `www.normattiva.it`, `normattiva.it` e `cdn.jsdelivr.net`, oltre ai gestori di pacchetti; impostazione fatta a mano da Sandro, controllata da Claude su Chrome, raggiungibilità provata dalla sessione.
