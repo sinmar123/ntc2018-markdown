@@ -1,5 +1,13 @@
 # Changelog - NTC 2018
 
+## 2026-10-13 - Sito: formule con rimando alla nota sulla stessa riga, CC cloud
+
+- Segnalato da Claude su Chrome dopo l'unione della PR #4: nel sito le formule [3.3.1] e [3.3.2] uscivano in linea fra due «$» e senza numero, perché dopo i `$$` di chiusura, sulla stessa riga, c'è il rimando alla nota redazionale. Il difetto c'era già prima.
+- `strumenti/costruisci-sito.py`, solo nella copia del sito: il rimando va a capo sotto la formula, con la classe `rimando-nota` (carattere piccolo, allineato a destra, in `strumenti/sito/stile.css`). Quattro casi: §§ 3.3.1 e 3.3.2 e la raccolta `3.3-vento.md`. I file dei capitoli non cambiano, quindi le impronte delle VC restano valide.
+- Controlli: `mkdocs build --strict` e `controlla-sito.py` senza errori; i «$» fuori dalle formule nel sito passano da 4 a 0; formula [3.3.1] provata in Chromium con MathJax, resa come formula a sé con il numero a destra e zero errori.
+
+Prossima azione: Sandro unisce la PR.
+
 ## 2026-10-13 - VC-OK dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8 dopo correzione localizzata, CC cloud
 
 - Scope `3.3-ancore-blocco`, primo lavoro VC fatto interamente dal cloud: presa con `prendi` e `riapertura_vc_ok`, lista di 9 righe approvata da Sandro, applicata con script; diff 9/9 conforme, zero righe estranee.
