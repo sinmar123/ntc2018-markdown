@@ -491,6 +491,38 @@ class SupportoTest(unittest.TestCase):
             actual = list(csv.DictReader(stream, delimiter=";"))
         self.assertEqual([r["titolo"] for r in actual], ["TITOLO UNO", "TITOLO DUE"])
 
+    def test_take_vc_ok_only_with_declared_reopening(self):
+        fields = ["paragrafo", "apri_md", "stato_vc", "prossima_azione", "evidenza_vc", "note"]
+        row = dict.fromkeys(fields, "")
+        row.update(paragrafo="3.3.1", apri_md="verificato.md", stato_vc="VC-OK")
+        registry = self.root / "registro-verifica-conformita-ntc2018.csv"
+        (self.root / "verificato.md").write_text("Testo\n", encoding="utf-8")
+        with registry.open("w", encoding="utf-8-sig", newline="") as stream:
+            writer = csv.DictWriter(stream, fieldnames=fields, delimiter=";"); writer.writeheader(); writer.writerow(row)
+        cfg = {"scope": "3.3.1", "righe": ["3.3.1"], "agente": "CCC",
+               "scheda": "verifica-conformita/scheda-scope-ntc2018-3.3.1.md",
+               "scheda_contenuto": "---\nscope_id: ntc2018-3.3.1\nstato: IN-CORSO\nagente: CCC\n---\n",
+               "prossima_azione": "Applicare la lista approvata", "nota": "Correzione localizzata"}
+        config = self.root / "presa-vc-ok.json"
+        before = registry.read_bytes()
+        with patch.object(VC, "ROOT", self.root):
+            config.write_text(json.dumps(cfg), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "non sono prendibili"):
+                VC.take_scope(config, apply=True, run_checks=False)
+            config.write_text(json.dumps({**cfg, "riapertura_vc_ok": {"motivo": "apparato", "autorizzazione": " "}}),
+                              encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "senza motivo o autorizzazione"):
+                VC.take_scope(config, apply=True, run_checks=False)
+            self.assertEqual(registry.read_bytes(), before)
+            self.assertFalse(config.with_suffix(".eseguito.json").exists())
+            config.write_text(json.dumps({**cfg, "riapertura_vc_ok": {
+                "motivo": "apparato di navigazione", "autorizzazione": "Sandro, 2026-10-13"}}), encoding="utf-8")
+            plan = VC.take_scope(config)
+            self.assertEqual(plan["riapertura_vc_ok"]["righe"], ["3.3.1"])
+            VC.take_scope(config, apply=True, run_checks=False)
+        with registry.open(encoding="utf-8-sig", newline="") as stream:
+            self.assertEqual(next(csv.DictReader(stream, delimiter=";"))["stato_vc"], "IN-CORSO")
+
     def test_take_disjoint_scope_preserves_active_scope_and_rejects_shared_target(self):
         fields = ["paragrafo", "apri_md", "stato_vc", "prossima_azione", "evidenza_vc", "note"]
         active = dict.fromkeys(fields, "")

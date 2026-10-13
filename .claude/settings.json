@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ \"$CLAUDE_CODE_REMOTE\" = \"true\" ]; then pip install -q -r \"$CLAUDE_PROJECT_DIR/strumenti/sito/requisiti.txt\" -r \"$CLAUDE_PROJECT_DIR/strumenti/requisiti-vc.txt\" >/dev/null 2>&1 || echo 'Installazione delle dipendenze non riuscita: vedere strumenti/sito/requisiti.txt e strumenti/requisiti-vc.txt'; fi",
+            "timeout": 180
+          }
+        ]
+      }
+    ]
+  }
+}

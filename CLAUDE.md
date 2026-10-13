@@ -10,14 +10,17 @@ Avviare la sessione dalla radice del workspace per caricare le sue impostazioni,
 
 ## Sessione cloud (claude.ai/code), dal 2026-10-01
 
-Dal 2026-10-01 questa cartella è anche il repository pubblico `sinmar123/ntc2018-markdown`. Una sessione cloud vede soltanto il repository: niente workspace, skill, giornale, server MCP né strumenti del W520. Regole in più per lei:
+Dal 2026-10-01 questa cartella è il repository pubblico `sinmar123/ntc2018-markdown`. Dal 2026-10-13, per scelta di Sandro, **GitHub è la copia principale e il lavoro si fa dalle sessioni cloud**; il W520 non è più necessario. Una sessione cloud vede soltanto il repository: niente workspace, skill, giornale né server MCP del W520. Regole in più per lei:
 
-- lavora su un ramo e chiude con una pull request; non scrive mai su `main`;
-- tocca solo i capitoli assegnati dal prompt, e mai le righe del registro in stato `IN-CORSO`, che sono di un agente locale;
-- per le VC vale [PROCEDURA-VC.md](PROCEDURA-VC.md) come per tutti; gli esecutori sono gli «equivalenti documentati» che il suo § 5 chiede per gli altri runtime, nella tabella qui sotto. In `agente_vc` si scrive `CC cloud` col modello effettivo, e i modelli usati per ruolo vanno nella scheda;
-- se la rete dell'ambiente non raggiunge Normattiva o la Gazzetta, il G1 si ferma e si dice, senza saltarlo;
+- lavora su un ramo e chiude con una pull request; non scrive mai su `main`. L'unione la fa Sandro;
+- tocca solo i capitoli assegnati dal prompt, e mai le righe del registro in stato `IN-CORSO` di un altro agente: per subentrare serve un ordine esplicito di Sandro;
+- per le VC vale [PROCEDURA-VC.md](PROCEDURA-VC.md) come per tutti; gli esecutori sono gli «equivalenti documentati» che il suo § 5 chiede per gli altri runtime, nella tabella qui sotto. Nelle schede e nei comandi di `vc-supporto.py` l'agente è `CCC`, che nel registro diventa `CC cloud`; i modelli usati per ruolo vanno nella scheda;
+- un paragrafo `VC-OK` si riapre solo per una correzione localizzata approvata da Sandro, con `prendi` e il campo `riapertura_vc_ok` (vedi `strumenti/vc-supporto.md`);
+- la rete dell'ambiente «Default» ammette Gazzetta Ufficiale, Normattiva e `cdn.jsdelivr.net` oltre ai gestori di pacchetti. Se un sito necessario non risponde, il G1 si ferma e si dice, senza saltarlo;
+- all'avvio della sessione `.claude/settings.json` installa da solo MkDocs e PyMuPDF (`strumenti/sito/requisiti.txt`, `strumenti/requisiti-vc.txt`), così girano costruzione del sito, lint e test di `vc-supporto.py`;
 - i file dei capitoli non portano lo stato di verifica scritto dentro: lo aggiunge il sito al momento della costruzione, perché le VC misurano l'impronta dei file;
-- la voce si scrive nel CHANGELOG con firma `CC cloud`; la voce di giornale del workspace la fa il W520 quando riporta il lavoro in locale.
+- la voce si scrive nel CHANGELOG con firma `CC cloud`, e il CHANGELOG fa anche da giornale: il giornale del workspace (`diario/nuova-voce.py`) e il registro generale fuori dal repository (`../_registro-verifica-conformita.csv`) non sono raggiungibili, quindi nelle registrazioni il master si dichiara non pertinente;
+- le operazioni su GitHub o sul sito che si fanno dal browser (unire una pull request, controllare le pagine pubblicate, impostazioni del repository) si danno a Sandro come prompt pronto per Claude su Chrome. Le impostazioni di sicurezza dell'ambiente cloud, come la rete, Claude su Chrome non le cambia: Sandro le fa a mano, con Chrome che lo guida e poi controlla.
 
 ### Modelli per ruolo nelle VC (sessione su Opus)
 

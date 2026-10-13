@@ -1,5 +1,22 @@
 # Changelog - NTC 2018
 
+## 2026-10-13 - Lavoro solo da GitHub: strumenti e regole per le sessioni cloud, CC cloud
+
+- Decisione di Sandro del 2026-10-13: GitHub diventa la copia principale e il lavoro si fa dalle sessioni cloud, senza il W520. La rete dell'ambiente cloud «Default» ora ammette `www.gazzettaufficiale.it`, `gazzettaufficiale.it`, `www.normattiva.it`, `normattiva.it` e `cdn.jsdelivr.net`, oltre ai gestori di pacchetti; impostazione fatta a mano da Sandro, controllata da Claude su Chrome, raggiungibilità provata dalla sessione.
+- `strumenti/vc-supporto.py`: `prendi` riapre una riga `VC-OK` solo con il campo `riapertura_vc_ok` (motivo e autorizzazione di Sandro), per le correzioni localizzate del § 8 della procedura; aggiunta la sigla `CCC` (`CC cloud`) fra gli agenti. Nuovo test; `test_vc_supporto.py` 32 test OK. Specifica aggiornata in `strumenti/vc-supporto.md`.
+- `.claude/settings.json`: all'avvio di una sessione cloud installa MkDocs e PyMuPDF da `strumenti/sito/requisiti.txt` e dal nuovo `strumenti/requisiti-vc.txt`.
+- `CLAUDE.md`, sezione «Sessione cloud»: GitHub copia principale; sigla `CCC`; riapertura dei `VC-OK`; rete ammessa; CHANGELOG come giornale e master fuori repository non pertinente; prompt pronti per Claude su Chrome per le operazioni da browser, ma le impostazioni di sicurezza dell'ambiente le fa Sandro a mano.
+- Nessun file dei capitoli, del registro o della procedura toccato.
+
+Prossima azione: Sandro unisce la PR; poi lo scope VC sugli identificativi `^…` dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, lista già approvata.
+
+## 2026-10-13 - Sito: indici di paragrafo distinti nel menu, CC cloud
+
+- Nel menu laterale le pagine `indice-x.y.md` avevano lo stesso titolo della raccolta del paragrafo (per esempio due voci «5.1. Ponti stradali»), segnalato da Claude su Chrome dopo l'unione della PR #2. `strumenti/costruisci-sito.py` ora le chiama «Indice del § x.y – titolo». Solo nella navigazione del sito: nessun file dei capitoli toccato.
+- Controlli: nessuna voce doppia rimasta nel menu di alcun capitolo; `mkdocs build --strict` e `controlla-sito.py` senza errori.
+
+Prossima azione: Sandro unisce la PR.
+
 ## 2026-10-13 - Solo file Markdown: tolto ogni riferimento all'editor di note, CC cloud
 
 - Decisione di Sandro del 2026-10-13: il progetto lavora soltanto con file Markdown, senza un editor di note dedicato. Su sua richiesta il nome dell'editor usato fino a settembre è stato tolto da tutto il repository, storico ed evidenze compresi, e le sue sintassi dai capitoli non registrati.

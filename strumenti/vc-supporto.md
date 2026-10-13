@@ -28,6 +28,8 @@ python strumenti/vc-supporto.py prendi PRESA_JSON --applica
 
 Il piano non scrive. L'applicazione rifiuta righe duplicate, target mancanti, un target condiviso con uno scope `IN-CORSO` o un lucchetto preesistente. Sono ammesse prese autorizzate su file disgiunti, preservando le altre righe. Crea una sola scheda di sezione, porta insieme le righe a `IN-CORSO`, conserva una ricevuta e verifica il registro CSV. Il CSV non si modifica a mano.
 
+Una riga `VC-OK` si prende soltanto per una correzione localizzata del § 8 della procedura, con il campo `riapertura_vc_ok`: oggetto con `motivo` e `autorizzazione` non vuoti, cioè che cosa si corregge e la decisione di Sandro con la data. Senza quel campo le righe `VC-OK` restano rifiutate. Piano e ricevuta riportano le righe riaperte. Aggiunto il 2026-10-13, CC cloud, insieme alla sigla `CCC` (`CC cloud`) fra gli agenti ammessi.
+
 Se E modifica rubriche di righe già `IN-CORSO`, i titoli del CSV si allineano senza patch manuali:
 
 ```text
