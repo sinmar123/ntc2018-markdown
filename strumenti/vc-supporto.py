@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DEPURA = runpy.run_path(str(ROOT / "strumenti/prepara-scope-g6.py"))["depura"]
 PROCEDURA = ROOT / "PROCEDURA-VC.md"
 CATALOGO = ROOT / "verifica-conformita/normalizzazioni-dichiarate-NTC2018.md"
-AGENT_LABELS = {"CDX": "Codex (CDX)", "CC": "Claude Code (CC)", "OC": "OpenClaw (OC)",
+AGENT_LABELS = {"CDX": "Codex (CDX)", "CC": "Claude Code (CC)", "CCC": "CC cloud (CCC)", "OC": "OpenClaw (OC)",
                 "GROK": "Grok (GROK)", "GBOT": "Grok Bot (GBOT)", "HRM": "Hermes (HRM)"}
 
 V_INSTRUCTIONS = '''# Consegna al verificatore
@@ -260,7 +260,15 @@ def take_scope(config_path, apply=False, run_checks=True):
     selected = [r for r in rows if r["paragrafo"] in row_ids]
     require(len(selected) == len(row_ids) and {r["paragrafo"] for r in selected} == set(row_ids),
             "Righe dello scope assenti o non univoche")
-    require(all(r["stato_vc"] in {"MAI-FATTA", "DA-RIFARE", "DA-RICONFERMARE"} for r in selected),
+    # Una riga VC-OK si riapre soltanto per una correzione localizzata (§ 8 della procedura),
+    # con motivo e autorizzazione di Sandro dichiarati nella presa e copiati nella ricevuta.
+    reopening = cfg.get("riapertura_vc_ok")
+    if reopening is not None:
+        require(isinstance(reopening, dict) and all(isinstance(reopening.get(k), str) and reopening[k].strip()
+                                                    for k in ("motivo", "autorizzazione")),
+                "Riapertura VC-OK senza motivo o autorizzazione")
+    allowed_states = {"MAI-FATTA", "DA-RIFARE", "DA-RICONFERMARE"} | ({"VC-OK"} if reopening else set())
+    require(all(r["stato_vc"] in allowed_states for r in selected),
             "Una o più righe non sono prendibili in carico")
     require(all(inside(ROOT, r["apri_md"]).is_file() for r in selected), "Target registrato mancante")
     active_targets = {inside(ROOT, r["apri_md"]) for r in rows if r["stato_vc"] == "IN-CORSO"}
@@ -275,6 +283,7 @@ def take_scope(config_path, apply=False, run_checks=True):
     require(re.search(rf"(?m)^scope_id: ntc2018-{re.escape(scope)}\s*$", content), "Scope della scheda non allineato")
     require(re.search(r"(?m)^stato: IN-CORSO\s*$", content), "Scheda non in corso")
     require(re.search(rf"(?m)^agente: {re.escape(agent)}\s*$", content), "Agente della scheda non allineato")
+    reopened = [r["paragrafo"] for r in selected if r["stato_vc"] == "VC-OK"]
     for row in selected:
         row.update(stato_vc="IN-CORSO", prossima_azione=cfg["prossima_azione"],
                    evidenza_vc=expected_sheet, note=cfg["nota"])
@@ -285,6 +294,8 @@ def take_scope(config_path, apply=False, run_checks=True):
     summary = {"fase": "PIANO", "scope": scope, "righe": row_ids,
                "file": [str(registry.relative_to(ROOT)), expected_sheet],
                "nota": "Presa aggregata; nessun giudizio VC emesso"}
+    if reopening:
+        summary["riapertura_vc_ok"] = {"righe": reopened, **reopening}
     if not apply:
         return summary
     receipt = Path(config_path).resolve().with_suffix(".eseguito.json")

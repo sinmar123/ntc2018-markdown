@@ -1,0 +1,2 @@
+# Dipendenze di strumenti/vc-supporto.py e dei suoi test (preparazione dei pacchetti fonte)
+pymupdf
