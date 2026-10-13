@@ -54,7 +54,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-      # ancore come quelle di GitHub e Obsidian, con le lettere accentate:
+      # ancore come quelle di GitHub, con le lettere accentate:
       # gli indici interni dei capitoli le usano così
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
