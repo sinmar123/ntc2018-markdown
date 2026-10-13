@@ -1,0 +1,58 @@
+{
+ "strumento": "strumenti/render-capitolo.py",
+ "pandoc": "pandoc 3.9",
+ "xelatex": "XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian)",
+ "nota_3.3.8": "La resa canonica del § 3.3.8 fallisce in questo ambiente sia prima sia dopo la correzione (LaTeX: Too deeply nested, indice interno a cinque livelli). Resa ausiliaria con lo stesso script e, nel solo preambolo, enumitem con profondità 9; dichiarata come limite.",
+ "confronto_pagine": {
+  "3.3.1-vento-velocita-base-di-riferimento.pdf": {
+   "pagine_prima": 3,
+   "pagine_dopo": 3,
+   "pagine_diverse": [
+    1,
+    2
+   ]
+  },
+  "3.3.2-vento-velocita-di-riferimento.pdf": {
+   "pagine_prima": 2,
+   "pagine_dopo": 2,
+   "pagine_diverse": [
+    1
+   ]
+  },
+  "3.3.7-vento-coefficiente-di-esposizione.pdf": {
+   "pagine_prima": 4,
+   "pagine_dopo": 4,
+   "pagine_diverse": []
+  },
+  "3.3.8-vento-coefficienti-aerodinamici-ausiliaria.pdf": {
+   "pagine_prima": 31,
+   "pagine_dopo": 31,
+   "pagine_diverse": [
+    9,
+    10
+   ]
+  }
+ },
+ "impronte_pdf": {
+  "prima/3.3.1-vento-velocita-base-di-riferimento.pdf": "e2ee250117779312f2a57951d4630f9e453656e439ec9c2eb472dac26e724066",
+  "prima/3.3.2-vento-velocita-di-riferimento.pdf": "e5ad747578db7a789ff7a75f57c116f6af77963aa136498db1f055c03cec6fd2",
+  "prima/3.3.7-vento-coefficiente-di-esposizione.pdf": "6fa0fe8faf276bd37da587938290d602101786542e92d7f53939e568b3b758ab",
+  "prima/3.3.8-vento-coefficienti-aerodinamici-ausiliaria.pdf": "e5edefcbbbe70c5cd60201430b8399df7b2635a132eb2db45fa34dc1ba9e5be0",
+  "dopo/3.3.1-vento-velocita-base-di-riferimento.pdf": "1a9ad28a7d675cb5e6d5a05775d2855be48e77598bb07acd4e6a8cb406f3ec9f",
+  "dopo/3.3.2-vento-velocita-di-riferimento.pdf": "4a7570707efa18c1b4ac957a7ed29971e05224988bb9c33180bb8d60aade585e",
+  "dopo/3.3.7-vento-coefficiente-di-esposizione.pdf": "6113a8b89b639bc1dfe42df7166360bd7bed53de5e07deb51fde6e4918418c30",
+  "dopo/3.3.8-vento-coefficienti-aerodinamici-ausiliaria.pdf": "4ed662529d446c99aeed889ca7a7a70de91b1f42de4c52b88bded43f040a4a30"
+ },
+ "pagine_cambiate_png": {
+  "3.3.1-vento-velocita-base-di-riferimento-p1-dopo.png": "9fe559bd2138859ee07a42b5f1c3c2172e847eec313e26058fa2279f4431352a",
+  "3.3.1-vento-velocita-base-di-riferimento-p1-prima.png": "24b6495e4fc666d10df3fa0532dda147053a4f1b391fab2922977b5c300c2f40",
+  "3.3.1-vento-velocita-base-di-riferimento-p2-dopo.png": "ef6ec72c4e1989c885af8fb61ccf65e886df014b1e3766567765a0d2e70cac42",
+  "3.3.1-vento-velocita-base-di-riferimento-p2-prima.png": "e9f97beaa2e4aae8de2d644c822d47e072899cfb25b3cc0821a3f2d9d5cc3405",
+  "3.3.2-vento-velocita-di-riferimento-p1-dopo.png": "ae1a0b721ec5b3928bfc424e4bda987bf393dfa0abaecb8e3d5b2805f84dd29c",
+  "3.3.2-vento-velocita-di-riferimento-p1-prima.png": "8930ccdd497ac7ef384d6657a6ea587eac0ccd6feeba6ad1f6c07e13def183ee",
+  "3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p10-dopo.png": "ec988c3905fe951e7b013bbd462e1491ed36d9ecb03a0af79114946ee31030a2",
+  "3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p10-prima.png": "b470727396076b6adde5e480f5698f59518aad170253dfa038a751e5a150b38d",
+  "3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p9-dopo.png": "eb699fdd3e53e2e4ada6422a1b3947bf7a199d7e84e8fed2094c49315a1c4a07",
+  "3.3.8-vento-coefficienti-aerodinamici-ausiliaria-p9-prima.png": "0255fc0b390e068a53cbf871b264c2da4796550ac186feee11b732983b833b4e"
+ }
+}
