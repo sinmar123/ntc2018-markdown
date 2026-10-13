@@ -1,0 +1,47 @@
+name: Errore di trascrizione
+description: Il testo del repository non coincide con quello pubblicato in Gazzetta Ufficiale.
+title: "[Errore] § "
+labels: ["errore-di-trascrizione"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fa fede soltanto il testo pubblicato in Gazzetta Ufficiale. Per ogni segnalazione indicate dove si trova l'errore e riportate i due testi a confronto, così la correzione si può controllare sulla fonte.
+  - type: input
+    id: paragrafo
+    attributes:
+      label: Paragrafo
+      description: Numero del paragrafo, come compare nel sito o nel nome del file (per esempio 3.4.4 oppure C4.2.12).
+      placeholder: "3.4.4"
+    validations:
+      required: true
+  - type: input
+    id: pagina
+    attributes:
+      label: Pagina della Gazzetta
+      description: Atto e pagina della Gazzetta Ufficiale in cui si legge il testo corretto.
+      placeholder: "NTC 2018, G.U. n. 42 del 20/02/2018, S.O. n. 8, p. 62"
+    validations:
+      required: true
+  - type: textarea
+    id: testo-repository
+    attributes:
+      label: Testo come appare nel repository
+      description: Copiate il testo, la formula o la cella di tabella come compare nel sito o nel file Markdown.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: testo-gazzetta
+    attributes:
+      label: Testo come appare in Gazzetta
+      description: Trascrivete lo stesso passo come è stampato in Gazzetta Ufficiale.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: Facoltative. Per esempio un'immagine del passo della Gazzetta.
+    validations:
+      required: false
