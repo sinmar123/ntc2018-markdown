@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 8.8 - Indicazioni aggiuntive relative ai ponti esistenti]
----
-
-[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap08.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # C8.8. Indicazioni aggiuntive relative ai ponti esistenti
 

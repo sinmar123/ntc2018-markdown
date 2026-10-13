@@ -4,55 +4,55 @@
 
 ## Indice del capitolo
 
-- [[#8.1. OGGETTO|8.1 Oggetto]]
-- [[#8.2. CRITERI GENERALI|8.2 Criteri generali]]
-- [[#8.3. VALUTAZIONE DELLA SICUREZZA|8.3 Valutazione della sicurezza (ζ_E, ζ_V,i)]]
-- [[#8.4. CLASSIFICAZIONE DEGLI INTERVENTI|8.4 Classificazione interventi (riparazione locale, miglioramento, adeguamento)]]
-  - [[#8.4.1. RIPARAZIONE O INTERVENTO LOCALE|8.4.1 Riparazione o intervento locale]]
-  - [[#8.4.2. INTERVENTO DI MIGLIORAMENTO|8.4.2 Intervento di miglioramento]]
-  - [[#8.4.3. INTERVENTO DI ADEGUAMENTO|8.4.3 Intervento di adeguamento]]
-- [[#8.5. DEFINIZIONE DEL MODELLO DI RIFERIMENTO PER LE ANALISI|8.5 Modello di riferimento per le analisi (LC1-LC3, FC)]]
-  - [[#8.5.1. ANALISI STORICO-CRITICA|8.5.1 Analisi storico-critica]]
-  - [[#8.5.2. RILIEVO|8.5.2 Rilievo]]
-  - [[#8.5.3. CARATTERIZZAZIONE MECCANICA DEI MATERIALI|8.5.3 Caratterizzazione meccanica dei materiali]]
-  - [[#8.5.4. LIVELLI DI CONOSCENZA E FATTORI DI CONFIDENZA|8.5.4 Livelli di conoscenza e fattori di confidenza]]
-  - [[#8.5.5. AZIONI|8.5.5 Azioni]]
-- [[#8.6. MATERIALI|8.6 Materiali]]
-- [[#8.7. PROGETTAZIONE DEGLI INTERVENTI IN PRESENZA DI AZIONI SISMICHE|8.7 Interventi in presenza di azioni sismiche]]
-  - [[#8.7.1. COSTRUZIONI IN MURATURA|8.7.1 Costruzioni in muratura]]
-  - [[#8.7.2. COSTRUZIONI IN CALCESTRUZZO ARMATO O IN ACCIAIO|8.7.2 Costruzioni in c.a. o acciaio]]
-  - [[#8.7.3. COSTRUZIONI MISTE|8.7.3 Costruzioni miste]]
-  - [[#8.7.4. CRITERI E TIPI D’INTERVENTO|8.7.4 Criteri e tipi d'intervento]]
-  - [[#8.7.5. ELABORATI DEL PROGETTO DELL’INTERVENTO|8.7.5 Elaborati del progetto]]
-- [[#C8.1. Oggetto|C8.1 — Oggetto (D.P.C.M. 9/2/2011 beni culturali)]]
-- [[#C8.2. Criteri generali|C8.2 — Criteri generali (criticità locali)]]
-- [[#C8.3. Valutazione della sicurezza|C8.3 — Valutazione della sicurezza (ζ_E, ζ_V,i, fondazioni)]]
-- [[#C8.4. Classificazione degli interventi|C8.4 — Classificazione interventi]]
-  - [[#C8.4.1. Riparazione o intervento locale|C8.4.1 Riparazione locale]]
-  - [[#C8.4.2. Intervento di miglioramento|C8.4.2 Miglioramento (ζ_E ≥ 0,6)]]
-  - [[#C8.4.3. Intervento di adeguamento|C8.4.3 Adeguamento (ζ_E ≥ 1,0/0,8)]]
-- [[#C8.5. Definizione del modello di riferimento per le analisi|C8.5 — Modello di riferimento]]
-  - [[#C8.5.1. Analisi storico-critica|C8.5.1 Analisi storico-critica]]
-  - [[#C8.5.2. Rilievo|C8.5.2 Rilievo (muratura, c.a./acciaio, legno)]]
-  - [[#C8.5.3. Caratterizzazione meccanica dei materiali|C8.5.3 Materiali (Tab. C8.5.I-II)]]
-  - [[#C8.5.4. Livelli di conoscenza e fattori di confidenza|C8.5.4 LC e FC (LC1=1,35, LC2=1,2, LC3=1)]]
-  - [[#C8.5.5. Azioni|C8.5.5 Azioni (fattore q)]]
-- [[#C8.6. Materiali|C8.6 — Materiali (compatibilità, ritiro)]]
-- [[#C8.7. Progettazione degli interventi|C8.7 — Progettazione interventi]]
-  - [[#C8.7.1. Costruzioni di muratura|C8.7.1 Muratura (meccanismi locali e globali)]]
-  - [[#C8.7.2. Costruzioni di calcestruzzo armato o di acciaio|C8.7.2 C.a./acciaio (modelli capacità)]]
-  - [[#C8.7.3. Costruzioni miste|C8.7.3 Miste]]
-  - [[#C8.7.4. Criteri e tipi di intervento|C8.7.4 Interventi (incamiciatura, compositi)]]
-  - [[#C8.7.5. Elaborati del progetto dell'intervento|C8.7.5 Elaborati]]
-  - [[#C8.7.6. Indicazioni aggiuntive per gli elementi non strutturali e gli impianti soggetti ad azioni sismiche|C8.7.6 Elementi non strutturali (rischio gas)]]
-- [[#C8.8. Indicazioni aggiuntive relative ai ponti esistenti|C8.8 — Ponti esistenti]]
-  - [[#C8.8.1. Azione sismica|C8.8.1 Azione sismica]]
-  - [[#C8.8.2. Criteri generali|C8.8.2 Criteri generali]]
-  - [[#C8.8.3. Livello di conoscenza e fattore di confidenza|C8.8.3 LC e FC]]
-  - [[#C8.8.4. Modello strutturale|C8.8.4 Modello strutturale]]
-  - [[#C8.8.5. Metodi di analisi e criteri di verifica|C8.8.5 Metodi di analisi]]
-  - [[#C8.8.6. Fondazioni e spalle|C8.8.6 Fondazioni]]
-  - [[#C8.8.7. Classificazione degli interventi|C8.8.7 Classificazione interventi]]
+- [8.1 Oggetto](#81-oggetto)
+- [8.2 Criteri generali](#82-criteri-generali)
+- [8.3 Valutazione della sicurezza (ζ_E, ζ_V,i)](#83-valutazione-della-sicurezza)
+- [8.4 Classificazione interventi (riparazione locale, miglioramento, adeguamento)](#84-classificazione-degli-interventi)
+  - [8.4.1 Riparazione o intervento locale](#841-riparazione-o-intervento-locale)
+  - [8.4.2 Intervento di miglioramento](#842-intervento-di-miglioramento)
+  - [8.4.3 Intervento di adeguamento](#843-intervento-di-adeguamento)
+- [8.5 Modello di riferimento per le analisi (LC1-LC3, FC)](#85-definizione-del-modello-di-riferimento-per-le-analisi)
+  - [8.5.1 Analisi storico-critica](#851-analisi-storico-critica)
+  - [8.5.2 Rilievo](#852-rilievo)
+  - [8.5.3 Caratterizzazione meccanica dei materiali](#853-caratterizzazione-meccanica-dei-materiali)
+  - [8.5.4 Livelli di conoscenza e fattori di confidenza](#854-livelli-di-conoscenza-e-fattori-di-confidenza)
+  - [8.5.5 Azioni](#855-azioni)
+- [8.6 Materiali](#86-materiali)
+- [8.7 Interventi in presenza di azioni sismiche](#87-progettazione-degli-interventi-in-presenza-di-azioni-sismiche)
+  - [8.7.1 Costruzioni in muratura](#871-costruzioni-in-muratura)
+  - [8.7.2 Costruzioni in c.a. o acciaio](#872-costruzioni-in-calcestruzzo-armato-o-in-acciaio)
+  - [8.7.3 Costruzioni miste](#873-costruzioni-miste)
+  - [8.7.4 Criteri e tipi d'intervento](#874-criteri-e-tipi-dintervento)
+  - [8.7.5 Elaborati del progetto](#875-elaborati-del-progetto-dellintervento)
+- [C8.1 — Oggetto (D.P.C.M. 9/2/2011 beni culturali)](#c81-oggetto)
+- [C8.2 — Criteri generali (criticità locali)](#c82-criteri-generali)
+- [C8.3 — Valutazione della sicurezza (ζ_E, ζ_V,i, fondazioni)](#c83-valutazione-della-sicurezza)
+- [C8.4 — Classificazione interventi](#c84-classificazione-degli-interventi)
+  - [C8.4.1 Riparazione locale](#c841-riparazione-o-intervento-locale)
+  - [C8.4.2 Miglioramento (ζ_E ≥ 0,6)](#c842-intervento-di-miglioramento)
+  - [C8.4.3 Adeguamento (ζ_E ≥ 1,0/0,8)](#c843-intervento-di-adeguamento)
+- [C8.5 — Modello di riferimento](#c85-definizione-del-modello-di-riferimento-per-le-analisi)
+  - [C8.5.1 Analisi storico-critica](#c851-analisi-storico-critica)
+  - [C8.5.2 Rilievo (muratura, c.a./acciaio, legno)](#c852-rilievo)
+  - [C8.5.3 Materiali (Tab. C8.5.I-II)](#c853-caratterizzazione-meccanica-dei-materiali)
+  - [C8.5.4 LC e FC (LC1=1,35, LC2=1,2, LC3=1)](#c854-livelli-di-conoscenza-e-fattori-di-confidenza)
+  - [C8.5.5 Azioni (fattore q)](#c855-azioni)
+- [C8.6 — Materiali (compatibilità, ritiro)](#c86-materiali)
+- [C8.7 — Progettazione interventi](#c87-progettazione-degli-interventi)
+  - [C8.7.1 Muratura (meccanismi locali e globali)](#c871-costruzioni-di-muratura)
+  - [C8.7.2 C.a./acciaio (modelli capacità)](#c872-costruzioni-di-calcestruzzo-armato-o-di-acciaio)
+  - [C8.7.3 Miste](#c873-costruzioni-miste)
+  - [C8.7.4 Interventi (incamiciatura, compositi)](#c874-criteri-e-tipi-di-intervento)
+  - [C8.7.5 Elaborati](#c875-elaborati-del-progetto-dellintervento)
+  - [C8.7.6 Elementi non strutturali (rischio gas)](#c876-indicazioni-aggiuntive-per-gli-elementi-non-strutturali-e-gli-impianti-soggetti-ad-azioni-sismiche)
+- [C8.8 — Ponti esistenti](#c88-indicazioni-aggiuntive-relative-ai-ponti-esistenti)
+  - [C8.8.1 Azione sismica](#c881-azione-sismica)
+  - [C8.8.2 Criteri generali](#c882-criteri-generali)
+  - [C8.8.3 LC e FC](#c883-livello-di-conoscenza-e-fattore-di-confidenza)
+  - [C8.8.4 Modello strutturale](#c884-modello-strutturale)
+  - [C8.8.5 Metodi di analisi](#c885-metodi-di-analisi-e-criteri-di-verifica)
+  - [C8.8.6 Fondazioni](#c886-fondazioni-e-spalle)
+  - [C8.8.7 Classificazione interventi](#c887-classificazione-degli-interventi)
 
 ---
 

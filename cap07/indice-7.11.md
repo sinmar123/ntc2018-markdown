@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 7.11 - Opere e sistemi geotecnici]
----
-
-[Torna all'indice del capitolo](./indice-cap07.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap07.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 7.11. Opere e sistemi geotecnici
 

@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 11.9 - Dispositivi antisismici e di controllo di vibrazioni]
----
-
-[Torna all'indice del capitolo](./indice-cap11.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap11.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 11.9. Dispositivi antisismici e di controllo di vibrazioni
 

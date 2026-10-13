@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 3.2 - Azione sismica]
----
-
-[Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 3.2. Azione sismica
 

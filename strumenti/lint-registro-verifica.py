@@ -169,8 +169,8 @@ def main() -> int:
             errors.append(
                 f"{label}: VC-OK richiede prossima_azione {VC_OK_NEXT_ACTION!r}"
             )
-        if "obsidian://" in " ".join(row.values()).lower():
-            errors.append(f"{label}: collegamento Obsidian non ammesso")
+        if re.search(r"\b(?!https?://)[a-z][a-z0-9+.-]*://", " ".join(row.values()), re.I):
+            errors.append(f"{label}: collegamento a un'applicazione non ammesso, solo pagine web")
         if (
             "## Circolare" in text
             and not row.get("pagine_pdf_circolare")

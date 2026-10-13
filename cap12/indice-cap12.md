@@ -1,7 +1,3 @@
----
-aliases: [Cap. 12 — Riferimenti tecnici]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 12 — Riferimenti tecnici

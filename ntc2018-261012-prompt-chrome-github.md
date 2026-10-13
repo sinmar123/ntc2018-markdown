@@ -7,7 +7,7 @@ Da incollare in Claude su Chrome, con il browser collegato a GitHub come `sinmar
 - La pull request [sinmar123/ntc2018-markdown#1](https://github.com/sinmar123/ntc2018-markdown/pull/1) (sito MkDocs, `.github/README.md`, licenze, modello di segnalazione) è aperta, con il controllo `costruisci` verde e senza conflitti. Ramo: `claude/lucid-ramanujan-so88m5`.
 - Per pubblicare servono tre cose da fare su GitHub: Pages con sorgente «GitHub Actions», l'etichetta `errore-di-trascrizione`, l'unione della PR. Il prompt qui sotto le fa con Claude su Chrome e chiede conferma prima di unire.
 - Se il workflow «Sito» su `main` fallisce, si riporta l'errore alla sessione cloud: la correzione si fa su un ramo nuovo, non a mano su GitHub.
-- Restano aperti, per la procedura VC: 115 figure assenti dal repository; 314 `\tag{...}` dopo i `$$` di chiusura in 46 file; 7 ancore degli indici; 4 note Obsidian dopo le formule nel § 3.3; un `\newpage` nel § 4.2.4. Dettagli nella voce del CHANGELOG del 2026-10-01 e nella PR.
+- Restano aperti, per la procedura VC: 115 figure assenti dal repository; 314 `\tag{...}` dopo i `$$` di chiusura in 46 file; 7 ancore degli indici; 4 rimandi a note scritti dopo le formule nel § 3.3; un `\newpage` nel § 4.2.4. Dettagli nella voce del CHANGELOG del 2026-10-01 e nella PR.
 
 ---
 

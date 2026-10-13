@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 4.1 - Costruzioni di calcestruzzo]
----
-
-[Torna all'indice del capitolo](./indice-cap04.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap04.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 4.1. Costruzioni di calcestruzzo
 

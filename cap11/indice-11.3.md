@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 11.3 - Acciaio]
----
-
-[Torna all'indice del capitolo](./indice-cap11.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap11.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 11.3. Acciaio
 

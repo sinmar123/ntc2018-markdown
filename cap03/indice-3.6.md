@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 3.6 - Azioni eccezionali]
----
-
-[Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap03.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 3.6. Azioni eccezionali
 

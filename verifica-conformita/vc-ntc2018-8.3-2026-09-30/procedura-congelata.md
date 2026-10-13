@@ -45,7 +45,7 @@ La scheda conserva i campi già in uso, indicando in `procedura` la revisione ef
 
 - Capitoli in `capXX/` con `indice-capXX.md`, mai `index.md`; ogni sezione con figli ha `indice-x.y.md`, introduzione `x.y-introduzione.md` e file naturali `x.y.z-<tema>-<argomento>.md`. Sezioni senza livello 3 autonome; Capitoli 1 e 12 monolitici. Le sezioni presenti soltanto nella Circolare hanno prefisso `c` nel nome. Norma e Circolare si abbinano nel file naturale quando condividono il livello 3.
 - Ogni file naturale ha indice interno gerarchico dei due atti: link Markdown nello stesso documento e ancore HTML `toc-ntc2018-*`, fra marcatori `INDICE-INTERNO:INIZIO/FINE`. Generazione e controllo con `strumenti/genera-indici-interni.py`; rimozione meccanica dai pacchetti G6. Non mantenere a mano l'indice derivato.
-- Link Markdown relativi e portabili, con ancore esplicite quando occorrono; niente wikilink Obsidian. Ogni file rinvia all'indice di sezione, del capitolo e generale. Gli indici hanno sommario, link ai paragrafi e frontmatter `aliases`; il link al titolo principale non dipende da un'àncora implicita.
+- Link Markdown relativi e portabili, con ancore esplicite quando occorrono; niente wikilink `[[…]]`. Ogni file rinvia all'indice di sezione, del capitolo e generale. Gli indici hanno sommario e link ai paragrafi; il link al titolo principale non dipende da un'àncora implicita.
 - Formule LaTeX inline/display con il tag originale, tabelle Markdown e figure PNG in `img/`, con risoluzione adeguata alla fonte e senza ricampionamenti spacciati per nuovo dettaglio. Le prove sui glifi seguono il § 4. Annotazioni separate in `capXX/annotazioni/`, con rinvii portabili al testo pertinente.
 
 <!-- CANONE-G6:INIZIO -->

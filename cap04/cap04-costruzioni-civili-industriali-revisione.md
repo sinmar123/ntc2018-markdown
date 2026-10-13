@@ -1,17 +1,9 @@
 ---
 title: Documento di revisione - NTC 2018 cap. 4 Costruzioni civili e industriali
-aliases:
-  - Revisione capitolo 4 NTC 2018
-  - Revisione cap. 4 costruzioni civili e industriali
-tags:
-  - formazione/normativa
-  - ntc2018
-  - revisione-documento
 stato: in corso
 sorgente_verificata: cap04/
 ultimo-aggiornamento: 2026-08-26
 ---
-
 # Documento di revisione - NTC 2018 cap. 4 Costruzioni civili e industriali
 
 > [!info] Scopo
@@ -19,52 +11,52 @@ ultimo-aggiornamento: 2026-08-26
 
 ## Indice del capitolo
 
-- [[#Inquadramento SGQ|Inquadramento SGQ]]
-- [[#Perimetro del controllo|Perimetro del controllo]]
-- [[#Esito sintetico complessivo|Esito sintetico complessivo]]
-- [[#Stato per sezione|Stato per sezione]]
-- [[#Rilievi di revisione|Rilievi di revisione]]
-  - [[#R1 - 4.1: numerazione formula 4.1.18 in forma sdoppiata|R1 - 4.1: formula 4.1.18 sdoppiata]]
-  - [[#R2 - 4.1: formula 4.1.50 presente due volte|R2 - 4.1: formula 4.1.50 doppia]]
-  - [[#R3 - 4.1: controllo strutturale del markdown|R3 - 4.1: controllo strutturale]]
-  - [[#R4 - 4.2: completamento del blocco C4.2 della circolare|R4 - 4.2: completamento C4.2]]
-  - [[#R5 - 4.2: riallineamento numerazione formule C4.2|R5 - 4.2: numerazione formule C4.2]]
-  - [[#R6 - 4.2: assenza di commenti autonomi in alcuni paragrafi della circolare|R6 - 4.2: commenti autonomi assenti]]
-  - [[#R7 - 4.3-4.6: controllo di completezza e collegamenti|R7 - 4.3-4.6: completezza e collegamenti]]
-  - [[#R8 - 4.2-4.4: controllo numerico tabelle NTC e Circolare|R8 - 4.2-4.4: controllo numerico tabelle]]
-  - [[#R9 - 4.1: ciclo G6 concluso e VC-OK|R9 - 4.1: ciclo G6 concluso e VC-OK]]
-  - [[#R10 - 4.2-A: terzo G6 non superato per copertura incompleta|R10 - 4.2-A: terzo G6 non superato]]
-  - [[#R11 - 4.2-A: quarto G6 non superato con undici ERR-MD|R11 - 4.2-A: quarto G6 non superato]]
-  - [[#R12 - 4.2-A: quinto G6 e G7 conclusi con VC-OK|R12 - 4.2-A: ciclo concluso e VC-OK]]
-  - [[#R13 - 4.2-B: terzo G6 non superato con nove ERR-MD|R13 - 4.2-B: terzo G6 non superato]]
-  - [[#R14 - 4.2-B: quarto G6 non superato con due ERR-MD|R14 - 4.2-B: quarto G6 non superato]]
-  - [[#R15 - 4.2-B: quinto G6 non superato con undici ERR-MD e un ERR-AUDIT|R15 - 4.2-B: quinto G6 non superato]]
-  - [[#R16 - 4.2-B: settimo G6 non superato con tre ERR-MD e un ERR-AUDIT|R16 - 4.2-B: settimo G6 non superato]]
-  - [[#R17 - 4.2: ricomposizione per sottoparagrafi e ripristino degli asset|R17 - 4.2: ricomposizione e asset]]
-  - [[#R18 - 4.2: nomi dei file di livello 3 esplicitati con acciaio|R18 - 4.2: nomi file con acciaio]]
-  - [[#R19 - Capitolo 4: perdita di asset e scadenza corrente del paragrafo 4.1|R19 - Perdita asset e scadenza § 4.1]]
-  - [[#R20 - Capitolo 4: ricomposizione uniforme per livello 3|R20 - Ricomposizione per livello 3]]
-- [[#Criterio di classificazione|Criterio di classificazione]]
-- [[#Controlli futuri consigliati|Controlli futuri consigliati]]
-- [[#Cronologia|Cronologia]]
-  - [[#2026-08-26 - Audit degli asset e scadenza corrente del paragrafo 4.1|2026-08-26 - Audit asset e scadenza § 4.1]]
-  - [[#2026-08-26 - Ricomposizione uniforme del capitolo 4 per livello 3|2026-08-26 - Ricomposizione cap. 4]]
-  - [[#2026-08-26 - Nomi dei file di livello 3 del paragrafo 4.2 esplicitati|2026-08-26 - Nomi file § 4.2]]
-  - [[#2026-08-25 - Settimo G6 del paragrafo 4.2-B non superato|2026-08-25 - Settimo G6 § 4.2-B non superato]]
-  - [[#2026-08-06 - Quinto G6 del paragrafo 4.2-B non superato|2026-08-06 - Quinto G6 § 4.2-B non superato]]
-  - [[#2026-08-06 - Quinto G6 e G7 del paragrafo 4.2-A superati|2026-08-06 - VC-OK § 4.2-A]]
-  - [[#2026-08-06 - Quarto G6 del paragrafo 4.2-B non superato|2026-08-06 - Quarto G6 § 4.2-B non superato]]
-  - [[#2026-08-06 - Terzo G6 del paragrafo 4.2-B non superato|2026-08-06 - Terzo G6 § 4.2-B non superato]]
-  - [[#2026-08-05 - Quarto G6 del paragrafo 4.2-A non superato|2026-08-05 - Quarto G6 § 4.2-A non superato]]
-  - [[#2026-08-05 - Terzo G6 del paragrafo 4.2-A non superato|2026-08-05 - Terzo G6 § 4.2-A non superato]]
-  - [[#2026-08-04 - Settimo G6 e G7 del paragrafo 4.1 superati|2026-08-04 - VC-OK § 4.1]]
-  - [[#2026-08-03 - Sesto G6 del paragrafo 4.1 non superato|2026-08-03 - Sesto G6 § 4.1 non superato]]
-  - [[#2026-08-03 - Quarto G6 del paragrafo 4.1 non superato|2026-08-03 - Quarto G6 § 4.1 non superato]]
-  - [[#2026-07-30 - Correzione distinta post-G6 del paragrafo 4.1|2026-07-30 - Correzione post-G6 § 4.1]]
-  - [[#2026-07-30 - Audit VC-8 del paragrafo 4.1 non superato al G6|2026-07-30 - G6 § 4.1 non superato]]
-  - [[#2026-05-21 - Rinominato come documento unico di revisione del capitolo 4|2026-05-21 - Documento unico cap. 4]]
-  - [[#2026-05-20 - Controllo finale del capitolo 4|2026-05-20 - Controllo finale cap. 4]]
-  - [[#2026-04-11 - Apertura revisione mirata sul paragrafo 4.1|2026-04-11 - Apertura revisione 4.1]]
+- [Inquadramento SGQ](#inquadramento-sgq)
+- [Perimetro del controllo](#perimetro-del-controllo)
+- [Esito sintetico complessivo](#esito-sintetico-complessivo)
+- [Stato per sezione](#stato-per-sezione)
+- [Rilievi di revisione](#rilievi-di-revisione)
+  - [R1 - 4.1: formula 4.1.18 sdoppiata](#r1---41-numerazione-formula-4118-in-forma-sdoppiata)
+  - [R2 - 4.1: formula 4.1.50 doppia](#r2---41-formula-4150-presente-due-volte)
+  - [R3 - 4.1: controllo strutturale](#r3---41-controllo-strutturale-del-markdown)
+  - [R4 - 4.2: completamento C4.2](#r4---42-completamento-del-blocco-c42-della-circolare)
+  - [R5 - 4.2: numerazione formule C4.2](#r5---42-riallineamento-numerazione-formule-c42)
+  - [R6 - 4.2: commenti autonomi assenti](#r6---42-assenza-di-commenti-autonomi-in-alcuni-paragrafi-della-circolare)
+  - [R7 - 4.3-4.6: completezza e collegamenti](#r7---43-46-controllo-di-completezza-e-collegamenti)
+  - [R8 - 4.2-4.4: controllo numerico tabelle](#r8---42-44-controllo-numerico-tabelle-ntc-e-circolare)
+  - [R9 - 4.1: ciclo G6 concluso e VC-OK](#r9---41-ciclo-g6-concluso-e-vc-ok)
+  - [R10 - 4.2-A: terzo G6 non superato](#r10---42-a-terzo-g6-non-superato-per-copertura-incompleta)
+  - [R11 - 4.2-A: quarto G6 non superato](#r11---42-a-quarto-g6-non-superato-con-undici-err-md)
+  - [R12 - 4.2-A: ciclo concluso e VC-OK](#r12---42-a-quinto-g6-e-g7-conclusi-con-vc-ok)
+  - [R13 - 4.2-B: terzo G6 non superato](#r13---42-b-terzo-g6-non-superato-con-nove-err-md)
+  - [R14 - 4.2-B: quarto G6 non superato](#r14---42-b-quarto-g6-non-superato-con-due-err-md)
+  - [R15 - 4.2-B: quinto G6 non superato](#r15---42-b-quinto-g6-non-superato-con-undici-err-md-e-un-err-audit)
+  - [R16 - 4.2-B: settimo G6 non superato](#r16---42-b-settimo-g6-non-superato-con-tre-err-md-e-un-err-audit)
+  - [R17 - 4.2: ricomposizione e asset](#r17---42-ricomposizione-per-sottoparagrafi-e-ripristino-degli-asset)
+  - [R18 - 4.2: nomi file con acciaio](#r18---42-nomi-dei-file-di-livello-3-esplicitati-con-acciaio)
+  - [R19 - Perdita asset e scadenza § 4.1](#r19---capitolo-4-perdita-di-asset-e-scadenza-corrente-del-paragrafo-41)
+  - [R20 - Ricomposizione per livello 3](#r20---capitolo-4-ricomposizione-uniforme-per-livello-3)
+- [Criterio di classificazione](#criterio-di-classificazione)
+- [Controlli futuri consigliati](#controlli-futuri-consigliati)
+- [Cronologia](#cronologia)
+  - [2026-08-26 - Audit asset e scadenza § 4.1](#2026-08-26---audit-degli-asset-e-scadenza-corrente-del-paragrafo-41)
+  - [2026-08-26 - Ricomposizione cap. 4](#2026-08-26---ricomposizione-uniforme-del-capitolo-4-per-livello-3)
+  - [2026-08-26 - Nomi file § 4.2](#2026-08-26---nomi-dei-file-di-livello-3-del-paragrafo-42-esplicitati)
+  - [2026-08-25 - Settimo G6 § 4.2-B non superato](#2026-08-25---settimo-g6-del-paragrafo-42-b-non-superato)
+  - [2026-08-06 - Quinto G6 § 4.2-B non superato](#2026-08-06---quinto-g6-del-paragrafo-42-b-non-superato)
+  - [2026-08-06 - VC-OK § 4.2-A](#2026-08-06---quinto-g6-e-g7-del-paragrafo-42-a-superati)
+  - [2026-08-06 - Quarto G6 § 4.2-B non superato](#2026-08-06---quarto-g6-del-paragrafo-42-b-non-superato)
+  - [2026-08-06 - Terzo G6 § 4.2-B non superato](#2026-08-06---terzo-g6-del-paragrafo-42-b-non-superato)
+  - [2026-08-05 - Quarto G6 § 4.2-A non superato](#2026-08-05---quarto-g6-del-paragrafo-42-a-non-superato)
+  - [2026-08-05 - Terzo G6 § 4.2-A non superato](#2026-08-05---terzo-g6-del-paragrafo-42-a-non-superato)
+  - [2026-08-04 - VC-OK § 4.1](#2026-08-04---settimo-g6-e-g7-del-paragrafo-41-superati)
+  - [2026-08-03 - Sesto G6 § 4.1 non superato](#2026-08-03---sesto-g6-del-paragrafo-41-non-superato)
+  - [2026-08-03 - Quarto G6 § 4.1 non superato](#2026-08-03---quarto-g6-del-paragrafo-41-non-superato)
+  - [2026-07-30 - Correzione post-G6 § 4.1](#2026-07-30---correzione-distinta-post-g6-del-paragrafo-41)
+  - [2026-07-30 - G6 § 4.1 non superato](#2026-07-30---audit-vc-8-del-paragrafo-41-non-superato-al-g6)
+  - [2026-05-21 - Documento unico cap. 4](#2026-05-21---rinominato-come-documento-unico-di-revisione-del-capitolo-4)
+  - [2026-05-20 - Controllo finale cap. 4](#2026-05-20---controllo-finale-del-capitolo-4)
+  - [2026-04-11 - Apertura revisione 4.1](#2026-04-11---apertura-revisione-mirata-sul-paragrafo-41)
 
 ---
 

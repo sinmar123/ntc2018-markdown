@@ -1,7 +1,3 @@
----
-aliases: [Cap. 8 — Costruzioni esistenti]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 8 — Costruzioni esistenti

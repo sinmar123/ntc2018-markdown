@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 6.1 - Disposizioni generali e articolazione del progetto]
----
-
-[Torna all'indice del capitolo](./indice-cap06.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap06.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 6.1. Disposizioni generali e articolazione del progetto
 

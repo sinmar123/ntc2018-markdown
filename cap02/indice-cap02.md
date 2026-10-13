@@ -1,7 +1,3 @@
----
-aliases: [Cap. 2 — Sicurezza e prestazioni attese]
----
-
 [Torna all'indice generale](../indice-ntc2018.md)
 
 # Capitolo 2 — Sicurezza e prestazioni attese

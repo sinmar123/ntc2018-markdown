@@ -4,17 +4,17 @@
 
 ## Indice del capitolo
 
-- [[#9.1 Prescrizioni generali|9.1 Prescrizioni generali (certificato di collaudo, compiti)]]
-- [[#9.2 Prove di carico|9.2 Prove di carico (combinazioni caratteristiche)]]
-  - [[#9.2.1 Strutture prefabbricate|9.2.1 Strutture prefabbricate]]
-  - [[#9.2.2 Ponti stradali|9.2.2 Ponti stradali (deformazioni residue ≤15%, 1/5 campate)]]
-  - [[#9.2.3 Ponti ferroviari|9.2.3 Ponti ferroviari (carichi mobili SLE)]]
-- [[#C9.1 Prescrizioni generali|C9.1 — Prescrizioni generali (collaudo in corso d'opera, adempimenti)]]
-- [[#C9.2 Prove di carico|C9.2 — Prove di carico (programma, criteri valutazione)]]
-  - [[#C9.2.1 Strutture prefabbricate|C9.2.1 Strutture prefabbricate]]
-  - [[#C9.2.2 Ponti stradali|C9.2.2 Ponti stradali (1/5 campate, prove dinamiche)]]
-  - [[#C9.2.3 Ponti ferroviari|C9.2.3 Ponti ferroviari]]
-  - [[#C9.2.4 Ponti stradali e ferroviari con dispositivi di isolamento e/o dissipazione|C9.2.4 Ponti con isolamento/dissipazione]]
+- [9.1 Prescrizioni generali (certificato di collaudo, compiti)](#91-prescrizioni-generali)
+- [9.2 Prove di carico (combinazioni caratteristiche)](#92-prove-di-carico)
+  - [9.2.1 Strutture prefabbricate](#921-strutture-prefabbricate)
+  - [9.2.2 Ponti stradali (deformazioni residue ≤15%, 1/5 campate)](#922-ponti-stradali)
+  - [9.2.3 Ponti ferroviari (carichi mobili SLE)](#923-ponti-ferroviari)
+- [C9.1 — Prescrizioni generali (collaudo in corso d'opera, adempimenti)](#c91-prescrizioni-generali)
+- [C9.2 — Prove di carico (programma, criteri valutazione)](#c92-prove-di-carico)
+  - [C9.2.1 Strutture prefabbricate](#c921-strutture-prefabbricate)
+  - [C9.2.2 Ponti stradali (1/5 campate, prove dinamiche)](#c922-ponti-stradali)
+  - [C9.2.3 Ponti ferroviari](#c923-ponti-ferroviari)
+  - [C9.2.4 Ponti con isolamento/dissipazione](#c924-ponti-stradali-e-ferroviari-con-dispositivi-di-isolamento-eo-dissipazione)
 
 ---
 

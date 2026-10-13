@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 5.2 - Ponti ferroviari]
----
-
-[Torna all'indice del capitolo](./indice-cap05.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap05.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 5.2. Ponti ferroviari
 

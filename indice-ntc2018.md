@@ -7,7 +7,7 @@ aliases: [NTC 2018 — Indice generale]
 D.M. 17 gennaio 2018 (G.U. n. 42 del 20/02/2018)
 Circolare 21 gennaio 2019, n. 7 C.S.LL.PP.
 
-Ogni sezione naturale `x.y.z` ha un proprio file Markdown; norma e Circolare sono abbinate quando condividono la stessa numerazione. I soli Capitoli 1 e 12 restano in un file unico perché non contengono sezioni di livello 3. Tutti gli indici usano link Markdown relativi, attivi anche fuori da Obsidian.
+Ogni sezione naturale `x.y.z` ha un proprio file Markdown; norma e Circolare sono abbinate quando condividono la stessa numerazione. I soli Capitoli 1 e 12 restano in un file unico perché non contengono sezioni di livello 3. Tutti gli indici usano link Markdown relativi, attivi in qualsiasi editor Markdown.
 
 **Verifica di conformità:** [registro NTC 2018](./registro-verifica-conformita-ntc2018.csv) e [registro master della normativa](../_registro-verifica-conformita.csv). Dal 2026-09-12 si usa soltanto il CSV: vista XLSX eliminata su ordine di Sandro.
 

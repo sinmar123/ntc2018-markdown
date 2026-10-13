@@ -56,7 +56,7 @@ Prossima azione: Attendere un nuovo via libera prima di aprire il § 3.6 o altri
 
 ## Procedura vigente dal 2026-09-12
 
-Seguire soltanto [PROCEDURA-VC.md](PROCEDURA-VC.md), revisione 6 dal 2026-09-30. Le istruzioni e i profili nelle voci datate sono storia delle lavorazioni e non modificano il metodo corrente. Per riprendere una VC leggere la riga CSV e le sole voci pertinenti, secondo § 2 della procedura. Il CSV non si modifica a mano.
+Seguire soltanto [PROCEDURA-VC.md](PROCEDURA-VC.md), revisione 7 dal 2026-10-13. Le istruzioni e i profili nelle voci datate sono storia delle lavorazioni e non modificano il metodo corrente. Per riprendere una VC leggere la riga CSV e le sole voci pertinenti, secondo § 2 della procedura. Il CSV non si modifica a mano.
 
 Per ciclo, intervento di Sandro, limiti dei ricontrolli e registrazioni vale esclusivamente la revisione corrente della procedura unica.
 
@@ -324,7 +324,7 @@ Completata da CDX l'unificazione di procedura, ingressi degli agenti e strumenti
 - **Il CSV resta la fonte**, contro quanto chiedeva il prompt: Sandro ha scelto il 27/8 di tenere il registro cercabile con Grep e confrontabile riga per riga, e di usare l'XLSX solo per leggerlo in Excel. La vista si rigenera con `python strumenti/genera-vista-xlsx-registro.py` e non si modifica a mano.
 - Il blocco `@oai/artifact-tool` riguardava il solo runtime di Codex: in Claude Code `openpyxl` è una libreria ordinaria.
 - Ostacolo vero, che il prompt non prevedeva: con `link_md` scritta come formula `HYPERLINK` Excel rifiuta il file, perché ammette al massimo 255 caratteri per una stringa dentro una formula e 53 dei 1.643 URL arrivano a 346. Nella vista la colonna è un collegamento ipertestuale vero, che regge fino a ~2.084 caratteri.
-- Controlli: confronto cella per cella con il CSV (zero differenze non dichiarate), apertura reale in Excel, un collegamento lanciato davvero che porta Obsidian sulla nota giusta. Verbale, script e prove in `_tmp_render/conversione-xlsx-20260827/`.
+- Controlli: confronto cella per cella con il CSV (zero differenze non dichiarate), apertura reale in Excel, un collegamento lanciato davvero che apre la nota giusta. Verbale, script e prove in `_tmp_render/conversione-xlsx-20260827/`.
 - Nessuno stato VC toccato; generatore e lint non modificati, perché continuano a lavorare sul CSV.
 - **Firma:** CC (Claude Code).
 
@@ -432,7 +432,7 @@ Completata da CDX l'unificazione di procedura, ingressi degli agenti e strumenti
 ## Completato 2026-08-26 - registro riallineato e collegamenti diretti ai paragrafi
 
 - Corretti nel solo `registro-dettaglio-verifica-ntc2018.csv` 23 heading non più coincidenti con i Markdown, compilati 4 heading mancanti, aggiornati 8 conteggi di occorrenza e 276 numeri di riga.
-- Aggiunta la colonna `link_md`: 1.643 unità hanno una formula Excel `COLLEG.IPERTESTUALE` attiva, diretta al paragrafo tramite URI Obsidian; le 81 unità senza mappatura univoca restano senza link.
+- Aggiunta la colonna `link_md`: 1.643 unità hanno una formula Excel `COLLEG.IPERTESTUALE` attiva, diretta al paragrafo tramite URI dell'editor di note; le 81 unità senza mappatura univoca restano senza link.
 - Risolte 8 mappature di trasposizione certe e normalizzate 2 righe CSV con un punto e virgola non quotato nelle note. Stati di verifica ed esiti VC non sono stati modificati.
 - Aggiornati il generatore e il lint per governare stabilmente la nuova colonna. Controllo finale: `0 errori, 0 avvisi, 0 info` su 1.724 righe.
 - **Firma:** CDX (Codex).

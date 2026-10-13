@@ -1,13 +1,6 @@
 ---
 title: Annotazioni capitolo 4 - NTC 2018
-aliases:
-  - Annotazioni cap. 4 NTC 2018
-tags:
-  - formazione/normativa
-  - ntc2018
-  - annotazioni
 ---
-
 [Torna all'indice del capitolo 4](../indice-cap04.md)
 
 # Annotazioni capitolo 4

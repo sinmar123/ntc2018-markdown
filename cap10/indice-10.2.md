@@ -1,8 +1,4 @@
-﻿---
-aliases: [§ 10.2 - Analisi e verifiche svolte con l'ausilio di codici di calcolo]
----
-
-[Torna all'indice del capitolo](./indice-cap10.md) | [Torna all'indice generale](../indice-ntc2018.md)
+﻿[Torna all'indice del capitolo](./indice-cap10.md) | [Torna all'indice generale](../indice-ntc2018.md)
 
 # 10.2 Analisi e verifiche svolte con l'ausilio di codici di calcolo
 
