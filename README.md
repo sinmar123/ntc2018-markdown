@@ -8,6 +8,10 @@ Avere la normativa strutturale italiana in formato testo navigabile, consultabil
 
 ## Procedura operativa unica
 
+**§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, correzione localizzata registrata VC-OK, 2026-10-13:** VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md). Firma: CC cloud.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 **§ 8.3 concluso e registrato VC-OK, 2026-09-30:** solo `cap08/8.3-valutazione-sicurezza.md`, NTC pp. 294-295 e Circolare 255-256. R1 e R2 applicati. G6 con un ERR-MD corretto e ricontrollato sul ritaglio. Il rapporto G6 in /tmp è perso. Registrato su ordine di Sandro. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.3-2026-09-30.md). Firma: NormaNTC18 (OC).
 
 Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.

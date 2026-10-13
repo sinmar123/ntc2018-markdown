@@ -1,0 +1,54 @@
+{
+ "scope": "3.3-ancore-blocco",
+ "agente": "CCC",
+ "data": "2026-10-13",
+ "righe": [
+  "3.3.1",
+  "3.3.2",
+  "3.3.7",
+  "3.3.8"
+ ],
+ "g7": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/G7.json",
+ "g7_sha256": "debadae33eb3d61d516960ad3b9908a3ef749088e2a5f0c972118e139edeccbe",
+ "manifest": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/manifest-rilascio.json",
+ "snapshot_manifest": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/snapshot-finale.json",
+ "snapshot_sha256": "f4d7fcba65ad3f529049634e1b7427b966c9de6dd6b55565a46638a63b8c0d67",
+ "verbale": "verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md",
+ "verbale_sha256": "03cd0d99b305cadf51394e7322d6ba2d292037e084cd85d1194876d8d47b61fd",
+ "nota": "VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud.",
+ "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+ "procedura_vc": "VC-NTC/7 - correzione localizzata",
+ "modifiche": [
+  {
+   "path": "README.md",
+   "prima": "## Procedura operativa unica\n\n",
+   "dopo": "## Procedura operativa unica\n\n**§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, correzione localizzata registrata VC-OK, {{data}}:** {{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md). Firma: CC cloud.\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "TODO.md",
+   "prima": "# NTC 2018 — Stato lavori e istruzioni operative\n\n",
+   "dopo": "# NTC 2018 — Stato lavori e istruzioni operative\n\n## Completato {{data}} - VC dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8 dopo correzione localizzata, CC cloud\n\n{{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "CHANGELOG.md",
+   "prima": "# Changelog - NTC 2018\n\n",
+   "dopo": "# Changelog - NTC 2018\n\n## {{data}} - VC-OK dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8 dopo correzione localizzata, CC cloud\n\n- Scope `3.3-ancore-blocco`, primo lavoro VC fatto interamente dal cloud: presa con `prendi` e `riapertura_vc_ok`, lista di 9 righe approvata da Sandro, applicata con script; diff 9/9 conforme, zero righe estranee.\n- G1 rifatto per intero il 2026-10-13 sulla Gazzetta Ufficiale (la ricognizione del 2026-09-09 superava i trenta giorni). G5 con resa prima/dopo: 5 pagine cambiate solo per la riga vuota non più assorbita dalla regola di resa; § 3.3.8 reso solo in forma ausiliaria in questo ambiente.\n- Controllo delle modifiche e G7 di V (subagente Opus a contesto nuovo): OK, zero residui. Manifest di 39 file.\n- {{nota}} [Verbale]({{verbale}}).\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "indice-ntc2018.md",
+   "prima": "**§ 8.3, VC-OK registrato il 2026-09-30:**",
+   "dopo": "**§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, VC-OK dopo correzione localizzata del {{data}}:** [verbale](./verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-3.3-ancore-blocco.md), [dossier](./verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/).\n\n**§ 8.3, VC-OK registrato il 2026-09-30:**"
+  },
+  {
+   "path": "verifica-conformita/scheda-scope-ntc2018-3.3-ancore-blocco.md",
+   "prima": "## Correzioni applicate e G0-G5, 2026-10-13, CC cloud",
+   "dopo": "## Chiusura {{data}}, CC cloud\n\n{{nota}} [Verbale](../verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md), [G7](./vc-ntc2018-3.3-ancore-blocco-2026-10-13/G7.json), [manifest](./vc-ntc2018-3.3-ancore-blocco-2026-10-13/manifest-rilascio.json).\n\nProssima azione: {{prossima_azione}}\n\n## Correzioni applicate e G0-G5, 2026-10-13, CC cloud"
+  },
+  {
+   "path": "cap03/cap03-azioni-sulle-costruzioni-revisione.md",
+   "prima": "# Revisione mirata — NTC 2018 cap. 3 Azioni sulle costruzioni\r\n\r\n",
+   "dopo": "# Revisione mirata — NTC 2018 cap. 3 Azioni sulle costruzioni\r\n\r\n## Aggiornamento {{data}} - §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8\r\n\r\n{{nota}} [Verbale](../verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md).\r\n\r\nProssima azione: {{prossima_azione}}\r\n\r\n"
+  }
+ ],
+ "master_non_pertinente": "Registro generale ../_registro-verifica-conformita.csv fuori dal repository, non raggiungibile dalla sessione cloud (CLAUDE.md, sezione Sessione cloud)."
+}

@@ -1,6 +1,6 @@
 ---
 scope_id: ntc2018-3.3-ancore-blocco
-stato: IN-CORSO
+stato: CHIUSO
 agente: CCC
 presa_in_carico: 2026-10-13T16:58:45+00:00
 procedura: VC-NTC/7
@@ -16,8 +16,8 @@ snapshot_manifest: verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/s
 giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: IN_CORSO, G7: DA_FARE}
-prossimo_passo: "Applicare la lista approvata, controllo delle modifiche di V e G7"
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: OK}
+prossimo_passo: "Nessuna sul file: VC conclusa sullo snapshot registrato."
 routing_effettivo:
   C: {agente: sessione cloud, modello: Opus, contesti: 1}
   preparazione: script_locali
@@ -27,6 +27,12 @@ consumi: {contatori: non_disponibili}
 ---
 
 # Identificativi di blocco nei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8
+
+## Chiusura 2026-10-13, CC cloud
+
+VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](../verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md), [G7](./vc-ntc2018-3.3-ancore-blocco-2026-10-13/G7.json), [manifest](./vc-ntc2018-3.3-ancore-blocco-2026-10-13/manifest-rilascio.json).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
 
 ## Correzioni applicate e G0-G5, 2026-10-13, CC cloud
 

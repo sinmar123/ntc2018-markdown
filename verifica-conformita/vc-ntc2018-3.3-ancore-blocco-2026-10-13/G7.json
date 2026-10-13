@@ -1,0 +1,50 @@
+{
+ "firma": "V a contesto nuovo, subagente della sessione cloud CC cloud, verificatore delle modifiche e responsabile G7",
+ "data": "2026-10-13",
+ "giudizio_g7": "OK",
+ "scope": "3.3-ancore-blocco",
+ "righe_registro": [
+  "3.3.1",
+  "3.3.2",
+  "3.3.7",
+  "3.3.8"
+ ],
+ "snapshot_sha256": "f4d7fcba65ad3f529049634e1b7427b966c9de6dd6b55565a46638a63b8c0d67",
+ "snapshot_iniziale_sha256": "4f7af5dc8ac2b5da210a8ed8ab831e26bba887599fa6763b7bb153154caaafe1",
+ "manifest_sha256": "615db2bf3490bd24085219759708a821d367ffaf7c99e93c71e9f5c238a3458b",
+ "manifest_verifica": "strumenti/vc-supporto.py verifica-manifest: 39 file, integrità OK",
+ "gate": {
+  "G0": "OK",
+  "G1": "OK",
+  "G2": "OK",
+  "G3": "OK",
+  "G4": "OK",
+  "G5": "OK",
+  "G6": "OK",
+  "G7": "OK"
+ },
+ "rilievi_aperti": [],
+ "riconciliazione": {
+  "fonti": "impronte dei due PDF GU ricalcolate e uguali a quelle congelate (anche in g1/ricognizione-20261013.json e nel manifest)",
+  "snapshot": "i 4 target vivi hanno le impronte di snapshot-finale.json (= dopo/ del controllo delle modifiche); snapshot-iniziale.json coincide con HEAD 12271a3, con target-iniziali/ e con il markdown_sha256 dei verbali VC-OK 3.3.1/3.3.2/3.3.7 (2026-08-31) e 3.3.8 (2026-09-03)",
+  "congelati": "procedura-congelata.md = PROCEDURA-VC.md viva = procedura_sha256 della scheda (01c7f0ed…); catalogo-congelato.md = catalogo_sha256 della scheda (dd5f1b99…)",
+  "G1": "le tre schede HTML hanno le impronte dichiarate nella ricognizione del 2026-10-13; ricognizione piena, vigenza al 2026-10-13, D.M. 9/3/2023 estraneo al § 3.3",
+  "G0_G5": "lista-correzioni.json e i 4 diff del dossier identici byte per byte a quelli controllati; la sezione della scheda è coerente con diff e resa (5 pagine cambiate, 3.3.7 identico, 3.3.8 resa ausiliaria)",
+  "G6": "G6 integrale originario conservato nei verbali VC-OK precedenti, non rinnovato; per le modifiche vale l'unico controllo delle modifiche (§ 8), attestazione-v-modifiche.json, identica alla copia firmata da V, esito OK su R01-R09",
+  "resa": "i 10 PNG del dossier sono identici a quelli esaminati; confronto-resa.json coerente (stesso numero di pagine prima/dopo, pagine diverse solo quelle esaminate)",
+  "registro": "le 4 righe sono IN-CORSO con rinvio alla scheda, in attesa della registrazione di chiusura"
+ },
+ "motivazione_sintetica": "La correzione toglie soltanto 9 identificativi di blocco «^nome», apparato di navigazione non stampato in Gazzetta (catalogo, voce 11). Il diff contiene esattamente le 9 righe approvate, e i target vivi coincidono con lo snapshot finale e con il manifest verificato. La resa cambia solo per effetti di impaginazione senza variazione di contenuto. Il G1 è fresco e il G6 integrale originario resta valido sulle parti invariate. Non restano rilievi.",
+ "osservazioni_non_bloccanti": [
+  "Didascalia Fig. 3.3.2 a NTC p. fisica 59 (non 58, dove c'è solo il richiamo nel testo): il verbale la riporta correttamente.",
+  "La copia generata _sito/docs/cap03/ (ignorata da git) contiene ancora le àncore fino alla prossima costruzione del sito.",
+  "Il manifest conserva le pagine cambiate in PNG e le impronte dei PDF di resa in confronto-resa.json, non i PDF interi; i rapporti G6 originari restano nei rispettivi verbali e dossier, fuori dal manifest di questo scope."
+ ],
+ "limiti_effettivi": [
+  "G6 non rinnovato: vale quello integrale originario dei verbali VC-OK 2026-08-31 e 2026-09-03; su questo scope solo il controllo delle modifiche dei punti cambiati e del loro contesto immediato.",
+  "La resa del § 3.3.8 è solo ausiliaria (script canonico in errore prima e dopo per l'indice a cinque livelli); per il § 3.3.7 l'identità pagina per pagina viene da confronto-resa.json, non da un mio nuovo rendering.",
+  "Normattiva non ha restituito la scheda del decreto: la vigenza si basa sulla Gazzetta Ufficiale, alla data del 2026-10-13.",
+  "Controlli eseguiti da agenti AI (C: sessione Opus; V: subagente Opus a contesto nuovo); nessuna revisione umana integrale; Sandro ha deciso la lista delle correzioni.",
+  "Isolamento di V solo istruttivo (stesso ambiente e stesso modello della sessione C), non tecnico."
+ ]
+}

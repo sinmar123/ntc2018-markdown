@@ -1,5 +1,11 @@
 # NTC 2018 — Stato lavori e istruzioni operative
 
+## Completato 2026-10-13 - VC dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8 dopo correzione localizzata, CC cloud
+
+VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## Completato 2026-09-30 - VC del solo § 8.3, NormaNTC18 (OC)
 
 VC-OK sul solo `8.3-valutazione-sicurezza.md`. R1 e R2 applicati. G6 con un ERR-MD corretto e ricontrollato sul ritaglio. Il rapporto G6 in /tmp è perso. Registrato su ordine di Sandro. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.3-2026-09-30.md), [scheda](verifica-conformita/scheda-scope-ntc2018-8.3.md). Firma: NormaNTC18 (OC).
