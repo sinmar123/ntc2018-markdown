@@ -1,5 +1,12 @@
 # Changelog - NTC 2018
 
+## 2026-10-13 - Sito: indici di paragrafo distinti nel menu, CC cloud
+
+- Nel menu laterale le pagine `indice-x.y.md` avevano lo stesso titolo della raccolta del paragrafo (per esempio due voci «5.1. Ponti stradali»), segnalato da Claude su Chrome dopo l'unione della PR #2. `strumenti/costruisci-sito.py` ora le chiama «Indice del § x.y – titolo». Solo nella navigazione del sito: nessun file dei capitoli toccato.
+- Controlli: nessuna voce doppia rimasta nel menu di alcun capitolo; `mkdocs build --strict` e `controlla-sito.py` senza errori.
+
+Prossima azione: Sandro unisce la PR.
+
 ## 2026-10-13 - Solo file Markdown: tolto ogni riferimento all'editor di note, CC cloud
 
 - Decisione di Sandro del 2026-10-13: il progetto lavora soltanto con file Markdown, senza un editor di note dedicato. Su sua richiesta il nome dell'editor usato fino a settembre è stato tolto da tutto il repository, storico ed evidenze compresi, e le sue sintassi dai capitoli non registrati.

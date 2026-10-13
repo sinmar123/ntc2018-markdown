@@ -256,6 +256,15 @@ def pagina_iniziale(righe: list[dict], titoli_cap: dict[str, str]) -> str:
     return "\n".join(out)
 
 
+def etichetta_altra(pagina: Path, titolo: str) -> str:
+    """Gli indici di paragrafo hanno lo stesso titolo della raccolta: si distinguono qui."""
+    m = re.fullmatch(r"indice-(\d+(?:\.\d+)*)\.md", pagina.name)
+    if not m:
+        return titolo
+    resto = re.sub(r"^\s*" + re.escape(m.group(1)) + r"\.?\s*", "", titolo)
+    return f"Indice del § {m.group(1)}" + (f" – {resto}" if resto else "")
+
+
 def nav_capitolo(cap: str, pagine: list[Path], per_md: dict[str, dict],
                  titoli: dict[str, str]) -> list:
     indice = f"{cap}/indice-{cap}.md"
@@ -273,7 +282,8 @@ def nav_capitolo(cap: str, pagine: list[Path], per_md: dict[str, dict],
         r = per_md[p.as_posix()]
         voci.append({f"{r['paragrafo']} {r['titolo']}": p.as_posix()})
     if altre:
-        voci.append({"Altre pagine": [{titoli[p.as_posix()]: p.as_posix()} for p in altre]})
+        voci.append({"Altre pagine": [{etichetta_altra(p, titoli[p.as_posix()]): p.as_posix()}
+                                      for p in altre]})
     if annotazioni:
         voci.append({"Annotazioni": [{titoli[p.as_posix()]: p.as_posix()} for p in annotazioni]})
     return voci
