@@ -1,5 +1,14 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - Sito: pagina «Registro delle verifiche», CC cloud
+
+- Richiesta di Sandro: vedere il registro come tabella. GitHub mostra come tabella solo i CSV separati da virgole, e il registro usa il punto e virgola per gli strumenti e per Excel in italiano. Scelta di Sandro: una pagina nel sito, rigenerata dal CSV a ogni pubblicazione, senza un secondo file da tenere allineato.
+- `strumenti/costruisci-sito.py` genera `registro.md`, seconda voce del menu: tutte le 379 righe con paragrafo (collegato alla pagina), titolo, stato, data, procedura, agente, pagine dei due PDF, prossima azione, evidenza (collegata al file su GitHub) e note. Nuovo `strumenti/sito/registro.js`: ricerca libera e filtro per stato, con il conteggio delle righe visibili. Stile in `strumenti/sito/stile.css`. La pagina iniziale rinvia alla nuova pagina.
+- Il CSV resta l'unica fonte e non cambia; capitoli non toccati.
+- Prova in Chromium: 379 righe, 43 con «Verificato», 14 con «Verificato» e ricerca «3.3», 90 evidenze collegate, zero errori JavaScript. `mkdocs build --strict` e `controlla-sito.py` senza errori.
+
+Prossima azione: nessuna.
+
 ## 2026-10-14 - Testi superati su figure e conteggi, CC cloud
 
 - Dopo l'estrazione delle 115 figure: tolta la frase «Alcune figure non sono ancora nel repository» dalla pagina iniziale del sito (`strumenti/costruisci-sito.py`) e da `.github/README.md`; nel README aggiornate le voci «Norma» e «Circolare» dello stato di avanzamento e i conteggi del registro (43 `VC-OK`, 4 `IN-CORSO`, 34 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 289 `MAI-FATTA`). Nessun file dei capitoli né il registro toccati.

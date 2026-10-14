@@ -19,3 +19,34 @@
   font-size: 0.75em;
   text-align: right;
 }
+
+/* Pagina «Registro delle verifiche»: controlli del filtro */
+.filtri-registro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  align-items: center;
+  margin: 1em 0;
+}
+.filtri-registro input,
+.filtri-registro select {
+  font: inherit;
+  padding: 0.3em 0.5em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2em;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+.filtri-registro input {
+  flex: 1 1 18em;
+}
+.filtri-registro ~ .md-typeset__scrollwrap td:nth-child(4) {
+  white-space: nowrap;
+}
+.filtri-registro ~ .md-typeset__scrollwrap td:nth-child(9),
+.filtri-registro ~ .md-typeset__scrollwrap td:nth-child(11) {
+  min-width: 22em;
+}
+.filtri-registro ~ .md-typeset__scrollwrap td:nth-child(2) {
+  min-width: 12em;
+}

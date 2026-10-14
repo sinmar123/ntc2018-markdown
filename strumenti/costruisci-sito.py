@@ -14,7 +14,7 @@ Lo script li copia in `_sito/docs/` e soltanto nella copia:
 - porta a capo il rimando alla nota scritto dopo i `$$` di chiusura di una formula,
   che altrimenti uscirebbe in linea fra due «$».
 
-Genera inoltre la pagina iniziale dal registro, `mkdocs.yml` con la navigazione e
+Genera inoltre la pagina iniziale e la pagina «Registro delle verifiche» dal registro, `mkdocs.yml` con la navigazione e
 `rapporto-costruzione.json` con i conteggi usati dai controlli.
 
 Uso: python strumenti/costruisci-sito.py  ->  poi  mkdocs build --strict -f _sito/mkdocs.yml
@@ -246,7 +246,8 @@ def pagina_iniziale(righe: list[dict], titoli_cap: dict[str, str]) -> str:
     for s in ORDINE_STATI:
         out.append(f"| {STATI[s][1]} | {significati[s]} | {conteggi.get(s, 0)} |")
     out += ["", "Le pagine che non compaiono nel registro (indici, raccolte, annotazioni) "
-            "portano la dicitura «stato non registrato».", ""]
+            "portano la dicitura «stato non registrato». Il registro completo, con date, "
+            "procedura, evidenze e note, è nella pagina [Registro delle verifiche](registro.md).", ""]
 
     per_cap: dict[str, list[dict]] = defaultdict(list)
     for r in righe:
@@ -261,6 +262,45 @@ def pagina_iniziale(righe: list[dict], titoli_cap: dict[str, str]) -> str:
                        f"| {STATI[r['stato_vc']][1]} | {data} |")
         out.append("")
     return "\n".join(out)
+
+
+def pagina_registro(righe: list[dict]) -> str:
+    """Il registro intero come tabella, con un filtro (registro.js). Si rigenera dal CSV."""
+    opzioni = "".join(f'<option value="{STATI[s][1]}">{STATI[s][1]}</option>' for s in ORDINE_STATI)
+    out = [
+        "---", "hide:", "  - toc", "---", "",
+        "# Registro delle verifiche",
+        "",
+        "Il registro di verifica di conformità per intero: una riga per ciascun file normativo, "
+        "con stato, data, procedura, agente, prossima azione, evidenza e note. È generato a ogni "
+        "pubblicazione da [`registro-verifica-conformita-ntc2018.csv`]"
+        f"({REPO_URL}/blob/main/registro-verifica-conformita-ntc2018.csv), che resta l'unica fonte. "
+        "Il riepilogo per stato è nella [pagina iniziale](index.md).",
+        "",
+        '<div id="filtri-registro" class="filtri-registro">'
+        '<input type="search" id="filtro-testo" placeholder="Cerca paragrafo, titolo, note…" '
+        'aria-label="Cerca nel registro">'
+        f'<select id="filtro-stato" aria-label="Filtra per stato"><option value="">Tutti gli stati</option>{opzioni}</select>'
+        '<span id="filtro-conteggio"></span></div>',
+        "",
+        "| Paragrafo | Titolo | Stato | Ultima verifica | Procedura | Agente | Pagine NTC "
+        "| Pagine Circolare | Prossima azione | Evidenza | Note |",
+        "|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for r in righe:
+        evidenze = []
+        for e in re.split(r"[;,]\s*", r["evidenza_vc"].strip()):
+            if not e:
+                continue
+            evidenze.append(f"[{Path(e).name}]({REPO_URL}/blob/main/{quote(e)})"
+                            if (RADICE / e).is_file() else cella(e))
+        out.append("| " + " | ".join([
+            f"[{cella(r['paragrafo'])}]({r['apri_md']})", cella(r["titolo"]),
+            STATI[r["stato_vc"]][1], cella(r["data_ultima_vc"]), cella(r["procedura_vc"]),
+            cella(r["agente_vc"]), cella(r["pagine_pdf_ntc"]), cella(r["pagine_pdf_circolare"]),
+            cella(r["prossima_azione"]), "<br>".join(evidenze), cella(r["note"]),
+        ]) + " |")
+    return "\n".join(out) + "\n"
 
 
 def etichetta_altra(pagina: Path, titolo: str) -> str:
@@ -332,15 +372,17 @@ def main() -> None:
 
     titoli_cap = {cap: titoli.get(f"{cap}/indice-{cap}.md", cap) for cap in capitoli}
     (DOCS / "index.md").write_text(pagina_iniziale(righe, titoli_cap), encoding="utf-8")
+    (DOCS / "registro.md").write_text(pagina_registro(righe), encoding="utf-8")
     (DOCS / "indice-ntc2018.md").write_text(
         "# Indice generale\n\nL'indice generale, con lo stato di verifica di ogni paragrafo, "
         "è nella [pagina iniziale](index.md).\n", encoding="utf-8")
 
-    for nome, dest in [("stile.css", "stylesheets"), ("mathjax.js", "javascripts")]:
+    for nome, dest in [("stile.css", "stylesheets"), ("mathjax.js", "javascripts"),
+                       ("registro.js", "javascripts")]:
         (DOCS / dest).mkdir(exist_ok=True)
         shutil.copy2(RISORSE / nome, DOCS / dest / nome)
 
-    nav: list = [{"Pagina iniziale": "index.md"}]
+    nav: list = [{"Pagina iniziale": "index.md"}, {"Registro delle verifiche": "registro.md"}]
     for cap in capitoli:
         nav.append({titoli_cap[cap]: nav_capitolo(cap, pagine_per_cap[cap], per_md, titoli)})
     config = (RISORSE / "mkdocs.yml").read_text(encoding="utf-8")
