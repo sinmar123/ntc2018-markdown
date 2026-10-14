@@ -8,6 +8,10 @@ Avere la normativa strutturale italiana in formato testo navigabile, consultabil
 
 ## Procedura operativa unica
 
+**§ 8.4 con C8.4, registrato VC-OK, 2026-10-14:** VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md). Firma: CC cloud.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 **§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, correzione localizzata registrata VC-OK, 2026-10-13:** VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md). Firma: CC cloud.
 
 Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.

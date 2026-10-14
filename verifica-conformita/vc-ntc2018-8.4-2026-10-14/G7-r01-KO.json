@@ -1,0 +1,74 @@
+{
+ "firma": "V, subagente Claude Opus a contesto nuovo, CC cloud",
+ "data": "2026-10-14",
+ "giudizio_g7": "KO",
+ "scope": "8.4",
+ "righe_registro": [
+  "8.4",
+  "8.4.1",
+  "8.4.2",
+  "8.4.3"
+ ],
+ "snapshot_sha256": "70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec",
+ "manifest_sha256": "80b4d4afb77f60a949ba7bd5d83ce96acdf675d657a0abaf1dcce93dfbe0baed",
+ "manifest_verifica": {
+  "manifest-rilascio.json": {
+   "files": 40,
+   "integrita": "OK"
+  },
+  "snapshot-finale.json": {
+   "files": 4,
+   "integrita": "OK"
+  },
+  "comando": "python3 strumenti/vc-supporto.py verifica-manifest . <file>, rc=0 per entrambi"
+ },
+ "gate": {
+  "G0": "OK",
+  "G1": "OK",
+  "G2": "OK",
+  "G3": "OK",
+  "G4": "OK",
+  "G5": "OK",
+  "G6": "OK",
+  "G7": "KO"
+ },
+ "rilievi_aperti": [
+  {
+   "id": "G7-1",
+   "tipo": "ERR-AUDIT, documentale",
+   "descrizione": "Il manifest di rilascio non contiene il render finale, richiesto dal § 9 della procedura congelata. resa-dopo.pdf e resa-dopo-p01..p05-200dpi.png, su cui si fonda l'esito della resa nell'attestazione delle modifiche, sono solo nello scratchpad e non stanno né nel dossier né nel manifest. Nel manifest mancano anche gli asset della resa del G6 (b01/resa-target/*), presenti nel dossier e coperti solo indirettamente attraverso le impronte di input-confronto.json.",
+   "rimedio_minimo": "Copiare la resa finale nel dossier, aggiungere i file di resa a lista-manifest-rilascio.json e rigenerare il manifest con lo script."
+  },
+  {
+   "id": "G7-2",
+   "tipo": "ERR-AUDIT, documentale",
+   "descrizione": "La scheda non è riconciliata con lo stato dopo le correzioni. Il front matter dice ancora rilievi_aperti 5, G6 DA_FARE, attesa_decisione [L1, L2, L3, L4, D1] e prossimo_passo 'Attendere la decisione di Sandro... Non correggere.' La scheda non registra la decisione di Sandro su L1-L4 e D1 (resta solo nel messaggio del commit 2934882), né la tornata correttiva, il controllo delle modifiche, lo snapshot finale e il manifest.",
+   "rimedio_minimo": "Aggiornare la scheda: decisione di Sandro con data, correzioni L1-L4, D1 come anomalia tipografica della fonte non riprodotta, controllo delle modifiche OK, snapshot e manifest finali, G6 OK, rilievi_aperti 0."
+  },
+  {
+   "id": "G7-3",
+   "tipo": "ERR-AUDIT, documentale",
+   "descrizione": "Non mi è stato consegnato né risulta nel repository un verbale dello scope 8.4. Il § 9 prevede che C prepari verbale, piano di registrazione e riepiloghi in un solo lotto e che V li riceva insieme al G7. Senza verbale non si possono riscontrare la registrazione di D1, la doppia data di vigenza del G1 e la distinzione fra copertura integrale e controllo delle modifiche.",
+   "rimedio_minimo": "Preparare il verbale con i contenuti del § 9 e consegnarlo a V insieme al manifest rigenerato."
+  }
+ ],
+ "riconciliazione": {
+  "fonti": "Ho ricalcolato le impronte dei due PDF: NTC dda1e397…5a46 e Circolare f7c3b8d1…f7c. Coincidono con il manifest, con coordinamento.json, con il ricontrollo G1 e con i fonti_congelate della ricognizione. Le PNG fonte di b01 sono identiche a quelle congelate in input-fonte.json.",
+  "target_vivi": "snapshot-finale.json ha sha256 70dbe9d6…3ec, come atteso. I quattro file vivi hanno le impronte dello snapshot e coincidono con HEAD (830575d). snapshot-prima-dopo: 8.4.1 e 8.4.2 invariati; cambiano 8.4-introduzione e 8.4.3, come da diff-correzioni.diff.",
+  "contenuto_vivo": "Le 56 righe non vuote di testo-dopo.md si trovano tutte, nello stesso ordine, nei quattro file vivi. Le righe dei file vivi assenti da testo-dopo sono solo apparato di navigazione: righe 'Torna all'indice', rubriche Norma/Circolare, indici interni, àncore, filetti.",
+  "diff_correzioni": "diff-correzioni.diff tocca 4 righe nei file vivi (introduzione 29 e 33, 8.4.3 34 e 52), le stesse 4 modifiche attestate su testo-dopo.md e coerenti con lista-correzioni L1-L4.",
+  "manifest": "sha256 80b4d4af…aed, 40 file, verifica-manifest OK. Contiene fonti, target, procedura e catalogo congelati, G1, pacchetto b01, inventario, rapporto, diff e attestazione. Non contiene il render finale (G7-1).",
+  "procedura_catalogo": "procedura-congelata.md 01c7f0ed…0e67 e catalogo-congelato.md dd5f1b99…7c43 coincidono con la scheda e con coordinamento.json.",
+  "G1": "Ricognizione piena del 2026-10-13 (scope 3.3-ancore-blocco), che copre D.M. 17/01/2018 e Circolare 7/2019 a livello di atto, più ricontrollo mirato del 2026-10-14 con applicabilità al § 8.4 e C8.4. Le impronte delle tre schede HTML del dossier coincidono con quelle dichiarate nei due file; dentro i trenta giorni.",
+  "G0_G5": "Coerenti con la scheda: subentro autorizzato, R1-R7 applicate prima del G6 giro 2 e quindi coperte dal mio confronto integrale; G4 senza formule numerate, tabelle o figure, coerente con il mio inventario; G5 con resa canonica di 5 pagine, coerente con resa-target.",
+  "G6_e_modifiche": "inventario.json, congelamento.json, testo.md, rapporto-g6.json, attestazione-v-modifiche.json, diff-testo.txt, testo-dopo.md e i quattro ritagli c/ del dossier sono identici byte per byte alle copie che ho firmato o letto. depurato.md del dossier coincide con testo.md (401f43b3…).",
+  "rilievi_G6": "I 5 rilievi del G6 sono chiusi nel merito: L1-L4 corretti e attestati, D1 deciso da Sandro (non riprodurre). La chiusura non è ancora registrata nella scheda (G7-2) né in un verbale (G7-3)."
+ },
+ "motivazione_sintetica": "Nel merito il contenuto è conforme. Tutti i 72 id sono coperti dal confronto integrale; le quattro correzioni approvate sono verificate sulla fonte; target vivi, snapshot, fonti, procedura e catalogo tornano con le impronte; il manifest è integro. Il G7 però riconcilia anche la catena delle evidenze, e qui tre punti non tornano: il manifest non comprende il render finale (§ 9), la scheda dichiara ancora 5 rilievi aperti e non registra la decisione di Sandro, manca il verbale. Sono tutti difetti documentali: non toccano il testo né richiedono un nuovo G6 o un nuovo controllo delle modifiche. Dopo il rimedio basta ripresentare a V manifest rigenerato, scheda e verbale per la sola riconciliazione.",
+ "osservazioni_non_bloccanti": [
+  "La ricognizione G1 del 2026-10-13 dichiara un'applicabilità limitata al § 3.3; l'estensione all'8.4 si regge sul ricontrollo del 2026-10-14, che dichiara le pagine 295-296 e 256-257. Il verbale dovrebbe dirlo.",
+  "Nell'attestazione e nel rapporto G6 ho dichiarato dei ritagli di lavoro salvati fuori dalle cartelle autorizzate (vc84/z, z1-z3, m1-m3): non entrano nel manifest e non servono come prove.",
+  "La scheda cita 117 righe depurate per il giro 1 e 111 per il giro 2: nessun effetto sul giudizio, perché il giro 1 non è ricostruibile e il giro 2 è integrale."
+ ],
+ "limiti": "Non ho riletto la fonte né rifatto il G6: ho riusato il confronto integrale e l'attestazione delle modifiche, come prevede il § 8. Il contenuto vivo l'ho controllato con uno script mio di corrispondenza fra righe, non con la depurazione ufficiale, che vc-supporto.py non espone come comando. Non ho letto le schede HTML del G1, solo le loro impronte. Non ho modificato nessun file del repository."
+}

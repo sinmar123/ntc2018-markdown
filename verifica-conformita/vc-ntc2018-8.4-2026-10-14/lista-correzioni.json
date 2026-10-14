@@ -1,0 +1,64 @@
+{
+ "scope": "8.4",
+ "giro_g6": 2,
+ "firma": "CC cloud (CCC), coordinatore C",
+ "righe": [
+  {
+   "id": "L1",
+   "rilievo": "C03",
+   "file": "cap08/8.4-introduzione.md",
+   "riga": 33,
+   "pagina": "Circolare p. 256 (nota 2)",
+   "prova": "c/c03-circ256-fine-nota2-600dpi.png; codifica PDF: la riga termina con «sicurezza»",
+   "attuale": "aumenti sensibili della sicurezza.",
+   "proposto": "aumenti sensibili della sicurezza",
+   "classe": "A: anomalia della fonte (punto finale assente) conservata; il testo aggiunto era ERR-MD",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L2",
+   "rilievo": "C02",
+   "file": "cap08/8.4-introduzione.md",
+   "riga": 29,
+   "pagina": "Circolare p. 256",
+   "prova": "c/c02-circ256-categorie-600dpi.png; codifica PDF: Linotype-Italic",
+   "attuale": "norme: riparazione o intervento locale, miglioramento, adeguamento, elencandole",
+   "proposto": "norme: *riparazione o intervento locale*, *miglioramento*, *adeguamento*, elencandole",
+   "classe": "ERR-MD: corsivo della fonte omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L3",
+   "rilievo": "C24",
+   "file": "cap08/8.4.3-classificazione-interventi-intervento-di-adeguamento.md",
+   "riga": 52,
+   "pagina": "Circolare p. 257",
+   "prova": "c/c24-circ257-condizioni-600dpi.png; codifica PDF: corsive solo le lettere, parentesi in tondo",
+   "attuale": "condizioni b), c), d) od e)",
+   "proposto": "condizioni *b*), *c*), *d*) od *e*)",
+   "classe": "ERR-MD: corsivo della fonte omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L4",
+   "rilievo": "N33",
+   "file": "cap08/8.4.3-classificazione-interventi-intervento-di-adeguamento.md",
+   "riga": 34,
+   "pagina": "NTC p. 296",
+   "prova": "c/n33-ntc296-condizione-a-600dpi.png; codifica PDF: « a)» Italic, «.» in tondo",
+   "attuale": "condizione a).",
+   "proposto": "condizione *a)*.",
+   "classe": "ERR-MD: corsivo della fonte omesso (il punto resta in tondo, a differenza della lettura di V)",
+   "effetto": "presentazione"
+  }
+ ],
+ "da_decidere": [
+  {
+   "id": "D1",
+   "rilievo": "C16/C18/C20/C22",
+   "pagina": "Circolare pp. 256-257",
+   "descrizione": "Nella Circolare alcuni pedici E di ζE, un punto e una virgola sono stampati in grassetto (codifica PDF: PalatinoLinotype-Bold); nella trascrizione sono in peso normale.",
+   "proposta": "Non riprodurre: variazione di peso senza contenuto; registrarla nel verbale come anomalia tipografica della fonte non riprodotta."
+  }
+ ]
+}

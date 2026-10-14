@@ -13,24 +13,28 @@ pagine_fonte: 4
 formule_numerate_preliminari: 0
 tabelle_preliminari: 0
 figure_preliminari: 0
-stato: IN-CORSO
-agente: OC
-macchina: OpenClaw
+stato: CHIUSO
+agente: CCC
+macchina: claude.ai/code (sessione cloud)
+agente_precedente: OC
+subentro: 2026-10-14
 presa_in_carico: 2026-10-01T12:10:00+02:00
-procedura: VC-NTC/6
-procedura_sha256: 403157d71ba00bababeefad6b920915e631627bdf55e9ff1e9679cdbeea8383c
-catalogo_sha256: d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6
+procedura: VC-NTC/7
+procedura_sha256: 01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e67
+catalogo_sha256: dd5f1b9980e6fd37bd0444277d8b69d6ac0c000b91c1cf659a4f9a398b4a7c43
 snapshot_iniziale_sha256: vedi-corpo
-snapshot_sha256: vedi-corpo
-giro_g6: 1
+snapshot_sha256: 70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec
+giro_g6: 2
 max_giri: 3
-rilievi_aperti: 7
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: DA_FARE, G7: DA_FARE}
+rilievi_aperti: 0
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: OK}
 attesa_decisione: []
-prossimo_passo: "Attendere Sandro sui 7 rilievi G6. Non correggere."
+prossimo_passo: "Nessuna sul file: VC conclusa sullo snapshot registrato."
 routing_effettivo:
-  coordinatore: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
-  meccanica: "script locali"
+  coordinatore_fino_al_2026-10-13: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
+  coordinatore: {modello: claude-opus-5-5, ruolo: C, agente: "CC cloud (CCC)"}
+  verificatore: {modello: "subagente Opus a contesto nuovo", ruolo: V}
+  meccanica: "script di strumenti/"
 ---
 
 # Scheda scope § 8.4
@@ -76,3 +80,44 @@ Prossima azione: G5, resa canonica dei quattro file e controllo visivo. Poi G6.
 G5, 2026-10-01: resa dei quattro file riuscita. Tag e didascalie automatiche assenti. Pagine guardate. Lo spazio prima del punto di 0,80 è uno spazio unificatore, così il punto non cade da solo a capo. G6 preparato, un solo blocco, 117 righe depurate, pagine NTC 295-296 e Circolare 256-257.
 
 G6 giro 1, 2026-10-01: schema OK, 65 id, esito del verificatore KO, 7 rilievi. Rapporto `g6-r01/b01/rapporto-g6.json`. Fermati in attesa di Sandro.
+
+## Subentro 2026-10-14, CC cloud (CCC)
+
+Ordine esplicito di Sandro del 2026-10-14: subentra CC cloud a NormaNTC18 (OC), che non lavora più sullo scope. Le righe 8.4, 8.4.1, 8.4.2 e 8.4.3 restano `IN-CORSO`.
+
+Stato ereditato: G0-G5 `OK`; correzioni R1-R7 applicate. Le impronte dei quattro file correnti coincidono con lo snapshot «dopo le correzioni» qui sopra. Il G6 giro 1 del 2026-10-01 si era chiuso `KO` con 7 rilievi, ma il rapporto (`g6-r01/b01/rapporto-g6.json`) e il diff stavano in `_tmp_render/` sulla macchina OpenClaw e non sono nel repository: i 7 rilievi non sono ricostruibili. Decisione di Sandro del 2026-10-14: rifare il G6 integrale come giro 2 (`giro_g6` non si azzera), con un verificatore Opus a contesto nuovo; i rilievi trovati vanno a Sandro in un unico elenco prima di qualunque correzione. `rilievi_aperti` passa a 0 perché i 7 non sono più identificabili; il giro 2 li riesamina comunque per intero.
+
+Procedura: lo scope adotta la revisione 7 (VC-NTC/7) dal G6 giro 2, primo passaggio non iniziato, come prevede il § 1. Le modifiche della revisione 7 riguardano solo diciture; criteri, canone G6 e gate invariati.
+
+G1: ricognizione piena del 2026-10-13 (scope 3.3-ancore-blocco, copre NTC e Circolare) con ricontrollo mirato del 2026-10-14: schede ufficiali identiche, nessun aggiornamento. Evidenza `vc-ntc2018-8.4-2026-10-14/g1/ricontrollo-20261014.json`.
+
+G5, 2026-10-14: i quattro file uniti in `g6-r02/target-scope.md` (depurato: 111 righe) e resi con `render-capitolo.py`: cinque pagine, nessun tag tondo, nessuna didascalia automatica, controllo visivo senza difetti.
+
+G6 giro 2, 2026-10-14: un blocco, pagine NTC 295-296 e Circolare 256-257, righe 1-111. V subagente Claude Opus a contesto nuovo: inventario fonte-prima di 72 elementi, validato e congelato prima della rivelazione; confronto integrale con tutti i 72 id coperti. Esito `KO`, 5 rilievi. Testo e numeri conformi; i rilievi riguardano un punto aggiunto alla fine della nota 2 della Circolare, tre corsivi della fonte omessi (C8.4 «riparazione o intervento locale», «miglioramento», «adeguamento»; C8.4.3 lettere b, c, d, e; 8.4.3 «a)») e il grassetto di alcuni pedici e segni nella Circolare. C ha riscontrato ogni rilievo sulla codifica del PDF e su ritagli a 600 dpi (`c/`): confermati; nel 8.4.3 il punto dopo «a)» è in tondo, a differenza della lettura di V. Isolamento: V dichiara di aver salvato per errore i propri ritagli nella cartella madre del pacchetto, senza aprirne altri file. Rapporto `g6-r02/b01/rapporto-g6.json`, `valida-g6` OK. Lista per Sandro: `lista-correzioni.json` (L1-L4 e la questione D1). Fermati prima di correggere.
+
+## Chiusura 2026-10-14, CC cloud
+
+VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](./verbale-VC-ntc2018-8.4-2026-10-14.md), [G7](./vc-ntc2018-8.4-2026-10-14/G7.json), [manifest](./vc-ntc2018-8.4-2026-10-14/manifest-rilascio.json).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
+## Decisione di Sandro e correzioni, 2026-10-14
+
+Decisione di Sandro sulla lista `lista-correzioni.json`: «ok vai», cioè L1-L4 approvate e, per D1, grassetto non riprodotto. Correzioni applicate con script il 2026-10-14:
+
+- L1 (C03, Circolare p. 256): tolto il punto finale della nota 2, come stampa la Gazzetta; anomalia della fonte conservata.
+- L2 (C02, Circolare p. 256): corsivo su *riparazione o intervento locale*, *miglioramento*, *adeguamento*.
+- L3 (C24, Circolare p. 257): corsivo sulle sole lettere *b*), *c*), *d*) od *e*).
+- L4 (N33, NTC p. 296): corsivo su *a)*, punto in tondo.
+- D1 (Circolare pp. 256-257): il grassetto di alcuni pedici E di ζE, di un punto e di una virgola non si riproduce; anomalia tipografica della fonte registrata nel verbale.
+
+Diff `diff-correzioni.diff`: 4 righe, tutte conformi alla lista, nessuna estranea. Impronte prima e dopo in `snapshot-prima-dopo.json`. Resa dopo con `render-capitolo.py`: cinque pagine, tag e didascalie a posto (`modifiche/resa-dopo/`).
+
+Controllo delle modifiche (§ 8) dello stesso V: esito OK sui 5 rilievi, diff limitato alle righe 21, 23, 99 e 111 del testo depurato, resa corretta; V conferma che il punto dopo «a)» è in tondo. `modifiche/attestazione-v-modifiche.json`.
+
+Snapshot finale dei 4 file: `snapshot-finale.json`, SHA-256 `70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec`.
+
+G7 primo tentativo, 2026-10-14: `KO` documentale (`G7-r01-KO.json`): manifest senza la resa finale, scheda non aggiornata, verbale assente; testo conforme. Rimedi: resa finale nel dossier e nel manifest, rigenerato con 52 file (`manifest-rilascio.json`; il precedente da 40 file resta come `manifest-rilascio-r01.json`), questa sezione della scheda e il verbale. Lotto ripresentato a V per la sola riconciliazione.
+
+G7 secondo tentativo, 2026-10-14: `OK` sul manifest da 52 file (`G7-r02.json`), con un'osservazione sulla dicitura «Correzioni (C)» del verbale. Il piano di `registra` ha poi richiesto lo snapshot finale dentro il manifest: manifest rigenerato con 54 file (il precedente resta `manifest-rilascio-r02.json`) e verbale aggiornato di conseguenza, con la dicitura corretta in «Correzioni di ERR-MD (nessuna AF-COR)». Lotto ripresentato a V per la riconciliazione finale.
+

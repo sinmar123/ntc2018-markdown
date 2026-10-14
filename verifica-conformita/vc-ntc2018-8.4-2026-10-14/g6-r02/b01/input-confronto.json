@@ -1,0 +1,90 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 533,
+      "sha256": "65fa8ae1c335e14d96937f6da0b53ddf21a6bbeaaa2d99ba5e92cd881239fdb1"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8692,
+      "sha256": "cf92aa13d12237ab71ff18eb2f8232eff9027fe9a80afc2a862478044f4bb437"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 454,
+      "sha256": "7a43ee59c34e43f7e3faa36f30f58e6e8ea89ad7b0f5bd6265a0c1048b241758"
+    },
+    {
+      "path": "fonte-circ-256.png",
+      "bytes": 662758,
+      "sha256": "500016eb5229d766d4bd744d47ad8ce79bb0b54b9bb3022c6945c713933a3098"
+    },
+    {
+      "path": "fonte-circ-257.png",
+      "bytes": 697580,
+      "sha256": "aa4ae49b5f4c2846ca696afd86d7ef85f4b8fdb51020c86318e95a81808f1240"
+    },
+    {
+      "path": "fonte-ntc-295.png",
+      "bytes": 662435,
+      "sha256": "4b50ea2c430ad27d30a2a9b5bd671517effa46cb47cd735fd0e4786d3c51c180"
+    },
+    {
+      "path": "fonte-ntc-296.png",
+      "bytes": 606894,
+      "sha256": "3f91bddc48898428c715e1b627ce587e291b003817aae91c1e703e18f39eccff"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 1201,
+      "sha256": "161e5f00822f1eb3d66aa75ee3d41304eba0f0b9c52dd7302371647d7e980f14"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 12991,
+      "sha256": "f4878b92778840d95221216f02aa80cb9078f519d7fc482fbe859b43770fa7e0"
+    },
+    {
+      "path": "resa-target/target-p01-200dpi.png",
+      "bytes": 313043,
+      "sha256": "9f318747aa988400e9bbf2e6ea0a0ff6d61399ef3a978aba3bdb3712af32596d"
+    },
+    {
+      "path": "resa-target/target-p02-200dpi.png",
+      "bytes": 376454,
+      "sha256": "f0a3076c3d19921d7c149215ab7a717885ef22b2836b5acb106a87b71747c189"
+    },
+    {
+      "path": "resa-target/target-p03-200dpi.png",
+      "bytes": 356748,
+      "sha256": "8af7e54d18ed7c82b41a778cb2768c541da9214b813c0235c687bca5298ee38e"
+    },
+    {
+      "path": "resa-target/target-p04-200dpi.png",
+      "bytes": 359674,
+      "sha256": "f5b2a4703e337c453d3e5f1895191e03b1754ac24d86d44dbb451bc61feb5b29"
+    },
+    {
+      "path": "resa-target/target-p05-200dpi.png",
+      "bytes": 125663,
+      "sha256": "549e33777c25b6920c51c6c6583f35dc69922b79ddebcb52533b4af8fe74311f"
+    },
+    {
+      "path": "resa-target/target-scope.pdf",
+      "bytes": 39522,
+      "sha256": "a508adf24cd11af1275e408f1cd244970a4b411beda560b27d75f47a3beb914b"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 14932,
+      "sha256": "401f43b32ff195455be66c65ceedfd9bb898dcdb1d60960b58ed5bb0beced381"
+    }
+  ]
+}

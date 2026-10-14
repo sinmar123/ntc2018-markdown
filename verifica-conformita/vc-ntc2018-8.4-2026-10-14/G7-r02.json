@@ -1,0 +1,49 @@
+{
+ "firma": "V, subagente Claude Opus a contesto nuovo, CC cloud",
+ "data": "2026-10-14",
+ "giudizio_g7": "OK",
+ "scope": "8.4",
+ "righe_registro": [
+  "8.4",
+  "8.4.1",
+  "8.4.2",
+  "8.4.3"
+ ],
+ "snapshot_sha256": "70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec",
+ "manifest_sha256": "df2412c17c0168ee5fc3d3aca0f8f6e0873a0baff8774b364a7dae0e0db6c4a9",
+ "manifest_verifica": {
+  "manifest-rilascio.json": {
+   "files": 52,
+   "integrita": "OK"
+  },
+  "snapshot-finale.json": {
+   "files": 4,
+   "integrita": "OK"
+  },
+  "comando": "python3 strumenti/vc-supporto.py verifica-manifest . <file>"
+ },
+ "gate": {
+  "G0": "OK",
+  "G1": "OK",
+  "G2": "OK",
+  "G3": "OK",
+  "G4": "OK",
+  "G5": "OK",
+  "G6": "OK",
+  "G7": "OK"
+ },
+ "rilievi_aperti": [],
+ "riconciliazione": {
+  "G7-1_manifest": "Il nuovo manifest ha 52 file ed è integro. Rispetto a manifest-rilascio-r01.json (80b4d4af…, 40 file, conservato) aggiunge 12 file: modifiche/resa-dopo/* (PDF e p01-p05) e g6-r02/b01/resa-target/* (PDF e p01-p05). Nessun file è stato tolto e nessuna impronta è cambiata. La resa-dopo del dossier è identica byte per byte a quella esaminata nel controllo delle modifiche; le impronte di resa-target coincidono con input-confronto.json. Chiuso.",
+  "G7-2_scheda": "Front matter con G6 OK, rilievi_aperti 0, attesa_decisione [] e snapshot_sha256 70dbe9d6…; nuova sezione con la decisione di Sandro, L1-L4, D1, il diff, il controllo delle modifiche, lo snapshot finale e il G7 r01 KO con i rimedi. Chiuso.",
+  "G7-3_verbale": "verbale-VC-ntc2018-8.4-2026-10-14.md, sha256 d8a0b619…438 come dichiarato. Contiene scope e snapshot con le quattro impronte, atti, URL e vigenza con le due date (2026-10-13 e 2026-10-14), revisione e impronte di procedura e catalogo, gate, copertura distinta fra G6 integrale e controllo delle modifiche, normalizzazioni 1/2/3/4/11, anomalie A, D1, manifest, esecutori, natura AI e assenza di revisione umana integrale, isolamento reale. Tutti i rinvii interni risolvono a file esistenti. Chiuso.",
+  "piano_registrazione": "chiusura.json, sha256 f1c87698…349: righe, snapshot, manifest e verbale coerenti. Ciascuna delle 6 ancore 'prima' compare una sola volta nel proprio file; per indice-ntc2018.md, che è CRLF, il 'dopo' usa \\r\\n. Restano da riempire g7_sha256 e verbale_sha256.",
+  "invariati_dal_G7_r01": "Fonti, snapshot-finale (70dbe9d6…), target vivi, procedura e catalogo congelati, G1, inventario, rapporto G6, attestazione delle modifiche: il nuovo manifest riporta le stesse impronte già riconciliate in G7-r01-KO.json, identico al mio giudizio precedente."
+ },
+ "motivazione_sintetica": "Rimediati i tre difetti documentali del G7 r01. Il manifest comprende la resa finale ed è integro; scheda e verbale registrano la decisione di Sandro, le correzioni, D1 e la doppia vigenza; il piano di registrazione è coerente. Contenuto e impronte restano quelli riconciliati: zero rilievi aperti, G0-G7 OK.",
+ "osservazioni_non_bloccanti": [
+  "Nel verbale la voce 'Correzioni (C) di questo scope: L1…L4' usa la sigla della classe C/AF-COR del canone. Le quattro correzioni però risolvono ERR-MD (L1 ripristina un'anomalia A) e nello scope non ci sono AF-COR né note di trascrizione. Conviene una rettifica documentale secondo il § 8, ad esempio 'Correzioni di ERR-MD (nessuna AF-COR)', senza riaprire il G7.",
+  "Il verbale dichiara che il G7 finale sta nel file G7.json del dossier: va copiato lì da questo scratchpad prima di riempire g7_sha256 in chiusura.json."
+ ],
+ "limiti": "Riconciliazione eseguita una sola volta e soltanto sui file del lotto, senza rileggere fonte o testo. Non ho modificato nessun file del repository."
+}

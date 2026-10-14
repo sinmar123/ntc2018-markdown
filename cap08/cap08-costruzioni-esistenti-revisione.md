@@ -1,5 +1,11 @@
 # Revisione Capitolo 8 - Costruzioni esistenti
 
+## 2026-10-14 - VC-OK del § 8.4 con C8.4
+
+VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-09-30 - VC-OK del solo § 8.3
 
 Registrato `VC-OK` su `8.3-valutazione-sicurezza.md` su ordine di Sandro. Snapshot `4edeaeea47bddd2fd20f85f96df429f5236993b55b69033c8122a968de2a03e6`. Verbale `../verifica-conformita/verbale-VC-ntc2018-8.3-2026-09-30.md`. Firma: NormaNTC18 (OC).

@@ -1,5 +1,15 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - VC-OK del § 8.4 con C8.4, CC cloud
+
+- Subentro di CC cloud a NormaNTC18 (OC) su ordine di Sandro del 2026-10-14. Il rapporto del G6 giro 1 di OC (7 rilievi) stava fuori dal repository: su decisione di Sandro G6 integrale rifatto come giro 2.
+- G1: ricognizione del 2026-10-13 e ricontrollo mirato del 2026-10-14. G5: resa canonica prima e dopo, cinque pagine pulite.
+- G6 giro 2: V Opus a contesto nuovo, inventario fonte-prima di 72 elementi congelato prima della rivelazione; testo e numeri conformi; 5 rilievi di forma, riscontrati da C su codifica PDF e ritagli a 600 dpi.
+- Decisione di Sandro («ok vai»): tolto il punto finale della nota 2 come in Gazzetta, rimessi tre corsivi della fonte, grassetto di alcuni segni della Circolare non riprodotto. Correzioni con script, diff 4/4 conforme. Controllo delle modifiche OK. G7 OK al secondo tentativo, dopo un KO documentale (resa finale fuori dal manifest, scheda e verbale da completare).
+- VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-14 - Sito: pagina «Registro delle verifiche», CC cloud
 
 - Richiesta di Sandro: vedere il registro come tabella. GitHub mostra come tabella solo i CSV separati da virgole, e il registro usa il punto e virgola per gli strumenti e per Excel in italiano. Scelta di Sandro: una pagina nel sito, rigenerata dal CSV a ogni pubblicazione, senza un secondo file da tenere allineato.
