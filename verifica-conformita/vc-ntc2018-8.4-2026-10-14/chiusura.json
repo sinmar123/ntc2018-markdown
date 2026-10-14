@@ -1,0 +1,54 @@
+{
+ "scope": "8.4",
+ "agente": "CCC",
+ "data": "2026-10-14",
+ "righe": [
+  "8.4",
+  "8.4.1",
+  "8.4.2",
+  "8.4.3"
+ ],
+ "g7": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/G7.json",
+ "g7_sha256": "DA_RIEMPIRE",
+ "manifest": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/manifest-rilascio.json",
+ "snapshot_manifest": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/snapshot-finale.json",
+ "snapshot_sha256": "70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec",
+ "verbale": "verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md",
+ "verbale_sha256": "DA_RIEMPIRE",
+ "nota": "VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC).",
+ "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+ "procedura_vc": "VC-NTC/7",
+ "master_non_pertinente": "Registro generale ../_registro-verifica-conformita.csv fuori dal repository, non raggiungibile dalla sessione cloud (CLAUDE.md, sezione Sessione cloud).",
+ "modifiche": [
+  {
+   "path": "README.md",
+   "prima": "## Procedura operativa unica\n\n",
+   "dopo": "## Procedura operativa unica\n\n**§ 8.4 con C8.4, registrato VC-OK, {{data}}:** {{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md). Firma: CC cloud.\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "TODO.md",
+   "prima": "# NTC 2018 — Stato lavori e istruzioni operative\n\n",
+   "dopo": "# NTC 2018 — Stato lavori e istruzioni operative\n\n## Completato {{data}} - VC del § 8.4 con C8.4, CC cloud\n\n{{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "CHANGELOG.md",
+   "prima": "# Changelog - NTC 2018\n\n",
+   "dopo": "# Changelog - NTC 2018\n\n## {{data}} - VC-OK del § 8.4 con C8.4, CC cloud\n\n- Subentro di CC cloud a NormaNTC18 (OC) su ordine di Sandro del 2026-10-14. Il rapporto del G6 giro 1 di OC (7 rilievi) stava fuori dal repository: su decisione di Sandro G6 integrale rifatto come giro 2.\n- G1: ricognizione del 2026-10-13 e ricontrollo mirato del 2026-10-14. G5: resa canonica prima e dopo, cinque pagine pulite.\n- G6 giro 2: V Opus a contesto nuovo, inventario fonte-prima di 72 elementi congelato prima della rivelazione; testo e numeri conformi; 5 rilievi di forma, riscontrati da C su codifica PDF e ritagli a 600 dpi.\n- Decisione di Sandro («ok vai»): tolto il punto finale della nota 2 come in Gazzetta, rimessi tre corsivi della fonte, grassetto di alcuni segni della Circolare non riprodotto. Correzioni con script, diff 4/4 conforme. Controllo delle modifiche OK. G7 OK al secondo tentativo, dopo un KO documentale (resa finale fuori dal manifest, scheda e verbale da completare).\n- {{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "indice-ntc2018.md",
+   "prima": "**§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, VC-OK dopo correzione localizzata del 2026-10-13:**",
+   "dopo": "**§ 8.4 con C8.4, VC-OK registrato il {{data}}:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.4.md), [dossier](./verifica-conformita/vc-ntc2018-8.4-2026-10-14/).\r\n\r\n**§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, VC-OK dopo correzione localizzata del 2026-10-13:**"
+  },
+  {
+   "path": "verifica-conformita/scheda-scope-ntc2018-8.4.md",
+   "prima": "## Decisione di Sandro e correzioni, 2026-10-14",
+   "dopo": "## Chiusura {{data}}, CC cloud\n\n{{nota}} [Verbale](./verbale-VC-ntc2018-8.4-2026-10-14.md), [G7](./vc-ntc2018-8.4-2026-10-14/G7.json), [manifest](./vc-ntc2018-8.4-2026-10-14/manifest-rilascio.json).\n\nProssima azione: {{prossima_azione}}\n\n## Decisione di Sandro e correzioni, 2026-10-14"
+  },
+  {
+   "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+   "prima": "# Revisione Capitolo 8 - Costruzioni esistenti\n\n",
+   "dopo": "# Revisione Capitolo 8 - Costruzioni esistenti\n\n## {{data}} - VC-OK del § 8.4 con C8.4\n\n{{nota}} [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  }
+ ]
+}

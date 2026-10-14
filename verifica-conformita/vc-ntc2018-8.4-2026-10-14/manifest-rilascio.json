@@ -147,6 +147,36 @@
       "sha256": "796b8dfbc4aad6a5bb189a6ceebfb91ffc5e0483ce1c332d421d122721aee0a3"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/resa-target/target-p01-200dpi.png",
+      "bytes": 313043,
+      "sha256": "9f318747aa988400e9bbf2e6ea0a0ff6d61399ef3a978aba3bdb3712af32596d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/resa-target/target-p02-200dpi.png",
+      "bytes": 376454,
+      "sha256": "f0a3076c3d19921d7c149215ab7a717885ef22b2836b5acb106a87b71747c189"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/resa-target/target-p03-200dpi.png",
+      "bytes": 356748,
+      "sha256": "8af7e54d18ed7c82b41a778cb2768c541da9214b813c0235c687bca5298ee38e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/resa-target/target-p04-200dpi.png",
+      "bytes": 359674,
+      "sha256": "f5b2a4703e337c453d3e5f1895191e03b1754ac24d86d44dbb451bc61feb5b29"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/resa-target/target-p05-200dpi.png",
+      "bytes": 125663,
+      "sha256": "549e33777c25b6920c51c6c6583f35dc69922b79ddebcb52533b4af8fe74311f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/resa-target/target-scope.pdf",
+      "bytes": 39522,
+      "sha256": "a508adf24cd11af1275e408f1cd244970a4b411beda560b27d75f47a3beb914b"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/g6-r02/b01/testo.md",
       "bytes": 14932,
       "sha256": "401f43b32ff195455be66c65ceedfd9bb898dcdb1d60960b58ed5bb0beced381"
@@ -185,6 +215,36 @@
       "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/diff-testo.txt",
       "bytes": 4163,
       "sha256": "694c1aafe58c73f03f07e2353906c75654b1cd0d3b0502c533b9110f2c97d742"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/resa-dopo/resa-dopo-p01-200dpi.png",
+      "bytes": 315490,
+      "sha256": "9a16870bf0c17175fc251498106b1fdf2c5bbd375d2a46961715eb2eb22b5aa4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/resa-dopo/resa-dopo-p02-200dpi.png",
+      "bytes": 376454,
+      "sha256": "f0a3076c3d19921d7c149215ab7a717885ef22b2836b5acb106a87b71747c189"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/resa-dopo/resa-dopo-p03-200dpi.png",
+      "bytes": 356748,
+      "sha256": "8af7e54d18ed7c82b41a778cb2768c541da9214b813c0235c687bca5298ee38e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/resa-dopo/resa-dopo-p04-200dpi.png",
+      "bytes": 359773,
+      "sha256": "fe817fc54d0c09b467f0d12f7dcdebdc2c952e8371141e3fb9f056840bdace6b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/resa-dopo/resa-dopo-p05-200dpi.png",
+      "bytes": 126018,
+      "sha256": "ab04109a6bf392606ad2752dcfe71261fb0b6bbe596bf875b6022e0df2c08767"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/resa-dopo/resa-dopo.pdf",
+      "bytes": 42776,
+      "sha256": "4ff1691418934facc2e766fed340a3ef82fa25bfe5623feb93dafa2a623c2868"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/testo-dopo.md",

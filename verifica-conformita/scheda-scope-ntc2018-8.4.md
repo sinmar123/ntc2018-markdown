@@ -23,13 +23,13 @@ procedura: VC-NTC/7
 procedura_sha256: 01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e67
 catalogo_sha256: dd5f1b9980e6fd37bd0444277d8b69d6ac0c000b91c1cf659a4f9a398b4a7c43
 snapshot_iniziale_sha256: vedi-corpo
-snapshot_sha256: vedi-corpo
+snapshot_sha256: 70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec
 giro_g6: 2
 max_giri: 3
-rilievi_aperti: 5
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: DA_FARE, G7: DA_FARE}
-attesa_decisione: [L1, L2, L3, L4, D1]
-prossimo_passo: "Attendere la decisione di Sandro sulla lista vc-ntc2018-8.4-2026-10-14/lista-correzioni.json. Non correggere."
+rilievi_aperti: 0
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: DA_FARE}
+attesa_decisione: []
+prossimo_passo: "G7 di V sul lotto di chiusura (verbale, scheda, manifest), poi registra."
 routing_effettivo:
   coordinatore_fino_al_2026-10-13: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
   coordinatore: {modello: claude-opus-5-5, ruolo: C, agente: "CC cloud (CCC)"}
@@ -94,4 +94,22 @@ G1: ricognizione piena del 2026-10-13 (scope 3.3-ancore-blocco, copre NTC e Circ
 G5, 2026-10-14: i quattro file uniti in `g6-r02/target-scope.md` (depurato: 111 righe) e resi con `render-capitolo.py`: cinque pagine, nessun tag tondo, nessuna didascalia automatica, controllo visivo senza difetti.
 
 G6 giro 2, 2026-10-14: un blocco, pagine NTC 295-296 e Circolare 256-257, righe 1-111. V subagente Claude Opus a contesto nuovo: inventario fonte-prima di 72 elementi, validato e congelato prima della rivelazione; confronto integrale con tutti i 72 id coperti. Esito `KO`, 5 rilievi. Testo e numeri conformi; i rilievi riguardano un punto aggiunto alla fine della nota 2 della Circolare, tre corsivi della fonte omessi (C8.4 «riparazione o intervento locale», «miglioramento», «adeguamento»; C8.4.3 lettere b, c, d, e; 8.4.3 «a)») e il grassetto di alcuni pedici e segni nella Circolare. C ha riscontrato ogni rilievo sulla codifica del PDF e su ritagli a 600 dpi (`c/`): confermati; nel 8.4.3 il punto dopo «a)» è in tondo, a differenza della lettura di V. Isolamento: V dichiara di aver salvato per errore i propri ritagli nella cartella madre del pacchetto, senza aprirne altri file. Rapporto `g6-r02/b01/rapporto-g6.json`, `valida-g6` OK. Lista per Sandro: `lista-correzioni.json` (L1-L4 e la questione D1). Fermati prima di correggere.
+
+## Decisione di Sandro e correzioni, 2026-10-14
+
+Decisione di Sandro sulla lista `lista-correzioni.json`: «ok vai», cioè L1-L4 approvate e, per D1, grassetto non riprodotto. Correzioni applicate con script il 2026-10-14:
+
+- L1 (C03, Circolare p. 256): tolto il punto finale della nota 2, come stampa la Gazzetta; anomalia della fonte conservata.
+- L2 (C02, Circolare p. 256): corsivo su *riparazione o intervento locale*, *miglioramento*, *adeguamento*.
+- L3 (C24, Circolare p. 257): corsivo sulle sole lettere *b*), *c*), *d*) od *e*).
+- L4 (N33, NTC p. 296): corsivo su *a)*, punto in tondo.
+- D1 (Circolare pp. 256-257): il grassetto di alcuni pedici E di ζE, di un punto e di una virgola non si riproduce; anomalia tipografica della fonte registrata nel verbale.
+
+Diff `diff-correzioni.diff`: 4 righe, tutte conformi alla lista, nessuna estranea. Impronte prima e dopo in `snapshot-prima-dopo.json`. Resa dopo con `render-capitolo.py`: cinque pagine, tag e didascalie a posto (`modifiche/resa-dopo/`).
+
+Controllo delle modifiche (§ 8) dello stesso V: esito OK sui 5 rilievi, diff limitato alle righe 21, 23, 99 e 111 del testo depurato, resa corretta; V conferma che il punto dopo «a)» è in tondo. `modifiche/attestazione-v-modifiche.json`.
+
+Snapshot finale dei 4 file: `snapshot-finale.json`, SHA-256 `70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec`.
+
+G7 primo tentativo, 2026-10-14: `KO` documentale (`G7-r01-KO.json`): manifest senza la resa finale, scheda non aggiornata, verbale assente; testo conforme. Rimedi: resa finale nel dossier e nel manifest, rigenerato con 52 file (`manifest-rilascio.json`; il precedente da 40 file resta come `manifest-rilascio-r01.json`), questa sezione della scheda e il verbale. Lotto ripresentato a V per la sola riconciliazione.
 
