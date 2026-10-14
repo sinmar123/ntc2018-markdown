@@ -1,0 +1,1607 @@
+{
+ "scope": "8.5",
+ "fase": "G6 giro 1 (g6-r01b), adjudicazione di C sui rapporti dei quattro V",
+ "firma": "CC cloud (CCC), coordinatore C",
+ "data": "2026-10-14",
+ "ordine_di_applicazione": "E, O, R, C; ogni voce sostituisce una stringa che al momento dell'applicazione compare una sola volta nel file; poi strumenti/genera-indici-interni.py rigenera gli indici interni per le rubriche",
+ "gruppi": [
+  {
+   "gruppo": "E",
+   "descrizione": "Enfasi della fonte ripristinate (grassetto, corsivo, grassetto corsivo); decisione di Sandro del 2026-10-14",
+   "voci": [
+    {
+     "id": "E1",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "NTC p. 297",
+     "attuale": " visive in situ e su in",
+     "proposto": " visive in *situ* e su in",
+     "nota": "«situ» in corsivo"
+    },
+    {
+     "id": "E2",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "imento. Indagini limitate: sono ge",
+     "proposto": "imento. ***Indagini limitate*:** sono ge",
+     "nota": "etichetta in grassetto corsivo, due punti in grassetto"
+    },
+    {
+     "id": "E3",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "spinte. Indagini estese: i rilie",
+     "proposto": "spinte. ***Indagini estese:*** i rilie",
+     "nota": "etichetta e due punti in grassetto corsivo"
+    },
+    {
+     "id": "E4",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "uzione. Indagini esaustive: oltre a",
+     "proposto": "uzione. ***Indagini esaustive*:** oltre a",
+     "nota": ""
+    },
+    {
+     "id": "E5",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259",
+     "attuale": "imento. Indagini limitate: consent",
+     "proposto": "imento. ***Indagini limitate*:** consent",
+     "nota": ""
+    },
+    {
+     "id": "E6",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259",
+     "attuale": "esenti. Indagini estese: si eff",
+     "proposto": "esenti. ***Indagini estese***: si eff",
+     "nota": "due punti in tondo"
+    },
+    {
+     "id": "E7",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259",
+     "attuale": "mpleti. Indagini esaustive: si effe",
+     "proposto": "mpleti. ***Indagini esaustive*:** si effe",
+     "nota": ""
+    },
+    {
+     "id": "E8",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259",
+     "attuale": "azioni: Costruzioni di calcestruzzo armato\n\n- quan",
+     "proposto": "azioni: ***Costruzioni di calcestruzzo armato***\n\n- quan",
+     "nota": "sottotitolo in grassetto corsivo"
+    },
+    {
+     "id": "E9",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259",
+     "attuale": "raggi;\n\nCostruzioni di acciaio:\n\n- tipo",
+     "proposto": "raggi;\n\n***Costruzioni di acciaio:***\n\n- tipo",
+     "nota": "sottotitolo in grassetto corsivo"
+    },
+    {
+     "id": "E10",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 261",
+     "attuale": "ori:\n\n- **malta di buone caratteristiche**: il coef",
+     "proposto": "ori:\n\n- ***malta di buone caratteristiche*:** il coef",
+     "nota": "da grassetto a grassetto corsivo; due punti in grassetto"
+    },
+    {
+     "id": "E11",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 261",
+     "attuale": "G$);\n\n- **presenza di ricorsi (o listature)**: il coef",
+     "proposto": "G$);\n\n- ***presenza di ricorsi (o listature):*** il coef",
+     "nota": "grassetto corsivo, due punti compresi"
+    },
+    {
+     "id": "E12",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 261",
+     "attuale": "iva;\n\n- **presenza sistematica di elementi di collegamento trasversale tra i paramenti**: il coef",
+     "proposto": "iva;\n\n- ***presenza sistematica di elementi di collegamento trasversale tra i paramenti*:** il coef",
+     "nota": ""
+    },
+    {
+     "id": "E13",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262",
+     "attuale": " cui il nucleo interno sia amp",
+     "proposto": " cui il *nucleo interno* sia amp",
+     "nota": "solo la seconda occorrenza del capoverso, «nel caso in cui il nucleo interno sia ampio»"
+    },
+    {
+     "id": "E14",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262",
+     "attuale": "trate.\n\n**Consolidamento con iniezioni di miscele leganti**\n\nIl coe",
+     "proposto": "trate.\n\n***Consolidamento con iniezioni di miscele leganti***\n\nIl coe",
+     "nota": "da grassetto a grassetto corsivo"
+    },
+    {
+     "id": "E15",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262",
+     "attuale": "guiti.\n\n**Consolidamento con intonaco armato**\n\nL’effe",
+     "proposto": "guiti.\n\n***Consolidamento con intonaco armato***\n\nL’effe",
+     "nota": ""
+    },
+    {
+     "id": "E16",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263",
+     "attuale": "zioni.\n\nConsolidamento con diatoni artificiali o tirantini antiespulsivi Nel cas",
+     "proposto": "zioni.\n\n***Consolidamento con diatoni artificiali o tirantini antiespulsivi*** Nel cas",
+     "nota": "rubrica in grassetto corsivo; il capoverso si divide a parte"
+    },
+    {
+     "id": "E17",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263",
+     "attuale": "e (f).\n\n**Consolidamento con ristilatura armata e connessione dei paramenti**\n\nIl coe",
+     "proposto": "e (f).\n\n***Consolidamento con ristilatura armata e connessione dei paramenti***\n\nIl coe",
+     "nota": ""
+    },
+    {
+     "id": "E18",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263",
+     "attuale": "prova.\n\n**Prove limitate:** Si trat",
+     "proposto": "prova.\n\n***Prove limitate:*** Si trat",
+     "nota": ""
+    },
+    {
+     "id": "E19",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263",
+     "attuale": "aria. \n\n**Prove estese:** Si trat",
+     "proposto": "aria. \n\n***Prove estese:*** Si trat",
+     "nota": ""
+    },
+    {
+     "id": "E20",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263",
+     "attuale": "lità. \n\n**Prove esaustive:** In aggi",
+     "proposto": "lità. \n\n***Prove esaustive:*** In aggi",
+     "nota": ""
+    },
+    {
+     "id": "E21",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "uzione. Calcestruzzo: si fa ",
+     "proposto": "uzione. ***Calcestruzzo***: si fa ",
+     "nota": "due punti in tondo"
+    },
+    {
+     "id": "E22",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "bblici. Acciaio: la mis",
+     "proposto": "bblici. ***Acciaio***: la mis",
+     "nota": "due punti in tondo"
+    },
+    {
+     "id": "E23",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "uzione. Unioni di elementi d’acciaio: la misu",
+     "proposto": "uzione. ***Unioni di elementi d’acciaio*:** la misu",
+     "nota": ""
+    },
+    {
+     "id": "E24",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": " prova. Prove limitate: prevedo",
+     "proposto": " prova. ***Prove limitate*:** prevedo",
+     "nota": ""
+    },
+    {
+     "id": "E25",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": " prova. Prove estese: prevedo",
+     "proposto": " prova. ***Prove estese*:** prevedo",
+     "nota": ""
+    },
+    {
+     "id": "E26",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": " con le prove limitate risulti",
+     "proposto": " con le ***prove limitate*** risulti",
+     "nota": "«con le prove limitate risultino inferiori»"
+    },
+    {
+     "id": "E27",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "ginali. Prove esaustive: prevedo",
+     "proposto": "ginali. ***Prove esaustive*:** prevedo",
+     "nota": ""
+    },
+    {
+     "id": "E28",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "i dalle prove, limitate o estese, risult",
+     "proposto": "i dalle ***prove, limitate o estese***, risult",
+     "nota": ""
+    },
+    {
+     "id": "E29",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265",
+     "attuale": " prova. Prove limitate: si trat",
+     "proposto": " prova. ***Prove limitate***: si trat",
+     "nota": "D3: due punti e «s» di «si» in corsivo tondo non riprodotti"
+    },
+    {
+     "id": "E30",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265",
+     "attuale": " 11119. Prove estese: si trat",
+     "proposto": " 11119. ***Prove estese:*** si trat",
+     "nota": "D3: la «s» di «si» in grassetto corsivo non riprodotta"
+    },
+    {
+     "id": "E31",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "sibili. Prove esaustive: si trat",
+     "proposto": "sibili. ***Prove esaustive:*** si trat",
+     "nota": ""
+    },
+    {
+     "id": "E32",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "ima dei Fattori di Confidenza (FC), defini",
+     "proposto": "ima dei *Fattori di Confidenza* (**FC**), defini",
+     "nota": "sigla FC in grassetto"
+    },
+    {
+     "id": "E33",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": " ai tre Livelli di Conoscenza (LC)crescent",
+     "proposto": " ai tre ***L****ivelli di* ***C****onoscenza* (**LC**)crescent",
+     "nota": "iniziali L e C in grassetto corsivo, resto in corsivo, sigla in grassetto"
+    },
+    {
+     "id": "E34",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": " segue. LC1: si inte",
+     "proposto": " segue. **LC1:** si inte",
+     "nota": ""
+    },
+    {
+     "id": "E35",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "pleto e indagini limitate sui det",
+     "proposto": "pleto e ***indagini limitate*** sui det",
+     "nota": ""
+    },
+    {
+     "id": "E36",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "C8.5.2, prove limitate sulle c",
+     "proposto": "C8.5.2, ***prove limitate*** sulle c",
+     "nota": ""
+    },
+    {
+     "id": "E37",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "denza è FC=1,35 (nel ca",
+     "proposto": "denza è **FC=1,35** (nel ca",
+     "nota": ""
+    },
+    {
+     "id": "E38",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "a non è LC2 solo a ",
+     "proposto": "a non è **LC2** solo a ",
+     "nota": "«non è LC2 solo a causa»"
+    },
+    {
+     "id": "E39",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "zione); LC2: si inte",
+     "proposto": "zione); **LC2:** si inte",
+     "nota": ""
+    },
+    {
+     "id": "E40",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "pleto e indagini estese sui det",
+     "proposto": "pleto e ***indagini estese*** sui det",
+     "nota": ""
+    },
+    {
+     "id": "E41",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "C8.5.2, prove estese sulle c",
+     "proposto": "C8.5.2, ***prove estese*** sulle c",
+     "nota": ""
+    },
+    {
+     "id": "E42",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "denza è FC=1,2 (nel ca",
+     "proposto": "denza è **FC=1,2** (nel ca",
+     "nota": ""
+    },
+    {
+     "id": "E43",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "a non è LC3 solo a ",
+     "proposto": "a non è **LC3** solo a ",
+     "nota": "«non è LC3 solo a causa»"
+    },
+    {
+     "id": "E44",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "zione); LC3: si inte",
+     "proposto": "zione); **LC3:** si inte",
+     "nota": ""
+    },
+    {
+     "id": "E45",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "arte, e indagini esaustive sui det",
+     "proposto": "arte, e ***indagini esaustive*** sui det",
+     "nota": ""
+    },
+    {
+     "id": "E46",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": " C8.5.2,prove esaustive sulle c",
+     "proposto": " C8.5.2,***prove esaustive*** sulle c",
+     "nota": ""
+    },
+    {
+     "id": "E47",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "denza è FC=1 (da app",
+     "proposto": "denza è **FC=1** (da app",
+     "nota": "«FC=1 (da applicarsi»"
+    },
+    {
+     "id": "E48",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "nici il valore di FC è defin",
+     "proposto": "nici il valore di **FC** è defin",
+     "nota": ""
+    },
+    {
+     "id": "E49",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "ello di conoscenza LC3, la dis",
+     "proposto": "ello di conoscenza **LC3**, la dis",
+     "nota": ""
+    },
+    {
+     "id": "E50",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": ") e con indagini limitate in-situ",
+     "proposto": ") e con ***indagini limitate*** in-situ",
+     "nota": ""
+    },
+    {
+     "id": "E51",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "dati da prove limitate in-situ",
+     "proposto": "dati da ***prove limitate*** in-situ",
+     "nota": ""
+    },
+    {
+     "id": "E52",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "denza è FC=1,35. La val",
+     "proposto": "denza è **FC=1,35**. La val",
+     "nota": ""
+    },
+    {
+     "id": "E53",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "e dai disegni costruttivi originali integrati da indagini limitate in situ sulle armature e sui collegamenti presen",
+     "proposto": "e dai disegni costruttivi originali integrati da ***indagini limitate*** in situ sulle armature e sui collegamenti presen",
+     "nota": ""
+    },
+    {
+     "id": "E54",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": " di una indagine estesa in situ",
+     "proposto": " di una ***indagine estesa*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E55",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "i, integrati da prove limitate in situ (se i v",
+     "proposto": "i, integrati da ***prove limitate*** in situ (se i v",
+     "nota": ""
+    },
+    {
+     "id": "E56",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "seguono prove estese in situ",
+     "proposto": "seguono ***prove estese*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E57",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": ", o con prove estese in situ",
+     "proposto": ", o con ***prove estese*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E58",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "denza è FC=1,2. La val",
+     "proposto": "denza è **FC=1,2**. La val",
+     "nota": ""
+    },
+    {
+     "id": "E59",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "rati da indagini limitate in situ",
+     "proposto": "rati da ***indagini limitate*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E60",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": " di una indagine esaustiva in situ",
+     "proposto": " di una ***indagine esaustiva*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E61",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "rati da prove limitate in situ",
+     "proposto": "rati da ***prove limitate*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E62",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "seguono prove esaustive in situ",
+     "proposto": "seguono ***prove esaustive*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E63",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": ", o con prove esaustive in situ",
+     "proposto": ", o con ***prove esaustive*** in situ",
+     "nota": ""
+    },
+    {
+     "id": "E64",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "denza è FC=1. La val",
+     "proposto": "denza è **FC=1**. La val",
+     "nota": ""
+    },
+    {
+     "id": "E65",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "ole per gli FC indicat",
+     "proposto": "ole per gli **FC** indicat",
+     "nota": ""
+    },
+    {
+     "id": "E66",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "8.5.IV. Gli FC possono",
+     "proposto": "8.5.IV. Gli **FC** possono",
+     "nota": ""
+    }
+   ]
+  },
+  {
+   "gruppo": "O",
+   "descrizione": "Correzioni puntuali",
+   "voci": [
+    {
+     "id": "O1",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260",
+     "attuale": "compressione fm stimabile tra 0,7 e 1,5 N/mm2)",
+     "proposto": "compressione $f_m$ stimabile tra 0,7 e 1,5 N/mm²)",
+     "nota": "pedice ed esponente della fonte"
+    },
+    {
+     "id": "O2",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260",
+     "attuale": "compressione fm stimabile inferiore a 0,7 N/mm2)",
+     "proposto": "compressione $f_m$ stimabile inferiore a 0,7 N/mm²)",
+     "nota": "pedice ed esponente della fonte"
+    },
+    {
+     "id": "O3",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 261",
+     "attuale": "diverse tipologie di muratura.*\n\nI valori si riferiscono a: $f$ = resistenza media a compressione, $\\tau_0$ = resistenza media a taglio in assenza di tensioni normali (con riferimento alla formula riportata, a proposito dei modelli di capacità, nel §C8.7.1.3), $f_{v0}$ = resistenza media a taglio in assenza di tensioni normali (con riferimento alla formula riportata, a proposito dei modelli di capacità, nel §C8.7.1.3), $E$ = valore medio del modulo di elasticità normale, $G$ = valore medio del modulo di elasticità tangenziale, $w$ = peso specifico medio.",
+     "proposto": "diverse tipologie di muratura. I valori si riferiscono a:* $f$ *= resistenza media a compressione,* $\\tau_0$ *= resistenza media a taglio in assenza di tensioni normali (con riferimento alla formula riportata, a proposito dei modelli di capacità, nel §C8.7.1.3),* $f_{v0}$ *= resistenza media a taglio in assenza di tensioni normali (con riferimento alla formula riportata, a proposito dei modelli di capacità, nel §C8.7.1.3),* $E$ *= valore medio del modulo di elasticità normale,* $G$ *= valore medio del modulo di elasticità tangenziale,* $w$ *= peso specifico medio.*",
+     "nota": "definizioni dei simboli dentro la didascalia in corsivo, come nella fonte"
+    },
+    {
+     "id": "O4",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262",
+     "attuale": "| Tipologia di muratura | Stato di fatto / Malta buona | Stato di fatto / Ricorsi o listature | Stato di fatto / Connessione trasversale | Interventi di consolidamento / Iniezione di miscele leganti (*) | Interventi di consolidamento / Intonaco armato (**) | Interventi di consolidamento / Ristilatura armata con connessione dei paramenti (**) | Interventi di consolidamento / Massimo coefficiente complessivo |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n",
+     "proposto": "| Tipologia di muratura | Stato di fatto | | | Interventi di consolidamento | | | |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| | Malta buona | Ricorsi o listature | Connessione trasversale | Iniezione di miscele leganti (*) | Intonacoarmato (**) | Ristilatura armata con connessione dei paramenti (**) | Massimo coefficiente complessivo |\n",
+     "nota": "testata su due livelli secondo il catalogo n. 6, come le Tabelle C8.5.V e C8.5.VI; «Intonacoarmato» come stampa la fonte (A)"
+    },
+    {
+     "id": "O5",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262",
+     "attuale": "secondo le modalità di seguito illustrate.",
+     "proposto": "secondo le modalità di seguito illustrate",
+     "nota": "la fonte non ha il punto finale (A)"
+    },
+    {
+     "id": "O6",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "l’analisi storico- critica",
+     "proposto": "l’analisi storico-critica",
+     "nota": "spazio aggiunto"
+    },
+    {
+     "id": "O7",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "| Prova di compressione e taglio (su un pannello isolato nella parete muraria) - prova tipo Sheppard | $G$",
+     "proposto": "| Prova di compressione e taglio (su un pannello isolato nella parete muraria) – prova tipo Sheppard | $G$",
+     "nota": "lineetta della fonte"
+    },
+    {
+     "id": "O8",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "| Prova di compressione e taglio (su un pannello isolato nella parete muraria) - prova tipo Sheppard | $\\tau_0",
+     "proposto": "| Prova di compressione e taglio (su un pannello isolato nella parete muraria) – prova tipo Sheppard | $\\tau_0",
+     "nota": "lineetta della fonte"
+    },
+    {
+     "id": "O9",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "| Livello di Indagini e Prove | Rilievo (dei dettagli costruttivi) (a) | Prove (sui materiali) (b)(c)(d) |",
+     "proposto": "| Livello di Indagini e Prove | Rilievo(dei dettagli costruttivi)$^{\\text{(a)}}$ | Prove (sui materiali)$^{\\text{(b)(c)(d)}}$ |",
+     "nota": "richiami in apice; «Rilievo(dei» senza spazio come la fonte (A)"
+    },
+    {
+     "id": "O10",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "| Livello di Indagini e Prove | Rilievo (dei collegamenti) (a) | Prove (sui materiali) (b)(c)(d) |",
+     "proposto": "| Livello di Indagini e Prove | Rilievo (dei collegamenti)$^{\\text{(a)}}$ | Prove (sui materiali)$^{\\text{(b)(c)(d)}}$ |",
+     "nota": "richiami in apice"
+    },
+    {
+     "id": "O11",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "dei parametri μ’ e σ’ della",
+     "proposto": "dei parametri $\\mu'$ e $\\sigma'$ della",
+     "nota": "greche come simboli (decisione di Sandro)"
+    },
+    {
+     "id": "O12",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "prove dirette e κ è un coef",
+     "proposto": "prove dirette e $\\kappa$ è un coef",
+     "nota": ""
+    },
+    {
+     "id": "O13",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "e la varianza σ’² della",
+     "proposto": "e la varianza $\\sigma'^2$ della",
+     "nota": ""
+    },
+    {
+     "id": "O14",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "il coefficiente κ rappresenta",
+     "proposto": "il coefficiente $\\kappa$ rappresenta",
+     "nota": ""
+    },
+    {
+     "id": "O15",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "dal valore μ’ adottato",
+     "proposto": "dal valore $\\mu'$ adottato",
+     "nota": ""
+    },
+    {
+     "id": "O16",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "differenza tra μ’ e μ”",
+     "proposto": "differenza tra $\\mu'$ e $\\mu''$",
+     "nota": "apice doppio come nella formula [C8.5.4.3]"
+    },
+    {
+     "id": "O17",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "coefficiente κ è opportuno",
+     "proposto": "coefficiente $\\kappa$ è opportuno",
+     "nota": "nota 3"
+    },
+    {
+     "id": "O18",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "coefficiente κ per i più",
+     "proposto": "coefficiente $\\kappa$ per i più",
+     "nota": "nota 3"
+    },
+    {
+     "id": "O19",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "**LC2:**\n\n- Resistenze",
+     "proposto": "**LC2**:\n\n- Resistenze",
+     "nota": "i due punti sono in tondo nella fonte"
+    },
+    {
+     "id": "O20",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "sperimentali[3]. Qualora",
+     "proposto": "sperimentali[3].\n\nQualora",
+     "nota": "capoverso della fonte"
+    },
+    {
+     "id": "O21",
+     "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+     "pagina": "NTC p. 297",
+     "attuale": "assegnando a γG valori",
+     "proposto": "assegnando a $\\gamma_G$ valori",
+     "nota": "pedice della fonte; la γ in testo semplice spariva anche nella resa"
+    }
+   ]
+  },
+  {
+   "gruppo": "R",
+   "descrizione": "Rubriche della Circolare come nella fonte: numero senza punto, titolo in maiuscolo; decisione di Sandro del 2026-10-14",
+   "voci": [
+    {
+     "id": "R1",
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257",
+     "attuale": "## C8.5. Definizione del modello di riferimento per le analisi",
+     "proposto": "## C8.5 DEFINIZIONE DEL MODELLO DI RIFERIMENTO PER LE ANALISI",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R2",
+     "file": "cap08/8.5.1-modello-riferimento-analisi-analisi-storico-critica.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "### C8.5.1. Analisi storico-critica",
+     "proposto": "### C8.5.1 ANALISI STORICO-CRITICA",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R3",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "### C8.5.2. Rilievo",
+     "proposto": "### C8.5.2 RILIEVO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R4",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "#### C8.5.2.1. Costruzioni di muratura",
+     "proposto": "#### C8.5.2.1 COSTRUZIONI DI MURATURA",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R5",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258",
+     "attuale": "#### C8.5.2.2. Costruzioni di calcestruzzo armato o acciaio",
+     "proposto": "#### C8.5.2.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R6",
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 260",
+     "attuale": "#### C8.5.2.3. Costruzioni di legno",
+     "proposto": "#### C8.5.2.3 COSTRUZIONI DI LEGNO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R7",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260",
+     "attuale": "### C8.5.3. Caratterizzazione meccanica dei materiali",
+     "proposto": "### C8.5.3 CARATTERIZZAZIONE MECCANICA DEI MATERIALI",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R8",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260",
+     "attuale": "#### C8.5.3.1. Costruzioni di muratura",
+     "proposto": "#### C8.5.3.1 COSTRUZIONI DI MURATURA",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R9",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "#### C8.5.3.2. Costruzioni di calcestruzzo armato o acciaio",
+     "proposto": "#### C8.5.3.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R10",
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264",
+     "attuale": "#### C8.5.3.3. Costruzioni di legno",
+     "proposto": "#### C8.5.3.3 COSTRUZIONI DI LEGNO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R11",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265",
+     "attuale": "### C8.5.4. Livelli di conoscenza e fattori di confidenza",
+     "proposto": "### C8.5.4 LIVELLI DI CONOSCENZA E FATTORI DI CONFIDENZA",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R12",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "#### C8.5.4.1. Costruzioni di muratura",
+     "proposto": "#### C8.5.4.1 COSTRUZIONI DI MURATURA",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R13",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267",
+     "attuale": "#### C8.5.4.2. Costruzioni di calcestruzzo armato o di acciaio",
+     "proposto": "#### C8.5.4.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O DI ACCIAIO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R14",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268",
+     "attuale": "#### C8.5.4.3. Costruzioni di legno",
+     "proposto": "#### C8.5.4.3 COSTRUZIONI DI LEGNO",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R15",
+     "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+     "pagina": "Circolare p. 269",
+     "attuale": "### C8.5.5. Azioni",
+     "proposto": "### C8.5.5 AZIONI",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R16",
+     "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+     "pagina": "Circolare p. 269",
+     "attuale": "#### C8.5.5.1. Costruzioni in muratura",
+     "proposto": "#### C8.5.5.1 COSTRUZIONI IN MURATURA",
+     "nota": "rubrica come nella fonte"
+    },
+    {
+     "id": "R17",
+     "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+     "pagina": "Circolare p. 269",
+     "attuale": "#### C8.5.5.2. Costruzioni di calcestruzzo armato o acciaio",
+     "proposto": "#### C8.5.5.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO",
+     "nota": "rubrica come nella fonte"
+    }
+   ]
+  },
+  {
+   "gruppo": "C",
+   "descrizione": "Capoversi della fonte divisi come nella fonte; decisione di Sandro del 2026-10-14",
+   "voci": [
+    {
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257, y 542.2 pt",
+     "attuale": "mento già attuati in passato. L’adeguata conoscenza del",
+     "proposto": "mento già attuati in passato.\n\nL’adeguata conoscenza del",
+     "id": "C1",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257, y 565.9 pt",
+     "attuale": "ata al livello di conoscenza. È opportuno sottolineare ",
+     "proposto": "ata al livello di conoscenza.\n\nÈ opportuno sottolineare ",
+     "id": "C2",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257, y 579.0 pt",
+     "attuale": "li, ma strettamente connesse. Il piano delle indagini, ",
+     "proposto": "li, ma strettamente connesse.\n\nIl piano delle indagini, ",
+     "id": "C3",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257, y 634.2 pt",
+     "attuale": "loro onerosità ed invasività. Per gli edifici in muratu",
+     "proposto": "loro onerosità ed invasività.\n\nPer gli edifici in muratu",
+     "id": "C4",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257, y 657.9 pt",
+     "attuale": "5.6.1 e § 7.8.1.1 delle NTC). In relazione al livello d",
+     "proposto": "5.6.1 e § 7.8.1.1 delle NTC).\n\nIn relazione al livello d",
+     "id": "C5",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5-introduzione.md",
+     "pagina": "Circolare p. 257, y 702.6 pt",
+     "attuale": " modo illustrato nel seguito. Indicazioni specifiche ri",
+     "proposto": " modo illustrato nel seguito.\n\nIndicazioni specifiche ri",
+     "id": "C6",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.1-modello-riferimento-analisi-analisi-storico-critica.md",
+     "pagina": "Circolare p. 258, y 134.6 pt",
+     "attuale": "visione della loro efficacia. L’analisi storica deve es",
+     "proposto": "visione della loro efficacia.\n\nL’analisi storica deve es",
+     "id": "C7",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.1-modello-riferimento-analisi-analisi-storico-critica.md",
+     "pagina": "Circolare p. 258, y 179.4 pt",
+     "attuale": "el comportamento strutturale. L’analisi inizia con il r",
+     "proposto": "el comportamento strutturale.\n\nL’analisi inizia con il r",
+     "id": "C8",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.1-modello-riferimento-analisi-analisi-storico-critica.md",
+     "pagina": "Circolare p. 258, y 329.1 pt",
+     "attuale": "ogia ed epoca di costruzione. In definitiva, questa fas",
+     "proposto": "ogia ed epoca di costruzione.\n\nIn definitiva, questa fas",
+     "id": "C9",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258, y 439.2 pt",
+     "attuale": "a una particolare attenzione. Nel rilievo si possono in",
+     "proposto": "a una particolare attenzione.\n\nNel rilievo si possono in",
+     "id": "C10",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258, y 452.3 pt",
+     "attuale": "ievo si possono individuare tre livelli di indagine, in relazione al loro grado di approfondimento. ***Indagini limitate*:** ",
+     "proposto": "ievo si possono individuare tre livelli di indagine, in relazione al loro grado di approfondimento.\n\n***Indagini limitate*:** ",
+     "id": "C11",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258, y 497.0 pt",
+     "attuale": "di eliminazione delle spinte. ***Indagini estese:*** i ",
+     "proposto": "di eliminazione delle spinte.\n\n***Indagini estese:*** i ",
+     "id": "C12",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258, y 531.1 pt",
+     "attuale": "le varietà della costruzione. ***Indagini esaustive*:**",
+     "proposto": "le varietà della costruzione.\n\n***Indagini esaustive*:**",
+     "id": "C13",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 258, y 672.3 pt",
+     "attuale": " all’epoca della costruzione. Il rilievo di manufatti c",
+     "proposto": " all’epoca della costruzione.\n\nIl rilievo di manufatti c",
+     "id": "C14",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 228.4 pt",
+     "attuale": "ruito ai disegni di progetto. Nel definire il comportam",
+     "proposto": "ruito ai disegni di progetto.\n\nNel definire il comportam",
+     "id": "C15",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 252.1 pt",
+     "attuale": "mulato o da indagini in situ. Il progetto simulato, ese",
+     "proposto": "mulato o da indagini in situ.\n\nIl progetto simulato, ese",
+     "id": "C16",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 286.2 pt",
+     "attuale": "tteristiche dei collegamenti. Sia che si disponga dei d",
+     "proposto": "tteristiche dei collegamenti.\n\nSia che si disponga dei d",
+     "id": "C17",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 320.4 pt",
+     "attuale": "ievi si possono individuare tre livelli di indagine, in relazione al loro grado di approfondimento. ***Indagini limitate*:** ",
+     "proposto": "ievi si possono individuare tre livelli di indagine, in relazione al loro grado di approfondimento.\n\n***Indagini limitate*:** ",
+     "id": "C18",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 344.0 pt",
+     "attuale": "elle effettivamente presenti. ***Indagini estese***: si",
+     "proposto": "elle effettivamente presenti.\n\n***Indagini estese***: si",
+     "id": "C19",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 367.7 pt",
+     "attuale": "iginali risultano incompleti. ***Indagini esaustive*:**",
+     "proposto": "iginali risultano incompleti.\n\n***Indagini esaustive*:**",
+     "id": "C20",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 391.4 pt",
+     "attuale": "borati progettuali originali. Le indagini in-situ basat",
+     "proposto": "borati progettuali originali.\n\nLe indagini in-situ basat",
+     "id": "C21",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 415.1 pt",
+     "attuale": "a importanza nella struttura. Il quantitativo di indagi",
+     "proposto": "a importanza nella struttura.\n\nIl quantitativo di indagi",
+     "id": "C22",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 449.3 pt",
+     "attuale": "ogettazione degli interventi. Al fine di determinare, i",
+     "proposto": "ogettazione degli interventi.\n\nAl fine di determinare, i",
+     "id": "C23",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 530.8 pt",
+     "attuale": " come definite al § C8.5.3.2. Dall’esito, in termini di",
+     "proposto": " come definite al § C8.5.3.2.\n\nDall’esito, in termini di",
+     "id": "C24",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 575.6 pt",
+     "attuale": "l livello di approfondimento. A titolo esemplificativo ",
+     "proposto": "l livello di approfondimento.\n\nA titolo esemplificativo ",
+     "id": "C25",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 259, y 599.2 pt",
+     "attuale": "ire le seguenti informazioni: ***Costruzioni di calcest",
+     "proposto": "ire le seguenti informazioni:\n\n***Costruzioni di calcest",
+     "id": "C26",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 260, y 169.7 pt",
+     "attuale": " altre tipologie strutturali. Il rilievo geometrico rig",
+     "proposto": " altre tipologie strutturali.\n\nIl rilievo geometrico rig",
+     "id": "C27",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+     "pagina": "Circolare p. 260, y 203.9 pt",
+     "attuale": "ione della capacità portante. Per la comprensione dei f",
+     "proposto": "ione della capacità portante.\n\nPer la comprensione dei f",
+     "id": "C28",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 304.4 pt",
+     "attuale": "i è realizzato un fabbricato. La norma prevede che per ",
+     "proposto": "i è realizzato un fabbricato.\n\nLa norma prevede che per ",
+     "id": "C29",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 349.2 pt",
+     "attuale": "o articolo 59 del DPR 380/01. In tal senso le NTC hanno",
+     "proposto": "o articolo 59 del DPR 380/01.\n\nIn tal senso le NTC hanno",
+     "id": "C30",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 458.7 pt",
+     "attuale": "mento meccanico dell’insieme. La misura diretta delle c",
+     "proposto": "mento meccanico dell’insieme.\n\nLa misura diretta delle c",
+     "id": "C31",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 503.4 pt",
+     "attuale": "ure di riconosciuta validità. Ulteriori informazioni si",
+     "proposto": "ure di riconosciuta validità.\n\nUlteriori informazioni si",
+     "id": "C32",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 527.0 pt",
+     "attuale": "ive o mediamente distruttive. In relazione al numero de",
+     "proposto": "ive o mediamente distruttive.\n\nIn relazione al numero de",
+     "id": "C33",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 582.3 pt",
+     "attuale": "ativi di comprovata validità. La tabella C8.5.I riporta",
+     "proposto": "ativi di comprovata validità.\n\nLa tabella C8.5.I riporta",
+     "id": "C34",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 669.1 pt",
+     "attuale": "guardi delle azioni sismiche. La resistenza a compressi",
+     "proposto": "guardi delle azioni sismiche.\n\nLa resistenza a compressi",
+     "id": "C35",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 260, y 692.8 pt",
+     "attuale": "collegamento tra i paramenti. Per interpretare fenomeni",
+     "proposto": "collegamento tra i paramenti.\n\nPer interpretare fenomeni",
+     "id": "C36",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 261, y 123.4 pt",
+     "attuale": "ò ridursi significativamente. Nel caso di murature di b",
+     "proposto": "ò ridursi significativamente.\n\nNel caso di murature di b",
+     "id": "C37",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 261, y 660.7 pt",
+     "attuale": "enti moltiplicativi più alti. I dati riportati nella Ta",
+     "proposto": "enti moltiplicativi più alti.\n\nI dati riportati nella Ta",
+     "id": "C38",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262, y 144.4 pt",
+     "attuale": "rate sulle superfici esterne. Nel caso non sussistano r",
+     "proposto": "rate sulle superfici esterne.\n\nNel caso non sussistano r",
+     "id": "C39",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262, y 168.1 pt",
+     "attuale": "lla propria sezione efficace. Dopo avere esclusa la pos",
+     "proposto": "lla propria sezione efficace.\n\nDopo avere esclusa la pos",
+     "id": "C40",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262, y 223.3 pt",
+     "attuale": "averso valutazioni opportune. Nel caso particolare di n",
+     "proposto": "averso valutazioni opportune.\n\nNel caso particolare di n",
+     "id": "C41",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 262, y 678.7 pt",
+     "attuale": "relativi parametri meccanici. In assenza di queste è po",
+     "proposto": "relativi parametri meccanici.\n\nIn assenza di queste è po",
+     "id": "C42",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 133.9 pt",
+     "attuale": "lizzato su un solo paramento. Nell’adozione degli event",
+     "proposto": "lizzato su un solo paramento.\n\nNell’adozione degli event",
+     "id": "C43",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 194.3 pt",
+     "attuale": " o tirantini antiespulsivi*** Nel caso dell’inserimento",
+     "proposto": " o tirantini antiespulsivi***\n\nNel caso dell’inserimento",
+     "id": "C44",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 278.4 pt",
+     "attuale": "so in misura ridotta del 50%. Questa tecnica (con i rel",
+     "proposto": "so in misura ridotta del 50%.\n\nQuesta tecnica (con i rel",
+     "id": "C45",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 312.7 pt",
+     "attuale": "i di connessione trasversale. I valori sopra indicati i",
+     "proposto": "i di connessione trasversale.\n\nI valori sopra indicati i",
+     "id": "C46",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 346.8 pt",
+     "attuale": "uiscono un utile riferimento. Nel caso di uso combinato",
+     "proposto": "uiscono un utile riferimento.\n\nNel caso di uso combinato",
+     "id": "C47",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 370.5 pt",
+     "attuale": "ultima colonna della tabella. Nella caratterizzazione m",
+     "proposto": "ultima colonna della tabella.\n\nNella caratterizzazione m",
+     "id": "C48",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 654.7 pt",
+     "attuale": "a per materiali e morfologia. A seguito delle indagini,",
+     "proposto": "a per materiali e morfologia.\n\nA seguito delle indagini,",
+     "id": "C49",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 678.4 pt",
+     "attuale": "tilizzare nelle modellazioni. A questo scopo possono es",
+     "proposto": "tilizzare nelle modellazioni.\n\nA questo scopo possono es",
+     "id": "C50",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 263, y 712.5 pt",
+     "attuale": " di comprovata attendibilità. Nelle costruzioni con str",
+     "proposto": " di comprovata attendibilità.\n\nNelle costruzioni con str",
+     "id": "C51",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 112.8 pt",
+     "attuale": "ate negli specifici Capitoli. Nei casi, previsti dalle ",
+     "proposto": "ate negli specifici Capitoli.\n\nNei casi, previsti dalle ",
+     "id": "C52",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 169.7 pt",
+     "attuale": "retizzate previste nelle NTC. Per definire le caratteri",
+     "proposto": "retizzate previste nelle NTC.\n\nPer definire le caratteri",
+     "id": "C53",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 182.7 pt",
+     "attuale": "dell’epoca della costruzione. ***Calcestruzzo***: si fa",
+     "proposto": "dell’epoca della costruzione.\n\n***Calcestruzzo***: si fa",
+     "id": "C54",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 206.5 pt",
+     "attuale": "uperiore dei Lavori Pubblici. ***Acciaio***: la misura ",
+     "proposto": "uperiore dei Lavori Pubblici.\n\n***Acciaio***: la misura ",
+     "id": "C55",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 251.1 pt",
+     "attuale": "va dell’epoca di costruzione. ***Unioni di elementi d’a",
+     "proposto": "va dell’epoca di costruzione.\n\n***Unioni di elementi d’a",
+     "id": "C56",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 285.4 pt",
+     "attuale": " rottura e dell’allungamento. Sono ammessi metodi di in",
+     "proposto": " rottura e dell’allungamento.\n\nSono ammessi metodi di in",
+     "id": "C57",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 309.0 pt",
+     "attuale": "tenuti con prove distruttive. Le prove sui materiali, i",
+     "proposto": "tenuti con prove distruttive.\n\nLe prove sui materiali, i",
+     "id": "C58",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 332.8 pt",
+     "attuale": "nza che si vuole raggiungere. Si possono distinguere, i",
+     "proposto": "nza che si vuole raggiungere.\n\nSi possono distinguere, i",
+     "id": "C59",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 345.8 pt",
+     "attuale": "imento, tre livelli di prova. ***Prove limitate*:** pre",
+     "proposto": "imento, tre livelli di prova.\n\n***Prove limitate*:** pre",
+     "id": "C60",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 379.9 pt",
+     "attuale": "rtificati originali di prova. ***Prove estese*:** preve",
+     "proposto": "rtificati originali di prova.\n\n***Prove estese*:** preve",
+     "id": "C61",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 414.2 pt",
+     "attuale": " o sui certificati originali. ***Prove esaustive*:** pr",
+     "proposto": " o sui certificati originali.\n\n***Prove esaustive*:** pr",
+     "id": "C62",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 459.0 pt",
+     "attuale": "nza particolarmente accurata. Al fine di determinare in",
+     "proposto": "nza particolarmente accurata.\n\nAl fine di determinare in",
+     "id": "C63",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 524.8 pt",
+     "attuale": "ini preliminari (§ C8.5.2.2). In base all’esito dell’an",
+     "proposto": "ini preliminari (§ C8.5.2.2).\n\nIn base all’esito dell’an",
+     "id": "C64",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 580.0 pt",
+     "attuale": "l livello di approfondimento. Per l’identificazione del",
+     "proposto": "l livello di approfondimento.\n\nPer l’identificazione del",
+     "id": "C65",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 660.4 pt",
+     "attuale": "e caratteristiche meccaniche. Riguardo alla caratterizz",
+     "proposto": "e caratteristiche meccaniche.\n\nRiguardo alla caratterizz",
+     "id": "C66",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 264, y 705.2 pt",
+     "attuale": " parametri è in genere ampia. Occorre identificare l’ev",
+     "proposto": " parametri è in genere ampia.\n\nOccorre identificare l’ev",
+     "id": "C67",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265, y 123.4 pt",
+     "attuale": "he appoggiano in fondazione). Si possono distinguere, i",
+     "proposto": "he appoggiano in fondazione).\n\nSi possono distinguere, i",
+     "id": "C68",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265, y 136.4 pt",
+     "attuale": "imento, tre livelli di prova. ***Prove limitate***: si ",
+     "proposto": "imento, tre livelli di prova.\n\n***Prove limitate***: si ",
+     "id": "C69",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265, y 181.2 pt",
+     "attuale": "accordo alla norma UNI 11119. ***Prove estese:*** si tr",
+     "proposto": "accordo alla norma UNI 11119.\n\n***Prove estese:*** si tr",
+     "id": "C70",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+     "pagina": "Circolare p. 265, y 225.8 pt",
+     "attuale": "me particolarmente sensibili. ***Prove esaustive:*** si",
+     "proposto": "me particolarmente sensibili.\n\n***Prove esaustive:*** si",
+     "id": "C71",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 337.0 pt",
+     "attuale": "di approfondimento raggiunto. Limitatamente al caso di ",
+     "proposto": "di approfondimento raggiunto.\n\nLimitatamente al caso di ",
+     "id": "C72",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 371.2 pt",
+     "attuale": "e verifiche sismiche globali. Di seguito, con riferimen",
+     "proposto": "e verifiche sismiche globali.\n\nDi seguito, con riferimen",
+     "id": "C73",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 394.8 pt",
+     "attuale": "scenti, secondo quanto segue. **LC1:** si intende raggi",
+     "proposto": "scenti, secondo quanto segue.\n\n**LC1:** si intende raggi",
+     "id": "C74",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 460.6 pt",
+     "attuale": "e dell’epoca di costruzione); **LC2:** si intende raggi",
+     "proposto": "e dell’epoca di costruzione);\n\n**LC2:** si intende raggi",
+     "id": "C75",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 526.4 pt",
+     "attuale": "e dell’epoca di costruzione); **LC3:** si intende raggi",
+     "proposto": "e dell’epoca di costruzione);\n\n**LC3:** si intende raggi",
+     "id": "C76",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 592.1 pt",
+     "attuale": " limitate o estese eseguite). Per raggiungere il livell",
+     "proposto": " limitate o estese eseguite).\n\nPer raggiungere il livell",
+     "id": "C77",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 626.5 pt",
+     "attuale": "ndenza alla situazione reale. Ci si può riferire alla d",
+     "proposto": "ndenza alla situazione reale.\n\nCi si può riferire alla d",
+     "id": "C78",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 265, y 671.2 pt",
+     "attuale": "nfidenza si assumono unitari. La quantità e il tipo di ",
+     "proposto": "nfidenza si assumono unitari.\n\nLa quantità e il tipo di ",
+     "id": "C79",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266, y 352.7 pt",
+     "attuale": "della distribuzione a-priori. Nel determinare la stima ",
+     "proposto": "della distribuzione a-priori.\n\nNel determinare la stima ",
+     "id": "C80",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 267, y 177.7 pt",
+     "attuale": "one dei dettagli costruttivi. Il livello di conoscenza ",
+     "proposto": "one dei dettagli costruttivi.\n\nIl livello di conoscenza ",
+     "id": "C81",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268, y 165.5 pt",
+     "attuale": "n modello strutturale idoneo. Le resistenze dei materia",
+     "proposto": "n modello strutturale idoneo.\n\nLe resistenze dei materia",
+     "id": "C82",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268, y 189.1 pt",
+     "attuale": "dicati nella Tabella C8.5.IV. Gli **FC** possono essere",
+     "proposto": "dicati nella Tabella C8.5.IV.\n\nGli **FC** possono essere",
+     "id": "C83",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 268, y 212.8 pt",
+     "attuale": "etodi di comprovata validità. A titolo esclusivamente o",
+     "proposto": "etodi di comprovata validità.\n\nA titolo esclusivamente o",
+     "id": "C84",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+     "pagina": "Circolare p. 269, y 155.6 pt",
+     "attuale": "variabili previsti dalle NTC. L'azione sismica è defini",
+     "proposto": "variabili previsti dalle NTC.\n\nL'azione sismica è defini",
+     "id": "C85",
+     "nota": "capoverso della fonte unito al precedente"
+    },
+    {
+     "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+     "pagina": "Circolare p. 269, y 179.4 pt",
+     "attuale": " delle NTC (v. anche § C8.3). Per la combinazione dell’",
+     "proposto": " delle NTC (v. anche § C8.3).\n\nPer la combinazione dell’",
+     "id": "C86",
+     "nota": "capoverso della fonte unito al precedente"
+    }
+   ]
+  }
+ ],
+ "decisioni": [
+  {
+   "id": "D2",
+   "decisione": "Sandro, 2026-10-14: «Lascio un trattino»",
+   "pagina": "Circolare p. 261",
+   "descrizione": "Tabella C8.5.I, colonna fv0, righe 1-4: la fonte stampa due trattini per cella, uno per riga di testo. Si conserva un trattino per cella; anomalia tipografica annotata nel verbale."
+  },
+  {
+   "id": "D3",
+   "proposta": "non riprodurre",
+   "pagina": "Circolare p. 265",
+   "descrizione": "Dopo «Prove limitate» i due punti e la «s» di «si» sono in corsivo; dopo «Prove estese:» la «s» di «si» è in grassetto corsivo. Si rende l'etichetta in grassetto corsivo e il resto in tondo."
+  },
+  {
+   "id": "D4",
+   "proposta": "estendere D1",
+   "pagina": "Circolare pp. 258-259",
+   "descrizione": "Cinque tratti sottolineati («almeno localmente»; «Per gli elementi aventi … la più completa possibile»; «mentre i dettagli»; «possono essere rilevati a campione»; «il rilievo dei dettagli costruttivi è … seguenti informazioni»). Come per D1 a p. 269: sottolineatura non riprodotta, annotata nel verbale."
+  },
+  {
+   "id": "D5",
+   "proposta": "convenzione del corpus",
+   "pagina": "Circolare e NTC, tutto lo scope",
+   "descrizione": "I marcatori di elenco della fonte (trattino, lineetta, punto) sono resi come elenchi Markdown; nessuna parola cambia."
+  },
+  {
+   "id": "D6",
+   "proposta": "non riprodurre, come D1 dell'8.4",
+   "pagina": "Circolare pp. 260-264",
+   "descrizione": "I simboli f, fm, fv0, τ0, E, G nel testo della Circolare sono stampati in grassetto; il corpus li scrive come simboli matematici in corsivo. Non cambia la grandezza."
+  },
+  {
+   "id": "D7",
+   "proposta": "conservare la fonte (A)",
+   "pagina": "Circolare p. 262",
+   "descrizione": "Testata della Tabella C8.5.II: la fonte stampa «Intonacoarmato (**)»; il corpus aveva corretto senza nota. Si ripristina la lettura della fonte (voce O4), senza nota AF-COR."
+  }
+ ],
+ "rilievi_respinti": [
+  {
+   "rilievo": "b02, P261-T1-TEST",
+   "motivo": "La testata della Tabella C8.5.I stampa «fv» a corpo pieno (6,97 pt) e «0» ridotto (4,37 pt), come la didascalia. Codepoint U+0076 (v minuscola); a 1200 dpi l'altezza della v coincide con quella dello 0 ridotto, cioè con l'occhio di una minuscola a 7 pt: una V maiuscola sarebbe più alta. Lettura $f_{v0}$ confermata, catalogo n. 13.",
+   "prova": "c-g6/c261-testata-fv0-1200dpi.png; codifica PDF"
+  },
+  {
+   "rilievo": "b04, R6 (titolo «Circolare» nella resa)",
+   "motivo": "È la rubrica di struttura «## Circolare» del file, apparato del corpus escluso dal confronto (catalogo n. 11 e depurazione del pacchetto); non è testo della fonte."
+  }
+ ],
+ "fuori_scope": [
+  {
+   "descrizione": "Il renderer canonico (pandoc, XeLaTeX, Latin Modern) non ha i glifi greci: le lettere greche scritte come testo semplice spariscono dal PDF di controllo. Nel § 8.5 si risolve con le voci O11-O18 e O21 (decisione di Sandro). Altri 42 file del corpus hanno greche in testo semplice: questione da trattare a parte."
+  }
+ ]
+}
