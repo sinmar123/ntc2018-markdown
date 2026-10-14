@@ -24,12 +24,12 @@ procedura_sha256: 01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e
 catalogo_sha256: dd5f1b9980e6fd37bd0444277d8b69d6ac0c000b91c1cf659a4f9a398b4a7c43
 snapshot_iniziale_sha256: vedi-corpo
 snapshot_sha256: vedi-corpo
-giro_g6: 1
+giro_g6: 2
 max_giri: 3
-rilievi_aperti: 0
+rilievi_aperti: 5
 gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: DA_FARE, G7: DA_FARE}
-attesa_decisione: []
-prossimo_passo: "G6 giro 2 integrale, verificatore Opus a contesto nuovo; poi elenco dei rilievi a Sandro, senza correggere."
+attesa_decisione: [L1, L2, L3, L4, D1]
+prossimo_passo: "Attendere la decisione di Sandro sulla lista vc-ntc2018-8.4-2026-10-14/lista-correzioni.json. Non correggere."
 routing_effettivo:
   coordinatore_fino_al_2026-10-13: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
   coordinatore: {modello: claude-opus-5-5, ruolo: C, agente: "CC cloud (CCC)"}
@@ -90,4 +90,8 @@ Stato ereditato: G0-G5 `OK`; correzioni R1-R7 applicate. Le impronte dei quattro
 Procedura: lo scope adotta la revisione 7 (VC-NTC/7) dal G6 giro 2, primo passaggio non iniziato, come prevede il § 1. Le modifiche della revisione 7 riguardano solo diciture; criteri, canone G6 e gate invariati.
 
 G1: ricognizione piena del 2026-10-13 (scope 3.3-ancore-blocco, copre NTC e Circolare) con ricontrollo mirato del 2026-10-14: schede ufficiali identiche, nessun aggiornamento. Evidenza `vc-ntc2018-8.4-2026-10-14/g1/ricontrollo-20261014.json`.
+
+G5, 2026-10-14: i quattro file uniti in `g6-r02/target-scope.md` (depurato: 111 righe) e resi con `render-capitolo.py`: cinque pagine, nessun tag tondo, nessuna didascalia automatica, controllo visivo senza difetti.
+
+G6 giro 2, 2026-10-14: un blocco, pagine NTC 295-296 e Circolare 256-257, righe 1-111. V subagente Claude Opus a contesto nuovo: inventario fonte-prima di 72 elementi, validato e congelato prima della rivelazione; confronto integrale con tutti i 72 id coperti. Esito `KO`, 5 rilievi. Testo e numeri conformi; i rilievi riguardano un punto aggiunto alla fine della nota 2 della Circolare, tre corsivi della fonte omessi (C8.4 «riparazione o intervento locale», «miglioramento», «adeguamento»; C8.4.3 lettere b, c, d, e; 8.4.3 «a)») e il grassetto di alcuni pedici e segni nella Circolare. C ha riscontrato ogni rilievo sulla codifica del PDF e su ritagli a 600 dpi (`c/`): confermati; nel 8.4.3 il punto dopo «a)» è in tondo, a differenza della lettura di V. Isolamento: V dichiara di aver salvato per errore i propri ritagli nella cartella madre del pacchetto, senza aprirne altri file. Rapporto `g6-r02/b01/rapporto-g6.json`, `valida-g6` OK. Lista per Sandro: `lista-correzioni.json` (L1-L4 e la questione D1). Fermati prima di correggere.
 
