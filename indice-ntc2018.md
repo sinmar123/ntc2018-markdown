@@ -31,6 +31,8 @@ Il registro ha una riga per ciascuno dei 379 file normativi `x`, `x.y` e `x.y.z`
 
 **Sola introduzione § 3.1, VC-OK del 2026-09-12:** [verbale](./verifica-conformita/verbale-VC-ntc2018-3.1-2026-09-12.md), [dossier](./verifica-conformita/vc-ntc2018-3.1-2026-09-12/), [manifest](./verifica-conformita/vc-ntc2018-3.1-2026-09-12/manifest-rilascio.json), [G7](./verifica-conformita/vc-ntc2018-3.1-2026-09-12/G7.json), [scheda](./verifica-conformita/scheda-scope-ntc2018-3.1.md), [lavorazione](./_tmp_render/cap03/vc-3.1-introduzione-20260912-cdx/). Procedura 4 semplificata, Codex (CDX). Firma: CDX.
 
+**§ 8.4 con C8.4, VC-OK registrato il 2026-10-14:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.4.md), [dossier](./verifica-conformita/vc-ntc2018-8.4-2026-10-14/).
+
 **§§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8, VC-OK dopo correzione localizzata del 2026-10-13:** [verbale](./verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-3.3-ancore-blocco.md), [dossier](./verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/).
 
 **§ 8.3, VC-OK registrato il 2026-09-30:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.3-2026-09-30.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.3-2026-09-30/). Registrato su ordine di Sandro. Firma: NormaNTC18 (OC).

@@ -1,5 +1,11 @@
 # NTC 2018 — Stato lavori e istruzioni operative
 
+## Completato 2026-10-14 - VC del § 8.4 con C8.4, CC cloud
+
+VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## Completato 2026-10-14 - Tag delle formule e 115 figure mancanti, CC cloud
 
 Due interventi tecnici, non VC, su richiesta di Sandro: 157 formule con `\tag` portato dentro i `$$` in 33 file di paragrafo, 13 file aggregati superati spostati in `old/aggregati-ricomposizione-20260826/`; 115 figure estratte dai PDF della Gazzetta, con registro di provenienza in `verifica-conformita/estrazione-figure-2026-10-14/`. Registro invariato. Dettagli nel CHANGELOG.

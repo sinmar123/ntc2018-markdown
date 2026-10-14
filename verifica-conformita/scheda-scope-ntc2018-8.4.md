@@ -13,7 +13,7 @@ pagine_fonte: 4
 formule_numerate_preliminari: 0
 tabelle_preliminari: 0
 figure_preliminari: 0
-stato: IN-CORSO
+stato: CHIUSO
 agente: CCC
 macchina: claude.ai/code (sessione cloud)
 agente_precedente: OC
@@ -27,9 +27,9 @@ snapshot_sha256: 70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813e
 giro_g6: 2
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: DA_FARE}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: OK}
 attesa_decisione: []
-prossimo_passo: "G7 di V sul lotto di chiusura (verbale, scheda, manifest), poi registra."
+prossimo_passo: "Nessuna sul file: VC conclusa sullo snapshot registrato."
 routing_effettivo:
   coordinatore_fino_al_2026-10-13: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
   coordinatore: {modello: claude-opus-5-5, ruolo: C, agente: "CC cloud (CCC)"}
@@ -94,6 +94,12 @@ G1: ricognizione piena del 2026-10-13 (scope 3.3-ancore-blocco, copre NTC e Circ
 G5, 2026-10-14: i quattro file uniti in `g6-r02/target-scope.md` (depurato: 111 righe) e resi con `render-capitolo.py`: cinque pagine, nessun tag tondo, nessuna didascalia automatica, controllo visivo senza difetti.
 
 G6 giro 2, 2026-10-14: un blocco, pagine NTC 295-296 e Circolare 256-257, righe 1-111. V subagente Claude Opus a contesto nuovo: inventario fonte-prima di 72 elementi, validato e congelato prima della rivelazione; confronto integrale con tutti i 72 id coperti. Esito `KO`, 5 rilievi. Testo e numeri conformi; i rilievi riguardano un punto aggiunto alla fine della nota 2 della Circolare, tre corsivi della fonte omessi (C8.4 «riparazione o intervento locale», «miglioramento», «adeguamento»; C8.4.3 lettere b, c, d, e; 8.4.3 «a)») e il grassetto di alcuni pedici e segni nella Circolare. C ha riscontrato ogni rilievo sulla codifica del PDF e su ritagli a 600 dpi (`c/`): confermati; nel 8.4.3 il punto dopo «a)» è in tondo, a differenza della lettura di V. Isolamento: V dichiara di aver salvato per errore i propri ritagli nella cartella madre del pacchetto, senza aprirne altri file. Rapporto `g6-r02/b01/rapporto-g6.json`, `valida-g6` OK. Lista per Sandro: `lista-correzioni.json` (L1-L4 e la questione D1). Fermati prima di correggere.
+
+## Chiusura 2026-10-14, CC cloud
+
+VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](./verbale-VC-ntc2018-8.4-2026-10-14.md), [G7](./vc-ntc2018-8.4-2026-10-14/G7.json), [manifest](./vc-ntc2018-8.4-2026-10-14/manifest-rilascio.json).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
 
 ## Decisione di Sandro e correzioni, 2026-10-14
 

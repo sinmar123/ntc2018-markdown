@@ -1,0 +1,50 @@
+{
+ "firma": "V, subagente Claude Opus a contesto nuovo, CC cloud",
+ "data": "2026-10-14",
+ "giudizio_g7": "OK",
+ "scope": "8.4",
+ "righe_registro": [
+  "8.4",
+  "8.4.1",
+  "8.4.2",
+  "8.4.3"
+ ],
+ "snapshot_sha256": "70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec",
+ "manifest_sha256": "493db21b3ee848afa041b3d4b2adbd915b4705194223851f2f791318120c8b0d",
+ "verbale_sha256": "940d64293a73a7c5075d63a88f1c4df958e7771b6edbb9ef76c95d15a0dfa644",
+ "manifest_verifica": {
+  "manifest-rilascio.json": {
+   "files": 54,
+   "integrita": "OK"
+  },
+  "snapshot-finale.json": {
+   "files": 4,
+   "integrita": "OK"
+  },
+  "comando": "python3 strumenti/vc-supporto.py verifica-manifest . <file>"
+ },
+ "gate": {
+  "G0": "OK",
+  "G1": "OK",
+  "G2": "OK",
+  "G3": "OK",
+  "G4": "OK",
+  "G5": "OK",
+  "G6": "OK",
+  "G7": "OK"
+ },
+ "rilievi_aperti": [],
+ "riconciliazione": {
+  "manifest": "Il manifest definitivo ha 54 file ed è integro. Rispetto a manifest-rilascio-r02.json (df2412c1…, 52 file, conservato) aggiunge soltanto lista-snapshot.json (a03e7655…) e snapshot-finale.json (70dbe9d6…, uguale all'impronta attesa). Nessun file tolto e nessuna impronta cambiata. Anche r01 resta conservato.",
+  "G7_r02": "G7-r02.json nel dossier è identico byte per byte al giudizio che ho firmato (83a8782b…).",
+  "verbale": "sha256 940d6429…644. Nel commit 1a6b3e3 cambiano solo tre voci: la riga del G7 (r01 KO, r02 OK sul manifest da 52 file, giudizio finale in G7.json), la dicitura 'Correzioni di ERR-MD di questo scope (nessuna AF-COR)' con L1 che conserva l'anomalia A, e la sezione del manifest con 54 file, l'impronta 493db21b… e i manifest superati r01 e r02. Tutto coerente; l'osservazione del G7 r02 è applicata.",
+  "scheda": "Aggiunto solo un capoverso finale su G7 r02 e manifest definitivo; il front matter riconciliato nel G7 r02 resta invariato.",
+  "chiusura": "chiusura.json invariato (f1c87698…349, stessa impronta del G7 r02); restano da riempire g7_sha256 e verbale_sha256.",
+  "resto": "Fonti, target vivi, procedura e catalogo congelati, G1, G6 e attestazione delle modifiche: stesse impronte già riconciliate nei G7 r01 e r02."
+ },
+ "motivazione_sintetica": "Il manifest definitivo aggiunge al r02 soltanto il manifest dello snapshot e la sua lista, ed è integro. Il verbale aggiornato è coerente e applica l'osservazione sulla dicitura delle correzioni. Nessun'altra variazione: zero rilievi aperti, G0-G7 OK.",
+ "osservazioni_non_bloccanti": [
+  "Il verbale indica come giudizio finale il file G7.json del dossier: copiarvi questo file prima di calcolare g7_sha256 in chiusura.json."
+ ],
+ "limiti": "Riconciliazione eseguita una sola volta, sui soli file cambiati dopo il G7 r02 e sulle impronte; non ho riletto fonte o testo. Non ho modificato nessun file del repository."
+}
