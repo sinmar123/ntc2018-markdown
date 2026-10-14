@@ -18,9 +18,23 @@ window.MathJax = {
   }
 };
 
-// Ricomposizione dopo i cambi di pagina; al primo caricamento MathJax compone da sé.
+// I titoli con formule arrivano nei menu come testo grezzo, per esempio «\(q_2\)»:
+// MathJax compone solo la classe arithmatex, quindi la si aggiunge a quelle voci.
+function formuleNeiMenu() {
+  return [...document.querySelectorAll(".md-nav .md-ellipsis, .md-nav .md-nav__link")]
+    .filter((e) => e.children.length === 0 && e.textContent.includes("\\("))
+    .map((e) => { e.classList.add("arithmatex"); return e; });
+}
+
+// Ricomposizione dopo i cambi di pagina; al primo caricamento MathJax compone da sé,
+// comprese le voci dei menu se la classe è già al suo posto.
 document$.subscribe(() => {
-  if (!MathJax.startup || !MathJax.startup.output) return;
+  const menu = formuleNeiMenu();
+  if (!MathJax.startup || !MathJax.startup.output) {
+    if (MathJax.startup && MathJax.startup.promise && menu.length)
+      MathJax.startup.promise.then(() => MathJax.typesetPromise(menu));
+    return;
+  }
   MathJax.startup.output.clearCache();
   MathJax.typesetClear();
   MathJax.texReset();
