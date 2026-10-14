@@ -1,5 +1,15 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - Tag delle formule dentro i `$$` e aggregati spostati in `old/`, CC cloud
+
+- Intervento tecnico dedicato, come chiedeva il TODO del 2026-08-26, scelto da Sandro il 2026-10-14 al posto di una VC piena: nei capitoli le formule scritte `$$formula$$ \tag{n}` diventano `$$formula \tag{n}$$`. Pandoc e MathJax non rendevano il tag lasciato fuori. Nuovo script `strumenti/normalizza-tag-formule.py`: sposta soltanto i delimitatori e si ferma se una riga cambierebbe altri caratteri.
+- 157 righe in 33 file di paragrafo dei Capitoli 4, 5, 6 e 7, compresi 2 blocchi `cases` su più righe nel § 7.2.3. Tutti i file erano `MAI-FATTA`, nessun `VC-OK` toccato; il registro non cambia. Controllo meccanico: per ogni riga del diff gli stessi caratteri prima e dopo, spazi esclusi.
+- Spostati con `git mv` in `old/aggregati-ricomposizione-20260826/` i 13 file aggregati rimasti nelle cartelle dopo la ricomposizione del 2026-08-26 (per esempio `cap07/7.3-metodi-analisi.md`): doppiavano i file di paragrafo, nessun indice li richiamava e non avevano righe nel registro. Contenevano gli altri 157 tag fuori posto e non sono stati corretti. Decisione di Sandro del 2026-10-14.
+- Resa con `strumenti/render-capitolo.py` su una copia: senza intervento, 13 file si fermano sulle figure mancanti e il § 5.1.3 sull'annidamento degli elenchi, limiti già noti e non legati ai tag. Con resa ausiliaria dichiarata (segnaposto al posto delle figure mancanti, `enumitem` con `\setlistdepth{9}` nel solo preambolo) i 33 PDF escono tutti e ogni tag del Markdown compare nel PDF fra quadre; controllo visivo sul § 7.3.1. Il § 7.2.3 segnala «(3.2.4)» fra tonde: è un rimando nel testo, non un tag.
+- Sito: `mkdocs build --strict` e `controlla-sito.py` senza errori; `\tag` fuori dai `$$` da 314 a 0; pagine dei capitoli da 502 a 489.
+
+Prossima azione: Sandro unisce la PR; poi le 115 figure mancanti.
+
 ## 2026-10-13 - Sito: formule con rimando alla nota sulla stessa riga, CC cloud
 
 - Segnalato da Claude su Chrome dopo l'unione della PR #4: nel sito le formule [3.3.1] e [3.3.2] uscivano in linea fra due «$» e senza numero, perché dopo i `$$` di chiusura, sulla stessa riga, c'è il rimando alla nota redazionale. Il difetto c'era già prima.

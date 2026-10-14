@@ -420,7 +420,7 @@ Completata da CDX l'unificazione di procedura, ingressi degli agenti e strumenti
 - Archiviati con hash i 33 file sostituiti e congelati i file di governo precedenti in `_tmp_render/ricomposizione-livello3-20260826/`.
 - Rimappate 1.409 righe del registro: 1.328 verso heading univoci e 81 verso il file naturale pertinente, mantenute `DA_VERIFICARE` perché prive di heading autonomo. Le 136 unità del § 4.1 sono ora `DA_FARE/NON_VALUTATO`; il G7 precedente resta nei campi storici e nel vecchio file archiviato. In questo stato intermedio le 113 unità del Capitolo 8 restavano `COMPLETA/OK`; la successiva ricomposizione le ha riportate a `DA_FARE/NON_VALUTATO`.
 - **Prossima attività VC:** aprire un nuovo scope su un singolo file naturale corrente. Per § 3.3 e § 4.1 non riutilizzare come lucchetto gli scope costruiti sui vecchi file aggregati.
-- **Anomalia tecnica separata:** normalizzare in un intervento dedicato le formule scritte come `$$formula$$ \tag{numero}`, che Pandoc non rende; non farlo durante una VC né confonderlo con uno scarto dalla fonte.
+- **Anomalia tecnica separata:** normalizzare in un intervento dedicato le formule scritte come `$$formula$$ \tag{numero}`, che Pandoc non rende; non farlo durante una VC né confonderlo con uno scarto dalla fonte. **Fatto il 2026-10-14** (CC cloud): 157 righe in 33 file di paragrafo; i 13 aggregati rimasti spostati in `old/aggregati-ricomposizione-20260826/`.
 - **Firma:** CDX (Codex).
 
 ## Completato 2026-08-26 - audit strutturale dei capitoli e riallineamento degli stati VC
@@ -684,6 +684,8 @@ Misurata la dimensione del prossimo scope, senza avviarne la verifica. Serve a d
 - **Firma:** CC (Claude Code).
 
 ## Rilievo 2026-07-29 - Tab. 7.3.II di `cap07/7.3-metodi-analisi.md` difforme dalla fonte
+
+- **Nota 2026-10-14:** il file aggregato è ora in `old/aggregati-ricomposizione-20260826/cap07/`. Lo stesso contenuto sta in `cap07/7.3.1-metodi-analisi-analisi-lineari-o-non-lineari.md`, dove la [7.3.1] è ancora `q = q_0 \cdot K_R`: i numeri di riga sotto si riferiscono al vecchio file. Rilievo ancora aperto.
 
 - Rilievo emerso di rimbalzo, confrontando il nostro Markdown con la libreria Python `norma-ntc`, che è una trascrizione indipendente dello stesso PDF. Dove le due divergevano si è aperta la Gazzetta.
 - **Fonte controllata a vista**: `raw/NTC_18 con segnalibri (X.x.x.).pdf`, pagine fisiche 220-221 = Gazzetta 216-217, rese a 200 dpi e lette come immagine. Offset da tenere presente per i controlli futuri: **pagina fisica = pagina Gazzetta + 4**; l'estrazione `pdftotext` del solo PDF produce 470 blocchi separati da form feed contro 372 pagine reali, quindi lo split su `\f` **non** è utilizzabile per numerare le pagine.
