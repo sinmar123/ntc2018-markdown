@@ -173,8 +173,8 @@ Per un LLM: leggere `indice-ntc2018.md`, poi `indice-capXX.md` del capitolo pert
 
 ## Stato di avanzamento
 
-- **Norma**: testo completo per tutti i 12 capitoli; l'audit del 2026-08-26 ha però rilevato asset grafici mancanti in sei cartelle di capitolo
-- **Circolare**: testo completo per i capitoli C1-C11; C12 non è presente nella circolare; anche parte degli asset grafici della Circolare è da recuperare
+- **Norma**: testo completo per tutti i 12 capitoli; le figure mancanti rilevate dall'audit del 2026-08-26 sono state estratte dalla Gazzetta il 2026-10-14 (`verifica-conformita/estrazione-figure-2026-10-14/`)
+- **Circolare**: testo completo per i capitoli C1-C11; C12 non è presente nella circolare; anche le figure mancanti della Circolare sono state estratte il 2026-10-14
 - **§ 3.1 Opere civili e industriali**: tutti i quattro file naturali 3.1.1-3.1.4 sono `VC-OK al 2026-08-27`; il paragrafo è completo e non esiste un file 3.1.5
 - **§ 3.2 Azione sismica**: tutti i quattro file naturali 3.2.1-3.2.4 sono `VC-OK`; 3.2.1 e 3.2.2 al 2026-08-28, 3.2.3 e 3.2.4 al 2026-08-29. Il paragrafo è completo
 - **§ 3.3 Azioni del vento**: tutti gli undici file naturali sono `VC-OK`; 3.3.1-3.3.7 al 2026-08-31 e 3.3.8-C3.3.11 al 2026-09-03. Il § 3.3 è completo. Il vecchio scope aggregato resta evidenza storica sospesa e scaduta
@@ -187,7 +187,7 @@ Per un LLM: leggere `indice-ntc2018.md`, poi `indice-capXX.md` del capitolo pert
 - **§ 4.2-A NTC + § C4.2-A Circolare**: giudizio storico `VC-OK al 2026-08-06`, ora `VC-SCADUTA - DA RICONFERMARE`. Il verbale conserva l'esito G0-G7 sul vecchio snapshot; la struttura corrente è governata da `cap04/indice-4.2.md` e richiede la riconferma su nuovo scope e manifest.
 - **§ 4.2-B NTC + § C4.2-B Circolare**: `SOSPESO` al settimo G6 sullo snapshot SHA-256 `1b548e70e811ed9a508713db79688e67d468c86bf13765d7652413aa493b2b70`; 3 `ERR-MD`, 1 `ERR-AUDIT`, 0 `DUBBIO`. G7 non avviato e nessuna promozione; serve l'autorizzazione esplicita a `max_giri: 8`, alla correzione distinta, all'errata-corrige dell'inventario e a un ottavo G6 integrale.
 - **Resa dei tag di formula**: lo script condiviso `strumenti/render-capitolo.py` applica le parentesi della fonte e verifica il risultato. Sul render corrente del § 4.1 sono presenti 81/81 tag, senza parentesi tonde ordinarie, e l'anomalia di fonte `[4.1.44)` è riprodotta alla lettera.
-- **Registro di verifica di conformità**: 379 righe, una per file normativo `x`, `x.y` o `x.y.z`; 32 `VC-OK`, 4 `IN-CORSO`, 37 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 297 `MAI-FATTA`. Date ed evidenze dei G7 sono esposte direttamente nelle righe interessate; il master dell'intero corpus resta `VC-DA-FARE`.
+- **Registro di verifica di conformità**: 379 righe, una per file normativo `x`, `x.y` o `x.y.z`; al 2026-10-14 43 `VC-OK`, 4 `IN-CORSO`, 34 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 289 `MAI-FATTA`. Date ed evidenze dei G7 sono esposte direttamente nelle righe interessate; il master dell'intero corpus resta `VC-DA-FARE`.
 
 Dettaglio in `TODO.md`, storico in `CHANGELOG.md`.
 

@@ -17,8 +17,6 @@ Questo non è un testo ufficiale. Fa fede soltanto il testo pubblicato in Gazzet
 
 La conversione è stata fatta con strumenti di intelligenza artificiale. La verifica sulla Gazzetta è in corso, paragrafo per paragrafo, e la maggior parte dei paragrafi non è ancora verificata. Un paragrafo non verificato può contenere errori di trascrizione: numeri, formule, celle di tabella, parole. Per un uso professionale si controlla sempre il passo sulla Gazzetta.
 
-Alcune figure non sono ancora nel repository. Nel sito, al loro posto, c'è un avviso.
-
 ## Stato di verifica
 
 Lo stato di ogni paragrafo è nel registro [`registro-verifica-conformita-ntc2018.csv`](../registro-verifica-conformita-ntc2018.csv), colonna `stato_vc`. Nel sito compare in un riquadro in testa a ogni pagina e nella tabella della pagina iniziale.

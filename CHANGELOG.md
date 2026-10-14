@@ -1,5 +1,12 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - Testi superati su figure e conteggi, CC cloud
+
+- Dopo l'estrazione delle 115 figure: tolta la frase «Alcune figure non sono ancora nel repository» dalla pagina iniziale del sito (`strumenti/costruisci-sito.py`) e da `.github/README.md`; nel README aggiornate le voci «Norma» e «Circolare» dello stato di avanzamento e i conteggi del registro (43 `VC-OK`, 4 `IN-CORSO`, 34 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 289 `MAI-FATTA`). Nessun file dei capitoli né il registro toccati.
+- Controllo del sito pubblicato fatto dalla sessione, dopo l'apertura di `sinmar123.github.io` nella rete: le 115 figure rispondono tutte, il `mathjax.js` pubblicato è quello con le formule nei menu, nessun avviso di figura mancante e nessun `\tag` fuori dalle formule nelle pagine provate.
+
+Prossima azione: nessuna.
+
 ## 2026-10-14 - Meno passaggi per Sandro: unione delle PR e controllo del sito alla sessione, CC cloud
 
 - Decisione di Sandro del 2026-10-14, per non dover passare ogni volta da GitHub e da Claude su Chrome: la sessione cloud unisce da sé le proprie pull request con un merge commit quando il job «costruisci» è verde e non ci sono conflitti, poi manda il riepilogo. Le scelte di metodo e le liste di correzioni VC restano da approvare prima.
