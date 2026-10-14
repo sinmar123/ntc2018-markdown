@@ -1,0 +1,56 @@
+{
+ "scope": "8.5",
+ "agente": "CCC",
+ "data": "2026-10-14",
+ "righe": [
+  "8.5",
+  "8.5.1",
+  "8.5.2",
+  "8.5.3",
+  "8.5.4",
+  "8.5.5"
+ ],
+ "g7": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/G7.json",
+ "g7_sha256": "2c974c65ca9c0528cd53d6faf82369027a10ac5cfa3870e64f7a0831297f9352",
+ "manifest": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/manifest-rilascio.json",
+ "snapshot_manifest": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/snapshot-finale.json",
+ "snapshot_sha256": "192309df7472efee19155003f2f11f539e1485a1b4517409ddb1c0b2ff260534",
+ "verbale": "verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md",
+ "verbale_sha256": "f96814ea83df45089c2f7cc8c99e8c8d4336cfde69d32433f9d5cc5f40ae229c",
+ "nota": "VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud.",
+ "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+ "procedura_vc": "VC-NTC/7",
+ "master_non_pertinente": "Registro generale ../_registro-verifica-conformita.csv fuori dal repository, non raggiungibile dalla sessione cloud (CLAUDE.md, sezione Sessione cloud).",
+ "modifiche": [
+  {
+   "path": "README.md",
+   "prima": "## Procedura operativa unica\n\n",
+   "dopo": "## Procedura operativa unica\n\n**§ 8.5 con C8.5, registrato VC-OK, {{data}}:** {{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md). Firma: CC cloud.\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "TODO.md",
+   "prima": "# NTC 2018 — Stato lavori e istruzioni operative\n\n",
+   "dopo": "# NTC 2018 — Stato lavori e istruzioni operative\n\n## Completato {{data}} - VC del § 8.5 con C8.5, CC cloud\n\n{{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "CHANGELOG.md",
+   "prima": "# Changelog - NTC 2018\n\n",
+   "dopo": "# Changelog - NTC 2018\n\n## {{data}} - VC-OK del § 8.5 con C8.5, CC cloud\n\n- Presa in carico su autorizzazione di Sandro («vai con l'8.5»): sei file, NTC pp. 296-297 e Circolare pp. 257-269.\n- G2-G4 di C: lista L1-L14 approvata da Sandro («ok tutto»); corretto il valore q = 1,75 αu/α1 nel C8.5.5.1, che il file dava 3,0.\n- G6 integrale in quattro blocchi, V Opus a contesto nuovo, inventari fonte-prima congelati prima della rivelazione; prima rivelazione fallita per file di lavoro nei blocchi, rifatta su destinazione nuova con input identici. Valori, formule e celle conformi; 27 rilievi di forma.\n- Decisioni di Sandro: ripristinati capoversi ed enfasi della fonte, rubriche della Circolare senza punto e in maiuscolo, greche e X media come simboli, un solo trattino nella colonna fv0. Lista di 192 voci generata e applicata da script, indici interni rigenerati.\n- Controllo delle modifiche dei quattro V OK dopo un primo pacchetto confezionato male da C; G7 OK al secondo tentativo, dopo un KO documentale.\n- {{nota}} [Verbale](verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  },
+  {
+   "path": "indice-ntc2018.md",
+   "prima": "**§ 8.4 con C8.4, VC-OK registrato il",
+   "dopo": "**§ 8.5 con C8.5, VC-OK registrato il {{data}}:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.5.md), [dossier](./verifica-conformita/vc-ntc2018-8.5-2026-10-14/).\r\n\r\n**§ 8.4 con C8.4, VC-OK registrato il"
+  },
+  {
+   "path": "verifica-conformita/scheda-scope-ntc2018-8.5.md",
+   "prima": "## G6 giro 1, 2026-10-14",
+   "dopo": "## Chiusura {{data}}, CC cloud\n\n{{nota}} [Verbale](./verbale-VC-ntc2018-8.5-2026-10-14.md), [G7](./vc-ntc2018-8.5-2026-10-14/G7.json), [manifest](./vc-ntc2018-8.5-2026-10-14/manifest-rilascio.json).\n\nProssima azione: {{prossima_azione}}\n\n## G6 giro 1, 2026-10-14"
+  },
+  {
+   "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+   "prima": "# Revisione Capitolo 8 - Costruzioni esistenti\n\n",
+   "dopo": "# Revisione Capitolo 8 - Costruzioni esistenti\n\n## {{data}} - VC-OK del § 8.5 con C8.5\n\n{{nota}} [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).\n\nProssima azione: {{prossima_azione}}\n\n"
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 ---
 scope_id: ntc2018-8.5
-stato: IN-CORSO
+stato: CHIUSO
 agente: CCC
 macchina: claude.ai/code (sessione cloud)
 presa_in_carico: 2026-10-14T14:00:15+00:00
@@ -18,9 +18,9 @@ snapshot_sha256: 192309df7472efee19155003f2f11f539e1485a1b4517409ddb1c0b2ff26053
 giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: DA_FARE}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: OK}
 attesa_decisione: []
-prossimo_passo: "G7 di V sul manifest di rilascio"
+prossimo_passo: "Nessuna sul file: VC conclusa sullo snapshot registrato."
 routing_effettivo:
   C: {agente: "CC cloud (CCC)", modello: claude-opus-5-5}
   preparazione: "script di strumenti/"
@@ -51,6 +51,12 @@ Lista per Sandro: `vc-ntc2018-8.5-2026-10-14/lista-correzioni-c.json`, L1-L14 e 
 Decisione di Sandro sulla lista `lista-correzioni-c.json`: «ok tutto», cioè L1-L14 approvate e, per D1, sottolineatura non riprodotta. Correzioni applicate con script; controllo meccanico: annullando le 14 sostituzioni i tre file cambiati tornano identici a quelli di partenza, quindi nessuna modifica estranea (`diff-correzioni.diff`, `snapshot-prima-dopo.json`). File cambiati: 8.5.3 (due didascalie), 8.5.4 (quattro didascalie, testate di C8.5.V e C8.5.VI, frase ripetuta, «E’»), 8.5.5 (q = 1,75, «in cui», virgola, capoverso).
 
 G5: testo unico ricomposto (370 righe depurate; confini dei blocchi invariati, b04 fino alla riga 370) e reso con `render-capitolo.py`: 20 pagine, nessun tag tondo, nessuna didascalia automatica; controllo visivo delle pagine con le tabelle e con C8.5.5.1. Lo snapshot corrente è quello consegnato al G6.
+
+## Chiusura 2026-10-14, CC cloud
+
+VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud. [Verbale](./verbale-VC-ntc2018-8.5-2026-10-14.md), [G7](./vc-ntc2018-8.5-2026-10-14/G7.json), [manifest](./vc-ntc2018-8.5-2026-10-14/manifest-rilascio.json).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
 
 ## G6 giro 1, 2026-10-14
 
