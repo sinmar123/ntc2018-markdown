@@ -207,6 +207,11 @@
       "sha256": "9e05e266a781814169551c8b46a915793e0ffa8ee4ae59bed27f7fbd647f60b2"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/lista-snapshot.json",
+      "bytes": 256,
+      "sha256": "a03e7655c1404bbcc4f8b05b882c669589c6ecfb7c8749152e77cfb0459b13b7"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/modifiche/attestazione-v-modifiche.json",
       "bytes": 3439,
       "sha256": "33968f7c1ecab89d1e9646983f9b31d0be10e104ac163631cdb9be0b3a3441a6"
@@ -255,6 +260,11 @@
       "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/procedura-congelata.md",
       "bytes": 42688,
       "sha256": "01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e67"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/snapshot-finale.json",
+      "bytes": 811,
+      "sha256": "70dbe9d6fcc8a18704c4dc50c5d4f87a149a735d872c3fde55b29740363813ec"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.4-2026-10-14/snapshot-prima-dopo.json",

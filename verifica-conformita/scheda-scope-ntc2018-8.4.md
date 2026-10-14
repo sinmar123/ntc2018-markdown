@@ -113,3 +113,5 @@ Snapshot finale dei 4 file: `snapshot-finale.json`, SHA-256 `70dbe9d6fcc8a18704c
 
 G7 primo tentativo, 2026-10-14: `KO` documentale (`G7-r01-KO.json`): manifest senza la resa finale, scheda non aggiornata, verbale assente; testo conforme. Rimedi: resa finale nel dossier e nel manifest, rigenerato con 52 file (`manifest-rilascio.json`; il precedente da 40 file resta come `manifest-rilascio-r01.json`), questa sezione della scheda e il verbale. Lotto ripresentato a V per la sola riconciliazione.
 
+G7 secondo tentativo, 2026-10-14: `OK` sul manifest da 52 file (`G7-r02.json`), con un'osservazione sulla dicitura «Correzioni (C)» del verbale. Il piano di `registra` ha poi richiesto lo snapshot finale dentro il manifest: manifest rigenerato con 54 file (il precedente resta `manifest-rilascio-r02.json`) e verbale aggiornato di conseguenza, con la dicitura corretta in «Correzioni di ERR-MD (nessuna AF-COR)». Lotto ripresentato a V per la riconciliazione finale.
+

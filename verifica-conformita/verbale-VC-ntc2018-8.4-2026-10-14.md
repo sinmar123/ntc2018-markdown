@@ -34,7 +34,7 @@ Ricognizione piena del **2026-10-13** ([ricognizione](vc-ntc2018-3.3-ancore-bloc
 - **Riscontro di C:** codifica dei PDF e ritagli a 600 dpi ([ritagli](vc-ntc2018-8.4-2026-10-14/c/)) confermano i rilievi; nel § 8.4.3 il punto dopo «a)» è in tondo, diversamente dalla prima lettura di V.
 - **Decisione di Sandro** (2026-10-14, «ok vai») e correzioni L1-L4 applicate con script; diff di 4 righe, nessuna estranea ([lista](vc-ntc2018-8.4-2026-10-14/lista-correzioni.json), [diff](vc-ntc2018-8.4-2026-10-14/diff-correzioni.diff)).
 - **Controllo delle modifiche (§ 8):** stesso V, esito OK sui 5 rilievi; conferma il punto in tondo dopo «a)». [Attestazione](vc-ntc2018-8.4-2026-10-14/modifiche/attestazione-v-modifiche.json).
-- **G7:** primo tentativo `KO` documentale ([G7 r01](vc-ntc2018-8.4-2026-10-14/G7-r01-KO.json)): resa finale fuori dal manifest, scheda non aggiornata, verbale mancante. Rimediati con questo lotto; il giudizio finale è nel file `G7.json` del dossier.
+- **G7:** primo tentativo `KO` documentale ([G7 r01](vc-ntc2018-8.4-2026-10-14/G7-r01-KO.json)): resa finale fuori dal manifest, scheda non aggiornata, verbale mancante. Rimediati; il secondo G7 (`G7-r02.json`) è OK ma si riferisce al manifest r02, al quale `registra` ha chiesto di aggiungere lo snapshot finale. Il giudizio finale sul manifest definitivo è nel file `G7.json` del dossier.
 
 Copertura: il G6 integrale del giro 2 copre tutto il testo dello snapshot precedente alle correzioni L1-L4, comprese le correzioni R1-R7 del 2026-10-01; le quattro righe cambiate dopo il G6 sono coperte dal controllo delle modifiche.
 
@@ -43,11 +43,11 @@ Copertura: il G6 integrale del giro 2 copre tutto il testo dello snapshot preced
 - Normalizzazioni del catalogo applicate: voci 1, 2, 3, 4 e 11.
 - Anomalie della fonte conservate (A): «0,6 ,» e «≥ 0,80 .» con lo spazio prima del segno nella NTC; «§8.3» e «§8.4.3» senza spazio; «D.M. 14. gennaio 2008»; doppi spazi «di  classe» e «previste  per» nella Circolare; nota 2 senza punto finale.
 - Anomalia tipografica della fonte non riprodotta, per decisione di Sandro (D1): nella Circolare, pp. 256-257, alcuni pedici E di ζE, un punto e una virgola sono stampati in grassetto. Non cambia né la grandezza né il segno.
-- Correzioni (C) di questo scope: L1 nota 2 senza punto finale; L2 corsivo delle tre categorie in C8.4; L3 corsivo delle lettere b, c, d, e in C8.4.3; L4 corsivo di «a)» nel § 8.4.3.
+- Correzioni di ERR-MD di questo scope (nessuna AF-COR): L1 nota 2 senza punto finale, che conserva l'anomalia A della fonte; L2 corsivo delle tre categorie in C8.4; L3 corsivo delle lettere b, c, d, e in C8.4.3; L4 corsivo di «a)» nel § 8.4.3.
 
 ## Manifest e catena degli hash
 
-Manifest di rilascio: 52 file, SHA-256 `df2412c17c0168ee5fc3d3aca0f8f6e0873a0baff8774b364a7dae0e0db6c4a9` ([manifest](vc-ntc2018-8.4-2026-10-14/manifest-rilascio.json)), con fonti, target, procedura e catalogo congelati, G1, pacchetto e rapporto G6, ritagli, lista, diff, attestazione e resa finale. Il manifest precedente da 40 file, senza resa finale, resta come `manifest-rilascio-r01.json`. G7 e registrazioni chiudono la catena dall'esterno.
+Manifest di rilascio: 54 file, SHA-256 `493db21b3ee848afa041b3d4b2adbd915b4705194223851f2f791318120c8b0d` ([manifest](vc-ntc2018-8.4-2026-10-14/manifest-rilascio.json)), con fonti, target, procedura e catalogo congelati, G1, pacchetto e rapporto G6, ritagli, lista, diff, attestazione, resa finale e snapshot finale. Manifest superati, conservati: `manifest-rilascio-r01.json` (40 file, senza resa finale) e `manifest-rilascio-r02.json` (52 file, senza lo snapshot finale, richiesto da `registra`). G7 e registrazioni chiudono la catena dall'esterno.
 
 ## Esecutori e limiti
 
