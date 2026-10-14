@@ -1,0 +1,54 @@
+diff --git a/cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md b/cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md
+index 200823e..11eab3c 100644
+--- a/cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md
++++ b/cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md
+@@ -36 +36 @@ La muratura in una costruzione esistente è il risultato dell’assemblaggio di
+-**Tabella C8.5.I - Valori di riferimento dei parametri meccanici della muratura, da usarsi nei criteri di resistenza di seguito specificati (comportamento a tempi brevi), e peso specifico medio per diverse tipologie di muratura.**
++**Tabella C8.5.I** - *Valori di riferimento dei parametri meccanici della muratura, da usarsi nei criteri di resistenza di seguito specificati (comportamento a tempi brevi), e peso specifico medio per diverse tipologie di muratura.*
+@@ -73 +73 @@ I muri realizzati con due paramenti semplicemente accostati o con riempimenti 
+-**Tabella C8.5.II - Coefficienti correttivi massimi da applicarsi in presenza di: malta di caratteristiche buone; ricorsi o listature; sistematiche connessioni trasversali; consolidamento con iniezioni di malta; consolidamento con intonaco armato; ristilatura armata con connessione dei paramenti.**
++**Tabella C8.5.II** - *Coefficienti correttivi massimi da applicarsi in presenza di: malta di caratteristiche buone; ricorsi o listature; sistematiche connessioni trasversali; consolidamento con iniezioni di malta; consolidamento con intonaco armato; ristilatura armata con connessione dei paramenti.*
+diff --git a/cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md b/cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md
+index c700e6a..50ad62d 100644
+--- a/cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md
++++ b/cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md
+@@ -85 +85 @@ dove X̄ è la media delle n prove dirette e κ è un coefficiente che tiene con
+-**Tabella C.8.5.III - Valori del coefficiente $\kappa$ suggeriti per l'aggiornamento del valore medio dei parametri meccanici, secondo l'equazione [C8.5.4.3], con riferimento ai più diffusi metodi di indagine diretta sulle proprietà meccaniche della muratura.**
++**Tabella C.8.5.III** - *Valori del coefficiente $\kappa$ suggeriti per l'aggiornamento del valore medio dei parametri meccanici, secondo l'equazione [C8.5.4.3], con riferimento ai più diffusi metodi di indagine diretta sulle proprietà meccaniche della muratura.*
+@@ -109 +109 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
+-**Tabella C8.5.IV - Livelli di conoscenza in funzione dell'informazione disponibile e conseguenti metodi di analisi ammessi e valori dei fattori di confidenza, per edifici in calcestruzzo armato o in acciaio**
++**Tabella C8.5.IV** - *Livelli di conoscenza in funzione dell'informazione disponibile e conseguenti metodi di analisi ammessi e valori dei fattori di confidenza, per edifici in calcestruzzo armato o in acciaio*
+@@ -118,0 +119,2 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
++La quantità e il tipo di informazioni richieste per conseguire uno dei tre livelli di conoscenza previsti, sono, a titolo esclusivamente orientativo, ulteriormente precisati nel seguito.
++
+@@ -125 +127 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
+-**Tabella C8.5.V - Definizione orientativa dei livelli di rilievo e prova per edifici di c.a.**
++**Tabella C8.5.V** - *Definizione orientativa dei livelli di rilievo e prova per edifici di c.a.*
+@@ -127 +129 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
+-| Livello di Indagini e Prove | Rilievo (dei dettagli costruttivi) (a) - per ogni elemento "primario" (trave, pilastro) | Prove (sui materiali) (b)(c)(d) - per ogni elemento "primario" (trave, pilastro) |
++| Livello di Indagini e Prove | Rilievo (dei dettagli costruttivi) (a) | Prove (sui materiali) (b)(c)(d) |
+@@ -128,0 +131 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
++| | Per ogni elemento "primario" (trave, pilastro) | |
+@@ -133 +136 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
+-**Tabella C8.5.VI - Definizione orientativa dei livelli di rilievo e prova per edifici di acciaio**
++**Tabella C8.5.VI** - *Definizione orientativa dei livelli di rilievo e prova per edifici di acciaio*
+@@ -135 +138 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
+-| Livello di Indagini e Prove | Rilievo (dei collegamenti) (a) - per ogni elemento "primario" (trave, pilastro...) | Prove (sui materiali) (b)(c)(d) - per ogni elemento "primario" (trave, pilastro...) |
++| Livello di Indagini e Prove | Rilievo (dei collegamenti) (a) | Prove (sui materiali) (b)(c)(d) |
+@@ -136,0 +140 @@ I fattori di confidenza, determinati in funzione del livello di conoscenza acqui
++| | Per ogni elemento "primario" (trave, pilastro...) | |
+@@ -156 +160 @@ Le percentuali di elementi da indagare ed il numero di provini da estrarre e sot
+-Per le costruzioni di legno, fermo restando quanto indicato nel § 8.5 delle NTC, stante la possibile variabilità del materiale soprattutto nel costruito storico, è opportuno estendere, ove possibile ed in relazione ai livelli di conoscenza che si intende raggiungere, l’indagine ai singoli elementi, soprattutto per valutare il degrado biotico e abiotico. È inoltre opportuno verificare le condizioni delle estremità delle membrature (o di struttura lignea), in particolare quando a contatto con altro materiale.
++Per le costruzioni di legno, fermo restando quanto indicato nel § 8.5 delle NTC, stante la possibile variabilità del materiale soprattutto nel costruito storico, è opportuno estendere, ove possibile ed in relazione ai livelli di conoscenza che si intende raggiungere, l’indagine ai singoli elementi, soprattutto per valutare il degrado biotico e abiotico. E’ inoltre opportuno verificare le condizioni delle estremità delle membrature (o di struttura lignea), in particolare quando a contatto con altro materiale.
+diff --git a/cap08/8.5.5-modello-riferimento-analisi-azioni.md b/cap08/8.5.5-modello-riferimento-analisi-azioni.md
+index 56f5a64..d812725 100644
+--- a/cap08/8.5.5-modello-riferimento-analisi-azioni.md
++++ b/cap08/8.5.5-modello-riferimento-analisi-azioni.md
+@@ -38 +38 @@ Per la verifica di edifici con analisi lineare e impiego del fattore q, si posso
+-- $q=3{,}0\alpha_u/\alpha_1$ per edifici regolari in elevazione, nel caso di muratura in blocchi artificiali con percentuale di foratura >15% (elementi semipieni, forati...).
++- $q=1{,}75\alpha_u/\alpha_1$ per edifici regolari in elevazione, nel caso di muratura in blocchi artificiali con percentuale di foratura >15% (elementi semipieni, forati...).
+@@ -40 +40,3 @@ Per la verifica di edifici con analisi lineare e impiego del fattore q, si posso
+-In cui $\alpha_u$ e $\alpha_1$ sono definiti al § 7.8.1.3 delle NTC. In assenza di più precise valutazioni non può essere assunto un rapporto $\alpha_u/\alpha_1$ superiore a 1,5. Nel caso di edificio non regolare in elevazione i valori di $q$ sono ridotti del 25%. La definizione di regolarità per un edificio esistente in muratura è quella indicata al § 7.2.1 delle NTC.
++in cui $\alpha_u$ e $\alpha_1$ sono definiti al § 7.8.1.3 delle NTC. In assenza di più precise valutazioni, non può essere assunto un rapporto $\alpha_u/\alpha_1$ superiore a 1,5.
++
++Nel caso di edificio non regolare in elevazione i valori di $q$ sono ridotti del 25%. La definizione di regolarità per un edificio esistente in muratura è quella indicata al § 7.2.1 delle NTC.

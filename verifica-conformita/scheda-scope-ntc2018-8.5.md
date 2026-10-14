@@ -17,10 +17,10 @@ snapshot_iniziale_sha256: 518675848c7fd227c06191a33a17f81ea070be081a899777a1707f
 snapshot_sha256: da-congelare
 giro_g6: 0
 max_giri: 3
-rilievi_aperti: 14
-gate: {G0: OK, G1: OK, G2: DA_DECIDERE, G3: DA_DECIDERE, G4: DA_DECIDERE, G5: DA_FARE, G6: DA_FARE, G7: DA_FARE}
-attesa_decisione: [L1-L14, D1]
-prossimo_passo: "Attendere la decisione di Sandro su lista-correzioni-c.json. Non correggere."
+rilievi_aperti: 0
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: DA_FARE, G7: DA_FARE}
+attesa_decisione: []
+prossimo_passo: "G6 integrale in quattro blocchi, verificatori Opus a contesto nuovo"
 routing_effettivo:
   C: {agente: "CC cloud (CCC)", modello: claude-opus-5-5}
   preparazione: "script di strumenti/"
@@ -45,4 +45,10 @@ G2-G3: confronto parola per parola dell'intero testo con il testo del PDF; i res
 G4: sei tabelle confrontate cella per cella con le tabelle estratte dal PDF (numeri e parole): C8.5.II, C.8.5.III, C8.5.IV e C8.5.VI numericamente identiche; C8.5.I identica salvo «13 ÷ 16», cella accorpata ripetuta secondo la voce 6 del catalogo; C8.5.V identica salvo gli esponenti di m². Formule [C8.5.4.1]-[C8.5.4.3] riscontrate sulla pagina. Rilievi: testate di C8.5.V e C8.5.VI e corsivo dei titoli delle sei tabelle.
 
 Lista per Sandro: `vc-ntc2018-8.5-2026-10-14/lista-correzioni-c.json`, L1-L14 e D1, con ritagli a 600 dpi in `c/`. Il rilievo L1 cambia un valore: nel C8.5.5.1 la fonte dà q = 1,75 αu/α1, il file 3,0.
+
+## Decisione di Sandro, correzioni e G5, 2026-10-14
+
+Decisione di Sandro sulla lista `lista-correzioni-c.json`: «ok tutto», cioè L1-L14 approvate e, per D1, sottolineatura non riprodotta. Correzioni applicate con script; controllo meccanico: annullando le 14 sostituzioni i tre file cambiati tornano identici a quelli di partenza, quindi nessuna modifica estranea (`diff-correzioni.diff`, `snapshot-prima-dopo.json`). File cambiati: 8.5.3 (due didascalie), 8.5.4 (quattro didascalie, testate di C8.5.V e C8.5.VI, frase ripetuta, «E’»), 8.5.5 (q = 1,75, «in cui», virgola, capoverso).
+
+G5: testo unico ricomposto (370 righe depurate; confini dei blocchi invariati, b04 fino alla riga 370) e reso con `render-capitolo.py`: 20 pagine, nessun tag tondo, nessuna didascalia automatica; controllo visivo delle pagine con le tabelle e con C8.5.5.1. Lo snapshot corrente è quello consegnato al G6.
 
