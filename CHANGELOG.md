@@ -1,5 +1,16 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - VC-OK del § 8.5 con C8.5, CC cloud
+
+- Presa in carico su autorizzazione di Sandro («vai con l'8.5»): sei file, NTC pp. 296-297 e Circolare pp. 257-269.
+- G2-G4 di C: lista L1-L14 approvata da Sandro («ok tutto»); corretto il valore q = 1,75 αu/α1 nel C8.5.5.1, che il file dava 3,0.
+- G6 integrale in quattro blocchi, V Opus a contesto nuovo, inventari fonte-prima congelati prima della rivelazione; prima rivelazione fallita per file di lavoro nei blocchi, rifatta su destinazione nuova con input identici. Valori, formule e celle conformi; 27 rilievi di forma.
+- Decisioni di Sandro: ripristinati capoversi ed enfasi della fonte, rubriche della Circolare senza punto e in maiuscolo, greche e X media come simboli, un solo trattino nella colonna fv0. Lista di 192 voci generata e applicata da script, indici interni rigenerati.
+- Controllo delle modifiche dei quattro V OK dopo un primo pacchetto confezionato male da C; G7 OK al secondo tentativo, dopo un KO documentale.
+- VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-14 - VC-OK del § 8.4 con C8.4, CC cloud
 
 - Subentro di CC cloud a NormaNTC18 (OC) su ordine di Sandro del 2026-10-14. Il rapporto del G6 giro 1 di OC (7 rilievi) stava fuori dal repository: su decisione di Sandro G6 integrale rifatto come giro 2.

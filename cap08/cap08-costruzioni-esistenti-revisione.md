@@ -1,5 +1,11 @@
 # Revisione Capitolo 8 - Costruzioni esistenti
 
+## 2026-10-14 - VC-OK del § 8.5 con C8.5
+
+VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-14 - VC-OK del § 8.4 con C8.4
 
 VC-OK del § 8.4 con C8.4, quattro file: G6 integrale giro 2 di V Opus a contesto nuovo, 72 elementi, 5 rilievi di forma decisi da Sandro e corretti (nota 2 senza punto finale, tre corsivi della fonte, grassetto non riprodotto); controllo delle modifiche e G7 di V OK; vigenza 2026-10-13, ricontrollo 2026-10-14; CC cloud, subentrato a NormaNTC18 (OC). [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.4-2026-10-14.md).

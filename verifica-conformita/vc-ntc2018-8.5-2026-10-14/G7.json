@@ -1,0 +1,54 @@
+{
+ "firma": "V b01, subagente Claude Opus a contesto nuovo, CC cloud",
+ "data": "2026-10-14",
+ "giudizio_g7": "OK",
+ "scope": "8.5",
+ "righe_registro": [
+  "8.5",
+  "8.5.1",
+  "8.5.2",
+  "8.5.3",
+  "8.5.4",
+  "8.5.5"
+ ],
+ "snapshot_sha256": "192309df7472efee19155003f2f11f539e1485a1b4517409ddb1c0b2ff260534",
+ "manifest_sha256": "db646476300fe4f4f4e8202197ad316ecbc9a6b5d2a2c78ffdb9efb45c2690bd",
+ "verbale_sha256": "f96814ea83df45089c2f7cc8c99e8c8d4336cfde69d32433f9d5cc5f40ae229c",
+ "manifest_verifica": {
+  "manifest-rilascio.json": {
+   "files": 129,
+   "integrita": "OK"
+  },
+  "manifest-rilascio-r01.json": {
+   "files": 125,
+   "integrita": "OK"
+  },
+  "snapshot-finale.json": {
+   "files": 6,
+   "integrita": "OK"
+  },
+  "comando": "python3 strumenti/vc-supporto.py verifica-manifest . <file>"
+ },
+ "gate": {
+  "G0": "OK",
+  "G1": "OK",
+  "G2": "OK",
+  "G3": "OK",
+  "G4": "OK",
+  "G5": "OK",
+  "G6": "OK",
+  "G7": "OK"
+ },
+ "rilievi_aperti": [],
+ "riconciliazione": {
+  "manifest": "Il nuovo manifest ha 129 file ed è integro. Rispetto a manifest-rilascio-r01.json (c1346a54…, 125 file, integro e conservato) aggiunge soltanto quattro file: G7-r01-KO.json, manifest-rilascio-r01.json, modifiche-r01-pacchetto-errato/resa-dopo.pdf e modifiche-r01-pacchetto-errato/target-scope-dopo.md. Nessun file tolto e nessuna impronta cambiata.",
+  "G7_r01": "G7-r01-KO.json (3724330e…) è identico byte per byte al giudizio KO che ho firmato.",
+  "G7-R1": "Chiuso. Verbale e scheda dicono ora che il primo pacchetto l'hanno segnalato tutti e quattro i V: b01, b02 e b03 come ERR-AUDIT residuo, b04 come osservazione non bloccante. È quello che risulta dalle quattro attestazioni conservate.",
+  "G7-R2": "Chiuso. La resa bee19c2f… citata da controllo-script.json è ora nel manifest (modifiche-r01-pacchetto-errato/resa-dopo.pdf), insieme al suo target-scope-dopo.md, che coincide con quello del primo pacchetto. Il verbale, al punto G5, spiega le due rese: c5c8ca4b… (Norma prima) è la resa finale controllata dai V, bee19c2f… (file per file) è conservata. controllo-script.json è invariato.",
+  "verbale": "f96814ea…. Nel commit 06a021c cambiano solo le voci G5, controllo delle modifiche, G7 e manifest, tutte coerenti con le evidenze. Snapshot, tabella delle impronte, perimetro, decisioni e normalizzazioni restano invariati.",
+  "scheda": "Cambia solo il capoverso sul controllo delle modifiche, più un capoverso sul G7 r01; front matter invariato (G7: DA_FARE fino alle registrazioni).",
+  "resto": "Snapshot finale invariato e uguale ai sei file vivi; il commit 06a021c non tocca cap08. Lista, controllo delle modifiche, chiusura dei rilievi G6 e rispetto delle decisioni D1-D7: come accertato nel G7 r01, senza variazioni."
+ },
+ "motivazione_sintetica": "I due rilievi documentali del G7 r01 sono rimediati in verbale, scheda e manifest, senza toccare corpus, snapshot o altre evidenze. Il manifest nuovo aggiunge soltanto quattro file ed è integro. Zero rilievi aperti, G0-G7 OK.",
+ "limiti": "Riconciliazione sui file cambiati dopo il G7 r01 e sulle impronte, appoggiata ai controlli integrali del G7 r01. Non ho riletto le fonti né la resa. Ho scritto solo questo file; non ho modificato nient'altro nel repository."
+}

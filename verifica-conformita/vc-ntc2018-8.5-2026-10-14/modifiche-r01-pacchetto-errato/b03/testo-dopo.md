@@ -1,0 +1,125 @@
+In tal caso non si applicano i coefficienti relativi alla connessione trasversale della muratura non consolidata e alla ristilatura armata. Si rileva che il consolidamento con intonaco armato non ha alcuna efficacia in assenza di sistematiche connessioni trasversali e la sua efficacia è ridotta quando realizzato su un solo paramento.
+
+Nell’adozione degli eventuali coefficienti migliorativi si deve tenere conto delle caratteristiche delle malte utilizzate (cementizie o a calce) e delle armature (metalliche o in fibra). Infine, si segnala la necessità di una preventiva verifica che il paramento non evidenzi un’eccessiva disgregazione o presenza di vuoti, tale da rendere inefficace l’accoppiamento con l’intonaco armato; in questi casi è opportuno accoppiare l’intervento con iniezioni.
+
+***Consolidamento con diatoni artificiali o tirantini antiespulsivi***
+
+Nel caso dell’inserimento di diatoni artificiali dotati di una significativa rigidezza a taglio e sufficientemente diffusi, si può applicare a tutti i parametri di resistenza il coefficiente indicato per le murature originariamente dotate di una buona connessione trasversale; gli elementi di connessione a trazione (tirantini) hanno un effetto significativo solo per la resistenza a compressione (f).
+
+***Consolidamento con ristilatura armata e connessione dei paramenti***
+
+Il coefficiente indicato in tabella, diversificato per le varie tipologie murarie, può essere applicato ai valori sia dei parametri di resistenza ($f$, $\tau_0$ e $f_{v0}$), sia dei moduli elastici ($E$, $G$), in quest’ultimo caso in misura ridotta del 50%.
+
+Questa tecnica (con i relativi coefficienti migliorativi) può essere applicata anche sostituendo, su uno dei paramenti, la ristilatura armata con un intonaco armato di limitato spessore, realizzato con malta a base calce, purché siano posti in opera gli elementi di connessione trasversale.
+
+I valori sopra indicati in tabella per il consolidamento delle murature devono essere considerati essenzialmente un riferimento, in assenza di specifiche valutazioni sui valori da adottare per il caso in esame; nel caso di tecniche diverse da quelle indicate nella tabella, i valori riportati costituiscono un utile riferimento.
+
+Nel caso di uso combinato di diverse tecniche di consolidamento, i coefficienti possono essere applicati in forma moltiplicativa; il valore del coefficiente complessivo non può superare il coefficiente massimo indicato nell’ultima colonna della tabella.
+
+Nella caratterizzazione meccanica dei materiali si possono distinguere, in relazione al loro grado di approfondimento, tre livelli di prova.
+
+***Prove limitate:*** Si tratta di indagini non dettagliate e non estese, basate principalmente su esami visivi delle superfici, che prevedono limitati controlli degli elementi costituenti la muratura. Sono previste rimozioni locali dell’intonaco per identificare i materiali di cui è costituito l’edificio; in particolare, avvalendosi anche dell’analisi storico-critica, è possibile suddividere le pareti murarie in aree considerabili come omogenee. Scopo delle indagini è consentire l’identificazione delle tipologie di muratura alla quale fare riferimento ai fini della determinazione delle proprietà meccaniche; questo prevede il rilievo della tessitura muraria dei paramenti ed una stima della sezione muraria. 
+
+***Prove estese:*** Si tratta di indagini visive, diffuse e sistematiche, accompagnate da approfondimenti locali. Si prevedono saggi estesi, sia in superficie sia nello spessore murario (anche con endoscopie), mirati alla conoscenza dei materiali e della morfologia interna della muratura, all’individuazione delle zone omogenee per materiali e tessitura muraria, dei dispositivi di collegamento trasversale, oltre che dei fenomeni di degrado. È inoltre prevista l’esecuzione di analisi delle malte e, se significative, degli elementi costituenti, accompagnate da tecniche diagnostiche non distruttive (penetrometriche, sclerometriche, soniche, termografiche, radar, ecc.) ed eventualmente integrate da tecniche moderatamente distruttive (ad esempio martinetti piatti), finalizzate a classificare in modo più accurato la tipologia muraria e la sua qualità. 
+
+***Prove esaustive:*** In aggiunta alle richieste della categoria precedente, si prevedono prove dirette sui materiali per determinarne i parametri meccanici. Il progettista ne stabilisce tipologia e quantità in base alle esigenze di conoscenza della struttura. Le prove devono essere eseguite o in situ o in laboratorio su elementi indisturbati prelevati in situ; esse possono comprendere, se significative: prove di compressione (ad esempio: su pannelli o tramite martinetti piatti doppi); prove di taglio (ad esempio: compressione e taglio, compressione diagonale, taglio diretto sul giunto), selezionate in relazione alla tipologia muraria e al criterio di resistenza adottato per l’analisi. Le prove devono essere eseguite su tutte le tipologie murarie o comunque su quelle relative agli elementi che, dall’analisi di sensibilità basata sui dati preliminari (§ C8.5), sono risultati significativi per la valutazione della sicurezza. I valori per le verifiche saranno ottenuti, a partire dai valori medi presenti nella Tabella C8.5.I, utilizzando misure sperimentali dirette sull’edificio, tenendo conto dell’attendibilità del metodo di prova. In sostituzione, possono essere considerati i risultati di prove eseguite su altre costruzioni della stessa zona, in presenza di chiara e comprovata corrispondenza tipologica per materiali e morfologia.
+
+A seguito delle indagini, è necessario valutare, per ogni prova, il grado di rappresentatività sia della classe tipologica attribuita al materiale, sia dei valori medi delle caratteristiche meccaniche dell’edificio da utilizzare nelle modellazioni.
+
+A questo scopo possono essere utili metodi che, avvalendosi della lettura visiva dei paramenti e della sezione, consentano di ottenere delle stime di tali caratteristiche attraverso indicatori di qualità muraria, purché elaborati con procedure di comprovata attendibilità.
+
+Nelle costruzioni con struttura muraria occorre considerare anche la presenza di elementi realizzati con altri materiali (strutture lignee, solai in c.a., tiranti d’acciaio ecc.), da indagarsi con le metodologie indicate negli specifici Capitoli.
+
+Nei casi, previsti dalle NTC, in cui sia necessario eseguire indagini sulle fondazioni, queste saranno volte a determinarne morfologia, profondità e materiali costituenti, a prescindere dai gradi di approfondimento sopra riportati.
+
+#### C8.5.3.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO
+
+I valori delle caratteristiche meccaniche dei materiali prescindono dalle classi discretizzate previste nelle NTC.
+
+Per definire le caratteristiche meccaniche dei materiali è possibile riferirsi anche alle norme dell’epoca della costruzione.
+
+***Calcestruzzo***: si fa riferimento alle Linee Guida per la valutazione delle caratteristiche del calcestruzzo in opera, del Consiglio Superiore dei Lavori Pubblici.
+
+***Acciaio***: la misura delle caratteristiche meccaniche si ottiene, in generale, mediante estrazione di campioni ed esecuzione di prove a trazione fino a rottura con determinazione della tensione di snervamento, della resistenza a rottura e dell’allungamento, salvo nel caso in cui siano disponibili certificati di prova conformi a quanto richiesto per le nuove costruzioni nella normativa dell’epoca di costruzione.
+
+***Unioni di elementi d’acciaio*:** la misura delle caratteristiche meccaniche si ottiene, ove possibile, mediante estrazione di campioni ed esecuzione di prove a trazione fino a rottura con determinazione delle caratteristiche meccaniche rilevanti, quali la tensione di snervamento, della resistenza a rottura e dell’allungamento.
+
+Sono ammessi metodi di indagine non distruttiva di documentata affidabilità, ad integrazione di quelli sopra descritti, purché i risultati siano tarati su quelli ottenuti con prove distruttive.
+
+Le prove sui materiali, in analogia a quanto definito per le indagini sui dettagli costruttivi, possono essere eseguite su un numero di elementi diverso, a seconda del livello di conoscenza che si vuole raggiungere.
+
+Si possono distinguere, in relazione al loro grado di approfondimento, tre livelli di prova.
+
+***Prove limitate*:** prevedono un numero limitato di prove in-situ o su campioni, impiegate per completare le informazioni sulle proprietà dei materiali, siano esse ottenute dalle normative in vigore all’epoca della costruzione, o dalle caratteristiche nominali riportate sui disegni costruttivi o nei certificati originali di prova.
+
+***Prove estese*:** prevedono prove in-situ o su campioni più numerose di quelle del caso precedente e finalizzate a fornire informazioni in assenza sia dei disegni costruttivi, sia dei certificati originali di prova o quando i valori ottenuti con le ***prove limitate*** risultino inferiori a quelli riportati nei disegni o sui certificati originali.
+
+***Prove esaustive*:** prevedono prove in-situ o su campioni più numerose di quelle del caso precedente e finalizzate a ottenere informazioni in mancanza sia dei disegni costruttivi, sia dei certificati originali di prova, o quando i valori ottenuti dalle ***prove, limitate o estese***, risultino inferiori a quelli riportati sui disegni o nei certificati originali, oppure nei casi in cui si desideri una conoscenza particolarmente accurata.
+
+Al fine di determinare in maniera opportuna il numero e la localizzazione delle prove sui materiali, è utile:
+
+- eseguire un numero limitato di indagini preliminari sugli elementi individuati come rappresentativi a seguito dell'analisi
+storico-critica, della documentazione disponibile e del rilievo geometrico, al fine di definire un modello preliminare della struttura;
+
+- eseguire un'analisi per la verifica preliminare della sicurezza statica e della vulnerabilità sismica, utilizzando i dettagli
+costruttivi valutati nel corso della campagna di indagini preliminari (§ C8.5.2.2).
+
+In base all’esito dell’analisi preliminare è valutata la necessità di approfondimenti della campagna di indagini in termini di numero e localizzazione, in relazione all’impegno statico delle diverse membrature, del loro ruolo riguardo alla sicurezza della struttura e del grado di omogeneità dei risultati delle prove preliminari, anche in relazione a quanto previsto dai documenti originari; il progetto delle prove ne fornisce la misura, consentendo così di graduare quantitativamente il livello di approfondimento.
+
+Per l’identificazione delle caratteristiche dei materiali, i dati raccolti devono includere le seguenti caratteristiche:
+
+- resistenza e, ove significativo, il modulo elastico E del calcestruzzo;
+
+- tensione di snervamento, resistenza a rottura e allungamento dell’acciaio.
+
+#### C8.5.3.3 COSTRUZIONI DI LEGNO
+
+L’esame degli elementi costruttivi prevede indagini volte alla conoscenza del materiale, in particolare nei riguardi della specie, dello stato di conservazione e delle caratteristiche meccaniche.
+
+Riguardo alla caratterizzazione del materiale, per l’identificazione della specie legnosa si può fare riferimento alla norma UNI 11118 e, per la valutazione dello stato di conservazione e del profilo resistente degli elementi in opera, alla norma UNI 11119. Date le incertezze delle conoscenze, qualora si ricorra a metodi indiretti di prova, è opportuno confrontare le misure ottenute con metodi diversi, tenendo presente che la variabilità dei singoli parametri è in genere ampia.
+
+Occorre identificare l’eventuale degrado materico di tipo biotico, anche in relazione alle condizioni ambientali di conservazione. Particolare attenzione deve quindi essere rivolta all'analisi del microclima nell'intorno di un elemento ligneo o di una sua parte che si è instaurato in particolari condizioni di posa in opera (ad esempio testate di travi e capriate inserite nella muratura o elementi nascosti da controsoffitti, elementi lignei che appoggiano in fondazione).
+
+Si possono distinguere, in relazione al loro grado di approfondimento, tre livelli di prova.
+
+***Prove limitate***: si tratta di indagini basate principalmente su esami visivi delle superfici, che comprendano almeno tre facce e una testata di ogni elemento dell’orditura primaria e secondaria e che prevedano limitati controlli degli elementi costruttivi e delle connessioni; sono previste rimozioni locali dello strato di protezione per procedere a una valutazione dello stato di conservazione, ad esempio in accordo alla norma UNI 11119.
+
+***Prove estese:*** si tratta di indagini visive diffuse sulle superfici degli elementi, accompagnate da alcuni controlli strumentali a supporto, nonché sulle condizioni dei collegamenti. Sono previste rimozioni locali dello strato di protezione per procedere a una valutazione dello stato di conservazione, ad esempio in accordo alla norma UNI 11119. Come controlli strumentali, sono almeno da prevedere alcuni controlli dell'umidità del materiale in zone specificatamente individuate come particolarmente sensibili.
+
+***Prove esaustive:*** si tratta di indagini visive diffuse e sistematiche, accompagnate da approfondimenti strumentali, eventualmente di tipo resistografico. Si prevedono analisi per l’identificazione della specie, la misura dell’umidità nel materiale e nelle zone di interfaccia con materiali diversi e l’analisi dei collegamenti, con valutazione dei fenomeni di degrado degli elementi di connessione. Tali analisi possono anche richiedere attività di laboratorio. È opportuno l’impiego di tecniche non distruttive o parzialmente invasive per valutare le caratteristiche meccaniche del materiale o individuare zone degradate al di sotto della superficie.
+
+# 8.5.4. LIVELLI DI CONOSCENZA E FATTORI DI CONFIDENZA
+
+Sulla base degli approfondimenti effettuati nelle fasi conoscitive sopra riportate, saranno individuati i “livelli di conoscenza” dei diversi parametri coinvolti nel modello e definiti i correlati fattori di confidenza, da utilizzare nelle verifiche di sicurezza.
+
+Ai fini della scelta del tipo di analisi e dei valori dei fattori di confidenza si distinguono i tre livelli di conoscenza seguenti, ordinati per informazione crescente:
+
+- LC1;
+
+- LC2;
+
+- LC3.
+
+Gli aspetti che definiscono i livelli di conoscenza sono: geometria della struttura, dettagli costruttivi, proprietà dei materiali, connessioni tra i diversi elementi e loro presumibili modalità di collasso.
+
+Specifica attenzione dovrà essere posta alla completa individuazione dei potenziali meccanismi di collasso locali e globali, duttili e fragili.
+
+### C8.5.4 LIVELLI DI CONOSCENZA E FATTORI DI CONFIDENZA
+
+I fattori di confidenza sono utilizzati per la riduzione dei valori dei parametri meccanici dei materiali e devono essere intesi come indicatori del livello di approfondimento raggiunto.
+
+Limitatamente al caso di verifiche in condizioni non sismiche di singoli componenti (ad esempio solai sui quali siano state condotte indagini particolarmente accurate) oppure di verifiche sismiche nei riguardi dei meccanismi locali, è possibile adottare livelli di conoscenza differenziati rispetto a quelli impiegati nelle verifiche sismiche globali.
+
+Di seguito, con riferimento alle specifiche contenute al § 8.5 delle NTC, è riportata una guida alla stima dei *Fattori di Confidenza* (**FC**), definiti con riferimento ai tre ***L****ivelli di* ***C****onoscenza* (**LC**)crescenti, secondo quanto segue.
+
+**LC1:** si intende raggiunto quando siano stati effettuati, come minimo, l’analisi storico-critica commisurata al livello considerato, con riferimento al § C8.5.1, il rilievo geometrico completo e ***indagini limitate*** sui dettagli costruttivi, con riferimento al § C8.5.2, ***prove limitate*** sulle caratteristiche meccaniche dei materiali, con riferimento al § C8.5.3; il corrispondente fattore di confidenza è **FC=1,35** (nel caso di costruzioni di acciaio, se il livello di conoscenza non è **LC2** solo a causa di una non estesa conoscenza sulle proprietà dei materiali, il fattore di confidenza può essere ridotto, giustificandolo con opportune considerazioni anche sulla base dell’epoca di costruzione);
+
+**LC2:** si intende raggiunto quando siano stati effettuati, come minimo, l’analisi storico-critica commisurata al livello considerato, con riferimento al § C8.5.1, il rilievo geometrico completo e ***indagini estese*** sui dettagli costruttivi, con riferimento al § C8.5.2, ***prove estese*** sulle caratteristiche meccaniche dei materiali, con riferimento al § C8.5.3; il corrispondente fattore di confidenza è **FC=1,2** (nel caso di costruzioni di acciaio, se il livello di conoscenza non è **LC3** solo a causa di una non esaustiva conoscenza sulle proprietà dei materiali, il fattore di confidenza può essere ridotto, giustificandolo con opportune considerazioni anche sulla base dell’epoca di costruzione);
+
+**LC3:** si intende raggiunto quando siano stati effettuati l’analisi storico-critica commisurata al livello considerato, come descritta al § C8.5.1, il rilievo geometrico, completo ed accurato in ogni sua parte, e ***indagini esaustive*** sui dettagli costruttivi, come descritto al § C8.5.2,***prove esaustive*** sulle caratteristiche meccaniche dei materiali, come indicato al § C8.5.3; il corrispondente fattore di confidenza è **FC=1** (da applicarsi limitatamente ai valori di quei parametri per i quali sono state eseguite le prove e le indagini su citate, mentre per gli altri parametri meccanici il valore di **FC** è definito coerentemente con le corrispondenti prove limitate o estese eseguite).
+
+Per raggiungere il livello di conoscenza **LC3**, la disponibilità di un rilievo geometrico completo e l’acquisizione di una conoscenza esaustiva dei dettagli costruttivi sono da considerarsi equivalenti alla disponibilità di documenti progettuali originali, comunque da verificare opportunamente nella loro completezza e rispondenza alla situazione reale.
+
+Ci si può riferire alla documentazione in atti, qualora per essa siano stati adempiuti gli obblighi della L. 1086/71 o 64/74 e s.m.i., ma solo dopo adeguata giustificazione eventualmente integrata da indagini in opera. Per la caratterizzazione meccanica dei materiali si possono adottare, motivatamente, i valori caratteristici assunti nel progetto originario o quelli ridotti risultanti dalla documentazione disponibile sui materiali in opera. In questo caso i fattori di confidenza si assumono unitari.
+
+La quantità e il tipo di informazioni richieste per conseguire uno dei tre livelli di conoscenza previsti, sono, a titolo esclusivamente orientativo, ulteriormente precisati nel seguito.

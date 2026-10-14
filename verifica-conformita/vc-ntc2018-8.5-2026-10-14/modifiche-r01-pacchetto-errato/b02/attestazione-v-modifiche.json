@@ -1,0 +1,86 @@
+{
+ "firma": "V b02, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito": "OK",
+ "voci_controllate": [
+  "E10",
+  "E11",
+  "E12",
+  "E13",
+  "E14",
+  "E15",
+  "O1",
+  "O2",
+  "O3",
+  "O4",
+  "O5",
+  "R6",
+  "R7",
+  "R8",
+  "C27",
+  "C28",
+  "C29",
+  "C30",
+  "C31",
+  "C32",
+  "C33",
+  "C34",
+  "C35",
+  "C36",
+  "C37",
+  "C38",
+  "C39",
+  "C40",
+  "C41",
+  "C42"
+ ],
+ "metodo": "Ho riapplicato la lista approvata a g6-r01b/b02/testo.md nell'ordine E, O, R, C, sostituendo solo stringhe uniche. Sul mio blocco si applicano 30 voci, nessuna ambigua. Il risultato coincide con testo-dopo.md, salvo le righe 13-16 e una riga vuota finale (vedi residui). Ho confrontato ogni voce con le pagine fonte circ:260-262.",
+ "conformita_voci": {
+  "E10-E12": "incipit delle voci di elenco in grassetto corsivo; due punti in grassetto tondo nelle voci 1 e 3, in grassetto corsivo nella voce 2, come stampa la fonte (circ:261)",
+  "E13": "'nucleo interno' in corsivo (circ:262)",
+  "E14-E15": "titoletti in grassetto corsivo (circ:262)",
+  "O1-O2": "$f_m$ e N/mm² nel capoverso P260-C11; risolve il rilievo 1",
+  "O3": "definizioni dei simboli rientrate nella didascalia in corsivo; i simboli restano in tondo matematico senza grassetto, come vuole D6; risolve il rilievo 4",
+  "O4": "testata su due livelli con le etichette di gruppo scritte una volta sola (catalogo n. 6) e 'Intonacoarmato (**)' come stampa la fonte (D7); risolve i rilievi 5 e 6",
+  "O5": "tolto il punto finale dopo 'illustrate'; risolve il rilievo 7",
+  "R6-R8": "rubriche con numero senza punto e testo in maiuscolo come nella fonte; risolve il rilievo 8",
+  "C27-C42": "16 a capo, che coincidono uno per uno con le divisioni dei capoversi della fonte (P260-C01|C02, C02|C03, C04|C05, C05|C06, C07|C08 … C12|C13, P261-C01|C02, P261-C06|C07, P262-C01|C02, C02|C03, C03|C04, C07|C08). Il capoverso P260-C13 che continua a p. 261 resta giustamente unito. Risolve il rilievo 9"
+ },
+ "rilievi_g6": {
+  "1 P260-C11": "risolto (O1, O2)",
+  "2 P261-T1-TEST V maiuscola": "respinto, e accetto la motivazione. Il codepoint U+0076 con la v a corpo pieno e lo 0 ridotto è coerente con il mio ritaglio a 600 dpi (prova B): una v minuscola a 7 pt ha l'occhio alto quanto una cifra a corpo ridotto, e l'uguaglianza di altezza che avevo letto come maiuscola si spiega così. Rientra nel catalogo n. 13, come nella didascalia. Non ho aperto il ritaglio a 1200 dpi, che sta fuori dal mio perimetro di lettura",
+  "3 doppio trattino": "chiuso dalla decisione di Sandro D2 (resta un trattino)",
+  "4 didascalia C8.5.I": "risolto (O3)",
+  "5 testata C8.5.II": "risolto (O4)",
+  "6 Intonacoarmato": "risolto: si ripristina la lettura della fonte (D7, O4)",
+  "7 punto dopo 'illustrate'": "risolto (O5)",
+  "8 rubriche": "risolto (R6-R8)",
+  "9 capoversi": "risolto (C27-C42)",
+  "10 nucleo interno": "risolto (E13)"
+ },
+ "rilievi_residui": [
+  {
+   "classe": "ERR-AUDIT",
+   "posizione": "testo-dopo.md, righe 13-16",
+   "descrizione": "testo-dopo.md contiene, fra C8.5.2.3 e C8.5.3, il titolo '# 8.5.3. CARATTERIZZAZIONE MECCANICA DEI MATERIALI' e il capoverso della Norma (NTC, 'Per conseguire un'adeguata conoscenza … DPR 380/2001.'), con la voce E1 ('in *situ*') già applicata. È testo fuori dal perimetro (Circolare pp. 260-262) e assente da testo.md. Lo stesso capoverso compare nella resa precedente, a p. 2 di target-scope.pdf, quindi è testo del corpus che c'era già e non un'aggiunta delle correzioni: la depurazione del pacchetto 'dopo' non lo ha escluso, perché nel nuovo ambito di resa cade in mezzo al blocco. Non incide sul corpus del blocco, ma il pacchetto va corretto o dichiarato prima di eventuali riusi."
+  },
+  {
+   "classe": "osservazione di resa, non bloccante",
+   "posizione": "resa-dopo.pdf p. 10, Tabella C8.5.II continuata",
+   "descrizione": "Sulla pagina di continuazione si ripete solo la prima riga di testata ('Stato di fatto', 'Interventi di consolidamento'); la seconda riga (Malta buona … Massimo coefficiente complessivo) è una riga di corpo e quindi non si ripete. Il Markdown è conforme al catalogo n. 6 e alla convenzione delle Tabelle C8.5.V e C8.5.VI. Lo segnalo per la leggibilità delle tabelle su più pagine. A p. 9 'Intonacoarmato' tocca la colonna accanto, solo come effetto grafico."
+  }
+ ],
+ "verifica_resa": "resa-dopo.pdf pp. 5-11: testo estratto e immagini a 150 dpi di pp. 5, 6, 7, 9 e 10. Ho controllato rubriche, a capo, f_m e N/mm² a p. 6, la didascalia della C8.5.I in corsivo, la Tabella C8.5.I (valori invariati, colonna f_v0 con un solo trattino), la Tabella C8.5.II (testata a due livelli, valori invariati), f_m^{0.35} con il punto, l'assenza del punto dopo 'illustrate' e i titoletti. Le rubriche a paragrafo in linea esistevano già nella resa precedente e non sono una regressione.",
+ "letture": [
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/modifiche/b02/lista-correzioni-g6.json",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/modifiche/b02/diff-testo.txt",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/modifiche/b02/testo-dopo.md",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/modifiche/b02/resa-dopo.pdf",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b02/testo.md",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b02/resa-target/target-scope.pdf",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b02/fonte-circ-260.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b02/fonte-circ-261.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b02/fonte-circ-262.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01-fonti-b02/circ-261-testata-tabella-600dpi.png"
+ ],
+ "isolamento": "Nessun accesso al repository né ad altri blocchi. File di lavoro (script di riapplicazione, immagini) in g6-r01-lavoro/b02. In modifiche/b02 ho scritto solo questo file."
+}

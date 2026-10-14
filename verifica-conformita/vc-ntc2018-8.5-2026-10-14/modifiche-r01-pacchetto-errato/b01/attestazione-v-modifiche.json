@@ -1,0 +1,100 @@
+{
+ "firma": "V b01, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito": "OK",
+ "voci_controllate": [
+  "E1",
+  "E2",
+  "E3",
+  "E4",
+  "E5",
+  "E6",
+  "E7",
+  "E8",
+  "E9",
+  "O21",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "C1",
+  "C2",
+  "C3",
+  "C4",
+  "C5",
+  "C6",
+  "C7",
+  "C8",
+  "C9",
+  "C10",
+  "C11",
+  "C12",
+  "C13",
+  "C14",
+  "C15",
+  "C16",
+  "C17",
+  "C18",
+  "C19",
+  "C20",
+  "C21",
+  "C22",
+  "C23",
+  "C24",
+  "C25",
+  "C26"
+ ],
+ "decisioni_applicabili": [
+  "D4",
+  "D5"
+ ],
+ "metodo": "Applicate per simulazione le voci della lista a testo.md di g6-r01b/b01, nell'ordine E, O, R, C, O22-O23 (ogni stringa unica): nel blocco si applicano le 41 voci elencate; O22 e O23 (Circolare p. 266) non toccano il blocco. Il risultato coincide riga per riga con testo-dopo.md, salvo i due fatti di pacchetto del rilievo residuo. Ogni voce è stata riconfrontata con le pagine fonte e con i ritagli della fase 1. La resa resa-dopo.pdf (pp. 1-5, 14-15, 20-21 per il perimetro) è stata confrontata parola per parola con testo-dopo.md e con le parti NTC mancanti, con verifica dei font e ritagli a 600 dpi.",
+ "esiti_voci": {
+  "E1": "conforme: 'situ' in LMRoman10-Italic, resa p. 5 (ritaglio dopo-p05-situ-600.png)",
+  "E2-E7": "conformi alla fonte, compreso lo stile dei due punti: grassetto tondo in E2, E4, E5, E7; grassetto corsivo in E3; tondo in E6 (ritagli c258a.png, c259a.png); resa pp. 3-4: BoldItalic per le etichette e Bold o Regular per i due punti, come previsto",
+  "E8-E9": "conformi: sottotitoli in grassetto corsivo su riga propria, senza punteggiatura il primo e con i due punti il secondo (c259b.png, c259c.png); resa pp. 4-5",
+  "O21": "conforme: $\\gamma_G$; resa p. 21 con γ U+1D6FE e pedice G U+1D43A a 7 pt (ritaglio dopo-p21-gammaG-600.png)",
+  "R1-R5": "conformi: numero senza punto finale e titolo in maiuscolo, come in fonte; per C8.5.2.1 e C8.5.2.2 il maiuscoletto della fonte è reso in maiuscolo",
+  "C1-C26": "conformi: i 26 punti di divisione coincidono uno a uno con i capoversi distinti della fonte (C8.5: 6; C8.5.1: 3; C8.5.2.1: 4; C8.5.2.2: 13). Nella resa p. 4 'Dall'esito…', 'A titolo esemplificativo…' e il sottotitolo stanno fuori dall'elenco, a x = 57 pt contro i 69-82 pt delle voci"
+ },
+ "rilievi_g6": [
+  {
+   "rilievo": "N-855-F1",
+   "stato": "risolto da O21"
+  },
+  {
+   "rilievo": "C-8522-L3/P15/P16/T1",
+   "stato": "risolto da C24, C25, C26 ed E8"
+  },
+  {
+   "rilievo": "capoversi fusi",
+   "stato": "risolto da C1-C23"
+  },
+  {
+   "rilievo": "enfasi",
+   "stato": "risolto da E1-E9; le cinque sottolineature restano non riprodotte per decisione D4 (estensione di D1) e i marcatori di elenco per la convenzione D5: respingimento motivato, accettato"
+  },
+  {
+   "rilievo": "rubriche Circolare",
+   "stato": "risolto da R1-R5"
+  }
+ ],
+ "cambiamenti_estranei": "Nessuno nel testo. Fuori dalle 41 voci, il testo coincide con quello del G6 (confronto per righe). Le parti NTC §§ 8.5.3-8.5.5, assenti da testo-dopo.md, sono state confrontate sulla resa: rispetto a testo.md cambiano solo E1 e O21, oltre agli apparati di navigazione (catalogo n. 11) e alle legature tipografiche.",
+ "rilievi_residui": [
+  {
+   "classe": "ERR-AUDIT",
+   "oggetto": "testo-dopo.md e diff-testo.txt",
+   "prova": "testo-dopo.md non contiene le parti NTC §§ 8.5.3, 8.5.4 e 8.5.5 del perimetro (rubriche e 7 capoversi, compreso l'elenco LC1-LC3): diff-testo.txt le mostra come cancellate. Il pacchetto inoltre dispone le sezioni per file (NTC e Circolare alternate), mentre testo.md del G6 aveva prima tutta la NTC e poi la Circolare; ne nascono blocchi di diff che sono solo spostamenti. Nella resa canonica le tre parti NTC ci sono (pp. 5, 14-15, 20-21) e non sono cambiate, salvo E1 e O21. Il difetto è della depurazione del pacchetto, non del corpus: non incide sull'esito, ma il pacchetto va corretto prima di usarlo come evidenza.",
+   "domanda_aperta": "In che ordine stanno nei file del corpus il testo NTC e quello della Circolare per i §§ 8.5-8.5.5, e che cosa mostra il diff dei file del corpus prima e dopo l'applicazione della lista?"
+  }
+ ],
+ "letture": [
+  "modifiche/b01/lista-correzioni-g6.json (integrale: gruppi E, O, R, C, decisioni D2-D7, rilievi_respinti, fuori_scope, aggiunte)",
+  "modifiche/b01/diff-testo.txt (integrale)",
+  "modifiche/b01/testo-dopo.md (integrale)",
+  "modifiche/b01/resa-dopo.pdf (pp. 1-5, 14-15, 20-21: testo, font e codepoint; ritagli a 600 dpi)",
+  "g6-r01b/b01/testo.md e fonti PNG; ritagli della fase 1 in g6-r01-lavoro/b01/",
+  "g6-r01-lavoro/b01/: simula.py, testo-simulato.md, wdiff.py, dopo-p05-situ-600.png, dopo-p21-gammaG-600.png, estratti di testo della resa"
+ ],
+ "isolamento": "Letti solo modifiche/b01, g6-r01b/b01 e g6-r01-lavoro/b01. Non aperti coordinamento.json, le altre cartelle b0x né il repository. Nessun input modificato; in modifiche/b01 è stato scritto solo questo file."
+}

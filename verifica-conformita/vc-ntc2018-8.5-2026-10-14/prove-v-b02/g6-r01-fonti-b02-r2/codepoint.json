@@ -1,0 +1,63 @@
+[
+ {
+  "pagina_fisica": 261,
+  "riga_pt_y": 169.1,
+  "area": "didascalia Tab. C8.5.I, riga 3",
+  "testo_span": "fv",
+  "codepoint": [
+   "U+0066",
+   "U+0076"
+  ],
+  "font": "PalatinoLinotype-Bold",
+  "corpo_pt": 7.0,
+  "nota": "la cifra 0 segue in uno span separato"
+ },
+ {
+  "pagina_fisica": 261,
+  "riga_pt_y": 566.0,
+  "area": "elenco, voce 1",
+  "testo_span": "v0",
+  "codepoint": [
+   "U+0076",
+   "U+0030"
+  ],
+  "font": "PalatinoLinotype-Bold",
+  "corpo_pt": 4.8
+ },
+ {
+  "pagina_fisica": 261,
+  "riga_pt_y": 622.4,
+  "area": "elenco, voce 3",
+  "testo_span": "v0",
+  "codepoint": [
+   "U+0076",
+   "U+0030"
+  ],
+  "font": "PalatinoLinotype-Bold",
+  "corpo_pt": 4.8
+ },
+ {
+  "pagina_fisica": 262,
+  "riga_pt_y": 586.1,
+  "area": "capoverso, riga a y 583",
+  "testo_span": "v0",
+  "codepoint": [
+   "U+0076",
+   "U+0030"
+  ],
+  "font": "PalatinoLinotype-Bold",
+  "corpo_pt": 4.8
+ },
+ {
+  "pagina_fisica": 262,
+  "riga_pt_y": 691.3,
+  "area": "capoverso, riga a y 688",
+  "testo_span": "v0",
+  "codepoint": [
+   "U+0076",
+   "U+0030"
+  ],
+  "font": "PalatinoLinotype-Bold",
+  "corpo_pt": 4.8
+ }
+]

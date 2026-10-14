@@ -1,0 +1,61 @@
+{
+  "fase": "SCRITTO",
+  "scope": "8.5",
+  "righe": [
+    "8.5",
+    "8.5.1",
+    "8.5.2",
+    "8.5.3",
+    "8.5.4",
+    "8.5.5"
+  ],
+  "file": [
+    "ntc2018-markdown/registro-verifica-conformita-ntc2018.csv",
+    "ntc2018-markdown/README.md",
+    "ntc2018-markdown/TODO.md",
+    "ntc2018-markdown/CHANGELOG.md",
+    "ntc2018-markdown/indice-ntc2018.md",
+    "ntc2018-markdown/verifica-conformita/scheda-scope-ntc2018-8.5.md",
+    "ntc2018-markdown/cap08/cap08-costruzioni-esistenti-revisione.md"
+  ],
+  "nota": "Giudizio di V già presente; nessun nuovo giudizio emesso dallo script",
+  "impronte": [
+    {
+      "path": "/home/user/ntc2018-markdown/registro-verifica-conformita-ntc2018.csv",
+      "prima": "1ebb29424b2c2c0b0e8015e5780eda9f504841fbea7a651ea8a84f25ce3b6934",
+      "dopo": "50f4e3c836ceb9d9c6eaec8f3d5417cc07e8997f79483238add0d18c2ede6466"
+    },
+    {
+      "path": "/home/user/ntc2018-markdown/README.md",
+      "prima": "2826a380ff1b08551904b93933f395d14bd17ed8440bd230e61efedd3ee80f34",
+      "dopo": "1ca12d05dd59fc53f16491244c4633dc2718b7688e470283f01c455f43de17b1"
+    },
+    {
+      "path": "/home/user/ntc2018-markdown/TODO.md",
+      "prima": "e50ddb8daa2c45dce31fc75f70185d15e6906fad704b3bb5a77d47ba5ba16087",
+      "dopo": "2dd10b515369e196424913e0f9389d59a1f31e272a45481d1d59465474e53c65"
+    },
+    {
+      "path": "/home/user/ntc2018-markdown/CHANGELOG.md",
+      "prima": "fa0b07d9673fa96748cc4195081bfee069d4e1e6beedefbc80a34d9671b91803",
+      "dopo": "dddeb347dc80746e5d49e1a0512b6e6e18fc560d8066ac5c6dae47489e784fce"
+    },
+    {
+      "path": "/home/user/ntc2018-markdown/indice-ntc2018.md",
+      "prima": "166b4b092355b7f68e48e598c768c6e9763e42673f476cc7e65a3000e0e63b18",
+      "dopo": "cd68994c3b275aae51a6fce346bf3c07b7fba090b3c9fbbc34bed4e53a47a799"
+    },
+    {
+      "path": "/home/user/ntc2018-markdown/verifica-conformita/scheda-scope-ntc2018-8.5.md",
+      "prima": "195fe327adfce9b5011a0b6dfb22f0d6b29d74c5c5e4f3673bcc49d953a0e63d",
+      "dopo": "301ad9bf365f89ab1a09b0200acbc75d9095ac0413227f58a25ebf6f4600ce75"
+    },
+    {
+      "path": "/home/user/ntc2018-markdown/cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "3de8e357db1e1be34848e9b0ce43499dcc236537703705bec80bc65a8b5c32ad",
+      "dopo": "5ae0add5c7ec2906095f5e29f16a9e57f3c265c266b1829ed09909367237e912"
+    }
+  ],
+  "controlli": "OK",
+  "giornale": "Usare una volta diario/nuova-voce.py con nota e prossima_azione del JSON"
+}

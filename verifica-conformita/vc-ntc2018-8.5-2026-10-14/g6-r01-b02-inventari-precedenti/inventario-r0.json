@@ -1,0 +1,364 @@
+{
+ "firma": "V b02, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito_provvisorio": "DUBBIO",
+ "elementi": [
+  {
+   "id": "P260-L01",
+   "pagina": "circ:260",
+   "riferimento": "Voce di elenco con trattino 'particolari di appoggio dei solai;' (prima riga del corpo, continuazione elenco di §C8.5.2.2 dalla pagina precedente)"
+  },
+  {
+   "id": "P260-L02",
+   "pagina": "circ:260",
+   "riferimento": "Voce di elenco con trattino 'modalità di collegamento alle fondazioni.'"
+  },
+  {
+   "id": "P260-H01",
+   "pagina": "circ:260",
+   "riferimento": "Rubrica 'C8.5.2.3 COSTRUZIONI DI LEGNO' (maiuscoletto)"
+  },
+  {
+   "id": "P260-C01",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.2.3 capoverso 1 'Per costruzioni di legno si intendono…' (2 righe)"
+  },
+  {
+   "id": "P260-C02",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.2.3 capoverso 2 'Il rilievo geometrico riguarda…' (3 righe)"
+  },
+  {
+   "id": "P260-C03",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.2.3 capoverso 3 'Per la comprensione dei fenomeni di dissesto…' fino a '(ad esempio fondazioni).' (5 righe)"
+  },
+  {
+   "id": "P260-H02",
+   "pagina": "circ:260",
+   "riferimento": "Rubrica 'C8.5.3 CARATTERIZZAZIONE MECCANICA DEI MATERIALI' (maiuscolo grassetto, carattere diverso dalle altre rubriche)"
+  },
+  {
+   "id": "P260-C04",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3 capoverso 1 'Il § 8.5.3 delle NTC tratta…un fabbricato.' (2 righe)"
+  },
+  {
+   "id": "P260-C05",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3 capoverso 2 'La norma prevede che per le prove di cui alla Circolare 08 settembre 2010, n. 7617/STC…DPR 380/01.' (4 righe)"
+  },
+  {
+   "id": "P260-C06",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3 capoverso 3 'In tal senso le NTC hanno voluto ricondurre…' fino a '…che si sta prelevando,' (5 righe; il capoverso termina con virgola nella fonte; doppio spazio prima di 'carotaggio')"
+  },
+  {
+   "id": "P260-H03",
+   "pagina": "circ:260",
+   "riferimento": "Rubrica 'C8.5.3.1 COSTRUZIONI DI MURATURA' (maiuscoletto)"
+  },
+  {
+   "id": "P260-C07",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 1 'La muratura in una costruzione esistente…dell'insieme.' (3 righe)"
+  },
+  {
+   "id": "P260-C08",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 2 'La misura diretta delle caratteristiche meccaniche…riconosciuta validità.' (4 righe)"
+  },
+  {
+   "id": "P260-C09",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 3 'Ulteriori informazioni si possono desumere…mediamente distruttive.' (2 righe)"
+  },
+  {
+   "id": "P260-C10",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 4 'In relazione al numero delle indagini…comprovata validità.' (6 righe)"
+  },
+  {
+   "id": "P260-C11",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 5 'La tabella C8.5.I riporta…delle azioni sismiche.' (8 righe), con rinvio '(§C8.5.2.1)', due occorrenze inline di f con pedice m in grassetto, valori 0,7 e 1,5 N/mm² (esponente 2), 0,7 N/mm² (esponente 2), coefficienti 0,7 e 0,8"
+  },
+  {
+   "id": "P260-C12",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 6 'La resistenza a compressione è utilizzata anche…tra i paramenti.' (2 righe)"
+  },
+  {
+   "id": "P260-C13",
+   "pagina": "circ:260",
+   "riferimento": "§C8.5.3.1 capoverso 7, parte iniziale 'Per interpretare fenomeni pregressi…picchi di sollecitazione. Nel' (3 righe; prosegue a p. 261)"
+  },
+  {
+   "id": "P261-C01",
+   "pagina": "circ:261",
+   "riferimento": "Continuazione del capoverso P260-C13 'caso di sollecitazioni di trazione permanenti…ridursi significativamente.' (2 righe)"
+  },
+  {
+   "id": "P261-C02",
+   "pagina": "circ:261",
+   "riferimento": "Capoverso 'Nel caso di murature di blocchi artificiali di tecnologia moderna…(§11.10 delle NTC).' (2 righe)"
+  },
+  {
+   "id": "P261-T1-DID",
+   "pagina": "circ:261",
+   "riferimento": "Didascalia 'Tabella C8.5.I -Valori di riferimento…w = peso specifico medio.' (5 righe, corsivo, simboli in grassetto: f, τ0, fv0, E, G, w; due rinvii '§C8.7.1.3'; trattino senza spazio dopo '-')"
+  },
+  {
+   "id": "P261-T1-TEST",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, testata: 7 colonne × 2 righe; col.1 'Tipologia di muratura' accorpata verticalmente sulle 2 righe; col.2-7 riga 1 simbolo+unità: f (N/mm²), τ0 (N/mm²), fV0 (N/mm²), E (N/mm²), G (N/mm²), w (kN/m³); riga 2: 'min-max' sotto f, τ0, E, G; vuota sotto fV0 e w"
+  },
+  {
+   "id": "P261-T1-R1",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 1/8, colonne 1-7: etichetta 'Muratura in pietrame disordinata (ciottoli, pietre erratiche…' ; f 1,0-2,0; τ0 0,018-0,032; fV0 '-' su due righe; E 690-1050; G 230-350; w 19"
+  },
+  {
+   "id": "P261-T1-R2",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 2/8, colonne 1-7: etichetta 'Muratura a conci sbozzati, con paramenti di spessore disomog…' ; f 2,0; τ0 0,035-0,051; fV0 '-' su due righe; E 1020-1440; G 340-480; w 20"
+  },
+  {
+   "id": "P261-T1-R3",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 3/8, colonne 1-7: etichetta 'Muratura in pietre a spacco con buona tessitura…' ; f 2,6-3,8; τ0 0,056-0,074; fV0 '-' su due righe; E 1500-1980; G 500-660; w 21"
+  },
+  {
+   "id": "P261-T1-R4",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 4/8, colonne 1-7: etichetta 'Muratura irregolare di pietra tenera (tufo, calcarenite, ecc…' ; f 1,4-2,2; τ0 0,028-0,042; fV0 '-' su due righe; E 900-1260; G 300-420; w '13 ÷ 16(**)' cella accorpata verticalmente con la riga 5"
+  },
+  {
+   "id": "P261-T1-R5",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 5/8, colonne 1-7: etichetta 'Muratura a conci regolari di pietra tenera (tufo, calcarenit…' ; f 2,0-3,2; τ0 0,04-0,08; fV0 0,10-0,19; E 1200-1620; G 400-500; w accorpata con riga 4 ('13 ÷ 16(**)')"
+  },
+  {
+   "id": "P261-T1-R6",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 6/8, colonne 1-7: etichetta 'Muratura a blocchi lapidei squadrati…' ; f 5,8-8,2; τ0 0,09-0,12; fV0 0,18-0,28; E 2400-3300; G 800-1100; w 22"
+  },
+  {
+   "id": "P261-T1-R7",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 7/8, colonne 1-7: etichetta 'Muratura in mattoni pieni e malta di calce (***)…' ; f 2,6-4,3; τ0 0,05-0,13; fV0 0,13-0,27; E 1200-1800; G 400-600; w 18"
+  },
+  {
+   "id": "P261-T1-R8",
+   "pagina": "circ:261",
+   "riferimento": "Tabella C8.5.I, riga di corpo 8/8, colonne 1-7: etichetta 'Muratura in mattoni semipieni con malta cementizia (es,: dop…' ; etichetta su due righe; f 5,0-8,0; τ0 0,08-0,17; fV0 0,20-0,36; E 3500-5600; G 875-1400; w 15"
+  },
+  {
+   "id": "P261-T1-N1",
+   "pagina": "circ:261",
+   "riferimento": "Nota di tabella C8.5.I '(*) Nella muratura a conci sbozzati…pari a 1,2.' (2 righe)"
+  },
+  {
+   "id": "P261-T1-N2",
+   "pagina": "circ:261",
+   "riferimento": "Nota di tabella C8.5.I '(**) Data la varietà litologica…§ 11.10 delle NTC.' (3 righe; 'fpuò' senza spazio, f grassetto)"
+  },
+  {
+   "id": "P261-T1-N3",
+   "pagina": "circ:261",
+   "riferimento": "Nota di tabella C8.5.I '(***) Nella muratura a mattoni pieni…13 mm…0,7…0,8 per i moduli elastici.' (2 righe)"
+  },
+  {
+   "id": "P261-C03",
+   "pagina": "circ:261",
+   "riferimento": "Capoverso 'Le Regioni potranno, tenendo conto…a tal fine.' (2 righe)"
+  },
+  {
+   "id": "P261-C04",
+   "pagina": "circ:261",
+   "riferimento": "Capoverso 'Le caratteristiche meccaniche della muratura, in uno stato di fatto migliore…Tabella C8.5.II.' (3 righe)"
+  },
+  {
+   "id": "P261-C05",
+   "pagina": "circ:261",
+   "riferimento": "Capoverso introduttivo 'I coefficienti migliorativi sono funzione dei seguenti fattori:'"
+  },
+  {
+   "id": "P261-L01",
+   "pagina": "circ:261",
+   "riferimento": "Voce di elenco 1 con trattino, incipit grassetto corsivo 'malta di buone caratteristiche:' …'(f, τ0 e fv0), sia ai moduli elastici (E e G);' (2 righe)"
+  },
+  {
+   "id": "P261-L02",
+   "pagina": "circ:261",
+   "riferimento": "Voce di elenco 2, incipit grassetto corsivo 'presenza di ricorsi (o listature):' …'(f eτ0); tale coefficiente…tecnica costruttiva;' (2 righe; 'eτ0' senza spazio)"
+  },
+  {
+   "id": "P261-L03",
+   "pagina": "circ:261",
+   "riferimento": "Voce di elenco 3, incipit grassetto corsivo 'presenza sistematica di elementi di collegamento trasversale tra i paramenti:' …'(f, τ0 e fv0).' (2 righe)"
+  },
+  {
+   "id": "P261-C06",
+   "pagina": "circ:261",
+   "riferimento": "Capoverso 'I suddetti coefficienti migliorativi possono essere applicati in combinazione…più alti.' (2 righe)"
+  },
+  {
+   "id": "P261-C07",
+   "pagina": "circ:261",
+   "riferimento": "Capoverso 'I dati riportati nella Tabella C8.5.I fanno riferimento…ha poco significato.' (5 righe)"
+  },
+  {
+   "id": "P262-C01",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'I muri realizzati con due paramenti semplicemente accostati o con riempimenti \"a sacco\"…superfici esterne.' (4 righe)"
+  },
+  {
+   "id": "P262-C02",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'Nel caso non sussistano rischi di instabilità…sezione efficace.' (2 righe)"
+  },
+  {
+   "id": "P262-C03",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'Dopo avere esclusa la possibilità…valutazioni opportune.' (5 righe; 'nucleo interno' in corsivo; '(Tabella C8.5.I, eventualmente modificata dai coefficiente della Tabella C8.5.II)')"
+  },
+  {
+   "id": "P262-C04",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'Nel caso particolare di nucleo interno di caratteristiche meccaniche trascurabili…spessore del nucleo.' (2 righe; 'panello')"
+  },
+  {
+   "id": "P262-T2-DID",
+   "pagina": "circ:262",
+   "riferimento": "Didascalia 'Tabella C8.5.II -Coefficienti correttivi massimi…connessione dei paramenti.' (2 righe, corsivo)"
+  },
+  {
+   "id": "P262-T2-TEST",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, testata: 8 colonne × 2 righe; col.1 'Tipologia di muratura' accorpata verticalmente; riga 1: 'Stato di fatto' accorpata su col.2-4, 'Interventi di consolidamento' accorpata su col.5-8; riga 2 (testo ruotato 90°): 'Malta buona', 'Ricorsi o listature', 'Connessione trasversale', 'Iniezione di miscele leganti (*)', 'Intonacoarmato (**)', 'Ristilatura armata con connessione dei paramenti (**)', 'Massimo coefficiente complessivo'"
+  },
+  {
+   "id": "P262-T2-R1",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 1/8, colonne 1-8: etichetta 'Muratura in pietrame disordinata (ciottoli, pietre erratiche…'; valori col.2-8: 1,5 | 1,3 | 1,5 | 2 | 2,5 | 1,6 | 3,5"
+  },
+  {
+   "id": "P262-T2-R2",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 2/8, colonne 1-8: etichetta 'Muratura a conci sbozzati, con paramenti di spessore disomog…'; valori col.2-8: 1,4 | 1,2 | 1,5 | 1,7 | 2,0 | 1,5 | 3,0"
+  },
+  {
+   "id": "P262-T2-R3",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 3/8, colonne 1-8: etichetta 'Muratura in pietre a spacco con buona tessitura…'; valori col.2-8: 1,3 | 1,1 | 1,3 | 1,5 | 1,5 | 1,4 | 2,4"
+  },
+  {
+   "id": "P262-T2-R4",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 4/8, colonne 1-8: etichetta 'Muratura irregolare di pietra tenera (tufo, calcarenite, ecc…'; valori col.2-8: 1,5 | 1,2 | 1,3 | 1,4 | 1,7 | 1,1 | 2,0"
+  },
+  {
+   "id": "P262-T2-R5",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 5/8, colonne 1-8: etichetta 'Muratura a conci regolari di pietra tenera (tufo, calcarenit…'; valori col.2-8: 1,6 | - | 1,2 | 1,2 | 1,5 | 1,2 | 1,8"
+  },
+  {
+   "id": "P262-T2-R6",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 6/8, colonne 1-8: etichetta 'Muratura a blocchi lapidei squadrati…'; valori col.2-8: 1,2 | - | 1,2 | 1,2 | 1,2 | - | 1,4"
+  },
+  {
+   "id": "P262-T2-R7",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 7/8, colonne 1-8: etichetta 'Muratura in mattoni pieni e malta di calce…'; valori col.2-8: (***) | - | 1,3 (****) | 1,2 | 1,5 | 1,2 | 1,8"
+  },
+  {
+   "id": "P262-T2-R8",
+   "pagina": "circ:262",
+   "riferimento": "Tabella C8.5.II, riga di corpo 8/8, colonne 1-8: etichetta 'Muratura in mattoni semipieni con malta cementizia (es,: dop…'; valori col.2-8: 1,2 | - | - | - | 1,3 | - | 1,3 (etichetta su due righe)"
+  },
+  {
+   "id": "P262-T2-N1",
+   "pagina": "circ:262",
+   "riferimento": "Nota di tabella C8.5.II '(*) I coefficienti correttivi relativi alle iniezioni…prove soniche o similari).' (2 righe)"
+  },
+  {
+   "id": "P262-T2-N2",
+   "pagina": "circ:262",
+   "riferimento": "Nota di tabella C8.5.II '(**) Valori da ridurre convenientemente…(p.es. > 70 cm).'"
+  },
+  {
+   "id": "P262-T2-N3",
+   "pagina": "circ:262",
+   "riferimento": "Nota di tabella C8.5.II '(***) Nel caso di murature di mattoni…superiore a 2 N/mm²…pari a fm^0.35 (fm in N/mm²).' (2 righe; formula inline f con pedice m ed esponente corsivo)"
+  },
+  {
+   "id": "P262-T2-N4",
+   "pagina": "circ:262",
+   "riferimento": "Nota di tabella C8.5.II '(****) Nel caso di muratura di mattoni si intende come muratura trasversalmente connessa quella apparecchiata a regola d'arte.'"
+  },
+  {
+   "id": "P262-C05",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'In presenza di murature consolidate…secondo le modalità di seguito illustrate' (3 righe; nessuna punteggiatura finale nella fonte)"
+  },
+  {
+   "id": "P262-H01",
+   "pagina": "circ:262",
+   "riferimento": "Titoletto grassetto corsivo 'Consolidamento con iniezioni di miscele leganti'"
+  },
+  {
+   "id": "P262-C06",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'Il coefficiente indicato in tabella, diversificato per le varie tipologie murarie…effettivamente conseguiti.' (6 righe; '(f, τ0e fv0)' senza spazio fra τ0 ed 'e')"
+  },
+  {
+   "id": "P262-H02",
+   "pagina": "circ:262",
+   "riferimento": "Titoletto grassetto corsivo 'Consolidamento con intonaco armato'"
+  },
+  {
+   "id": "P262-C07",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'L'effetto di questa tipologia di consolidamento…parametri meccanici.' (2 righe)"
+  },
+  {
+   "id": "P262-C08",
+   "pagina": "circ:262",
+   "riferimento": "Capoverso 'In assenza di queste è possibile adottare il coefficiente…(f, τ0e fv0), sia dei moduli elastici (E e G).' (2 righe; ultimo testo del perimetro)"
+  }
+ ],
+ "esclusioni": [
+  {
+   "pagina": "circ:260",
+   "riferimento": "Intestazione Gazzetta '11-2-2019 Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE Serie generale - n. 35' e filetto"
+  },
+  {
+   "pagina": "circ:260",
+   "riferimento": "Piè di pagina: numero di pagina '— 256 —' e codici grafici (datamatrix)"
+  },
+  {
+   "pagina": "circ:261",
+   "riferimento": "Intestazione Gazzetta '11-2-2019 Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE Serie generale - n. 35' e filetto"
+  },
+  {
+   "pagina": "circ:261",
+   "riferimento": "Piè di pagina: numero di pagina '— 257 —' e codici grafici (datamatrix)"
+  },
+  {
+   "pagina": "circ:262",
+   "riferimento": "Intestazione Gazzetta '11-2-2019 Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE Serie generale - n. 35' e filetto"
+  },
+  {
+   "pagina": "circ:262",
+   "riferimento": "Piè di pagina: numero di pagina '— 258 —' e codici grafici (datamatrix)"
+  }
+ ],
+ "dubbi": [
+  "Risoluzione delle PNG consegnate: 1653x2339 px per pagina A4, circa 200 dpi; nessuna pagina a 600 dpi né PDF vettoriale consegnati. Le decisioni di glifo sotto elencate richiedono ritaglio >=600 dpi o codifica vettoriale (canone § 4).",
+  "circ:262, nota (***) della Tabella C8.5.II, seconda riga: esponente corsivo di f_m, separatore decimale dell'esponente (punto o virgola) non decidibile con certezza a 200 dpi; a vista appare un punto.",
+  "circ:261, testata Tabella C8.5.I, colonna 4: pedice del simbolo f, a 200 dpi la prima lettera del pedice appare maiuscola 'V' in grassetto, mentre in didascalia ed elenchi è minuscola 'v'; maiuscola/minuscola da confermare a >=600 dpi.",
+  "circ:261 e circ:262: pedici dei simboli inline (f_m, f_v0, τ0) composti a corpo ridotto; posizione e cifra '0' leggibili ma non verificate a >=600 dpi.",
+  "circ:261, Tabella C8.5.I, colonna fV0, righe 1-4: ogni cella mostra due trattini '-' su due righe sovrapposte; se si tratti di due segni distinti o di un'unica cella con segno ripetuto è un fatto tipografico da conservare, non un'ambiguità di lettura."
+ ]
+}

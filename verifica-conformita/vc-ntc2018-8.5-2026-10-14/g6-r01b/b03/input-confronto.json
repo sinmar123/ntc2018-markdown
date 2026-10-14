@@ -1,0 +1,160 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2202,
+      "sha256": "315a4c63314ce260974fefa488e1894c29c614fb1e158d93f6090c670471d93c"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 217,
+      "sha256": "7fc38c507a0a4f2e3a8785c0d30d5dec1cf62b73ca5f318dc6dae1a84e286afb"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 8692,
+      "sha256": "cf92aa13d12237ab71ff18eb2f8232eff9027fe9a80afc2a862478044f4bb437"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 458,
+      "sha256": "3a52d94600c2a0453a820eb32667fdd2497f51cee71e9d8cc0e2e3f4414ba3a0"
+    },
+    {
+      "path": "fonte-circ-263.png",
+      "bytes": 705375,
+      "sha256": "14042f77c2030ccfb6e3d71650a302ca9d954d63b6274315bf90846daa32e54c"
+    },
+    {
+      "path": "fonte-circ-264.png",
+      "bytes": 670228,
+      "sha256": "1a1dbad557c3919d30895cb887095477183d57eeebed570745773060ea85df61"
+    },
+    {
+      "path": "fonte-circ-265.png",
+      "bytes": 694982,
+      "sha256": "2f625a70946c20e2a2fecd79be036d6d27c7b5f2782612ec706e766887fb64ea"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 1034,
+      "sha256": "9934023094531e7a7bc65b7dc674574ae0dfd1aa0374d421d4348b8c2a3941d9"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 14203,
+      "sha256": "0749b26787febe180a141551eb5afef1a3a0f7f6f3e5d870d1f5f94a0e53b262"
+    },
+    {
+      "path": "resa-target/target-p01-200dpi.png",
+      "bytes": 247889,
+      "sha256": "e06bf45d6ffba4d0958850f5c3aec326be14b2a0d76b4ed50f6c5ccb6e47b8e7"
+    },
+    {
+      "path": "resa-target/target-p02-200dpi.png",
+      "bytes": 294988,
+      "sha256": "0b6cafe32aad856549b4685c0cc1ee04a858e5798f1bd29347ef44b067f4ffc6"
+    },
+    {
+      "path": "resa-target/target-p03-200dpi.png",
+      "bytes": 368167,
+      "sha256": "6c0f19f1cd3424637528a5434f3b74510b570bb535030f0393ee2620481fdda9"
+    },
+    {
+      "path": "resa-target/target-p04-200dpi.png",
+      "bytes": 431345,
+      "sha256": "2c20c6fc1aecda8967eb7c2dacc8b95f33f3fde7430b3706aefacf6176949769"
+    },
+    {
+      "path": "resa-target/target-p05-200dpi.png",
+      "bytes": 426759,
+      "sha256": "660a90ae9b0966b2d223cefa062a0f21005bb8dfe014bb5b09deca02b784b805"
+    },
+    {
+      "path": "resa-target/target-p06-200dpi.png",
+      "bytes": 494445,
+      "sha256": "8587c4680e1f0bf6dd6dd98f5ca7262fb08511e542465caaed6abf816f45d835"
+    },
+    {
+      "path": "resa-target/target-p07-200dpi.png",
+      "bytes": 235817,
+      "sha256": "4f98ec3aed72942cac94cb060f0b6c61f4ef7730f05aa0b7d47fb12f82c13fff"
+    },
+    {
+      "path": "resa-target/target-p08-200dpi.png",
+      "bytes": 239314,
+      "sha256": "391582c835a8a782879015e40544b8c8b3020f0e947d0409ab6ea32eb2508bc1"
+    },
+    {
+      "path": "resa-target/target-p09-200dpi.png",
+      "bytes": 364964,
+      "sha256": "cefa30d5b415cc2a681d8f31cf0f34dea9d8ba5cec0d6a6c8451c66aba0c10d5"
+    },
+    {
+      "path": "resa-target/target-p10-200dpi.png",
+      "bytes": 139634,
+      "sha256": "12111e19ec64e7fc6cb51d1f0eefb38e476d91885a03dfd947cc6ddf6eb32e8a"
+    },
+    {
+      "path": "resa-target/target-p11-200dpi.png",
+      "bytes": 287203,
+      "sha256": "f6fe52aeebbe4b689515c4f8d25f30a0722492abb8a3f88800febb9e259cb0fc"
+    },
+    {
+      "path": "resa-target/target-p12-200dpi.png",
+      "bytes": 509164,
+      "sha256": "be2497889ecddb6d8cb5985f3b90fc414799c55d5ece9612543b6da258e438a8"
+    },
+    {
+      "path": "resa-target/target-p13-200dpi.png",
+      "bytes": 503953,
+      "sha256": "567215eea4df7c8f022b74263aa5b169a1e6f59e8d38bf62137860ef63486fe9"
+    },
+    {
+      "path": "resa-target/target-p14-200dpi.png",
+      "bytes": 530574,
+      "sha256": "320587207d00305e669533297dcb4bc5f6fc982021c75761dfd2e8a530a8ecc6"
+    },
+    {
+      "path": "resa-target/target-p15-200dpi.png",
+      "bytes": 334971,
+      "sha256": "14db07bb1e34c544ff5082f1c8ea11667eb2fc3434c56c70beb77a6ca0d4eeae"
+    },
+    {
+      "path": "resa-target/target-p16-200dpi.png",
+      "bytes": 346881,
+      "sha256": "6aa20f724f1c3810a66e30b0d0d151b5f616cc763e4deab395cdf422fcca510b"
+    },
+    {
+      "path": "resa-target/target-p17-200dpi.png",
+      "bytes": 363623,
+      "sha256": "9f29ce3e8cb2f9ad0b5799945fa367894fe8cea1a36f7063cddf91931d708b84"
+    },
+    {
+      "path": "resa-target/target-p18-200dpi.png",
+      "bytes": 460959,
+      "sha256": "b7c38eaf994fff631624c94bda1a7789fc4e8ff6c6c0c09cb0b312ddfd0902fc"
+    },
+    {
+      "path": "resa-target/target-p19-200dpi.png",
+      "bytes": 417290,
+      "sha256": "f58675945851e560de701e97ca5daea386e9f75f277b9fb35298462896f1e000"
+    },
+    {
+      "path": "resa-target/target-p20-200dpi.png",
+      "bytes": 121749,
+      "sha256": "786460af8411dbab3357770954aecc944cb2470790c7e6521eab2e1c97209b1e"
+    },
+    {
+      "path": "resa-target/target-scope.pdf",
+      "bytes": 110807,
+      "sha256": "5d6492527a46332fa4e121a1472444e244f1c98aaa5491438a6505a25fd1d9b3"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 17707,
+      "sha256": "8430e4ec627587f0d30551a1f3c7d72cb78b94dd6f0f414e6e8f7cbc87074187"
+    }
+  ]
+}

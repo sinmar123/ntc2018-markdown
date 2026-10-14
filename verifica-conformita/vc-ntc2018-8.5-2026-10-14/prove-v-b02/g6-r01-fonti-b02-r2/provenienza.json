@@ -1,0 +1,77 @@
+[
+ {
+  "file": "circ-261-didascalia-riga3-600dpi.png",
+  "pdf": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "pagina_fisica": 261,
+  "area_pt": [
+   300,
+   166.5,
+   523.5,
+   178.5
+  ],
+  "dpi": 600,
+  "metodo": "resa vettoriale della pagina a 600 dpi",
+  "sha256": "cf4cf26e283baa9af2c750b0f4e8a0770a6ffb5994ad576e9e56826fbedd49b5"
+ },
+ {
+  "file": "circ-261-elenco-voce1-600dpi.png",
+  "pdf": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "pagina_fisica": 261,
+  "area_pt": [
+   98,
+   561,
+   373,
+   574
+  ],
+  "dpi": 600,
+  "metodo": "resa vettoriale della pagina a 600 dpi",
+  "sha256": "f605c644ef50e91f77badbf39dfe284a436f84291c75714e495f38c56e173e09"
+ },
+ {
+  "file": "circ-261-elenco-voce3-600dpi.png",
+  "pdf": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "pagina_fisica": 261,
+  "area_pt": [
+   98,
+   617.5,
+   275,
+   630.5
+  ],
+  "dpi": 600,
+  "metodo": "resa vettoriale della pagina a 600 dpi",
+  "sha256": "0dac158b099d62f80ca2b5c5bb519f9c65c6727a5811a2ee18367271434e5c65"
+ },
+ {
+  "file": "circ-262-capoverso-riga-583-600dpi.png",
+  "pdf": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "pagina_fisica": 262,
+  "area_pt": [
+   73,
+   581,
+   330,
+   594
+  ],
+  "dpi": 600,
+  "metodo": "resa vettoriale della pagina a 600 dpi",
+  "sha256": "837a091cdd6b27efe1736bc663735c3c24236b88be961ab584562257b8bfb279"
+ },
+ {
+  "file": "circ-262-capoverso-riga-688-600dpi.png",
+  "pdf": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+  "pdf_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+  "pagina_fisica": 262,
+  "area_pt": [
+   73,
+   686.5,
+   323,
+   699.5
+  ],
+  "dpi": 600,
+  "metodo": "resa vettoriale della pagina a 600 dpi",
+  "sha256": "e48c41a72321044cbdff6bde857615d55ccfafb4169091e99269a9a78b0738f0"
+ }
+]

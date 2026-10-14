@@ -1,0 +1,43 @@
+{
+  "firma": "CC cloud (CCC)",
+  "data": "2026-10-14",
+  "anomalia": "rivela b01 e b03 in g6-r01: «Manifest confronto con input omessi o estranei». rivela raccoglie con rglob tutti i file del blocco, e i V avevano salvato ritagli di lavoro nella sottocartella lavoro/ dentro la cartella del blocco, su istruzione di C.",
+  "classe": "ERR-AUDIT tecnico del manifest, precedente al primo accesso di V al target",
+  "tentativo_originale": "scratchpad/vc85/g6-r01 (conservato senza modifiche, con testo.md e congelamento parziali in b01 e b03)",
+  "pacchetto_nuovo": "scratchpad/vc85/g6-r01b",
+  "azione": "Nuovo prepara dallo stesso config; copie byte-identiche degli inventari fonte-prima; file di lavoro dei V copiati in scratchpad/vc85/g6-r01-lavoro/bXX, fuori dai blocchi. Nessuna riparazione a mano della destinazione fallita.",
+  "accesso_v_al_target_fallito": "nessuno: i V avevano già concluso la fase 1 e hanno ricevuto il via solo su g6-r01b",
+  "b02_storia_inventario": "r0 (DUBBIO) -> r1 dopo i ritagli a 600 dpi del 2026-10-14 (g6-r01-fonti-b02) -> definitivo LEGGIBILE dopo i ritagli e codepoint di g6-r01-fonti-b02-r2; r0 e r1 conservati in g6-r01/b02",
+  "base_procedurale": "Specifica strumenti: nuova destinazione dopo preparazione interrotta; precedente vc-ntc2018-3.6-2026-09-11/recupero-confezionamento-g6-r01b.json",
+  "verifiche": [
+    {
+      "blocco": "b01",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "5ef381e5f4f14e0cf94140d1eef1ce2ddf60c1e13cbf92ad8997eb414f7c2137",
+      "rivela": "fallita in g6-r01, OK in g6-r01b"
+    },
+    {
+      "blocco": "b02",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "5e97b44d886c68148cde792a4c08b78f7565976f80349774bea5c37b57f0e2b1",
+      "rivela": "OK dopo il recupero"
+    },
+    {
+      "blocco": "b03",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "0749b26787febe180a141551eb5afef1a3a0f7f6f3e5d870d1f5f94a0e53b262",
+      "rivela": "fallita in g6-r01, OK in g6-r01b"
+    },
+    {
+      "blocco": "b04",
+      "manifest_fonte_identico": true,
+      "inventario_identico": true,
+      "sha256_inventario": "a700778264d10955c14d81c767a839eb5ba83f35787e17f7729ab004f63e03ab",
+      "rivela": "OK dopo il recupero"
+    }
+  ],
+  "giri_consumati_prima_recupero": 0
+}
