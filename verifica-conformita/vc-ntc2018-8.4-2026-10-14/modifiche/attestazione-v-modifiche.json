@@ -1,0 +1,63 @@
+{
+ "firma": "V, subagente Claude Opus a contesto nuovo, CC cloud",
+ "data": "2026-10-14",
+ "fonti": [
+  "b01/fonte-circ-256.png (C02, C03)",
+  "b01/fonte-circ-257.png (C24)",
+  "b01/fonte-ntc-296.png (N33)",
+  "c02-circ256-categorie-600dpi.png",
+  "c03-circ256-fine-nota2-600dpi.png",
+  "c24-circ257-condizioni-600dpi.png",
+  "n33-ntc296-condizione-a-600dpi.png"
+ ],
+ "diff": {
+  "righe_modificate": [
+   21,
+   23,
+   99,
+   111
+  ],
+  "righe_totali_prima_dopo": [
+   111,
+   111
+  ],
+  "conformita": "Ho ricalcolato io il diff fra b01/testo.md e testo-dopo.md: coincide con diff-testo.txt. Le righe 21, 99 e 111 differiscono solo per l'aggiunta di asterischi (6, 2 e 8): tolti gli asterischi, le righe sono identiche a prima. La riga 23 differisce solo per il punto finale tolto. Nessun'altra modifica."
+ },
+ "rilievi": [
+  {
+   "id": "C03",
+   "esito": "RISOLTO",
+   "motivo": "La nota 2 ora finisce con 'sicurezza' senza punto, come nella fonte (ritaglio c03 a 600 dpi e PNG nativa). L'anomalia della fonte è conservata."
+  },
+  {
+   "id": "C02",
+   "esito": "RISOLTO",
+   "motivo": "Il corsivo è sulle tre denominazioni, con le virgole fuori dal corsivo; le parole sono invariate. Il ritaglio c02 a 600 dpi mostra 'riparazione o intervento locale' e 'adeguamento' in corsivo; 'miglioramento' è fuori dal ritaglio, ma è in corsivo nella PNG nativa fonte-circ-256."
+  },
+  {
+   "id": "C24",
+   "esito": "RISOLTO",
+   "motivo": "Il corsivo è sulle sole lettere b, c, d, e, con le parentesi in tondo e 'od' in tondo: coincide con il ritaglio c24 a 600 dpi."
+  },
+  {
+   "id": "N33",
+   "esito": "RISOLTO",
+   "motivo": "Nel ritaglio n33 a 600 dpi 'a)' è in corsivo e il punto che segue è in tondo, dritto. La mia lettura in fase G6 (punto compreso nel corsivo) era sbagliata; la lettura del coordinatore è giusta. Il corpus ora riporta '*a)*.', conforme. La codifica PDF citata dal coordinatore non mi è stata consegnata: confermo sul ritaglio."
+  },
+  {
+   "id": "C16/C18/C20/C22",
+   "esito": "CHIUSO PER DECISIONE DI SANDRO",
+   "motivo": "Il grassetto non è stato riprodotto e il testo è invariato: le righe del diff non toccano nessuna ζE né la punteggiatura interessata, e il pedice e i valori restano identici. La decisione non tocca il contenuto; resta da registrarla nel verbale."
+  }
+ ],
+ "resa": "resa-dopo p01: corsivo sulle tre denominazioni di C02 e nota 2 senza punto finale. p04: '*a)*' in corsivo e il punto dopo in tondo. p05: b, c, d, e in corsivo con le parentesi in tondo. Le pagine p02 e p03 hanno la stessa impronta sha256 delle resa-target del G6, quindi sono invariate.",
+ "residui": [
+  "Registrare nel verbale la decisione di Sandro su C16/C18/C20/C22 (anomalia tipografica della fonte non riprodotta)."
+ ],
+ "osservazioni_non_bloccanti": [
+  "Il ritaglio c02 a 600 dpi taglia a destra la parola 'miglioramento'. L'ho verificata sulla PNG nativa: come prova di dettaglio basta, perché la decisione riguarda lo stile di una parola intera e non un glifo.",
+  "Correggo la mia lettura di N33 nel rapporto G6: il punto dopo 'a)' è in tondo."
+ ],
+ "esito": "OK",
+ "limiti": "Non ho letto resa-dopo.pdf, ma le sue PNG a 200 dpi, e non ho letto la codifica PDF della fonte. Ho letto soltanto b01, invariata, e questa cartella. I ritagli di lavoro m1-m3.png, ricavati dalla resa-dopo, li ho salvati nella cartella vc84, fuori da entrambe le cartelle autorizzate. Non ho rifatto il confronto integrale."
+}
