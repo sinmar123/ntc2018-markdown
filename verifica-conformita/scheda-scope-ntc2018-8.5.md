@@ -14,13 +14,13 @@ file_markdown: [cap08/8.5-introduzione.md, cap08/8.5.1-modello-riferimento-anali
 righe_registro: ["8.5", "8.5.1", "8.5.2", "8.5.3", "8.5.4", "8.5.5"]
 snapshot_iniziale: verifica-conformita/vc-ntc2018-8.5-2026-10-14/snapshot-iniziale.json
 snapshot_iniziale_sha256: 518675848c7fd227c06191a33a17f81ea070be081a899777a1707fc6a34c785d
-snapshot_sha256: da-congelare
+snapshot_sha256: 192309df7472efee19155003f2f11f539e1485a1b4517409ddb1c0b2ff260534
 giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: DA_FARE}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: DA_FARE}
 attesa_decisione: []
-prossimo_passo: "controllo delle modifiche dei quattro V, poi manifest, verbale e G7"
+prossimo_passo: "G7 di V sul manifest di rilascio"
 routing_effettivo:
   C: {agente: "CC cloud (CCC)", modello: claude-opus-5-5}
   preparazione: "script di strumenti/"
@@ -62,3 +62,9 @@ Riscontro di C sulla codifica dei PDF e su ritagli fino a 1200 dpi (`c-g6/`). Re
 
 Decisioni di Sandro, 2026-10-14: ripristinare capoversi ed enfasi; rubriche come nella fonte (senza punto, in maiuscolo, come § C3.1.4 e § 8.4); greche come simboli; un solo trattino nella colonna fv0 (D2). Lista unica `lista-correzioni-g6.json` approvata («Sì, applica tutto»): 66 voci E, 21 O, 17 R, 86 C, con D3-D7; dopo il controllo della resa, approvate anche O22-O23 (X media come simbolo). Le voci sono state generate da script sulla codifica del PDF (`strumenti-lista-g6/`) e applicate da script; indici interni rigenerati con `genera-indici-interni.py`. Controllo meccanico: la lista riapplicata ai file di partenza ridà il corpus, esclusi gli indici interni (`modifiche/controllo-script.json`). Resa dopo: 21 pagine, nessun glifo mancante, nessun tag tondo; sito costruito con `mkdocs build --strict` e `controlla-sito.py` OK.
 
+
+## Controllo delle modifiche e preparazione del G7, 2026-10-14
+
+Controllo delle modifiche (§ 8) dei quattro V sul proprio blocco. Il primo pacchetto era confezionato male da C (testo composto file per file anziché Norma prima e Circolare dopo, come nel G6): segnalato da V b03 e V b04 come ERR-AUDIT, conservato in `modifiche-r01-pacchetto-errato/`. Rifatto con la composizione del G6 (`modifiche/`): esito OK nei quattro blocchi, nessun rilievo residuo; osservazione non bloccante di V b02 sulla testata ripetuta della Tab. C8.5.II nella resa PDF. G6 chiuso `OK` per il giro 1 dopo correzioni e controllo delle modifiche, come nell'8.4.
+
+Snapshot finale dei sei file (`snapshot-finale.json`), verbale `verbale-VC-ntc2018-8.5-2026-10-14.md`, manifest di rilascio `manifest-rilascio.json`.

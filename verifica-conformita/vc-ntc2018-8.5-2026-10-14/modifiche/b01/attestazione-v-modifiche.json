@@ -1,0 +1,95 @@
+{
+ "firma": "V b01, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito": "OK",
+ "pacchetto": "modifiche-r2/b01 (sostituisce modifiche/b01, dove resta la prima attestazione)",
+ "voci_controllate": [
+  "E1",
+  "E2",
+  "E3",
+  "E4",
+  "E5",
+  "E6",
+  "E7",
+  "E8",
+  "E9",
+  "O21",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "C1",
+  "C2",
+  "C3",
+  "C4",
+  "C5",
+  "C6",
+  "C7",
+  "C8",
+  "C9",
+  "C10",
+  "C11",
+  "C12",
+  "C13",
+  "C14",
+  "C15",
+  "C16",
+  "C17",
+  "C18",
+  "C19",
+  "C20",
+  "C21",
+  "C22",
+  "C23",
+  "C24",
+  "C25",
+  "C26"
+ ],
+ "decisioni_applicabili": [
+  "D4",
+  "D5"
+ ],
+ "metodo": "La lista è byte-identica a quella del primo pacchetto. Le voci sono state applicate per simulazione a testo.md di g6-r01b/b01 (ordine E, O, R, C, poi O22-O23; ogni stringa unica): nel blocco si applicano 41 voci, mentre O22 e O23 (Circolare p. 266) non lo toccano. Il risultato coincide con testo-dopo.md riga per riga, salvo la riga vuota finale, che manca (spaziatura, catalogo n. 1). Rigenerato il diff fra testo.md e testo-dopo.md: è byte-identico a diff-testo.txt (112 righe). Ogni voce è stata riconfrontata con le pagine fonte e con i ritagli della fase 1. resa-dopo.pdf pp. 1-6 confrontata parola per parola con testo-dopo.md, con verifica di font, codepoint, posizioni e ritaglio a 600 dpi.",
+ "esiti_voci": {
+  "E1": "conforme: 'situ' in LMRoman10-Italic (resa p. 2)",
+  "E2-E7": "conformi alla fonte, compreso lo stile dei due punti (c258a.png, c259a.png): nella resa pp. 4-5 le etichette sono in BoldItalic; i due punti sono in Bold per E2, E4, E5, E7, dentro lo span BoldItalic per E3 e in Regular per E6",
+  "E8-E9": "conformi: sottotitoli in BoldItalic su riga propria a x = 57 pt (resa p. 6), il primo senza punteggiatura e il secondo con i due punti (c259b.png, c259c.png)",
+  "O21": "conforme: $\\gamma_G$; nella resa p. 3 γ U+1D6FE e G U+1D43A a 7 pt, γ visibile (ritaglio r2-p03-gammaG-600.png)",
+  "R1-R5": "conformi: numero senza punto e titolo in maiuscolo come in fonte; il maiuscoletto di C8.5.2.1 e C8.5.2.2 è reso in maiuscolo",
+  "C1-C26": "conformi: i 26 punti di divisione corrispondono uno a uno ai capoversi distinti della fonte (C8.5: 6; C8.5.1: 3; C8.5.2.1: 4; C8.5.2.2: 13). Nella resa p. 6 'Dall'esito…', 'A titolo esemplificativo…' e il sottotitolo stanno fuori dall'elenco (x = 56-57 pt contro i 69 pt delle voci)"
+ },
+ "rilievi_g6": [
+  {
+   "rilievo": "N-855-F1",
+   "stato": "risolto da O21"
+  },
+  {
+   "rilievo": "C-8522-L3/P15/P16/T1",
+   "stato": "risolto da C24, C25, C26 ed E8"
+  },
+  {
+   "rilievo": "capoversi fusi",
+   "stato": "risolto da C1-C23"
+  },
+  {
+   "rilievo": "enfasi",
+   "stato": "risolto da E1-E9; le cinque sottolineature restano non riprodotte per decisione D4 (estensione di D1) e i marcatori di elenco per la convenzione D5: respingimento motivato, accettato"
+  },
+  {
+   "rilievo": "rubriche Circolare",
+   "stato": "risolto da R1-R5"
+  }
+ ],
+ "cambiamenti_estranei": "Nessuno. Fuori dalle 41 voci, testo-dopo.md è identico a testo.md, salvo la riga vuota finale. Nella resa le sole differenze rispetto a testo-dopo.md sono apparati di navigazione (catalogo n. 11), marcatori di elenco (D5) e legature tipografiche.",
+ "rilievi_residui": [],
+ "letture": [
+  "modifiche-r2/b01/lista-correzioni-g6.json (integrale)",
+  "modifiche-r2/b01/diff-testo.txt (integrale; confrontato byte per byte con il diff rigenerato)",
+  "modifiche-r2/b01/testo-dopo.md (integrale)",
+  "modifiche-r2/b01/resa-dopo.pdf (pp. 1-6 per il perimetro: testo, font, codepoint e posizioni; ritaglio a 600 dpi)",
+  "g6-r01b/b01/testo.md e fonti PNG; ritagli della fase 1 in g6-r01-lavoro/b01/",
+  "g6-r01-lavoro/b01/: simula.py, testo-simulato.md, diff-r2-rigenerato.txt, wdiff.py, r2-p03-gammaG-600.png",
+  "prima attestazione in modifiche/b01 (primo tentativo, sul pacchetto sostituito)"
+ ],
+ "isolamento": "Letti solo modifiche-r2/b01, modifiche/b01, g6-r01b/b01 e g6-r01-lavoro/b01. Non aperti coordinamento.json, le altre cartelle b0x né il repository. Nessun input modificato; in modifiche-r2/b01 è stato scritto solo questo file."
+}

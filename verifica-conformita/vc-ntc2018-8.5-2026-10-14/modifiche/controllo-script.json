@@ -1,0 +1,15 @@
+{
+ "firma": "CC cloud (CCC), coordinatore C",
+ "data": "2026-10-14",
+ "controllo": "Le 192 voci della lista (E, O, R, C, poi O22-O23) riapplicate da script ai file del commit c648955 producono gli stessi file del corpus, esclusi i blocchi INDICE-INTERNO rigenerati da strumenti/genera-indici-interni.py (--verifica: 311 file, 1754 collegamenti). Ogni voce ha trovato la sua stringa una sola volta. Le lettere e cifre del testo cambiano solo dove la lista lo prevede (maiuscole delle rubriche, apice ², \\mu \\sigma \\kappa \\gamma \\overline \\text, testata della Tab. C8.5.II).",
+ "lista_sha256": "1e4fe40706dcf3c6ec272f4764f0b9f638da9d3ab98e94f1b423664c0b16a698",
+ "file_dopo": {
+  "cap08/8.5-introduzione.md": "3b6931a00951f21b8322577d5a718a991f33b16f7b6ae456c1a17e46fb1f3ac1",
+  "cap08/8.5.1-modello-riferimento-analisi-analisi-storico-critica.md": "a5e7dec4a8a8a4a9804fc58394c0db9287be7c6183d872adce9ad9b988b4dd75",
+  "cap08/8.5.2-modello-riferimento-analisi-rilievo.md": "b38b46841388d1040f5d2c7e454b7fba2435a7a10860695150e9fdfb746f8cc2",
+  "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md": "dc9af032a6a935ce362b40e62bd57d6d7350ff24a338ffebf66e896049651009",
+  "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md": "b2bdcedd7f36b38d456e9687825b7bde5d8ffa6616995971a3550d909544b4ba",
+  "cap08/8.5.5-modello-riferimento-analisi-azioni.md": "17649ccb3a933834e0d7d2c9d2792360de645cffdd077ef2102015124c80b42a"
+ },
+ "resa_dopo_sha256": "bee19c2f71ea52a10958fece36bcaaabfff897d72bfe88ae3879615512b3df6d"
+}

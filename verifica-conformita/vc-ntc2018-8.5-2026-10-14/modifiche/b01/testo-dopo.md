@@ -1,0 +1,167 @@
+# 8.5. DEFINIZIONE DEL MODELLO DI RIFERIMENTO PER LE ANALISI
+
+Nelle costruzioni esistenti le situazioni concretamente riscontrabili sono le più diverse ed è quindi impossibile prevedere regole specifiche per tutti i casi. Di conseguenza, il modello per la valutazione della sicurezza dovrà essere definito e giustificato dal progettista, caso per caso, in relazione al comportamento strutturale atteso, tenendo conto delle indicazioni generali di seguito esposte.
+
+# 8.5.1. ANALISI STORICO-CRITICA
+
+Ai fini di una corretta individuazione del sistema strutturale e del suo stato di sollecitazione è importante ricostruire il processo di realizzazione e le successive modificazioni subite nel tempo dalla costruzione, nonché gli eventi che l’hanno interessata.
+
+# 8.5.2. RILIEVO
+
+Il rilievo geometrico-strutturale dovrà essere riferito alla geometria complessiva, sia della costruzione, sia degli elementi costruttivi, comprendendo i rapporti con le eventuali strutture in aderenza. Nel rilievo dovranno essere rappresentate le modificazioni intervenute nel tempo, come desunte dall’analisi storico-critica.
+
+Il rilievo deve individuare l’organismo resistente della costruzione, tenendo anche presenti la qualità e lo stato di conservazione dei materiali e degli elementi costitutivi.
+
+Dovranno altresì essere rilevati i dissesti, in atto o stabilizzati, ponendo particolare attenzione all’individuazione dei quadri fessurativi e dei meccanismi di danno.
+
+# 8.5.3. CARATTERIZZAZIONE MECCANICA DEI MATERIALI
+
+Per conseguire un’adeguata conoscenza delle caratteristiche dei materiali e del loro degrado, ci si baserà sulla documentazione già disponibile, su verifiche visive in *situ* e su indagini sperimentali. Le indagini dovranno essere motivate, per tipo e quantità, dal loro effettivo uso nelle verifiche; nel caso di costruzioni sottoposte a tutela, ai sensi del D.Lgs. 42/2004, di beni di interesse storico-artistico o storico-documentale o inseriti in aggregati storici e nel recupero di centri storici o di insediamenti storici, dovrà esserne considerato l’impatto in termini di conservazione. I valori di progetto delle resistenze meccaniche dei materiali verranno valutati sulla base delle indagini e delle prove effettuate sulla struttura, tenendo motivatamente conto dell’entità delle dispersioni, prescindendo dalle classi discretizzate previste nelle norme per le nuove costruzioni. Per le prove di cui alla Circolare 08 settembre 2010, n. 7617/STC o eventuali successive modifiche o interazioni, il prelievo dei campioni dalla struttura e l’esecuzione delle prove stesse devono essere effettuate a cura di un laboratorio di cui all’articolo 59 del DPR 380/2001.
+
+# 8.5.4. LIVELLI DI CONOSCENZA E FATTORI DI CONFIDENZA
+
+Sulla base degli approfondimenti effettuati nelle fasi conoscitive sopra riportate, saranno individuati i “livelli di conoscenza” dei diversi parametri coinvolti nel modello e definiti i correlati fattori di confidenza, da utilizzare nelle verifiche di sicurezza.
+
+Ai fini della scelta del tipo di analisi e dei valori dei fattori di confidenza si distinguono i tre livelli di conoscenza seguenti, ordinati per informazione crescente:
+
+- LC1;
+
+- LC2;
+
+- LC3.
+
+Gli aspetti che definiscono i livelli di conoscenza sono: geometria della struttura, dettagli costruttivi, proprietà dei materiali, connessioni tra i diversi elementi e loro presumibili modalità di collasso.
+
+Specifica attenzione dovrà essere posta alla completa individuazione dei potenziali meccanismi di collasso locali e globali, duttili e fragili.
+
+# 8.5.5. AZIONI
+
+I valori delle azioni e le loro combinazioni da considerare nel calcolo, sia per la valutazione della sicurezza sia per il progetto degli interventi, sono quelle definite dalla presente norma per le nuove costruzioni, salvo quanto precisato nel presente capitolo.
+
+Per i carichi permanenti, un accurato rilievo geometrico-strutturale e dei materiali potrà consentire di adottare coefficienti parziali modificati, assegnando a $\gamma_G$ valori esplicitamente motivati. I valori di progetto delle altre azioni saranno quelli previsti dalla presente norma.
+
+## C8.5 DEFINIZIONE DEL MODELLO DI RIFERIMENTO PER LE ANALISI
+La definizione di modelli di riferimento che descrivano il comportamento dell’edificio costituisce certamente una delle fasi più complesse dell’intera procedura di analisi. Infatti, considerando la grande varietà di costruzioni esistenti, non è possibile indicare procedure di modellazione. Tali problematiche diventano, poi, particolarmente rilevanti per le costruzioni in muratura, anche a causa delle numerose incertezze relative agli stati di sollecitazione in atto, ai tipi di materiale impiegati e al loro comportamento meccanico, al grado di connessione tra gli elementi strutturali e alla loro morfologia interna, oltre che agli eventuali interventi di trasformazione, riparazione o consolidamento già attuati in passato.
+
+L’adeguata conoscenza del manufatto è presupposto fondamentale e fase imprescindibile per la comprensione di singole criticità e del comportamento strutturale; l’attendibilità dei risultati, dunque, è strettamente legata al livello di conoscenza.
+
+È opportuno sottolineare che le fasi della conoscenza e dell’analisi non sono sequenziali, ma strettamente connesse.
+
+Il piano delle indagini, ad esempio, può essere efficacemente indirizzato, in relazione sia alla tipologia delle prove, sia alla loro localizzazione, da un’analisi basata su dati preliminari relativi alle caratteristiche geometriche, costruttive e dei materiali. In tal modo è possibile identificare le zone critiche nei riguardi degli stati limite ultimi, investigando eventualmente la sensibilità della risposta alle incertezze sui principali parametri, e quindi razionalizzare il piano delle indagini sperimentali, anche in considerazione della loro onerosità ed invasività.
+
+Per gli edifici in muratura, anche considerate le conoscenze acquisibili, le verifiche nei riguardi di tutte le azioni possono essere eseguite utilizzando, quando previsto, un coefficiente $\gamma_M$ non inferiore a 2 (Tab. 4.5.II in § 4.5.6.1 e § 7.8.1.1 delle NTC).
+
+In relazione al livello di conoscenza, le NTC definiscono opportuni fattori di confidenza, da intendersi come indici del livello di approfondimento raggiunto dalle indagini; è attraverso di essi che si possono ridurre i valori attribuiti ai parametri meccanici dei materiali. In determinate circostanze, i valori dei fattori di confidenza possono essere differenziati per i diversi materiali o per specifici elementi strutturali, nel modo illustrato nel seguito.
+
+Indicazioni specifiche riguardanti le modalità di svolgimento delle analisi strutturali per la valutazione della sicurezza, sia nello stato di fatto, sia a seguito della realizzazione di interventi, sono riportate nel § 8.7 delle NTC.
+
+### C8.5.1 ANALISI STORICO-CRITICA
+
+La conoscenza della storia di un fabbricato è elemento indispensabile, sia per la valutazione della sicurezza attuale, sia per la definizione degli interventi e la previsione della loro efficacia.
+
+L’analisi storica deve essere finalizzata a comprendere le vicende costruttive, i dissesti, i fenomeni di degrado, i cimenti subiti dall’edificio e, particolarmente frequenti nelle costruzioni in muratura, le trasformazioni operate dall’uomo che possono aver prodotto cambiamenti nell’assetto statico originario. In tal senso l’indagine storica diventa indagine critica e fonte, per eccellenza, di documentazione e conoscenza finalizzate all’interpretazione del comportamento strutturale.
+
+L’analisi inizia con il reperire tutti i documenti disponibili sulle origini del fabbricato quali, ad esempio, elaborati e relazioni progettuali della prima realizzazione della costruzione e di eventuali successivi interventi, elaborati e rilievi già prodotti, eventuali relazioni di collaudo e riguarda:
+
+- l'epoca di costruzione;
+
+- le tecniche, le regole costruttive e, se esistenti, le norme tecniche dell’epoca di costruzione;
+
+- la forma originaria e le successive modifiche;
+
+- i traumi subiti e le alterazioni delle condizioni al contorno;
+
+- le deformazioni, i dissesti e i quadri fessurativi, con indicazioni, ove possibile, della loro evoluzione nel tempo;
+
+- gli interventi di consolidamento pregressi;
+
+- gli aspetti urbanistici e storici che hanno regolato lo sviluppo dell’aggregato edilizio di cui l'edificio è parte.
+
+Risulta, in generale, utile anche la conoscenza delle patologie o delle carenze costruttive evidenziate da edifici simili per tipologia ed epoca di costruzione.
+
+In definitiva, questa fase deve permettere di interpretare la condizione attuale dell’edificio come risultato di una serie di vicende statiche e di trasformazioni che si sono sovrapposte nel tempo.
+
+### C8.5.2 RILIEVO
+
+#### C8.5.2.1 COSTRUZIONI DI MURATURA
+
+Nelle costruzioni di muratura, vista la grande varietà di materiali e tecniche costruttive impiegate, riveste un ruolo di primaria importanza la conoscenza della composizione degli elementi costruttivi e delle caratteristiche dei collegamenti, a partire dalla tipologia e disposizione dei materiali e dalla presenza di discontinuità; in questo ambito, la verifica dell’efficacia degli incatenamenti, siano essi lignei o metallici, merita una particolare attenzione.
+
+Nel rilievo si possono individuare tre livelli di indagine, in relazione al loro grado di approfondimento.
+
+***Indagini limitate*:** sono generalmente basate su indagini di tipo visivo che, al rilievo geometrico delle superfici esterne degli elementi costruttivi, uniscono saggi che consentano di esaminare, almeno localmente, le caratteristiche della muratura sotto intonaco e nello spessore, caratterizzando così la sezione muraria, il grado di ammorsamento tra pareti ortogonali e le zone di appoggio dei solai, i dispositivi di collegamento e di eliminazione delle spinte.
+
+***Indagini estese:*** i rilievi e le indagini in-situ indicati al punto precedente, sono accompagnati da saggi più estesi e diffusi così da ottenere tipizzazioni delle caratteristiche dei materiali e costruttive e una aderenza delle indicazioni fedele alla reale varietà della costruzione.
+
+***Indagini esaustive*:** oltre a quanto indicato al punto precedente, le indagini sono estese in modo sistematico con il ricorso a saggi che consentano al tecnico di formarsi un’opinione chiara sulla morfologia e qualità delle murature, sul rispetto della regola dell’arte nella disposizione dei materiali, sia in superficie che nello spessore murario, sull’efficacia dell’ammorsamento tra le pareti e dei dispositivi di collegamento e di eliminazione delle spinte, oltre che sulle caratteristiche degli appoggi degli elementi orizzontali.
+
+#### C8.5.2.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO
+
+Il rilievo è finalizzato alla definizione sia della geometria esterna, sia dei dettagli di tutti gli elementi costruttivi effettivamente raggiungibili, con funzione strutturale o meno. Per gli elementi aventi funzione strutturale la geometria esterna deve essere sempre descritta in maniera la più completa possibile, allo scopo di ottenere un modello di calcolo affidabile, mentre i dettagli, spesso occultati alla vista (ad esempio la disposizione delle armature), possono essere rilevati a campione, estendendo poi le valutazioni agli altri elementi operando per analogia, anche in forza delle norme vigenti e dei prodotti in commercio all’epoca della costruzione.
+
+Il rilievo di manufatti che non hanno funzione strutturale (pareti divisorie, controsoffitti, impianti) deve essere effettuato con l’obiettivo principale di identificare eventuali rischi per la sicurezza degli abitanti, connessi a problemi di stabilità dei manufatti stessi o delle strutture. Particolarmente pericolose si sono rivelate, in occasione di eventi sismici, le pareti di tamponamento formate da più paramenti accostati e privi di adeguati collegamenti tra loro o/e separati da intercapedini isolanti, ancor più quando non sono contenute in riquadri strutturali.
+
+Il rilievo geometrico degli elementi deve permettere:
+
+- l’identificazione dell’organizzazione strutturale;
+
+- l’individuazione della posizione e delle dimensioni di travi, pilastri, scale e setti;
+
+- l’identificazione dei solai e della loro tipologia, orditura, sezione verticale;
+
+- l’individuazione di tipologia e dimensioni degli elementi non strutturali quali tamponamenti, tramezzature, etc.
+
+In particolare, per le costruzioni in acciaio, i dati raccolti devono includere anche:
+
+- la forma originale dei profili e le loro dimensioni geometriche;
+
+- la tipologia e morfologia delle unioni.
+
+Nel caso in cui la geometria della struttura sia nota dai disegni originali, deve essere comunque eseguito il rilievo visivo a campione per verificare l’effettiva corrispondenza del costruito ai disegni di progetto.
+
+Nel definire il comportamento della costruzione in presenza di sisma sono di particolare importanza i dettagli costruttivi; le informazioni su di essi possono essere desunte dai disegni originali, da un progetto simulato o da indagini in situ.
+
+Il progetto simulato, eseguito sulla base delle norme tecniche in vigore all’epoca della costruzione e della corrispondente pratica costruttiva, è utile per fornire informazioni su quantità e disposizione dell’armatura negli elementi con funzione strutturale e sulle caratteristiche dei collegamenti.
+
+Sia che si disponga dei disegni originali, sia che si sia prodotto un progetto simulato, per verificarne la rispondenza alla realtà del costruito in termini di particolari costruttivi occorre effettuare rilievi in situ. Nei rilievi si possono individuare tre livelli di indagine, in relazione al loro grado di approfondimento.
+
+***Indagini limitate*:** consentono di valutare, mediante saggi a campione, la corrispondenza tra le caratteristiche dei collegamenti riportate negli elaborati progettuali originali o ottenute attraverso il progetto simulato, e quelle effettivamente presenti.
+
+***Indagini estese***: si effettuano quando non sono disponibili gli elaborati progettuali originali, o come alternativa al progetto simulato seguito da indagini limitate, oppure quando gli elaborati progettuali originali risultano incompleti.
+
+***Indagini esaustive*:** si effettuano quando si desidera un livello di conoscenza accurata e non sono disponibili gli elaborati progettuali originali.
+
+Le indagini in-situ basate su saggi sono effettuate su una congrua percentuale degli elementi strutturali, privilegiando, tra le tipologie di elementi strutturali (travi, pilastri, pareti…), quelle che rivestono un ruolo di primaria importanza nella struttura.
+
+Il quantitativo di indagini in-situ basate su saggi dipende dal livello di conoscenza desiderato in relazione al grado di sicurezza attuale e deve essere accuratamente valutato, anche in vista delle notevoli conseguenze che comporta sulla progettazione degli interventi.
+
+Al fine di determinare, in maniera opportuna, il numero e la localizzazione delle indagini in-situ da effettuare, è utile eseguire, a seguito del rilievo geometrico:
+
+- una campagna preliminare di indagini in-situ volta alla conoscenza dei dettagli costruttivi ritenuti più significativi;
+
+- un’analisi preliminare della sicurezza statica e della vulnerabilità sismica dell’edificio, eseguita estendendo il risultato dei
+rilievi dei particolari costruttivi (sfruttando anche eventuali simmetrie o situazioni ripetitive della struttura) agli elementi simili per dimensioni e/o impegno statico, eventualmente utilizzando i risultati preliminari delle prove sui materiali come definite al § C8.5.3.2.
+
+Dall’esito, in termini di impegno statico e ruolo delle diverse membrature nella sicurezza della struttura, fornito dall’analisi preliminare può scaturire la necessità di approfondimenti in termini di numero, tipologia e localizzazione delle indagini in-situ basate su saggi; il progetto delle indagini ne fornisce la misura, consentendo così di graduare quantitativamente il livello di approfondimento.
+
+A titolo esemplificativo e quando realmente possibile, il rilievo dei dettagli costruttivi è finalizzato a conseguire le seguenti informazioni:
+
+***Costruzioni di calcestruzzo armato***
+
+- quantità di armatura longitudinale in travi, pilastri, pareti e sua disposizione;
+
+- quantità di barre di armatura piegate che contribuiscono alla resistenza a taglio, presenti nelle travi;
+
+- quantità e dettagli di armatura trasversale nelle zone critiche e nei nodi trave-pilastro;
+
+- quantità di armatura longitudinale che contribuisce al momento negativo di travi a T, presente nei solai;
+
+- lunghezze di appoggio e condizioni di vincolo degli elementi orizzontali;
+
+- spessore dei copriferri;
+
+- lunghezza delle zone di sovrapposizione delle barre e dei loro ancoraggi;
+
+***Costruzioni di acciaio:***
+
+- tipologia e localizzazione dei giunti tra le membrature;

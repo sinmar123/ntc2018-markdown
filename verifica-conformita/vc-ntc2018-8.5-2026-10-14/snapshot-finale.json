@@ -1,0 +1,35 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "cap08/8.5-introduzione.md",
+      "bytes": 3390,
+      "sha256": "3b6931a00951f21b8322577d5a718a991f33b16f7b6ae456c1a17e46fb1f3ac1"
+    },
+    {
+      "path": "cap08/8.5.1-modello-riferimento-analisi-analisi-storico-critica.md",
+      "bytes": 2757,
+      "sha256": "a5e7dec4a8a8a4a9804fc58394c0db9287be7c6183d872adce9ad9b988b4dd75"
+    },
+    {
+      "path": "cap08/8.5.2-modello-riferimento-analisi-rilievo.md",
+      "bytes": 10955,
+      "sha256": "b38b46841388d1040f5d2c7e454b7fba2435a7a10860695150e9fdfb746f8cc2"
+    },
+    {
+      "path": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+      "bytes": 31300,
+      "sha256": "dc9af032a6a935ce362b40e62bd57d6d7350ff24a338ffebf66e896049651009"
+    },
+    {
+      "path": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+      "bytes": 24473,
+      "sha256": "b2bdcedd7f36b38d456e9687825b7bde5d8ffa6616995971a3550d909544b4ba"
+    },
+    {
+      "path": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+      "bytes": 3401,
+      "sha256": "17649ccb3a933834e0d7d2c9d2792360de645cffdd077ef2102015124c80b42a"
+    }
+  ]
+}
