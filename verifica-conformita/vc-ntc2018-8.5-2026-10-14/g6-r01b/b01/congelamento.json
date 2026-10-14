@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-14T14:24:36.096246+00:00",
+  "firma": "V b01, subagente Claude Opus a contesto nuovo, CC cloud",
+  "inventario_sha256": "5ef381e5f4f14e0cf94140d1eef1ce2ddf60c1e13cbf92ad8997eb414f7c2137",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "cf92aa13d12237ab71ff18eb2f8232eff9027fe9a80afc2a862478044f4bb437",
+  "manifest_fonte_sha256": "de540f32523043a0367b4495349f3a917c7d6faca944264fdc3c8df824785a09"
+}

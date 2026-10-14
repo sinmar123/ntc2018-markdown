@@ -1,0 +1,374 @@
+{
+ "firma": "V b03, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito_provvisorio": "LEGGIBILE",
+ "elementi": [
+  {
+   "id": "P263-01",
+   "pagina": "circ:263",
+   "riferimento": "capoverso 1, righe 1-3 dalla testa del testo: «In tal caso non si applicano ...» fino a «... su un solo paramento.» (prosegue dalla pagina precedente, fuori perimetro)"
+  },
+  {
+   "id": "P263-02",
+   "pagina": "circ:263",
+   "riferimento": "capoverso 2, 4 righe: «Nell'adozione degli eventuali coefficienti migliorativi ...» fino a «... con iniezioni.»"
+  },
+  {
+   "id": "P263-03",
+   "pagina": "circ:263",
+   "riferimento": "rubrica in corsivo grassetto «Consolidamento con diatoni artificiali o tirantini antiespulsivi»"
+  },
+  {
+   "id": "P263-04",
+   "pagina": "circ:263",
+   "riferimento": "capoverso dopo la rubrica P263-03, 4 righe, «Nel caso dell'inserimento di diatoni artificiali ...» fino a «(f).», con «f» in grassetto"
+  },
+  {
+   "id": "P263-05",
+   "pagina": "circ:263",
+   "riferimento": "rubrica in corsivo grassetto «Consolidamento con ristilatura armata e connessione dei paramenti»"
+  },
+  {
+   "id": "P263-06",
+   "pagina": "circ:263",
+   "riferimento": "capoverso dopo la rubrica P263-05, 2 righe, «Il coefficiente indicato in tabella ...» fino a «... ridotta del 50%.»"
+  },
+  {
+   "id": "P263-07",
+   "pagina": "circ:263",
+   "riferimento": "capoverso «Questa tecnica (con i relativi coefficienti migliorativi) ...», 3 righe, fino a «... connessione trasversale.»"
+  },
+  {
+   "id": "P263-08",
+   "pagina": "circ:263",
+   "riferimento": "capoverso «I valori sopra indicati in tabella ...», 3 righe, fino a «... un utile riferimento.»"
+  },
+  {
+   "id": "P263-09",
+   "pagina": "circ:263",
+   "riferimento": "capoverso «Nel caso di uso combinato di diverse tecniche ...», 2 righe, fino a «... ultima colonna della tabella.»"
+  },
+  {
+   "id": "P263-10",
+   "pagina": "circ:263",
+   "riferimento": "capoverso «Nella caratterizzazione meccanica dei materiali ...», 2 righe, fino a «... tre livelli di prova.»"
+  },
+  {
+   "id": "P263-11",
+   "pagina": "circ:263",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove limitate:», 6 righe, fino a «... sezione muraria.»"
+  },
+  {
+   "id": "P263-12",
+   "pagina": "circ:263",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove estese:», 7 righe, fino a «... e la sua qualità.»"
+  },
+  {
+   "id": "P263-13",
+   "pagina": "circ:263",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove esaustive:», 11 righe, fino a «... per materiali e morfologia.»"
+  },
+  {
+   "id": "P263-14",
+   "pagina": "circ:263",
+   "riferimento": "capoverso «A seguito delle indagini ...», 2 righe, fino a «... nelle modellazioni.»"
+  },
+  {
+   "id": "P263-15",
+   "pagina": "circ:263",
+   "riferimento": "capoverso «A questo scopo possono essere utili metodi ...», 3 righe, fino a «attendibilità.»"
+  },
+  {
+   "id": "P263-16",
+   "pagina": "circ:263",
+   "riferimento": "ultimo capoverso, 1 riga in fondo alla pagina: «Nelle costruzioni con struttura muraria ... (strutture», che prosegue in circ:264 (P264-01)"
+  },
+  {
+   "id": "SIM-263-01",
+   "pagina": "circ:263",
+   "riferimento": "inline in P263-04, riga 4: «(f)» con f in grassetto"
+  },
+  {
+   "id": "SIM-263-02",
+   "pagina": "circ:263",
+   "riferimento": "inline in P263-06, riga 2: gruppo «(f, τ0e fv0)»: f grassetto con virgola grassetto, τ con pedice 0, «e» attaccato al pedice, f grassetto con pedice v0; controllare simboli, pedici e grassetti"
+  },
+  {
+   "id": "SIM-263-03",
+   "pagina": "circ:263",
+   "riferimento": "inline in P263-06, riga 2: «(E , G)» in grassetto, con spazio prima della virgola"
+  },
+  {
+   "id": "NUM-263-01",
+   "pagina": "circ:263",
+   "riferimento": "condizione numerica in P263-06: «ridotta del 50%»"
+  },
+  {
+   "id": "RIN-263-01",
+   "pagina": "circ:263",
+   "riferimento": "rinvio in P263-13: «(§ C8.5)»"
+  },
+  {
+   "id": "RIN-263-02",
+   "pagina": "circ:263",
+   "riferimento": "rinvio a tabella in P263-13: «Tabella C8.5.I»"
+  },
+  {
+   "id": "P264-01",
+   "pagina": "circ:264",
+   "riferimento": "riga 1 in testa: «lignee, solai in c.a., tiranti d'acciaio ecc.), da indagarsi ... specifici Capitoli.» (fine di P263-16)"
+  },
+  {
+   "id": "P264-02",
+   "pagina": "circ:264",
+   "riferimento": "capoverso «Nei casi, previsti dalle NTC, ...», 2 righe, fino a «... sopra riportati.»"
+  },
+  {
+   "id": "P264-03",
+   "pagina": "circ:264",
+   "riferimento": "titolo di paragrafo «C8.5.3.2» con rubrica in maiuscoletto «COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO»"
+  },
+  {
+   "id": "P264-04",
+   "pagina": "circ:264",
+   "riferimento": "capoverso di una riga «I valori delle caratteristiche meccaniche dei materiali prescindono ...»"
+  },
+  {
+   "id": "P264-05",
+   "pagina": "circ:264",
+   "riferimento": "capoverso di una riga «Per definire le caratteristiche meccaniche ... epoca della costruzione.»"
+  },
+  {
+   "id": "P264-06",
+   "pagina": "circ:264",
+   "riferimento": "capoverso con attacco grassetto corsivo «Calcestruzzo»: 2 righe, chiusura «Lavori Pubblici .» con spazio prima del punto"
+  },
+  {
+   "id": "P264-07",
+   "pagina": "circ:264",
+   "riferimento": "capoverso con attacco grassetto corsivo «Acciaio»: 4 righe, fino a «dell'epoca di costruzione.»"
+  },
+  {
+   "id": "P264-08",
+   "pagina": "circ:264",
+   "riferimento": "capoverso con attacco grassetto corsivo «Unioni di elementi d'acciaio» e due punti in grassetto, 3 righe, fino a «... dell'allungamento.»"
+  },
+  {
+   "id": "P264-09",
+   "pagina": "circ:264",
+   "riferimento": "capoverso «Sono ammessi metodi di indagine non distruttiva ...», 2 righe"
+  },
+  {
+   "id": "P264-10",
+   "pagina": "circ:264",
+   "riferimento": "capoverso «Le prove sui materiali, in analogia ...», 2 righe"
+  },
+  {
+   "id": "P264-11",
+   "pagina": "circ:264",
+   "riferimento": "capoverso di una riga «Si possono distinguere, ... tre livelli di prova.»"
+  },
+  {
+   "id": "P264-12",
+   "pagina": "circ:264",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove limitate» (due punti grassetto), 3 righe"
+  },
+  {
+   "id": "P264-13",
+   "pagina": "circ:264",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove estese», 3 righe; contiene «prove limitate» in grassetto corsivo su due righe"
+  },
+  {
+   "id": "P264-14",
+   "pagina": "circ:264",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove esaustive», 4 righe; contiene «prove, limitate o estese» in grassetto corsivo"
+  },
+  {
+   "id": "P264-15",
+   "pagina": "circ:264",
+   "riferimento": "capoverso introduttivo di una riga «Al fine di determinare ... è utile:»"
+  },
+  {
+   "id": "P264-16",
+   "pagina": "circ:264",
+   "riferimento": "elenco a trattini di 2 voci dopo P264-15: voce 1 «eseguire un numero limitato di indagini preliminari ...» (3 righe), voce 2 «eseguire un'analisi per la verifica preliminare ...» (2 righe, chiude con «(§ C8.5.2.2).»)"
+  },
+  {
+   "id": "P264-17",
+   "pagina": "circ:264",
+   "riferimento": "capoverso «In base all'esito dell'analisi preliminare ...», 5 righe, fino a «approfondimento.»"
+  },
+  {
+   "id": "P264-18",
+   "pagina": "circ:264",
+   "riferimento": "capoverso introduttivo di una riga «Per l'identificazione delle caratteristiche dei materiali, ... caratteristiche:»"
+  },
+  {
+   "id": "P264-19",
+   "pagina": "circ:264",
+   "riferimento": "elenco a trattini di 2 voci dopo P264-18: «resistenza e, ove significativo, il modulo elastico E del calcestruzzo;» e «tensione di snervamento, resistenza a rottura e allungamento dell'acciaio.»"
+  },
+  {
+   "id": "P264-20",
+   "pagina": "circ:264",
+   "riferimento": "titolo di paragrafo «C8.5.3.3» con rubrica in maiuscoletto «COSTRUZIONI DI LEGNO»"
+  },
+  {
+   "id": "P264-21",
+   "pagina": "circ:264",
+   "riferimento": "capoverso «L'esame degli elementi costruttivi prevede  indagini ...» (doppio spazio nella fonte), 2 righe"
+  },
+  {
+   "id": "P264-22",
+   "pagina": "circ:264",
+   "riferimento": "capoverso «Riguardo alla caratterizzazione del materiale ...», 4 righe, con UNI 11118 e UNI 11119"
+  },
+  {
+   "id": "P264-23",
+   "pagina": "circ:264",
+   "riferimento": "ultimo capoverso, 2 righe: «Occorre identificare l'eventuale degrado materico ...» fino a «... o di una sua parte», che prosegue in circ:265 (P265-01)"
+  },
+  {
+   "id": "SIM-264-01",
+   "pagina": "circ:264",
+   "riferimento": "inline in P264-19, voce 1: «modulo elastico E» (E in tondo)"
+  },
+  {
+   "id": "RIN-264-01",
+   "pagina": "circ:264",
+   "riferimento": "rinvio in P264-16, voce 2: «(§ C8.5.2.2)»"
+  },
+  {
+   "id": "RIN-264-02",
+   "pagina": "circ:264",
+   "riferimento": "rinvii normativi in P264-22: «norma UNI 11118» (a cavallo fra righe 1-2) e «norma UNI 11119»"
+  },
+  {
+   "id": "P265-01",
+   "pagina": "circ:265",
+   "riferimento": "righe 1-2 in testa: «che si è instaurato in particolari condizioni di posa in opera ... in fondazione).» (fine di P264-23)"
+  },
+  {
+   "id": "P265-02",
+   "pagina": "circ:265",
+   "riferimento": "capoverso di una riga «Si possono distinguere, ... tre livelli di prova.»"
+  },
+  {
+   "id": "P265-03",
+   "pagina": "circ:265",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove limitate:» seguito da «s» corsivo non grassetto, 5 righe, fino a «UNI 11119.»"
+  },
+  {
+   "id": "P265-04",
+   "pagina": "circ:265",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove estese: s» (anche la s in grassetto corsivo), 4 righe, fino a «... particolarmente sensibili.»"
+  },
+  {
+   "id": "P265-05",
+   "pagina": "circ:265",
+   "riferimento": "capoverso con attacco grassetto corsivo «Prove esaustive:», 6 righe, fino a «superficie.»"
+  },
+  {
+   "id": "P265-06",
+   "pagina": "circ:265",
+   "riferimento": "titolo di paragrafo «C8.5.4» con rubrica «LIVELLI DI CONOSCENZA E FATTORI DI CONFIDENZA» (maiuscolo grassetto, carattere diverso dagli altri titoli)"
+  },
+  {
+   "id": "P265-07",
+   "pagina": "circ:265",
+   "riferimento": "capoverso «I fattori di confidenza sono utilizzati ...», 2 righe"
+  },
+  {
+   "id": "P265-08",
+   "pagina": "circ:265",
+   "riferimento": "capoverso «Limitatamente al caso di verifiche in condizioni non sismiche ...», 3 righe"
+  },
+  {
+   "id": "P265-09",
+   "pagina": "circ:265",
+   "riferimento": "capoverso «Di seguito, con riferimento alle specifiche contenute al § 8.5 delle NTC ...», 2 righe: «Fattori di Confidenza» corsivo, «(FC)» con FC grassetto, «Livelli di Conoscenza» corsivo con iniziali L e C in grassetto corsivo, «(LC)crescenti» senza spazio, LC grassetto"
+  },
+  {
+   "id": "P265-10",
+   "pagina": "circ:265",
+   "riferimento": "capoverso con attacco grassetto «LC1:», 5 righe, fino a «dell'epoca di costruzione);»; grassetto corsivo «indagini limitate», «prove limitate»; grassetto «FC=1,35», «LC2»"
+  },
+  {
+   "id": "P265-11",
+   "pagina": "circ:265",
+   "riferimento": "capoverso con attacco grassetto «LC2:», 5 righe, fino a «dell'epoca di costruzione);»; grassetto corsivo «indagini estese», «prove estese»; grassetto «FC=1,2», «LC3»; spazio prima della virgola in «considerato ,»"
+  },
+  {
+   "id": "P265-12",
+   "pagina": "circ:265",
+   "riferimento": "capoverso con attacco grassetto «LC3:», 5 righe, fino a «limitate o estese eseguite).»; grassetto corsivo «indagini esaustive», «prove esaustive»; «§ C8.5.2,prove» senza spazio; grassetto «FC=1» e «FC»; spazio prima della virgola in «considerato ,»"
+  },
+  {
+   "id": "P265-13",
+   "pagina": "circ:265",
+   "riferimento": "capoverso «Per raggiungere il livello di conoscenza LC3, ...» (LC3 grassetto), 3 righe"
+  },
+  {
+   "id": "P265-14",
+   "pagina": "circ:265",
+   "riferimento": "capoverso «Ci si può riferire alla documentazione in atti ...», 4 righe, fino a «... si assumono unitari.»"
+  },
+  {
+   "id": "P265-15",
+   "pagina": "circ:265",
+   "riferimento": "ultimo capoverso «La quantità e il tipo di informazioni richieste ...», 2 righe, fino a «nel seguito.»"
+  },
+  {
+   "id": "NUM-265-01",
+   "pagina": "circ:265",
+   "riferimento": "condizione in P265-10, riga 5: «FC=1,35» grassetto"
+  },
+  {
+   "id": "NUM-265-02",
+   "pagina": "circ:265",
+   "riferimento": "condizione in P265-11, riga 4: «FC=1,2» grassetto"
+  },
+  {
+   "id": "NUM-265-03",
+   "pagina": "circ:265",
+   "riferimento": "condizione in P265-12, riga 4: «FC=1» grassetto"
+  },
+  {
+   "id": "RIN-265-01",
+   "pagina": "circ:265",
+   "riferimento": "rinvii nei capoversi P265-09/12: «§ 8.5 delle NTC» (P265-09); «§ C8.5.1», «§ C8.5.2», «§ C8.5.3» in ciascuno di P265-10, P265-11, P265-12"
+  },
+  {
+   "id": "RIN-265-02",
+   "pagina": "circ:265",
+   "riferimento": "rinvii normativi: «norma UNI 11119» in P265-03 e in P265-04; «L. 1086/71 o 64/74 e s.m.i.» in P265-14"
+  }
+ ],
+ "esclusioni": [
+  {
+   "pagina": "circ:263",
+   "riferimento": "testatina della Gazzetta «11-2-2019 Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE Serie generale - n. 35» e filetto"
+  },
+  {
+   "pagina": "circ:263",
+   "riferimento": "piè di pagina: numero «— 259 —» e codici grafici a destra"
+  },
+  {
+   "pagina": "circ:264",
+   "riferimento": "testatina della Gazzetta e filetto"
+  },
+  {
+   "pagina": "circ:264",
+   "riferimento": "piè di pagina: numero «— 260 —» e codici grafici"
+  },
+  {
+   "pagina": "circ:265",
+   "riferimento": "testatina della Gazzetta e filetto"
+  },
+  {
+   "pagina": "circ:265",
+   "riferimento": "piè di pagina: numero «— 261 —» e codici grafici; spazio bianco sotto P265-15"
+  }
+ ],
+ "dubbi": [],
+ "note_inventario": "Controllo integrale delle tre pagine. Nessuna formula esposta, nessuna tabella, nessuna figura, nessuna nota a piè di pagina né richiamo di nota nel perimetro. Le condizioni numeriche e i simboli inline sono registrati a parte (NUM-*, SIM-*), i rinvii a parte (RIN-*). In P263-12 la virgola dopo «malte e» appare in tono più chiaro/corsivo (ritaglio lavoro/p263-ecomma.png): differenza solo tipografica, la virgola è leggibile. Ritagli di lavoro in lavoro/ (200 dpi nativi della PNG, ingranditi solo per la lettura)."
+}

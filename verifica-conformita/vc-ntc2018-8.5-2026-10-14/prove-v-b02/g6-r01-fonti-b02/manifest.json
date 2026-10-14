@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "circ-261-testata-tabella-600dpi.png",
+      "bytes": 37983,
+      "sha256": "7656e150be00f6acd35293af0fbb329d7e38c234a9647fbcd9ad0ed6045bfedb"
+    },
+    {
+      "path": "circ-262-nota-tripla-stella-600dpi.png",
+      "bytes": 51891,
+      "sha256": "7bb3ef2393e0fe0fd4eb11fa7ea55bafc86c832a32d419345778f7bd1230fe57"
+    },
+    {
+      "path": "provenienza.json",
+      "bytes": 839,
+      "sha256": "5d2429d6ab009f23f595096f93c39c6d32d7b20bd95b6f27382b529491ab06c0"
+    }
+  ]
+}

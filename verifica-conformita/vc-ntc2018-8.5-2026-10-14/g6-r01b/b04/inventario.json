@@ -1,0 +1,335 @@
+{
+ "firma": "V b04, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito_provvisorio": "LEGGIBILE",
+ "elementi": [
+  {
+   "id": "P266-R01",
+   "pagina": "circ:266",
+   "riferimento": "Rubrica 'C8.5.4.1 COSTRUZIONI DI MURATURA' (maiuscoletto), prima riga sotto la testata GU"
+  },
+  {
+   "id": "P266-T01",
+   "pagina": "circ:266",
+   "riferimento": "Capoverso 'Nel caso in cui la muratura in esame...come segue:' (3 righe)"
+  },
+  {
+   "id": "P266-L01",
+   "pagina": "circ:266",
+   "riferimento": "Voce 'LC1:' (grassetto) con due trattini: '-Resistenze: ... Tabella C8.5.I.' e '- Moduli elastici: ... suddetta.' (spaziatura dei trattini difforme fra le righe)"
+  },
+  {
+   "id": "P266-L02",
+   "pagina": "circ:266",
+   "riferimento": "Voce 'LC2:' (grassetto, due punti non in grassetto) con '- Resistenze: ... Tabella C8.5.I' (senza punto finale) e '-Moduli elastici: ... suddetta.'"
+  },
+  {
+   "id": "P266-L03",
+   "pagina": "circ:266",
+   "riferimento": "Voce 'LC3:' '-I valori delle resistenze ... Tabella C.8.5.I ... formule seguenti:' (4 righe; X, μ′, σ′ in corsivo inline)"
+  },
+  {
+   "id": "P266-F01",
+   "pagina": "circ:266",
+   "riferimento": "Formula numerata [C8.5.4.1]: membro sinistro μ' (grassetto, apice dritto); membro destro frazione 1/2 piccola per (X_min + X_max) fra tonde grandi; pedici 'min','max'. Composizione grafica diversa dal testo (font sans grassetto)"
+  },
+  {
+   "id": "P266-F02",
+   "pagina": "circ:266",
+   "riferimento": "Formula numerata [C8.5.4.2]: σ' = 1/2 (X_max − X_min), stessa composizione della precedente; ordine pedici max poi min, operatore meno"
+  },
+  {
+   "id": "P266-T02",
+   "pagina": "circ:266",
+   "riferimento": "Capoverso rientrato 'Eseguito un numero n di prove dirette, ... come segue:'"
+  },
+  {
+   "id": "P266-F03",
+   "pagina": "circ:266",
+   "riferimento": "Formula numerata [C8.5.4.3]: membro sinistro μ\" (doppio apice dritto); membro destro frazione con numeratore n X̄ + κ μ′ (apice del μ in posizione alta, tipo accento acuto) e denominatore n + κ"
+  },
+  {
+   "id": "P266-T03",
+   "pagina": "circ:266",
+   "riferimento": "Capoverso rientrato 'dove X̄ è la media delle n prove dirette e κ è un coefficiente ... la varianza σ′² della distribuzione a-priori.' (3 righe; σ′² con apice e esponente 2)"
+  },
+  {
+   "id": "P266-T04",
+   "pagina": "circ:266",
+   "riferimento": "Capoverso 'Nel determinare la stima aggiornata ... il coefficiente κ rappresenta ... rispetto alle prove sperimentali³.' con richiamo di nota 3 in apice"
+  },
+  {
+   "id": "P266-N03R",
+   "pagina": "circ:266",
+   "riferimento": "Richiamo di nota a piè di pagina '3' in apice dopo 'sperimentali', prima del punto"
+  },
+  {
+   "id": "P266-T05",
+   "pagina": "circ:266",
+   "riferimento": "Capoverso 'Qualora la media delle n prove dirette X̄ ... l'equazione C8..5.4.3 deve essere adeguatamente motivata.' (3 righe; doppio punto 'C8..5.4.3' nella fonte; μ′ e μ″ inline)"
+  },
+  {
+   "id": "P266-C01",
+   "pagina": "circ:266",
+   "riferimento": "Didascalia 'Tabella C.8.5.III –Valori del coefficiente κsuggeriti per l'aggiornamento ... secondo l'equazione [C8.5.4.3], con riferimento ai più diffusi metodi di indagine diretta sulle proprietà meccaniche della muratura.' (2 righe; 'Tabella C.8.5.III' grassetto, resto corsivo; 'κsuggeriti' senza spazio; trattino senza spazio dopo)"
+  },
+  {
+   "id": "P266-TAB01-H",
+   "pagina": "circ:266",
+   "riferimento": "Tabella C.8.5.III, testata grigia a un livello, 3 colonne: 'Metodo di prova' | 'Parametro' | 'κ'"
+  },
+  {
+   "id": "P266-TAB01-B",
+   "pagina": "circ:266",
+   "riferimento": "Tabella C.8.5.III, corpo: 10 righe logiche x 3 colonne (righe fisiche: 4 gruppi di 2 sottorighe con 'Metodo di prova' accorpato verticalmente su 2 righe, + 2 righe singole). Gruppi: Prova di compressione diretta (su una porzione di parete muraria) {E|1,5; f|1}; Martinetto piatto doppio {E|1,5; f (*)|2 (*)}; Prova di compressione e taglio (su un pannello isolato nella parete muraria) – prova tipo Sheppard {G|1,5; τ0 - fv0|1}; Prova di compressione diagonale {G|1,5; τ0|1}; Prova di taglio diretto sul giunto {fv0|2}; Prove in laboratorio sui costituenti (**) {fb, fm, fg|2}. Pedici 0, v0, b, m, g in corpo piccolo. Controllo integrale di ogni cella eseguito"
+  },
+  {
+   "id": "P266-TAB01-N1",
+   "pagina": "circ:266",
+   "riferimento": "Nota di tabella '(*) La prova con il martinetto piatto doppio ... purché si adotti un valore di τ almeno pari a 3.' (6 righe, interna al riquadro sotto la griglia; stampa 'τ' dove il contesto della tabella usa κ: possibile anomalia della fonte; riferimento [C8.5.4.3]; 'tabella C.8.5.I')"
+  },
+  {
+   "id": "P266-TAB01-N2",
+   "pagina": "circ:266",
+   "riferimento": "Nota di tabella '(**) Nel caso di muratura in blocchi di pietra squadrati ... fk tramite i metodi descritti al § 11.10.3.1.2 delle Norme. Nota: fk, la resistenza a compressione media f ... stimata come f = 1,25 fk.' (3 righe; fk con pedice k; condizione numerica f = 1,25 fk)"
+  },
+  {
+   "id": "P266-FN03",
+   "pagina": "circ:266",
+   "riferimento": "Nota a piè di pagina 3, sotto il filetto: '3Dalla formula emerge che ... arrecare loro danni.' (7 righe; κ in due punti, 'κper' senza spazio; 'Tabella C.8.5.III')"
+  },
+  {
+   "id": "P267-R01",
+   "pagina": "circ:267",
+   "riferimento": "Rubrica 'C8.5.4.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O DI ACCIAIO'"
+  },
+  {
+   "id": "P267-T01",
+   "pagina": "circ:267",
+   "riferimento": "Capoverso 'I fattori di confidenza, determinati in funzione ... dei dettagli costruttivi.' (7 righe; 'pari al 95%')"
+  },
+  {
+   "id": "P267-T02",
+   "pagina": "circ:267",
+   "riferimento": "Capoverso 'Il livello di conoscenza acquisito ... riferire alla Tabella C8.5.IV.' (4 righe)"
+  },
+  {
+   "id": "P267-C01",
+   "pagina": "circ:267",
+   "riferimento": "Didascalia 'Tabella C8.5.IV – Livelli di conoscenza in funzione dell'informazione disponibile ... per edifici in calcestruzzo armato o in acciaio' (2 righe, senza punto finale)"
+  },
+  {
+   "id": "P267-TAB01-H",
+   "pagina": "circ:267",
+   "riferimento": "Tabella C8.5.IV, testata grigia a un livello, 6 colonne: 'Livello di conoscenza' | 'Geometrie (carpenterie)' | 'Dettagli strutturali' | 'Proprietà dei materiali' | 'Metodi di analisi' | 'FC (*)'"
+  },
+  {
+   "id": "P267-TAB01-B",
+   "pagina": "circ:267",
+   "riferimento": "Tabella C8.5.IV, corpo: 3 righe logiche (LC1, LC2, LC3) x 6 colonne; colonna 'Geometrie' accorpata verticalmente sulle 3 righe ('Da disegni di carpenteria originali con rilievo visivo a campione; in alternativa rilievo completo ex-novo'); celle di 'Dettagli strutturali' e 'Proprietà dei materiali' con parole in grassetto corsivo (indagini limitate/estese/esaustive, prove limitate/estese/esaustive); Metodi: 'Analisi lineare statica o dinamica' | 'Tutti' | 'Tutti'; FC: 1,35 | 1,20 | 1,00. Controllo integrale di ogni cella eseguito"
+  },
+  {
+   "id": "P267-TAB01-N1",
+   "pagina": "circ:267",
+   "riferimento": "Nota di tabella '(*) A meno delle ulteriori precisazioni già fornite nel § C8.5.4.' sotto la griglia"
+  },
+  {
+   "id": "P267-T03",
+   "pagina": "circ:267",
+   "riferimento": "Capoverso 'La quantità e il tipo di informazioni richieste ... ulteriormente precisati nel seguito.' (2 righe)"
+  },
+  {
+   "id": "P267-T04",
+   "pagina": "circ:267",
+   "riferimento": "Capoverso 'LC1: si intende raggiunto ... modello strutturale idoneo.' (9 righe; grassetto corsivo 'indagini limitate', 'prove limitate'; grassetto 'FC=1,35'; rinvii § C8.5.1, § C8.5.2, § C8.5.3)"
+  },
+  {
+   "id": "P267-T05",
+   "pagina": "circ:267",
+   "riferimento": "Capoverso 'LC2: si intende raggiunto ... modello strutturale idoneo.' (11 righe; grassetto corsivo 'indagini limitate', 'indagine estesa', 'prove limitate', 'prove estese' x2; 'situ(con' senza spazio; grassetto 'FC=1,2')"
+  },
+  {
+   "id": "P267-T06",
+   "pagina": "circ:267",
+   "riferimento": "Capoverso 'LC3:si intende raggiunto ...' (nessuno spazio dopo 'LC3:'), righe 1-6 su p. 267, termina con 'le caratteristiche meccaniche' e prosegue a p. 268; grassetto corsivo 'indagini limitate', 'indagine esaustiva'"
+  },
+  {
+   "id": "P268-T01",
+   "pagina": "circ:268",
+   "riferimento": "Seguito del capoverso LC3 da 'dei materiali siano note ...' a 'di un modello strutturale idoneo.' (6 righe; grassetto corsivo 'prove limitate', 'prove esaustive' x2; 'situ(con'; grassetto 'FC=1')"
+  },
+  {
+   "id": "P268-T02",
+   "pagina": "circ:268",
+   "riferimento": "Capoverso 'Le resistenze dei materiali cui riferirsi ... dividendole per gli FC indicati nella Tabella C8.5.IV.' ('FC' grassetto)"
+  },
+  {
+   "id": "P268-T03",
+   "pagina": "circ:268",
+   "riferimento": "Capoverso 'Gli FC possono essere valutati ... di comprovata validità.' ('FC' grassetto)"
+  },
+  {
+   "id": "P268-T04",
+   "pagina": "circ:268",
+   "riferimento": "Capoverso 'A titolo esclusivamente orientativo, nelle tabelle C8.5.V e C8.5.VI ... previsto dai documenti originari.' (7 righe; rinvii § C8.5.2.2 e C8.5.3.2)"
+  },
+  {
+   "id": "P268-C01",
+   "pagina": "circ:268",
+   "riferimento": "Didascalia 'Tabella C8.5.V – Definizione orientativa dei livelli di rilievo e prova per edifici di c.a.' (una riga; termina con 'c.a.')"
+  },
+  {
+   "id": "P268-TAB01-H",
+   "pagina": "circ:268",
+   "riferimento": "Tabella C8.5.V, testata grigia su 2 livelli: col. 1 'Livello di Indagini e Prove' accorpata verticalmente sui 2 livelli; livello 1: 'Rilievo(dei dettagli costruttivi)' con apice '(a)' (senza spazio prima della tonda) | 'Prove (sui materiali)' con apice '(b)(c)(d)'; livello 2: 'Per ogni elemento “primario” (trave, pilastro)' accorpata orizzontalmente su col. 2-3"
+  },
+  {
+   "id": "P268-TAB01-B",
+   "pagina": "circ:268",
+   "riferimento": "Tabella C8.5.V, corpo: 3 righe x 3 colonne; etichette in grassetto corsivo 'limitato','esteso','esaustivo'; col. 2 'La quantità e disposizione dell'armatura è verificata per almeno il 15%/35%/50% degli elementi'; col. 3 '1/2/3 provin(o/i) di cls. per 300 m² di piano dell'edificio, 1/2/3 campion(e/i) di armatura per piano dell'edificio' (m² con esponente 2). Controllo integrale di ogni cella eseguito"
+  },
+  {
+   "id": "P268-C02",
+   "pagina": "circ:268",
+   "riferimento": "Didascalia 'Tabella C8.5.VI – Definizione orientativa dei livelli di rilievo e prova per edifici di acciaio' (senza punto finale)"
+  },
+  {
+   "id": "P268-TAB02-H",
+   "pagina": "circ:268",
+   "riferimento": "Tabella C8.5.VI, testata grigia su 2 livelli: col. 1 'Livello di Indagini e Prove' accorpata verticalmente; livello 1: 'Rilievo (dei collegamenti)' con apice '(a)' | 'Prove (sui materiali) ' con apice '(b)(c)(d)' preceduto da spazio; livello 2: 'Per ogni elemento “primario” (trave, pilastro…)' accorpata su col. 2-3 (con puntini di sospensione)"
+  },
+  {
+   "id": "P268-TAB02-B",
+   "pagina": "circ:268",
+   "riferimento": "Tabella C8.5.VI, corpo: 3 righe x 3 colonne; etichette grassetto corsivo 'limitato','esteso','esaustivo'; col. 2 'Le caratteristiche dei collegamenti sono verificate per almeno il 15%/35%/50% degli elementi'; col. 3 '1/2/3 provin(o/i) di acciaio per piano dell'edificio, 1/2/3 campion(e/i) di bullone o chiodo per piano dell'edificio'. Controllo integrale di ogni cella eseguito"
+  },
+  {
+   "id": "P268-NT00",
+   "pagina": "circ:268",
+   "riferimento": "Titolo delle note 'NOTE ESPLICATIVE ALLE TABELLE C8.5.V E C8.5.VI' (maiuscolo, corpo piccolo)"
+  },
+  {
+   "id": "P268-NT01",
+   "pagina": "circ:268",
+   "riferimento": "Capoverso introduttivo delle note 'Le percentuali di elementi da indagare ... tenendo conto dei seguenti aspetti:' (2 righe, corpo piccolo)"
+  },
+  {
+   "id": "P268-NTa",
+   "pagina": "circ:268",
+   "riferimento": "Nota (a) 'Nel controllo del raggiungimento delle percentuali ... nello schema strutturale.' (3 righe)"
+  },
+  {
+   "id": "P268-NTb",
+   "pagina": "circ:268",
+   "riferimento": "Nota (b) 'Le prove sugli acciai sono finalizzate ... con esclusione delle staffe.' (3 righe)"
+  },
+  {
+   "id": "P268-NTc",
+   "pagina": "circ:268",
+   "riferimento": "Nota (c) 'Ai fini delle prove sui materiali ... non più del 50%, con almeno il triplo di prove non distruttive ... tarate su quelle distruttive.' (2 righe)"
+  },
+  {
+   "id": "P268-NTd",
+   "pagina": "circ:268",
+   "riferimento": "Nota (d) 'Il numero di provini riportato nelle tabelle C8.5.V e C8.5.VI può esser variato ... fortemente disomogenei.' (4 righe)"
+  },
+  {
+   "id": "P268-R02",
+   "pagina": "circ:268",
+   "riferimento": "Rubrica 'C8.5.4.3 COSTRUZIONI DI LEGNO'"
+  },
+  {
+   "id": "P268-T05",
+   "pagina": "circ:268",
+   "riferimento": "Capoverso 'Per le costruzioni di legno, fermo restando quanto indicato nel § 8.5 delle NTC ... a contatto con altro materiale.' (4 righe; 'E’ inoltre' con apostrofo)"
+  },
+  {
+   "id": "P269-R01",
+   "pagina": "circ:269",
+   "riferimento": "Rubrica 'C8.5.5 AZIONI' (font bastoni grassetto)"
+  },
+  {
+   "id": "P269-T01",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'Le verifiche di sicurezza devono essere effettuate ... previsti dalle NTC.' (4 righe; rinvio § 8.5)"
+  },
+  {
+   "id": "P269-T02",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'L'azione sismica è definita ... al § 3.2 ... al § 2.4 delle NTC (v. anche § C8.3).' (apostrofo dritto in L'azione)"
+  },
+  {
+   "id": "P269-T03",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'Per la combinazione dell'azione sismica ... § 2.5.3 ... § 7.3.5 delle NTC.'"
+  },
+  {
+   "id": "P269-R02",
+   "pagina": "circ:269",
+   "riferimento": "Rubrica 'C8.5.5.1 COSTRUZIONI IN MURATURA'"
+  },
+  {
+   "id": "P269-T04",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'Per la verifica di edifici con analisi lineare e impiego del fattore q, ... quest'ultimo i seguenti valori:' (q corsivo; apostrofo dritto)"
+  },
+  {
+   "id": "P269-F01",
+   "pagina": "circ:269",
+   "riferimento": "Voce di elenco con lineetta '–': formula inline 'q = 2,0 α_u /α_1' (q corsivo, α corsivo, pedici u e 1, barra obliqua con spazio prima) + testo 'per edifici regolari in elevazione, nel caso di muratura in pietra e/o mattoni pieni;'"
+  },
+  {
+   "id": "P269-F02",
+   "pagina": "circ:269",
+   "riferimento": "Voce di elenco con lineetta '–': formula inline 'q = 1,75 α_u /α_1' + testo 'per edifici regolari in elevazione, nel caso di muratura in blocchi artificiali con percentuale di foratura >15% (elementi semipieni, forati…).' (condizione numerica >15%)"
+  },
+  {
+   "id": "P269-T05",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'in cui α_u e α_1 sono definiti al § 7.8.1.3 delle NTC. ' seguito da frase sottolineata 'In assenza di più precise valutazioni, non può essere assunto un rapporto αu /α1 superiore a 1,5.' (sottolineatura da 'In assenza' a '1,5.'; nella parte sottolineata αu/α1 con pedici in corpo ridotto non abbassati; condizione numerica ≤ 1,5)"
+  },
+  {
+   "id": "P269-T06",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'Nel caso di edificio non regolare in elevazione i valori di q sono ridotti del 25%. ... al § 7.2.1 delle NTC.'"
+  },
+  {
+   "id": "P269-R03",
+   "pagina": "circ:269",
+   "riferimento": "Rubrica 'C8.5.5.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O ACCIAIO'"
+  },
+  {
+   "id": "P269-T07",
+   "pagina": "circ:269",
+   "riferimento": "Capoverso 'Il fattore di comportamento q è scelto nel campo fra 1,5 e 3,0, ... a livello locale e globale.' (3 righe; q corsivo due volte; condizione numerica 1,5 ≤ q ≤ 3,0 espressa in prosa)"
+  }
+ ],
+ "esclusioni": [
+  {
+   "pagina": "circ:266",
+   "riferimento": "Testata GU '11-2-2019 Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE Serie generale - n. 35' e piede '— 262 —' con codici grafici"
+  },
+  {
+   "pagina": "circ:267",
+   "riferimento": "Testata GU e piede '— 263 —' con codici grafici"
+  },
+  {
+   "pagina": "circ:268",
+   "riferimento": "Testata GU e piede '— 264 —' con codici grafici"
+  },
+  {
+   "pagina": "circ:269",
+   "riferimento": "Testata GU e piede '— 265 —' con codici grafici"
+  },
+  {
+   "pagina": "circ:269",
+   "riferimento": "Dalla rubrica 'C8.6 MATERIALI' (circa a metà pagina) alla fine della pagina: rubrica C8.6, 9 capoversi seguenti, rubrica 'C8.7 PROGETTAZIONE DEGLI INTERVENTI' e prima riga 'Il § 8.7 contiene indicazioni ...' (fuori perimetro)"
+  }
+ ],
+ "dubbi": [
+  "Prove disponibili: solo PNG di pagina a 200 dpi (1653x2339); il canone § 4 richiede ritaglio >= 600 dpi e codifica/posizione vettoriale per decidere glifi, apici e pedici. Le letture sono univoche a 200 dpi, ma nessuna decisione fine su glifo è stata provata a 600 dpi.",
+  "p. 266, formule [C8.5.4.1] e [C8.5.4.2] (centro pagina, sopra 'Eseguito un numero n'): composte in font bastoni grassetto diverso dal testo, probabile raster o oggetto incorporato; natura (vettoriale/raster) non accertabile dal solo PNG.",
+  "p. 266, formula [C8.5.4.3]: l'apice di μ al numeratore è stampato alto e inclinato (tipo accento acuto) mentre il membro sinistro μ\" usa doppio apice dritto; da confrontare come stampato.",
+  "p. 266, nota (*) di Tabella C.8.5.III, ultima riga: stampa 'τ almeno pari a 3' dove il contesto (coefficiente in tabella) userebbe κ; possibile anomalia della fonte da conservare (AF), non risolvibile senza conoscenza esterna.",
+  "p. 266, capoverso 'Qualora...': 'equazione C8..5.4.3' con doppio punto stampato (anomalia della fonte)."
+ ]
+}

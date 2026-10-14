@@ -1,0 +1,184 @@
+{
+ "firma": "V b04, subagente Claude Opus a contesto nuovo, CC cloud",
+ "esito": "KO",
+ "coperti": [
+  "P266-R01",
+  "P266-T01",
+  "P266-L01",
+  "P266-L02",
+  "P266-L03",
+  "P266-F01",
+  "P266-F02",
+  "P266-T02",
+  "P266-F03",
+  "P266-T03",
+  "P266-T04",
+  "P266-N03R",
+  "P266-T05",
+  "P266-C01",
+  "P266-TAB01-H",
+  "P266-TAB01-B",
+  "P266-TAB01-N1",
+  "P266-TAB01-N2",
+  "P266-FN03",
+  "P267-R01",
+  "P267-T01",
+  "P267-T02",
+  "P267-C01",
+  "P267-TAB01-H",
+  "P267-TAB01-B",
+  "P267-TAB01-N1",
+  "P267-T03",
+  "P267-T04",
+  "P267-T05",
+  "P267-T06",
+  "P268-T01",
+  "P268-T02",
+  "P268-T03",
+  "P268-T04",
+  "P268-C01",
+  "P268-TAB01-H",
+  "P268-TAB01-B",
+  "P268-C02",
+  "P268-TAB02-H",
+  "P268-TAB02-B",
+  "P268-NT00",
+  "P268-NT01",
+  "P268-NTa",
+  "P268-NTb",
+  "P268-NTc",
+  "P268-NTd",
+  "P268-R02",
+  "P268-T05",
+  "P269-R01",
+  "P269-T01",
+  "P269-T02",
+  "P269-T03",
+  "P269-R02",
+  "P269-T04",
+  "P269-F01",
+  "P269-F02",
+  "P269-T05",
+  "P269-T06",
+  "P269-R03",
+  "P269-T07"
+ ],
+ "normalizzazioni": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  10,
+  11
+ ],
+ "note_normalizzazioni": "1: spazi aggiunti in 'κsuggeriti', 'κper', 'situ(con', 'LC3:si', 'Rilievo(dei'; 2: apostrofi, μ’/μ” per primi, virgolette dritte, '…'→'...' (trattato come variante di compatibilità Unicode, da confermare); 3: \\left/\\right e tonde in [C8.5.4.1-2]; 4: 1{,}25, 2{,}0, 1{,}75; 5: giustapposizioni in q=2{,}0\\alpha_u; 6: espansione dei gruppi di Tab. C.8.5.III, colonna Geometrie di Tab. C8.5.IV, testate a due livelli di Tab. C8.5.V-VI (la riga 'Per ogni elemento...' resta nel corpo con celle vuote); 10: '–' → '-' nelle didascalie; 11: richiamo [3] e etichetta 'Nota 3.' come apparato. Liste LC1/LC2 e voci q con trattino resi come elenchi puntati: marcatori di elenco della fonte, nessuna parola aggiunta.",
+ "rilievi": [
+  {
+   "id": "R1",
+   "elementi": [
+    "P266-L03",
+    "P266-T03",
+    "P266-T04",
+    "P266-T05",
+    "P266-FN03"
+   ],
+   "posizione": "circ:266, LC3 (μ′ e σ′), definizione 'dove X̄ ... κ ... σ′²', capoversi 'Nel determinare...' (κ) e 'Qualora...' (μ′, μ″), nota 3 (κ due volte)",
+   "prova": "testo.md righe 19, 38 e 40 scrivono μ, σ, κ come caratteri Unicode in prosa; nella resa resa-target/target-scope.pdf p. 15 (target-p15-200dpi.png) quei glifi mancano: l'estrazione del testo dà U+FFFF ('parametri \\uffff’ e \\uffff’', 'varianza \\uffff’²', 'tra \\uffff’ e \\uffff”') e a vista restano solo gli apici. Il testo.md è letteralmente fedele; la resa effettiva no. Le stesse lettere in $...$ (didascalia, note di tabella) si vedono.",
+   "classe_proposta": "ERR-MD (resa effettiva): lettere greche invisibili nel render; da rendere in LaTeX inline o con font adeguato. Se C ritiene il difetto del solo template di render, ERR-AUDIT."
+  },
+  {
+   "id": "R2",
+   "elementi": [
+    "P266-T03",
+    "P266-T04",
+    "P266-T05",
+    "P267-T01",
+    "P267-T02",
+    "P268-T01",
+    "P268-T02",
+    "P268-T03",
+    "P268-T04",
+    "P269-T01",
+    "P269-T02",
+    "P269-T03"
+   ],
+   "posizione": "circ:266 (tre capoversi 'dove X̄...', 'Nel determinare...', 'Qualora...'), circ:267 ('I fattori di confidenza...' e 'Il livello di conoscenza...'), circ:268 (seguito LC3 + 'Le resistenze...' + 'Gli FC...' + 'A titolo esclusivamente orientativo...'), circ:269 (tre capoversi di C8.5.5)",
+   "prova": "La fonte stampa capoversi distinti (rientro/spazio interparagrafo visibili a 200 dpi); testo.md righe 38, 63, 81, 119 li fonde in un unico capoverso ciascuno. Nel caso di p. 268 i tre capoversi generali finiscono dentro il capoverso 'LC3:', cambiando l'attribuzione apparente. Il catalogo n. 1 nomina 'a capo' (interruzioni di riga), non la fusione di capoversi.",
+   "classe_proposta": "ERR-MD (struttura dei capoversi), salvo che C/Sandro dichiarino la fusione coperta dalla normalizzazione 1"
+  },
+  {
+   "id": "R3",
+   "elementi": [
+    "P267-T04",
+    "P267-T05",
+    "P267-T06",
+    "P268-T01",
+    "P268-T02",
+    "P268-T03",
+    "P269-T05"
+   ],
+   "posizione": "circ:267-268 capoversi LC1, LC2, LC3: grassetto corsivo di 'indagini limitate', 'indagine estesa', 'indagine esaustiva', 'prove limitate/estese/esaustive' e grassetto di 'FC=1,35', 'FC=1,2', 'FC=1'; circ:268 'FC' grassetto in due capoversi; circ:269 sottolineatura della frase 'In assenza di più precise valutazioni ... superiore a 1,5.'",
+   "prova": "Enfasi visibili nella fonte; testo.md righe 77, 79, 81, 128 le rende in tondo semplice, mentre nelle celle di Tabella C8.5.IV le stesse locuzioni conservano ***...***. Nessuna parola persa.",
+   "classe_proposta": "ERR-MD minore (enfasi tipografica omessa), da adjudicare: il canone non elenca l'enfasi fra le normalizzazioni"
+  },
+  {
+   "id": "R4",
+   "elementi": [
+    "P268-TAB01-H",
+    "P268-TAB02-H"
+   ],
+   "posizione": "circ:268, testate Tabelle C8.5.V e C8.5.VI: richiami '(a)' e '(b)(c)(d)' in apice",
+   "prova": "Fonte: richiami in apice, attaccati al testo ('costruttivi)^(a)', 'materiali)^(b)(c)(d)'); testo.md righe 85 e 94 e resa p. 18-19: '(a)' e '(b)(c)(d)' a corpo pieno separati da spazio. Ordine e lettere corretti.",
+   "classe_proposta": "ERR-MD minore (apice dei richiami di nota perso), oppure convenzione da dichiarare"
+  },
+  {
+   "id": "R5",
+   "elementi": [
+    "P266-TAB01-B"
+   ],
+   "posizione": "circ:266, Tabella C.8.5.III, righe 5-6 col. 'Metodo di prova': '... parete muraria) – prova tipo Sheppard'",
+   "prova": "La fonte stampa una lineetta (en dash) con spazi; testo.md righe 50-51 hyphen-minus '-'. La normalizzazione 2 copre solo hyphen-minus/U+2212; la 10 solo il separatore delle didascalie.",
+   "classe_proposta": "ERR-MD minimo, salvo estensione esplicita del catalogo (non applicabile per analogia)"
+  },
+  {
+   "id": "R6",
+   "elementi": [
+    "P266-R01",
+    "P267-R01",
+    "P268-R02",
+    "P269-R01",
+    "P269-R02",
+    "P269-R03"
+   ],
+   "posizione": "rubriche C8.5.4.1, C8.5.4.2, C8.5.4.3, C8.5.5, C8.5.5.1, C8.5.5.2",
+   "prova": "Fonte: numero senza punto finale e titolo in maiuscoletto/maiuscolo; testo.md: 'C8.5.4.1. Costruzioni di muratura' ecc. (punto aggiunto dopo il numero, minuscolo). Nella resa p. 19 compare inoltre un titolo 'Circolare' prima di C8.5.5 che non è nella fonte né in testo.md (apparato della resa).",
+   "classe_proposta": "Domanda aperta a C: convenzione di corpus per le rubriche non presente nel catalogo consegnato; se non coperta, ERR-MD minimo. Il titolo 'Circolare' della resa: ERR-AUDIT/apparato, da escludere"
+  }
+ ],
+ "anomalie_fonte_conservate": [
+  "circ:266 'equazione C8..5.4.3' conservata (riga 38)",
+  "circ:266 nota (*) Tab. C.8.5.III 'valore di τ almeno pari a 3' conservato come $\\tau$ (riga 57)",
+  "circ:266 'Tabella C8.5.I' senza punto in LC2 conservato"
+ ],
+ "esiti_puntuali": "Formule [C8.5.4.1], [C8.5.4.2], [C8.5.4.3]: membri, frazioni, pedici min/max, ordine max−min, segni, apici e tag conformi (struttura e resa p. 15). Formule inline q=2,0 e 1,75 αu/α1 e condizioni >15%, 1,5, 25%, 1,5-3,0, 95%, 50%, f = 1,25 fk, FC=1,35/1,2/1, FC 1,35/1,20/1,00: conformi. Tabelle C.8.5.III (10x3), C8.5.IV (3x6), C8.5.V e C8.5.VI (3x3 + testate): ogni cella confrontata, valori, pedici (τ0, fv0, fb, fm, fg), m², percentuali e numeri conformi. Note di tabella, note esplicative (a)-(d), nota 3: testo conforme.",
+ "prove_richieste": "Nessuna decisione di questo rapporto dipende da glifi, apici o pedici a livello sub-200 dpi. Domanda aperta facoltativa: che cosa stampa la fonte, p. fisica 266, nell'area dell'apice di μ al numeratore della [C8.5.4.3] (prime, apostrofo o altro glifo) e se le formule [C8.5.4.1]-[C8.5.4.2] sono raster o testo vettoriale? Serve solo a chiudere i dubbi 2-3 dell'inventario.",
+ "letture": [
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/ISTRUZIONI-V.md",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/PERIMETRO.md",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/canone.md",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/congelamento.json",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/input-confronto.json",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/inventario.json",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/testo.md",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/fonte-circ-266.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/fonte-circ-267.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/fonte-circ-268.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/fonte-circ-269.png",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/resa-target/target-scope.pdf (testo estratto, pp. 1-20; confronto sulle pp. 15-20)",
+  "/tmp/claude-0/-home-user-ntc2018-markdown/c560b245-980e-5a6b-a155-56bea6ec132c/scratchpad/vc85/g6-r01b/b04/resa-target/target-p15..p20-200dpi.png"
+ ],
+ "isolamento": "Letti solo i file della cartella del blocco g6-r01b/b04 e, nella fase 1, gli omologhi di g6-r01/b04; file di lavoro solo in g6-r01-lavoro/b04 (e, in fase 1, g6-r01/b04/lavoro). Nessun accesso a coordinamento.json, altre cartelle b0x, repository o rapporti altrui. Pagine di resa pp. 1-14 (fuori perimetro) viste solo come testo estratto per localizzare il blocco.",
+ "motivazione_lunghezza": "Superato il limite di 300 parole per descrivere sei rilievi con prova e posizione."
+}
