@@ -1,0 +1,65 @@
+{
+ "firma": "V b01, subagente Claude Opus a contesto nuovo, CC cloud",
+ "data": "2026-10-14",
+ "giudizio_g7": "KO",
+ "scope": "8.5",
+ "righe_registro": [
+  "8.5",
+  "8.5.1",
+  "8.5.2",
+  "8.5.3",
+  "8.5.4",
+  "8.5.5"
+ ],
+ "snapshot_sha256": "192309df7472efee19155003f2f11f539e1485a1b4517409ddb1c0b2ff260534",
+ "manifest_sha256": "c1346a54eea53343823a13f94c274a37d564d431bde581a607e448480478d6ea",
+ "verbale_sha256": "f59300902c411cbd502faaba192b06b7aa75c6e57546ee77e24cb80282ed30fe",
+ "manifest_verifica": {
+  "manifest-rilascio.json": {
+   "files": 125,
+   "integrita": "OK"
+  },
+  "snapshot-finale.json": {
+   "files": 6,
+   "integrita": "OK"
+  },
+  "comando": "python3 strumenti/vc-supporto.py verifica-manifest . <file>"
+ },
+ "gate": {
+  "G0": "OK",
+  "G1": "OK",
+  "G2": "OK",
+  "G3": "OK",
+  "G4": "OK",
+  "G5": "OK",
+  "G6": "OK",
+  "G7": "KO"
+ },
+ "rilievi_aperti": [
+  {
+   "id": "G7-R1",
+   "classe": "ERR-AUDIT",
+   "oggetto": "verbale e scheda: chi ha segnalato il primo pacchetto delle modifiche",
+   "prova": "Il verbale scrive che il primo pacchetto «due V l'hanno segnalato come ERR-AUDIT»; la scheda scrive «segnalato da V b03 e V b04». Le quattro attestazioni conservate in modifiche-r01-pacchetto-errato/ dicono altro: b01 (31890d08…), b02 e b03 lo riportano come ERR-AUDIT in rilievi_residui; b04 lo riporta come «ERR-AUDIT del pacchetto, non bloccante» fra le osservazioni. Lo hanno segnalato quindi tutti e quattro i V, e la scheda nomina b04 ma non b01 e b02. Verbale e scheda non concordano fra loro né con le evidenze.",
+   "correzione_attesa": "Allineare verbale e scheda alle quattro attestazioni (b01, b02 e b03 come rilievo residuo, b04 come osservazione), poi rifare il manifest e sottoporlo al G7."
+  },
+  {
+   "id": "G7-R2",
+   "classe": "ERR-AUDIT",
+   "oggetto": "catena degli hash della resa finale",
+   "prova": "modifiche/controllo-script.json dichiara resa_dopo_sha256 bee19c2f71ea52a10958fece36bcaaabfff897d72bfe88ae3879615512b3df6d: è la resa composta file per file, consegnata con il primo pacchetto (21 pagine, nessun U+FFFF). Il manifest contiene invece modifiche/resa-dopo.pdf c5c8ca4b59b84dea8210f937994716044225bb69dbc682e0fc11138690a453e6, la resa ricomposta con la Norma all'inizio per il pacchetto r2 (21 pagine, nessun U+FFFF). La resa a cui rimanda il controllo di script non è nel manifest, e nessun documento dice quale delle due sia la resa canonica di render-capitolo.py citata dal G5 del verbale.",
+   "correzione_attesa": "Mettere nel manifest anche la resa bee19c2f, oppure aggiornare controllo-script.json, e dichiarare nel verbale quale resa è quella finale e come è stata prodotta."
+  }
+ ],
+ "controlli_eseguiti": {
+  "impronte": "Manifest, snapshot finale e verbale hanno le impronte attese. verifica-manifest dà OK per il manifest (125 file) e per lo snapshot finale (6 file). Procedura e catalogo congelati coincidono con il verbale e la scheda (01c7f0ed…, dd5f1b99…); le due fonti ufficiali coincidono con il verbale (dda1e397…, f7c3b8d1…); lo snapshot iniziale coincide con la scheda (51867584…).",
+  "snapshot_vivo": "I sei file vivi coincidono per byte e sha256 con snapshot-finale.json, con la tabella del verbale e con file_dopo di controllo-script.json. Dopo il commit 8fdc0be i sei file non cambiano.",
+  "lista": "Ho riapplicato da me le 192 voci di lista-correzioni-g6.json (1e4fe407…, la stessa impronta di controllo-script.json) ai file del commit c648955. I file di quel commit coincidono con snapshot-prima-dopo.json 'dopo', cioè con lo stato consegnato al G6. Ogni stringa compare una sola volta, e il risultato è uguale ai file vivi esclusi i blocchi INDICE-INTERNO: nessun cambiamento estraneo alla lista. Conteggi: E 66, O 23, R 17, C 86, come nel verbale e nella scheda.",
+  "rilievi_g6": "I rapporti dei quattro blocchi hanno 5, 10, 6 e 6 rilievi; inventari di 67, 65, 68 e 60 elementi. Tutti i rilievi sono chiusi nelle attestazioni r2 dei quattro V (esito OK, nessun rilievo residuo; b02 ha un'osservazione di resa non bloccante): da voci della lista, oppure respinti con motivazione accettata dal V (V maiuscola di b02; titolo «Circolare» di b04) o chiusi dalle decisioni D1-D7. Le copie nel dossier di rapporto G6, inventario, testo e attestazioni r1 e r2 del blocco b01 sono byte-identiche a quelle che ho prodotto o ricevuto.",
+  "decisioni": "Sui file vivi: «Intonacoarmato» ripristinato (D7); un solo trattino nella colonna fv0 della Tab. C8.5.I (D2); nessuna sottolineatura riprodotta (D1, D4); elenchi Markdown (D5); nessuna lettera greca in testo semplice fuori dalla matematica nei sei file (O11-O18, O21-O23). D3 e D6 risultano rispettati nelle attestazioni di b03 e b04.",
+  "resa": "modifiche/resa-dopo.pdf è nel manifest ed è identica byte per byte a quella del pacchetto r2: 21 pagine, prodotta da pandoc/xdvipdfmx, nessun U+FFFF, nessun tag tondo. Per la seconda resa vedi G7-R2.",
+  "coerenza": "Verbale e scheda concordano su snapshot, procedura, catalogo, perimetro, righe, conteggi degli inventari e dei rilievi, decisioni e normalizzazioni (l'unione delle normalizzazioni dei quattro V è 1, 2, 3, 4, 5, 6, 10, 11, 13, come nel verbale). Fanno eccezione G7-R1 e G7-R2."
+ },
+ "motivazione_sintetica": "Corpus, snapshot, lista e chiusura dei rilievi G6 sono conformi e verificati; il G6 si considera OK dopo correzioni e controllo delle modifiche, come nell'8.4. Restano due difetti documentali della catena delle evidenze: verbale e scheda descrivono in modo inesatto, e diverso fra loro, chi ha segnalato il primo pacchetto; e la resa citata dal controllo di script non è nel manifest. Nessuno dei due tocca i file normativi; sistemati verbale, scheda e manifest, basta riconciliare le impronte cambiate.",
+ "limiti": "G7 documentale: non ho riletto le fonti dei blocchi b02-b04, il cui confronto spetta ai rispettivi V. La resa l'ho controllata in modo meccanico (glifi mancanti, tag) e non a vista pagina per pagina. Ho scritto solo questo file; non ho modificato nient'altro nel repository."
+}

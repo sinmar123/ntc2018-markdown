@@ -67,6 +67,11 @@
       "sha256": "54848d9c43b5d885e958f9b91b21c8f78fff2af7b22dcacb7f8a6fc9e0786fa5"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/G7-r01-KO.json",
+      "bytes": 6039,
+      "sha256": "3724330e99587a1beb09568d2b750cf37487646b8a75e96626723475ba04e7bd"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/c-g6/c261-righe1-4-300dpi.png",
       "bytes": 84677,
       "sha256": "82786b0ad2ddad979a934017321d32233f9d2cf14e878d332bb12ad7f7d6f8c5"
@@ -347,6 +352,11 @@
       "sha256": "939c011040769482adcefe8d536ffb8972f70138be899fa2207eeb1730f06c9f"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/manifest-rilascio-r01.json",
+      "bytes": 26716,
+      "sha256": "c1346a54eea53343823a13f94c274a37d564d431bde581a607e448480478d6ea"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/modifiche-r01-pacchetto-errato/b01/attestazione-v-modifiche.json",
       "bytes": 4905,
       "sha256": "31890d08c1934c546c6d310ce96681c1716180bc60197bafb05208ccb4981b0a"
@@ -405,6 +415,16 @@
       "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/modifiche-r01-pacchetto-errato/b04/testo-dopo.md",
       "bytes": 21343,
       "sha256": "d1791ef78a8588fa30a5671489ce2932282a4d27024691b97ff2c56f72b31537"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/modifiche-r01-pacchetto-errato/resa-dopo.pdf",
+      "bytes": 114898,
+      "sha256": "bee19c2f71ea52a10958fece36bcaaabfff897d72bfe88ae3879615512b3df6d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/modifiche-r01-pacchetto-errato/target-scope-dopo.md",
+      "bytes": 76263,
+      "sha256": "44be433d0e6f4feee0a9a7811de8baaa5622b847c80297477b8151f8cb6cacb3"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.5-2026-10-14/modifiche-r01-pacchetto-errato/testo-dopo.md",

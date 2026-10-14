@@ -65,6 +65,8 @@ Decisioni di Sandro, 2026-10-14: ripristinare capoversi ed enfasi; rubriche come
 
 ## Controllo delle modifiche e preparazione del G7, 2026-10-14
 
-Controllo delle modifiche (§ 8) dei quattro V sul proprio blocco. Il primo pacchetto era confezionato male da C (testo composto file per file anziché Norma prima e Circolare dopo, come nel G6): segnalato da V b03 e V b04 come ERR-AUDIT, conservato in `modifiche-r01-pacchetto-errato/`. Rifatto con la composizione del G6 (`modifiche/`): esito OK nei quattro blocchi, nessun rilievo residuo; osservazione non bloccante di V b02 sulla testata ripetuta della Tab. C8.5.II nella resa PDF. G6 chiuso `OK` per il giro 1 dopo correzioni e controllo delle modifiche, come nell'8.4.
+Controllo delle modifiche (§ 8) dei quattro V sul proprio blocco. Il primo pacchetto era confezionato male da C (testo composto file per file anziché Norma prima e Circolare dopo, come nel G6): segnalato da tutti e quattro i V (b01, b02 e b03 come ERR-AUDIT residuo, b04 come osservazione non bloccante), conservato in `modifiche-r01-pacchetto-errato/` con la sua resa, citata da `modifiche/controllo-script.json`. Rifatto con la composizione del G6 (`modifiche/`): esito OK nei quattro blocchi, nessun rilievo residuo; osservazione non bloccante di V b02 sulla testata ripetuta della Tab. C8.5.II nella resa PDF. G6 chiuso `OK` per il giro 1 dopo correzioni e controllo delle modifiche, come nell'8.4.
 
 Snapshot finale dei sei file (`snapshot-finale.json`), verbale `verbale-VC-ntc2018-8.5-2026-10-14.md`, manifest di rilascio `manifest-rilascio.json`.
+
+G7 r01 di V b01: `KO` documentale con due rilievi (attribuzione delle segnalazioni del primo pacchetto; resa del controllo di script fuori dal manifest), conservato in `G7-r01-KO.json`. Rimediati in verbale, scheda e manifest; nuovo G7 richiesto.
