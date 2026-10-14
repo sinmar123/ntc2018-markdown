@@ -1,0 +1,182 @@
+{
+ "fig-4.3.10-perimetro-barre.png": {
+  "parti": [
+   {
+    "pagina": 133,
+    "riquadro": [
+     242,
+     498,
+     354,
+     541
+    ]
+   }
+  ]
+ },
+ "fig-4.3.4b-lamiera-trasversale.png": {
+  "parti": [
+   {
+    "pagina": 126,
+    "xref": 1712
+   }
+  ]
+ },
+ "fig-4.3.6-colonne-composte.png": {
+  "parti": [
+   {
+    "pagina": 127,
+    "xref": 1723
+   }
+  ]
+ },
+ "fig-4.3.7-colonna-circolare.png": {
+  "parti": [
+   {
+    "pagina": 129,
+    "xref": 1742
+   }
+  ]
+ },
+ "tab-4.3.III-curve-instabilita-colonne-composte.png": {
+  "parti": [
+   {
+    "pagina": 131,
+    "riquadro": [
+     76,
+     342.5,
+     372.5,
+     611.5
+    ]
+   }
+  ]
+ },
+ "tab-4.4.IV-kmod-legno-prodotti.png": {
+  "parti": [
+   {
+    "pagina": 138,
+    "riquadro": [
+     78.5,
+     458.2,
+     518,
+     698
+    ]
+   }
+  ]
+ },
+ "tab-4.4.V-kdef-legno-prodotti.png": {
+  "parti": [
+   {
+    "pagina": 139,
+    "riquadro": [
+     72.5,
+     312.5,
+     405,
+     576.5
+    ]
+   }
+  ]
+ },
+ "fig-5.1.1-numerazione-corsie.png": {
+  "parti": [
+   {
+    "pagina": 156,
+    "xref": 2012
+   }
+  ]
+ },
+ "fig-5.1.2-schemi-carico.png": {
+  "parti": [
+   {
+    "pagina": 157,
+    "xref": 2022
+   },
+   {
+    "pagina": 157,
+    "xref": 2023
+   }
+  ],
+  "unisci": "verticale"
+ },
+ "fig-5.1.3a-diffusione-carichi-solette.png": {
+  "parti": [
+   {
+    "pagina": 158,
+    "xref": 2033,
+    "taglio_x": [
+     0,
+     null,
+     1065
+    ]
+   }
+  ]
+ },
+ "fig-5.1.3b-diffusione-carichi-piastra-ortotropa.png": {
+  "parti": [
+   {
+    "pagina": 158,
+    "xref": 2033,
+    "taglio_x": [
+     null,
+     1,
+     1065
+    ]
+   }
+  ]
+ },
+ "fig-5.1.5-modello-fatica-3.png": {
+  "parti": [
+   {
+    "pagina": 164,
+    "xref": 2099
+   }
+  ]
+ },
+ "fig-C5.2.3-resistenza-scorrimento-attacco-elastico.png": {
+  "parti": [
+   {
+    "pagina": 175,
+    "xref": 2376
+   },
+   {
+    "pagina": 175,
+    "xref": 2377
+   }
+  ],
+  "unisci": "orizzontale"
+ },
+ "fig-7.5.1-tipologie-strutturali-acciaio.png": {
+  "parti": [
+   {
+    "pagina": 244,
+    "riquadro": [
+     155,
+     384,
+     445,
+     718
+    ]
+   },
+   {
+    "pagina": 245,
+    "riquadro": [
+     151.8,
+     91.0,
+     449.6,
+     387.7
+    ]
+   }
+  ],
+  "unisci": "verticale"
+ },
+ "fig-7.6.2-definizione-elementi.png": {
+  "parti": [
+   {
+    "pagina": 256,
+    "riquadro": [
+     79,
+     434,
+     347,
+     528
+    ]
+   }
+  ]
+ }
+}
