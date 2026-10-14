@@ -1,5 +1,13 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - Sito: formule composte anche nei menu, CC cloud
+
+- Segnalato da Claude su Chrome dopo l'unione della PR #6: nell'indice laterale i titoli con formule mostravano il codice, per esempio «Incremento dinamico addizionale: \(q_2\)» nel § 5.1.3. MathJax compone solo gli elementi con classe `arithmatex`, e le voci dei menu non l'avevano.
+- `strumenti/sito/mathjax.js`, solo nel sito: prima della composizione aggiunge la classe alle voci dei menu che contengono `\(`, anche dopo un cambio di pagina. I file dei capitoli non cambiano.
+- Prova in Chromium con MathJax 3.2.2 in copia locale: nel § 5.1.3 le formule dei menu sono composte (48 elementi), zero codice grezzo, zero errori MathJax o JavaScript; nessun codice grezzo neanche dopo il passaggio al § 5.1.4 con la navigazione istantanea. `mkdocs build --strict` e `controlla-sito.py` senza errori.
+
+Prossima azione: Sandro unisce la PR.
+
 ## 2026-10-14 - Estratte dalla Gazzetta le 115 figure mancanti, CC cloud
 
 - Richiesta di Sandro del 2026-10-14. Le 115 immagini richiamate dai capitoli ma assenti dal repository (cap02 1, cap04 41, cap05 25, cap07 46, cap11 2; 56 dalla NTC, 59 dalla Circolare) sono ora in `capXX/img/`, ricavate dai due PDF ufficiali di `verifica-conformita/fonte-ufficiale/`. Intervento tecnico, non VC: registro e file Markdown invariati, nessun `VC-OK` coinvolto.
