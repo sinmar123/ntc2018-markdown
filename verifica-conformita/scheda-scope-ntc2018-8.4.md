@@ -14,23 +14,27 @@ formule_numerate_preliminari: 0
 tabelle_preliminari: 0
 figure_preliminari: 0
 stato: IN-CORSO
-agente: OC
-macchina: OpenClaw
+agente: CCC
+macchina: claude.ai/code (sessione cloud)
+agente_precedente: OC
+subentro: 2026-10-14
 presa_in_carico: 2026-10-01T12:10:00+02:00
-procedura: VC-NTC/6
-procedura_sha256: 403157d71ba00bababeefad6b920915e631627bdf55e9ff1e9679cdbeea8383c
-catalogo_sha256: d71319206ec54bcac3639dfd0b97c41754fa1062655b2d35c36ee5d6cb3036d6
+procedura: VC-NTC/7
+procedura_sha256: 01c7f0ed9908e4c7620189a0073b2892afe37aa499f99cf50329a84b43960e67
+catalogo_sha256: dd5f1b9980e6fd37bd0444277d8b69d6ac0c000b91c1cf659a4f9a398b4a7c43
 snapshot_iniziale_sha256: vedi-corpo
 snapshot_sha256: vedi-corpo
 giro_g6: 1
 max_giri: 3
-rilievi_aperti: 7
+rilievi_aperti: 0
 gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: DA_FARE, G7: DA_FARE}
 attesa_decisione: []
-prossimo_passo: "Attendere Sandro sui 7 rilievi G6. Non correggere."
+prossimo_passo: "G6 giro 2 integrale, verificatore Opus a contesto nuovo; poi elenco dei rilievi a Sandro, senza correggere."
 routing_effettivo:
-  coordinatore: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
-  meccanica: "script locali"
+  coordinatore_fino_al_2026-10-13: {modello: xai/grok-4.7, ragionamento: off, ruolo: C, contesti: 1, agente: "NormaNTC18 (OC)"}
+  coordinatore: {modello: claude-opus-5-5, ruolo: C, agente: "CC cloud (CCC)"}
+  verificatore: {modello: "subagente Opus a contesto nuovo", ruolo: V}
+  meccanica: "script di strumenti/"
 ---
 
 # Scheda scope § 8.4
@@ -76,3 +80,14 @@ Prossima azione: G5, resa canonica dei quattro file e controllo visivo. Poi G6.
 G5, 2026-10-01: resa dei quattro file riuscita. Tag e didascalie automatiche assenti. Pagine guardate. Lo spazio prima del punto di 0,80 è uno spazio unificatore, così il punto non cade da solo a capo. G6 preparato, un solo blocco, 117 righe depurate, pagine NTC 295-296 e Circolare 256-257.
 
 G6 giro 1, 2026-10-01: schema OK, 65 id, esito del verificatore KO, 7 rilievi. Rapporto `g6-r01/b01/rapporto-g6.json`. Fermati in attesa di Sandro.
+
+## Subentro 2026-10-14, CC cloud (CCC)
+
+Ordine esplicito di Sandro del 2026-10-14: subentra CC cloud a NormaNTC18 (OC), che non lavora più sullo scope. Le righe 8.4, 8.4.1, 8.4.2 e 8.4.3 restano `IN-CORSO`.
+
+Stato ereditato: G0-G5 `OK`; correzioni R1-R7 applicate. Le impronte dei quattro file correnti coincidono con lo snapshot «dopo le correzioni» qui sopra. Il G6 giro 1 del 2026-10-01 si era chiuso `KO` con 7 rilievi, ma il rapporto (`g6-r01/b01/rapporto-g6.json`) e il diff stavano in `_tmp_render/` sulla macchina OpenClaw e non sono nel repository: i 7 rilievi non sono ricostruibili. Decisione di Sandro del 2026-10-14: rifare il G6 integrale come giro 2 (`giro_g6` non si azzera), con un verificatore Opus a contesto nuovo; i rilievi trovati vanno a Sandro in un unico elenco prima di qualunque correzione. `rilievi_aperti` passa a 0 perché i 7 non sono più identificabili; il giro 2 li riesamina comunque per intero.
+
+Procedura: lo scope adotta la revisione 7 (VC-NTC/7) dal G6 giro 2, primo passaggio non iniziato, come prevede il § 1. Le modifiche della revisione 7 riguardano solo diciture; criteri, canone G6 e gate invariati.
+
+G1: ricognizione piena del 2026-10-13 (scope 3.3-ancore-blocco, copre NTC e Circolare) con ricontrollo mirato del 2026-10-14: schede ufficiali identiche, nessun aggiornamento. Evidenza `vc-ntc2018-8.4-2026-10-14/g1/ricontrollo-20261014.json`.
+
