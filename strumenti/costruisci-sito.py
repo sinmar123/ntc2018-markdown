@@ -224,8 +224,8 @@ def pagina_iniziale(righe: list[dict], titoli_cap: dict[str, str]) -> str:
         "",
         "    La conversione è stata fatta con strumenti di intelligenza artificiale e la "
         "verifica sulla Gazzetta è in corso. Un paragrafo non verificato può contenere "
-        "errori di trascrizione. Ogni pagina riporta in testa il proprio stato. Alcune "
-        "figure non sono ancora nel repository: al loro posto c'è un avviso.",
+        "errori di trascrizione. Ogni pagina riporta in testa il proprio stato. Se una "
+        "figura mancasse dal repository, al suo posto c'è un avviso.",
         "",
         f"    [Segnala un errore di trascrizione]({SEGNALA_URL})",
         "",
