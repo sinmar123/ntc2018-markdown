@@ -1,5 +1,15 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - Estratte dalla Gazzetta le 115 figure mancanti, CC cloud
+
+- Richiesta di Sandro del 2026-10-14. Le 115 immagini richiamate dai capitoli ma assenti dal repository (cap02 1, cap04 41, cap05 25, cap07 46, cap11 2; 56 dalla NTC, 59 dalla Circolare) sono ora in `capXX/img/`, ricavate dai due PDF ufficiali di `verifica-conformita/fonte-ufficiale/`. Intervento tecnico, non VC: registro e file Markdown invariati, nessun `VC-OK` coinvolto.
+- Metodo: 44 immagini incorporate estratte senza ricampionare; 23 aree vettoriali rese a 300 dpi; 33 figure del capitolo 7 della Circolare ritagliate dai pixel nativi delle scansioni (pagine PDF 197-253, solo immagine), con le righe localizzate dall'OCR di tesseract; 15 casi con riquadro fissato a mano. Il ritaglio esclude la didascalia, già scritta nei capitoli. Tutti i ritagli controllati a vista accanto alla pagina.
+- Casi particolari, descritti in `verifica-conformita/estrazione-figure-2026-10-14/README.md`: Fig. 7.5.1 su due pagine unite; Figg. 5.1.3a e 5.1.3b divise da un'unica immagine; doppia «Figura C7.10.2» della Circolare, la seconda resa come C7.10.3 come già dichiarava il capitolo; tabelle in immagine ritagliate sulla griglia, con le note lasciate al testo.
+- Evidenze: `registro-figure.json` con pagina, metodo, riquadro, dimensioni e SHA-256 di ogni figura, più gli script usati. Peso complessivo delle immagini: 6,3 MB.
+- Controlli: `mkdocs build --strict` e `controlla-sito.py` senza errori, figure assenti da 115 a 0. Resa PDF dei 13 file che prima si fermavano sulle figure: 12 escono, il § 7.2.3 si ferma soltanto sul falso positivo «(3.2.4)», rimando scritto nel testo che il controllo dei tag legge come tag tondo.
+
+Prossima azione: Sandro unisce la PR. Le figure si verificano sulla fonte nella VC di ciascun paragrafo.
+
 ## 2026-10-14 - Tag delle formule dentro i `$$` e aggregati spostati in `old/`, CC cloud
 
 - Intervento tecnico dedicato, come chiedeva il TODO del 2026-08-26, scelto da Sandro il 2026-10-14 al posto di una VC piena: nei capitoli le formule scritte `$$formula$$ \tag{n}` diventano `$$formula \tag{n}$$`. Pandoc e MathJax non rendevano il tag lasciato fuori. Nuovo script `strumenti/normalizza-tag-formule.py`: sposta soltanto i delimitatori e si ferma se una riga cambierebbe altri caratteri.
@@ -8,7 +18,7 @@
 - Resa con `strumenti/render-capitolo.py` su una copia: senza intervento, 13 file si fermano sulle figure mancanti e il § 5.1.3 sull'annidamento degli elenchi, limiti già noti e non legati ai tag. Con resa ausiliaria dichiarata (segnaposto al posto delle figure mancanti, `enumitem` con `\setlistdepth{9}` nel solo preambolo) i 33 PDF escono tutti e ogni tag del Markdown compare nel PDF fra quadre; controllo visivo sul § 7.3.1. Il § 7.2.3 segnala «(3.2.4)» fra tonde: è un rimando nel testo, non un tag.
 - Sito: `mkdocs build --strict` e `controlla-sito.py` senza errori; `\tag` fuori dai `$$` da 314 a 0; pagine dei capitoli da 502 a 489.
 
-Prossima azione: Sandro unisce la PR; poi le 115 figure mancanti.
+Prossima azione: Sandro unisce la PR; poi le 115 figure mancanti (voce successiva).
 
 ## 2026-10-13 - Sito: formule con rimando alla nota sulla stessa riga, CC cloud
 

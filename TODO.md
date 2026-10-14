@@ -1,5 +1,11 @@
 # NTC 2018 — Stato lavori e istruzioni operative
 
+## Completato 2026-10-14 - Tag delle formule e 115 figure mancanti, CC cloud
+
+Due interventi tecnici, non VC, su richiesta di Sandro: 157 formule con `\tag` portato dentro i `$$` in 33 file di paragrafo, 13 file aggregati superati spostati in `old/aggregati-ricomposizione-20260826/`; 115 figure estratte dai PDF della Gazzetta, con registro di provenienza in `verifica-conformita/estrazione-figure-2026-10-14/`. Registro invariato. Dettagli nel CHANGELOG.
+
+Prossima azione: Sandro unisce la PR. Restano aperti il rilievo sulla Tab. 7.3.II (ora nel § 7.3.1) e il falso positivo del controllo dei tag sul rimando «(3.2.4)» del § 7.2.3.
+
 ## Completato 2026-10-13 - VC dei §§ 3.3.1, 3.3.2, 3.3.7 e 3.3.8 dopo correzione localizzata, CC cloud
 
 VC-OK dopo correzione localizzata: tolti 9 identificativi di blocco, testo normativo invariato; G1 del 2026-10-13, controllo delle modifiche e G7 di V OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-3.3-ancore-blocco-2026-10-13.md).

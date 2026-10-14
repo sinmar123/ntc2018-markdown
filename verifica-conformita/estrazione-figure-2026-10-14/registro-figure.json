@@ -1,0 +1,2187 @@
+[
+ {
+  "file": "cap02/img/fig-C2.1-affidabilita-vita-nominale.png",
+  "etichetta": "Fig. C2.1",
+  "atto": "Circolare",
+  "pagina_pdf": 42,
+  "metodo": "raster nativo 653x353",
+  "riquadro_pt": [
+   173.5,
+   365.0,
+   423.2,
+   502.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   653,
+   353
+  ],
+  "sha256": "d48d1ea83c16af58eddb2ca47c88a3c4e315da90032b6b71aa3329c43a50447a"
+ },
+ {
+  "file": "cap04/img/fig-4.1.1-modelli-sigma-eps-calcestruzzo.png",
+  "etichetta": "Fig. 4.1.1",
+  "atto": "NTC",
+  "pagina_pdf": 77,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   168.0,
+   382.1,
+   424.4,
+   463.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1069,
+   339
+  ],
+  "sha256": "03bca2d01c3fe353aaeb5ad727d98f4056007d407b28a32e2fe4d7545cdbb25e"
+ },
+ {
+  "file": "cap04/img/fig-4.1.2-modelli-sigma-eps-confinato.png",
+  "etichetta": "Fig. 4.1.2",
+  "atto": "NTC",
+  "pagina_pdf": 78,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   127.1,
+   247.5,
+   460.5,
+   344.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1390,
+   403
+  ],
+  "sha256": "1117210fee64dd8bfe55b66e638b924684920b5545e1751977468ca60503001b"
+ },
+ {
+  "file": "cap04/img/fig-4.1.3-modelli-sigma-eps-acciaio.png",
+  "etichetta": "Fig. 4.1.3",
+  "atto": "NTC",
+  "pagina_pdf": 79,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   181.1,
+   313.7,
+   415.2,
+   424.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   976,
+   461
+  ],
+  "sha256": "585fbc8237df0e946d28b27d2bfd0a6a55d634e8c3c50de50f10e5a26cab99dc"
+ },
+ {
+  "file": "cap04/img/fig-4.1.4-sezione-pressoinflessa.png",
+  "etichetta": "Fig. 4.1.4",
+  "atto": "NTC",
+  "pagina_pdf": 82,
+  "metodo": "raster nativo 1210x428",
+  "riquadro_pt": [
+   79.9,
+   140.8,
+   365.9,
+   236.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1210,
+   428
+  ],
+  "sha256": "e9859b46386543604249e437ec0180d4c5a389fdcbf5f76ea66546cf0ec31ca5"
+ },
+ {
+  "file": "cap04/img/fig-4.3.1-larghezza-efficace.png",
+  "etichetta": "Fig. 4.3.1",
+  "atto": "NTC",
+  "pagina_pdf": 121,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   79.9,
+   624.1,
+   301.8,
+   700.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   926,
+   319
+  ],
+  "sha256": "e123490be57018fbeaf702e4854e212fe394c445709cd3367147853f7da65e3a"
+ },
+ {
+  "file": "cap04/img/fig-4.3.10-perimetro-barre.png",
+  "etichetta": "Fig. 4.3.10",
+  "atto": "NTC",
+  "pagina_pdf": 133,
+  "metodo": "manuale: p.133 [242, 498, 354, 541] reso a 300 dpi",
+  "riquadro_pt": [
+   242,
+   498,
+   354,
+   541
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   467,
+   180
+  ],
+  "sha256": "df54ba2d3d6a8802d8d6bf18a74a9320b7eac805bfa20daa1be4c80c621fe8ed"
+ },
+ {
+  "file": "cap04/img/fig-4.3.11-forme-connessione.png",
+  "etichetta": "Fig. 4.3.11",
+  "atto": "NTC",
+  "pagina_pdf": 134,
+  "metodo": "raster nativo 740x118",
+  "riquadro_pt": [
+   79.9,
+   108.1,
+   368.2,
+   150.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   740,
+   118
+  ],
+  "sha256": "38fa9beef6474e92778c09daa9763fedd8f247c7db15cc4e2b9bff42882730f9"
+ },
+ {
+  "file": "cap04/img/fig-4.3.12-diffusione-carico.png",
+  "etichetta": "Fig. 4.3.12",
+  "atto": "NTC",
+  "pagina_pdf": 134,
+  "metodo": "raster nativo 358x259",
+  "riquadro_pt": [
+   227.5,
+   487.1,
+   367.0,
+   580.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   358,
+   259
+  ],
+  "sha256": "0b228e303b74f955eb0d7f1eec273ed879671ab6d3b8e69c649becb3efd5c57e"
+ },
+ {
+  "file": "cap04/img/fig-4.3.2-larghezza-travi-continue.png",
+  "etichetta": "Fig. 4.3.2",
+  "atto": "NTC",
+  "pagina_pdf": 122,
+  "metodo": "raster nativo 471x266",
+  "riquadro_pt": [
+   79.9,
+   198.5,
+   354.6,
+   347.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   471,
+   266
+  ],
+  "sha256": "33c0ef4b6627497d7a9dd8461b0e506217821d0aea819355a1c09d6e807e58ff"
+ },
+ {
+  "file": "cap04/img/fig-4.3.3-tipologie-sezioni-travi.png",
+  "etichetta": "Fig. 4.3.3",
+  "atto": "NTC",
+  "pagina_pdf": 124,
+  "metodo": "raster nativo 877x165",
+  "riquadro_pt": [
+   79.9,
+   95.5,
+   348.5,
+   142.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   877,
+   165
+  ],
+  "sha256": "7ac1b75949b31ac6cb2795ce5b94622335c797125460653b8479004469cd089f"
+ },
+ {
+  "file": "cap04/img/fig-4.3.4a-lamiera-parallela.png",
+  "etichetta": "Fig. 4.3.4a",
+  "atto": "NTC",
+  "pagina_pdf": 126,
+  "metodo": "raster nativo 931x197",
+  "riquadro_pt": [
+   79.9,
+   126.5,
+   364.7,
+   182.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   931,
+   197
+  ],
+  "sha256": "4792547a01ae0c4cfd28a7f0d12d990ba16ddaf06ec1070d143f416f9c97fc67"
+ },
+ {
+  "file": "cap04/img/fig-4.3.4b-lamiera-trasversale.png",
+  "etichetta": "Fig. 4.3.4b",
+  "atto": "NTC",
+  "pagina_pdf": 126,
+  "metodo": "manuale: raster nativo 934x205",
+  "riquadro_pt": [
+   79.9,
+   276.9,
+   368.7,
+   424.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   934,
+   205
+  ],
+  "sha256": "d5084d193eedc2d771bbf93a97d1301d68ee54a7876f52b3e34b85ec399e0e3f"
+ },
+ {
+  "file": "cap04/img/fig-4.3.5-superfici-collasso.png",
+  "etichetta": "Fig. 4.3.5",
+  "atto": "NTC",
+  "pagina_pdf": 127,
+  "metodo": "raster nativo 943x282",
+  "riquadro_pt": [
+   79.9,
+   191.9,
+   367.9,
+   273.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   943,
+   282
+  ],
+  "sha256": "de9a14489d382ea5f4993609d4464620678b9a22355731e987e20db933af6d31"
+ },
+ {
+  "file": "cap04/img/fig-4.3.6-colonne-composte.png",
+  "etichetta": "Fig. 4.3.6",
+  "atto": "NTC",
+  "pagina_pdf": 127,
+  "metodo": "manuale: raster nativo 952x284",
+  "riquadro_pt": [
+   79.9,
+   525.3,
+   370.9,
+   655.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   952,
+   284
+  ],
+  "sha256": "787ac02f85c7c4ae5c0abad91a5a28406e9df83faafec00c075460b382ae058c"
+ },
+ {
+  "file": "cap04/img/fig-4.3.7-colonna-circolare.png",
+  "etichetta": "Fig. 4.3.7",
+  "atto": "NTC",
+  "pagina_pdf": 129,
+  "metodo": "manuale: raster nativo 237x172",
+  "riquadro_pt": [
+   110.6,
+   400.3,
+   370.4,
+   525.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   237,
+   172
+  ],
+  "sha256": "effdbdd5075a52b0ace388b69e22ea049811f719ad6287d85f70aa716d2505a5"
+ },
+ {
+  "file": "cap04/img/fig-4.3.8-dominio-NM.png",
+  "etichetta": "Fig. 4.3.8",
+  "atto": "NTC",
+  "pagina_pdf": 130,
+  "metodo": "raster nativo 708x532",
+  "riquadro_pt": [
+   175.8,
+   95.5,
+   418.7,
+   270.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   708,
+   532
+  ],
+  "sha256": "fb0cca2cf0fbe9fe2795785f782c7b00d145647b4e5358399141b71785da841c"
+ },
+ {
+  "file": "cap04/img/fig-4.3.9-pioli-connessione.png",
+  "etichetta": "Fig. 4.3.9",
+  "atto": "NTC",
+  "pagina_pdf": 133,
+  "metodo": "raster nativo 415x211",
+  "riquadro_pt": [
+   197.2,
+   203.7,
+   397.2,
+   299.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   415,
+   211
+  ],
+  "sha256": "521eaf2faca8acf7ca12ae8512715efdc1927ffc6997dfc2a210d6fe612854a5"
+ },
+ {
+  "file": "cap04/img/fig-4.4.1-assi-elemento.png",
+  "etichetta": "Fig. 4.4.1",
+  "atto": "NTC",
+  "pagina_pdf": 140,
+  "metodo": "raster nativo 522x357",
+  "riquadro_pt": [
+   224.0,
+   163.5,
+   370.5,
+   255.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   522,
+   357
+  ],
+  "sha256": "8fa4cee4ed05e0a2de831a7a025c755fdd7dfb6cd496675f4bccde29948d08e8"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.1-ridistribuzione-travi-continue.png",
+  "etichetta": "Fig. C4.1.1",
+  "atto": "Circolare",
+  "pagina_pdf": 86,
+  "metodo": "raster nativo 454x270",
+  "riquadro_pt": [
+   180.7,
+   329.7,
+   414.2,
+   471.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   454,
+   270
+  ],
+  "sha256": "b7de8712dfd5a6f18e021dd712fc6531bd8ca2c9f589cb86fbeeb32d9640f71e"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.10-area-tesa-efficace.png",
+  "etichetta": "Fig. C4.1.10",
+  "atto": "Circolare",
+  "pagina_pdf": 92,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   175.2,
+   96.4,
+   423.0,
+   163.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1033,
+   279
+  ],
+  "sha256": "8506bbda02a090c8b8fd5c5a128aec5ffafc45767f4cead9fc36d1d92a6e2e34"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.11-ampiezza-fessure.png",
+  "etichetta": "Fig. C4.1.11",
+  "atto": "Circolare",
+  "pagina_pdf": 92,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   180.3,
+   572.0,
+   424.2,
+   678.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1017,
+   443
+  ],
+  "sha256": "21c4c0ed85ff14aa6e851e8686b7cdee943fa21ea16db911da7454f87d422fd4"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.4-ridistribuzione-travi-opposto.png",
+  "etichetta": "Fig. C4.1.4",
+  "atto": "Circolare",
+  "pagina_pdf": 87,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   94.7,
+   280.5,
+   500.3,
+   412.9
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1691,
+   553
+  ],
+  "sha256": "e2dc1bf94b96d229c3af5d647f5c70ac6a8caafe005473ef882a0510b4409262"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.5-ridistribuzione-travi-concorde.png",
+  "etichetta": "Fig. C4.1.5",
+  "atto": "Circolare",
+  "pagina_pdf": 87,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   86.9,
+   449.9,
+   508.0,
+   581.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1755,
+   549
+  ],
+  "sha256": "f649484cad5c8c7ffe4f6619d27cf7b79dca76bfb7679bbb0c16670949cbaf54"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.6-diagrammi-momenti-ridistribuzione.png",
+  "etichetta": "Fig. C4.1.6",
+  "atto": "Circolare",
+  "pagina_pdf": 88,
+  "metodo": "raster nativo 637x260",
+  "riquadro_pt": [
+   128.5,
+   94.1,
+   466.7,
+   226.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   637,
+   260
+  ],
+  "sha256": "e266f786b304fe032b923a6e38919a4c67c8debe9d7135240074cd6a218a595c"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.7-pressione-laterale-confinamento.png",
+  "etichetta": "Fig. C4.1.7",
+  "atto": "Circolare",
+  "pagina_pdf": 88,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   105.9,
+   517.0,
+   489.3,
+   647.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1598,
+   544
+  ],
+  "sha256": "f9fe7b0e0cfbf2b9cf480a743b2599dd1193f31ab6e1483f5ed10d622c9d86ef"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.8-volume-confinato-staffe.png",
+  "etichetta": "Fig. C4.1.8",
+  "atto": "Circolare",
+  "pagina_pdf": 89,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   185.5,
+   146.0,
+   413.5,
+   248.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   951,
+   427
+  ],
+  "sha256": "c5d9b32188a24bef01163443394d378bca5e2b2591951a63593be0de201e05c6"
+ },
+ {
+  "file": "cap04/img/fig-c4.1.9-sigma-epsilon-cls-confinato.png",
+  "etichetta": "Fig. C4.1.9",
+  "atto": "Circolare",
+  "pagina_pdf": 89,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   173.4,
+   371.2,
+   421.8,
+   617.6
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1036,
+   1028
+  ],
+  "sha256": "d1db35d9a43d988e6585a5b0b2ea9965c914682f10893cbabb1eff4227c4222f"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.1-tensioni-momento-positivo.png",
+  "etichetta": "Fig. C4.3.1",
+  "atto": "Circolare",
+  "pagina_pdf": 148,
+  "metodo": "raster nativo 595x173",
+  "riquadro_pt": [
+   171.6,
+   196.6,
+   423.5,
+   264.9
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   595,
+   173
+  ],
+  "sha256": "cb485a7708d011ab297a8e210e1a6c5eef8889c4556bee817670fd193910ecdd"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.2-tensioni-momento-negativo.png",
+  "etichetta": "Fig. C4.3.2",
+  "atto": "Circolare",
+  "pagina_pdf": 148,
+  "metodo": "raster nativo 595x175",
+  "riquadro_pt": [
+   171.6,
+   395.3,
+   423.5,
+   465.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   595,
+   175
+  ],
+  "sha256": "ad10e571530080706daa062bf6b52ba97ffaa7e44452fdedde392a1892571432"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.3-momento-grado-connessione.png",
+  "etichetta": "Fig. C4.3.3",
+  "atto": "Circolare",
+  "pagina_pdf": 148,
+  "metodo": "raster nativo 518x238",
+  "riquadro_pt": [
+   171.6,
+   580.2,
+   423.5,
+   690.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   518,
+   238
+  ],
+  "sha256": "9cfa12dd41636cf7e2eeb19cb274a7ae67e0331501ce6c1956aab3e94ec3f6e0"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.4-trave-acciaio-soletta-collaborante.png",
+  "etichetta": "Fig. C4.3.4",
+  "atto": "Circolare",
+  "pagina_pdf": 149,
+  "metodo": "raster nativo 667x123",
+  "riquadro_pt": [
+   172.9,
+   209.8,
+   422.3,
+   252.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   667,
+   123
+  ],
+  "sha256": "2bc67a1e96886f1db17c16cc22397c0d666a7f5521167c08c0762ae3e95c1bfb"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.5-resistenza-trave-connessione.png",
+  "etichetta": "Fig. C4.3.5",
+  "atto": "Circolare",
+  "pagina_pdf": 149,
+  "metodo": "raster nativo 533x301",
+  "riquadro_pt": [
+   133.3,
+   296.1,
+   461.9,
+   477.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   533,
+   301
+  ],
+  "sha256": "958acee2e31807177eb159089fa6aa1dee72cca35567c902e2ecf7c7f7e29ca9"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.6-taglio-longitudinale-piattabanda.png",
+  "etichetta": "Fig. C4.3.6",
+  "atto": "Circolare",
+  "pagina_pdf": 151,
+  "metodo": "raster nativo 400x256",
+  "riquadro_pt": [
+   188.9,
+   416.3,
+   406.2,
+   548.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   400,
+   256
+  ],
+  "sha256": "8ca7a074c88e58ead8e59bb284900b9aee042ab29b147fd1beccc649d5c08b05"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.7-telaio-u-invertita.png",
+  "etichetta": "Fig. C4.3.7",
+  "atto": "Circolare",
+  "pagina_pdf": 152,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   196.3,
+   343.3,
+   398.8,
+   410.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   845,
+   280
+  ],
+  "sha256": "20ae45ceb1e078f9d4a2fbf615a21814edc5571e94dca9222102c0e6cc8b13aa"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.8-tensioni-soletta-lamiera.png",
+  "etichetta": "Fig. C4.3.8",
+  "atto": "Circolare",
+  "pagina_pdf": 153,
+  "metodo": "raster nativo 675x240",
+  "riquadro_pt": [
+   152.6,
+   384.1,
+   442.4,
+   482.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   675,
+   240
+  ],
+  "sha256": "a2aa6240963c500e1dcc63d7a221276eea1a28dc3874d9907ad3cd236896a14a"
+ },
+ {
+  "file": "cap04/img/fig-c4.3.9-interazione-calcestruzzo-lamiera.png",
+  "etichetta": "Fig. C4.3.9",
+  "atto": "Circolare",
+  "pagina_pdf": 154,
+  "metodo": "raster nativo 619x236",
+  "riquadro_pt": [
+   117.7,
+   94.1,
+   477.3,
+   226.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   619,
+   236
+  ],
+  "sha256": "2082e57609e491e78d66b39932c4c1687ff0aa144e4e4753eb372f68234f9e5c"
+ },
+ {
+  "file": "cap04/img/fig-c4.4.1-deformazione-elemento-inflesso.png",
+  "etichetta": "Fig. C4.4.1",
+  "atto": "Circolare",
+  "pagina_pdf": 157,
+  "metodo": "raster nativo 573x170",
+  "riquadro_pt": [
+   172.9,
+   94.1,
+   422.3,
+   163.8
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   573,
+   170
+  ],
+  "sha256": "e4e834e7407365c1c6250433ce5e22d350e9dc483dba7024beb4f7b9f9a31b1b"
+ },
+ {
+  "file": "cap04/img/tab-4.3.III-curve-instabilita-colonne-composte.png",
+  "etichetta": "Tab. 4.3.III",
+  "atto": "NTC",
+  "pagina_pdf": 131,
+  "metodo": "manuale: p.131 [76, 342.5, 372.5, 611.5] reso a 300 dpi",
+  "riquadro_pt": [
+   76,
+   342.5,
+   372.5,
+   611.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1237,
+   1121
+  ],
+  "sha256": "e1a301ca4ee69e3aef18d6c85c43975489a7f4d13516934dba8bcce835295ff6"
+ },
+ {
+  "file": "cap04/img/tab-4.4.IV-kmod-legno-prodotti.png",
+  "etichetta": "Tab. 4.4.IV",
+  "atto": "NTC",
+  "pagina_pdf": 138,
+  "metodo": "manuale: p.138 [78.5, 458.2, 518, 698] reso a 300 dpi",
+  "riquadro_pt": [
+   78.5,
+   458.2,
+   518,
+   698
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1832,
+   1000
+  ],
+  "sha256": "df50f8547210c2e6b67bbf83530e166cdbcc771ab9e875b99be33c3d0bc0648d"
+ },
+ {
+  "file": "cap04/img/tab-4.4.V-kdef-legno-prodotti.png",
+  "etichetta": "Tab. 4.4.V",
+  "atto": "NTC",
+  "pagina_pdf": 139,
+  "metodo": "manuale: p.139 [72.5, 312.5, 405, 576.5] reso a 300 dpi",
+  "riquadro_pt": [
+   72.5,
+   312.5,
+   405,
+   576.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1386,
+   1101
+  ],
+  "sha256": "0a5efb67eb048566678aed0145ee0647f42205311811164f89ad35781d3b023c"
+ },
+ {
+  "file": "cap04/img/tab-c4.3.i-classificazione-piattabande-rivestite.png",
+  "etichetta": "Tab. C4.3.I",
+  "atto": "Circolare",
+  "pagina_pdf": 147,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   66.0,
+   534.0,
+   359.9,
+   681.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1225,
+   613
+  ],
+  "sha256": "f7ee78195b5915b9555939568ac990ad3c660f60222ba9a33aa58885709f0042"
+ },
+ {
+  "file": "cap05/img/fig-5.1.1-numerazione-corsie.png",
+  "etichetta": "Fig. 5.1.1",
+  "atto": "NTC",
+  "pagina_pdf": 156,
+  "metodo": "manuale: raster nativo 957x351",
+  "riquadro_pt": [
+   85.3,
+   126.8,
+   415.1,
+   216.8
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   957,
+   351
+  ],
+  "sha256": "2d0b958a886db56770246ac44d6dc45fea8ba4c585fd85837d5b3116da44bf91"
+ },
+ {
+  "file": "cap05/img/fig-5.1.2-schemi-carico.png",
+  "etichetta": "Fig. 5.1.2",
+  "atto": "NTC",
+  "pagina_pdf": 157,
+  "metodo": "manuale: raster nativo 1204x727; raster nativo 1204x727",
+  "riquadro_pt": [
+   159.2,
+   335.9,
+   440.6,
+   649.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1204,
+   1454
+  ],
+  "sha256": "8b7c0c4e3091abbe90b0753c65947ab8d12bbb9d14d91045dad54f9ff65af339"
+ },
+ {
+  "file": "cap05/img/fig-5.1.3a-diffusione-carichi-solette.png",
+  "etichetta": "Fig. 5.1.3a",
+  "atto": "NTC",
+  "pagina_pdf": 158,
+  "metodo": "manuale: raster nativo 1685x433 tagliato in x=1065",
+  "riquadro_pt": [
+   147.9,
+   450.8,
+   452.8,
+   533.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1065,
+   433
+  ],
+  "sha256": "a7681fe49cf9fd88fc2e4dcfc80a72e6d7873ac0b50ccb8eef112b53a3cb5a18"
+ },
+ {
+  "file": "cap05/img/fig-5.1.3b-diffusione-carichi-piastra-ortotropa.png",
+  "etichetta": "Fig. 5.1.3b",
+  "atto": "NTC",
+  "pagina_pdf": 158,
+  "metodo": "manuale: raster nativo 1685x433 tagliato in x=1065",
+  "riquadro_pt": [
+   147.9,
+   450.8,
+   452.8,
+   533.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   620,
+   433
+  ],
+  "sha256": "b1c180aa5193ba7d924a349b7f54d58a7c6a40998c5b3226ab4cb91bfc6284b2"
+ },
+ {
+  "file": "cap05/img/fig-5.1.4-modello-fatica-1.png",
+  "etichetta": "Fig. 5.1.4",
+  "atto": "NTC",
+  "pagina_pdf": 162,
+  "metodo": "raster nativo 1024x399",
+  "riquadro_pt": [
+   155.5,
+   510.5,
+   444.3,
+   615.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1024,
+   399
+  ],
+  "sha256": "13f1e8b13a671e8adef5b7fc71c31bfbd9c29580f31585528b380d2992698632"
+ },
+ {
+  "file": "cap05/img/fig-5.1.5-modello-fatica-3.png",
+  "etichetta": "Fig. 5.1.5",
+  "atto": "NTC",
+  "pagina_pdf": 164,
+  "metodo": "manuale: raster nativo 736x272",
+  "riquadro_pt": [
+   158.5,
+   96.8,
+   441.1,
+   197.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   736,
+   272
+  ],
+  "sha256": "1fbd7c1b6636318e8abcece2c9d6782173826a5b82e58cdae6968e69b5cdaf8f"
+ },
+ {
+  "file": "cap05/img/fig-5.2.1-modello-carico-lm71.png",
+  "etichetta": "Fig. 5.2.1",
+  "atto": "NTC",
+  "pagina_pdf": 168,
+  "metodo": "raster nativo 709x221",
+  "riquadro_pt": [
+   171.1,
+   582.6,
+   428.6,
+   666.9
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   709,
+   221
+  ],
+  "sha256": "6761659277016afdb6f828f43f0283ae65b75c7508f08055d9012c81b5b0326d"
+ },
+ {
+  "file": "cap05/img/fig-5.2.10-azioni-q3k-superfici-orizzontali-adiacenti.png",
+  "etichetta": "Fig. 5.2.10",
+  "atto": "NTC",
+  "pagina_pdf": 178,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   170.2,
+   320.2,
+   429.5,
+   510.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1081,
+   791
+  ],
+  "sha256": "c739492e2b3dc86ac47bb4c3c180605effdc6836f3208a86944bfb0e92c97242"
+ },
+ {
+  "file": "cap05/img/fig-5.2.11-distanza-ag.png",
+  "etichetta": "Fig. 5.2.11",
+  "atto": "NTC",
+  "pagina_pdf": 179,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   190.3,
+   96.8,
+   409.4,
+   267.8
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   914,
+   713
+  ],
+  "sha256": "261afa8321027debb995ecff53d98906ec5f119e7401548bf5f1a8f62ada7327"
+ },
+ {
+  "file": "cap05/img/fig-5.2.12-deragliamento-caso1.png",
+  "etichetta": "Fig. 5.2.12",
+  "atto": "NTC",
+  "pagina_pdf": 180,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   184.9,
+   213.9,
+   414.7,
+   307.9
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   958,
+   392
+  ],
+  "sha256": "f05b8e2c3fe378d082c48d5480b93874c509bb5cb812285fe2dc0524f9d1414c"
+ },
+ {
+  "file": "cap05/img/fig-5.2.13-deragliamento-caso2.png",
+  "etichetta": "Fig. 5.2.13",
+  "atto": "NTC",
+  "pagina_pdf": 180,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   216.6,
+   392.0,
+   383.0,
+   498.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   694,
+   444
+  ],
+  "sha256": "255789ac743bc56af76e46eeb5ed003cc92a6ee9f9dac6a8401e3a9583114d3b"
+ },
+ {
+  "file": "cap05/img/fig-5.2.14-sghembo-ammissibile.png",
+  "etichetta": "Fig. 5.2.14",
+  "atto": "NTC",
+  "pagina_pdf": 184,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   220.0,
+   254.8,
+   379.7,
+   315.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   667,
+   255
+  ],
+  "sha256": "9960fd50d3606ef4c8751a00c73021eb53ff387958579781d5d50c90903b332b"
+ },
+ {
+  "file": "cap05/img/fig-5.2.2-modelli-carico-sw.png",
+  "etichetta": "Fig. 5.2.2",
+  "atto": "NTC",
+  "pagina_pdf": 169,
+  "metodo": "raster nativo 714x130",
+  "riquadro_pt": [
+   213.9,
+   243.3,
+   385.8,
+   271.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   714,
+   130
+  ],
+  "sha256": "87f2b53ff81b5f58c789f8a0ff3eb4b4cffdb3a72d30de2a3e480aacc55647ec"
+ },
+ {
+  "file": "cap05/img/fig-5.2.3-distribuzione-longitudinale-carichi-assiali.png",
+  "etichetta": "Fig. 5.2.3",
+  "atto": "NTC",
+  "pagina_pdf": 169,
+  "metodo": "raster nativo 943x343",
+  "riquadro_pt": [
+   189.0,
+   529.1,
+   410.7,
+   608.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   943,
+   343
+  ],
+  "sha256": "687b56b97e4a6d8d885f89e38e8df914e7064b519ec907266ac9aebda844903e"
+ },
+ {
+  "file": "cap05/img/fig-5.2.4-distribuzione-longitudinale-carichi-ballast.png",
+  "etichetta": "Fig. 5.2.4",
+  "atto": "NTC",
+  "pagina_pdf": 170,
+  "metodo": "raster nativo 831x418",
+  "riquadro_pt": [
+   211.6,
+   96.8,
+   388.1,
+   187.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   831,
+   418
+  ],
+  "sha256": "779d61e08f2c1cf59d1589a4b628b455e31fe80ad6d53c070dfd9ddbff3ca695"
+ },
+ {
+  "file": "cap05/img/fig-5.2.5-distribuzione-trasversale-rettifilo.png",
+  "etichetta": "Fig. 5.2.5",
+  "atto": "NTC",
+  "pagina_pdf": 170,
+  "metodo": "raster nativo 563x540",
+  "riquadro_pt": [
+   232.9,
+   298.5,
+   366.8,
+   425.6
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   563,
+   540
+  ],
+  "sha256": "9f203e5da31639de8953b606e8143c995179b706b3f89a82f2c943a7c1d478a0"
+ },
+ {
+  "file": "cap05/img/fig-5.2.6-distribuzione-trasversale-curva.png",
+  "etichetta": "Fig. 5.2.6",
+  "atto": "NTC",
+  "pagina_pdf": 170,
+  "metodo": "raster nativo 564x540",
+  "riquadro_pt": [
+   225.9,
+   481.6,
+   373.8,
+   623.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   564,
+   540
+  ],
+  "sha256": "c3f6932c0fa82ee9d96a54df709949ea6991e82f855adc8b82dcc8622318bf81"
+ },
+ {
+  "file": "cap05/img/fig-5.2.7-limiti-frequenze-proprie.png",
+  "etichetta": "Fig. 5.2.7",
+  "atto": "NTC",
+  "pagina_pdf": 171,
+  "metodo": "raster nativo 367x436",
+  "riquadro_pt": [
+   239.6,
+   295.4,
+   360.1,
+   440.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   367,
+   436
+  ],
+  "sha256": "a90ea0d98de5c7db1c9b7278e616439c43dfbd70ceb54df2c5386218d1030ec4"
+ },
+ {
+  "file": "cap05/img/fig-5.2.8-azioni-q1k-superfici-verticali.png",
+  "etichetta": "Fig. 5.2.8",
+  "atto": "NTC",
+  "pagina_pdf": 177,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   175.1,
+   138.9,
+   424.7,
+   303.8
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1041,
+   688
+  ],
+  "sha256": "9905b2a8db79923efc9a71954b5a4842c5b664023e8220d29ff1d299667aa946"
+ },
+ {
+  "file": "cap05/img/fig-5.2.9-azioni-q2k-superfici-orizzontali-sopra.png",
+  "etichetta": "Fig. 5.2.9",
+  "atto": "NTC",
+  "pagina_pdf": 178,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   129.6,
+   96.8,
+   470.1,
+   284.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1419,
+   782
+  ],
+  "sha256": "c7f7ef7a8542f0510f4bda15cf07691a19adc881016f4c68d3476e48b657fbb7"
+ },
+ {
+  "file": "cap05/img/fig-C5.1.1-carichi-muri-paraghiaia.png",
+  "etichetta": "Fig. C5.1.1",
+  "atto": "Circolare",
+  "pagina_pdf": 171,
+  "metodo": "raster nativo 594x610",
+  "riquadro_pt": [
+   232.9,
+   93.9,
+   362.3,
+   217.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   594,
+   610
+  ],
+  "sha256": "e006e57326f55b63391745ad7ffd89928abda42d030c4e628ff91369d3230595"
+ },
+ {
+  "file": "cap05/img/fig-C5.1.2-veicolo-servizio-ponti-pedonali.png",
+  "etichetta": "Fig. C5.1.2",
+  "atto": "Circolare",
+  "pagina_pdf": 173,
+  "metodo": "raster nativo 561x445",
+  "riquadro_pt": [
+   214.6,
+   477.0,
+   380.0,
+   600.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   561,
+   445
+  ],
+  "sha256": "d4f9ab23fb4f9f09af26427acec07d1a29e79025dcdd5b2e439405ad4c27e483"
+ },
+ {
+  "file": "cap05/img/fig-C5.2.1-resistenza-scorrimento-ballast.png",
+  "etichetta": "Fig. C5.2.1",
+  "atto": "Circolare",
+  "pagina_pdf": 175,
+  "metodo": "raster nativo 939x519",
+  "riquadro_pt": [
+   162.9,
+   93.8,
+   432.5,
+   247.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   939,
+   519
+  ],
+  "sha256": "3b8b6bc5083f89ac5044be9bb992766f25484690b0601dee34e98c5deaa7c99b"
+ },
+ {
+  "file": "cap05/img/fig-C5.2.2-resistenza-scorrimento-tipo-K.png",
+  "etichetta": "Fig. C5.2.2",
+  "atto": "Circolare",
+  "pagina_pdf": 175,
+  "metodo": "raster nativo 1098x883",
+  "riquadro_pt": [
+   179.9,
+   266.5,
+   414.4,
+   445.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1098,
+   883
+  ],
+  "sha256": "c8d7407d8f25394a77d76bf088e15fa49fa258cab5572a251c1cc2241139702d"
+ },
+ {
+  "file": "cap05/img/fig-C5.2.3-resistenza-scorrimento-attacco-elastico.png",
+  "etichetta": "Fig. C5.2.3",
+  "atto": "Circolare",
+  "pagina_pdf": 175,
+  "metodo": "manuale: raster nativo 1008x952; raster nativo 146x952",
+  "riquadro_pt": [
+   114.0,
+   462.9,
+   420.0,
+   667.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1154,
+   952
+  ],
+  "sha256": "63592ace3cbfce47db0b96514ae99a0de69e63ce308e6006b72fa430ef333e59"
+ },
+ {
+  "file": "cap07/img/fig-7.11.1a-fusi-granulometrici-liquefazione-a.png",
+  "etichetta": "Fig. 7.11.1",
+  "atto": "NTC",
+  "pagina_pdf": 284,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   193.2,
+   434.8,
+   408.1,
+   706.9
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   896,
+   1135
+  ],
+  "sha256": "16fbe49420a6eb7ea504d3bd9367a2c8a4aee062fa3bc7b2c8e9d269c80a2803"
+ },
+ {
+  "file": "cap07/img/fig-7.11.2-coefficiente-alfa-deformabilita.png",
+  "etichetta": "Fig. 7.11.2",
+  "atto": "NTC",
+  "pagina_pdf": 291,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   180.2,
+   324.7,
+   419.2,
+   496.5
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   997,
+   717
+  ],
+  "sha256": "c727bf67cba1056fa87f34ff626544a01c80ff22abf326d4e2f9dcec56b96c82"
+ },
+ {
+  "file": "cap07/img/fig-7.11.3-coefficiente-beta-spostamento.png",
+  "etichetta": "Fig. 7.11.3",
+  "atto": "NTC",
+  "pagina_pdf": 291,
+  "metodo": "vettoriale reso a 300 dpi",
+  "riquadro_pt": [
+   183.1,
+   515.8,
+   416.5,
+   700.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   974,
+   769
+  ],
+  "sha256": "75904e14dd409094f7bb30cfae3e78958dd132f800b1998777bc1b891546a7ad"
+ },
+ {
+  "file": "cap07/img/fig-7.4.1-larghezza-collaborante-travi.png",
+  "etichetta": "Fig. 7.4.1",
+  "atto": "NTC",
+  "pagina_pdf": 229,
+  "metodo": "raster nativo 793x509",
+  "riquadro_pt": [
+   192.0,
+   389.9,
+   407.6,
+   521.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   793,
+   509
+  ],
+  "sha256": "cea631e97b7fa6d0c42aae4a5c81b1e39760e9423a73949a95a3494cd4f075f8"
+ },
+ {
+  "file": "cap07/img/fig-7.4.2-capacita-pilastri.png",
+  "etichetta": "Fig. 7.4.2",
+  "atto": "NTC",
+  "pagina_pdf": 231,
+  "metodo": "raster nativo 951x572",
+  "riquadro_pt": [
+   187.0,
+   91.0,
+   412.8,
+   218.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   951,
+   572
+  ],
+  "sha256": "f95724ec93ceafb9dc5a30cb52ca4def56c6ab385df6aa2fb87eb36f7c440c54"
+ },
+ {
+  "file": "cap07/img/fig-7.4.3-sezioni-pareti.png",
+  "etichetta": "Fig. 7.4.3",
+  "atto": "NTC",
+  "pagina_pdf": 233,
+  "metodo": "raster nativo 871x461",
+  "riquadro_pt": [
+   81.1,
+   215.3,
+   518.8,
+   438.8
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   871,
+   461
+  ],
+  "sha256": "51e39a5d99adaff3b072236c750285ead5a74669c61f411131618a429c21786f"
+ },
+ {
+  "file": "cap07/img/fig-7.4.4-traslazione-diagramma-momenti.png",
+  "etichetta": "Fig. 7.4.4",
+  "atto": "NTC",
+  "pagina_pdf": 234,
+  "metodo": "raster nativo 1030x574",
+  "riquadro_pt": [
+   124.6,
+   91.0,
+   475.1,
+   278.4
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1030,
+   574
+  ],
+  "sha256": "0bbc5e2b5a0c57518e0445ab728cfab762cdda033a25cf8cc8e5d4fe2d2118f0"
+ },
+ {
+  "file": "cap07/img/fig-7.4.5-inviluppo-taglio-pareti-miste.png",
+  "etichetta": "Fig. 7.4.5",
+  "atto": "NTC",
+  "pagina_pdf": 235,
+  "metodo": "raster nativo 1046x815",
+  "riquadro_pt": [
+   181.6,
+   91.0,
+   418.1,
+   267.3
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1046,
+   815
+  ],
+  "sha256": "ac02a2594c8a36a0ba43e1f4d7d450633538e7a28bea99b54cec884de7348ef8"
+ },
+ {
+  "file": "cap07/img/fig-7.4.6-elementi-bordo-pareti.png",
+  "etichetta": "Fig. 7.4.6",
+  "atto": "NTC",
+  "pagina_pdf": 236,
+  "metodo": "raster nativo 836x469",
+  "riquadro_pt": [
+   164.5,
+   406.3,
+   435.2,
+   545.9
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   836,
+   469
+  ],
+  "sha256": "5ea77b197721229f1f6e0a284e4932899cca5b55d369b76f5cba5d49e2a570d2"
+ },
+ {
+  "file": "cap07/img/fig-7.5.1-tipologie-strutturali-acciaio.png",
+  "etichetta": "Fig. 7.5.1",
+  "atto": "NTC",
+  "pagina_pdf": 245,
+  "metodo": "manuale: p.244 [155, 384, 445, 718] reso a 300 dpi; p.245 [151.8, 91.0, 449.6, 387.7] reso a 300 dpi",
+  "riquadro_pt": [
+   155,
+   384,
+   445,
+   718
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1242,
+   2629
+  ],
+  "sha256": "4fd5111a8b8130d5cee6f24568e43216cda833f674aba27bdcb6a861fab230c8"
+ },
+ {
+  "file": "cap07/img/fig-7.6.1-rapporti-dimensionali.png",
+  "etichetta": "Fig. 7.6.1",
+  "atto": "NTC",
+  "pagina_pdf": 254,
+  "metodo": "raster nativo 390x332",
+  "riquadro_pt": [
+   226.1,
+   367.2,
+   373.4,
+   484.0
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   390,
+   332
+  ],
+  "sha256": "6fe0976178756063f12e136f2cccf978013888b80f6d89df3f254105d385d803"
+ },
+ {
+  "file": "cap07/img/fig-7.6.2-definizione-elementi.png",
+  "etichetta": "Fig. 7.6.2",
+  "atto": "NTC",
+  "pagina_pdf": 256,
+  "metodo": "manuale: p.256 [79, 434, 347, 528] reso a 300 dpi",
+  "riquadro_pt": [
+   79,
+   434,
+   347,
+   528
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   1117,
+   392
+  ],
+  "sha256": "925c072116a6b211b6443765667ecf376944c391114aabc9636f30e9ab1f973f"
+ },
+ {
+  "file": "cap07/img/fig-7.9.1-ponte-obliquo-schema.png",
+  "etichetta": "Fig. 7.9.1",
+  "atto": "NTC",
+  "pagina_pdf": 270,
+  "metodo": "raster nativo 378x293",
+  "riquadro_pt": [
+   245.0,
+   633.0,
+   354.5,
+   709.7
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   378,
+   293
+  ],
+  "sha256": "33eef0359d0688e189d021ad5671b2ca6280edc734ff5b1c2c82b3d9db697758"
+ },
+ {
+  "file": "cap07/img/fig-C7.10.1-strategie-isolamento.png",
+  "etichetta": "Fig. C7.10.1",
+  "atto": "Circolare",
+  "pagina_pdf": 236,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (93, 1294, 2128, 1830)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   93,
+   1294,
+   2128,
+   1830
+  ],
+  "dimensioni": [
+   2035,
+   536
+  ],
+  "sha256": "1c727ffc29be70021fc0832d02369e6db085a60e0b7bc30ccbdb95f585873cb6"
+ },
+ {
+  "file": "cap07/img/fig-C7.10.2-strategie-dissipazione.png",
+  "etichetta": "Fig. C7.10.2",
+  "atto": "Circolare",
+  "pagina_pdf": 237,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (505, 517, 1772, 1224)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   505,
+   517,
+   1772,
+   1224
+  ],
+  "dimensioni": [
+   1267,
+   707
+  ],
+  "sha256": "f68a31243f5997e084623c6083243b60cc3306f38e1ab0d3703c48518509ec0a"
+ },
+ {
+  "file": "cap07/img/fig-C7.10.3-rigidezza-telaio-rinforzato.png",
+  "etichetta": "Fig. C7.10.3",
+  "atto": "Circolare",
+  "pagina_pdf": 239,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (585, 946, 1706, 1643)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   585,
+   946,
+   1706,
+   1643
+  ],
+  "dimensioni": [
+   1121,
+   697
+  ],
+  "sha256": "d35e89c800e6920002878adb4d1ba6dcdb69d6b9070df71c3fdda39ee54fe007"
+ },
+ {
+  "file": "cap07/img/fig-C7.2.1-regolarita-pianta.png",
+  "etichetta": "Fig. C7.2.1",
+  "atto": "Circolare",
+  "pagina_pdf": 199,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (23, 1354, 652, 2176)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   23,
+   1354,
+   652,
+   2176
+  ],
+  "dimensioni": [
+   629,
+   822
+  ],
+  "sha256": "dfb0feaa09bb6f30a5a54dc77fc00e865454377dec4373b6bd6793aa34722d8d"
+ },
+ {
+  "file": "cap07/img/fig-C7.2.2-regolarita-elevazione.png",
+  "etichetta": "Fig. C7.2.2",
+  "atto": "Circolare",
+  "pagina_pdf": 199,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (628, 1354, 2198, 2176)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   628,
+   1354,
+   2198,
+   2176
+  ],
+  "dimensioni": [
+   1570,
+   822
+  ],
+  "sha256": "e33bbdf362446ff9265237f3765c6174bad721ecd5ee3c6888c5e43308e528eb"
+ },
+ {
+  "file": "cap07/img/fig-C7.2.3-spettri-piano-non-strutturali.png",
+  "etichetta": "Fig. C7.2.3",
+  "atto": "Circolare",
+  "pagina_pdf": 205,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (604, 1671, 1627, 2270)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   604,
+   1671,
+   1627,
+   2270
+  ],
+  "dimensioni": [
+   1023,
+   599
+  ],
+  "sha256": "5da304ffd8cfb70ef433cea1b293ecc848aa5e8d577ec2f3da3b14b5097e413a"
+ },
+ {
+  "file": "cap07/img/fig-C7.2.4-accelerazione-massima-T1.png",
+  "etichetta": "Fig. C7.2.4",
+  "atto": "Circolare",
+  "pagina_pdf": 206,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (521, 59, 1662, 1112)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   521,
+   59,
+   1662,
+   1112
+  ],
+  "dimensioni": [
+   1141,
+   1053
+  ],
+  "sha256": "30487ad82e3b9c6a86cc2449229f16fc7c17534072a50a00942d0d055100d6d6"
+ },
+ {
+  "file": "cap07/img/fig-C7.2.5-coefficiente-fessurazione.png",
+  "etichetta": "Fig. C7.2.5",
+  "atto": "Circolare",
+  "pagina_pdf": 207,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (234, 423, 1986, 1200)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   234,
+   423,
+   1986,
+   1200
+  ],
+  "dimensioni": [
+   1752,
+   777
+  ],
+  "sha256": "a7f3d4f1ba3e10eb19f05844b14ba9972c99cac47cefc27f1f7f1a8a6189e4cf"
+ },
+ {
+  "file": "cap07/img/fig-C7.3.1-sistema-bilineare-equivalente.png",
+  "etichetta": "Fig. C7.3.1",
+  "atto": "Circolare",
+  "pagina_pdf": 209,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (375, 1671, 1810, 2357)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   375,
+   1671,
+   1810,
+   2357
+  ],
+  "dimensioni": [
+   1435,
+   686
+  ],
+  "sha256": "f60038d520819ba196440db5fbfd6eeee661aac7c3d68015c668833318602b6e"
+ },
+ {
+  "file": "cap07/img/fig-C7.3.2a-spostamento-T-maggiore-Tc.png",
+  "etichetta": "Fig. C7.3.2a",
+  "atto": "Circolare",
+  "pagina_pdf": 210,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (445, 2003, 982, 2632) (banda fissata a mano (300, 1924, 1085, 2651))",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   445,
+   2003,
+   982,
+   2632
+  ],
+  "dimensioni": [
+   537,
+   629
+  ],
+  "sha256": "a1b5d0b630cc536f7b67626f3a244b6c2127d05210ae1a87c72536909003613e"
+ },
+ {
+  "file": "cap07/img/fig-C7.3.2b-spostamento-T-minore-Tc.png",
+  "etichetta": "Fig. C7.3.2b",
+  "atto": "Circolare",
+  "pagina_pdf": 210,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (1190, 2002, 1762, 2632) (banda fissata a mano (1085, 1924, 2219, 2651))",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   1190,
+   2002,
+   1762,
+   2632
+  ],
+  "dimensioni": [
+   572,
+   630
+  ],
+  "sha256": "f9529c283ca338dd9d02f25f6121e6575cd6860998d40e72078413f817b0b047"
+ },
+ {
+  "file": "cap07/img/fig-C7.3.3-bilinearizzazione-equivalente.png",
+  "etichetta": "Fig. C7.3.3",
+  "atto": "Circolare",
+  "pagina_pdf": 211,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (623, 602, 1546, 1316)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   623,
+   602,
+   1546,
+   1316
+  ],
+  "dimensioni": [
+   923,
+   714
+  ],
+  "sha256": "aa82a52093809c73f1d8484c97a3c19adcca50a3e8d39eb4bfaf3bff2e6c8fdb"
+ },
+ {
+  "file": "cap07/img/fig-C7.3.4-punto-prestazione.png",
+  "etichetta": "Fig. C7.3.4",
+  "atto": "Circolare",
+  "pagina_pdf": 212,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (611, 31, 1641, 773)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   611,
+   31,
+   1641,
+   773
+  ],
+  "dimensioni": [
+   1030,
+   742
+  ],
+  "sha256": "b1a84e1f77ef932704bf2997d656de02624aba78a33fdfeba5b9f5c68138e34b"
+ },
+ {
+  "file": "cap07/img/fig-C7.3.5-diagramma-flusso-iterativo.png",
+  "etichetta": "Fig. C7.3.5",
+  "atto": "Circolare",
+  "pagina_pdf": 212,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (598, 1066, 1626, 2259)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   598,
+   1066,
+   1626,
+   2259
+  ],
+  "dimensioni": [
+   1028,
+   1193
+  ],
+  "sha256": "c89f474cb7a1aead45e3ef1db23afd0a162b64779cb215078ffc50940846ac6e"
+ },
+ {
+  "file": "cap07/img/fig-C7.4.1-equilibrio-momenti-travi.png",
+  "etichetta": "Fig. C7.4.1",
+  "atto": "Circolare",
+  "pagina_pdf": 216,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (404, 2196, 1802, 2731)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   404,
+   2196,
+   1802,
+   2731
+  ],
+  "dimensioni": [
+   1398,
+   535
+  ],
+  "sha256": "852ce101428034ad7334a4e4519ab0b9640c07026b99e1874541ebcfeafa8a52"
+ },
+ {
+  "file": "cap07/img/fig-C7.4.2-equilibrio-momenti-pilastri.png",
+  "etichetta": "Fig. C7.4.2",
+  "atto": "Circolare",
+  "pagina_pdf": 218,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (614, 117, 1487, 1365)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   614,
+   117,
+   1487,
+   1365
+  ],
+  "dimensioni": [
+   873,
+   1248
+  ],
+  "sha256": "c5eb2beca15a117dd7d44305635318191e4eff04dcbe21b988f106e7acc7af30"
+ },
+ {
+  "file": "cap07/img/fig-C7.4.3-dimensione-nodi.png",
+  "etichetta": "Fig. C7.4.3",
+  "atto": "Circolare",
+  "pagina_pdf": 219,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (400, 32, 1786, 1158)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   400,
+   32,
+   1786,
+   1158
+  ],
+  "dimensioni": [
+   1386,
+   1126
+  ],
+  "sha256": "fe6b797fffc454d2c58ed1906f01706c7154cf0ef4aa619349d1f2a2f60d12bf"
+ },
+ {
+  "file": "cap07/img/fig-C7.4.4-strutture-telaio-prefab.png",
+  "etichetta": "Fig. C7.4.4",
+  "atto": "Circolare",
+  "pagina_pdf": 220,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (403, 1539, 1803, 1870)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   403,
+   1539,
+   1803,
+   1870
+  ],
+  "dimensioni": [
+   1400,
+   331
+  ],
+  "sha256": "804ce948ace21be6e33419e801fd9fc3b32c5bfb5fd58d1b468016482ab7ddf2"
+ },
+ {
+  "file": "cap07/img/fig-C7.4.5-pilastri-incastrati.png",
+  "etichetta": "Fig. C7.4.5",
+  "atto": "Circolare",
+  "pagina_pdf": 221,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (441, 123, 1780, 593)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   441,
+   123,
+   1780,
+   593
+  ],
+  "dimensioni": [
+   1339,
+   470
+  ],
+  "sha256": "90891f8c435928dc4f17b0fe5c66fb38452ff89bb882bbc2e8a65103ab087e4b"
+ },
+ {
+  "file": "cap07/img/fig-C7.4.6-monopiano-appoggi-mobili.png",
+  "etichetta": "Fig. C7.4.6",
+  "atto": "Circolare",
+  "pagina_pdf": 221,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (426, 1032, 1785, 1437)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   426,
+   1032,
+   1785,
+   1437
+  ],
+  "dimensioni": [
+   1359,
+   405
+  ],
+  "sha256": "08813201761d9abf8cba38e3be72e418f67049276c3b820c0ee2eec7a981690d"
+ },
+ {
+  "file": "cap07/img/fig-C7.5.1-tipologie-telaio-acciaio.png",
+  "etichetta": "Fig. C7.5.1",
+  "atto": "Circolare",
+  "pagina_pdf": 222,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (398, 732, 1817, 1090)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   398,
+   732,
+   1817,
+   1090
+  ],
+  "dimensioni": [
+   1419,
+   358
+  ],
+  "sha256": "83bccccdbb9d18a63dc689b219397ed453540ee239f14863ed73f65965869145"
+ },
+ {
+  "file": "cap07/img/fig-C7.5.2-pannelli-nodali-irrigiditi.png",
+  "etichetta": "Fig. C7.5.2",
+  "atto": "Circolare",
+  "pagina_pdf": 223,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (402, 569, 1807, 1107)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   402,
+   569,
+   1807,
+   1107
+  ],
+  "dimensioni": [
+   1405,
+   538
+  ],
+  "sha256": "88eb44e8f69db84dad90c5103c35b7d25bb244613f2ab8cdb1e33cbe19cda20b"
+ },
+ {
+  "file": "cap07/img/fig-C7.5.3-area-controventi-tesi.png",
+  "etichetta": "Fig. C7.5.3",
+  "atto": "Circolare",
+  "pagina_pdf": 223,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (350, 1790, 1738, 2585)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   350,
+   1790,
+   1738,
+   2585
+  ],
+  "dimensioni": [
+   1388,
+   795
+  ],
+  "sha256": "efc45e98eb96e33f6d67b617bef56b8210fa37ce7154818dc0c56694982d67c1"
+ },
+ {
+  "file": "cap07/img/fig-C7.5.4-dettagli-link-eccentrici.png",
+  "etichetta": "Fig. C7.5.4",
+  "atto": "Circolare",
+  "pagina_pdf": 224,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (0, 98, 2219, 1762)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   0,
+   98,
+   2219,
+   1762
+  ],
+  "dimensioni": [
+   2219,
+   1664
+  ],
+  "sha256": "132ab45be2af75cabadb431067f86de3bd7b87b6204cb135bdc02bb66d3b4b4a"
+ },
+ {
+  "file": "cap07/img/fig-C7.6.1-armatura-nodi-trave-colonna.png",
+  "etichetta": "Fig. C7.6.1",
+  "atto": "Circolare",
+  "pagina_pdf": 225,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (410, 495, 1791, 1114)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   410,
+   495,
+   1791,
+   1114
+  ],
+  "dimensioni": [
+   1381,
+   619
+  ],
+  "sha256": "1ad30aa800d3bee13eeb1a6b4c15b048b4facabbe7d015b9065e9b30a6c1ea56"
+ },
+ {
+  "file": "cap07/img/fig-C7.6.2-meccanismi-soletta.png",
+  "etichetta": "Fig. C7.6.2",
+  "atto": "Circolare",
+  "pagina_pdf": 225,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (513, 2213, 1707, 2841)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   513,
+   2213,
+   1707,
+   2841
+  ],
+  "dimensioni": [
+   1194,
+   628
+  ],
+  "sha256": "dda569ede573d9550c8383083164014b9f9451116f06d8fbf1edb6d9be74215b"
+ },
+ {
+  "file": "cap07/img/fig-C7.6.3-meccanismi-soletta-pianta.png",
+  "etichetta": "Fig. C7.6.3",
+  "atto": "Circolare",
+  "pagina_pdf": 226,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (420, 792, 1800, 1565) (banda fissata a mano (37, 723, 2219, 1580))",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   420,
+   792,
+   1800,
+   1565
+  ],
+  "dimensioni": [
+   1380,
+   773
+  ],
+  "sha256": "ac503eadd1bc5fa756573e50af080439eb0e2752d53eef21924cf8d785bd687e"
+ },
+ {
+  "file": "cap07/img/fig-C7.6.4-distribuzione-SLU.png",
+  "etichetta": "Fig. C7.6.4",
+  "atto": "Circolare",
+  "pagina_pdf": 227,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (546, 1560, 1678, 2517)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   546,
+   1560,
+   1678,
+   2517
+  ],
+  "dimensioni": [
+   1132,
+   957
+  ],
+  "sha256": "77e23dedb93051d57e08f47856b74e04c9a558288e3ec373e53b10e067c63c3c"
+ },
+ {
+  "file": "cap07/img/fig-C7.6.5-meccanismo-connettori-trave-secondaria.png",
+  "etichetta": "Fig. C7.6.5",
+  "atto": "Circolare",
+  "pagina_pdf": 228,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (637, 316, 1579, 1217)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   637,
+   316,
+   1579,
+   1217
+  ],
+  "dimensioni": [
+   942,
+   901
+  ],
+  "sha256": "c523a970eb53e08a69082b1ec6e1745a35613492a3bef6b7da8ae39e5720b5e5"
+ },
+ {
+  "file": "cap07/img/fig-C7.6.6-braccio-coppia-puntone.png",
+  "etichetta": "Fig. C7.6.6",
+  "atto": "Circolare",
+  "pagina_pdf": 229,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (536, 1273, 1695, 1860)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   536,
+   1273,
+   1695,
+   1860
+  ],
+  "dimensioni": [
+   1159,
+   587
+  ],
+  "sha256": "e747dad25589b85960da1d212a46c4f79abd87b7f137d79590ab19dacd49dbef"
+ },
+ {
+  "file": "cap07/img/fig-C7.9.1-progettazione-pile.png",
+  "etichetta": "Fig. C7.9.1",
+  "atto": "Circolare",
+  "pagina_pdf": 235,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (401, 57, 1801, 1095)",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   401,
+   57,
+   1801,
+   1095
+  ],
+  "dimensioni": [
+   1400,
+   1038
+  ],
+  "sha256": "5e40383fe9f6460be46404b9c0f8e6f02a02d21d5b4a21481744d273f501f06a"
+ },
+ {
+  "file": "cap07/img/tab-C7.3.I-stati-limite-parte1.png",
+  "etichetta": "Tab. C7.3.I",
+  "atto": "Circolare",
+  "pagina_pdf": 213,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (8, 1637, 2211, 2990) (banda fissata a mano (0, 1645, 2219, 3106))",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   8,
+   1637,
+   2211,
+   2990
+  ],
+  "dimensioni": [
+   2203,
+   1353
+  ],
+  "sha256": "056c933aacca8d6af19530c1f6185f5c70f0f37ffa629d50d1f79e3b79e899ec"
+ },
+ {
+  "file": "cap07/img/tab-C7.3.I-stati-limite-parte2.png",
+  "etichetta": "Tab. C7.3.I",
+  "atto": "Circolare",
+  "pagina_pdf": 214,
+  "metodo": "scansione nativa 2219x3106, ritaglio px (8, 31, 2211, 366) (banda fissata a mano (0, 0, 2219, 400))",
+  "riquadro_pt": null,
+  "riquadro_px": [
+   8,
+   31,
+   2211,
+   366
+  ],
+  "dimensioni": [
+   2203,
+   335
+  ],
+  "sha256": "198d7f470755d46d4b8a1fb2aba56acf6f8efc6b4f605d9f148db67342816a56"
+ },
+ {
+  "file": "cap11/img/fig-11.9.1-forza-spostamento-non-lineari.png",
+  "etichetta": "Fig. 11.9.1",
+  "atto": "NTC",
+  "pagina_pdf": 361,
+  "metodo": "raster nativo 719x234",
+  "riquadro_pt": [
+   77.2,
+   221.5,
+   367.6,
+   311.1
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   719,
+   234
+  ],
+  "sha256": "26f6b79ab50bae4265a3cb8b5bea5f45444b6c98b72b4be1192d7e53d8722c86"
+ },
+ {
+  "file": "cap11/img/fig-11.9.2-dispositivi-comportamento-viscoso.png",
+  "etichetta": "Fig. 11.9.2",
+  "atto": "NTC",
+  "pagina_pdf": 362,
+  "metodo": "raster nativo 689x249",
+  "riquadro_pt": [
+   184.6,
+   304.5,
+   408.4,
+   380.2
+  ],
+  "riquadro_px": null,
+  "dimensioni": [
+   689,
+   249
+  ],
+  "sha256": "b3ce88468c868ba022eb3a02120dfb7dd652f8435e376795291f231180bdb9d1"
+ }
+]
