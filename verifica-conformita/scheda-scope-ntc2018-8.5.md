@@ -15,12 +15,12 @@ righe_registro: ["8.5", "8.5.1", "8.5.2", "8.5.3", "8.5.4", "8.5.5"]
 snapshot_iniziale: verifica-conformita/vc-ntc2018-8.5-2026-10-14/snapshot-iniziale.json
 snapshot_iniziale_sha256: 518675848c7fd227c06191a33a17f81ea070be081a899777a1707fc6a34c785d
 snapshot_sha256: da-congelare
-giro_g6: 0
+giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: DA_FARE, G7: DA_FARE}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: DA_FARE}
 attesa_decisione: []
-prossimo_passo: "G6 integrale in quattro blocchi, verificatori Opus a contesto nuovo"
+prossimo_passo: "controllo delle modifiche dei quattro V, poi manifest, verbale e G7"
 routing_effettivo:
   C: {agente: "CC cloud (CCC)", modello: claude-opus-5-5}
   preparazione: "script di strumenti/"
@@ -51,4 +51,14 @@ Lista per Sandro: `vc-ntc2018-8.5-2026-10-14/lista-correzioni-c.json`, L1-L14 e 
 Decisione di Sandro sulla lista `lista-correzioni-c.json`: «ok tutto», cioè L1-L14 approvate e, per D1, sottolineatura non riprodotta. Correzioni applicate con script; controllo meccanico: annullando le 14 sostituzioni i tre file cambiati tornano identici a quelli di partenza, quindi nessuna modifica estranea (`diff-correzioni.diff`, `snapshot-prima-dopo.json`). File cambiati: 8.5.3 (due didascalie), 8.5.4 (quattro didascalie, testate di C8.5.V e C8.5.VI, frase ripetuta, «E’»), 8.5.5 (q = 1,75, «in cui», virgola, capoverso).
 
 G5: testo unico ricomposto (370 righe depurate; confini dei blocchi invariati, b04 fino alla riga 370) e reso con `render-capitolo.py`: 20 pagine, nessun tag tondo, nessuna didascalia automatica; controllo visivo delle pagine con le tabelle e con C8.5.5.1. Lo snapshot corrente è quello consegnato al G6.
+
+## G6 giro 1, 2026-10-14
+
+Quattro V Opus a contesto nuovo, uno per blocco, isolati nella sola cartella del blocco. Inventari fonte-prima: b01 67 elementi, b02 65, b03 68, b04 60, tutti `LEGGIBILE` dopo le prove a 600 dpi e i codepoint chiesti da V b02 (`prove-v-b02/`, inventari precedenti in `g6-r01-b02-inventari-precedenti/`). La prima rivelazione (`g6-r01`) è fallita per i file di lavoro di V dentro le cartelle dei blocchi: nuova destinazione `g6-r01b` con fonti e inventari identici byte per byte, prima di ogni accesso di V al target (`recupero-confezionamento-g6-r01b.json`).
+
+Confronti integrali, tutti `KO`, tutti gli id coperti (`g6-r01b/bXX/rapporto-g6.json`, validati con `valida-g6`): b01 5 rilievi, b02 10, b03 6, b04 6. Valori, formule e celle conformi; i rilievi riguardano capoversi uniti, enfasi della fonte perse, forma delle rubriche della Circolare, pedici ed esponenti in testo semplice (fm, N/mm2, γG), greche in testo semplice che spariscono dalla resa canonica, testata della Tab. C8.5.II, didascalia della Tab. C8.5.I, lineetta, spazi e punti.
+
+Riscontro di C sulla codifica dei PDF e su ritagli fino a 1200 dpi (`c-g6/`). Respinti: la «V maiuscola» nella testata della Tab. C8.5.I (codepoint U+0076, v a corpo pieno come nella didascalia, catalogo n. 13) e il titolo «Circolare» della resa, apparato del corpus. Aggiunto da C: «Rilievo(dei» senza spazio nella Tab. C8.5.V.
+
+Decisioni di Sandro, 2026-10-14: ripristinare capoversi ed enfasi; rubriche come nella fonte (senza punto, in maiuscolo, come § C3.1.4 e § 8.4); greche come simboli; un solo trattino nella colonna fv0 (D2). Lista unica `lista-correzioni-g6.json` approvata («Sì, applica tutto»): 66 voci E, 21 O, 17 R, 86 C, con D3-D7; dopo il controllo della resa, approvate anche O22-O23 (X media come simbolo). Le voci sono state generate da script sulla codifica del PDF (`strumenti-lista-g6/`) e applicate da script; indici interni rigenerati con `genera-indici-interni.py`. Controllo meccanico: la lista riapplicata ai file di partenza ridà il corpus, esclusi gli indici interni (`modifiche/controllo-script.json`). Resa dopo: 21 pagine, nessun glifo mancante, nessun tag tondo; sito costruito con `mkdocs build --strict` e `controlla-sito.py` OK.
 
