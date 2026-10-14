@@ -1,0 +1,169 @@
+{
+ "scope": "8.5",
+ "fase": "G2-G4 di C, prima del G6",
+ "firma": "CC cloud (CCC), coordinatore C",
+ "righe": [
+  {
+   "id": "L1",
+   "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+   "riga": 38,
+   "attuale": "$q=3{,}0\\alpha_u/\\alpha_1$",
+   "proposto": "$q=1{,}75\\alpha_u/\\alpha_1$",
+   "pagina": "Circolare p. 269",
+   "prova": "c/c269-q-600dpi.png; la codifica PDF della riga è illeggibile, decide il ritaglio",
+   "classe": "ERR-MD",
+   "effetto": "contenuto: valore di q per muratura in blocchi artificiali con foratura >15%"
+  },
+  {
+   "id": "L2",
+   "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+   "riga": 40,
+   "attuale": "In cui $\\alpha_u$",
+   "proposto": "in cui $\\alpha_u$",
+   "pagina": "Circolare p. 269",
+   "prova": "c/c269-q-600dpi.png",
+   "classe": "ERR-MD",
+   "effetto": "presentazione: minuscola della fonte"
+  },
+  {
+   "id": "L3",
+   "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+   "riga": 40,
+   "attuale": "In assenza di più precise valutazioni non può",
+   "proposto": "In assenza di più precise valutazioni, non può",
+   "pagina": "Circolare p. 269",
+   "prova": "c/c269-q-600dpi.png; la frase è sottolineata nella fonte (vedi D1)",
+   "classe": "ERR-MD",
+   "effetto": "presentazione: virgola della fonte omessa"
+  },
+  {
+   "id": "L4",
+   "file": "cap08/8.5.5-modello-riferimento-analisi-azioni.md",
+   "riga": 40,
+   "attuale": "superiore a 1,5. Nel caso di edificio",
+   "proposto": "superiore a 1,5.\n\nNel caso di edificio",
+   "pagina": "Circolare p. 269",
+   "prova": "c/c269-q-600dpi.png",
+   "classe": "ERR-MD",
+   "effetto": "presentazione: capoverso della fonte unito al precedente"
+  },
+  {
+   "id": "L5",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 117,
+   "attuale": "(*) A meno delle ulteriori precisazioni già fornite nel § C8.5.4.",
+   "proposto": "(*) A meno delle ulteriori precisazioni già fornite nel § C8.5.4.\n\nLa quantità e il tipo di informazioni richieste per conseguire uno dei tre livelli di conoscenza previsti, sono, a titolo esclusivamente orientativo, ulteriormente precisati nel seguito.",
+   "pagina": "Circolare p. 267 (la stessa frase è anche a p. 265)",
+   "prova": "c/c267-frase-ripetuta-600dpi.png; codifica PDF",
+   "classe": "A: ripetizione della fonte conservata; ora omessa (ERR-MD)",
+   "effetto": "contenuto: frase della fonte mancante"
+  },
+  {
+   "id": "L6",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 156,
+   "attuale": "abiotico. È inoltre",
+   "proposto": "abiotico. E’ inoltre",
+   "pagina": "Circolare p. 268",
+   "prova": "c/c268-E-apostrofo-600dpi.png; codifica PDF «E’»",
+   "classe": "A: grafia della fonte conservata",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L7",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 127,
+   "attuale": "| Livello di Indagini e Prove | Rilievo (dei dettagli costruttivi) (a) - per ogni elemento \"primario\" (trave, pilastro) | Prove (sui materiali) (b)(c)(d) - per ogni elemento \"primario\" (trave, pilastro) |\n|---|---|---|",
+   "proposto": "| Livello di Indagini e Prove | Rilievo (dei dettagli costruttivi) (a) | Prove (sui materiali) (b)(c)(d) |\n|---|---|---|\n| | Per ogni elemento \"primario\" (trave, pilastro) | |",
+   "pagina": "Circolare p. 268",
+   "prova": "codifica PDF e pagina: testata su due livelli, la seconda riga copre le due colonne",
+   "classe": "ERR-MD: livelli della testata fusi; norma 6 del catalogo (etichetta una volta, celle coperte vuote)",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L8",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 135,
+   "attuale": "| Livello di Indagini e Prove | Rilievo (dei collegamenti) (a) - per ogni elemento \"primario\" (trave, pilastro...) | Prove (sui materiali) (b)(c)(d) - per ogni elemento \"primario\" (trave, pilastro...) |\n|---|---|---|",
+   "proposto": "| Livello di Indagini e Prove | Rilievo (dei collegamenti) (a) | Prove (sui materiali) (b)(c)(d) |\n|---|---|---|\n| | Per ogni elemento \"primario\" (trave, pilastro...) | |",
+   "pagina": "Circolare p. 268",
+   "prova": "codifica PDF e pagina: testata su due livelli, la seconda riga copre le due colonne",
+   "classe": "ERR-MD: livelli della testata fusi; norma 6 del catalogo (etichetta una volta, celle coperte vuote)",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L9",
+   "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+   "riga": 36,
+   "attuale": "**Tabella C8.5.I - Valori di riferimento dei parametri meccanici della muratura, da usarsi nei criteri di resistenza di seguito specificati (comportamento a tempi brevi), e peso specifico medio per diverse tipologie di muratura.**",
+   "proposto": "**Tabella C8.5.I** - *Valori di riferimento dei parametri meccanici della muratura, da usarsi nei criteri di resistenza di seguito specificati (comportamento a tempi brevi), e peso specifico medio per diverse tipologie di muratura.*",
+   "pagina": "Circolare pp. 261-268",
+   "prova": "codifica PDF: etichetta Bold, titolo Italic",
+   "classe": "ERR-MD: corsivo del titolo omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L10",
+   "file": "cap08/8.5.3-modello-riferimento-analisi-caratterizzazione-meccanica-dei-materiali.md",
+   "riga": 73,
+   "attuale": "**Tabella C8.5.II - Coefficienti correttivi massimi da applicarsi in presenza di: malta di caratteristiche buone; ricorsi o listature; sistematiche connessioni trasversali; consolidamento con iniezioni di malta; consolidamento con intonaco armato; ristilatura armata con connessione dei paramenti.**",
+   "proposto": "**Tabella C8.5.II** - *Coefficienti correttivi massimi da applicarsi in presenza di: malta di caratteristiche buone; ricorsi o listature; sistematiche connessioni trasversali; consolidamento con iniezioni di malta; consolidamento con intonaco armato; ristilatura armata con connessione dei paramenti.*",
+   "pagina": "Circolare pp. 261-268",
+   "prova": "codifica PDF: etichetta Bold, titolo Italic",
+   "classe": "ERR-MD: corsivo del titolo omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L11",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 85,
+   "attuale": "**Tabella C.8.5.III - Valori del coefficiente $\\kappa$ suggeriti per l'aggiornamento del valore medio dei parametri meccanici, secondo l'equazione [C8.5.4.3], con riferimento ai più diffusi metodi di indagine diretta sulle proprietà meccaniche della muratura.**",
+   "proposto": "**Tabella C.8.5.III** - *Valori del coefficiente $\\kappa$ suggeriti per l'aggiornamento del valore medio dei parametri meccanici, secondo l'equazione [C8.5.4.3], con riferimento ai più diffusi metodi di indagine diretta sulle proprietà meccaniche della muratura.*",
+   "pagina": "Circolare pp. 261-268",
+   "prova": "codifica PDF: etichetta Bold, titolo Italic",
+   "classe": "ERR-MD: corsivo del titolo omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L12",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 109,
+   "attuale": "**Tabella C8.5.IV - Livelli di conoscenza in funzione dell'informazione disponibile e conseguenti metodi di analisi ammessi e valori dei fattori di confidenza, per edifici in calcestruzzo armato o in acciaio**",
+   "proposto": "**Tabella C8.5.IV** - *Livelli di conoscenza in funzione dell'informazione disponibile e conseguenti metodi di analisi ammessi e valori dei fattori di confidenza, per edifici in calcestruzzo armato o in acciaio*",
+   "pagina": "Circolare pp. 261-268",
+   "prova": "codifica PDF: etichetta Bold, titolo Italic",
+   "classe": "ERR-MD: corsivo del titolo omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L13",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 125,
+   "attuale": "**Tabella C8.5.V - Definizione orientativa dei livelli di rilievo e prova per edifici di c.a.**",
+   "proposto": "**Tabella C8.5.V** - *Definizione orientativa dei livelli di rilievo e prova per edifici di c.a.*",
+   "pagina": "Circolare pp. 261-268",
+   "prova": "codifica PDF: etichetta Bold, titolo Italic",
+   "classe": "ERR-MD: corsivo del titolo omesso",
+   "effetto": "presentazione"
+  },
+  {
+   "id": "L14",
+   "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+   "riga": 133,
+   "attuale": "**Tabella C8.5.VI - Definizione orientativa dei livelli di rilievo e prova per edifici di acciaio**",
+   "proposto": "**Tabella C8.5.VI** - *Definizione orientativa dei livelli di rilievo e prova per edifici di acciaio*",
+   "pagina": "Circolare pp. 261-268",
+   "prova": "codifica PDF: etichetta Bold, titolo Italic",
+   "classe": "ERR-MD: corsivo del titolo omesso",
+   "effetto": "presentazione"
+  }
+ ],
+ "da_decidere": [
+  {
+   "id": "D1",
+   "pagina": "Circolare p. 269",
+   "descrizione": "La frase «In assenza di più precise valutazioni, non può essere assunto un rapporto αu/α1 superiore a 1,5.» è sottolineata nella fonte.",
+   "proposta": "Non riprodurre la sottolineatura (il Markdown non ha una sottolineatura propria) e annotarla nel verbale come particolarità tipografica della fonte."
+  }
+ ]
+}
