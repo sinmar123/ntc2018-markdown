@@ -710,6 +710,22 @@
      "attuale": "assegnando a γG valori",
      "proposto": "assegnando a $\\gamma_G$ valori",
      "nota": "pedice della fonte; la γ in testo semplice spariva anche nella resa"
+    },
+    {
+     "id": "O22",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "dove X̄ è la media",
+     "proposto": "dove $\\overline{X}$ è la media",
+     "nota": "X media come simbolo, come nella formula [C8.5.4.3]: nel PDF di controllo il trattino in testo semplice spariva (decisione di Sandro del 2026-10-14, aggiunta alla lista)"
+    },
+    {
+     "id": "O23",
+     "file": "cap08/8.5.4-modello-riferimento-analisi-livelli-di-conoscenza-e-fattori-di-confidenza.md",
+     "pagina": "Circolare p. 266",
+     "attuale": "prove dirette X̄ sia",
+     "proposto": "prove dirette $\\overline{X}$ sia",
+     "nota": "come O22"
     }
    ]
   },
@@ -1602,6 +1618,15 @@
  "fuori_scope": [
   {
    "descrizione": "Il renderer canonico (pandoc, XeLaTeX, Latin Modern) non ha i glifi greci: le lettere greche scritte come testo semplice spariscono dal PDF di controllo. Nel § 8.5 si risolve con le voci O11-O18 e O21 (decisione di Sandro). Altri 42 file del corpus hanno greche in testo semplice: questione da trattare a parte."
+  }
+ ],
+ "aggiunte": [
+  {
+   "voci": [
+    "O22",
+    "O23"
+   ],
+   "approvazione": "Sandro, 2026-10-14, dopo il controllo della resa; applicate dopo le altre 190 voci"
   }
  ]
 }
