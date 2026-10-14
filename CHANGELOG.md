@@ -1,5 +1,13 @@
 # Changelog - NTC 2018
 
+## 2026-10-14 - Meno passaggi per Sandro: unione delle PR e controllo del sito alla sessione, CC cloud
+
+- Decisione di Sandro del 2026-10-14, per non dover passare ogni volta da GitHub e da Claude su Chrome: la sessione cloud unisce da sé le proprie pull request con un merge commit quando il job «costruisci» è verde e non ci sono conflitti, poi manda il riepilogo. Le scelte di metodo e le liste di correzioni VC restano da approvare prima.
+- Sandro aggiunge `sinmar123.github.io` alla rete dell'ambiente cloud; da allora la sessione controlla da sé il sito pubblicato. Chrome resta per le impostazioni del repository.
+- `CLAUDE.md`, sezione «Sessione cloud», aggiornato di conseguenza.
+
+Prossima azione: nessuna.
+
 ## 2026-10-14 - Sito: formule composte anche nei menu, CC cloud
 
 - Segnalato da Claude su Chrome dopo l'unione della PR #6: nell'indice laterale i titoli con formule mostravano il codice, per esempio «Incremento dinamico addizionale: \(q_2\)» nel § 5.1.3. MathJax compone solo gli elementi con classe `arithmatex`, e le voci dei menu non l'avevano.
