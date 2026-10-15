@@ -1,5 +1,16 @@
 # Changelog - NTC 2018
 
+## 2026-10-15 - Procedura VC-NTC revisione 8, CC cloud
+
+Chiesta da Sandro il 2026-10-15 («vai con la revisione 8 della procedura»), per fissare il metodo prima che altri agenti proseguano. Parte da quanto emerso nella VC del § 8.5.
+
+- **Criteri** (§ 4 e catalogo): capoversi, appartenenza agli elenchi, rubriche e sottotitoli, enfasi e apici dei richiami si conservano come nella fonte; rubriche come stampate, in maiuscolo dove la fonte usa maiuscolo o maiuscoletto. Voce 1 del catalogo precisata: copre gli a capo dentro un capoverso, non l'unione dei capoversi. Nuove voci 19-24: sottolineature, simboli in grassetto, marcatori di elenco, stile accidentale accanto a un'etichetta, maiuscoletto, trattino ripetuto in una cella vuota. Sono le decisioni di Sandro sul § 8.5, ora generali.
+- **Convenzioni del corpus** (§ 2): simboli, grandezze e lettere greche nella prosa in LaTeX inline, perché il renderer canonico perde le greche in testo semplice; richiami in apice con `$^{\text{(a)}}$`; testate su due livelli.
+- **Esecutori** (§ 5): i profili della sessione cloud passano da CLAUDE.md alla procedura; la scheda dichiara chi ha svolto preparazione e correzioni e perché non si sono usati modelli leggeri, se è così.
+- **Strumenti** (§§ 6-10, `strumenti/vc-supporto.md`): `componi-scope` (Norma prima, Circolare dopo); `prepara` crea le cartelle di lavoro dei V fuori dai blocchi e `rivela` rifiuta file estranei prima di scrivere; `pacchetto-modifiche` divide il testo corretto negli stessi blocchi del G6, con diff e resa; `applica-lista` e `verifica-lista`; nuovo `strumenti/vc-struttura-fonte.py` per i candidati di capoversi ed enfasi dal PDF. Nel § 9: ogni evidenza citata da un'altra sta nel manifest.
+- Verifica: `test_vc_supporto.py` 37 test OK, cinque nuovi; `pacchetto-modifiche` riprodotto sul § 8.5 identico al pacchetto rifatto a mano, a parte la riga vuota finale; `verifica-lista` sul § 8.5 OK; `vc-struttura-fonte.py` sul § 8.5 87 candidati di capoverso prima delle correzioni, uno falso dopo.
+- I pacchetti G6 della revisione 7 restano validi; le VC chiuse non si riaprono. Revisione 7 e catalogo di allora conservati in `old/`.
+
 ## 2026-10-14 - VC-OK del § 8.5 con C8.5, CC cloud
 
 - Presa in carico su autorizzazione di Sandro («vai con l'8.5»): sei file, NTC pp. 296-297 e Circolare pp. 257-269.

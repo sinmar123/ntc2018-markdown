@@ -33,6 +33,11 @@ Leggere solo questa cartella e le integrazioni fonte espressamente consegnate.
 Non aprire coordinamento.json, workspace o altri rapporti. Isolamento istruttivo,
 salvo sandbox effettivamente documentata. Il canone.md contiene tutti i criteri.
 
+Nella cartella del blocco scrivere soltanto inventario.json e, dopo il via,
+rapporto-g6.json. Ritagli, appunti, script e versioni precedenti dell'inventario
+vanno nella cartella di lavoro indicata dal coordinatore, fuori dal blocco:
+un file estraneo nel blocco ferma la rivelazione.
+
 1. FONTE-PRIMA: osservare integralmente le pagine del PERIMETRO.md e i dettagli
 necessari. Scrivere inventario.json con firma effettiva, esito_provvisorio
 (LEGGIBILE o DUBBIO), elementi ed esclusioni. Ogni elemento richiede id univoco,
@@ -143,9 +148,9 @@ def neutral_canone():
     require(procedure.count(start) == procedure.count(end) == 1, "Marcatori del canone non univoci")
     body = procedure.split(start)[1].split(end)[0].strip()
     catalogue = CATALOGO.read_text(encoding="utf-8")
-    # Si estraggono solo le 18 voci prescrittive, eliminando esempi e cronologia.
+    # Si estraggono solo le voci prescrittive numerate, eliminando esempi e cronologia.
     rules = re.findall(r"(?m)^\d+\. .+(?:\n(?!\n|\d+\. |#).+)*", catalogue)
-    require([int(re.match(r"\d+", rule)[0]) for rule in rules] == list(range(1, 19)),
+    require(len(rules) >= 18 and [int(re.match(r"\d+", rule)[0]) for rule in rules] == list(range(1, len(rules) + 1)),
             "Catalogo cambiato: aggiornare e collaudare l'estrazione neutra")
     clean = []
     for rule in rules:
@@ -632,6 +637,10 @@ def prepare(config_path, destination):
     require(type(dpi) is int and 200 <= dpi <= 1200, "DPI fuori intervallo 200-1200")
     # Tutti i controlli di perimetro precedono le scritture.
     destination.mkdir(parents=True)
+    # Cartelle di lavoro dei V, fuori dai blocchi: i file estranei nel blocco fermano `rivela`.
+    work = destination.parent / (destination.name + "-lavoro")
+    for block in blocks:
+        (work / block["id"]).mkdir(parents=True, exist_ok=True)
     for block in blocks:
         folder = destination / block["id"]
         folder.mkdir()
@@ -653,7 +662,8 @@ def prepare(config_path, destination):
         require(sha(source["pdf"]) == source["sha256"].lower(), "Fonte cambiata durante il render")
     json_new(destination / "coordinamento.json", plan)
     return {"fase": "FONTE", "cartella_coordinatore": str(destination), "blocchi": [b["id"] for b in blocks],
-            "nota": "Consegnare a ciascun V solo la sottocartella del suo blocco; nessun target ancora rivelato"}
+            "cartella_lavoro": str(work),
+            "nota": "Consegnare a ciascun V solo la sottocartella del suo blocco e indicargli la sua cartella di lavoro; nessun target ancora rivelato"}
 
 
 def reveal(destination, block_id):
@@ -666,6 +676,9 @@ def reveal(destination, block_id):
     require(sha(folder / "input-fonte.json") == block["manifest_fonte_sha256"], "Manifest fonte cambiato")
     verify_records(folder, read_json(folder / "input-fonte.json")["files"])
     inventory_check(folder)
+    allowed = {r["path"] for r in read_json(folder / "input-fonte.json")["files"]} | {"input-fonte.json", "inventario.json"}
+    extra = sorted({p.relative_to(folder).as_posix() for p in folder.rglob("*") if p.is_file()} - allowed)
+    require(not extra, "File estranei nel blocco, da spostare nella cartella di lavoro prima di rivelare: " + ", ".join(extra))
     inventory = read_json(folder / "inventario.json")
     require(read_json(folder / "input-fonte.json")["pagine"] == block["pagine"], "Mappa fonte incoerente")
     target = Path(plan["target"])
@@ -718,6 +731,187 @@ def verify_package(destination, block_id):
         require(sha(inside(folder, asset["name"])) == asset["sha256"], "Asset diverso dal target preparato")
     count = verify_records(folder, comparison)
     return {"blocco": block_id, "integrita": "OK", "files": count, "giudizio_vc": "NON_EMESSO"}
+
+
+def compose_scope(files):
+    """Testo unico dello scope: tutte le parti Norma nell'ordine dei file, poi tutte le parti Circolare.
+
+    È la composizione da usare per G5, G6 e controllo delle modifiche: un confronto fatto
+    su una composizione diversa sposta i confini dei blocchi (VC del § 8.5, 2026-10-14)."""
+    require(isinstance(files, list) and files, "Servono i file dello scope, in ordine")
+    norma, circolare = [], []
+    for name in files:
+        text = inside(ROOT, name).read_text(encoding="utf-8-sig").replace("\r\n", "\n").rstrip("\n")
+        if text.startswith("## Circolare"):
+            circolare.append(text.rstrip())
+        elif "\n## Circolare" in text:
+            cut = text.index("\n## Circolare")
+            norma.append(text[:cut].rstrip())
+            circolare.append(text[cut + 1:].rstrip())
+        else:
+            norma.append(text.rstrip())
+    return "\n\n".join(norma + circolare) + "\n"
+
+
+def compose_command(list_path, output):
+    files = read_json(list_path)
+    text = compose_scope(files)
+    write_new(Path(output), text)
+    return {"file": len(files), "righe": len(text.splitlines()), "sha256": sha(output),
+            "righe_depurate": len(DEPURA(text).splitlines()), "nota": "Norma prima, Circolare dopo"}
+
+
+def change_package(destination_g6, list_path, output, render=False):
+    """Pacchetto del controllo delle modifiche (§ 8): stessa composizione e stessi blocchi del G6."""
+    import difflib
+
+    destination_g6, output = Path(destination_g6).resolve(), Path(output).resolve()
+    require(not output.exists(), "Destinazione già esistente: usare una nuova revisione")
+    plan = read_json(destination_g6 / "coordinamento.json")
+    ids = [b["id"] for b in plan["blocchi"]]
+    before = {bid: (destination_g6 / bid / "testo.md").read_text(encoding="utf-8") for bid in ids}
+    require(digest_text("".join(before[bid] for bid in ids)) == plan["clean_sha256"],
+            "I testo.md dei blocchi non ricompongono il testo depurato del G6")
+    composed = compose_scope(read_json(list_path))
+    after = DEPURA(composed)
+    old_lines = "".join(before[bid] for bid in ids).splitlines(keepends=True)
+    new_lines = after.splitlines(keepends=True)
+
+    def letters(lines):
+        chars, owner = [], []
+        for number, line in enumerate(lines):
+            for char in line:
+                if char.isalnum():
+                    chars.append(char.casefold())
+                    owner.append(number)
+        return "".join(chars), owner
+
+    # Si allineano le sole righe con testo: le righe vuote, uguali fra loro, creerebbero falsi appigli.
+    old_full = [i for i, line in enumerate(old_lines) if line.strip()]
+    new_full = [i for i, line in enumerate(new_lines) if line.strip()]
+    line_ops = difflib.SequenceMatcher(None, [old_lines[i] for i in old_full], [new_lines[i] for i in new_full],
+                                       autojunk=False).get_opcodes()
+
+    def locate(boundary):
+        # Dentro una zona cambiata il confine si riporta sulle lettere, che le correzioni
+        # di forma conservano: un capoverso diviso o un'enfasi aggiunta non spostano il blocco.
+        k = next((n for n, i in enumerate(old_full) if i >= boundary), len(old_full))
+        for tag, i1, i2, j1, j2 in line_ops:
+            if tag == "equal" and i1 <= k < i2:
+                return new_full[j1 + k - i1]
+            if tag != "equal" and i1 <= k < i2:
+                old_chars, _ = letters([old_lines[i] for i in old_full[i1:k]])
+                new_chars, new_owner = letters([new_lines[i] for i in new_full[j1:j2]])
+                if not old_chars:
+                    return new_full[j1] if j1 < len(new_full) else len(new_lines)
+                ops = difflib.SequenceMatcher(None, old_chars, new_chars, autojunk=False).get_opcodes()
+                end = len(old_chars)
+                mapped = next((c1 + end - o1 if kind == "equal" else c1 for kind, o1, o2, c1, c2 in ops
+                               if o1 <= end <= o2 and (kind == "equal" or end < o2)), len(new_chars))
+                if mapped >= len(new_owner):
+                    return new_full[j2] if j2 < len(new_full) else len(new_lines)
+                return new_full[j1 + new_owner[mapped]]
+        return len(new_lines)
+
+    new_starts, position = [0], 0
+    for bid in ids[:-1]:
+        position += len(before[bid].splitlines())
+        new_starts.append(locate(position))
+    new_starts.append(len(new_lines))
+    require(new_starts == sorted(new_starts), "Confini dei blocchi non monotoni dopo le modifiche: controllare a mano")
+    output.mkdir(parents=True)
+    write_new(output / "target-scope-dopo.md", composed)
+    write_new(output / "testo-dopo.md", after)
+    summary = []
+    for k, bid in enumerate(ids):
+        folder = output / bid
+        folder.mkdir()
+        text = "".join(new_lines[new_starts[k]:new_starts[k + 1]])
+        write_new(folder / "testo-dopo.md", text)
+        diff = "".join(difflib.unified_diff(before[bid].splitlines(keepends=True), text.splitlines(keepends=True),
+                                            "testo.md", "testo-dopo.md"))
+        write_new(folder / "diff-testo.txt", diff)
+        summary.append({"blocco": bid, "righe_prima": len(before[bid].splitlines()), "righe_dopo": len(text.splitlines()),
+                        "righe_diff": len(diff.splitlines())})
+    require("".join((output / bid / "testo-dopo.md").read_text(encoding="utf-8") for bid in ids) == after,
+            "I blocchi dopo non ricompongono il testo depurato")
+    result = {"pacchetto": str(output), "blocchi": summary, "testo_dopo_sha256": sha(output / "testo-dopo.md")}
+    if render:
+        first = inside(ROOT, read_json(list_path)[0])
+        temporary = first.parent / "_tmp-pacchetto-modifiche.md"
+        require(not temporary.exists(), "File temporaneo di resa già presente: " + str(temporary))
+        try:
+            write_new(temporary, composed)
+            outcome = subprocess.run([sys.executable, str(ROOT / "strumenti/render-capitolo.py"), str(temporary),
+                                      str(output / "resa-dopo.pdf")], capture_output=True, text=True, cwd=ROOT)
+        finally:
+            temporary.unlink(missing_ok=True)
+        require(outcome.returncode == 0, "Resa non riuscita: " + (outcome.stderr or outcome.stdout)[-400:])
+        result["resa_dopo_sha256"] = sha(output / "resa-dopo.pdf")
+    json_new(output / "riepilogo.json", result)
+    return result
+
+
+def _list_entries(list_path):
+    data = read_json(list_path)
+    entries = [v for g in data["gruppi"] for v in g["voci"]] if isinstance(data, dict) else data
+    require(isinstance(entries, list) and entries, "Lista vuota")
+    for entry in entries:
+        require(all(isinstance(entry.get(k), str) for k in ("id", "file", "attuale", "proposto")),
+                "Ogni voce richiede id, file, attuale e proposto")
+    require(len({e["id"] for e in entries}) == len(entries), "ID di voce duplicati")
+    return entries
+
+
+def _apply_entries(entries, texts):
+    for entry in entries:
+        text = texts[entry["file"]]
+        found = text.count(entry["attuale"])
+        require(found == 1, f"{entry['id']}: «attuale» presente {found} volte in {entry['file']}")
+        texts[entry["file"]] = text.replace(entry["attuale"], entry["proposto"])
+    return texts
+
+
+def apply_list(list_path, write=False):
+    """Applica in ordine le voci approvate; ogni «attuale» deve comparire una sola volta al momento dell'applicazione."""
+    entries = _list_entries(list_path)
+    texts = {}
+    for entry in entries:
+        if entry["file"] not in texts:
+            texts[entry["file"]] = inside(ROOT, entry["file"]).read_bytes().decode("utf-8")
+    texts = _apply_entries(entries, texts)
+    if write:
+        for name, text in texts.items():
+            inside(ROOT, name).write_bytes(text.encode("utf-8"))
+    return {"voci": len(entries), "file": sorted(texts), "scritto": write,
+            "nota": "Dopo le rubriche rigenerare gli indici interni con genera-indici-interni.py"}
+
+
+INDEX_BLOCK = re.compile(r"<!-- INDICE-INTERNO:INIZIO -->.*?<!-- INDICE-INTERNO:FINE -->", re.S)
+
+
+def verify_list(list_path, base):
+    """Riapplica la lista ai file della revisione git BASE e confronta con i file vivi, indici interni esclusi."""
+    entries = _list_entries(list_path)
+    texts = {}
+    for entry in entries:
+        if entry["file"] not in texts:
+            shown = subprocess.run(["git", "show", f"{base}:{entry['file']}"], capture_output=True, cwd=ROOT)
+            require(shown.returncode == 0, f"File assente nella revisione {base}: {entry['file']}")
+            texts[entry["file"]] = shown.stdout.decode("utf-8")
+    texts = _apply_entries(entries, texts)
+    files = []
+    for name, text in sorted(texts.items()):
+        live = inside(ROOT, name).read_bytes().decode("utf-8")
+        files.append({"file": name, "uguale_indici_esclusi": INDEX_BLOCK.sub("", text) == INDEX_BLOCK.sub("", live)})
+    changed = subprocess.run(["git", "diff", "--name-only", base, "--"] + sorted(texts), capture_output=True,
+                             text=True, cwd=ROOT).stdout.split()
+    result = {"base": base, "voci": len(entries), "file": files,
+              "esito": "OK" if all(f["uguale_indici_esclusi"] for f in files) else "DIVERSO",
+              "file_cambiati_dalla_base": changed}
+    require(result["esito"] == "OK", "Il corpus non coincide con la lista riapplicata: " +
+            ", ".join(f["file"] for f in files if not f["uguale_indici_esclusi"]))
+    return result
 
 
 def make_manifest(root, list_path, output):
@@ -803,6 +997,20 @@ def main():
     verify.add_argument("radice")
     verify.add_argument("manifest")
     verify.add_argument("--congelati", action="store_true", help="Solo dipendenze procedurali storiche già congelate nel manifest")
+    comp = commands.add_parser("componi-scope", help="Testo unico dello scope: Norma prima, Circolare dopo")
+    comp.add_argument("lista_file")
+    comp.add_argument("output")
+    mods = commands.add_parser("pacchetto-modifiche", help="Testo dopo le correzioni diviso nei blocchi del G6, con diff")
+    mods.add_argument("cartella_g6")
+    mods.add_argument("lista_file")
+    mods.add_argument("output")
+    mods.add_argument("--resa", action="store_true", help="Genera anche la resa canonica con render-capitolo.py")
+    app = commands.add_parser("applica-lista", help="Applica in ordine le voci approvate (senza --applica solo piano)")
+    app.add_argument("lista")
+    app.add_argument("--applica", action="store_true")
+    chk = commands.add_parser("verifica-lista", help="Riapplica la lista alla revisione git BASE e confronta col corpus")
+    chk.add_argument("lista")
+    chk.add_argument("base")
     costs = commands.add_parser("consumi")
     costs.add_argument("cartella_log")
     costs.add_argument("--contiene", required=True, help="Filtro identificativo del ruolo, es. _343")
@@ -836,6 +1044,14 @@ def main():
         elif args.command == "verifica-manifest":
             result = verify_historical(args.radice, args.manifest) if args.congelati else {
                 "files": verify_records(args.radice, read_json(args.manifest)["files"]), "integrita": "OK", "giudizio_vc": "NON_EMESSO"}
+        elif args.command == "componi-scope":
+            result = compose_command(args.lista_file, args.output)
+        elif args.command == "pacchetto-modifiche":
+            result = change_package(args.cartella_g6, args.lista_file, args.output, args.resa)
+        elif args.command == "applica-lista":
+            result = apply_list(args.lista, args.applica)
+        elif args.command == "verifica-lista":
+            result = verify_list(args.lista, args.base)
         else:
             result = usage(args.cartella_log, args.contiene)
     except (ValueError, OSError, KeyError, StopIteration, TypeError) as error:
