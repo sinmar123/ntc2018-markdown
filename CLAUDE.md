@@ -14,7 +14,7 @@ Dal 2026-10-01 questa cartella è il repository pubblico `sinmar123/ntc2018-mark
 
 - lavora su un ramo e chiude con una pull request; non scrive mai su `main`. Dal 2026-10-14, per decisione di Sandro, la sessione unisce da sé le proprie pull request con un merge commit, appena il job «costruisci» è verde sull'ultimo commit e non ci sono conflitti, e poi gli manda il riepilogo. Le scelte di metodo e le liste di correzioni della VC si chiedono comunque a Sandro prima;
 - tocca solo i capitoli assegnati dal prompt, e mai le righe del registro in stato `IN-CORSO` di un altro agente: per subentrare serve un ordine esplicito di Sandro;
-- per le VC vale [PROCEDURA-VC.md](PROCEDURA-VC.md) come per tutti; gli esecutori sono gli «equivalenti documentati» che il suo § 5 chiede per gli altri runtime, nella tabella qui sotto. Nelle schede e nei comandi di `vc-supporto.py` l'agente è `CCC`, che nel registro diventa `CC cloud`; i modelli usati per ruolo vanno nella scheda;
+- per le VC vale [PROCEDURA-VC.md](PROCEDURA-VC.md) come per tutti; gli esecutori sono i profili della sessione cloud del suo § 5, dalla revisione 8. Nelle schede e nei comandi di `vc-supporto.py` l'agente è `CCC`, che nel registro diventa `CC cloud`; i modelli usati per ruolo vanno nella scheda;
 - un paragrafo `VC-OK` si riapre solo per una correzione localizzata approvata da Sandro, con `prendi` e il campo `riapertura_vc_ok` (vedi `strumenti/vc-supporto.md`);
 - la rete dell'ambiente «Default» ammette Gazzetta Ufficiale, Normattiva, `cdn.jsdelivr.net` e, dal 2026-10-14, il sito pubblicato `sinmar123.github.io`, oltre ai gestori di pacchetti. Dopo ogni pubblicazione la sessione controlla da sé le pagine cambiate. Se un sito necessario non risponde, il G1 si ferma e si dice, senza saltarlo;
 - all'avvio della sessione `.claude/settings.json` installa da solo MkDocs e PyMuPDF (`strumenti/sito/requisiti.txt`, `strumenti/requisiti-vc.txt`), così girano costruzione del sito, lint e test di `vc-supporto.py`;
@@ -24,15 +24,6 @@ Dal 2026-10-01 questa cartella è il repository pubblico `sinmar123/ntc2018-mark
 
 ### Modelli per ruolo nelle VC (sessione su Opus)
 
-La sessione si apre su Opus. I ruoli sono quelli del § 5 della procedura; cambia l'esecutore. Il parametro `model` del tool Agent sceglie il modello del subagente.
+La sessione si apre su Opus. Ruoli, modelli dei subagenti e limiti sono nel § 5 di [PROCEDURA-VC.md](PROCEDURA-VC.md), profili della sessione cloud, dalla revisione 8; il parametro `model` del tool Agent sceglie il modello del subagente. In breve: script per la meccanica, `haiku` o `sonnet` solo per lavori senza giudizio normativo e riconfrontati, Opus per C e per V, mai un modello leggero nel G6.
 
-| Ruolo o lavoro | Esecutore | Limite |
-|---|---|---|
-| Meccanica: hash, pacchetti, conteggi, lint, manifest, registri | Script di `strumenti/` | Nessun giudizio normativo |
-| Attività breve rigidamente definita e non coperta da script: estrarre pagine, contare, applicare sostituzioni già approvate | Subagente `haiku` | Solo se il risultato lo riconfronta uno script con la fonte o con la lista approvata; senza quel controllo, `sonnet` |
-| E: preparazione del fascicolo e correzioni approvate che non si fanno con script | Subagente `sonnet` | Il diff si riconfronta per intero con la lista approvata. Una nuova trascrizione interpretativa di formule, numeri o tabelle la fa un subagente Opus diverso da C |
-| C: confini, G0-G5, classificazione e adjudicazione | La sessione, Opus | Non scrive le correzioni che poi coordina nel G6 |
-| V: inventario fonte-prima, G6 integrale, G7 | Subagente a contesto nuovo, modello della sessione (Opus) | Mai `haiku` o `sonnet`: il G6 non si degrada |
-| Ambiguità persistente, possibile regressione | Ci si ferma e si chiede a Sandro | Il consulente Fable si usa solo se lo chiede lui |
-
-Rileggere il proprio lavoro con lo stesso modello non è un controllo. Il controllo vale quando un output rigenerato viene confrontato con la fonte da uno script, oppure quando c'è una seconda lettura indipendente. Il credito cloud è a tempo: i modelli minori dove la tabella li ammette servono a verificare più paragrafi con la stessa spesa, e nessun gate si alleggerisce per questo.
+Rileggere il proprio lavoro con lo stesso modello non è un controllo. Il controllo vale quando un output rigenerato viene confrontato con la fonte da uno script, oppure quando c'è una seconda lettura indipendente. Il credito cloud è a tempo: i modelli minori dove la procedura li ammette servono a verificare più paragrafi con la stessa spesa, e nessun gate si alleggerisce per questo.

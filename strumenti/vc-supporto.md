@@ -39,6 +39,16 @@ python strumenti/vc-supporto.py sincronizza-titoli CONFIG_JSON --applica
 
 Il JSON contiene `scope`, `righe` e `agente`. Il comando controlla il medesimo lucchetto, aggiorna esclusivamente il campo `titolo`, conserva una ricevuta ed esegue il lint.
 
+## Composizione del testo dello scope
+
+Dalla revisione 8 della procedura, 2026-10-15, CC cloud. Uno scope con più file si confronta su un testo unico: tutte le parti Norma nell'ordine dei file, poi tutte le parti Circolare, divise alla rubrica `## Circolare`.
+
+```text
+python strumenti/vc-supporto.py componi-scope LISTA_FILE_JSON USCITA_MD
+```
+
+`LISTA_FILE_JSON` è un array di percorsi relativi alla radice, nell'ordine dei file naturali (lo stesso di `lista-snapshot.json`). Il comando non sovrascrive l'uscita. Il testo così composto è il `target` della configurazione di `prepara`; la stessa lista si ripassa a `pacchetto-modifiche`.
+
 ## Confezionamento con rivelazione differita
 
 Il coordinatore prepara una configurazione JSON nella lavorazione dello scope. I percorsi di `target` e `pdf` sono relativi a quel JSON, oppure assoluti. Il target è il file normativo completo del perimetro; il programma usa il depuratore comune `prepara-scope-g6.py` per ricavare le righe del confronto.
@@ -79,7 +89,7 @@ DESTINAZIONE_NUOVA/
 
 Il canone deriva dai §§ 3-4 della procedura e dalle voci prescrittive del catalogo, private degli esempi storici. Il generatore si ferma se cambia la struttura del catalogo: il suo adattamento va collaudato, non aggirato. La copia non sostituisce il catalogo originale. Le pagine sono renderizzate direttamente dai PDF di impronta verificata; eventuali ritagli ad alta risoluzione per le decisioni si producono e si conservano secondo la procedura.
 
-Consegnare a V solo la cartella `b01`. `coordinamento.json` contiene percorsi, mappature e impronte del target e resta al coordinatore. Il tool non crea una sandbox: i permessi e i confini reali degli strumenti vanno dichiarati secondo la procedura.
+Consegnare a V solo la cartella `b01`. `coordinamento.json` contiene percorsi, mappature e impronte del target e resta al coordinatore. `prepara` crea anche `DESTINAZIONE_NUOVA-lavoro/b01/`, la cartella di lavoro di V da indicargli insieme al blocco: ritagli, appunti, script e versioni precedenti dell'inventario vanno lì, mai nel blocco. Il tool non crea una sandbox: i permessi e i confini reali degli strumenti vanno dichiarati secondo la procedura.
 
 V scrive nella propria cartella `inventario.json`, con questi campi:
 
@@ -96,7 +106,7 @@ python strumenti/vc-supporto.py rivela DESTINAZIONE_NUOVA b01
 python strumenti/vc-supporto.py verifica-pacchetto DESTINAZIONE_NUOVA b01
 ```
 
-`rivela` ricontrolla fonti, inventario, target e asset; scrive e riapre `congelamento.json` con hash dell'inventario, esito provvisorio e hash del canone/criterio **prima** di creare `testo.md` e gli asset. Infine genera e verifica `input-confronto.json`. Il registro del comando è parte della prova di sequenza; gli hash da soli non attestano l'istante della lettura del modello.
+`rivela` rifiuta per primo un blocco che contenga file diversi dagli input fonte e da `inventario.json`, prima di qualsiasi scrittura: il messaggio elenca i file da spostare nella cartella di lavoro. Poi ricontrolla fonti, inventario, target e asset; scrive e riapre `congelamento.json` con hash dell'inventario, esito provvisorio e hash del canone/criterio **prima** di creare `testo.md` e gli asset. Infine genera e verifica `input-confronto.json`. Il registro del comando è parte della prova di sequenza; gli hash da soli non attestano l'istante della lettura del modello.
 
 Non rinominare `testo.md` in `scope.md` né creare coppie di nomi distinte solo per maiuscole. I percorsi degli asset restano quelli del Markdown e devono essere relativi, portabili e contenuti nella cartella del target; i casi non supportati causano un errore esplicito. Il generatore non riscrive testo o formule. Il controllo del pacchetto confronta anche l'estratto atteso e l'insieme degli input: un manifest internamente coerente con un file sbagliato non basta.
 
@@ -107,6 +117,30 @@ Prima di `rivela` eseguire `valida-inventario CARTELLA_BLOCCO`. Legge soltanto g
 Dopo il confronto, `valida-g6 CARTELLA_BLOCCO RAPPORTO_JSON` controlla il formato compatto: `firma`, `esito` (`OK`/`KO`), `coperti` (ID univoci dell'inventario), `rilievi` (array). `OK` richiede zero rilievi e copertura di tutti gli ID; giudizio sostanziale, normalizzazioni, letture e isolamento restano responsabilità di V secondo la consegna. Lo schema non impone un oggetto ripetitivo per ogni ID già presente nell'inventario.
 
 Per le prove fonte aggiuntive richieste da V, creare una cartella separata **fuori da `b01`** e dagli altri blocchi, con soli file fonte, provenienza (PDF e hash, pagina/area, dpi o risoluzione nativa) e manifest esplicito generato col comando sotto. Consegnare a V solo quei file e registrare la sequenza nel rapporto. Non aggiungerli ai manifest già congelati e non consegnare la cartella del coordinatore. Includere queste integrazioni nel manifest finale se effettivamente usate. Lo strumento verifica l'integrità dei file; l'assenza di indicazioni suggestive e la correttezza del ritaglio restano controlli del coordinatore.
+
+## Controllo delle modifiche e liste di correzioni
+
+```text
+python strumenti/vc-supporto.py applica-lista LISTA_JSON
+python strumenti/vc-supporto.py applica-lista LISTA_JSON --applica
+python strumenti/vc-supporto.py verifica-lista LISTA_JSON BASE
+python strumenti/vc-supporto.py pacchetto-modifiche CARTELLA_G6 LISTA_FILE_JSON NUOVA [--resa]
+```
+
+La lista è un array di voci, oppure un oggetto con `gruppi[].voci[]`. Ogni voce ha `id` univoco, `file` relativo alla radice, `attuale` e `proposto`; pagina, classe e nota sono campi descrittivi. Le voci si applicano nell'ordine, ciascuna sul risultato delle precedenti, e `attuale` deve comparire una sola volta nel file in quel momento: altrimenti il comando si ferma senza scrivere. Senza `--applica` restituisce solo il piano.
+
+`verifica-lista` riapplica la lista ai file della revisione git `BASE` (per esempio il commit consegnato al G6) e confronta il risultato con i file vivi, escludendo i blocchi `INDICE-INTERNO` rigenerati da `genera-indici-interni.py`. Esito `OK` o errore con i file diversi; elenca anche i file della lista cambiati dalla base.
+
+`pacchetto-modifiche` legge `coordinamento.json` e i `testo.md` dei blocchi del G6 già rivelati, controlla che ricompongano il testo depurato congelato, compone il testo dopo le correzioni con `componi-scope`, lo depura e lo divide negli stessi blocchi. I confini si riportano sulle righe con testo e, dentro una zona cambiata, sulle lettere, che le correzioni di forma conservano. Per ogni blocco scrive `testo-dopo.md` e `diff-testo.txt` (diff unificato rispetto a `testo.md`); in radice `target-scope-dopo.md`, `testo-dopo.md` e `riepilogo.json`. Con `--resa` produce `resa-dopo.pdf` con `render-capitolo.py`, attraverso un file temporaneo accanto al primo file della lista, poi cancellato. Le rese PDF non sono riproducibili byte per byte: ogni resa citata da un'evidenza va nel manifest.
+
+## Candidati di struttura dal PDF
+
+```text
+python strumenti/vc-struttura-fonte.py --pdf FONTE.pdf --pagine 257-269 --inizio REGEX --fine REGEX \
+    --target "cap08/8.5*.md" [--senza-tabelle 265] --uscita candidati.json
+```
+
+Legge dalla codifica del PDF le righe del perimetro, tabelle escluse, ricostruisce i capoversi (interlinea, rientro, righe corte) e i tratti in grassetto, corsivo e grassetto corsivo. Restituisce gli inizi di capoverso che nel target stanno a metà paragrafo e i tratti in enfasi senza marcatori nel target. Sono candidati per C: righe rientrate di elenco, simboli in grassetto e testo diviso dalla codifica danno falsi positivi. `--senza-tabelle` disattiva il riconoscimento delle tabelle sulle pagine dove scambia un capoverso per una griglia. Sul § 8.5 prima delle correzioni ha dato 87 candidati di capoverso per 86 voci approvate; dopo, uno solo, falso.
 
 ## Manifest di rilascio
 

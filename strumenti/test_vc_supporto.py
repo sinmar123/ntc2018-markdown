@@ -212,7 +212,7 @@ class SupportoTest(unittest.TestCase):
         self.assertNotIn("AF-3.3-", canone)
         self.assertNotIn("C4.1.10", canone)
         import re
-        self.assertEqual(len(re.findall(r"(?m)^\d+\. ", canone)), 18)
+        self.assertEqual(len(re.findall(r"(?m)^\d+\. ", canone)), 24)
 
     def test_usage_uses_last_counter_and_excludes_parent(self):
         for sid, source in (("child", {"subagent": {"thread_spawn": {"agent_path": "/root/prova"}}}), ("parent", "cli")):
@@ -601,6 +601,79 @@ class SupportoTest(unittest.TestCase):
             updated = list(csv.DictReader(stream, delimiter=";"))
         self.assertEqual([row["stato_vc"] for row in updated], ["VC-OK", "VC-OK"])
         self.assertEqual(updated[1]["titolo"], "TITOLO DUE")
+
+    def test_prepare_creates_work_folder_outside_blocks(self):
+        result = self.prepare()
+        self.assertTrue((self.root / "pacchetti-lavoro/b01").is_dir())
+        self.assertEqual(result["cartella_lavoro"], str(self.root / "pacchetti-lavoro"))
+
+    def test_reveal_refuses_extraneous_files_before_any_write(self):
+        self.prepare()
+        self.inventory()
+        (self.destination / "b01/lavoro").mkdir()
+        (self.destination / "b01/lavoro/ritaglio.png").write_bytes(b"x")
+        with self.assertRaisesRegex(ValueError, "File estranei nel blocco.*lavoro/ritaglio.png"):
+            VC.reveal(self.destination, "b01")
+        self.assertFalse((self.destination / "b01/congelamento.json").exists())
+        self.assertFalse((self.destination / "b01/testo.md").exists())
+
+    def write_scope(self, texts):
+        names = []
+        for name, text in texts.items():
+            path = self.root / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(text, encoding="utf-8")
+            names.append(name)
+        lista = self.root / "lista-file.json"
+        lista.write_text(json.dumps(names), encoding="utf-8")
+        return lista
+
+    def test_compose_scope_puts_all_norma_before_circolare(self):
+        lista = self.write_scope({"cap/a.md": "# A\n\n## Norma\n\nNA\n\n## Circolare\n\nCA\n",
+                                  "cap/b.md": "# B\n\n## Norma\n\nNB\n\n## Circolare\n\nCB\n"})
+        with patch.object(VC, "ROOT", self.root):
+            text = VC.compose_scope(VC.read_json(lista))
+        self.assertLess(text.index("NB"), text.index("## Circolare"))
+        self.assertLess(text.index("CA"), text.index("CB"))
+        self.assertEqual(text.count("## Circolare"), 2)
+
+    def test_change_package_keeps_g6_blocks_when_a_paragraph_is_split(self):
+        lista = self.write_scope({"cap/a.md": "Primo capoverso. Secondo capoverso.\n\nTerzo capoverso.\n"})
+        with patch.object(VC, "ROOT", self.root):
+            before = VC.DEPURA(VC.compose_scope(VC.read_json(lista)))
+            lines = before.splitlines(keepends=True)
+            g6 = self.root / "g6"
+            for bid, chunk in (("b01", lines[:2]), ("b02", lines[2:])):
+                (g6 / bid).mkdir(parents=True)
+                (g6 / bid / "testo.md").write_text("".join(chunk), encoding="utf-8")
+            (g6 / "coordinamento.json").write_text(json.dumps(
+                {"clean_sha256": VC.digest_text(before), "blocchi": [{"id": "b01"}, {"id": "b02"}]}), encoding="utf-8")
+            (self.root / "cap/a.md").write_text("Primo capoverso.\n\n*Secondo* capoverso.\n\nTerzo capoverso.\n",
+                                                encoding="utf-8")
+            result = VC.change_package(g6, lista, self.root / "modifiche")
+        b01 = (self.root / "modifiche/b01/testo-dopo.md").read_text(encoding="utf-8")
+        b02 = (self.root / "modifiche/b02/testo-dopo.md").read_text(encoding="utf-8")
+        self.assertIn("*Secondo* capoverso.", b01)
+        self.assertEqual(b02, "Terzo capoverso.\n")
+        self.assertEqual([b["blocco"] for b in result["blocchi"]], ["b01", "b02"])
+
+    def test_apply_list_requires_one_match_and_verify_list_replays(self):
+        target = self.root / "cap/a.md"
+        target.parent.mkdir(parents=True)
+        target.write_text("uno due uno\n", encoding="utf-8")
+        lista = self.root / "lista.json"
+        lista.write_text(json.dumps([{"id": "X1", "file": "cap/a.md", "attuale": "uno", "proposto": "tre"}]),
+                         encoding="utf-8")
+        with patch.object(VC, "ROOT", self.root), self.assertRaisesRegex(ValueError, "presente 2 volte"):
+            VC.apply_list(lista, write=True)
+        self.assertEqual(target.read_text(encoding="utf-8"), "uno due uno\n")
+        lista.write_text(json.dumps({"gruppi": [{"voci": [
+            {"id": "X1", "file": "cap/a.md", "attuale": "due", "proposto": "tre"}]}]}), encoding="utf-8")
+        with patch.object(VC, "ROOT", self.root):
+            self.assertFalse(VC.apply_list(lista)["scritto"])
+            self.assertEqual(target.read_text(encoding="utf-8"), "uno due uno\n")
+            VC.apply_list(lista, write=True)
+        self.assertEqual(target.read_text(encoding="utf-8"), "uno tre uno\n")
 
 
 if __name__ == "__main__":

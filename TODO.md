@@ -80,7 +80,7 @@ Prossima azione: Attendere un nuovo via libera prima di aprire il § 3.6 o altri
 
 ## Procedura vigente dal 2026-09-12
 
-Seguire soltanto [PROCEDURA-VC.md](PROCEDURA-VC.md), revisione 7 dal 2026-10-13. Le istruzioni e i profili nelle voci datate sono storia delle lavorazioni e non modificano il metodo corrente. Per riprendere una VC leggere la riga CSV e le sole voci pertinenti, secondo § 2 della procedura. Il CSV non si modifica a mano.
+Seguire soltanto [PROCEDURA-VC.md](PROCEDURA-VC.md), revisione 8 dal 2026-10-15. Le istruzioni e i profili nelle voci datate sono storia delle lavorazioni e non modificano il metodo corrente. Per riprendere una VC leggere la riga CSV e le sole voci pertinenti, secondo § 2 della procedura. Il CSV non si modifica a mano.
 
 Per ciclo, intervento di Sandro, limiti dei ricontrolli e registrazioni vale esclusivamente la revisione corrente della procedura unica.
 

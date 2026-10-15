@@ -19,7 +19,7 @@ Questo file va richiamato dal verbale di ogni scope al momento del G7, e riletto
 
 ## Ammesse fin dall'origine (ciclo, § 5, classe N)
 
-1. Spaziature, a capo, rientri, spazi doppi della fonte.
+1. Spaziature, a capo dentro un capoverso, rientri, spazi doppi della fonte. Non copre l'unione o la divisione dei capoversi, che si conserva come nella fonte.
 2. Varianti Unicode dello stesso carattere; apostrofi e virgolette dritte o curve; `ϕ` e `φ`; hyphen-minus e `−` U+2212.
 3. Spaziatura LaTeX, `\left`/`\right`, parentesi ridondanti che non cambiano la struttura, sostituzione di `[ ]` con `( )` come delimitatore esterno.
 4. Virgola decimale italiana resa `0{,}85` in LaTeX. **Attenzione**: copre la *resa* di una virgola che la fonte stampa, non la *sostituzione* di un punto che la fonte stampa. Vedi `AF-3.3-03` e `AF-3.3-08`.
@@ -43,6 +43,17 @@ Emerse dal G2 e dal G4 del § 3.3. In nessuna cambia una parola, una cifra o un 
 17. **Formule con graffa rese come elenco.** Quando la fonte espone due o più valori alternativi con una graffa, il corpus li rende come voci di elenco puntato. Caso noto: `c_p` del § C3.3.8.7, p. fisica 74.
 18. **Blocchi «dove:».** La fonte li compone come capoverso unico o come righe rientrate senza marcatore; il corpus li rende come elenco puntato, senza spezzare né riordinare il testo.
 
+## Ammesse dal 14/10/2026, decise da Sandro
+
+Emerse dal G6 del § 8.5. Anche qui nessuna parola, cifra o grandezza cambia. Dalla revisione 8 della procedura valgono per tutti gli scope nuovi; le VC chiuse prima restano valide sul loro snapshot.
+
+19. **Sottolineature della fonte.** Non si riproducono: il Markdown non ha una sottolineatura propria. Le sottolineature già rese come `[testo]{.underline}` in scope chiusi restano valide. Casi noti: §§ C8.5.2 e C8.5.5.1.
+20. **Simboli in grassetto nel testo.** Grandezze e simboli che la fonte stampa in grassetto nella prosa si scrivono come simboli matematici ordinari, senza grassetto. Casi noti: f, fm, fv0, τ0, E, G nel § C8.5.3.
+21. **Marcatori di elenco.** Trattino, lineetta, punto o altro segno che apre le voci di un elenco si rendono come elenco puntato Markdown, senza cambiare né riordinare le voci.
+22. **Stile accidentale accanto a un'etichetta.** Quando lo stile di un'etichetta in enfasi si estende per errore al carattere successivo (spazio, segno o prima lettera della parola seguente), quel carattere si rende nello stile del testo corrente. Caso noto: «Prove limitate: si» a p. fisica 265 della Circolare.
+23. **Maiuscoletto.** Il maiuscoletto della fonte, per esempio nelle rubriche della Circolare, si rende con lettere maiuscole.
+24. **Trattino ripetuto in una cella vuota.** In una cella di tabella senza valore, il trattino che la fonte ripete su ogni riga di testo della cella si rende con un solo trattino. Caso noto: Tab. C8.5.I, colonna fv0.
+
 ## Cronologia delle decisioni
 
 | Data | Chi | Che cosa |
@@ -51,3 +62,4 @@ Emerse dal G2 e dal G4 del § 3.3. In nessuna cambia una parola, una cifra o un 
 | 2026-07-31 | Sandro | approvato l'impianto delle tre classi del ciclo, § 5 |
 | 2026-08-06 | Sandro | voci 5, 6 e 9: punti di moltiplicazione, accorpamenti, punteggiatura delle didascalie |
 | 2026-08-06 | Sandro | voci 13-18, sui sei criteri di resa emersi da G2 e G4 del § 3.3 |
+| 2026-10-14 | Sandro | decisioni della VC del § 8.5, rese generali dalla revisione 8 il 2026-10-15: voce 1 precisata (i capoversi si conservano), voci 19-24 |
