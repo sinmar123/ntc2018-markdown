@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-16T12:03:44.451144+00:00",
+  "firma": "Grok Build (GROK), verificatore V, contesto nuovo",
+  "inventario_sha256": "7fbedc4b43fb36e5a9abe74bde14d85a5c9b63ec599be3ba829ee9607f488148",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+  "manifest_fonte_sha256": "40f4703f0e9eee40a74d31130958b4413bee1050ffbe59695e96e19a17ecca26"
+}

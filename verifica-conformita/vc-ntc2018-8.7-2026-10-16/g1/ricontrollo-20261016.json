@@ -1,0 +1,43 @@
+{
+  "firma": "Grok Build (GROK), coordinatore C",
+  "scope": "8.7",
+  "data_ricontrollo": "2026-10-16",
+  "tipo": "ricontrollo mirato sulla ricognizione piena del 2026-10-13, dentro i trenta giorni",
+  "ricognizione_riusata": {
+    "file": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/g1/ricognizione-20261013.json",
+    "data": "2026-10-13"
+  },
+  "fonti": [
+    {
+      "file": "g1/ntc-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+      "sha256": "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff",
+      "bytes": 17286,
+      "confronto": "identico al ricontrollo del 2026-10-14"
+    },
+    {
+      "file": "g1/circolare-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg",
+      "sha256": "d24bdb2082927e996e12702965f920cb5d15f321db809232d54a3294d110eea6",
+      "bytes": 17417,
+      "confronto": "identico al ricontrollo del 2026-10-14"
+    },
+    {
+      "file": "g1/dm2023-atto.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2023/03/22/23A01847/sg",
+      "sha256": "4a93a1dbbe873eb228a7a99c1bccb6fe8c26c572f7b478fd0753aac123530bf1",
+      "bytes": 17286,
+      "confronto": "identico al ricontrollo del 2026-10-14"
+    }
+  ],
+  "fonti_congelate": {
+    "ntc": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+    "circolare": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+  },
+  "esiti": [
+    "Schede ufficiali dei tre atti identiche byte per byte a quelle del 2026-10-13 e del ricontrollo del 2026-10-14.",
+    "Il D.M. 9 marzo 2023 interviene sull'art. 2 e sospende i punti 11.4.2 e 11.5.2: non tocca il § 8.7 né C8.7."
+  ],
+  "applicabilita": "Pagine fisiche NTC 297 e Circolare 269-270 delle copie congelate.",
+  "esito": "OK, limitatamente agli atti e al perimetro dichiarati"
+}

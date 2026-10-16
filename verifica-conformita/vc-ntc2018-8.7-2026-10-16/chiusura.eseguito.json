@@ -1,0 +1,56 @@
+{
+  "fase": "SCRITTO",
+  "scope": "8.7",
+  "righe": [
+    "8.7"
+  ],
+  "file": [
+    "ntc2018-grok-8.7-261016\\registro-verifica-conformita-ntc2018.csv",
+    "ntc2018-grok-8.7-261016\\README.md",
+    "ntc2018-grok-8.7-261016\\TODO.md",
+    "ntc2018-grok-8.7-261016\\CHANGELOG.md",
+    "ntc2018-grok-8.7-261016\\indice-ntc2018.md",
+    "ntc2018-grok-8.7-261016\\cap08\\cap08-costruzioni-esistenti-revisione.md",
+    "ntc2018-grok-8.7-261016\\verifica-conformita\\scheda-scope-ntc2018-8.7.md"
+  ],
+  "nota": "Giudizio di V già presente; nessun nuovo giudizio emesso dallo script",
+  "impronte": [
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\registro-verifica-conformita-ntc2018.csv",
+      "prima": "f5695592a2dd147210b76568b09d217c660e00267afb376279607586d686de50",
+      "dopo": "b75a48a84050d8786e3314194704e1ae28dda3ad908968db63b2b81bf0177f53"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\README.md",
+      "prima": "a5cd55f53cea9bc9b45822e13a5f44990ebfbd65d0a8f895512ddf4f4e71506f",
+      "dopo": "214b5223932537056d319461cba2eef1fc82e78aeccb87de898e2318941a0b55"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\TODO.md",
+      "prima": "c6c9d3f0320b746fa6ea5020a67d3fbdfe39ebc804cd50389a95939dd0ab8b8e",
+      "dopo": "fb8aa36af029992bc8be97a558945a5e8163559e25d753cee08c7ac362cb128d"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\CHANGELOG.md",
+      "prima": "6e6444aa0892d2acaf3e84a3381ad4527a7e28a2990b60ddf641cc9dab5dd10e",
+      "dopo": "f31a374704fa23599c20212cf9860fe73462fd2ba656c8dd5cb564f4cefd91f1"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\indice-ntc2018.md",
+      "prima": "cd68994c3b275aae51a6fce346bf3c07b7fba090b3c9fbbc34bed4e53a47a799",
+      "dopo": "72a322fefd3d422b14e0cae477e0fba9cedb6a5fd7591d7f1d2fe17a4e7c028f"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\cap08\\cap08-costruzioni-esistenti-revisione.md",
+      "prima": "5ae0add5c7ec2906095f5e29f16a9e57f3c265c266b1829ed09909367237e912",
+      "dopo": "f8562b3fe0cdbdde437009e544d6e2acecdf0deef717271442fe88b8517a4f8b"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\verifica-conformita\\scheda-scope-ntc2018-8.7.md",
+      "prima": "4ad07ffcc20e3bf5ed9e0221e68d96364b9385d62981427c390ded389de6b4ec",
+      "dopo": "d683d220d7d6d57d2491bee3d6814a001dd67eb5b031e060e4098084baf476df"
+    }
+  ],
+  "controlli": "OK",
+  "giornale": "Usare una volta diario/nuova-voce.py con nota e prossima_azione del JSON"
+}
