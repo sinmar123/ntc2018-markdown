@@ -1,5 +1,10 @@
 # Changelog - NTC 2018
 
+## 2026-10-16 - Procedura VC-NTC revisione 9, CC cloud
+
+- Decisione di Sandro del 2026-10-16: lo scope di una richiesta si legge alla lettera. «Fai 8.6» comprende soltanto la riga 8.6 del registro e il suo file, non i sottocapitoli 8.6.1 e seguenti; questi entrano solo se nominati («8.6 con i sottocapitoli», «tutto l'8.6»). Nel dubbio l'agente chiede.
+- La sezione intera resta l'unità consigliata per costo, ma solo come proposta a Sandro prima della presa (§ 2). Nessun altro cambiamento: criteri, canone G6, gate e catalogo della revisione 8.
+
 ## 2026-10-15 - Procedura VC-NTC revisione 8, CC cloud
 
 Chiesta da Sandro il 2026-10-15 («vai con la revisione 8 della procedura»), per fissare il metodo prima che altri agenti proseguano. Parte da quanto emerso nella VC del § 8.5.
