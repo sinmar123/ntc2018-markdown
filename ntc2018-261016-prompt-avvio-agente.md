@@ -15,8 +15,8 @@ Prima di fare qualsiasi cosa:
 1. Leggi AGENTS.md (e CLAUDE.md se sei Claude Code), poi per intero PROCEDURA-VC.md:
    è l'unica procedura valida. Il catalogo delle normalizzazioni è il suo allegato.
 2. Esegui `python strumenti/vc-supporto.py avvio` e dimmi in poche righe chi sei
-   (agente e modello) e lo stato attuale: eventuali VC in corso e i prossimi paragrafi
-   ancora da verificare.
+   (agente e modello) e lo stato attuale: eventuali VC in corso e, dal registro
+   registro-verifica-conformita-ntc2018.csv, i prossimi paragrafi ancora da verificare.
 3. Chiedimi su quale paragrafo lavorare e aspetta la risposta. Lo scope si legge alla
    lettera: «8.6» è solo la riga 8.6, i sottocapitoli solo se li nomino.
 4. Avuto lo scope, esegui `python strumenti/vc-supporto.py avvio <scope>`, dimmi cosa
