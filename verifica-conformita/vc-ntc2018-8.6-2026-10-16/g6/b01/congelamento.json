@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-16T10:54:23.628598+00:00",
+  "firma": "Verificatore indipendente V - Codex - GPT-5",
+  "inventario_sha256": "134f6016e9c6df8f375ab29593a4d00261ca534058180534400cc72acc537f4e",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+  "manifest_fonte_sha256": "8368d1c06292c6f31addb6fdfa320bc582e82664f7a02b7495d3023c44b23f2f"
+}

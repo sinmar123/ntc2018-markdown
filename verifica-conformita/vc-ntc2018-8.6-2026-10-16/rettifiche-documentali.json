@@ -1,0 +1,18 @@
+{
+  "firma": "CDX",
+  "data": "2026-10-16",
+  "rettifiche": [
+    {
+      "file": "snapshot-iniziale.json",
+      "campo": "fonti[].pagina_png, ritaglio_png, testo_ausiliario, codifica",
+      "precisazione": "I nomi di file sono relativi alla sottocartella c/ del dossier. I PDF sono relativi alla radice del repository. Nessun cambiamento di fonte, contenuto, confini o impronte."
+    },
+    {
+      "file": "config-g6.json e PERIMETRO.md congelati",
+      "campo": "limiti",
+      "precisazione": "La pipe PowerShell ha scritto ci? e pi? al posto di ciò e piè. I confini per rubriche e pagine restano univoci; nessuna variazione del testo normativo o del canone. Gli input congelati non sono riscritti. Corrette soltanto le descrizioni non ancora congelate; OutputEncoding UTF-8 esplicito per i comandi successivi."
+    }
+  ],
+  "preparazione_g6": "Primo config respinto prima della creazione della destinazione: source degli asset interpretato relativamente al JSON, non alla radice. Config originario conservato; corretti solo i percorsi assoluti. Nessun V aveva letto il target, nessun giro G6 consumato. Pacchetto valido nella destinazione v2.",
+  "procedura_generatore": "Canone prodotto dallo strumento locale usando il file r8, ora congelato come procedura-congelata-r8-generatore.md. I §§3-4 coincidono con r9 dopo normalizzazione degli spazi; regola letterale dello scope r9 applicata da C. Il testo r9 effettivamente letto resta congelato con la sua provenienza."
+}

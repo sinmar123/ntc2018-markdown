@@ -1,0 +1,11 @@
+{
+  "firma": "Codex (CDX)",
+  "metodo": "Confronto integrale del testo estratto, spazi e sillabazione a fine riga normalizzati; controllo visivo separato sulle pagine e sui ritagli.",
+  "norma_testo": "IDENTICO",
+  "circolare_unica_differenza_testuale": "E’ nella fonte, È nel target",
+  "capoversi_circolare_fonte": 9,
+  "capoversi_circolare_target": 1,
+  "proposta_solo_in_memoria": "IDENTICA al testo fonte dopo le normalizzazioni dichiarate",
+  "target_sha256_invariato": "390bf797c5157a9a3db54d26e44a2a49d19c4767d7ae40e36d50f2e50f75436c",
+  "liste": 10
+}

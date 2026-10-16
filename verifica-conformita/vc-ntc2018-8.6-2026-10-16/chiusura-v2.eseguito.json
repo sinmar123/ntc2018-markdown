@@ -1,0 +1,56 @@
+{
+  "fase": "SCRITTO",
+  "scope": "8.6",
+  "righe": [
+    "8.6"
+  ],
+  "file": [
+    "ntc2018-cdx-8.6-261016\\registro-verifica-conformita-ntc2018.csv",
+    "ntc2018-cdx-8.6-261016\\README.md",
+    "ntc2018-cdx-8.6-261016\\TODO.md",
+    "ntc2018-cdx-8.6-261016\\CHANGELOG.md",
+    "ntc2018-cdx-8.6-261016\\indice-ntc2018.md",
+    "ntc2018-cdx-8.6-261016\\cap08\\cap08-costruzioni-esistenti-revisione.md",
+    "ntc2018-cdx-8.6-261016\\verifica-conformita\\scheda-scope-ntc2018-8.6.md"
+  ],
+  "nota": "Giudizio di V già presente; nessun nuovo giudizio emesso dallo script",
+  "impronte": [
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\registro-verifica-conformita-ntc2018.csv",
+      "prima": "5710152b6134e240a6c1c8750725f46676760b730eac7092e4f58369d1879939",
+      "dopo": "84e59fdf7d4aedf5be4947e9b25ab3e1fa86ad156151ef81962c6c8264696490"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\README.md",
+      "prima": "0cbb611d2d2eba2557a93202b5da838e87dd664fd6eadbbd0a5675e4edded573",
+      "dopo": "913dd9458f68ded071fcaac8d5d5c262916aaf7a1e372a1d9b07ea035bfdeb31"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\TODO.md",
+      "prima": "639c48f7b45060c72d30834a2554815b386c58a4f5bc12ee24df6e0f2e9e87b9",
+      "dopo": "38b0a0f5aa891bb4d9c8985c91ec30579a190ffc0c007f15ddcf5864be73df00"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\CHANGELOG.md",
+      "prima": "664867a0547b9c6430dc26a200bf25999053258aef0ab11d7d5c2ead500d92f6",
+      "dopo": "add2bfe7ab6b2b4a35657599ce97386628c7a53084512754863430b4670be0ad"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\indice-ntc2018.md",
+      "prima": "bfe6f6f733d00d134d7ed697ae76b13610e0bf15b25d03ef6aff86437ac42860",
+      "dopo": "4566604f584c04436785e82f15fa5ddcc8a5eb886016cce2c4ae8156bd940d74"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\cap08\\cap08-costruzioni-esistenti-revisione.md",
+      "prima": "53b8bd2086e850a017c30bee9360128dca3e2ebc8004e401cac67042e2831049",
+      "dopo": "db0a520acd65de6d3bd82ff077d286a979715cd32bb2f3f333786eda5961aa34"
+    },
+    {
+      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\verifica-conformita\\scheda-scope-ntc2018-8.6.md",
+      "prima": "dfdd50fc48301741c48284dddba923519dfde60a492ee9dfd43f12c5827299be",
+      "dopo": "703245397d94b33d5376ab6405760d9ca856775e168c306fd51e80316477a269"
+    }
+  ],
+  "controlli": "OK",
+  "giornale": "Usare una volta diario/nuova-voce.py con nota e prossima_azione del JSON"
+}

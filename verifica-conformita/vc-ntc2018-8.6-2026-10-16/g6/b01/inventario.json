@@ -1,0 +1,140 @@
+{
+  "firma": "Verificatore indipendente V - Codex - GPT-5",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "NTC-8.6-RUB",
+      "pagina": "ntc:297",
+      "riferimento": "Rubrica 8.6 MATERIALI, nella metà inferiore della pagina; numero e titolo sulla stessa riga, in grassetto maiuscolo."
+    },
+    {
+      "id": "NTC-8.6-P01",
+      "pagina": "ntc:297",
+      "riferimento": "Primo capoverso sotto la rubrica 8.6, due righe, da «Gli interventi» al rinvio finale al Capitolo 12; controllo integrale."
+    },
+    {
+      "id": "NTC-8.6-C01",
+      "pagina": "ntc:297",
+      "riferimento": "Condizione nel primo capoverso: inciso introdotto da «purché», relativo all'uso di materiali non tradizionali."
+    },
+    {
+      "id": "NTC-8.6-R01",
+      "pagina": "ntc:297",
+      "riferimento": "Rinvio «Capitolo 12» alla fine del primo capoverso."
+    },
+    {
+      "id": "NTC-8.6-P02",
+      "pagina": "ntc:297",
+      "riferimento": "Secondo capoverso sotto la rubrica 8.6, due righe, da «Nel caso di edifici» a «caratteristiche meccaniche»; controllo integrale."
+    },
+    {
+      "id": "NTC-8.6-C02",
+      "pagina": "ntc:297",
+      "riferimento": "Condizione finale del secondo capoverso, introdotta da «purché», sulla durevolezza e sulle caratteristiche meccaniche."
+    },
+    {
+      "id": "CIRC-C8.6-RUB",
+      "pagina": "circ:269",
+      "riferimento": "Rubrica C8.6 MATERIALI, circa a metà pagina; numero e titolo sulla stessa riga, in grassetto maiuscolo."
+    },
+    {
+      "id": "CIRC-C8.6-P01",
+      "pagina": "circ:269",
+      "riferimento": "Primo capoverso sotto C8.6, due righe, da «In aggiunta» a «costruzioni esistenti»; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-R01",
+      "pagina": "circ:269",
+      "riferimento": "Rinvio «§ 8.5.3» nel primo capoverso."
+    },
+    {
+      "id": "CIRC-C8.6-R02",
+      "pagina": "circ:269",
+      "riferimento": "Rinvio «§ 8.6 delle NTC» nel primo capoverso."
+    },
+    {
+      "id": "CIRC-C8.6-P02",
+      "pagina": "circ:269",
+      "riferimento": "Secondo capoverso, due righe, sui casi di incompatibilità fra materiali diversi; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-P03",
+      "pagina": "circ:269",
+      "riferimento": "Terzo capoverso, tre righe, sulle differenze di rigidezza, i moduli di elasticità e il comportamento reologico; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-C01",
+      "pagina": "circ:269",
+      "riferimento": "Specificazione di ambito alla fine del terzo capoverso: caso della muratura e variabilità della composizione."
+    },
+    {
+      "id": "CIRC-C8.6-P04",
+      "pagina": "circ:269",
+      "riferimento": "Quarto capoverso, tre righe, sui valori dei moduli di elasticità e sugli effetti dei carichi permanenti; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-R03",
+      "pagina": "circ:269",
+      "riferimento": "Rinvio «Tabella C.8.5.I» nella prima riga del quarto capoverso."
+    },
+    {
+      "id": "CIRC-C8.6-C02",
+      "pagina": "circ:269",
+      "riferimento": "Condizione nel quarto capoverso dopo il punto e virgola: comportamento sotto carichi permanenti."
+    },
+    {
+      "id": "CIRC-C8.6-P05",
+      "pagina": "circ:269",
+      "riferimento": "Quinto capoverso, quattro righe, sul comportamento termico e sugli accoppiamenti fra murature e altri materiali; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-P06",
+      "pagina": "circ:269",
+      "riferimento": "Sesto capoverso, tre righe, sui fenomeni di ritiro dei materiali introdotti nel consolidamento; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-P07",
+      "pagina": "circ:269",
+      "riferimento": "Settimo capoverso, una riga, sulle incompatibilità chimiche; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-P08",
+      "pagina": "circ:269",
+      "riferimento": "Ottavo capoverso, due righe, sulla composizione chimica e sulla compatibilità dei materiali; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-C03",
+      "pagina": "circ:269",
+      "riferimento": "Specificazione applicativa nell'ottavo capoverso: particolare riferimento al caso delle iniezioni."
+    },
+    {
+      "id": "CIRC-C8.6-P09",
+      "pagina": "circ:269",
+      "riferimento": "Nono capoverso, tre righe, sugli accoppiamenti con lastre metalliche nelle strutture lignee; controllo integrale."
+    },
+    {
+      "id": "CIRC-C8.6-C04",
+      "pagina": "circ:269",
+      "riferimento": "Condizione nel nono capoverso: presenza di fenomeni di condensa e conseguenze termo-igrometriche."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Tutto ciò che precede la rubrica 8.6: intestazione editoriale e sezioni 8.5.3, 8.5.4 e 8.5.5."
+    },
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Dalla rubrica 8.7 inclusa fino al fondo pagina, compresa 8.7.1; piè di pagina, numero stampato 293 e codici grafici."
+    },
+    {
+      "pagina": "circ:269",
+      "riferimento": "Tutto ciò che precede la rubrica C8.6: intestazione editoriale, residuo di C8.5.5 e sottosezioni C8.5.5.1-C8.5.5.2."
+    },
+    {
+      "pagina": "circ:269",
+      "riferimento": "Dalla rubrica C8.7 inclusa fino al fondo pagina; piè di pagina, numero stampato 265 e codici grafici."
+    }
+  ],
+  "dubbi": []
+}

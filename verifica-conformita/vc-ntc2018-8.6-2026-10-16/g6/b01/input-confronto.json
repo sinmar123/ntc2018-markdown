@@ -1,0 +1,60 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2486,
+      "sha256": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 346,
+      "sha256": "0390e7d087e881b25f7656a4bc29b1dd66e2b0a8067290e623867f85d0f3567d"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 10378,
+      "sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 446,
+      "sha256": "880e6808adfcf04be0d20405c3b1fe05c65f5c852c44ba7b04927ae4c89a60d8"
+    },
+    {
+      "path": "fonte-circ-269.png",
+      "bytes": 594469,
+      "sha256": "deb54ec406012c45a83dea00122a4f96497b14ffa87647fe6df75eaf31e09dfa"
+    },
+    {
+      "path": "fonte-ntc-297.png",
+      "bytes": 608541,
+      "sha256": "68e56b16f803102a219bbcf4b32c36012b269ace2beac3e209360285b1f43a46"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 862,
+      "sha256": "8368d1c06292c6f31addb6fdfa320bc582e82664f7a02b7495d3023c44b23f2f"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 5329,
+      "sha256": "134f6016e9c6df8f375ab29593a4d00261ca534058180534400cc72acc537f4e"
+    },
+    {
+      "path": "resa-finale-p1.png",
+      "bytes": 225203,
+      "sha256": "738becbfc798555db1f37a3b236e2378eb53068f104d66981056258ccffb4ea4"
+    },
+    {
+      "path": "resa-finale.pdf",
+      "bytes": 13839,
+      "sha256": "5aa502bbecf42f86d9d423aa73c8ad591a0eac3b7414bf11f46d0ab52962e85c"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 2969,
+      "sha256": "70f376feb641889e8c3a19e46024009fc60ce5f01ccede5d104af6c4f917fcaa"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "firma": "CDX",
+  "scope": "8.6",
+  "target_sha256": "e15023936101ca022e043099b63d5e3f358a80a31bfd0a098a6855fe11eb3fba",
+  "manifest": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/manifest-rilascio-v2.json",
+  "manifest_sha256": "7818bc1920f6dabf50fd694be5229baf6216a24d0383de256079216e8a21656b",
+  "file_manifest": 66,
+  "integrita_manifest": "OK",
+  "G0_G5": "OK, rapporto-c.json",
+  "G6": "OK, 23/23 ID, zero rilievi; schema e pacchetto validati",
+  "verbale": "verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md",
+  "verbale_sha256": "6980c7324f24cb8d35c5ff8dbe0facba0a31cd33587a99dbec85f229eefcc961",
+  "piano": "piano-registrazione-g7.json",
+  "condizione_piano": "Non applicato; hash di G7 sarà soltanto calcolato e aggiunto dopo il giudizio firmato. Nessun giudizio prodotto da C.",
+  "questioni_da_valutare": [
+    "Sufficienza della copia testuale r9 e del canone r8 identico per lo snapshot locale, separando il mancato allineamento remoto.",
+    "Tracciabilità dei timeout del processo di controllo del renderer e dei PDF completati dai figli, poi verificati.",
+    "Rettifiche descrittive e identità degli input congelati; chiusura delle evidenze citate nel manifest."
+  ]
+}

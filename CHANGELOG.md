@@ -1,5 +1,23 @@
 # Changelog - NTC 2018
 
+## 2026-10-16 - VC-OK locale del solo § 8.6/C8.6, CDX
+
+VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.
+
+Registrazione eseguita con `chiusura-v2.json`, ricevuta e lint OK. Il primo piano era stato respinto senza scritture per terminatori LF/CRLF nei soli pattern di README e TODO; rettificati i terminatori senza cambiare contenuto, giudizio o prove. Rendicontazione: un contesto V, un giro G6; token non disponibili. Firma: CDX.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.
+
+## 2026-10-16 - VC del solo § 8.6: confronto completo e lista da approvare, CDX
+
+- Autorizzazione di Sandro: «fai 8.6». Creato il ramo `cdx/vc-8.6-261016` in worktree separata, base locale `2f9fb3a`; `avvio 8.6`, quindi presa mediante `vc-supporto.py prendi`, una sola riga del CSV. Collegamento Git HTTPS non disponibile: nessuna presa pubblicata su GitHub e nessuna PR ancora aperta.
+- Procedura VC-NTC/9 letta integralmente sul repository; copia testuale della lettura web e provenienza nel dossier. Non attestata identità byte per byte con il file remoto; acquisizione originale e sincronizzazione restano da completare prima del rilascio.
+- Ricalcolate e riscontrate le impronte dei due PDF congelati. Confrontati integralmente Norma a p. fisica 297 e Circolare a p. fisica 269 con `cap08/8.6-materiali.md`, testo e immagini: Norma senza rilievi; Circolare con rubrica difforme, otto confini di capoverso mancanti e grafia E’/È. Nove capoversi fonte contro uno nel Markdown; nessun apparato numerico nello scope. Tutte le parole e i rinvii coincidono salvo la grafia dichiarata. Ritagli a 600 dpi e codifica PDF conservati.
+- Lista unica [L01-L10](verifica-conformita/vc-ntc2018-8.6-2026-10-16/lista-correzioni-c.md) con JSON eseguibile e diff proposto. Piano `applica-lista` valido, senza applicazione; target con impronta iniziale invariata. Il rilevatore ha trovato sette degli otto confini di capoverso: quello prima di E’ è stato riscontrato visivamente. Corretto nello script preparatorio locale il salvataggio dei dati binari del PDF come impronte; nessun pacchetto G6 prodotto o alterato.
+- G1: riuso della ricognizione del 2026-10-13 con ricontrollo mirato del 2026-10-16 sulle fonti ufficiali; limiti documentati. Lint della presa superato. G5-G7 non avviati; previsto un solo blocco G6. Nessun VC-OK emesso.
+
+Prossima azione: Decisione di Sandro sulla lista L01-L10; poi correzioni approvate e un blocco G6. Prima del rilascio sincronizzare Git e aprire la pull request.
+
 ## 2026-10-15 - Procedura VC-NTC revisione 8, CC cloud
 
 Chiesta da Sandro il 2026-10-15 («vai con la revisione 8 della procedura»), per fissare il metodo prima che altri agenti proseguano. Parte da quanto emerso nella VC del § 8.5.

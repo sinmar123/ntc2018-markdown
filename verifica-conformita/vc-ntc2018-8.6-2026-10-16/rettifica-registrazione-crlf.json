@@ -1,0 +1,12 @@
+{
+  "firma": "CDX",
+  "data": "2026-10-16",
+  "esito": "Primo piano respinto prima di scrivere; nessuna ricevuta applicativa e nessuna modifica del CSV.",
+  "file": [
+    "README.md",
+    "TODO.md"
+  ],
+  "rettifica": "Allineati esclusivamente i terminatori CRLF nel campo prima delle sostituzioni, per confrontarlo con read_bytes dello strumento. Testi dopo, giudizio G7, manifest, target e verbale invariati. Nessuna nuova verifica normativa necessaria, §8 errore documentale.",
+  "config_originario": "chiusura.json",
+  "config_eseguibile": "chiusura-v2.json"
+}

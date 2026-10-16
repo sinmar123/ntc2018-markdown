@@ -1,5 +1,11 @@
 # NTC 2018 — Stato lavori e istruzioni operative
 
+## 2026-10-16 - § 8.6/C8.6 verificato localmente, pubblicazione pendente
+
+VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.
+
 ## Completato 2026-10-14 - VC del § 8.5 con C8.5, CC cloud
 
 VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).

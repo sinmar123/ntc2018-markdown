@@ -1,0 +1,39 @@
+{
+  "firma": "Codex (CDX), coordinatore C",
+  "scope": "8.6",
+  "snapshot_sha256": "e15023936101ca022e043099b63d5e3f358a80a31bfd0a098a6855fe11eb3fba",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK"
+  },
+  "copertura": "Integrale di 8.6 su NTC p. fisica 297 e C8.6 su Circolare p. fisica 269; titoli e 11 capoversi. Nessuna formula, tabella, figura o nota; rinvii controllati. Esclusi i paragrafi estranei sulle pagine condivise.",
+  "mappa": "mappa-g5.json",
+  "fonte": "snapshot-iniziale.json",
+  "g1": "g1/ricontrollo-20261016.json",
+  "confronto_iniziale": "confronto-testuale.json",
+  "correzioni": "lista-correzioni-c.json",
+  "decisione": "decisione-applicazione-20261016.json",
+  "diff": "diff-applicato.patch",
+  "verifica_diff": "verifica-lista su base 2f9fb3a00121e16f2c7218bfa015e184238c7d10: OK; nessuna modifica estranea.",
+  "verifica_punti_corretti": "Confrontati i punti della lista con circ-8.6-600dpi.png e circ-e-apostrofo-600dpi.png: conformi; prosa invariata al di fuori della grafia approvata.",
+  "normalizzazioni": [
+    "Spazi e a capo interni ai capoversi, voce 1",
+    "Apostrofi diritti/curvi, voce 2",
+    "Rubriche in maiuscoletto rese maiuscole, voce 23",
+    "Navigazione esclusa, voce 11"
+  ],
+  "anomalie_A": [
+    "Grafia E’ conservata come stampata, senza emendazione grammaticale"
+  ],
+  "AF_COR": [],
+  "resa": "g5/esito-resa.json",
+  "rilievi_aperti": [],
+  "indici_link": "genera-indici-interni.py --verifica superato; entrambi i link del target esistono; file x.y senza indice interno generabile.",
+  "procedura": "VC-NTC/9, lettura web congelata e limite in provenienza-procedura.json; il canone §3-4 coincide con quello r8 locale dopo normalizzazione degli spazi.",
+  "routing": "C principale GPT-6; correzioni via script approvate da Sandro; nessun E interpretativo; V separato previsto gpt-5.6-sol xhigh.",
+  "revisione_umana_integrale": false
+}

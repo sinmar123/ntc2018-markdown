@@ -1,5 +1,17 @@
 # Revisione Capitolo 8 - Costruzioni esistenti
 
+## 2026-10-16 - VC-OK locale del solo § 8.6/C8.6, CDX
+
+VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.
+
+## 2026-10-16 - Solo § 8.6/C8.6, confronto completo e attesa decisione, CDX
+
+Presa locale autorizzata da «fai 8.6», una sola riga e un solo file. NTC p. fisica 297 e Circolare p. fisica 269 confrontate integralmente. Norma senza rilievi; Circolare: rubrica, otto confini di capoverso e grafia E’/È, nella [lista L01-L10](../verifica-conformita/vc-ntc2018-8.6-2026-10-16/lista-correzioni-c.md). Target invariato; [scheda](../verifica-conformita/scheda-scope-ntc2018-8.6.md). G6 previsto in un blocco, non avviato. Ramo locale `cdx/vc-8.6-261016`, presa non pubblicata. Firma: CDX.
+
+Prossima azione: Decisione di Sandro sulla lista L01-L10; poi correzioni approvate e un blocco G6. Prima del rilascio sincronizzare Git e aprire la pull request.
+
 ## 2026-10-14 - VC-OK del § 8.5 con C8.5
 
 VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).

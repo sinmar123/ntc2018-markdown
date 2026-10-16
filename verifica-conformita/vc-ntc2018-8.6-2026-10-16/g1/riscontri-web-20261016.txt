@@ -1,0 +1,269 @@
+# Ricontrollo delle fonti ufficiali, 2026-10-16
+
+Firma: Codex (CDX). Risposte del lettore web; non sono copie HTML byte per byte.
+
+Gazzetta Ufficiale (https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg)
+【turn178570view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg","lineno":null}); Total lines: 50
+L0: 【0†Home】
+L1: 
+L2: 【1†AttoCompleto】
+L3: 
+L4: Avviso di rettifica
+L5: Errata corrige
+L6: 
+L7: Lavori
+L8: Preparatori
+L9: 
+L10: Direttive UE
+L11: recepite
+L12: 
+L13: 【2†Permalink】 【3†Chiudi】
+L14: 
+L15: # MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI
+L16: 
+L17: ## DECRETO 17 gennaio 2018
+L18: 
+L19: ### Aggiornamento delle «Norme tecniche per le costruzioni». (18A00716) 【4†(GU Serie Generale n.42 del 20-02-2018 - Suppl. Ordinario n. 8)】
+L20: 
+L21: ####
+L22: #####
+L23: 
+L24: ☰
+L25: 
+L26: 【5†leftFrame】
+L27: 
+L28: 【6†mainFrame】
+L29: 
+L30: informazioni
+L31: 
+L32:   * 【7†Gazzetta Ufficiale Certificata】
+L33:   * 【8†Privacy】
+L34:   * 【9†Formato Grafico PDF】
+L35: 
+L36: concessionari
+L37: 
+L38:   * 【10†Inserzioni】
+L39:   * 【11†Librerie】
+L40:   * 【12†Dichiarazione di accessibilità†form.agid.gov.it】
+L41: 
+L42: contatti
+L43: 
+L44:   * Supporto Contenuti Gazzetta Ufficiale (supportoGU@gazzettaufficiale.it)
+L45:   * Informazioni Commerciali (informazioni@ipzs.it)
+L46:   * 800 864035
+L47: 
+L48: 【13†Image: mef】 【14†Image: Istituto Poligrafico e Zecca dello Stato】
+L49: Realizzazione Istituto Poligrafico e Zecca dello Stato S.p.A.
+
+
+Gazzetta Ufficiale (https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg)
+【turn178570view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg","lineno":null}); Total lines: 50
+L0: 【0†Home】
+L1: 
+L2: 【1†AttoCompleto】
+L3: 
+L4: Avviso di rettifica
+L5: Errata corrige
+L6: 
+L7: Lavori
+L8: Preparatori
+L9: 
+L10: Direttive UE
+L11: recepite
+L12: 
+L13: 【2†Permalink】 【3†Chiudi】
+L14: 
+L15: # MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI
+L16: 
+L17: ## CIRCOLARE 21 gennaio 2019, n. 7 C.S.LL.PP.
+L18: 
+L19: ### Istruzioni per l'applicazione dell'«Aggiornamento delle "Norme tecniche per le costruzioni"» di cui al decreto ministeriale 17 gennaio 2018. (19A00855) 【4†(GU Serie Generale n.35 del 11-02-2019 - Suppl. Ordinario n. 5)】
+L20: 
+L21: ####
+L22: #####
+L23: 
+L24: ☰
+L25: 
+L26: 【5†leftFrame】
+L27: 
+L28: 【6†mainFrame】
+L29: 
+L30: informazioni
+L31: 
+L32:   * 【7†Gazzetta Ufficiale Certificata】
+L33:   * 【8†Privacy】
+L34:   * 【9†Formato Grafico PDF】
+L35: 
+L36: concessionari
+L37: 
+L38:   * 【10†Inserzioni】
+L39:   * 【11†Librerie】
+L40:   * 【12†Dichiarazione di accessibilità†form.agid.gov.it】
+L41: 
+L42: contatti
+L43: 
+L44:   * Supporto Contenuti Gazzetta Ufficiale (supportoGU@gazzettaufficiale.it)
+L45:   * Informazioni Commerciali (informazioni@ipzs.it)
+L46:   * 800 864035
+L47: 
+L48: 【13†Image: mef】 【14†Image: Istituto Poligrafico e Zecca dello Stato】
+L49: Realizzazione Istituto Poligrafico e Zecca dello Stato S.p.A.
+
+
+ (https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=19A00855&atto.dataPubblicazioneGazzetta=2019-02-11&atto.tipoProvvedimento=CIRCOLARE)
+【turn651120search0】 [wordlim: 200] Published: 7.7 years ago; Crawled: 4 days ago;       Con  decreto  ministeriale  17   gennaio   2018,   pubblicato   nel ...     n. 42 e' stato approvato l'aggiornamento delle «Norme tecniche per le ...     delle costruzioni al fine di  garantire,  per  stabiliti  livelli  di ...     gennaio 2008, la quale ha lo scopo  di  fornire  agli  operatori  del ...       Pur essendo state  apportate  numerose  e  significative  modifiche
+
+
+ (https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=23A01847&atto.dataPubblicazioneGazzetta=2023-03-22&atto.tipoProvvedimento=DECRETO)
+【turn651120search1】 [wordlim: 200] Published: 3.6 years ago; Crawled: yesterday;     allo  Stato,  quali  la  predisposizione  della   normativa   tecnica ...     17 gennaio 2018, con il quale  e'  stato  approvato  l'«Aggiornamento ...     Modifiche ed integrazioni all'«Ambito di applicazione e  disposizioni ...       All'art. 2 del decreto ministeriale 17 gennaio 2018 sono  apportate ...     entrata in vigore delle norme tecniche  per  le  costruzioni  di  cui
+
+
+Gazzetta Ufficiale (https://www.gazzettaufficiale.it/eli/id/2023/03/22/23A01847/SG)
+【turn651120search5】 [wordlim: 200] Published: 3.6 years ago; Crawled: today; ### Modifiche ed integrazioni al decreto 17 gennaio 2018, recante: «Aggiornamento delle "norme tecniche per le costruzioni".».
+
+
+*** ATTO COMPLETO *** (https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=23A01847&atto.dataPubblicazioneGazzetta=2023-03-22&tipoSerie=serie_generale&tipoVigenza=originario)
+【turn651120search11】 [wordlim: 200] Published: 3.6 years ago; Crawled: yesterday; ### Modifiche ed integrazioni al decreto 17 gennaio 2018, recante: «Aggiornamento delle "norme tecniche per le costruzioni".». ... Testo originario - data di pubblicazione [Input] [Input] [Input]
+
+
+www.gazzettaufficiale.it (https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=23A01847&atto.dataPubblicazioneGazzetta=2023-03-22&atto.tipoProvvedimento=DECRETO)
+【turn651120view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.dataPubblicazioneGazzetta=2023-03-22&atto.codiceRedazionale=23A01847&atto.tipoProvvedimento=DECRETO","lineno":null}); Total lines: 139
+L0: 
+L1:                       IL MINISTRO DELLE INFRASTRUTTURE
+L2:                                E DEI TRASPORTI
+L3: 
+L4:                                di concerto con
+L5: 
+L6:                           IL MINISTRO DELL'INTERNO
+L7: 
+L8:                                       e
+L9: 
+L10:                           IL CAPO DEL DIPARTIMENTO
+L11:                            DELLA PROTEZIONE CIVILE
+L12: 
+L13:       Vista la legge 5 novembre 1971, n.  1086,  recante  «Norme  per  la
+L14:     disciplina delle opere in conglomerato cementizio armato,  normale  e
+L15:     precompresso ed a struttura metallica»;
+L16:       Vista la legge 2 febbraio 1974, n. 64, recante  «Provvedimenti  per
+L17:     le costruzioni con particolari prescrizioni per le zone sismiche»;
+L18:       Vista la legge 21  giugno  1986,  n.  317,  recante  «Procedura  di
+L19:     informazione nel settore  delle  norme  e  regolamentazioni  tecniche
+L20:     delle regole relative ai servizi della societa' dell'informazione  in
+L21:     attuazione della direttiva 98/34/CE  del  Parlamento  europeo  e  del
+L22:     Consiglio del 22 giugno 1998, modificata dalla direttiva 98/48/CE del
+L23:     Parlamento europeo e del Consiglio del 20 luglio 1998»;
+L24:       Visto il regolamento (UE) del Parlamento europeo e del Consiglio  9
+L25:     marzo  2011,  n.  305  che  fissa  condizioni  armonizzate   per   la
+L26:     commercializzazione dei prodotti  da  costruzione  e  che  abroga  la
+L27:     direttiva 89/106/CEE del Consiglio;
+L28:       Visto il  decreto  legislativo  31  marzo  1998,  n.  112,  recante
+L29:     «Conferimento di funzioni e compiti amministrativi allo  Stato,  alle
+L30:     regioni e agli enti locali in attuazione del Capo I  della  legge  15
+L31:     marzo 1997, n. 59»;
+L32:       Visto nello specifico l'art. 54 del citato decreto  legislativo  n.
+L33:     112 del 1998, il quale prevede che alcune funzioni mantenute in  capo
+L34:     allo  Stato,  quali  la  predisposizione  della   normativa   tecnica
+L35:     nazionale  per  le  opere  in  cemento  armato  e  in  acciaio  e  le
+L36:     costruzioni in zone sismiche,  siano  esercitate  di  intesa  con  la
+L37:     Conferenza unificata;
+L38:       Visto il decreto del Presidente della Repubblica 6 giugno 2001,  n.
+L39:     380,  recante  «Testo  unico   delle   disposizioni   legislative   e
+L40:     regolamentari in materia edilizia»;
+L41:       Visto in particolare l'art. 52 del citato  decreto  del  Presidente
+L42:     della Repubblica n. 380 del 2001, che dispone che in tutti  i  comuni
+L43:     della Repubblica le costruzioni, sia pubbliche, che  private  debbono
+L44:     essere realizzate in osservanza delle norme  tecniche  riguardanti  i
+L45:     vari elementi costruttivi fissate con decreti  del  Ministro  per  le
+L46:     infrastrutture, di concerto con il Ministro dell'interno  qualora  le
+L47:     norme tecniche riguardino costruzioni in zone sismiche;
+L48:       Visto l'art. 83 del decreto del Presidente della Repubblica n.  380
+L49:     del 2001, il quale prevede che tutte le costruzioni la cui  sicurezza
+L50:     possa comunque interessare la pubblica incolumita', da realizzarsi in
+L51:     zone  dichiarate  sismiche,  siano  disciplinate,  oltre  che   dalle
+L52:     disposizioni di cui al predetto art.  52  del  medesimo  decreto  del
+L53:     Presidente della Repubblica n. 380  del  2001,  da  specifiche  norme
+L54:     tecniche emanate con decreti del Ministro per le infrastrutture ed  i
+L55:     trasporti, di concerto con il  Ministro  per  l'interno,  sentiti  il
+L56:     Consiglio superiore dei lavori pubblici, il Consiglio nazionale delle
+L57:     ricerche e la Conferenza unificata;
+L58:       Visto il decreto-legge 28 maggio  2004,  n.  136,  convertito,  con
+L59:     modificazioni,  dalla  legge  27  luglio  2004,  n.   186,   recante:
+L60:     «Disposizioni  urgenti  per  garantire  la  funzionalita'  di  taluni
+L61:     settori  della  pubblica   amministrazione.   Disposizioni   per   la
+L62:     rideterminazione  di  deleghe  legislative   e   altre   disposizioni
+L63:     connesse.»;
+L64:       Visto in particolare l'art. 5, comma 1, del citato decreto-legge n.
+L65:     136 del 2004  che  prevede  la  redazione,  da  parte  del  Consiglio
+L66:     superiore dei lavori pubblici, di concerto con il Dipartimento  della
+L67:     protezione civile, di  normative  tecniche,  anche  per  la  verifica
+L68:     sismica ed idraulica,  relative  alle  costruzioni,  nonche'  per  la
+L69:     progettazione, la  costruzione  e  l'adeguamento,  anche  sismico  ed
+L70:     idraulico, delle dighe di  ritenuta,  dei  ponti  e  delle  opere  di
+L71:     fondazione e sostegno dei terreni, per assicurare uniformi livelli di
+L72:     sicurezza;
+L73:       Visto il  successivo  comma  2  del  gia'  menzionato  art.  5  del
+L74:     decreto-legge n. 136 del 2004 che prevede che le norme tecniche siano
+L75:     emanate  con  le  procedure  di  cui  all'art.  52  del  decreto  del
+L76:     Presidente della Repubblica n. 380  del  2001,  di  concerto  con  il
+L77:     Dipartimento della protezione civile;
+L78:       Visto il decreto del Ministro delle infrastrutture e dei  trasporti
+L79:     26 giugno 2014, recante «Norme tecniche per  la  progettazione  e  la
+L80:     costruzione  degli  sbarramenti  di  ritenuta  (dighe  e  traverse)»,
+L81:     pubblicato nella Gazzetta Ufficiale della Repubblica italiana - Serie
+L82:     generale - n. 156 dell'8 luglio 2014;
+L83:       Visto il decreto del Ministro delle infrastrutture e dei  trasporti
+L84:     17 gennaio 2018, con il quale  e'  stato  approvato  l'«Aggiornamento
+L85:     delle  "Norme  tecniche  per   le   costruzioni"»,   pubblicato   nel
+L86:     Supplemento  ordinario  alla  Gazzetta  Ufficiale  della   Repubblica
+L87:     italiana - Serie generale - n. 42 del 20 febbraio 2018;
+L88:       Vista la nota prot. n. 10579 del 7 novembre 2022 con  la  quale  il
+L89:     Consiglio superiore dei lavori pubblici ha  trasmesso  il  parere  n.
+L90:     101/2022 dell'Assemblea generale, reso nell'adunanza del  27  ottobre
+L91:     2022, con il quale ha  espresso  avviso  favorevole  in  ordine  alla
+L92:     proposta  emendativa  concernente  la  rideterminazione  del  periodo
+L93:     transitorio di cui all'art. 2, comma 1, del decreto  ministeriale  17
+L94:     gennaio 2018 e la sospensione temporanea dell'applicazione del  punto
+L95:     11.4.2 e del punto 11.5.2 delle suddette norme tecniche;
+L96:       Sentito il Consiglio superiore dei lavori pubblici con  nota  prot.
+L97:     n. 491 del 18 gennaio 2023, ai sensi dell'art.  83  del  decreto  del
+L98:     Presidente della Repubblica n. 380 del 2001;
+L99:       Visto il concerto espresso dal Ministro dell'interno con nota prot.
+L100:     n. 1871 del 3 febbraio 2023, ai sensi dell'art. 52 e dell'art. 83 del
+L101:     decreto del Presidente della Repubblica n. 380 del 2001;
+L102:       Visto  il  concerto  espresso  dal  Capo  del  Dipartimento   della
+L103:     protezione civile con nota prot. n. 7037  dell'8  febbraio  2023,  ai
+L104:     sensi dell'art. 5, comma 2, del decreto-legge n. 136 del 2004;
+L105:       Sentito il Consiglio nazionale  delle  ricerche  che  ha  formulato
+L106:     parere favorevole con nota prot. n. 40257 del 16  febbraio  2023,  ai
+L107:     sensi dell'art. 83 del decreto del Presidente della Repubblica n. 380
+L108:     del 2001;
+L109:       Acquisita l'intesa in  sede  di  Conferenza  unificata  resa  nella
+L110:     seduta  del  2  marzo  2023,  ai  sensi  dell'art.  54  del   decreto
+L111:     legislativo n. 112 del 1998;
+L112: 
+L113:                                   Decreta:
+L114: 
+L115:                                    Art. 1
+L116:     Modifiche ed integrazioni all'«Ambito di applicazione e  disposizioni
+L117:                                 transitorie»
+L118: 
+L119:       All'art. 2 del decreto ministeriale 17 gennaio 2018 sono  apportate
+L120:     le seguenti modificazioni ed integrazioni:
+L121:         a) al comma 1, il secondo periodo e' sostituito con il seguente:
+L122:           «Con riferimento alla seconda  e  alla  terza  fattispecie  del
+L123:     precedente periodo, detta facolta' e' esercitabile solo nel  caso  in
+L124:     cui la consegna dei lavori avvenga entro sette  anni  dalla  data  di
+L125:     entrata in vigore delle norme tecniche  per  le  costruzioni  di  cui
+L126:     all'articolo 1.»;
+L127:         b) dopo il comma 1, e' aggiunto il seguente comma 1-bis:
+L128:           «1-bis. Dalla data di entrata in vigore  delle  norme  tecniche
+L129:     per le costruzioni di cui all'articolo 1 e fino al 22 marzo 2025,  e'
+L130:     sospesa  l'applicazione  del  punto  11.4.2  delle   suddette   norme
+L131:     tecniche»;
+L132:         c) dopo il comma 1-bis di cui alla lettera  b),  e'  aggiunto  il
+L133:     seguente comma 1-ter:
+L134:           «1-ter. Dalla data di entrata in vigore  delle  norme  tecniche
+L135:     per le costruzioni di cui all'articolo 1 e fino al 22 marzo 2025,  e'
+L136:     sospesa l'applicazione del punto 11.5.2 delle suddette norme tecniche
+L137:     limitatamente ai tiranti di ancoraggio per  uso  geotecnico  di  tipo
+L138:     passivo».

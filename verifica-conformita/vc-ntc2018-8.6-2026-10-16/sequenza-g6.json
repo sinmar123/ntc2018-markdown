@@ -1,0 +1,37 @@
+{
+  "firma": "CDX",
+  "scope": "8.6",
+  "preparazione_valida": "config-g6.json",
+  "tentativo_precedente": "config-g6-tentativo-respinto.json; errore di percorso prima di creare la destinazione, nessun accesso V",
+  "inventario_validato": {
+    "schema": "OK",
+    "elementi": 23,
+    "pagine": 2
+  },
+  "rivelazione": {
+    "integrita": "OK",
+    "files": 11,
+    "destinazione": "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2"
+  },
+  "verifica_pacchetto": {
+    "integrita": "OK",
+    "files": 11
+  },
+  "congelamento": {
+    "versione": 1,
+    "data_utc": "2026-10-16T10:54:23.628598+00:00",
+    "firma": "Verificatore indipendente V - Codex - GPT-5",
+    "inventario_sha256": "134f6016e9c6df8f375ab29593a4d00261ca534058180534400cc72acc537f4e",
+    "esito_provvisorio": "LEGGIBILE",
+    "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+    "manifest_fonte_sha256": "8368d1c06292c6f31addb6fdfa320bc582e82664f7a02b7495d3023c44b23f2f"
+  },
+  "profilo_richiesto_V": {
+    "modello": "gpt-5.6-sol",
+    "ragionamento": "xhigh",
+    "contesto": "fork_turns none",
+    "agente": "/root/v86"
+  },
+  "isolamento": "Cartelle temporanee esterne al workspace; restrizione istruttiva, nessuna sandbox di lettura. V non ha ricevuto correzioni, conteggi o giudizi preparatori; solo criteri e confini neutri.",
+  "sequenza": "Inventario V terminato, validazione e rivela da C, verifica-pacchetto, quindi followup per la lettura del target nello stesso contesto."
+}

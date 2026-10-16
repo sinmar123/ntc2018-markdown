@@ -1,0 +1,139 @@
+{
+ "pdf": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+ "pagine": "269",
+ "target": [
+  "cap08/8.6-materiali.md"
+ ],
+ "nota": "Candidati da vagliare: non sono correzioni approvate.",
+ "capoversi_fonte": [
+  {
+   "pagina": 269,
+   "y_pt": 401.5,
+   "x_pt": 73.9,
+   "criterio": "inizio",
+   "inizio": "C8.6 MATERIALI"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 417.2,
+   "x_pt": 73.9,
+   "criterio": "rientro",
+   "inizio": "In aggiunta a quanto indicato al § 8.5.3 riguardo ai materiali degli edifici esi"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 441.0,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "I casi di incompatibilità più frequentemente riscontrati in merito all’associazi"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 464.6,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Le differenze di rigidezza possono essere messe in conto attraverso i moduli di "
+  },
+  {
+   "pagina": 269,
+   "y_pt": 498.8,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Si ricorda che i valori dei moduli di elasticità riportati nella Tabella C.8.5.I"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 533.0,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Differenze di comportamento termico tra materiali in contatto possono determinar"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 577.7,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Anche i fenomeni di ritiro dei materiali introdotti nel consolidamento, in parti"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 612.0,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Infine vanno adeguatamente considerate le eventuali incompatibilità chimiche."
+  },
+  {
+   "pagina": 269,
+   "y_pt": 625.1,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "E’ pertanto necessaria, particolarmente nel caso delle iniezioni, la determinazi"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 648.7,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Per quanto riguarda gli interventi sulle strutture lignee, gli accoppiamenti con"
+  }
+ ],
+ "capoversi": [
+  {
+   "pagina": 269,
+   "y_pt": 441.0,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": "interventi sulle costruzioni esistenti. ⏎⏎I casi di incompatibilità più frequentem"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 464.6,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": "i e alle reazioni chimiche tra di essi. ⏎⏎Le differenze di rigidezza possono esser"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 498.8,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": " composizione è estremamente variabile. ⏎⏎Si ricorda che i valori dei moduli di el"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 533.0,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": "mazioni e sollecitazioni nei materiali. ⏎⏎Differenze di comportamento termico tra "
+  },
+  {
+   "pagina": 269,
+   "y_pt": 577.7,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": "e variazioni termiche e/o igrometriche. ⏎⏎Anche i fenomeni di ritiro dei materiali"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 612.0,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": "ologiche legate agli stati di coazione. ⏎⏎Infine vanno adeguatamente considerate l"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 648.7,
+   "criterio": "interlinea",
+   "file": "cap08/8.6-materiali.md",
+   "riga": 16,
+   "contesto": "mpatibilità con i materiali di apporto. ⏎⏎Per quanto riguarda gli interventi sulle"
+  }
+ ],
+ "enfasi": []
+}

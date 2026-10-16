@@ -1,0 +1,46 @@
+{
+  "firma": "Codex (CDX)",
+  "scope": "8.6",
+  "data": "2026-10-16",
+  "fonti": [
+    {
+      "fonte": "ntc",
+      "pdf": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine_totali": 372,
+      "pagina_fisica": 297,
+      "bbox_scope_pt": [
+        65,
+        427,
+        535,
+        500
+      ],
+      "metodo": "PyMuPDF; pagina vettoriale, rasterizzazione diretta 200 dpi e ritaglio 600 dpi",
+      "pagina_png": "ntc-p297-200dpi.png",
+      "ritaglio_png": "ntc-8.6-600dpi.png",
+      "testo_ausiliario": "ntc-8.6-testo-ausiliario.txt",
+      "codifica": "ntc-8.6-codifica.json"
+    },
+    {
+      "fonte": "circ",
+      "pdf": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine_totali": 348,
+      "pagina_fisica": 269,
+      "bbox_scope_pt": [
+        65,
+        398,
+        535,
+        683
+      ],
+      "metodo": "PyMuPDF; pagina vettoriale, rasterizzazione diretta 200 dpi e ritaglio 600 dpi",
+      "pagina_png": "circ-p269-200dpi.png",
+      "ritaglio_png": "circ-8.6-600dpi.png",
+      "testo_ausiliario": "circ-8.6-testo-ausiliario.txt",
+      "codifica": "circ-8.6-codifica.json"
+    }
+  ],
+  "target": "cap08/8.6-materiali.md",
+  "target_sha256": "390bf797c5157a9a3db54d26e44a2a49d19c4767d7ae40e36d50f2e50f75436c",
+  "target_modificato": false
+}
