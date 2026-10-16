@@ -1,5 +1,9 @@
 # Changelog - NTC 2018
 
+## 2026-10-16 - Prompt di avvio per un agente nuovo, CC cloud
+
+- Su richiesta di Sandro: `ntc2018-261016-prompt-avvio-agente.md`, prompt da incollare in una sessione nuova. Rimanda a AGENTS.md, CLAUDE.md e PROCEDURA-VC.md senza ricopiarne le regole; il paragrafo da verificare lo chiede l'agente come seconda domanda. Collegato dal README.
+
 ## 2026-10-16 - Procedura VC-NTC revisione 9, CC cloud
 
 - Decisione di Sandro del 2026-10-16: lo scope di una richiesta si legge alla lettera. «Fai 8.6» comprende soltanto la riga 8.6 del registro e il suo file, non i sottocapitoli 8.6.1 e seguenti; questi entrano solo se nominati («8.6 con i sottocapitoli», «tutto l'8.6»). Nel dubbio l'agente chiede.
