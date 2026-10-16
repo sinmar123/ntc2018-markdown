@@ -1,0 +1,32 @@
+{
+  "firma": {
+    "ruolo": "Verificatore indipendente V, G7 integrativo di pubblicazione",
+    "nome": "Codex",
+    "profilo_richiesto_dal_coordinatore": "gpt-5.6-sol, ragionamento xhigh",
+    "identificativo_modello_effettivamente_visibile_al_runtime": null,
+    "nota": "Il runtime non espone in questo contesto un identificativo di modello verificabile; non assumo che il profilo richiesto coincida con quello effettivo."
+  },
+  "ambito_integrativo": "Rimozione delle condizioni sospensive della pubblicazione del solo § 8.6/C8.6; nessun nuovo confronto normativo, nessuna correzione del target e nessun nuovo G6.",
+  "giudizio_g7": "OK",
+  "esito_pubblicazione": "OK: le condizioni documentali sospensive sono rimosse e la pubblicazione può procedere con il limite dichiarato sulle evidenze binarie locali.",
+  "scope": "8.6",
+  "snapshot_sha256": "e15023936101ca022e043099b63d5e3f358a80a31bfd0a098a6855fe11eb3fba",
+  "manifest_sha256": "b7f6d7844c319b4b3af91f8e72c72737c11b3bcf98872b208a46368c55612af6",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "localizzazione_evidenze": {
+    "dossier_locale": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/",
+    "binari_solo_locali": "I 14 percorsi, dimensioni e SHA-256 sono elencati in riscontro-pubblicazione.json; risultano ignorati da .gitignore e non tracciati.",
+    "insieme_remoto_previsto": "Rapporti testuali, manifest, addendum, riscontro, procedura originale r9 e due PDF ufficiali; il clone remoto non riproduce i 14 binari locali né i byte della resa congelata."
+  },
+  "motivazione": "Il manifest integrativo è integro: 73/73 file coincidono per dimensione e SHA-256; conserva senza variazioni tutte le 66 evidenze originarie. La procedura originale r9 acquisita dal commit main c853e1c3e505d10a4d5b84ffb002abcf885b4da1 ha hash e blob registrati e, sull’intero testo, coincide con la copia web dopo rimozione dei soli spazi bianchi. Il commit sincronizzato fcf93b9d676207f8272de8f332f053ce458fdd27 contiene main; il target coincide con 77901fb e il catalogo è invariato. La risoluzione autorizzata di README, TODO e CHANGELOG non tocca la verifica normativa. I 14 PNG/PDF esclusi dal repository risultano presenti, improntati, ignorati e non tracciati; restano nel dossier locale indicato dal riscontro. Il futuro clone remoto conterrà rapporti, manifest e PDF ufficiali, ma non ricostruirà quei binari né la resa congelata: il limite è esplicito e non altera il giudizio sullo snapshot. G0-G7 restano validi, senza rilievi; non occorre un nuovo G6. Le condizioni sospensive sono rimosse e la pubblicazione può procedere."
+}
