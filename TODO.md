@@ -1,10 +1,10 @@
 # NTC 2018 — Stato lavori e istruzioni operative
 
-## 2026-10-16 - § 8.6/C8.6 verificato localmente, pubblicazione pendente
+## 2026-10-16 - § 8.6/C8.6, VC conclusa e PR #17 aperta
 
-VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.
+Pubblicata la VC del solo § 8.6/C8.6 nella PR #17. Acquisita la procedura originale r9, sincronizzato main e risolti i tre conflitti dei file di governo con approvazione di Sandro. Target invariato, dieci correzioni conformi alla lista; G7 integrativo OK, 73/73 evidenze locali integre. Linter CSV: zero errori, sei avvisi fuori dal perimetro. I 14 binari di prova restano locali secondo .gitignore. Firma: CDX. [PR #17](https://github.com/sinmar123/ntc2018-markdown/pull/17), [addendum](verifica-conformita/vc-ntc2018-8.6-2026-10-16/addendum-pubblicazione.md).
 
-Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.
+Prossima azione: Revisione e unione della PR #17; nessuna nuova correzione del § 8.6 richiesta.
 
 ## Completato 2026-10-14 - VC del § 8.5 con C8.5, CC cloud
 

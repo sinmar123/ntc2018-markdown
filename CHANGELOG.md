@@ -1,5 +1,11 @@
 # Changelog - NTC 2018
 
+## 2026-10-16 - Pubblicazione della VC del § 8.6, PR #17, CDX
+
+Pubblicata la VC del solo § 8.6/C8.6 nella PR #17. Acquisita la procedura originale r9, sincronizzato main e risolti i tre conflitti dei file di governo con approvazione di Sandro. Target invariato, dieci correzioni conformi alla lista; G7 integrativo OK, 73/73 evidenze locali integre. Linter CSV: zero errori, sei avvisi fuori dal perimetro. I 14 binari di prova restano locali secondo .gitignore. Firma: CDX. [PR #17](https://github.com/sinmar123/ntc2018-markdown/pull/17), [addendum](verifica-conformita/vc-ntc2018-8.6-2026-10-16/addendum-pubblicazione.md).
+
+Prossima azione: Revisione e unione della PR #17; nessuna nuova correzione del § 8.6 richiesta.
+
 ## 2026-10-16 - VC-OK locale del solo § 8.6/C8.6, CDX
 
 VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.

@@ -11,7 +11,7 @@ Ogni sezione naturale `x.y.z` ha un proprio file Markdown; norma e Circolare son
 
 **Verifica di conformità:** [registro NTC 2018](./registro-verifica-conformita-ntc2018.csv) e [registro master della normativa](../_registro-verifica-conformita.csv). Dal 2026-09-12 si usa soltanto il CSV: vista XLSX eliminata su ordine di Sandro.
 
-**§ 8.6/C8.6, VC-OK locale, CDX:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.6.md), [dossier](./verifica-conformita/vc-ntc2018-8.6-2026-10-16/). Pubblicazione su GitHub pendente; acquisire originale r9 e sincronizzare prima della PR.
+**§ 8.6/C8.6, VC-OK, CDX:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.6.md), [dossier](./verifica-conformita/vc-ntc2018-8.6-2026-10-16/), [addendum](./verifica-conformita/vc-ntc2018-8.6-2026-10-16/addendum-pubblicazione.md), [PR #17](https://github.com/sinmar123/ntc2018-markdown/pull/17). Procedura originale acquisita, sincronizzazione completata e G7 integrativo OK; PR in attesa di revisione e unione.
 
 **Metodo vigente:** [procedura unica VC, revisione 5](./PROCEDURA-VC.md), [strumenti comuni e specifica](./strumenti/vc-supporto.md), [script VC](./strumenti/vc-supporto.py), [test degli strumenti](./strumenti/test_vc_supporto.py). Storico: [revisione 4](./old/PROCEDURA-VC-r04-20260912.md), [revisione 3](./old/PROCEDURA-VC-r03-20260909.md), [revisione 1 e strumenti](./old/procedura-vc-r01-20260905/README.md), [versioni anteriori](./old/procedura-vc-ante-20260905/README.md). Aggiornamento 2026-09-12, CDX.
 
