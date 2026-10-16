@@ -1,0 +1,78 @@
+2026-10-16 12:41:53,002+0200 INFO  xelatex - this process (28632) started by python in directory C:\Users\sandro\ag_oc\workspace with command line: xelatex --version
+2026-10-16 12:41:53,002+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:41:53,062+0200 INFO  xelatex - this process (28632) finishes with exit code 1
+2026-10-16 12:41:53,190+0200 ERROR xelatex - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:42:19,892+0200 INFO  xelatex - this process (22612) started by python in directory C:\Users\sandro\ag_oc\workspace with command line: xelatex --version
+2026-10-16 12:42:19,892+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:42:19,949+0200 INFO  xelatex - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:42:19,950+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:42:36,666+0200 INFO  xelatex - running One MiKTeX Utility to create font map files
+2026-10-16 12:42:36,666+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:43:25,248+0200 INFO  xelatex - this process (15756) started by pandoc in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: xelatex -halt-on-error -interaction nonstopmode -output-directory C:/Users/sandro/AppData/Local/Temp/media-bbf7c743cef2a884 C:/Users/sandro/AppData/Local/Temp/media-bbf7c743cef2a884/input.tex
+2026-10-16 12:43:25,249+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:43:25,314+0200 INFO  xelatex - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:43:25,322+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:43:41,009+0200 INFO  xelatex - running One MiKTeX Utility to create font map files
+2026-10-16 12:43:41,009+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:43:44,895+0200 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-10-16 12:43:45,048+0200 INFO  xelatex - allowing known shell commands
+2026-10-16 12:43:45,096+0200 INFO  xelatex - setting output directory: C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884
+2026-10-16 12:43:45,097+0200 INFO  xelatex - setting aux directory: C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884
+2026-10-16 12:43:45,179+0200 INFO  xelatex - going to create file: xelatex.fmt
+2026-10-16 12:43:45,180+0200 INFO  xelatex.core - start process: miktex --disable-installer formats build xelatex --engine xetex
+2026-10-16 12:44:32,345+0200 INFO  xelatex.core - start process: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884\input.pdf
+2026-10-16 12:44:52,756+0200 INFO  xelatex - this process (15756) finishes with exit code 0
+2026-10-16 12:44:52,760+0200 ERROR xelatex - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:44:52,770+0200 WARN  xelatex.core - still open: C:\Users\sandro\AppData\Local\Programs\MiKTeX\fonts/tfm/adobe/zapfding\pzdr.tfm
+2026-10-16 12:44:53,131+0200 INFO  xelatex - this process (19920) started by pandoc in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: xelatex -halt-on-error -interaction nonstopmode -output-directory C:/Users/sandro/AppData/Local/Temp/media-bbf7c743cef2a884 C:/Users/sandro/AppData/Local/Temp/media-bbf7c743cef2a884/input.tex
+2026-10-16 12:44:53,131+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:44:53,172+0200 INFO  xelatex - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:44:53,181+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:45:08,111+0200 INFO  xelatex - running One MiKTeX Utility to create font map files
+2026-10-16 12:45:08,111+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:45:12,755+0200 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-10-16 12:45:12,964+0200 INFO  xelatex - allowing known shell commands
+2026-10-16 12:45:13,051+0200 INFO  xelatex - setting output directory: C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884
+2026-10-16 12:45:13,052+0200 INFO  xelatex - setting aux directory: C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884
+2026-10-16 12:45:13,209+0200 INFO  xelatex - going to create file: xelatex.fmt
+2026-10-16 12:45:13,210+0200 INFO  xelatex.core - start process: miktex --disable-installer formats build xelatex --engine xetex
+2026-10-16 12:45:13,232+0200 INFO  xelatex - this process (9620) started by python in directory C:\Users\sandro\ag_oc\workspace with command line: xelatex --version
+2026-10-16 12:45:13,232+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:45:13,294+0200 INFO  xelatex - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:45:13,320+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:45:19,844+0200 INFO  xelatex - running One MiKTeX Utility to create font map files
+2026-10-16 12:45:19,845+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:45:25,435+0200 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-10-16 12:45:25,490+0200 INFO  xelatex - allowing known shell commands
+2026-10-16 12:45:25,547+0200 INFO  xelatex - this process (9620) finishes with exit code 0
+2026-10-16 12:45:25,550+0200 ERROR xelatex - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:45:56,466+0200 INFO  xelatex.core - start process: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884\input.pdf
+2026-10-16 12:46:16,327+0200 INFO  xelatex - this process (19920) finishes with exit code 0
+2026-10-16 12:46:16,331+0200 ERROR xelatex - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:46:16,332+0200 WARN  xelatex.core - still open: C:\Users\sandro\AppData\Local\Programs\MiKTeX\fonts/tfm/adobe/zapfding\pzdr.tfm
+2026-10-16 12:46:39,230+0200 INFO  xelatex - this process (27348) started by pandoc in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: xelatex -halt-on-error -interaction nonstopmode -output-directory C:/Users/sandro/AppData/Local/Temp/media-9f2ee9a4e24f3093 C:/Users/sandro/AppData/Local/Temp/media-9f2ee9a4e24f3093/input.tex
+2026-10-16 12:46:39,230+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:46:39,281+0200 INFO  xelatex - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:46:39,290+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:46:52,596+0200 INFO  xelatex - running One MiKTeX Utility to create font map files
+2026-10-16 12:46:52,596+0200 INFO  xelatex.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:46:55,842+0200 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-10-16 12:46:55,901+0200 INFO  xelatex - allowing known shell commands
+2026-10-16 12:46:55,940+0200 INFO  xelatex - setting output directory: C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093
+2026-10-16 12:46:55,941+0200 INFO  xelatex - setting aux directory: C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093
+2026-10-16 12:46:56,030+0200 INFO  xelatex - going to create file: xelatex.fmt
+2026-10-16 12:46:56,031+0200 INFO  xelatex.core - start process: miktex --disable-installer formats build xelatex --engine xetex
+2026-10-16 12:48:41,692+0200 INFO  xelatex.core - start process: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093\input.pdf
+2026-10-16 12:48:43,063+0200 INFO  xelatex - this process (27348) finishes with exit code 0
+2026-10-16 12:48:43,068+0200 ERROR xelatex - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:48:43,069+0200 WARN  xelatex.core - still open: C:\Users\sandro\AppData\Local\Programs\MiKTeX\fonts/tfm/adobe/zapfding\pzdr.tfm
+2026-10-16 12:48:43,720+0200 INFO  xelatex - this process (1876) started by pandoc in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: xelatex -halt-on-error -interaction nonstopmode -output-directory C:/Users/sandro/AppData/Local/Temp/media-9f2ee9a4e24f3093 C:/Users/sandro/AppData/Local/Temp/media-9f2ee9a4e24f3093/input.tex
+2026-10-16 12:48:43,721+0200 INFO  xelatex - running on Windows 10.0.19045
+2026-10-16 12:48:43,733+0200 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-10-16 12:48:43,744+0200 INFO  xelatex - allowing known shell commands
+2026-10-16 12:48:43,791+0200 INFO  xelatex - setting output directory: C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093
+2026-10-16 12:48:43,792+0200 INFO  xelatex - setting aux directory: C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093
+2026-10-16 12:49:45,957+0200 INFO  xelatex.core - start process: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093\input.pdf
+2026-10-16 12:49:47,545+0200 INFO  xelatex - this process (1876) finishes with exit code 0
+2026-10-16 12:49:47,549+0200 ERROR xelatex - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:49:47,550+0200 WARN  xelatex.core - still open: C:\Users\sandro\AppData\Local\Programs\MiKTeX\fonts/tfm/adobe/zapfding\pzdr.tfm

@@ -1,0 +1,68 @@
+{
+  "firma": {
+    "ruolo": "Verificatore indipendente V",
+    "nome": "Codex",
+    "profilo_richiesto_dal_coordinatore": "gpt-5.6-sol, ragionamento xhigh",
+    "identificativo_modello_effettivamente_visibile_al_runtime": null,
+    "nota": "Il runtime non espone in questo contesto un identificativo di modello verificabile; non assumo che il profilo richiesto coincida con quello effettivo."
+  },
+  "esito": "OK",
+  "coperti": [
+    "NTC-8.6-RUB",
+    "NTC-8.6-P01",
+    "NTC-8.6-C01",
+    "NTC-8.6-R01",
+    "NTC-8.6-P02",
+    "NTC-8.6-C02",
+    "CIRC-C8.6-RUB",
+    "CIRC-C8.6-P01",
+    "CIRC-C8.6-R01",
+    "CIRC-C8.6-R02",
+    "CIRC-C8.6-P02",
+    "CIRC-C8.6-P03",
+    "CIRC-C8.6-C01",
+    "CIRC-C8.6-P04",
+    "CIRC-C8.6-R03",
+    "CIRC-C8.6-C02",
+    "CIRC-C8.6-P05",
+    "CIRC-C8.6-P06",
+    "CIRC-C8.6-P07",
+    "CIRC-C8.6-P08",
+    "CIRC-C8.6-C03",
+    "CIRC-C8.6-P09",
+    "CIRC-C8.6-C04"
+  ],
+  "attestazione": "Confronto integrale, non a campione, di tutti i 23 ID congelati contro le due pagine fonte, testo Markdown e resa finale. Verificati contenuto, punteggiatura, capoversi, rubriche, grassetto, rinvii e condizioni. Nel perimetro non sono presenti formule, tabelle, note o figure. Nessuna prova aggiuntiva necessaria.",
+  "normalizzazioni": [
+    {
+      "numero": 1,
+      "applicazione": "A capo e impaginazione entro i capoversi."
+    },
+    {
+      "numero": 2,
+      "applicazione": "Resa tipografica Unicode di apostrofi e legature equivalenti."
+    },
+    {
+      "numero": 11,
+      "applicazione": "Riga di navigazione del renderer esclusa dal testo normativo confrontato."
+    }
+  ],
+  "rilievi": [],
+  "letture": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\ISTRUZIONI-V.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\PERIMETRO.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\canone.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\input-fonte.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\fonte-ntc-297.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\fonte-circ-269.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\inventario.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\input-confronto.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\testo.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\resa-finale-p1.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.6-261016-cdx-v2\\b01\\resa-finale.pdf"
+  ],
+  "isolamento": {
+    "rispettato": true,
+    "dettaglio": "Lette esclusivamente la cartella b01 e le fonti lì consegnate. Nessun accesso a target prima della rivelazione, altre cartelle, file di governo, conversazioni di C o fonti esterne. Nessun input congelato modificato."
+  }
+}

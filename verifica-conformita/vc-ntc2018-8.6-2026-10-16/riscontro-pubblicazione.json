@@ -1,0 +1,120 @@
+{
+  "firma": "Codex (CDX)",
+  "data": "2026-10-16T16:05:08+02:00",
+  "base_vc": "2f9fb3a00121e16f2c7218bfa015e184238c7d10",
+  "commit_vc": "77901fb",
+  "main_acquisito": "c853e1c3e505d10a4d5b84ffb002abcf885b4da1",
+  "commit_sincronizzato": "fcf93b9d676207f8272de8f332f053ce458fdd27",
+  "procedura_originale": {
+    "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/procedura-congelata-originale-r9.md",
+    "sha256": "14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f",
+    "git_blob": "3bb5803734d231f7153d23e2ba818e09716cf48b",
+    "url": "https://github.com/sinmar123/ntc2018-markdown/blob/c853e1c3e505d10a4d5b84ffb002abcf885b4da1/PROCEDURA-VC.md"
+  },
+  "confronto_procedura": "Intero testo originale e copia letta coincidono dopo sola rimozione degli spazi bianchi; nessun criterio differente.",
+  "modifiche_main": [
+    "CHANGELOG.md",
+    "PROCEDURA-VC.md",
+    "README.md",
+    "TODO.md",
+    "ntc2018-261016-prompt-avvio-agente.md",
+    "old/PROCEDURA-VC-r08-20261015.md"
+  ],
+  "risoluzione_conflitti": {
+    "autorizzazione": "Sandro: sì ok, dopo proposta esplicita per README, TODO e CHANGELOG",
+    "file": [
+      "README.md",
+      "TODO.md",
+      "CHANGELOG.md"
+    ],
+    "metodo": "Conservate tutte le voci locali e integrate le modifiche di main; solo questi tre file di governo uniformati a LF.",
+    "residui": []
+  },
+  "target_sha256": "e15023936101ca022e043099b63d5e3f358a80a31bfd0a098a6855fe11eb3fba",
+  "target_invariato_dopo_77901fb": true,
+  "target_main_invariato_dalla_base": true,
+  "catalogo_main_invariato_dalla_base": true,
+  "manifest_locale": {
+    "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/manifest-rilascio-v2.json",
+    "sha256": "7818bc1920f6dabf50fd694be5229baf6216a24d0383de256079216e8a21656b",
+    "file": 66,
+    "integrita": "OK"
+  },
+  "politica_pubblicazione": {
+    "fonte": ".gitignore",
+    "testo": "Pagine, ritagli e PDF di resa restano nel workspace secondo la politica del repository. Il clone remoto contiene rapporti, impronte e PDF ufficiali, non tutte le evidenze binarie del manifest locale. Le rese rigenerate non sono byte-identiche ai PDF congelati.",
+    "file_locali_esclusi": [
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/c/circ-8.6-600dpi.png",
+        "bytes": 538691,
+        "sha256": "2832cac82d3b2b68352d0220e3acb370977a5d0b1ea6d10b709683303a7703ef"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/c/circ-e-apostrofo-600dpi.png",
+        "bytes": 8684,
+        "sha256": "842eb9e796a6a59dd0cc7aa68c8bd34bd1a705f672e6c968c5d28eb982fedec6"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/c/circ-p269-200dpi.png",
+        "bytes": 594469,
+        "sha256": "deb54ec406012c45a83dea00122a4f96497b14ffa87647fe6df75eaf31e09dfa"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/c/circ-rubrica-600dpi.png",
+        "bytes": 10106,
+        "sha256": "c8a6cfb76fca8faba9998dfb3212190efb62e9b2c87dcb3bb1d9d1a696cdbdcb"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/c/ntc-8.6-600dpi.png",
+        "bytes": 109171,
+        "sha256": "9cebfe64e43d7f833ec410e479eb54b93a43da132f2de419d4573e783199d90f"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/c/ntc-p297-200dpi.png",
+        "bytes": 608541,
+        "sha256": "68e56b16f803102a219bbcf4b32c36012b269ace2beac3e209360285b1f43a46"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-finale-p1.png",
+        "bytes": 225203,
+        "sha256": "738becbfc798555db1f37a3b236e2378eb53068f104d66981056258ccffb4ea4"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-finale.pdf",
+        "bytes": 13839,
+        "sha256": "5aa502bbecf42f86d9d423aa73c8ad591a0eac3b7414bf11f46d0ab52962e85c"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-prima-p1.png",
+        "bytes": 184054,
+        "sha256": "49dc6b1f2032df9e3e0b3342d0607025a3646472df11c20c9f22d05c9615d6e8"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-prima.pdf",
+        "bytes": 13970,
+        "sha256": "b3e2ea71218749341d5660ab7236fb7afd5b6422eafdeacddfd7f0e19451ecf1"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g6/b01/fonte-circ-269.png",
+        "bytes": 594469,
+        "sha256": "deb54ec406012c45a83dea00122a4f96497b14ffa87647fe6df75eaf31e09dfa"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g6/b01/fonte-ntc-297.png",
+        "bytes": 608541,
+        "sha256": "68e56b16f803102a219bbcf4b32c36012b269ace2beac3e209360285b1f43a46"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g6/b01/resa-finale-p1.png",
+        "bytes": 225203,
+        "sha256": "738becbfc798555db1f37a3b236e2378eb53068f104d66981056258ccffb4ea4"
+      },
+      {
+        "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g6/b01/resa-finale.pdf",
+        "bytes": 13839,
+        "sha256": "5aa502bbecf42f86d9d423aa73c8ad591a0eac3b7414bf11f46d0ab52962e85c"
+      }
+    ]
+  },
+  "ambito": "Solo riscontro documentale di acquisizione e sincronizzazione; nessuna nuova correzione normativa, nessun nuovo G6."
+}

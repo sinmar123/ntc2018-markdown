@@ -1,0 +1,64 @@
+{
+  "firma": "Codex (CDX)",
+  "data": "2026-10-16",
+  "decisione_sandro": "ok vai",
+  "ambito": "Lista L01-L10 proposta nel turno precedente",
+  "esito": "APPROVATE E APPLICATE",
+  "applicazione": "vc-supporto.py applica-lista lista-correzioni-c.json --applica",
+  "verifica": "vc-supporto.py verifica-lista lista-correzioni-c.json 2f9fb3a00121e16f2c7218bfa015e184238c7d10: OK, dieci voci e un solo file",
+  "lista_sha256": "cd7f33fcf22c4e0eee9c0ada55cbcdc25d964102e4a4e8a11c0ded6c61edc7ad",
+  "snapshot_iniziale_sha256": "390bf797c5157a9a3db54d26e44a2a49d19c4767d7ae40e36d50f2e50f75436c",
+  "snapshot_corretto_sha256": "e15023936101ca022e043099b63d5e3f358a80a31bfd0a098a6855fe11eb3fba",
+  "voci": [
+    {
+      "id": "L01",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L02",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L03",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L04",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L05",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L06",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L07",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L08",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L09",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    },
+    {
+      "id": "L10",
+      "decisione": "APPROVATA",
+      "esito": "APPLICATA"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "firma": "Codex (CDX)",
+  "scope": "8.6",
+  "data_ricognizione": "2026-10-13",
+  "data_ricontrollo": "2026-10-16",
+  "ricognizione_riusata": "verifica-conformita/vc-ntc2018-3.3-ancore-blocco-2026-10-13/g1/ricognizione-20261013.json",
+  "applicabilita": "Stessi atti e PDF congelati; NTC pagina fisica 297, Circolare pagina fisica 269, limitatamente a 8.6 e C8.6. Il D.M. 9 marzo 2023, art. 1 integralmente letto sulla Gazzetta, modifica l'art. 2 del decreto e i periodi transitori dei punti 11.4.2 e 11.5.2; non riscrive 8.6/C8.6.",
+  "fonti_ricontrollate": [
+    "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+    "https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg",
+    "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=23A01847&atto.dataPubblicazioneGazzetta=2023-03-22&atto.tipoProvvedimento=DECRETO"
+  ],
+  "metodo": "Schede ufficiali rilette e interrogazione mirata degli aggiornamenti con ricerca limitata a gazzettaufficiale.it. Nessun nuovo avviso di rettifica collegato mostrato dalle schede; nelle interrogazioni non è emersa una modifica pertinente del testo 8.6/C8.6.",
+  "evidenza": "g1/riscontri-web-20261016.txt",
+  "limiti": "Lettore web con indicizzazione; non è una prova dell'inesistenza assoluta di ulteriori atti. Non dichiarata identità degli HTML con quelli storici. Normattiva non interrogata in questa ripresa: mantenuto il limite documentato nella ricognizione riusata.",
+  "esito": "OK per il riuso e il ricontrollo mirato del perimetro, con i limiti dichiarati.",
+  "vigenza": "Ricognizione 2026-10-13; ricontrollo mirato 2026-10-16."
+}

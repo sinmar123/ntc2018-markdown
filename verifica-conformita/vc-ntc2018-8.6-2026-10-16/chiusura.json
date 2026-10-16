@@ -1,0 +1,46 @@
+{
+  "scope": "8.6",
+  "agente": "CDX",
+  "data": "2026-10-16",
+  "g7": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/rapporto-g7.json",
+  "manifest": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/manifest-rilascio-v2.json",
+  "verbale": "verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md",
+  "verbale_sha256": "6980c7324f24cb8d35c5ff8dbe0facba0a31cd33587a99dbec85f229eefcc961",
+  "nota": "VC locale del solo 8.6/C8.6: 10 correzioni approvate e applicate, diff conforme; G6 integrale in un blocco, 23 ID, zero rilievi. G1: ricognizione 2026-10-13, ricontrollo 2026-10-16. Pubblicazione GitHub pendente; limiti di acquisizione della procedura dichiarati nel verbale. CDX.",
+  "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.",
+  "procedura_vc": "VC-NTC/9",
+  "modifiche": [
+    {
+      "path": "README.md",
+      "prima": "**§ 8.6 con C8.6, IN-CORSO locale, 2026-10-16, CDX:** solo `cap08/8.6-materiali.md`, autorizzato da Sandro con «fai 8.6». Confronto completo sulle pagine fisiche NTC 297 e Circolare 269: Norma senza rilievi, dieci proposte di presentazione/grafia nella Circolare. [Lista L01-L10](verifica-conformita/vc-ntc2018-8.6-2026-10-16/lista-correzioni-c.md), [scheda](verifica-conformita/scheda-scope-ntc2018-8.6.md). Lista L01-L10 approvata con «ok vai» e applicata via script, diff coincidente con la lista; G0-G5 OK. G6 avviato in un blocco con V separato e rivelazione differita. Ramo `cdx/vc-8.6-261016`, base locale `2f9fb3a`; Git HTTPS non disponibile, presa non pubblicata. Adottata in lettura VC-NTC/9; acquisizione originale e sincronizzazione da completare prima del rilascio. Firma: CDX.\n\nProssima azione: Completare G6 e G7 sullo snapshot corretto; prima della pubblicazione acquisire la procedura originale, sincronizzare Git e aprire la pull request.\n\n",
+      "dopo": "**§ 8.6/C8.6, VC-OK locale.** VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.\n\n"
+    },
+    {
+      "path": "TODO.md",
+      "prima": "## In corso locale 2026-10-16 - Solo § 8.6 con C8.6, CDX\n\nConfronto completo terminato; [lista L01-L10 approvata e applicata](verifica-conformita/vc-ntc2018-8.6-2026-10-16/lista-correzioni-c.md). [Scheda](verifica-conformita/scheda-scope-ntc2018-8.6.md). Correzioni approvate da Sandro con «ok vai», applicate e riscontrate; G0-G5 OK, G6 in corso in un blocco. Presa nel solo ramo `cdx/vc-8.6-261016`, non ancora pubblicata su GitHub per indisponibilità del collegamento Git. Firma: CDX.\n\nProssima azione: Completare G6 e G7 sullo snapshot corretto; prima della pubblicazione acquisire la procedura originale, sincronizzare Git e aprire la pull request.\n\n",
+      "dopo": "## 2026-10-16 - § 8.6/C8.6 verificato localmente, pubblicazione pendente\n\nVC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request.\n\n"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "prima": "# Changelog - NTC 2018",
+      "dopo": "# Changelog - NTC 2018\n\n## 2026-10-16 - VC-OK locale del solo § 8.6/C8.6, CDX\n\nVC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request."
+    },
+    {
+      "path": "indice-ntc2018.md",
+      "prima": "**Solo § 8.6/C8.6, in corso locale il 2026-10-16, CDX:** [scheda](./verifica-conformita/scheda-scope-ntc2018-8.6.md), [lista delle correzioni da approvare](./verifica-conformita/vc-ntc2018-8.6-2026-10-16/lista-correzioni-c.md), [dossier e prove](./verifica-conformita/vc-ntc2018-8.6-2026-10-16/). Presa nel ramo `cdx/vc-8.6-261016`, non ancora pubblicata su GitHub; nessun VC-OK emesso.",
+      "dopo": "**§ 8.6/C8.6, VC-OK locale, CDX:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.6.md), [dossier](./verifica-conformita/vc-ntc2018-8.6-2026-10-16/). Pubblicazione su GitHub pendente; acquisire originale r9 e sincronizzare prima della PR."
+    },
+    {
+      "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "# Revisione Capitolo 8 - Costruzioni esistenti",
+      "dopo": "# Revisione Capitolo 8 - Costruzioni esistenti\n\n## 2026-10-16 - VC-OK locale del solo § 8.6/C8.6, CDX\n\nVC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request."
+    },
+    {
+      "path": "verifica-conformita/scheda-scope-ntc2018-8.6.md",
+      "prima": "# Scheda scope § 8.6",
+      "dopo": "# Scheda scope § 8.6\n\n## 2026-10-16 - Chiusura documentale locale, CDX\n\nGiudizio G7 positivo recepito nel CSV mediante vc-supporto.py registra. VC locale del solo § 8.6/C8.6, 2026-10-16, CDX. Dieci correzioni approvate da Sandro, applicate via script e riscontrate sulla fonte; G6 integrale indipendente, 23 ID, zero rilievi; G7 documentale OK. [Verbale](verbale-VC-ntc2018-8.6-2026-10-16.md). Pubblicazione remota pendente per indisponibilità Git HTTPS; acquisizione originale r9 e sincronizzazione da completare. Firma: CDX.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato. Prima della pubblicazione acquisire la procedura originale r9, sincronizzare Git e aprire la pull request."
+    }
+  ],
+  "master_non_pertinente": "Worktree isolata del repository GitHub. Il master esterno non rappresenta lo stato del ramo e non viene modificato; riallineamento remoto pendente.",
+  "g7_sha256": "4e2dd6f8bb766cff84e126d678d6b9b761f338ab0f99f8f6af7bb14f7f9ea22f"
+}

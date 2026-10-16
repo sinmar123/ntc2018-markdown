@@ -1,0 +1,25 @@
+{
+  "firma": {
+    "ruolo": "Verificatore indipendente V, giudizio G7",
+    "nome": "Codex",
+    "profilo_richiesto_dal_coordinatore": "gpt-5.6-sol, ragionamento xhigh",
+    "identificativo_modello_effettivamente_visibile_al_runtime": null,
+    "nota": "Il runtime non espone in questo contesto un identificativo di modello verificabile; non assumo che il profilo richiesto coincida con quello effettivo."
+  },
+  "giudizio_g7": "OK",
+  "scope": "8.6",
+  "snapshot_sha256": "e15023936101ca022e043099b63d5e3f358a80a31bfd0a098a6855fe11eb3fba",
+  "manifest_sha256": "7818bc1920f6dabf50fd694be5229baf6216a24d0383de256079216e8a21656b",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "motivazione": "I 66 file del manifest esistono e coincidono per dimensione e SHA-256; coincidono anche manifest, snapshot e verbale. C documenta G0-G5, dieci correzioni approvate e un diff limitato; il G6 fonte-prima è indipendente, copre 23/23 ID e non ha rilievi. G1 distingue ricognizione del 2026-10-13 e ricontrollo Gazzetta del 2026-10-16, dichiarando il limite Normattiva. La r9 ricostruita dal lettore web non prova identità byte con GitHub, ma è congelata e improntata; per lo snapshot locale è sufficiente perché la modifica r9 delimita lo scope e il canone originale r8 usato dal generatore coincide nei §§ 3-4, dopo normalizzazione degli spazi. Non abilita il rilascio remoto: acquisizione dell’originale r9, sincronizzazione e nuovo riscontro restano obbligatori; la pubblicazione è sospesa. I timeout del processo di controllo e l’avviso MiKTeX sugli aggiornamenti non hanno invalidato la resa: i figli hanno prodotto PDF integri, verificati canonicamente, visivamente e nel G6. Il piano è ancora inapplicato e le sei sostituzioni sono esatte. Le evidenze sono sufficienti per il solo snapshot locale."
+}

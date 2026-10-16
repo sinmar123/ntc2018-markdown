@@ -1,0 +1,51 @@
+{
+  "scope": "8.6",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\verifica-conformita\\vc-ntc2018-8.6-2026-10-16\\target-scope.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        297
+      ]
+    },
+    {
+      "id": "circ",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        269
+      ]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:297",
+        "circ:269"
+      ],
+      "righe": [
+        [
+          1,
+          25
+        ]
+      ],
+      "limiti": "NTC pagina fisica 297: dalla rubrica 8.6. MATERIALI fino a prima della rubrica 8.7. PROGETTAZIONE DEGLI INTERVENTI IN PRESENZA DI AZIONI SISMICHE. Circolare pagina fisica 269: dalla rubrica C8.6 MATERIALI fino a prima della rubrica C8.7. Escludere tutto ci? che precede o segue questi limiti, intestazioni e pi? di pagina.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\verifica-conformita\\vc-ntc2018-8.6-2026-10-16\\g5\\resa-finale.pdf",
+          "sha256": "5aa502bbecf42f86d9d423aa73c8ad591a0eac3b7414bf11f46d0ab52962e85c"
+        },
+        {
+          "name": "resa-finale-p1.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-cdx-8.6-261016\\verifica-conformita\\vc-ntc2018-8.6-2026-10-16\\g5\\resa-finale-p1.png",
+          "sha256": "738becbfc798555db1f37a3b236e2378eb53068f104d66981056258ccffb4ea4"
+        }
+      ]
+    }
+  ]
+}

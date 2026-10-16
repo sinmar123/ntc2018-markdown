@@ -1,0 +1,9 @@
+{
+  "firma": "Codex (CDX)",
+  "url": "https://raw.githubusercontent.com/sinmar123/ntc2018-markdown/main/PROCEDURA-VC.md",
+  "revisione": 9,
+  "data_lettura": "2026-10-16",
+  "metodo": "Lettura web completa, righe 0-188 del lettore; copia testuale ricostruita dalle righe, senza intestazioni del lettore.",
+  "sha256_copia_testuale": "0935df033bd12222a7bbe672d063d57c893e17205c187f689043f0a946b42a34",
+  "limite": "Non è attestata identità byte per byte con il file remoto. Prima del rilascio acquisire il file originale e sincronizzare il ramo con main. La base Git locale è 2f9fb3a, revisione 8; il § 2 della revisione 9 è adottato per delimitare il solo 8.6."
+}

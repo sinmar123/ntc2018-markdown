@@ -1,0 +1,29 @@
+{
+  "firma": "CDX",
+  "renderer": "strumenti/render-capitolo.py, non modificato",
+  "motore": "pandoc e MiKTeX-XeTeX 4.18 (MiKTeX 26.5)",
+  "tentativi": "Primo avvio respinto per cartella MiKTeX esterna non scrivibile. Dati e configurazione temporanei nello workspace; il tentativo prima e quello finale hanno superato il timeout del processo Python di controllo, ma i figli pandoc/xelatex hanno terminato e prodotto i due PDF. Verificati separatamente entrambi i PDF e i controlli canonici sul finale; nessuna sostituzione del motore o del template. Nessuna modifica all’installazione condivisa.",
+  "configurazione_temporanea": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-miktex-261016",
+  "pagine_prima": 1,
+  "pagine_finale": 1,
+  "verifica_visiva": "Entrambe le pagine osservate integralmente. Sul finale rubriche, capoversi, apostrofo e accenti leggibili; nessun taglio, sovrapposizione o carattere mancante. Nessuna formula o tag nello scope.",
+  "controlli_canonici": "verifica_tag e verifica_didascalie_automatiche: OK sul PDF finale",
+  "file": [
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-prima.pdf",
+      "sha256": "b3e2ea71218749341d5660ab7236fb7afd5b6422eafdeacddfd7f0e19451ecf1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-finale.pdf",
+      "sha256": "5aa502bbecf42f86d9d423aa73c8ad591a0eac3b7414bf11f46d0ab52962e85c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-prima-p1.png",
+      "sha256": "49dc6b1f2032df9e3e0b3342d0607025a3646472df11c20c9f22d05c9615d6e8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.6-2026-10-16/g5/resa-finale-p1.png",
+      "sha256": "738becbfc798555db1f37a3b236e2378eb53068f104d66981056258ccffb4ea4"
+    }
+  ]
+}

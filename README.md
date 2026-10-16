@@ -8,6 +8,10 @@ Avere la normativa strutturale italiana in formato testo navigabile, consultabil
 
 ## Procedura operativa unica
 
+**§ 8.6/C8.6, VC-OK; rilascio tramite [PR #17](https://github.com/sinmar123/ntc2018-markdown/pull/17).** Dieci correzioni approvate, G6 indipendente 23/23 ID e zero rilievi, G7 integrativo OK. Procedura originale r9 acquisita; integrato main 27943b3 con la VC 8.7, risolvendo i conflitti su autorizzazione di Sandro. Entrambi i testi verificati e i giudizi restano invariati. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.6-2026-10-16.md), [addendum di pubblicazione](verifica-conformita/vc-ntc2018-8.6-2026-10-16/addendum-pubblicazione.md). Le 73 evidenze locali sono integre; pagine, ritagli e PDF di resa 8.6 restano locali secondo la politica del repository. Firma: CDX, 2026-10-16.
+
+Prossima azione: Nessuna sul § 8.6: VC conclusa sullo snapshot registrato.
+
 **§ 8.7 sola introduzione, registrato VC-OK, 2026-10-16:** VC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.
 
 Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.

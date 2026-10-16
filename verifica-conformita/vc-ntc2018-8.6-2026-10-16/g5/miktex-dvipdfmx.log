@@ -1,0 +1,24 @@
+2026-10-16 12:44:32,706+0200 INFO  miktex-dvipdfmx - this process (12836) started by xelatex in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884\input.pdf
+2026-10-16 12:44:32,707+0200 INFO  miktex-dvipdfmx - running on Windows 10.0.19045
+2026-10-16 12:44:32,755+0200 INFO  miktex-dvipdfmx - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:44:32,761+0200 INFO  miktex-dvipdfmx.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:44:49,485+0200 INFO  miktex-dvipdfmx - running One MiKTeX Utility to create font map files
+2026-10-16 12:44:49,485+0200 INFO  miktex-dvipdfmx.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:44:52,715+0200 INFO  miktex-dvipdfmx - this process (12836) finishes with exit code 0
+2026-10-16 12:44:52,723+0200 ERROR miktex-dvipdfmx - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:45:56,832+0200 INFO  miktex-dvipdfmx - this process (21744) started by xelatex in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-bbf7c743cef2a884\input.pdf
+2026-10-16 12:45:56,832+0200 INFO  miktex-dvipdfmx - running on Windows 10.0.19045
+2026-10-16 12:45:56,887+0200 INFO  miktex-dvipdfmx - running One MiKTeX Utility to refresh the file name database
+2026-10-16 12:45:56,895+0200 INFO  miktex-dvipdfmx.core - start process: miktex --disable-installer --quiet fndb refresh
+2026-10-16 12:46:12,317+0200 INFO  miktex-dvipdfmx - running One MiKTeX Utility to create font map files
+2026-10-16 12:46:12,317+0200 INFO  miktex-dvipdfmx.core - start process: miktex --disable-installer --quiet fontmaps configure
+2026-10-16 12:46:16,294+0200 INFO  miktex-dvipdfmx - this process (21744) finishes with exit code 0
+2026-10-16 12:46:16,297+0200 ERROR miktex-dvipdfmx - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:48:42,612+0200 INFO  miktex-dvipdfmx - this process (9624) started by xelatex in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093\input.pdf
+2026-10-16 12:48:42,612+0200 INFO  miktex-dvipdfmx - running on Windows 10.0.19045
+2026-10-16 12:48:42,869+0200 INFO  miktex-dvipdfmx - this process (9624) finishes with exit code 0
+2026-10-16 12:48:42,875+0200 ERROR miktex-dvipdfmx - major issue: So far, you have not checked for MiKTeX updates.
+2026-10-16 12:49:47,106+0200 INFO  miktex-dvipdfmx - this process (27872) started by xelatex in directory C:\Users\sandro\ag_oc\workspace\_tmp\ntc2018-cdx-8.6-261016 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:/Users\sandro\AppData\Local\Temp\media-9f2ee9a4e24f3093\input.pdf
+2026-10-16 12:49:47,107+0200 INFO  miktex-dvipdfmx - running on Windows 10.0.19045
+2026-10-16 12:49:47,349+0200 INFO  miktex-dvipdfmx - this process (27872) finishes with exit code 0
+2026-10-16 12:49:47,353+0200 ERROR miktex-dvipdfmx - major issue: So far, you have not checked for MiKTeX updates.

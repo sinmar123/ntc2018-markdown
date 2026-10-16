@@ -1,5 +1,11 @@
 # NTC 2018 — Stato lavori e istruzioni operative
 
+## Completato 2026-10-16 - VC § 8.6/C8.6, CDX
+
+Su autorizzazione di Sandro integrato main 27943b3, che comprende la PR #16 sulla sola introduzione 8.7. Risolti i cinque conflitti nei file di governo conservando entrambe le VC. Nel CSV sono stati trasferiti integralmente i record già registrati: 8.6 dal ramo CDX, 8.7 da main, senza una nuova registrazione o modifica dei campi. Target 8.6 identico allo snapshot verificato; target ed evidenze 8.7 identici a main. Confermate le dieci correzioni approvate e l’integrità delle 73 evidenze locali del manifest di pubblicazione. Linter: 379 righe, 13 colonne, 55 VC-OK, zero errori e sette avvisi, compreso quello ereditato dalla riga 8.7. Unione della PR #17 autorizzata da Sandro; esito remoto consultabile nella PR. Firma: CDX. [PR #17](https://github.com/sinmar123/ntc2018-markdown/pull/17).
+
+Prossima azione: Nessuna sul § 8.6: VC conclusa sullo snapshot registrato.
+
 ## Completato 2026-10-16 - VC della sola introduzione § 8.7, GROK
 
 VC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.

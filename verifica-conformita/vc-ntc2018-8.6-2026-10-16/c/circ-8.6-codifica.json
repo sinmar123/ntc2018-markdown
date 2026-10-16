@@ -1,0 +1,1185 @@
+{
+  "width": 470.0,
+  "height": 285.0,
+  "blocks": [
+    {
+      "type": 0,
+      "number": 0,
+      "flags": 0,
+      "bbox": [
+        73.91300201416016,
+        401.54486083984375,
+        174.3368377685547,
+        411.9512634277344
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 10.406399726867676,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "BritannicBold",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.800000011920929,
+              "descender": -0.20000000298023224,
+              "text": "C8.6",
+              "origin": [
+                73.91300201416016,
+                409.8699951171875
+              ],
+              "bbox": [
+                73.91300201416016,
+                401.54486083984375,
+                95.89131164550781,
+                411.9512634277344
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91300201416016,
+            401.54486083984375,
+            95.89131164550781,
+            411.9512634277344
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 10.406399726867676,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "BritannicBold",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.800000011920929,
+              "descender": -0.20000000298023224,
+              "text": "MATERIALI ",
+              "origin": [
+                123.03120422363281,
+                409.8699951171875
+              ],
+              "bbox": [
+                123.03120422363281,
+                401.54486083984375,
+                174.3368377685547,
+                411.9512634277344
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            123.03120422363281,
+            401.54486083984375,
+            174.3368377685547,
+            411.9512634277344
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 1,
+      "flags": 0,
+      "bbox": [
+        73.91299438476562,
+        417.23712158203125,
+        523.2251586914062,
+        435.6806335449219
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "In aggiunta a quanto indicato al § 8.5.3 riguardo ai materiali degli edifici esistenti, il § 8.6 delle NTC fornisce indicazioni sui ",
+              "origin": [
+                73.91300201416016,
+                422.8800048828125
+              ],
+              "bbox": [
+                73.91300201416016,
+                417.23712158203125,
+                523.2251586914062,
+                425.0653381347656
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91300201416016,
+            417.23712158203125,
+            523.2251586914062,
+            425.0653381347656
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "materiali da utilizzare per gli interventi sulle costruzioni esistenti. ",
+              "origin": [
+                73.91299438476562,
+                433.49530029296875
+              ],
+              "bbox": [
+                73.91299438476562,
+                427.8524169921875,
+                302.813720703125,
+                435.6806335449219
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91299438476562,
+            427.8524169921875,
+            302.813720703125,
+            435.6806335449219
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 2,
+      "flags": 0,
+      "bbox": [
+        73.91299438476562,
+        440.9644775390625,
+        523.2377319335938,
+        459.3057556152344
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "I casi di incompatibilità più frequentemente riscontrati in merito all’associazione di materiali diversi sono legati alla differente ",
+              "origin": [
+                73.91299438476562,
+                446.60736083984375
+              ],
+              "bbox": [
+                73.91299438476562,
+                440.9644775390625,
+                523.2377319335938,
+                448.7926940917969
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91299438476562,
+            440.9644775390625,
+            523.2377319335938,
+            448.7926940917969
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "rigidezza di questi, al loro diverso comportamento termico, ai fenomeni di ritiro differenziali e alle reazioni chimiche tra di essi. ",
+              "origin": [
+                73.91299438476562,
+                457.12042236328125
+              ],
+              "bbox": [
+                73.91299438476562,
+                451.4775390625,
+                515.7520751953125,
+                459.3057556152344
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91299438476562,
+            451.4775390625,
+            515.7520751953125,
+            459.3057556152344
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 3,
+      "flags": 0,
+      "bbox": [
+        73.91293334960938,
+        464.589599609375,
+        523.2508544921875,
+        493.54461669921875
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "Le differenze di rigidezza possono essere messe in conto attraverso i moduli di elasticità, peraltro affetti da incertezze nella ",
+              "origin": [
+                73.91299438476562,
+                470.23248291015625
+              ],
+              "bbox": [
+                73.91299438476562,
+                464.589599609375,
+                523.1837768554688,
+                472.4178161621094
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91299438476562,
+            464.589599609375,
+            523.1837768554688,
+            472.4178161621094
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "valutazione. Inoltre il comportamento reologico dei materiali rende ardue queste quantificazioni, in particolare nel caso della ",
+              "origin": [
+                73.9129638671875,
+                480.74554443359375
+              ],
+              "bbox": [
+                73.9129638671875,
+                475.1026611328125,
+                523.2508544921875,
+                482.9308776855469
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.9129638671875,
+            475.1026611328125,
+            523.2508544921875,
+            482.9308776855469
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "muratura, la cui composizione è estremamente variabile.  ",
+              "origin": [
+                73.91293334960938,
+                491.3592834472656
+              ],
+              "bbox": [
+                73.91293334960938,
+                485.7164001464844,
+                273.3153381347656,
+                493.54461669921875
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91293334960938,
+            485.7164001464844,
+            273.3153381347656,
+            493.54461669921875
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 4,
+      "flags": 0,
+      "bbox": [
+        73.91293334960938,
+        498.8292541503906,
+        523.2461547851562,
+        527.6836547851562
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "Si ricorda che i valori dei moduli di elasticità riportati nella Tabella C.8.5.I sono riferiti a sollecitazioni a tempi brevi; sotto carichi ",
+              "origin": [
+                73.91293334960938,
+                504.4721374511719
+              ],
+              "bbox": [
+                73.91293334960938,
+                498.8292541503906,
+                523.1588745117188,
+                506.657470703125
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91293334960938,
+            498.8292541503906,
+            523.1588745117188,
+            506.657470703125
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "permanenti le caratteristiche meccaniche delle murature possono subire notevoli variazioni in relazione all’intensità e al tempo di ",
+              "origin": [
+                73.91293334960938,
+                514.9852294921875
+              ],
+              "bbox": [
+                73.91293334960938,
+                509.34234619140625,
+                523.2461547851562,
+                517.1705932617188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91293334960938,
+            509.34234619140625,
+            523.2461547851562,
+            517.1705932617188
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "permanenza del carico, con conseguenze rilevanti in termini di deformazioni e sollecitazioni nei materiali. ",
+              "origin": [
+                73.91293334960938,
+                525.498291015625
+              ],
+              "bbox": [
+                73.91293334960938,
+                519.8554077148438,
+                441.00299072265625,
+                527.6836547851562
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91293334960938,
+            519.8554077148438,
+            441.00299072265625,
+            527.6836547851562
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 5,
+      "flags": 0,
+      "bbox": [
+        73.91293334960938,
+        532.9674682617188,
+        523.2398681640625,
+        572.435546875
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "Differenze di comportamento termico tra materiali in contatto possono determinare situazioni patologiche dovute a incrementi ",
+              "origin": [
+                73.91293334960938,
+                538.6103515625
+              ],
+              "bbox": [
+                73.91293334960938,
+                532.9674682617188,
+                523.1558227539062,
+                540.7957153320312
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91293334960938,
+            532.9674682617188,
+            523.1558227539062,
+            540.7957153320312
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "delle sollecitazioni. A questo proposito, l’accoppiamento tra murature e materiali metallici, ma anche tra murature e elementi di ",
+              "origin": [
+                73.91293334960938,
+                549.2240600585938
+              ],
+              "bbox": [
+                73.91293334960938,
+                543.5811767578125,
+                523.2398681640625,
+                551.409423828125
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.91293334960938,
+            543.5811767578125,
+            523.2398681640625,
+            551.409423828125
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "c.a. o di legno, deve essere valutato con particolare attenzione per evitare lesioni e disarticolazioni della compagine a causa delle ",
+              "origin": [
+                73.915283203125,
+                559.7371215820312
+              ],
+              "bbox": [
+                73.915283203125,
+                554.09423828125,
+                523.1914672851562,
+                561.9224853515625
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            554.09423828125,
+            523.1914672851562,
+            561.9224853515625
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "variazioni termiche e/o igrometriche. ",
+              "origin": [
+                73.915283203125,
+                570.2501831054688
+              ],
+              "bbox": [
+                73.915283203125,
+                564.6072998046875,
+                203.55062866210938,
+                572.435546875
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            564.6072998046875,
+            203.55062866210938,
+            572.435546875
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 6,
+      "flags": 0,
+      "bbox": [
+        73.915283203125,
+        577.7193603515625,
+        523.1851196289062,
+        606.57373046875
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "Anche i fenomeni di ritiro dei materiali introdotti nel consolidamento, in particolare il calcestruzzo e il legno, possono ",
+              "origin": [
+                73.915283203125,
+                583.3622436523438
+              ],
+              "bbox": [
+                73.915283203125,
+                577.7193603515625,
+                523.1851196289062,
+                585.547607421875
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            577.7193603515625,
+            523.1851196289062,
+            585.547607421875
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "compromettere l’efficacia del rinforzo in maniera non prevedibile e determinare nelle strutture situazioni patologiche legate agli ",
+              "origin": [
+                73.915283203125,
+                593.8753051757812
+              ],
+              "bbox": [
+                73.915283203125,
+                588.232421875,
+                523.1376953125,
+                596.0606689453125
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            588.232421875,
+            523.1376953125,
+            596.0606689453125
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "stati di coazione. ",
+              "origin": [
+                73.915283203125,
+                604.3883666992188
+              ],
+              "bbox": [
+                73.915283203125,
+                598.7454833984375,
+                133.71798706054688,
+                606.57373046875
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            598.7454833984375,
+            133.71798706054688,
+            606.57373046875
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 7,
+      "flags": 0,
+      "bbox": [
+        73.915283203125,
+        611.9597778320312,
+        348.109619140625,
+        619.7880249023438
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "Infine vanno adeguatamente considerate le eventuali incompatibilità chimiche. ",
+              "origin": [
+                73.915283203125,
+                617.6026611328125
+              ],
+              "bbox": [
+                73.915283203125,
+                611.9597778320312,
+                348.109619140625,
+                619.7880249023438
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            611.9597778320312,
+            348.109619140625,
+            619.7880249023438
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 8,
+      "flags": 0,
+      "bbox": [
+        73.915283203125,
+        625.0718383789062,
+        523.2537841796875,
+        643.4131469726562
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "E’ pertanto necessaria, particolarmente nel caso delle iniezioni, la determinazione della composizione chimica dei materiali ",
+              "origin": [
+                73.915283203125,
+                630.7147216796875
+              ],
+              "bbox": [
+                73.915283203125,
+                625.0718383789062,
+                523.2537841796875,
+                632.9000854492188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            625.0718383789062,
+            523.2537841796875,
+            632.9000854492188
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "esistenti e la verifica della loro compatibilità con i materiali di apporto. ",
+              "origin": [
+                73.915283203125,
+                641.227783203125
+              ],
+              "bbox": [
+                73.915283203125,
+                635.5848999023438,
+                319.51910400390625,
+                643.4131469726562
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            635.5848999023438,
+            319.51910400390625,
+            643.4131469726562
+          ]
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "number": 9,
+      "flags": 0,
+      "bbox": [
+        73.915283203125,
+        648.6969604492188,
+        523.2273559570312,
+        677.6520385742188
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "Per quanto riguarda gli interventi sulle strutture lignee, gli accoppiamenti con lastre metalliche estese vanno valutati con ",
+              "origin": [
+                73.915283203125,
+                654.33984375
+              ],
+              "bbox": [
+                73.915283203125,
+                648.6969604492188,
+                523.2076416015625,
+                656.5252075195312
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            648.6969604492188,
+            523.2076416015625,
+            656.5252075195312
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "attenzione perché, in presenza di fenomeni di condensa, possono determinare situazioni termo-igrometriche favorevoli al ",
+              "origin": [
+                73.915283203125,
+                664.8529052734375
+              ],
+              "bbox": [
+                73.915283203125,
+                659.2100219726562,
+                523.2273559570312,
+                667.0382690429688
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            659.2100219726562,
+            523.2273559570312,
+            667.0382690429688
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 7.804800033569336,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "PalatinoLinotype-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.7229999899864197,
+              "descender": -0.2800000011920929,
+              "text": "degrado del legno. ",
+              "origin": [
+                73.915283203125,
+                675.4666748046875
+              ],
+              "bbox": [
+                73.915283203125,
+                669.8237915039062,
+                140.490234375,
+                677.6520385742188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            73.915283203125,
+            669.8237915039062,
+            140.490234375,
+            677.6520385742188
+          ]
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "number": 10,
+      "bbox": [
+        323.0,
+        765.0,
+        378.0,
+        683.0
+      ],
+      "width": 208,
+      "height": 208,
+      "ext": "png",
+      "colorspace": 1,
+      "xres": 96,
+      "yres": 96,
+      "bpc": 1,
+      "transform": [
+        55.0,
+        0.0,
+        -0.0,
+        55.0,
+        323.0,
+        765.0
+      ],
+      "size": 2565,
+      "image": {
+        "bytes": 2565,
+        "sha256": "683ce1d1dd0149ae97cc65e0c5385270e5cac9a98dc0a8a512ca5decdbc2dda8"
+      },
+      "mask": null
+    },
+    {
+      "type": 1,
+      "number": 11,
+      "bbox": [
+        381.0,
+        765.0,
+        436.0,
+        683.0
+      ],
+      "width": 208,
+      "height": 208,
+      "ext": "png",
+      "colorspace": 1,
+      "xres": 96,
+      "yres": 96,
+      "bpc": 1,
+      "transform": [
+        55.0,
+        0.0,
+        -0.0,
+        55.0,
+        381.0,
+        765.0
+      ],
+      "size": 2562,
+      "image": {
+        "bytes": 2562,
+        "sha256": "79b6ce5875302603dbb1a81829eaf1863bdf0605e3f4437859b135b8c3731d15"
+      },
+      "mask": null
+    },
+    {
+      "type": 1,
+      "number": 12,
+      "bbox": [
+        439.0,
+        765.0,
+        494.0,
+        683.0
+      ],
+      "width": 208,
+      "height": 208,
+      "ext": "png",
+      "colorspace": 1,
+      "xres": 96,
+      "yres": 96,
+      "bpc": 1,
+      "transform": [
+        55.0,
+        0.0,
+        -0.0,
+        55.0,
+        439.0,
+        765.0
+      ],
+      "size": 2536,
+      "image": {
+        "bytes": 2536,
+        "sha256": "a86c04a1b7ae17b6866509106afae37843680cd1325e137a378ba483e3191201"
+      },
+      "mask": null
+    },
+    {
+      "type": 1,
+      "number": 13,
+      "bbox": [
+        497.0,
+        765.0,
+        535.0,
+        683.0
+      ],
+      "width": 208,
+      "height": 208,
+      "ext": "png",
+      "colorspace": 1,
+      "xres": 96,
+      "yres": 96,
+      "bpc": 1,
+      "transform": [
+        55.0,
+        0.0,
+        -0.0,
+        55.0,
+        497.0,
+        765.0
+      ],
+      "size": 2553,
+      "image": {
+        "bytes": 2553,
+        "sha256": "e15d0208498611f92ff79a91f46fdf03c2ec7816ff4d87cd536dccde6a4a93d2"
+      },
+      "mask": null
+    }
+  ]
+}

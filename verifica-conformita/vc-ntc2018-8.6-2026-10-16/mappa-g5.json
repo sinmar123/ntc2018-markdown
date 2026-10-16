@@ -1,0 +1,26 @@
+{
+  "firma": "CDX",
+  "file": [
+    "cap08/8.6-materiali.md"
+  ],
+  "composizione": "target-scope.md",
+  "righe_depurate": 25,
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:297",
+        "circ:269"
+      ],
+      "righe": [
+        [
+          1,
+          25
+        ]
+      ]
+    }
+  ],
+  "link_target": "2 su 2 esistenti",
+  "indici": "genera-indici-interni.py --verifica: 311 file, 1754 collegamenti; 8.6 è file x.y senza indice interno generabile",
+  "canone_r8_r9": "identico dopo normalizzazione degli spazi; §2 r9 adottato per lo scope letterale"
+}
