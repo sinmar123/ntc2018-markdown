@@ -1,0 +1,26 @@
+{
+ "pdf": "verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+ "pagine": "297",
+ "target": [
+  "cap08\\8.7-introduzione.md"
+ ],
+ "nota": "Candidati da vagliare: non sono correzioni approvate.",
+ "capoversi_fonte": [
+  {
+   "pagina": 297,
+   "y_pt": 507.7,
+   "x_pt": 82.3,
+   "criterio": "inizio",
+   "inizio": "8.7. PROGETTAZIONE DEGLI INTERVENTI IN PRESENZA DI AZIONI SISMICHE"
+  },
+  {
+   "pagina": 297,
+   "y_pt": 523.1,
+   "x_pt": 82.3,
+   "criterio": "rientro",
+   "inizio": "Nella progettazione di interventi sulle costruzioni esistenti, specie se soggett"
+  }
+ ],
+ "capoversi": [],
+ "enfasi": []
+}

@@ -1,0 +1,24 @@
+[
+ {
+  "id": "R1",
+  "file": "cap08/8.7-introduzione.md",
+  "attuale": "## C8.7. Progettazione degli interventi",
+  "proposto": "## C8.7 PROGETTAZIONE DEGLI INTERVENTI",
+  "pagina": "Circolare fisica 269",
+  "classe": "ERR-MD",
+  "effetto": "sola presentazione",
+  "decisione": "approvata, Sandro 2026-10-16: ok sistema tutto",
+  "nota": "C8.7 senza punto, titolo maiuscolo come stampato"
+ },
+ {
+  "id": "R2",
+  "file": "cap08/8.7-introduzione.md",
+  "attuale": "Il § 8.7 contiene indicazioni sia sulle modalità di verifica che sulle caratteristiche dei principali interventi da applicare agli edifici esistenti, in funzione delle specifiche tipologie costruttive, per migliorarne il comportamento strutturale e aumentarne la sicurezza. Tali indicazioni sono anche utili per la valutazione della sicurezza degli edifici nello stato di fatto. Con riferimento a quanto espresso nel § C8.3 si precisa che, ai fini della determinazione dell’entità massima delle azioni sismiche sopportabili dalla struttura, nella combinazione di carico sismica si considerano i carichi permanenti effettivi e quelli variabili previsti dalle NTC. Per le costruzioni esistenti a struttura prevalentemente lignea, per le quali non sono date indicazioni specifiche, si rimanda al §4.4 delle NTC.",
+  "proposto": "Il § 8.7 contiene indicazioni sia sulle modalità di verifica che sulle caratteristiche dei principali interventi da applicare agli edifici esistenti, in funzione delle specifiche tipologie costruttive, per migliorarne il comportamento strutturale e aumentarne la sicurezza. Tali indicazioni sono anche utili per la valutazione della sicurezza degli edifici nello stato di fatto.\n\nCon riferimento a quanto espresso nel § C8.3 si precisa che, ai fini della determinazione dell’entità massima delle azioni sismiche sopportabili dalla struttura, nella combinazione di carico sismica si considerano i carichi permanenti effettivi e quelli variabili previsti dalle NTC.\n\nPer le costruzioni esistenti a struttura prevalentemente lignea, per le quali non sono date indicazioni specifiche, si rimanda al §4.4 delle NTC.",
+  "pagina": "Circolare fisiche 269-270",
+  "classe": "ERR-MD",
+  "effetto": "sola presentazione",
+  "decisione": "approvata, Sandro 2026-10-16: ok sistema tutto",
+  "nota": "tre capoversi della fonte, parole invariate"
+ }
+]

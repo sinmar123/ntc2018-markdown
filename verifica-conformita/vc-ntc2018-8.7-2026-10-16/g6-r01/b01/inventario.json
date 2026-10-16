@@ -1,0 +1,84 @@
+{
+  "firma": "Grok Build (GROK), verificatore V, contesto nuovo",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "E01",
+      "pagina": "ntc:297",
+      "riferimento": "Rubrica 8.7. con punto dopo il numero, neretto e maiuscolo, PROGETTAZIONE DEGLI INTERVENTI IN PRESENZA DI AZIONI SISMICHE. Una sola riga, subito sopra l'unico capoverso del paragrafo."
+    },
+    {
+      "id": "E02",
+      "pagina": "ntc:297",
+      "riferimento": "Unico capoverso di 8.7, fra la rubrica 8.7. e la rubrica 8.7.1. Quattro righe tipografiche giustificate: spezzature po-, costrut- e cam-, ultima riga corta che chiude con anelastico. Sulla terza riga lo spazio fra anche e in è più largo degli altri spazi della stessa riga. Nessuna formula, tabella, figura, nota o elenco. Perimetro della pagina controllato per intero."
+    },
+    {
+      "id": "E03",
+      "pagina": "circ:269",
+      "riferimento": "Rubrica C8.7 senza punto dopo il numero, neretto e maiuscolo, PROGETTAZIONE DEGLI INTERVENTI. Ultima rubrica della pagina, sopra l'unica riga di testo del paragrafo."
+    },
+    {
+      "id": "E04",
+      "pagina": "circ:269",
+      "riferimento": "Inizio del capoverso di C8.7: una sola riga sotto la rubrica, termina con la parola edifici a fine colonna. Prosegue su circ:270. Nessun altro testo di C8.7 su questa pagina, e nessuna formula, tabella, figura o nota nel perimetro."
+    },
+    {
+      "id": "E05",
+      "pagina": "circ:270",
+      "riferimento": "Prosecuzione del capoverso di E04: prime due righe di testo sotto l'intestazione, da esistenti fino a stato di fatto. Due frasi, un solo capoverso, senza rientro di nuova rubrica."
+    },
+    {
+      "id": "E06",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, tre righe, dal rinvio al § C8.3 fino a previsti dalle NTC. Separato dal precedente e dal seguente dallo stacco di capoverso."
+    },
+    {
+      "id": "E07",
+      "pagina": "circ:270",
+      "riferimento": "Ultimo capoverso del perimetro, due righe, costruzioni a struttura lignea. Chiude con il rinvio al segno di paragrafo, poi uno spazio della stessa larghezza degli altri spazi di riga, poi 4.4, e a capo delle NTC. Subito sotto inizia la rubrica C8.7.1, esclusa. Fra C8.7 e C8.7.1 non ci sono formule, tabelle, figure, note né elenchi. Perimetro delle tre pagine controllato per intero."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Intestazione della Gazzetta in testa: 20-2-2018, Supplemento ordinario n. 8 alla GAZZETTA UFFICIALE, Serie generale - n. 42, e il filetto. Non è testo normativo."
+    },
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Tutto il testo prima della rubrica 8.7.: 8.5.3, 8.5.4 con l'elenco LC1, LC2, LC3, 8.5.5 compreso il simbolo gamma in pedice nella prosa, e 8.6 con i due capoversi. Escluso perché precede 8.7."
+    },
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Dalla rubrica 8.7.1. con punto dopo il numero, titolo COSTRUZIONI IN MURATURA, e i quattro capoversi che seguono, fino all'interruzione a fine colonna. Escluso perché il perimetro finisce prima di 8.7.1."
+    },
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Piede: numero di pagina 293 fra lineette, e codice a barre. Non è testo normativo. La chiave della pagina resta ntc:297."
+    },
+    {
+      "pagina": "circ:269",
+      "riferimento": "Intestazione della Gazzetta: 11-2-2019, Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE, Serie generale - n. 35, e il filetto. Non è testo normativo."
+    },
+    {
+      "pagina": "circ:269",
+      "riferimento": "Tutto il testo prima della rubrica C8.7: C8.5.5, C8.5.5.1 con le due relazioni per q e il periodo sottolineato, C8.5.5.2, e C8.6 fino al capoverso sul degrado del legno. Escluso perché precede C8.7."
+    },
+    {
+      "pagina": "circ:269",
+      "riferimento": "Piede: numero di pagina 265 fra lineette, e codice a barre. Non è testo normativo. La chiave della pagina resta circ:269."
+    },
+    {
+      "pagina": "circ:270",
+      "riferimento": "Intestazione della Gazzetta, uguale a circ:269: 11-2-2019, Supplemento ordinario n. 5, Serie generale - n. 35, e il filetto. Non è testo normativo."
+    },
+    {
+      "pagina": "circ:270",
+      "riferimento": "Dalla rubrica C8.7.1 senza punto dopo il numero. Il titolo stampato è COSTRUZIONI DI MURATURA, con la D e la I distinte. Tutto il testo seguente è fuori: capoversi, formula con gamma in pedice M uguale a 2, elenco dei tre solai, fino all'interruzione a fine colonna su elementi quali i. Escluso perché inizia da C8.7.1."
+    },
+    {
+      "pagina": "circ:270",
+      "riferimento": "Piede: numero di pagina 266 fra lineette, e codice a barre. Non è testo normativo. La chiave della pagina resta circ:270."
+    }
+  ],
+  "dubbi": []
+}

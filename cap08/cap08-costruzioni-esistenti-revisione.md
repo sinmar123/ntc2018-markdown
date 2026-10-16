@@ -1,5 +1,11 @@
 # Revisione Capitolo 8 - Costruzioni esistenti
 
+## 2026-10-16 - VC-OK della sola introduzione § 8.7
+
+VC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-14 - VC-OK del § 8.5 con C8.5
 
 VC-OK del § 8.5 con C8.5, sei file: G1 2026-10-13 con ricontrollo 2026-10-14; correzioni di C approvate prima del G6, fra cui q = 1,75 αu/α1 nel C8.5.5.1 (era 3,0); G6 integrale in quattro blocchi di V Opus a contesto nuovo (260 elementi), valori, formule e celle conformi; 27 rilievi di forma decisi da Sandro e corretti con 192 voci da script (capoversi ed enfasi della fonte, rubriche della Circolare come in fonte, pedici ed esponenti, greche come simboli, testate e didascalie delle tabelle); controllo delle modifiche dei quattro V e G7 OK; CC cloud. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.5-2026-10-14.md).

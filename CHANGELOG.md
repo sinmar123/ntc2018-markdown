@@ -1,5 +1,11 @@
 # Changelog - NTC 2018
 
+## 2026-10-16 - VC-OK della sola introduzione § 8.7, GROK
+
+VC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-16 - Prompt di avvio per un agente nuovo, CC cloud
 
 - Su richiesta di Sandro: `ntc2018-261016-prompt-avvio-agente.md`, prompt da incollare in una sessione nuova. Rimanda a AGENTS.md, CLAUDE.md e PROCEDURA-VC.md senza ricopiarne le regole; il paragrafo da verificare lo chiede l'agente come seconda domanda. Collegato dal README.

@@ -1,0 +1,40 @@
+{
+ "pdf": "verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+ "pagine": "269-270",
+ "target": [
+  "cap08\\8.7-introduzione.md"
+ ],
+ "nota": "Candidati da vagliare: non sono correzioni approvate.",
+ "capoversi_fonte": [
+  {
+   "pagina": 269,
+   "y_pt": 699.5,
+   "x_pt": 73.9,
+   "criterio": "inizio",
+   "inizio": "C8.7 PROGETTAZIONE DEGLI INTERVENTI"
+  },
+  {
+   "pagina": 269,
+   "y_pt": 715.3,
+   "x_pt": 73.9,
+   "criterio": "rientro",
+   "inizio": "Il § 8.7 contiene indicazioni sia sulle modalità di verifica che sulle caratteri"
+  },
+  {
+   "pagina": 270,
+   "y_pt": 123.4,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Con riferimento a quanto espresso nel § C8.3 si precisa che, ai fini della deter"
+  },
+  {
+   "pagina": 270,
+   "y_pt": 157.5,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "Per le costruzioni esistenti a struttura prevalentemente lignea, per le quali no"
+  }
+ ],
+ "capoversi": [],
+ "enfasi": []
+}

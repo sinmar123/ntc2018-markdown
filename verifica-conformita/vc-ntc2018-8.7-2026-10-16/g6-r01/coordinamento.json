@@ -1,0 +1,59 @@
+{
+  "versione": 1,
+  "scope": "8.7",
+  "target": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\verifica-conformita\\vc-ntc2018-8.7-2026-10-16\\target-scope.md",
+  "snapshot_sha256": "4a37621633d31ffa542f0f0bc9017846714d3642ab9fc653e44052339fce0d94",
+  "clean_sha256": "1a08d2e2d82fa746bd597112b99cac37cf046a99c3f76354ea486f2237ec0a0e",
+  "procedura_sha256": "14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f",
+  "catalogo_sha256": "add1873d309b44930b8caccf8dd5ed3714926108a106230de35133a8a76e239e",
+  "fonti": {
+    "ntc": {
+      "id": "ntc",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        297
+      ]
+    },
+    "circ": {
+      "id": "circ",
+      "pdf": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        269,
+        270
+      ]
+    }
+  },
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:297",
+        "circ:269",
+        "circ:270"
+      ],
+      "righe": [
+        [
+          1,
+          10
+        ]
+      ],
+      "limiti": "NTC, pagina fisica 297: il perimetro inizia alla rubrica 8.7. e finisce prima della rubrica 8.7.1. Escludere il testo che precede 8.7. e quello che inizia da 8.7.1. Circolare, pagine fisiche 269 e 270: il perimetro inizia alla rubrica C8.7 e finisce prima della rubrica C8.7.1. Escludere il testo che precede C8.7 e quello che inizia da C8.7.1. Intestazioni, numeri di pagina e testo di piede della Gazzetta non appartengono al perimetro.",
+      "assets": [
+        {
+          "name": "resa-target/resa-target.pdf",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\verifica-conformita\\vc-ntc2018-8.7-2026-10-16\\resa-target.pdf",
+          "sha256": "83ef55aa7de73b1d276c86b4a3879dbc6d80eaef9016b0d8ccedf03ed4a8b2df"
+        },
+        {
+          "name": "resa-target/resa-p01-200dpi.png",
+          "source": "C:\\Users\\sandro\\ag_oc\\workspace\\_tmp\\ntc2018-grok-8.7-261016\\verifica-conformita\\vc-ntc2018-8.7-2026-10-16\\resa-p01-200dpi.png",
+          "sha256": "efae9c4ba57a0c6a19b08a83bcca77b36d5e8eeb1de8fdc923d577b35fa14d01"
+        }
+      ],
+      "target_sha256": "1a08d2e2d82fa746bd597112b99cac37cf046a99c3f76354ea486f2237ec0a0e",
+      "manifest_fonte_sha256": "40f4703f0e9eee40a74d31130958b4413bee1050ffbe59695e96e19a17ecca26"
+    }
+  ]
+}
