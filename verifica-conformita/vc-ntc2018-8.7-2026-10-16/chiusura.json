@@ -1,0 +1,46 @@
+{
+  "scope": "8.7",
+  "agente": "GROK",
+  "data": "2026-10-16",
+  "g7": "verifica-conformita/vc-ntc2018-8.7-2026-10-16/G7.json",
+  "g7_sha256": "bda7c292ba26b79328cdb182abb47648644759945d70e2dfc89cc984ff3599ae",
+  "manifest": "verifica-conformita/vc-ntc2018-8.7-2026-10-16/manifest-rilascio.json",
+  "verbale": "verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md",
+  "verbale_sha256": "75d14af538167b3280b5796b1d0dcbf66c6059f5b3e76ecf2f705e3b4d032d9c",
+  "nota": "VC-OK della sola introduzione 8.7, file cap08/8.7-introduzione.md. R1 e R2 approvate il 2026-10-16: rubrica C8.7 come stampata e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT di resa aggiudicati come contenitori del corpus. G7 OK.",
+  "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+  "procedura_vc": "VC-NTC/9",
+  "master_non_pertinente": "Nessun registro master nel worktree: lo stato operativo resta il CSV del progetto.",
+  "modifiche": [
+    {
+      "path": "README.md",
+      "prima": "**§ 8.5 con C8.5, registrato VC-OK, 2026-10-14:**",
+      "dopo": "**§ 8.7 sola introduzione, registrato VC-OK, 2026-10-16:** VC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato..\n\n**§ 8.5 con C8.5, registrato VC-OK, 2026-10-14:**"
+    },
+    {
+      "path": "TODO.md",
+      "prima": "## Completato 2026-10-14 - VC del § 8.5 con C8.5, CC cloud",
+      "dopo": "## Completato 2026-10-16 - VC della sola introduzione § 8.7, GROK\n\nVC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato..\n\n## Completato 2026-10-14 - VC del § 8.5 con C8.5, CC cloud"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "prima": "## 2026-10-16 - Prompt di avvio per un agente nuovo, CC cloud",
+      "dopo": "## 2026-10-16 - VC-OK della sola introduzione § 8.7, GROK\n\nVC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato..\n\n## 2026-10-16 - Prompt di avvio per un agente nuovo, CC cloud"
+    },
+    {
+      "path": "indice-ntc2018.md",
+      "prima": "**§ 8.5 con C8.5, VC-OK registrato il 2026-10-14:**",
+      "dopo": "**§ 8.7 sola introduzione, VC-OK registrato il 2026-10-16:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.md), [dossier](./verifica-conformita/vc-ntc2018-8.7-2026-10-16/).\n\n**§ 8.5 con C8.5, VC-OK registrato il 2026-10-14:**"
+    },
+    {
+      "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "## 2026-10-14 - VC-OK del § 8.5 con C8.5",
+      "dopo": "## 2026-10-16 - VC-OK della sola introduzione § 8.7\n\nVC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato..\n\n## 2026-10-14 - VC-OK del § 8.5 con C8.5"
+    },
+    {
+      "path": "verifica-conformita/scheda-scope-ntc2018-8.7.md",
+      "prima": "Sola riga 8.7, file `cap08/8.7-introduzione.md`. I sottoparagrafi 8.7.1-8.7.5, C8.7.6 e C8.8 restano fuori. Decisione di Sandro del 2026-10-16: «ok sistema tutto», R1 e R2 approvate.\n",
+      "dopo": "Sola riga 8.7, file `cap08/8.7-introduzione.md`. I sottoparagrafi 8.7.1-8.7.5, C8.7.6 e C8.8 restano fuori. Decisione di Sandro del 2026-10-16: «ok sistema tutto», R1 e R2 approvate.\n\n## Chiusura 2026-10-16\n\nR1 e R2 applicate prima del G6. G6 in un blocco, 7 id coperti. Due ERR-AUDIT di resa aggiudicati come contenitori del corpus. G7 OK. [Verbale](verbale-VC-ntc2018-8.7-2026-10-16.md).\n"
+    }
+  ]
+}

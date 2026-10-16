@@ -1,0 +1,11 @@
+{
+  "scope": "8.7",
+  "righe": [
+    "8.7"
+  ],
+  "agente": "GROK",
+  "nota": "VC della sola introduzione 8.7. R1 e R2 approvate e applicate prima del G6.",
+  "prossima_azione": "G6 del solo file 8.7-introduzione.md.",
+  "scheda": "verifica-conformita/scheda-scope-ntc2018-8.7.md",
+  "scheda_contenuto": "---\nscope_id: ntc2018-8.7\nstato: IN-CORSO\nagente: GROK\nmacchina: Grok Build, grok-4.7, W520\npresa_in_carico: 2026-10-16\nprocedura: VC-NTC/9\nprocedura_sha256: 14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f\ncatalogo_sha256: add1873d309b44930b8caccf8dd5ed3714926108a106230de35133a8a76e239e\natti:\n  - \"D.M. 17/01/2018, § 8.7, dalla rubrica fino a prima di 8.7.1\"\n  - \"Circolare 21/01/2019 n. 7, § C8.7, dalla rubrica fino a prima di C8.7.1\"\nfile_markdown: [cap08/8.7-introduzione.md]\nrighe_registro: [\"8.7\"]\nsnapshot_sha256: c4a1514f05d768794cfebda8b56bdb1441e220c6739919ffab4ce2a25694ccd1\ngiro_g6: 0\nmax_giri: 3\nrilievi_aperti: 0\ngate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: attesa, G7: attesa}\nattesa_decisione: []\nprossimo_passo: \"G6 del solo file cap08/8.7-introduzione.md.\"\nrouting_effettivo:\n  C: {agente: \"Grok Build (GROK)\", modello: grok-4.7}\n  preparazione: \"script di strumenti/; nessun modello leggero, il lavoro meccanico è coperto dagli script\"\n  E: non_attivato\n  V: \"sottoagente grok-4.7 a contesto nuovo, un blocco\"\n---\n\n# Scheda scope § 8.7\n\nSola riga 8.7, file `cap08/8.7-introduzione.md`. I sottoparagrafi 8.7.1-8.7.5, C8.7.6 e C8.8 restano fuori. Decisione di Sandro del 2026-10-16: «ok sistema tutto», R1 e R2 approvate.\n\n"
+}

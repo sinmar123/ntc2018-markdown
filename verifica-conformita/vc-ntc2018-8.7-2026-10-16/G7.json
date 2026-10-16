@@ -1,0 +1,19 @@
+{
+  "firma": "Grok Build (GROK), verificatore V, contesto nuovo",
+  "giudizio_g7": "OK",
+  "scope": "8.7",
+  "snapshot_sha256": "c4a1514f05d768794cfebda8b56bdb1441e220c6739919ffab4ce2a25694ccd1",
+  "manifest_sha256": "980a5e4cb4ea414267342b886dc8c301e703ff028440b5568205ae8a7471da56",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "motivazione": "I due ERR-AUDIT del G6 sono chiusi. Riguardano solo la resa del file intero, che stampa i contenitori Norma e Circolare. Non stanno nella Gazzetta né in testo.md, il testo depurato del confronto, e non sono una difformità del testo normativo dei sette id. C non modifica il target. Lo snapshot di cap08/8.7-introduzione.md ha l'impronta attesa. Il manifest è integro su 36 file e ha l'impronta attesa. I gate G0-G7 sono OK. Residui aperti: nessuno."
+}

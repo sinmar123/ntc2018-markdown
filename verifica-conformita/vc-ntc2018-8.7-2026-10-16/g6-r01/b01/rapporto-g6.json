@@ -1,0 +1,34 @@
+{
+  "firma": "Grok Build (GROK), verificatore V, contesto nuovo",
+  "esito": "KO",
+  "coperti": ["E01", "E02", "E03", "E04", "E05", "E06", "E07"],
+  "normalizzazioni": [1, 11],
+  "rilievi": [
+    {
+      "id": "E01",
+      "pagina": "ntc:297",
+      "posizione": "resa, fra la rubrica 8.7. e il capoverso E02",
+      "prova": "Fonte e testo.md non contengono la parola Norma. resa-p01-200dpi.png e il testo di resa-target.pdf la stampano in neretto, su riga propria, fra la rubrica e il capoverso. Non è nel catalogo: la riga Torna all'indice in testa è altra cosa ed è stata esclusa con la voce 11.",
+      "classe": "ERR-AUDIT"
+    },
+    {
+      "id": "E03",
+      "pagina": "circ:269",
+      "posizione": "resa, subito prima della rubrica C8.7",
+      "prova": "Fonte e testo.md non contengono la parola Circolare. La resa la stampa in neretto, su riga propria, dopo un filetto orizzontale e prima della rubrica C8.7. Aggiunta del fascicolo di resa, assente dal testo normativo e da testo.md.",
+      "classe": "ERR-AUDIT"
+    }
+  ],
+  "letture": [
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01\\b01\\testo.md",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01\\b01\\congelamento.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01\\b01\\input-confronto.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01\\b01\\inventario.json",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01\\b01\\resa-target\\resa-p01-200dpi.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01\\b01\\resa-target\\resa-target.pdf",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01-lavoro\\b01\\resa-fasce\\resa-f00-y0-480.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01-lavoro\\b01\\resa-fasce\\resa-f01-y400-880.png",
+    "C:\\Users\\sandro\\AppData\\Local\\Temp\\vc87-g6-r01-lavoro\\b01\\resa-fasce\\resa-f02-y800-1280.png"
+  ],
+  "isolamento": "istruttivo, sole cartelle del blocco e di lavoro"
+}
