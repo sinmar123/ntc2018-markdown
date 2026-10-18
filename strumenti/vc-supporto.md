@@ -210,6 +210,16 @@ Il comando legge metadati e contatori dei file JSONL direttamente contenuti nell
 
 Si ferma se un contatore decresce, se una sessione è duplicata o cambia modello: in questi casi non produce un totale apparentemente affidabile. I numeri non sono la fatturazione né la quota Codex. Per altri runtime riportare la loro metrica esposta, oppure `non disponibile`, senza stimarla dai caratteri o dai prezzi API.
 
+## Percorsi nelle ricevute e nei file scritti
+
+Decisione di Sandro del 2026-10-18 alle 20:14: lo strumento non scrive percorsi assoluti della macchina (nome utente, workspace, cartella temporanea) nei file che produce. La regola vale per le ricevute `*.eseguito.json` di `prendi`, `sincronizza-titoli`, `pagine` e `registra`, per `coordinamento.json`, `input-fonte.json`, `congelamento.json` e `input-confronto.json` di `prepara` e `rivela`, per `riepilogo.json` di `pacchetto-modifiche`, per i manifest e per l'uscita JSON e i messaggi d'errore di ogni comando, che spesso si salvano nei dossier.
+
+- File dentro la radice del progetto: percorso relativo alla radice (`registro-verifica-conformita-ntc2018.csv`, `cap08/...`) quando il campo è un percorso; `<workspace>/normativa/...` quando compare dentro un testo libero.
+- File nel workspace fuori dal progetto: `<workspace>/...`. Il workspace è la variabile `VC_WORKSPACE` oppure il primo antenato della radice che contiene la cartella `normativa`.
+- File nella cartella temporanea: `<temp>/...`; altri file del profilo utente: `<home>/...`.
+
+`rivela` e gli argomenti della riga di comando risolvono i segnaposto con `restore()` sulla stessa macchina: per esempio `rivela "<temp>/pacchetti-g6" b01`. I file storici con percorsi assoluti restano come sono (decisione di Sandro: i 100 file già su `main` non si toccano) e continuano a essere letti. Gli strumenti non hanno un comando di archiviazione separato; chi copia file nei dossier fuori dallo strumento applica la stessa regola.
+
 ## Verifica dello strumento
 
-I test creano PDF e dati sintetici in una directory temporanea isolata e la rimuovono alla fine. Coprono rivelazione differita, congelamento, hash, collisioni Windows, lacune/sovrapposizioni, target errato anche con manifest ricalcolato, asset, integrità degli input e contatori cumulativi. Nessun test modifica un file normativo o esegue una VC su contenuti reali.
+I test creano PDF e dati sintetici in una directory temporanea isolata e la rimuovono alla fine. Coprono rivelazione differita, congelamento, hash, collisioni Windows, lacune/sovrapposizioni, target errato anche con manifest ricalcolato, asset, integrità degli input e contatori cumulativi e percorsi neutri nelle ricevute e nei pacchetti (relativi, `<workspace>`, `<temp>`, `<home>`, con ritorno al percorso reale). Nessun test modifica un file normativo o esegue una VC su contenuti reali.

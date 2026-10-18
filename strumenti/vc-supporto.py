@@ -16,6 +16,7 @@ import runpy
 import shutil
 import subprocess
 import sys
+import tempfile
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
@@ -68,6 +69,84 @@ nel rapporto stesso. Non riscrivere hash calcolabili o creare rapporti aggiuntiv
 '''
 
 
+# Percorsi neutri (decisione di Sandro, 2026-10-18 20:14): ricevute, pacchetti e ogni JSON scritto
+# dallo strumento non portano percorsi assoluti della macchina. Dentro la radice del progetto il percorso
+# diventa relativo; altrove <workspace>/..., <temp>/... o <home>/... . restore() fa il cammino inverso
+# e accetta ancora i percorsi assoluti dei file storici, che restano come sono.
+WORKSPACE_DIR = None  # se None: variabile VC_WORKSPACE o primo antenato della radice con la cartella normativa
+TEMP_DIR = None       # se None: tempfile.gettempdir()
+HOME_DIR = None       # se None: Path.home()
+
+
+def _anchors():
+    root = Path(ROOT).resolve()
+    workspace = WORKSPACE_DIR or os.environ.get("VC_WORKSPACE") or next(
+        (p for p in root.parents if (p / "normativa").is_dir()), None)
+    result = []
+    for label, base in (("<workspace>", workspace), ("<temp>", TEMP_DIR or tempfile.gettempdir()),
+                        ("<home>", HOME_DIR or Path.home())):
+        if base:
+            result.append((label, Path(base).resolve()))
+    return root, result
+
+
+def neutral_text(text):
+    """Sostituisce nel testo libero i prefissi assoluti di workspace, temp e profilo con i segnaposto."""
+    if not isinstance(text, str):
+        return text
+    flags = re.IGNORECASE if os.name == "nt" else 0
+    for label, base in sorted(_anchors()[1], key=lambda item: len(str(item[1])), reverse=True):
+        parts = base.parts
+        if len(parts) < 2:
+            continue
+        head = re.escape(parts[0].rstrip("\\/")) + "".join(r"[\\/]+" + re.escape(x) for x in parts[1:])
+        pattern = re.compile(r"(?<![\w.])" + head + r"(?![^\\/\s\"'`<>|*?])(?P<rest>(?:[\\/]+[^\\/\s\"'`<>|*?]+)*)[\\/]?",
+                             flags)
+        text = pattern.sub(lambda m: label + re.sub(r"[\\/]+", "/", m.group("rest")), text)
+    return text
+
+
+def neutral(path):
+    """Percorso da scrivere: relativo alla radice del progetto, altrimenti con segnaposto."""
+    path = Path(path)
+    if not path.is_absolute():
+        return path.as_posix()
+    path = path.resolve()
+    root, anchors = _anchors()
+    if path.is_relative_to(root):
+        return path.relative_to(root).as_posix()
+    for label, base in anchors:
+        if path.is_relative_to(base):
+            rest = path.relative_to(base).as_posix()
+            return label if rest == "." else f"{label}/{rest}"
+    return neutral_text(str(path))
+
+
+def restore(value):
+    """Inverso di neutral(): segnaposto, percorso relativo alla radice o percorso assoluto storico."""
+    text = str(value)
+    if text.startswith("<"):
+        text = text.replace("\\", "/")
+        for label, base in _anchors()[1]:
+            if text == label:
+                return base
+            if text.startswith(label + "/"):
+                return base / text[len(label) + 1:]
+        raise ValueError("Segnaposto di percorso non risolvibile: " + text)
+    path = Path(text)
+    return path if path.is_absolute() else Path(ROOT) / path
+
+
+def sanitize(value):
+    if isinstance(value, str):
+        return neutral_text(value)
+    if isinstance(value, dict):
+        return {sanitize(k): sanitize(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [sanitize(v) for v in value]
+    return value
+
+
 def require(condition, message):
     if not condition:
         raise ValueError(message)
@@ -85,7 +164,12 @@ def write_new(path, text):
 
 
 def json_new(path, value):
-    write_new(path, json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+    write_new(path, json.dumps(sanitize(value), ensure_ascii=False, indent=2) + "\n")
+
+
+def json_write(path, value):
+    """Aggiorna una ricevuta già creata da json_new, con gli stessi percorsi neutri."""
+    Path(path).write_text(json.dumps(sanitize(value), ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def sha(path):
@@ -318,7 +402,7 @@ def take_scope(config_path, apply=False, run_checks=True):
                                      cwd=ROOT, text=True, encoding="utf-8", capture_output=True)
             require(checked.returncode == 0, f"Presa scritta; controllo {script} fallito: {checked.stdout}{checked.stderr}")
     result = {**summary, "fase": "SCRITTO", "controlli": "OK" if run_checks else "fixture"}
-    receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    json_write(receipt, result)
     return result
 
 
@@ -369,7 +453,7 @@ def sync_titles(config_path, apply=False, run_checks=True):
                                  cwd=ROOT, text=True, encoding="utf-8", capture_output=True)
         require(checked.returncode == 0, "Titoli scritti; lint fallito: " + checked.stdout + checked.stderr)
     result = {**summary, "fase": "SCRITTO", "controlli": "OK" if run_checks else "fixture"}
-    receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    json_write(receipt, result)
     return result
 
 
@@ -429,7 +513,7 @@ def set_pages(config_path, apply=False, run_checks=True):
         require(checked.returncode == 0, "Pagine scritte; lint fallito: " + checked.stdout + checked.stderr)
     result = {**summary, "fase": "SCRITTO", "prima": hashlib.sha256(before).hexdigest(),
               "dopo": hashlib.sha256(after).hexdigest(), "controlli": "OK" if run_checks else "fixture"}
-    receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    json_write(receipt, result)
     return result
 
 
@@ -607,11 +691,11 @@ def registration(config_path, apply=False, run_checks=True):
     require(not receipt.exists(), "Registrazione già tentata: controllare ricevuta e delta, non ripetere alla cieca")
     # Tutte le precondizioni precedono qualsiasi scrittura. Ricevuta conservata anche se un controllo finale fallisce.
     receipt_data = {**summary, "fase": "IN_CORSO", "impronte": [
-        {"path": str(p), "prima": hashlib.sha256(a).hexdigest(), "dopo": hashlib.sha256(z).hexdigest()}
+        {"path": neutral(p), "prima": hashlib.sha256(a).hexdigest(), "dopo": hashlib.sha256(z).hexdigest()}
         for p, a, z in changes]}
     json_new(receipt, receipt_data)
     for path, old, new in changes:
-        require(path.read_bytes() == old, "File cambiato durante la registrazione: " + str(path))
+        require(path.read_bytes() == old, "File cambiato durante la registrazione: " + neutral(path))
         temporary = path.with_name(path.name + ".vc-nuovo")
         with temporary.open("xb") as stream:
             stream.write(new)
@@ -623,7 +707,7 @@ def registration(config_path, apply=False, run_checks=True):
             require(checked.returncode == 0, f"Registrazioni scritte; controllo {script} fallito: {checked.stdout}{checked.stderr}")
     result = {**receipt_data, "fase": "SCRITTO", "controlli": "OK" if run_checks else "fixture",
               "giornale": "Usare una volta diario/nuova-voce.py con nota e prossima_azione del JSON"}
-    receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    json_write(receipt, result)
     return result
 
 
@@ -741,17 +825,17 @@ def reveal(destination, block_id):
     require(not extra, "File estranei nel blocco, da spostare nella cartella di lavoro prima di rivelare: " + ", ".join(extra))
     inventory = read_json(folder / "inventario.json")
     require(read_json(folder / "input-fonte.json")["pagine"] == block["pagine"], "Mappa fonte incoerente")
-    target = Path(plan["target"])
+    target = restore(plan["target"])
     require(sha(target) == plan["snapshot_sha256"], "Target vivo cambiato dopo la preparazione")
     cleaned = clean_target(target)
     require(digest_text(cleaned) == plan["clean_sha256"], "Depurazione cambiata")
     text, _ = slice_lines(cleaned, block["righe"])
     require(digest_text(text) == block["target_sha256"], "Estratto diverso dal target preparato")
     for asset in block["assets"]:
-        require(sha(asset["source"]) == asset["sha256"], "Asset cambiato: " + asset["name"])
+        require(sha(restore(asset["source"])) == asset["sha256"], "Asset cambiato: " + asset["name"])
         require(not inside(folder, asset["name"]).exists(), "Destinazione asset già presente")
     for source in plan["fonti"].values():
-        require(sha(source["pdf"]) == source["sha256"].lower(), "Fonte PDF cambiata dopo la preparazione")
+        require(sha(restore(source["pdf"])) == source["sha256"].lower(), "Fonte PDF cambiata dopo la preparazione")
     # La traccia si scrive e si riapre PRIMA di creare testo.md o gli asset.
     freeze = {"versione": 1, "data_utc": datetime.now(timezone.utc).isoformat(), "firma": inventory["firma"],
               "inventario_sha256": sha(folder / "inventario.json"), "esito_provvisorio": inventory["esito_provvisorio"],
@@ -762,7 +846,7 @@ def reveal(destination, block_id):
     for asset in block["assets"]:
         path = inside(folder, asset["name"])
         path.parent.mkdir(parents=True, exist_ok=True)
-        with Path(asset["source"]).open("rb") as source, path.open("xb") as output:
+        with restore(asset["source"]).open("rb") as source, path.open("xb") as output:
             shutil.copyfileobj(source, output)
         require(sha(path) == asset["sha256"], "Asset cambiato durante la copia")
     names = [p.relative_to(folder).as_posix() for p in folder.rglob("*") if p.is_file()]
@@ -1078,6 +1162,9 @@ def main():
     costs.add_argument("cartella_log")
     costs.add_argument("--contiene", required=True, help="Filtro identificativo del ruolo, es. _343")
     args = parser.parse_args()
+    for key, value in vars(args).items():
+        if isinstance(value, str) and value.startswith(("<workspace>", "<temp>", "<home>")):
+            setattr(args, key, str(restore(value)))
     try:
         if args.command == "stato":
             with (ROOT / "registro-verifica-conformita-ntc2018.csv").open(encoding="utf-8-sig", newline="") as stream:
@@ -1120,8 +1207,8 @@ def main():
         else:
             result = usage(args.cartella_log, args.contiene)
     except (ValueError, OSError, KeyError, StopIteration, TypeError) as error:
-        parser.exit(1, f"ERRORE VC: {error}\n")
-    print(json.dumps(result, ensure_ascii=False))
+        parser.exit(1, f"ERRORE VC: {neutral_text(str(error))}\n")
+    print(json.dumps(sanitize(result), ensure_ascii=False))
 
 
 if __name__ == "__main__":

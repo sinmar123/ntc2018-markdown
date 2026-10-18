@@ -17,12 +17,14 @@ Ramo `gbot/vc-8.7.2-261018`, basato su `cdx/vc-8.7.1-261017` (PR #19) e allineat
 9. `93b833b` Testo della PR, fuori dal manifest.
 10. `1d4c0e2` (dal ramo della PR #19) Rettifica documentale 8.7.1: percorsi locali oscurati nella ricevuta di registrazione.
 11. `755a2da` Merge di `cdx/vc-8.7.1-261017` (nessun rebase).
-12. Rettifica documentale 8.7.2: percorsi locali oscurati nella ricevuta di registrazione; testo della PR aggiornato.
+12. `8f471ae` Rettifica documentale 8.7.2: percorsi locali oscurati nella ricevuta di registrazione; testo della PR aggiornato.
+13. `vc-supporto.py`: percorsi neutri in ricevute, pacchetti, manifest e uscita JSON (decisione di Sandro del 2026-10-18 alle 20:14); test, `vc-supporto.md`, CHANGELOG e questo testo.
 
 ## Cosa cambia
 
 - **Testo 8.7.2**: applicate con `applica-lista` le 70 voci della lista v1 approvata da Sandro il 2026-10-18 alle 16:15 (5 sostanziali: esponente 0.225 di [C8.7.2.1] senza segno meno, pedici b_o e h_o sotto [C8.7.2.2], V_W nelle formule [C8.7.2.8]-[C8.7.2.10]; 65 di forma). Dopo il G6, i tre blocchi «dove:» di [C8.7.2.1], [C8.7.2.8] e [C8.7.2.13] sono diventati elenchi puntati (voce 18 del catalogo, 21 righe, testo invariato). Indici interni rigenerati; nessun altro file normativo toccato.
 - **Registro**: riga 8.7.2 `VC-OK`, procedura VC-NTC/10, agente Grok Bot (GBOT); totale 57 `VC-OK`, 0 `IN-CORSO`, 27 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 286 `MAI-FATTA` (379 righe). Lint senza errori (7 avvisi già presenti).
+- **Strumento**: su decisione di Sandro (18/10 20:14) `vc-supporto.py` non scrive più percorsi assoluti della macchina. Nelle ricevute di `prendi`, `sincronizza-titoli`, `pagine` e `registra`, nei file di `prepara`, `rivela` e `pacchetto-modifiche`, nei manifest, nell'uscita JSON e nei messaggi d'errore i percorsi del progetto sono relativi; gli altri diventano `<workspace>/...`, `<temp>/...` o `<home>/...`. `rivela` e la riga di comando risolvono i segnaposto, e i file storici restano leggibili. Due test nuovi, 40 test OK; documentazione in `strumenti/vc-supporto.md`. I manifest di 8.7.1 e 8.7.2 non cambiano: lo strumento non è fra i loro input.
 - **Governo**: README, TODO, CHANGELOG, indice, revisione del capitolo 8 e scheda allineati da `vc-supporto.py registra`.
 
 ## Chi ha fatto cosa
@@ -36,5 +38,5 @@ Ramo `gbot/vc-8.7.2-261018`, basato su `cdx/vc-8.7.1-261017` (PR #19) e allineat
 
 - [C8.7.2.8] resta su due righe con il tag sotto: scarto di sola resa, deciso da Sandro (la formula su una riga non entra nella pagina).
 - Isolamento: sandbox read-only senza `--always-approve`, cartelle temporanee esterne; i V hanno letto istruzioni del runtime (SKILL.md del plugin pdf, AGENTS.md del workspace), dichiarate nel verbale.
-- Ricevute `chiusura.eseguito.json` di 8.7.1 e 8.7.2: i percorsi assoluti del W520 sono sostituiti da `<workspace>` su decisione di Sandro (18/10 19:07), con nota `rettifica-percorsi-20261018.json` nel dossier (impronte prima e dopo). Le ricevute sono fuori dai manifest: `verifica-manifest` resta OK per entrambi gli scope. Restano percorsi assoluti in 100 file già presenti su `main` di scope precedenti, non toccati qui.
+- Ricevute `chiusura.eseguito.json` di 8.7.1 e 8.7.2: i percorsi assoluti del W520 sono sostituiti da `<workspace>` su decisione di Sandro (18/10 19:07), con nota `rettifica-percorsi-20261018.json` nel dossier (impronte prima e dopo). Le ricevute sono fuori dai manifest: `verifica-manifest` resta OK per entrambi gli scope. Restano percorsi assoluti in 100 file già presenti su `main` di scope precedenti: per decisione di Sandro restano come sono, e lo strumento è corretto per il futuro.
 - PDF e PNG di prova restano locali secondo `.gitignore`; il manifest ne conserva le impronte.
