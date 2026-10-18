@@ -1,5 +1,11 @@
 # Changelog - NTC 2018
 
+## 2026-10-18 - PROCEDURA-VC revisione 10: verificatori, scelta dei modelli e note `[^n]`, GBOT-verifica-ntc
+
+Decisioni di Sandro del 2026-10-18 alle 13:50, 13:51 e 13:53, dopo la VC del § 8.7.1. § 5: V ordinario Codex `gpt-5.6-terra` (inventario fonte-prima, G6 integrale, controllo delle modifiche), `gpt-6.1-sol` `high` per punti dubbi e G7; Luna non si usa per V. Nuovo capoverso sulla scelta aperta dei modelli: Terra e Sol sono predefiniti, Sandro può provarne altri in ogni momento, ogni prova si registra nel dossier con modello, impostazioni ed esito, un cambio stabile è decisione di Sandro registrata; V resta indipendente da C e dall'autore della lista. Antigravity non lo lancia nessun agente, Sandro può usarlo lui stesso sul W520 e le sue prove si registrano come le altre. Adeguata la frase sul profilo critico assente (non sotto Terra, mai Luna per V). § 4: note a piè di pagina come nota Markdown `[^n]`, voce 25 del catalogo. Copia della revisione 9 in `old/PROCEDURA-VC-r09-20261016.md`; README aggiornato. La VC del § 8.7.1, svolta con la revisione 9, non cambia.
+
+Firma: GBOT-verifica-ntc.
+
 ## 2026-10-18 - VC-OK del § 8.7.1 con C8.7.1, GBOT-verifica-ntc
 
 VC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.
