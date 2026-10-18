@@ -1,5 +1,11 @@
 # Changelog - NTC 2018
 
+## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2, GBOT-verifica-ntc
+
+VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c…3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md). Firma: GBOT-verifica-ntc.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-18 - PROCEDURA-VC revisione 10: verificatori, scelta dei modelli e note `[^n]`, GBOT-verifica-ntc
 
 Decisioni di Sandro del 2026-10-18 alle 13:50, 13:51 e 13:53, dopo la VC del § 8.7.1. § 5: V ordinario Codex `gpt-5.6-terra` (inventario fonte-prima, G6 integrale, controllo delle modifiche), `gpt-6.1-sol` `high` per punti dubbi e G7; Luna non si usa per V. Nuovo capoverso sulla scelta aperta dei modelli: Terra e Sol sono predefiniti, Sandro può provarne altri in ogni momento, ogni prova si registra nel dossier con modello, impostazioni ed esito, un cambio stabile è decisione di Sandro registrata; V resta indipendente da C e dall'autore della lista. Antigravity non lo lancia nessun agente, Sandro può usarlo lui stesso sul W520 e le sue prove si registrano come le altre. Adeguata la frase sul profilo critico assente (non sotto Terra, mai Luna per V). § 4: note a piè di pagina come nota Markdown `[^n]`, voce 25 del catalogo. Copia della revisione 9 in `old/PROCEDURA-VC-r09-20261016.md`; README aggiornato. La VC del § 8.7.1, svolta con la revisione 9, non cambia.

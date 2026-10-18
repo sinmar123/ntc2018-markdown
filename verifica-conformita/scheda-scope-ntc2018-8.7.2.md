@@ -1,6 +1,6 @@
 ---
 scope_id: ntc2018-8.7.2
-stato: IN-CORSO
+stato: CHIUSO
 agente: GBOT
 agente_istanza: GBOT-verifica-ntc
 macchina: "W520; GBOT-verifica-ntc come C; Codex sul W520 per confronto integrale, G5 e G6"
@@ -18,9 +18,9 @@ snapshot_sha256: 6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b68
 giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: OK}
 attesa_decisione: []
-prossimo_passo: "G7 tentativo 2 con Codex gpt-6.1-sol (high, read-only, contesto nuovo); se OK registra, governo, diario e commit locali."
+prossimo_passo: "Nessuna sul file: VC conclusa sullo snapshot registrato."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo sulla fonte, lista per Sandro, worktree e commit"}
@@ -98,5 +98,11 @@ Firma: GBOT-verifica-ntc, 2026-10-18.
 - G7-AUDIT-02: campo `manifest_sha256` aggiunto a `chiusura.json`.
 - Target, copertura e giudizi invariati (§ 8, errore solo documentale).
 - Lotto di chiusura rigenerato per il G7 tentativo 2.
+
+Firma: GBOT-verifica-ntc, 2026-10-18.
+
+## Chiusura 2026-10-18
+
+G7 tentativo 2 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `OK` (tentativo 1 `KO` per due ERR-AUDIT documentali, rettificati), gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio.json`, snapshot `6b338b8c…3b689` (`vc-ntc2018-8.7.2-2026-10-18/G7.json`). Riga 8.7.2 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.2-2026-10-18.md).
 
 Firma: GBOT-verifica-ntc, 2026-10-18.
