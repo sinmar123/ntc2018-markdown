@@ -86,5 +86,21 @@
  "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/presa-gbot.eseguito.json",
  "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/presa-gbot.json",
  "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/procedura-congelata-r10.md",
- "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/sequenza-g6.json"
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/sequenza-g6.json",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/g6-rilievi-8.7.2.pdf",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p285-bo600.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p285-dove200.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p285-thu600.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p287-dove110.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p287-f8-300.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p289-dove200.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p289-eRd800.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/prove-c-sha256.json",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/prove-vettoriali.json",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/r-bo.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/r-dove1.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/r-f8.png",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/G7-tentativo-1-KO.json",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/G7-tentativo-1-redazione.json",
+ "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio-g7-tentativo-1.json"
 ]

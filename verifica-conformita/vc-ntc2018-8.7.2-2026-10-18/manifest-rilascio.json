@@ -22,6 +22,16 @@
       "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/G7-tentativo-1-KO.json",
+      "bytes": 2667,
+      "sha256": "358eb806d5e6075f4d18247e26fa80c8f8d8b55026d4d116e5395c5710c37446"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/G7-tentativo-1-redazione.json",
+      "bytes": 867,
+      "sha256": "c0a2b88a8cb445a35232e198d68c9e7d64d0597a417518abf0c97f007a74c114"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/catalogo-congelato.md",
       "bytes": 8671,
       "sha256": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48"
@@ -412,6 +422,11 @@
       "sha256": "c4addd34bff59b301d8195431a04369e52da2b3bc801bea94d6f3d6e8cde2deb"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio-g7-tentativo-1.json",
+      "bytes": 18639,
+      "sha256": "5fc2b42a53b5b330a0c29da218a3bff69a75c312800f27b2b556b729e32dd706"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/mappa-g5.json",
       "bytes": 2867,
       "sha256": "73cdc84ce9b51551e8bab1e167a214f449006d7eddcf533d9ae61373d96ff1a1"
@@ -432,14 +447,79 @@
       "sha256": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/g6-rilievi-8.7.2.pdf",
+      "bytes": 611704,
+      "sha256": "af9cb17e3dddaca191fc1ceacf88561a130fcec05910bf8ceb242d68a6adf66f"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p285-bo600.png",
+      "bytes": 12879,
+      "sha256": "c7b29d753f5c49e760165cc9553540cf9a0c9ff9080717862b326d8083639abf"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p285-dove200.png",
+      "bytes": 121765,
+      "sha256": "df47b5684267c4d19324b9a6c3d6d37f7fbcca17c8efba0016a66fac692274d9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p285-thu600.png",
+      "bytes": 39827,
+      "sha256": "b395f4616fff6325ef667cb898a6c4447945ba64682d63112940df8f5dca6445"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p287-dove110.png",
+      "bytes": 121733,
+      "sha256": "3bec75fe2ea84b0d9ff6a679d497f17adb8e21669f43d09a865c0608000c3c25"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p287-f8-300.png",
+      "bytes": 31437,
+      "sha256": "6c1c15a31f8cb654c376e3148deab691ce21b46aa752dc0b54a3b468996e6232"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p289-dove200.png",
+      "bytes": 21444,
+      "sha256": "6d690140c9a5bc9ae9af5aead1c2c66df74f43387f7a8714097c873c866339f7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/p289-eRd800.png",
+      "bytes": 15960,
+      "sha256": "569956e1b69801f51581d9410813389e94dcccb68cd7b036ed062277706920e4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/prove-c-sha256.json",
+      "bytes": 2834,
+      "sha256": "5f61d0524276c35f9632d5711f6391ed01b77e3cb0c356866f5c16c314d40bed"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/prove-vettoriali.json",
+      "bytes": 3915,
+      "sha256": "aecbfcfe43d0aa8000a59e782f50a09c87a1d9bdab31c831d4c8bc22a1ab3dde"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/r-bo.png",
+      "bytes": 19060,
+      "sha256": "d6f0c972e0946dc8cae50c57b340c63336cbf28d1bb41a1e3b5412876ec774a5"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/r-dove1.png",
+      "bytes": 85406,
+      "sha256": "9fbfd4a58de0ec95c46ae9ca5f7367c198222d470614260e3c8fcfbdea7851af"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/prove-c/r-f8.png",
+      "bytes": 29460,
+      "sha256": "adae0276ed44b2ea58cb0df4c9cfc4ba08b4c76a0d213dc17c16829331be1b60"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/sequenza-g6.json",
       "bytes": 2394,
       "sha256": "a57468949817743f434366aba6ae2e4fccd55ea298f17c40907a23e54c69648e"
     },
     {
       "path": "verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md",
-      "bytes": 7874,
-      "sha256": "090eacab739d30c9796b165e504d7bb4ef17d5f203c463cb31080b1147e6521a"
+      "bytes": 9022,
+      "sha256": "c1b732bd866a5aff8fdf9d38592cdb1cf3c05e7c0092727731c2578997f87999"
     }
   ]
 }

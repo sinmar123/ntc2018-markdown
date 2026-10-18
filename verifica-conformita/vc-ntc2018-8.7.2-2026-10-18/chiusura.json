@@ -5,8 +5,9 @@
   "g7": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/G7.json",
   "g7_sha256": "DA_COMPILARE_DOPO_IL_G7",
   "manifest": "verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio.json",
+  "manifest_sha256": "aa1ba51dfc853bd3766a5f6e911ef44e66505693a3d3d6eabd0f1cddb6685b3b",
   "verbale": "verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md",
-  "verbale_sha256": "090eacab739d30c9796b165e504d7bb4ef17d5f203c463cb31080b1147e6521a",
+  "verbale_sha256": "c1b732bd866a5aff8fdf9d38592cdb1cf3c05e7c0092727731c2578997f87999",
   "nota": "VC-OK del solo file cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md, § 8.7.2 con C8.7.2, NTC 298 e Circolare 283-289. C GBOT-verifica-ntc: lista v1 di 70 voci approvata da Sandro, G5, giudizio dei 6 rilievi del G6, correzione dei blocchi «dove:». Codex gpt-5.6-terra: confronto iniziale, G6 giro 1 e controllo delle modifiche. Codex gpt-6.1-sol: G7.",
   "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
   "procedura_vc": "VC-NTC/10",
@@ -39,8 +40,8 @@
     },
     {
       "path": "verifica-conformita/scheda-scope-ntc2018-8.7.2.md",
-      "prima": "`giro_g6` resta 1; il § 8 non prevede un G6 di riscontro. G6: OK.\n\nFirma: GBOT-verifica-ntc, 2026-10-18.\n",
-      "dopo": "`giro_g6` resta 1; il § 8 non prevede un G6 di riscontro. G6: OK.\n\nFirma: GBOT-verifica-ntc, 2026-10-18.\n\n## Chiusura 2026-10-18\n\nG7 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `OK`, gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio.json`, snapshot `6b338b8c…3b689` (`vc-ntc2018-8.7.2-2026-10-18/G7.json`). Riga 8.7.2 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.2-2026-10-18.md).\n\nFirma: GBOT-verifica-ntc, 2026-10-18.\n"
+      "prima": "- Lotto di chiusura rigenerato per il G7 tentativo 2.\n\nFirma: GBOT-verifica-ntc, 2026-10-18.\n",
+      "dopo": "- Lotto di chiusura rigenerato per il G7 tentativo 2.\n\nFirma: GBOT-verifica-ntc, 2026-10-18.\n\n## Chiusura 2026-10-18\n\nG7 tentativo 2 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `OK` (tentativo 1 `KO` per due ERR-AUDIT documentali, rettificati), gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio.json`, snapshot `6b338b8c…3b689` (`vc-ntc2018-8.7.2-2026-10-18/G7.json`). Riga 8.7.2 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.2-2026-10-18.md).\n\nFirma: GBOT-verifica-ntc, 2026-10-18.\n"
     }
   ]
 }

@@ -18,7 +18,7 @@ Vigenza: ricognizione piena del 2026-10-13, ricontrollo mirato del 2026-10-18 (`
 - Controllo delle modifiche (§ 8): V Codex gpt-5.6-terra, high, read-only, contesto nuovo; continuità con il G6 dichiarata tramite i rapporti conservati.
 - G7: Codex gpt-6.1-sol, high, read-only, contesto nuovo, giudizio in `G7.json`.
 
-Natura: verifica svolta da agenti AI; nessuna revisione umana integrale. Sandro ha approvato la lista v1, deciso i dubbi e i sei rilievi del G6. Isolamento reale: cartelle temporanee esterne al workspace e sandbox read-only di Codex, senza `--always-approve`; nessuna sandbox di lettura dimostrata. Nel G6 entrambi i V hanno letto lo SKILL.md del plugin pdf di Codex (caricamento del runtime, nessun dato del corpus) e il V di b02 ha fatto una chiamata Computer Use con risultato vuoto. In sandbox read-only V non può scrivere file: C ha trascritto byte per byte i messaggi finali JSON di V.
+Natura: verifica svolta da agenti AI; nessuna revisione umana integrale. Sandro ha approvato la lista v1, deciso i dubbi e i sei rilievi del G6. Isolamento reale: cartelle temporanee esterne al workspace e sandbox read-only di Codex, senza `--always-approve`; nessuna sandbox di lettura dimostrata. Nel G6 entrambi i V hanno letto lo SKILL.md del plugin pdf di Codex (caricamento del runtime, nessun dato del corpus) e il V di b02 ha fatto una chiamata Computer Use con risultato vuoto. Nel G7 il verificatore ha letto l'AGENTS.md del workspace come istruzione preliminare del runtime, senza usarlo come fonte. In sandbox read-only V non può scrivere file: C ha trascritto byte per byte i messaggi finali JSON di V.
 
 ## Correzioni prima del G6
 
@@ -30,7 +30,7 @@ G5 OK: testo depurato di 353 righe, resa canonica `g5/resa-finale.pdf` di 8 pagi
 
 ## Esito dei sei rilievi
 
-Decisione di Sandro del 2026-10-18 alle 16:53 (`decisione-g6-20261018.json`), sul confronto preparato da C:
+Decisione di Sandro del 2026-10-18 alle 16:53 (`decisione-g6-20261018.json`), sul confronto preparato da C. Le prove di C (PDF di confronto consegnato a Sandro, ritagli a 110-800 dpi e span del livello vettoriale) sono in `vc-ntc2018-8.7.2-2026-10-18/prove-c/`, con le impronte in `prove-c/prove-c-sha256.json`:
 
 - COND-C285-DOVE-1 (`ERR-MD`): fondato, voce 18 del catalogo. I blocchi «dove:» dopo [C8.7.2.1], [C8.7.2.8] e [C8.7.2.13] sono resi come elenco puntato, solo con il marcatore, testo invariato; l'estensione agli ultimi due blocchi è di C. L'errore veniva dalla lista v1.
 - FORM-287-03 (`ERR-MD`): chiuso senza modifiche per decisione di Sandro. [C8.7.2.8] resta in due righe con il tag sotto: contenuto identico alla fonte, scarto di sola resa, non regolato dal catalogo.
@@ -47,7 +47,9 @@ V gpt-5.6-terra dalle 16:59 alle 17:02: diff OK (solo i 21 marcatori), COND-C285
 
 ## Normalizzazioni, limiti e manifest
 
-Normalizzazioni applicate secondo il catalogo, voci 1-25; in questo scope in particolare voci 1, 3, 4, 5, 16, 18, 19, 20, 21 e 23. La resa canonica del controllo delle modifiche include in testa l'indice interno e le righe di navigazione, che la resa G5 non conteneva: non sono testo normativo. Consumi: Codex gpt-5.6-terra, confronto iniziale 149.256 e 164.504 token; G6 b01 276.110 + 1.387.422 token di input (in gran parte in cache), 27.578 di output; G6 b02 258.065 + 615.542 di input, 19.895 di output; controllo delle modifiche 369.881 di input, 3.761 di output. G7 nel giudizio. Nessun costo in valuta esposto.
+Normalizzazioni applicate secondo il catalogo, voci 1-25; in questo scope in particolare voci 1, 3, 4, 5, 16, 18, 19, 20, 21 e 23. La resa canonica del controllo delle modifiche include in testa l'indice interno e le righe di navigazione, che la resa G5 non conteneva: non sono testo normativo. Consumi: Codex gpt-5.6-terra, confronto iniziale 149.256 e 164.504 token; G6 b01 276.110 + 1.387.422 token di input (in gran parte in cache), 27.578 di output; G6 b02 258.065 + 615.542 di input, 19.895 di output; controllo delle modifiche 369.881 di input, 3.761 di output. Codex gpt-6.1-sol, G7 tentativo 1: 302.493 di input, 3.627 di output; tentativo 2 nel giudizio. Nessun costo in valuta esposto.
+
+Il G7 tentativo 1 (Codex gpt-6.1-sol, dalle 17:09 alle 17:11) è stato `KO` per due `ERR-AUDIT` documentali: il PDF di confronto con le prove di C, citato da `decisione-g6-20261018.json` ed `esito-g6.json`, era fuori dal manifest (G7-AUDIT-01); il piano di registrazione non riportava l'impronta del manifest richiesta dalla consegna di C (G7-AUDIT-02). Su decisione di Sandro delle 18:55 C li ha rettificati con la cartella `prove-c/` e il campo `manifest_sha256` di `chiusura.json`, senza toccare target, copertura o giudizi. Il tentativo 1 è conservato in `vc-ntc2018-8.7.2-2026-10-18/G7-tentativo-1-KO.json` (percorso locale redatto, `G7-tentativo-1-redazione.json`), con il manifest di allora `manifest-rilascio-g7-tentativo-1.json`.
 
 Il giudizio G7 è `vc-ntc2018-8.7.2-2026-10-18/G7.json`: sta fuori dal manifest perché ne riporta l'impronta. [Manifest](vc-ntc2018-8.7.2-2026-10-18/manifest-rilascio.json). [Scheda](scheda-scope-ntc2018-8.7.2.md). Le pagine PNG e i PDF di prova restano locali secondo `.gitignore`; il manifest ne conserva le impronte.
 

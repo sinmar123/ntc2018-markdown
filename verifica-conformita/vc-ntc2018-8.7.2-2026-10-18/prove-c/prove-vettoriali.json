@@ -1,0 +1,257 @@
+{
+ "fonte": "Circolare 21/01/2019 n. 7, GU SO 5 n. 35 dell'11/02/2019, PDF SHA-256 f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+ "estrazione": "PyMuPDF get_text rawdict, sul box di C, 2026-10-18",
+ "F-C285-87221": {
+  "pagina": 285,
+  "nota": "esponente di [C8.7.2.1]: caratteri fra x 282 e 298 pt nella riga della formula; nessun segno meno; «0» a x 286,5, «.» a x 288,9 e «225» a x 290,1-294,9, corpo 5,0; i glifi SymbolMT a x 283,2 sono i pezzi della parentesi quadra",
+  "span": [
+   {
+    "testo": "e di",
+    "font": "PalatinoLinotype-Roman",
+    "corpo": 7.8,
+    "x": [
+     284.2,
+     288.0,
+     291.8,
+     296.6
+    ],
+    "y": 338.6
+   },
+   {
+    "testo": "225",
+    "font": "TimesNewRomanPSMT",
+    "corpo": 5.0,
+    "x": [
+     290.1,
+     292.5,
+     294.9
+    ],
+    "y": 366.8
+   },
+   {
+    "testo": ".0",
+    "font": "TimesNewRomanPSMT",
+    "corpo": 5.0,
+    "x": [
+     288.9,
+     286.5
+    ],
+    "y": 366.8
+   },
+   {
+    "testo": "\u0018",
+    "font": "SymbolMT",
+    "corpo": 7.8,
+    "x": [
+     298.0
+    ],
+    "y": 375.8
+   },
+   {
+    "testo": "\u001a",
+    "font": "SymbolMT",
+    "corpo": 7.8,
+    "x": [
+     298.0
+    ],
+    "y": 382.5
+   },
+   {
+    "testo": "\u0014",
+    "font": "SymbolMT",
+    "corpo": 7.8,
+    "x": [
+     298.0
+    ],
+    "y": 370.5
+   },
+   {
+    "testo": "\u0017\n",
+    "font": "SymbolMT",
+    "corpo": 7.8,
+    "x": [
+     283.2,
+     283.2
+    ],
+    "y": 377.5
+   },
+   {
+    "testo": "\b",
+    "font": "SymbolMT",
+    "corpo": 7.8,
+    "x": [
+     283.2
+    ],
+    "y": 369.6
+   }
+  ]
+ },
+ "COND-C285-POST-ALFA": {
+  "pagina": 285,
+  "nota": "pedici di b e h nel capoverso sotto [C8.7.2.2]",
+  "span": [
+   {
+    "testo": "(",
+    "font": "PalatinoLinotype-Roman",
+    "corpo": 7.8,
+    "x": [
+     147.7
+    ]
+   },
+   {
+    "testo": "b",
+    "font": "PalatinoLinotype-Italic",
+    "corpo": 7.8,
+    "x": [
+     150.3
+    ]
+   },
+   {
+    "testo": "o",
+    "font": "PalatinoLinotype-Italic",
+    "corpo": 4.8,
+    "x": [
+     153.9
+    ]
+   },
+   {
+    "testo": " e ",
+    "font": "PalatinoLinotype-Roman",
+    "corpo": 7.8,
+    "x": [
+     156.0,
+     158.9,
+     162.7
+    ]
+   },
+   {
+    "testo": "h",
+    "font": "PalatinoLinotype-Italic",
+    "corpo": 7.8,
+    "x": [
+     165.6
+    ]
+   },
+   {
+    "testo": "o",
+    "font": "PalatinoLinotype-Italic",
+    "corpo": 4.8,
+    "x": [
+     169.5
+    ]
+   },
+   {
+    "testo": " ",
+    "font": "PalatinoLinotype-Roman",
+    "corpo": 7.8,
+    "x": [
+     171.6
+    ]
+   }
+  ]
+ },
+ "FORM-289-01": {
+  "pagina": 289,
+  "nota": "pedice di M in [C8.7.2.13]: e, punto, Rd",
+  "span": [
+   {
+    "testo": " ",
+    "font": "PalatinoLinotype-Roman",
+    "corpo": 7.8,
+    "x": [
+     246.3
+    ]
+   },
+   {
+    "testo": "EI",
+    "font": "Times-Italic",
+    "corpo": 9.5,
+    "x": [
+     223.7,
+     229.6
+    ]
+   },
+   {
+    "testo": "L",
+    "font": "Times-Italic",
+    "corpo": 9.5,
+    "x": [
+     230.8
+    ]
+   },
+   {
+    "testo": "M",
+    "font": "Times-Italic",
+    "corpo": 9.5,
+    "x": [
+     208.8
+    ]
+   },
+   {
+    "testo": "V",
+    "font": "Times-Italic",
+    "corpo": 6.1,
+    "x": [
+     235.1
+    ]
+   },
+   {
+    "testo": "Rd",
+    "font": "Times-Italic",
+    "corpo": 6.1,
+    "x": [
+     222.6,
+     226.3
+    ]
+   },
+   {
+    "testo": "e",
+    "font": "Times-Italic",
+    "corpo": 6.1,
+    "x": [
+     217.8
+    ]
+   },
+   {
+    "testo": "y",
+    "font": "Times-Italic",
+    "corpo": 6.1,
+    "x": [
+     194.1
+    ]
+   },
+   {
+    "testo": "2",
+    "font": "TimesNewRomanPSMT",
+    "corpo": 9.5,
+    "x": [
+     218.5
+    ]
+   },
+   {
+    "testo": ".",
+    "font": "TimesNewRomanPSMT",
+    "corpo": 6.1,
+    "x": [
+     220.6
+    ]
+   },
+   {
+    "testo": "\u0004",
+    "font": "SymbolMT",
+    "corpo": 9.5,
+    "x": [
+     200.2
+    ]
+   },
+   {
+    "testo": "P",
+    "font": "SymbolMT",
+    "corpo": 9.5,
+    "x": [
+     187.4
+    ]
+   }
+  ]
+ }
+}
