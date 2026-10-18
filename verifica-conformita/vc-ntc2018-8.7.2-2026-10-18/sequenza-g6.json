@@ -1,0 +1,59 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.2",
+  "data": "2026-10-18",
+  "giro_g6": 1,
+  "configurazione_valida": {
+    "file": "config-g6.json",
+    "sha256": "eb801caf54060d561d05138e80535f2c9c97e7cf93c76f00daf39de689ad61cd",
+    "destinazione_locale": "%LOCALAPPDATA%\\Temp\\ntc2018-g6-8.7.2-261018-gbot"
+  },
+  "fasi": {
+    "fase_1_inventario": "16:21-16:25 (ora di Roma), b01 e b02 in parallelo, contesti nuovi",
+    "valida_inventario": "OK per b01 e b02",
+    "rivela": "integrità OK per b01 e b02",
+    "fase_2_confronto": "16:28-16:36 (b01) e 16:28-16:35 (b02), stesso contesto della fase 1 (codex exec resume)",
+    "valida_g6": "schema OK; b01 38 ID coperti, 4 rilievi; b02 28 ID coperti, 2 rilievi"
+  },
+  "hash": {
+    "b01_inventario": "bbda3373d323412bf5adf0c2eb3ba70b4f9eac08381b9183a4bd1608cf448f90",
+    "b01_rapporto": "d004a35a0511ef3ad3efc9150ad0a1a8d220d9fce58a1efb2aa64f3e9e88fad0",
+    "b02_inventario": "e6f67c42227983a941b3c53675cdb21c8376041d9bdd371180ed84b868a5550e",
+    "b02_rapporto": "e1d588f60e33caceffcab5548de7f6418fc30f91f022852725679ed8b905e208"
+  },
+  "profilo_v": {
+    "motore": "Codex CLI",
+    "modello_richiesto": "gpt-5.6-terra",
+    "ragionamento": "high",
+    "sandbox": "read-only, senza --always-approve",
+    "indipendenza": "V non ha scritto la lista né visto il dossier; C = GBOT-verifica-ntc",
+    "trascrizione": "In sandbox read-only V non può scrivere file: C ha trascritto byte per byte il messaggio finale JSON di V in inventario.json e rapporto-g6.json (scarto documentato, come per 8.7.1).",
+    "isolamento_dichiarato": "Entrambi i V hanno letto lo SKILL.md del plugin pdf di Codex (caricamento runtime, fuori dal blocco, nessun dato del corpus). V di b02 in fase 1 ha fatto una chiamata Computer Use getState con risultato vuoto (nessuna app né browser esposti)."
+  },
+  "consumi_token": {
+    "b01_fase1": {
+      "input": 276110,
+      "input_in_cache": 239488,
+      "output": 6332,
+      "ragionamento": 3125
+    },
+    "b02_fase1": {
+      "input": 258065,
+      "input_in_cache": 223488,
+      "output": 4366,
+      "ragionamento": 1817
+    },
+    "b01_fase2": {
+      "input": 1387422,
+      "input_in_cache": 1298176,
+      "output": 21246,
+      "ragionamento": 14111
+    },
+    "b02_fase2": {
+      "input": 615542,
+      "input_in_cache": 534016,
+      "output": 15529,
+      "ragionamento": 11532
+    }
+  }
+}

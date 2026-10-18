@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-18T14:27:47.854434+00:00",
+  "firma": "Codex gpt-5.6-terra, V blocco b02",
+  "inventario_sha256": "e6f67c42227983a941b3c53675cdb21c8376041d9bdd371180ed84b868a5550e",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418",
+  "manifest_fonte_sha256": "3e5eafa4bf653f12246b4e36ad9a341a119e4ed42f3177c2956d63eb0e7a0784"
+}
