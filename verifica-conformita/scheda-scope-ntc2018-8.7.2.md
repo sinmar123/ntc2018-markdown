@@ -17,10 +17,10 @@ base_git: 856c566
 snapshot_sha256: 6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689
 giro_g6: 1
 max_giri: 3
-rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
-attesa_decisione: []
-prossimo_passo: "G7 con Codex gpt-6.1-sol (high, read-only, contesto nuovo) sul lotto di chiusura; se OK registra, README, CHANGELOG, diario e commit locali."
+rilievi_aperti: 2
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
+attesa_decisione: ["G7 tentativo 1 KO: G7-AUDIT-01 (PDF di confronto citato fuori dal manifest) e G7-AUDIT-02 (impronta del manifest assente dal piano di registrazione); rettifica documentale e G7 tentativo 2 da autorizzare"]
+prossimo_passo: "Decisione di Sandro sui due ERR-AUDIT del G7 tentativo 1 (confronto in g7-rilievi-8.7.2.pdf); proposta: rettifica documentale di C e G7 tentativo 2 con gpt-6.1-sol in contesto nuovo."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo sulla fonte, lista per Sandro, worktree e commit"}
@@ -81,5 +81,12 @@ Firma: GBOT-verifica-ntc, 2026-10-18.
 - **16:55-16:56:** lista g6 di 3 voci (21 righe; nel PDF di confronto C ne aveva contate 22 per errore, perimetro e testo invariati) applicata con `applica-lista` piano e `--applica`; indici interni rigenerati (target invariato dagli indici); lint 0 errori; `verifica-lista` della lista v1 più g6, 73 voci, sulla base `61aa496`: OK. Target `6b338b8c…3b689`.
 - **16:56:** `pacchetto-modifiche` sugli stessi blocchi del G6, con nuova resa di 9 pagine; confronto meccanico con la resa G5 e osservazione dell'intero documento da parte di C.
 - **16:59-17:02:** controllo delle modifiche con V Codex `gpt-5.6-terra` (high, read-only, contesto nuovo): diff OK, tre blocchi chiusi, resa OK, nessun nuovo rilievo, esito OK (`g6-modifiche/esito-terra.json`). `giro_g6` resta 1; il § 8 non prevede un G6 di riscontro. G6: OK.
+
+Firma: GBOT-verifica-ntc, 2026-10-18.
+
+## G7 tentativo 1 (2026-10-18)
+
+- **17:09-17:11 (ora di Roma):** G7 con Codex `gpt-6.1-sol` (high, read-only, contesto nuovo) sul lotto di chiusura (verbale, piano `chiusura.json`, manifest di 88 file `5fc2b42a…dd706`, riepilogo meccanico, attestazioni). Esito `KO`: gate G0-G6 confermati OK, G7 KO per due `ERR-AUDIT` documentali: G7-AUDIT-01, il PDF di confronto con le prove di C sui dubbi del G6, citato da `decisione-g6-20261018.json` ed `esito-g6.json`, non è nel manifest (§ 9); G7-AUDIT-02, `chiusura.json` non riporta l'impronta del manifest, come chiedeva la consegna di C. Giudizio in `vc-ntc2018-8.7.2-2026-10-18/G7-tentativo-1-KO.json` (percorso locale redatto, `G7-tentativo-1-redazione.json`). V ha letto l'AGENTS.md del workspace come istruzione preliminare del runtime.
+- Nessuna rettifica applicata e nessun nuovo tentativo: si attende la decisione di Sandro.
 
 Firma: GBOT-verifica-ntc, 2026-10-18.

@@ -1,0 +1,22 @@
+{
+  "file": "G7-tentativo-1-KO.json",
+  "sha256_originale": "f69bb176b1c36da4c37b5f1e311f4787adbf74260f7566ef9bdac64bc1091c94",
+  "sha256_pubblicato": "358eb806d5e6075f4d18247e26fa80c8f8d8b55026d4d116e5395c5710c37446",
+  "redazione": "Percorso locale dell'AGENTS.md del workspace sostituito con <workspace>/AGENTS.md; nessun'altra differenza.",
+  "esecuzione": {
+    "motore": "Codex CLI",
+    "modello": "gpt-6.1-sol",
+    "ragionamento": "high",
+    "sandbox": "read-only, senza --always-approve",
+    "contesto": "nuovo",
+    "inizio": "2026-10-18T17:09:40+02:00",
+    "termine": "2026-10-18T17:11:32+02:00",
+    "consumi": {
+      "input": 302493,
+      "input_in_cache": 243840,
+      "output": 3627,
+      "ragionamento": 1626
+    },
+    "letture_fuori_cartella": "AGENTS.md del workspace, letto come istruzione preliminare del runtime (dichiarato da V)"
+  }
+}

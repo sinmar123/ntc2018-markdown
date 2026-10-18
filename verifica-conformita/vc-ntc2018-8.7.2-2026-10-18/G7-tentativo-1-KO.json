@@ -1,0 +1,54 @@
+{
+  "firma": "Codex (GPT-6), verificatore critico indipendente G7",
+  "data": "2026-10-18",
+  "giudizio_g7": "KO",
+  "scope": "8.7.2",
+  "snapshot_sha256": "6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689",
+  "manifest_sha256": "5fc2b42a53b5b330a0c29da218a3bff69a75c312800f27b2b556b729e32dd706",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_aperti": [
+    {
+      "id": "G7-AUDIT-01",
+      "classe": "ERR-AUDIT",
+      "prova": "decisione-g6-20261018.json ed esito-g6.json citano g6-rilievi-8.7.2.pdf; la decisione identifica inoltre nel PDF di confronto le prove vettoriali e i ritagli a 600-800 dpi usati per chiudere i dubbi. Questo PDF non compare nelle 88 voci di manifest-rilascio.json. Il § 9 richiede di includere anche le evidenze citate da altre evidenze del manifest: verifica-manifest OK attesta l'integrità delle voci presenti, non questa completezza."
+    },
+    {
+      "id": "G7-AUDIT-02",
+      "classe": "ERR-AUDIT",
+      "prova": "chiusura.json contiene il percorso del manifest e verbale_sha256, ma non contiene l'impronta del manifest 5fc2b42a53b5b330a0c29da218a3bff69a75c312800f27b2b556b729e32dd706. Non soddisfa quindi il controllo 4 della CONSEGNA-G7.md, che richiede le impronte di manifest e verbale anche nel piano di registrazione."
+    }
+  ],
+  "motivazione": "La copertura originaria riconcilia 38 più 28 ID distinti, con entrambe le validazioni G6 OK. I sei rilievi risultano chiusi dalle decisioni e dal controllo delle modifiche; snapshot e impronte locali concordano con il riepilogo. Mantengo gli esiti G0-G6 attestati, ma G7 non chiude per l'evidenza citata esclusa dal manifest e l'impronta mancante nel piano.",
+  "letture": [
+    "<workspace>/AGENTS.md",
+    "CONSEGNA-G7.md",
+    "procedura-congelata-r10.md",
+    "verbale.md",
+    "scheda.md",
+    "chiusura.json",
+    "manifest-rilascio.json",
+    "riepilogo-meccanico.json",
+    "decisione-applicazione-20261018.json",
+    "sequenza-g6.json",
+    "esito-g6.json",
+    "rapporto-g6-b01.json",
+    "rapporto-g6-b02.json",
+    "decisione-g6-20261018.json",
+    "lista-correzioni-g6.json",
+    "verifica-lista-g6.json",
+    "esito-resa-g6.json",
+    "registro-g6-modifiche.json",
+    "esito-terra-modifiche.json",
+    "ricontrollo-g1-20261018.json"
+  ],
+  "limiti": "Riconciliazione documentale senza rilettura normativa o ripetizione del G6; l'integrità dei file esterni alla cartella è valutata mediante le attestazioni fornite. Prima dell'acquisizione della consegna è stato letto l'AGENTS.md globale richiesto dalle istruzioni iniziali."
+}
