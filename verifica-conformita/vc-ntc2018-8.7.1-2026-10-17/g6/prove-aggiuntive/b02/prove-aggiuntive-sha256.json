@@ -1,0 +1,17 @@
+﻿[
+    {
+        "Name":  "circ-p273-bbox.html",
+        "Length":  86642,
+        "sha256":  "77c4adc8d17dcc19343d5939988a561daa22c87f356520fa385c91bc7aaa27ee"
+    },
+    {
+        "Name":  "circ-p273-formula-C8.7.1.2-600dpi.png",
+        "Length":  237538,
+        "sha256":  "2c7052beba4fe104f85f460715911c1ca7813aefdb35a2420aa8fe404f6de00d"
+    },
+    {
+        "Name":  "circ-p273-vettoriale.svg",
+        "Length":  641810,
+        "sha256":  "855b47cc916ac4dd6bbcce16bda9aeac5def393d4c82423e453fa81578b46ed6"
+    }
+]

@@ -1,0 +1,67 @@
+{
+  "firma": "CDX",
+  "data": "2026-10-17",
+  "scope": "8.7.1",
+  "approvazione": {
+    "decisore": "Sandro",
+    "data_ora": "2026-10-17T13:21:00+02:00",
+    "oggetto": "Lista v2 approvata; A-41, C-18, C-26 e D-01 decisi a testo invariato; SC-08 aggiunta su richiesta di Sandro nella lista v3",
+    "nuova_richiesta_non_necessaria": true
+  },
+  "lista": {
+    "file": "lista-correzioni.json",
+    "versione": 3,
+    "sha256": "989e47a02697e92a222f40785eb885aab597620e7922b3fa578e92e9f87f8fa8",
+    "voci": 206,
+    "sostanziali": 21,
+    "forma": 185,
+    "file_interessati": [
+      "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md"
+    ]
+  },
+  "applicazione": {
+    "strumento": "python strumenti/vc-supporto.py applica-lista",
+    "piano": {
+      "voci": 206,
+      "file": 1,
+      "esito": "OK"
+    },
+    "applicazione_esito": "OK",
+    "base_git": "92a449e1b52fed622eff56db8bfbc7294c730403",
+    "target_prima_sha256": "643c7e83faec95dcde4cf74be90976190b0c122d46b50d88c12df50f03ae2a45",
+    "target_dopo_lista_prima_indici_sha256": "d238498989cf417dd1176f8bc6b0f52c5e2622529f0103dbe15441991a89836c",
+    "diff_proposto_sha256": "1dd4277ff567816be13b2ff2b77a930d1f081537cc90c17297077dde2eba1549",
+    "verifica_lista": {
+      "esito": "OK",
+      "uguale_indici_esclusi": true,
+      "file_cambiati_dalla_base": [
+        "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md"
+      ]
+    }
+  },
+  "indici_interni": {
+    "strumento": "python strumenti/genera-indici-interni.py --applica --verifica --snapshot _tmp_render/cap08/vc-8.7.1-20261017-cdx/indici",
+    "esito": "OK",
+    "nota": "La forma senza --snapshot indicata nel prompt è stata rifiutata dallo strumento corrente perché --applica richiede --snapshot; nessun file era stato scritto da quel tentativo. La successiva esecuzione con snapshot ha completato applicazione e verifica.",
+    "altri_file_normativi_modificati": []
+  },
+  "target_finale": {
+    "file": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+    "sha256": "09eab0335ca26594b29ea19f279acf1da8496550f70883b55fa6695a4b0ba6c8",
+    "bytes": 82103,
+    "snapshot": "snapshot-corretto.json",
+    "snapshot_sha256": "faf654327dd2c95ea2788d8fa111e0bc898bf70684060e891ecd09f85cd8662d"
+  },
+  "controllo_effetti_C": {
+    "esito": "OK",
+    "controlli": [
+      "indice interno rigenerato e verificato nella forma canonica",
+      "nessun altro file normativo modificato",
+      "rubriche su riga propria riscontrate nel diff",
+      "elenchi introdotti da 'dove:' resi con voci separate",
+      "marcatori 1), 2), 3) conservati nella lista ordinata",
+      "diff normativo, indici interni esclusi, coincidente con l'applicazione esatta della lista approvata"
+    ],
+    "rilievi": []
+  }
+}

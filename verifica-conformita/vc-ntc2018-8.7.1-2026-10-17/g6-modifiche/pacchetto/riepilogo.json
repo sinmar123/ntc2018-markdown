@@ -1,0 +1,30 @@
+{
+  "pacchetto": "<temp>/ntc2018-mod-8.7.1-261018-gbot",
+  "blocchi": [
+    {
+      "blocco": "b01",
+      "righe_prima": 109,
+      "righe_dopo": 109,
+      "righe_diff": 0
+    },
+    {
+      "blocco": "b02",
+      "righe_prima": 110,
+      "righe_dopo": 110,
+      "righe_diff": 0
+    },
+    {
+      "blocco": "b03",
+      "righe_prima": 236,
+      "righe_dopo": 236,
+      "righe_diff": 0
+    },
+    {
+      "blocco": "b04",
+      "righe_prima": 207,
+      "righe_dopo": 207,
+      "righe_diff": 33
+    }
+  ],
+  "testo_dopo_sha256": "98e0d9e41931cd0ebce14480be4c35e89bce6a0a0a22f9e34b8ddff33c9d1372"
+}

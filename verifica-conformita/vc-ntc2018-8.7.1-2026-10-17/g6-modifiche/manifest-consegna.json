@@ -1,0 +1,144 @@
+{
+ "files": [
+  {
+   "path": "b01-testo-dopo.md",
+   "bytes": 15226,
+   "sha256": "5ad49cf07b3a71e26bb0a085384fa911002a983f6d374b663bff265d5225d359"
+  },
+  {
+   "path": "b03-testo-dopo.md",
+   "bytes": 28152,
+   "sha256": "e9dd21df77f912933385aae071f2226e11cde98758cee359128c916333ce65f9"
+  },
+  {
+   "path": "b04-diff.txt",
+   "bytes": 4396,
+   "sha256": "596d8b54e038ae25ee15df2aca7ce499c3fa96edac03fa3d63641c56a56ec2f6"
+  },
+  {
+   "path": "b04-testo-dopo.md",
+   "bytes": 24755,
+   "sha256": "7f328e308050899e6d552181d9c153084adb0d1e65fb46b89a27759d897b8e9f"
+  },
+  {
+   "path": "b04-testo-prima.md",
+   "bytes": 24756,
+   "sha256": "02033a461da7ebb0d464a74e8a91bb9ce98030d1dffff6a7ad48793528a59586"
+  },
+  {
+   "path": "canone.md",
+   "bytes": 10378,
+   "sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61"
+  },
+  {
+   "path": "CONSEGNA.md",
+   "bytes": 5161,
+   "sha256": "e9694cf59d42a3cbd21489ba07fe0003f1a94d49e712be5b7d07806655120873"
+  },
+  {
+   "path": "fonte-circ-271-200dpi.png",
+   "bytes": 655707,
+   "sha256": "b3dd8e08927c6dd385b5c7ba18bde318e77a0660e020d1df7bed27afab478ff4"
+  },
+  {
+   "path": "fonte-circ-277-200dpi.png",
+   "bytes": 651189,
+   "sha256": "dc71815461b52602f70417217d573add892e3eceabea23543de581a4443d1db9"
+  },
+  {
+   "path": "fonte-circ-278-200dpi.png",
+   "bytes": 717940,
+   "sha256": "9aaca8882317babfded8c0743b31956fc78ce6e738de0ee38759c4d24e830a90"
+  },
+  {
+   "path": "fonte-circ-278-righe-vettoriali.json",
+   "bytes": 12365,
+   "sha256": "3687f5f13fe1ce3a85ede5ee51131405d6532d69c7723a6e7addfeeb98604873"
+  },
+  {
+   "path": "fonte-circ-279-200dpi.png",
+   "bytes": 586954,
+   "sha256": "220f347d0b83eaa191c34fc7d38cd81d61baeace09e136a6f34d6730aacadccf"
+  },
+  {
+   "path": "fonte-circ-281-200dpi.png",
+   "bytes": 856444,
+   "sha256": "ff814deb4ffd4f5af686da1cd48aab502c67d8cd4e7a65302a83c7aadf8a98b7"
+  },
+  {
+   "path": "fonte-circ-281-600dpi.png",
+   "bytes": 928554,
+   "sha256": "0297642724fa119bd35be20f23684357f96fd7e83d63fe5bfac336eb0b4d9d7c"
+  },
+  {
+   "path": "fonte-circ-281-raster-nativo.png",
+   "bytes": 174989,
+   "sha256": "d860503c1a902573839c9451c86db2d4b884fc058ea1cc75e547b5807397d406"
+  },
+  {
+   "path": "fonte-circ-282-200dpi.png",
+   "bytes": 686003,
+   "sha256": "6ca4203dfecb649db6ef62825cb03cc8685d5a192bbac6eabae071df9f1072be"
+  },
+  {
+   "path": "fonte-circ-283-200dpi.png",
+   "bytes": 634758,
+   "sha256": "0973858f1c24c8b46ba90830746ab72fb1eea9645c53c702e724fd077c09c5b7"
+  },
+  {
+   "path": "lista-correzioni.json",
+   "bytes": 2655,
+   "sha256": "92673a0bc6e45e07046d51c55788b0b3b08f0233212c9f7a6caccbd6d97cf4cd"
+  },
+  {
+   "path": "resa-dopo-p03.png",
+   "bytes": 213257,
+   "sha256": "f4c772d06097a67fcc7185b682a38b4eec6b7c7f95ad9f1bb2d2ca2e21114091"
+  },
+  {
+   "path": "resa-dopo-p04.png",
+   "bytes": 223480,
+   "sha256": "a647113737713b37bacccfe4e733dd0cd5ecb083883ddecc98c08a607be1075f"
+  },
+  {
+   "path": "resa-dopo-p11.png",
+   "bytes": 251446,
+   "sha256": "12798b920f117ab82c8aad2a380156f8d6bd6fc13386c03287ce9bdf0010442d"
+  },
+  {
+   "path": "resa-dopo-p12.png",
+   "bytes": 242887,
+   "sha256": "c9cfc6b2defedadcf9f869b6dd9008785660981965b13c59c62441ac4f666491"
+  },
+  {
+   "path": "resa-dopo-p13.png",
+   "bytes": 208446,
+   "sha256": "90ee68bb28a09319481ebb3e2c1c5a1d356584289f65f30f61e0f201a9e0e62b"
+  },
+  {
+   "path": "resa-dopo-p16.png",
+   "bytes": 214670,
+   "sha256": "82c655e9b92b2681cc6307f0217ed994585ad89dc1fdcfab025a49f9741ddb22"
+  },
+  {
+   "path": "resa-dopo-p17.png",
+   "bytes": 254907,
+   "sha256": "60907b3657309e70166f43f672f073dd598a8012c8c238222f3c7af96988647b"
+  },
+  {
+   "path": "resa-dopo-p18.png",
+   "bytes": 107698,
+   "sha256": "984f51df966f55a95061f5dbcf9e8e7a2f96113a2afd9da19880775c7c4bc6b3"
+  },
+  {
+   "path": "resa-dopo.pdf",
+   "bytes": 128798,
+   "sha256": "78e6f1cb72d1ed91e7f32be62c4cd33c4129e9aabe9b3ce0403ba299903d1b0d"
+  },
+  {
+   "path": "rilievi-g6.json",
+   "bytes": 5403,
+   "sha256": "038df28f09f6ad1a1a3e90a0580c22de9197685d48247bd3854d40bfade0e77d"
+  }
+ ]
+}

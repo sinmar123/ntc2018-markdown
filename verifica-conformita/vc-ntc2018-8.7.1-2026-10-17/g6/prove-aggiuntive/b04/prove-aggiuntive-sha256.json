@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Name":  "circ-p280-bbox.html",
+        "Length":  104971,
+        "sha256":  "d641e37f48b5db6a1d24b44b20ec8fb2547aed5749b829e3d2915d412aaa8486"
+    },
+    {
+        "Name":  "circ-p280-formula-C8.7.1.15-600dpi.png",
+        "Length":  259131,
+        "sha256":  "b32ededb270858d34c2a3291aeb38d767aa7040d79de55a4f0a0ffd23d57a633"
+    },
+    {
+        "Name":  "circ-p280-vettoriale.svg",
+        "Length":  760885,
+        "sha256":  "1ceae78aeee2d52eb3bbcf6f5bece06a040b4080e22d4648ad6463311cc28180"
+    },
+    {
+        "Name":  "circ-p281-600dpi-281.png",
+        "Length":  928554,
+        "sha256":  "0297642724fa119bd35be20f23684357f96fd7e83d63fe5bfac336eb0b4d9d7c"
+    },
+    {
+        "Name":  "circ-p281-raster-nativo.png",
+        "Length":  174989,
+        "sha256":  "d860503c1a902573839c9451c86db2d4b884fc058ea1cc75e547b5807397d406"
+    },
+    {
+        "Name":  "provenienza.json",
+        "Length":  1159,
+        "sha256":  "eab44fbd1ea1442c30127a984357e1aaf8c157cbbded116fc087ecc30c30ec7b"
+    }
+]

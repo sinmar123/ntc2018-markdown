@@ -1,0 +1,36 @@
+{
+    "firma":  "CDX",
+    "scope":  "8.7.1",
+    "data":  "2026-10-17",
+    "base_git":  "92a449e1b52fed622eff56db8bfbc7294c730403",
+    "target":  {
+                   "file":  "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+                   "sha256":  "09eab0335ca26594b29ea19f279acf1da8496550f70883b55fa6695a4b0ba6c8",
+                   "bytes":  82103
+               },
+    "applicazione":  {
+                         "lista":  "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/lista-correzioni.json",
+                         "lista_sha256":  "989e47a02697e92a222f40785eb885aab597620e7922b3fa578e92e9f87f8fa8",
+                         "voci":  206,
+                         "target_prima_sha256":  "643c7e83faec95dcde4cf74be90976190b0c122d46b50d88c12df50f03ae2a45",
+                         "target_dopo_lista_prima_indici_sha256":  "d238498989cf417dd1176f8bc6b0f52c5e2622529f0103dbe15441991a89836c",
+                         "indici_rigenerati":  true
+                     },
+    "procedura":  {
+                      "file":  "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/procedura-congelata-r9.md",
+                      "sha256":  "14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f"
+                  },
+    "catalogo":  {
+                     "file":  "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/catalogo-congelato.md",
+                     "sha256":  "add1873d309b44930b8caccf8dd5ed3714926108a106230de35133a8a76e239e"
+                 },
+    "fonti":  {
+                  "ntc_sha256":  "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+                  "circolare_sha256":  "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+              },
+    "perimetro":  {
+                      "ntc":  "297-298",
+                      "circolare":  "270-283",
+                      "pagine":  16
+                  }
+}

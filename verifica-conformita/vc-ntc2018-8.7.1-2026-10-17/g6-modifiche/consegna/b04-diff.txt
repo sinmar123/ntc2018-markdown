@@ -1,0 +1,33 @@
+--- testo.md
++++ testo-dopo.md
+@@ -2,7 +2,7 @@
+ 
+ Nel caso di analisi dinamica non lineare, le domande di spostamento, per ciascuna direzione e verso, sono rappresentate dalla media dei valori massimi ottenuti applicando un numero significativo di storie temporali, compatibili con le condizioni di pericolosità del sito. Ciascuna domanda di spostamento deve essere confrontata con la corrispondente capacità ottenuta da un’analisi statica non lineare. Quest’ultima può essere definita attraverso un confronto tra le curve forza-spostamento cicliche, ottenute dalle analisi dinamiche, e quelle monotone, ottenute dalle analisi statiche con le due distribuzioni di forze come sopra indicato; in assenza di tale valutazione è possibile considerare la capacità di spostamento minore tra quelle fornite dalle due distribuzioni.
+ 
+-###### C8.7.1.3.1.1 Pareti murarie
++###### *C8.7.1.3.1.1 Pareti murarie*
+ 
+ Nel caso di analisi elastica con il fattore $q$ (analisi lineare statica ed analisi dinamica modale con fattore di comportamento), i valori di calcolo delle resistenze sono ottenuti dividendo i valori medi per i rispettivi fattori di confidenza e per il coefficiente parziale di sicurezza dei materiali (in accordo a quanto indicato al § C8.5); nel caso di analisi non lineare, i valori di calcolo delle resistenze sono ottenuti dividendo i valori medi per i rispettivi fattori di confidenza.
+ 
+@@ -131,7 +131,7 @@
+ 
+ Nel caso delle fasce di piano valgono le precisazioni riportate per la rottura a taglio per trazione diagonale, relativamente alla valutazione della tensione media di compressione $\sigma_0$ e al calcolo della resistenza residua.
+ 
+-###### C8.7.1.3.1.2 Solai e coperture
++###### *C8.7.1.3.1.2 Solai e coperture*
+ 
+ I solai possono essere considerati infinitamente rigidi e resistenti nel loro piano nei casi in cui esistano effettivi elementi strutturali atti a impedirne le deformazioni, così come indicato al § 7.2.6 delle NTC, salvo valutazioni più accurate della reale situazione svolte dal progettista. Le indicazioni del § 7.2.6 costituiscono un utile riferimento comparativo ad altre tipologie al fine di decidere se attribuire al diaframma la condizione di infinita rigidezza nel proprio piano.
+ 
+@@ -139,9 +139,9 @@
+ 
+ ##### C8.7.1.3.2 Edifici in aggregato
+ 
+-Un aggregato edilizio di edifici[4] è il risultato di una genesi articolata e sovente non unitaria, dovuta a molteplici fattori (sequenza costruttiva, uso di materiali diversi, mutate esigenze, etc.). Nell’analisi di un aggregato edilizio occorre individuare, in via preliminare, le Unità Strutturali (**US**) che compongono l’aggregato, evidenziando le azioni che su ciascuna di esse possono derivare dalle Unità Strutturali contigue. Ove necessario, tale analisi preliminare può estendersi all’intero aggregato, al fine di individuare le relazioni tra ciascuna **US** e il resto dell’aggregato, con particolare attenzione al contesto ed ai meccanismi di giustapposizione e di sovrapposizione.
+-
+-**Nota 4.** Nell’analisi degli aggregati, al concetto di edificio si preferisce sostituire il concetto di Unità Strutturale (US), chiaramente definito e individuato negli ultimi capoversi del § 8.7.1 delle NTC.
++Un aggregato edilizio di edifici[^4] è il risultato di una genesi articolata e sovente non unitaria, dovuta a molteplici fattori (sequenza costruttiva, uso di materiali diversi, mutate esigenze, etc.). Nell’analisi di un aggregato edilizio occorre individuare, in via preliminare, le Unità Strutturali (**US**) che compongono l’aggregato, evidenziando le azioni che su ciascuna di esse possono derivare dalle Unità Strutturali contigue. Ove necessario, tale analisi preliminare può estendersi all’intero aggregato, al fine di individuare le relazioni tra ciascuna **US** e il resto dell’aggregato, con particolare attenzione al contesto ed ai meccanismi di giustapposizione e di sovrapposizione.
++
++[^4]: Nell’analisi degli aggregati, al concetto di edificio si preferisce sostituire il concetto di Unità Strutturale (US), chiaramente definito e individuato negli ultimi capoversi del § 8.7.1 delle NTC.
+ 
+ La porzione di aggregato che costituisce l’**US** comprende cellule tra loro legate in elevazione ed in pianta da un comune processo costruttivo, e considera tutti gli elementi interessati dalla trasmissione a terra dei carichi verticali.
+ 

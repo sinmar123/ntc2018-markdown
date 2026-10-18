@@ -1,0 +1,73 @@
+{
+  "scope": "8.7.1",
+  "target": "g5/target-scope-corretto.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "../fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [297, 298]
+    },
+    {
+      "id": "circ",
+      "pdf": "../fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": ["ntc:297", "ntc:298", "circ:270", "circ:271"],
+      "righe": [[1, 109]],
+      "limiti": "NTC: dalla rubrica 8.7.1 a prima di 8.7.2, con limiti sulle pagine condivise. Circolare: dalla rubrica C8.7.1 fino al capoverso che termina con il collegamento della porzione interessata dal meccanismo con il resto della costruzione; sulla pagina 270 è escluso quanto precede C8.7.1.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "g5/resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "pagine": ["circ:272", "circ:273", "circ:274"],
+      "righe": [[110, 221]],
+      "limiti": "Dal capoverso 'Per le verifiche che seguono' fino al capoverso che termina con 'non si ha uno scorrimento puro'.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "g5/resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "pagine": ["circ:275", "circ:276", "circ:277", "circ:278", "circ:279"],
+      "righe": [[222, 504]],
+      "limiti": "Dal capoverso 'Si fa inoltre presente' fino al capoverso sulle valutazioni relative alla pressoflessione nelle fasce, concluso dal rinvio al § 7.8.2.2.4 delle NTC.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "g5/resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "pagine": ["circ:280", "circ:281", "circ:282", "circ:283"],
+      "righe": [[505, 662]],
+      "limiti": "Dal capoverso 'Diversamente dal caso dei maschi' fino alla fine del § C8.7.1.4; sulla pagina 283 è escluso quanto inizia con C8.7.2.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "g5/resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ]
+    }
+  ]
+}

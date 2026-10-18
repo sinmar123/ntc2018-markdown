@@ -1,0 +1,11 @@
+﻿{
+    "data":  "2026-10-17",
+    "firma":  "GBOT-verifica-ntc",
+    "tipo":  "ricontrollo mirato G1 (ricognizione piena 2026-10-13 riusata)",
+    "schede_gu":  {
+                      "ntc-atto.html":  "be45584b4b27948ba1c2e1221524c96f194a081bb5c78a7e2d08dc7af518daff",
+                      "circolare-atto.html":  "d24bdb2082927e996e12702965f920cb5d15f321db809232d54a3294d110eea6",
+                      "dm2023-atto.html":  "4a93a1dbbe873eb228a7a99c1bccb6fe8c26c572f7b478fd0753aac123530bf1"
+                  },
+    "esito":  "identiche al ricontrollo del 2026-10-16; nessun avviso di rettifica o modifica nuovo"
+}

@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-17T14:14:25.781422+00:00",
+  "firma": "Codex, agente V indipendente /root/v871_b02_v2 (modello non esposto dal runtime)",
+  "inventario_sha256": "57ce21ecbe4afba40c95c1cdbb8598e056938ea2c79e10fed07710dc3bb0ccc5",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+  "manifest_fonte_sha256": "ccdb4c312bbe841696201d7e18430c0611a89f1c2c6922f2c00680505f9e8063"
+}

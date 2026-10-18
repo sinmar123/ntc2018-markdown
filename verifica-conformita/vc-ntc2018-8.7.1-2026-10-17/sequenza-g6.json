@@ -1,0 +1,97 @@
+{
+  "firma": "CDX",
+  "scope": "8.7.1",
+  "data": "2026-10-17",
+  "giro_g6": 1,
+  "configurazione_valida": {
+    "file": "config-g6-v2.json",
+    "sha256": "c1f1a20833d5b62592146c96cfc8bee3e1fdf120a1b5ed30b20f3f1264d5e238",
+    "destinazione_locale": "%LOCALAPPDATA%\\Temp\\ntc2018-g6-8.7.1-261017-cdx-v2"
+  },
+  "tentativo_precedente": {
+    "file": "config-g6.json",
+    "sha256": "24559dcc1f249ebe96bbf9447dd094f49bdd287810267b2506979df9159269a8",
+    "esito": "respinto prima della rivelazione",
+    "motivo": "La pagina PDF 274 era assegnata a b02 mentre le righe corrispondenti erano assegnate a b03. Nessun V aveva visto il target; giro_g6 rimasto 0.",
+    "evidenza": "g6/cronologia-preparazione.md"
+  },
+  "validazioni": {
+    "valida_inventario": "OK per tutti i quattro blocchi",
+    "rivela": "integrità OK per tutti i quattro blocchi",
+    "verifica_pacchetto": "integrità OK per tutti i quattro blocchi",
+    "valida_g6": "schema e copertura OK per tutti i quattro rapporti"
+  },
+  "profilo_v": {
+    "modello_richiesto": "gpt-5.6-sol",
+    "ragionamento": "xhigh",
+    "modello_effettivo": "non esposto dal runtime",
+    "contesti": "nuovi per blocco; b01 ha riusato nello stesso contesto il proprio inventario su input fonte byte-identici",
+    "isolamento": "restrizione istruttiva e cartelle temporanee esterne; nessuna sandbox di lettura effettiva documentata",
+    "limite_runtime": "Due V hanno dovuto leggere SKILL.md e PROCEDURA-VC.md per obbligo gerarchico del runtime, senza accedere a corpus, target, rapporti o risultati precedenti."
+  },
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": ["ntc:297", "ntc:298", "circ:270", "circ:271"],
+      "righe": [[1, 109]],
+      "inventario_sha256": "50bde0633444ca55754cb8a6b03e9a0195e24080fb9a6cf383826d9fe6488986",
+      "congelamento_sha256": "4dc57b70ec1377d4054e7c29bd2161ba6530b461191b05e9519fdb6d03dfe612",
+      "rapporto_sha256": "736f5e37c83e5d39cc3299760b5df489304bd4e45143b150a9253e41e019678c",
+      "id_coperti": 55,
+      "esito": "KO",
+      "err_md": 3,
+      "err_audit": 1,
+      "dubbio": 0
+    },
+    {
+      "id": "b02",
+      "pagine": ["circ:272", "circ:273"],
+      "righe": [[110, 219]],
+      "inventario_sha256": "57ce21ecbe4afba40c95c1cdbb8598e056938ea2c79e10fed07710dc3bb0ccc5",
+      "congelamento_sha256": "55dae4b98b2902f4810ff15b591bafb30c6c265b373715abbc52951d2a214fa4",
+      "rapporto_originale_locale_sha256": "6adf519810f146e8bfcf2a9e35ee3735a182af1a3be1963bde53139a636357c1",
+      "rapporto_pubblico_redatto_sha256": "eb3bb3c6f0292d71b8d4dd3880d71f238638c120c776eb0902f74c9f0ee89b1d",
+      "id_coperti": 25,
+      "esito": "OK",
+      "err_md": 0,
+      "err_audit": 0,
+      "dubbio": 0
+    },
+    {
+      "id": "b03",
+      "pagine": ["circ:274", "circ:275", "circ:276", "circ:277", "circ:278"],
+      "righe": [[220, 455]],
+      "inventario_sha256": "b93d92e8445b5213a5e26da20d1e88b653aa82468a2cb034a052415062a34c90",
+      "congelamento_sha256": "158e69f45b81ce4e68ee87cd71a98dbe73fb2a322982ac7311af3db7077d92ca",
+      "rapporto_originale_locale_sha256": "fb5f5bd6735625c730b24e8719dec575e96c5a86555d9b09fc8b5e8bb7516cce",
+      "rapporto_pubblico_redatto_sha256": "7cd1c8dec5305ea6b72000cc51de872647296013234030c1226f00329995b2e1",
+      "id_coperti": 53,
+      "esito": "KO",
+      "err_md": 3,
+      "err_audit": 0,
+      "dubbio": 0
+    },
+    {
+      "id": "b04",
+      "pagine": ["circ:279", "circ:280", "circ:281", "circ:282", "circ:283"],
+      "righe": [[456, 662]],
+      "inventario_sha256": "596bdfa8c35685ef92aeb6741d7788f8e882dc3c020b8d13873f6c2ca65760f3",
+      "congelamento_sha256": "115bc0b24d2c9287251b22e344c83e678fbecefe82bdf1ebee8d1e8af9942956",
+      "rapporto_sha256": "564b1a3416c5795edf3dfefec4364cb6e18f279a13be387048dd0e31940df466",
+      "id_coperti": 47,
+      "esito": "KO",
+      "err_md": 7,
+      "err_audit": 0,
+      "dubbio": 0
+    }
+  ],
+  "totali": {
+    "id_coperti": 180,
+    "err_md": 13,
+    "err_audit": 1,
+    "dubbio": 0,
+    "rilievi": 14
+  },
+  "esito_g6": "KO",
+  "azione": "Nessuna correzione e nessuna seconda tornata. Riga 8.7.1 lasciata IN-CORSO; G7 non ammissibile."
+}

@@ -1,0 +1,143 @@
+{
+  "versione": 1,
+  "scope": "8.7.1",
+  "target": "<WORKTREE>\\\\verifica-conformita\\vc-ntc2018-8.7.1-2026-10-17\\g5\\target-scope-corretto.md",
+  "snapshot_sha256": "87e9926aba0fd457cd67d10ede44a9cfa14f068881e2a90eff3d414744745e15",
+  "clean_sha256": "d73028d454617caf36c8de07f192e979a4346ac91e8882c1aecf2ee9c9427c7e",
+  "procedura_sha256": "14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f",
+  "catalogo_sha256": "add1873d309b44930b8caccf8dd5ed3714926108a106230de35133a8a76e239e",
+  "fonti": {
+    "ntc": {
+      "id": "ntc",
+      "pdf": "<WORKTREE>\\\\verifica-conformita\\fonte-ufficiale\\GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        297,
+        298
+      ]
+    },
+    "circ": {
+      "id": "circ",
+      "pdf": "<WORKTREE>\\\\verifica-conformita\\fonte-ufficiale\\GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283
+      ]
+    }
+  },
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:297",
+        "ntc:298",
+        "circ:270",
+        "circ:271"
+      ],
+      "righe": [
+        [
+          1,
+          109
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 8.7.1 a prima di 8.7.2, con limiti sulle pagine condivise. Circolare: dalla rubrica C8.7.1 fino al capoverso che termina con il collegamento della porzione interessata dal meccanismo con il resto della costruzione; sulla pagina 270 è escluso quanto precede C8.7.1.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "<WORKTREE>\\\\verifica-conformita\\vc-ntc2018-8.7.1-2026-10-17\\g5\\resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ],
+      "target_sha256": "5ad49cf07b3a71e26bb0a085384fa911002a983f6d374b663bff265d5225d359",
+      "manifest_fonte_sha256": "acfceaf53b4aaa0b76553b90b4593ed65323cb27d7a1cf780c51f29bfc403128"
+    },
+    {
+      "id": "b02",
+      "pagine": [
+        "circ:272",
+        "circ:273"
+      ],
+      "righe": [
+        [
+          110,
+          219
+        ]
+      ],
+      "limiti": "Dal capoverso 'Per le verifiche che seguono' fino al capoverso che termina con l'altezza della cerniera identificata attraverso la minimizzazione del moltiplicatore α₀.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "<WORKTREE>\\\\verifica-conformita\\vc-ntc2018-8.7.1-2026-10-17\\g5\\resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ],
+      "target_sha256": "9de5ffd47ec3b1d125f930869573bb90e8e328d7cbd633c34c6573c5507653f1",
+      "manifest_fonte_sha256": "ccdb4c312bbe841696201d7e18430c0611a89f1c2c6922f2c00680505f9e8063"
+    },
+    {
+      "id": "b03",
+      "pagine": [
+        "circ:274",
+        "circ:275",
+        "circ:276",
+        "circ:277",
+        "circ:278"
+      ],
+      "righe": [
+        [
+          220,
+          455
+        ]
+      ],
+      "limiti": "Dal capoverso 'Queste resistenze attritive' fino alla definizione dello spostamento allo SLO, pari a 2/3 di quello allo SLD.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "<WORKTREE>\\\\verifica-conformita\\vc-ntc2018-8.7.1-2026-10-17\\g5\\resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ],
+      "target_sha256": "e9dd21df77f912933385aae071f2226e11cde98758cee359128c916333ce65f9",
+      "manifest_fonte_sha256": "7f3cf9e9c89077bd3734ae884c889ff8a1de7d95712c5487dcaccee6ab6eda0f"
+    },
+    {
+      "id": "b04",
+      "pagine": [
+        "circ:279",
+        "circ:280",
+        "circ:281",
+        "circ:282",
+        "circ:283"
+      ],
+      "righe": [
+        [
+          456,
+          662
+        ]
+      ],
+      "limiti": "Dal capoverso 'La domanda di spostamento, da confrontarsi' fino alla fine del § C8.7.1.4; sulla pagina 283 è escluso quanto inizia con C8.7.2.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "<WORKTREE>\\\\verifica-conformita\\vc-ntc2018-8.7.1-2026-10-17\\g5\\resa-finale.pdf",
+          "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622"
+        }
+      ],
+      "target_sha256": "02033a461da7ebb0d464a74e8a91bb9ce98030d1dffff6a7ad48793528a59586",
+      "manifest_fonte_sha256": "f8b7eb914900c6bd7248ec118830e873ebefdab73de37b20b52fcee574e13039"
+    }
+  ]
+}

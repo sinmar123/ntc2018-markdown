@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-17T14:14:28.190706+00:00",
+  "firma": "Codex / V indipendente b04",
+  "inventario_sha256": "596bdfa8c35685ef92aeb6741d7788f8e882dc3c020b8d13873f6c2ca65760f3",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+  "manifest_fonte_sha256": "f8b7eb914900c6bd7248ec118830e873ebefdab73de37b20b52fcee574e13039"
+}

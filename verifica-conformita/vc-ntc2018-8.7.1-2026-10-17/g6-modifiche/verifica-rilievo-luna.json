@@ -1,0 +1,22 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "rilievo": "AUDIT-MAP-B04-C281-HD-01 (gpt-6-luna, prova comparativa)",
+  "resa": "g6-modifiche/consegna/resa-dopo.pdf",
+  "resa_sha256": "78e6f1cb72d1ed91e7f32be62c4cd33c4129e9aabe9b3ce0403ba299903d1b0d",
+  "metodo": "PyMuPDF get_text() su ciascuna pagina della resa, ricerca della stringa «Solai e coperture»",
+  "pagine_con_la_rubrica": [
+    16
+  ],
+  "ultime_righe_p15": [
+    "un paramento costruito con mattoni disposti “per lungo” o “di lista”, in quanto presenta normalmente una diversa",
+    "inclinazione della fessura a scaletta.",
+    "15"
+  ],
+  "prime_righe_p16": [
+    "𝑉𝑡,𝑙𝑖𝑚è un valore limite che può essere stimato, in via approssimata, in funzione della rottura a trazione dei blocchi",
+    "𝑓𝑏𝑡𝑑, e tenendo conto della geometria del pannello, attraverso l’espressione, ricavata per blocchi di forma standard:",
+    "𝑉𝑡,𝑙𝑖𝑚= 𝑙𝑡"
+  ],
+  "esito": "NON FONDATO: la rubrica C8.7.1.3.1.2 «Solai e coperture» sta a p. 16 della resa-dopo, come indicato in rilievi-g6.json; la p. 15 non la contiene. Anche Sol (V) e il controllo visivo di C la collocano a p. 16. Il rilievo era stato verificato per primo da Sandro con PyMuPDF."
+}

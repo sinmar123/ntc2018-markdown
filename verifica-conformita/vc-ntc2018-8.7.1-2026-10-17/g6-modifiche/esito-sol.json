@@ -1,0 +1,128 @@
+{
+  "firma": "Codex (GPT-6), verificatore indipendente (V)",
+  "controllo": "modifiche § 8, scope 8.7.1",
+  "snapshot_prima_sha256": "09eab0335ca26594b29ea19f279acf1da8496550f70883b55fa6695a4b0ba6c8",
+  "snapshot_dopo_sha256": "5c466acd11ce6c074f28ba1b022d78fff5930d5829f378701493ac52b98ad57c",
+  "diff": {
+    "esito": "OK",
+    "note": "Il diff ricalcolato tra b04-testo-prima.md e b04-testo-dopo.md coincide esattamente con b04-diff.txt. Applicando le quattro sostituzioni di lista-correzioni.json, ciascuna presente una sola volta e nel punto previsto, si ottiene esattamente il testo dopo; nessun'altra modifica."
+  },
+  "rilievi": [
+    {
+      "id": "B04-C279-HD-01",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 279, fonte-circ-279-200dpi.png: «C8.7.1.3.1.1 Pareti murarie» è in grassetto corsivo. b04-testo-dopo.md usa ###### *C8.7.1.3.1.1 Pareti murarie*, conforme alla convenzione esplicita del corpus; resa-dopo-p13.png mostra la rubrica separata dal testo."
+    },
+    {
+      "id": "B04-C281-HD-01",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 281, fonte-circ-281-600dpi.png e fonte-circ-281-raster-nativo.png: «C8.7.1.3.1.2 Solai e coperture» è in grassetto corsivo. b04-testo-dopo.md usa ###### *C8.7.1.3.1.2 Solai e coperture*, conforme alla convenzione; resa-dopo-p16.png mostra la rubrica su riga propria."
+    },
+    {
+      "id": "B04-C281-PR-07",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 281, fonte-circ-281-600dpi.png e raster nativo: dopo «edifici» compare il solo 4 in apice. b04-testo-dopo.md contiene edifici[^4]; resa-dopo-p16.png mostra il 4 in apice, senza parentesi quadre."
+    },
+    {
+      "id": "B04-C281-NT-01",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 281: nota confrontata integralmente in fonte-circ-281-600dpi.png e nel raster nativo, anche mediante ritagli in memoria senza ricampionamento. Testo e stile tondo, compreso (US), concordano con b04-testo-dopo.md; la definizione [^4]: segue immediatamente il capoverso del richiamo e non aggiunge «Nota». resa-dopo-p16.png colloca la nota completa sotto la linea di separazione, con numero 4 in apice. Raster nativo: 2221 × 3106 pixel, SHA-256 d860503c1a902573839c9451c86db2d4b884fc058ea1cc75e547b5807397d406; codepoint della fonte non applicabili all'area raster."
+    },
+    {
+      "id": "C-RUB-002",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 271, fonte-circ-271-200dpi.png, e resa-dopo-p03.png: C8.7.1.1 occupa una riga propria; «Per la verifica delle pareti murarie» comincia sotto."
+    },
+    {
+      "id": "C-RUB-003",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 271, fonte-circ-271-200dpi.png, e resa-dopo-p03.png: C8.7.1.2 è separata dal capoverso «Negli edifici in muratura». Nella resa il titolo occupa due righe e il capoverso inizia su una riga successiva."
+    },
+    {
+      "id": "C-RUB-004",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 271, fonte-circ-271-200dpi.png, e resa-dopo-p04.png: C8.7.1.2.1 è su riga propria; «In generale, ogni meccanismo locale» comincia sotto."
+    },
+    {
+      "id": "B03-E044",
+      "esito": "CHIUSO",
+      "prova": "Pp. fisiche 277-278, fonte-circ-277-200dpi.png e fonte-circ-278-200dpi.png: rubrica «C8.7.1.3.1 Edifici singoli» distinta dal primo capoverso. resa-dopo-p11.png conserva la separazione e avvia «L’analisi globale della risposta sismica» sotto la rubrica."
+    },
+    {
+      "id": "B04-C281-HD-02",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 281, fonte-circ-281-200dpi.png, e resa-dopo-p16.png: «C8.7.1.3.2 Edifici in aggregato» è su riga propria; «Un aggregato edilizio» inizia sotto."
+    },
+    {
+      "id": "B04-C282-HD-01",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 282, fonte-circ-282-200dpi.png, e resa-dopo-p17.png: «C8.7.1.3.3 Edifici semplici» è su riga propria; «Sulle costruzioni esistenti» inizia sotto."
+    },
+    {
+      "id": "B04-C283-HD-01",
+      "esito": "CHIUSO",
+      "prova": "P. fisica 283, fonte-circ-283-200dpi.png, e resa-dopo-p18.png: «C8.7.1.4 ELEMENTI STRUTTURALI IN LEGNO» è distinta dal capoverso «I collegamenti», che inizia sotto."
+    }
+  ],
+  "domande_aperte": [
+    {
+      "id": "Q1",
+      "lettura_fonte": "STESSO_CAPOVERSO",
+      "prova": "P. fisica 278, fonte-circ-278-200dpi.png: nessuno spazio aggiuntivo prima di «Nelle scelte di modellazione». fonte-circ-278-righe-vettoriali.json conferma y0 165,5 → 176,0 punti, pari all'interlinea ordinaria di 10,5 punti; gli stacchi tra capoversi sono circa 13,1 punti. Lettura stabilita prima del confronto: b03-testo-dopo.md, riga 199, mantiene la frase nello stesso capoverso.",
+      "markdown": "CONFORME"
+    },
+    {
+      "id": "Q2",
+      "lettura_fonte": "STESSO_CAPOVERSO",
+      "prova": "P. fisica 278, fonte-circ-278-200dpi.png: «Nel caso di diaframmi di rigidezza finita» prosegue senza spazio aggiuntivo. fonte-circ-278-righe-vettoriali.json conferma y0 389,1 → 399,6 punti, pari all'interlinea ordinaria di 10,5 punti; il capoverso successivo inizia invece con uno stacco di 13,1 punti. Lettura stabilita prima del confronto: b03-testo-dopo.md, riga 209, conserva un unico capoverso.",
+      "markdown": "CONFORME"
+    }
+  ],
+  "resa": {
+    "pagine_osservate": [
+      3,
+      4,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18
+    ],
+    "esito": "OK"
+  },
+  "nuovi_rilievi": [],
+  "esito": "OK",
+  "letture": [
+    "<workspace>/AGENTS.md (istruzioni preliminari, non utilizzate come fonte del controllo)",
+    "CONSEGNA.md",
+    "canone.md",
+    "lista-correzioni.json",
+    "rilievi-g6.json",
+    "b04-diff.txt",
+    "b04-testo-prima.md",
+    "b04-testo-dopo.md",
+    "b01-testo-dopo.md",
+    "b03-testo-dopo.md",
+    "fonte-circ-278-righe-vettoriali.json",
+    "fonte-circ-271-200dpi.png",
+    "fonte-circ-277-200dpi.png",
+    "fonte-circ-278-200dpi.png",
+    "fonte-circ-279-200dpi.png",
+    "fonte-circ-281-200dpi.png",
+    "fonte-circ-281-600dpi.png",
+    "fonte-circ-281-raster-nativo.png",
+    "fonte-circ-282-200dpi.png",
+    "fonte-circ-283-200dpi.png",
+    "resa-dopo-p03.png",
+    "resa-dopo-p04.png",
+    "resa-dopo-p11.png",
+    "resa-dopo-p12.png",
+    "resa-dopo-p13.png",
+    "resa-dopo-p16.png",
+    "resa-dopo-p17.png",
+    "resa-dopo-p18.png",
+    "resa-dopo.pdf"
+  ],
+  "limiti": "Controllo limitato alle modifiche, ai rilievi e alle pagine consegnate, senza nuovo confronto integrale dello scope; nessun effetto indesiderato osservato nei contesti esaminati. Le impronte dello scope sono riportate dalla consegna, non ricalcolate sul Markdown completo assente dal pacchetto; l'assenza di modifiche nei blocchi b01-b03 resta attestata dalla consegna."
+}

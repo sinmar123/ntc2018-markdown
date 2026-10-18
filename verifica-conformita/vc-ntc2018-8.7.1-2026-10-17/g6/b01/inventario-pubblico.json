@@ -1,0 +1,319 @@
+{
+  "firma": "OpenAI Codex (GPT-5), verificatore indipendente V /root/v871_b01",
+  "esito_provvisorio": "LEGGIBILE",
+  "isolamento": {
+    "natura": "restrizione istruttiva",
+    "sandbox_effettiva": false,
+    "collocazione": "cartelle temporanee esterne al repository",
+    "cartella_blocco": "%LOCALAPPDATA%\\\\Temp\\\\ntc2018-g6-8.7.1-261017-cdx\\b01",
+    "cartella_lavoro": "%LOCALAPPDATA%\\\\Temp\\\\ntc2018-g6-8.7.1-261017-cdx-lavoro\\b01"
+  },
+  "elementi": [
+    {
+      "id": "N-RUB-001",
+      "pagina": "ntc:297",
+      "riferimento": "Rubrica 8.7.1 COSTRUZIONI IN MURATURA, nella parte bassa della pagina: numero, punto, titolo maiuscolo e grassetto controllati integralmente."
+    },
+    {
+      "id": "N-PRO-001",
+      "pagina": "ntc:297",
+      "riferimento": "Primo capoverso sotto 8.7.1, da «Nelle costruzioni esistenti in muratura» a «prevalentemente nel loro piano medio»; capoverso integrale sui meccanismi locali e globali."
+    },
+    {
+      "id": "N-PRO-002",
+      "pagina": "ntc:297",
+      "riferimento": "Secondo capoverso sotto 8.7.1, riga autonoma da «La sicurezza della costruzione» a «entrambi i tipi di meccanismo»; controllo integrale."
+    },
+    {
+      "id": "N-PRO-003",
+      "pagina": "ntc:297",
+      "riferimento": "Terzo capoverso sotto 8.7.1, da «Per l’analisi sismica dei meccanismi locali» a «all’evolversi del meccanismo»; controllo integrale di prosa, parentesi e termini tecnici."
+    },
+    {
+      "id": "N-PRO-004",
+      "pagina": "ntc:297",
+      "riferimento": "Quarto e ultimo capoverso della pagina entro 8.7.1, da «L’analisi sismica globale deve considerare» a «con gli orizzontamenti e tra loro»; controllo integrale."
+    },
+    {
+      "id": "N-PRO-005",
+      "pagina": "ntc:298",
+      "riferimento": "Primo capoverso in testa alla pagina, prosecuzione della sezione 8.7.1, da «Nel caso di muratura irregolare» a «purché di comprovata validità»; controllo integrale."
+    },
+    {
+      "id": "N-PRO-006",
+      "pagina": "ntc:298",
+      "riferimento": "Secondo capoverso, da «In presenza di edifici in aggregato» a «unità strutturali contigue»; controllo integrale, compresa la frase che introduce e abbrevia unità strutturale (US)."
+    },
+    {
+      "id": "N-DEF-001",
+      "pagina": "ntc:298",
+      "riferimento": "Definizione/individuazione nel secondo capoverso: segmento da «A tal fine dovrà essere individuata» a «unità strutturali contigue», con denominazione unità strutturale e sigla tra parentesi US."
+    },
+    {
+      "id": "N-PRO-007",
+      "pagina": "ntc:298",
+      "riferimento": "Terzo capoverso, da «L’US dovrà avere continuità da cielo a terra» a «US adiacenti di differente altezza»; controllo integrale dei criteri di delimitazione e dei quattro effetti elencati in testo corrente dopo i due punti."
+    },
+    {
+      "id": "N-PRO-008",
+      "pagina": "ntc:298",
+      "riferimento": "Quarto capoverso, da «L’analisi globale di una singola unità strutturale» a «coefficienti maggiorativi delle azioni orizzontali»; controllo integrale di tutti i periodi e delle condizioni sui diversi schemi di analisi."
+    },
+    {
+      "id": "N-PRO-009",
+      "pagina": "ntc:298",
+      "riferimento": "Quinto e ultimo capoverso prima della rubrica 8.7.2, da «Qualora gli orizzontamenti dell’edificio» a «nella direzione parallela alla parete»; controllo integrale."
+    },
+    {
+      "id": "C-RUB-001",
+      "pagina": "circ:270",
+      "riferimento": "Rubrica C8.7.1 COSTRUZIONI DI MURATURA, primo elemento incluso dopo la prosa fuori perimetro: numero e titolo maiuscolo/grassetto controllati integralmente."
+    },
+    {
+      "id": "C-PRO-001",
+      "pagina": "circ:270",
+      "riferimento": "Primo capoverso sotto C8.7.1, da «Nei paragrafi che seguono» a «valutata dal progettista»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-002",
+      "pagina": "circ:270",
+      "riferimento": "Secondo capoverso, da «Modelli alternativi sono sempre possibili» a «strumenti nel seguito proposti»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-003",
+      "pagina": "circ:270",
+      "riferimento": "Terzo capoverso, da «Per gli edifici in muratura» fino all’assegnazione finale del coefficiente pari a 2; controllo integrale della prosa e dei rinvii a Tab. 4.5.II e § 4.5.6.1 delle NTC."
+    },
+    {
+      "id": "C-FML-001",
+      "pagina": "circ:270",
+      "riferimento": "Due occorrenze matematiche inline nel terzo capoverso: simbolo del coefficiente gamma con pedice M e, in chiusura, lo stesso simbolo con uguaglianza al valore 2; struttura, pedice, operatore e cifra controllati separatamente."
+    },
+    {
+      "id": "C-PRO-004",
+      "pagina": "circ:270",
+      "riferimento": "Quarto capoverso, da «La valutazione della sicurezza delle costruzioni esistenti» a «nei confronti dello SLV o dello SLC»; controllo integrale e rinvii a § 3.2.1 e § 8.3 delle NTC."
+    },
+    {
+      "id": "C-PRO-005",
+      "pagina": "circ:270",
+      "riferimento": "Quinto capoverso, da «Si procede quindi a verificare» a «in occasione di scuotimenti»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-006",
+      "pagina": "circ:270",
+      "riferimento": "Sesto capoverso, da «Successivamente, si procede» a «nel proprio piano medio»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-007",
+      "pagina": "circ:270",
+      "riferimento": "Settimo capoverso, da «Nell’analisi globale dell’edificio» ai due punti che introducono tre situazioni di rigidezza dei solai; controllo integrale del testo introduttivo."
+    },
+    {
+      "id": "C-LST-001",
+      "pagina": "circ:270",
+      "riferimento": "Elenco sotto C-PRO-007, prima voce: solai modellabili come infinitamente rigidi; marcatore, testo e punto e virgola controllati."
+    },
+    {
+      "id": "C-LST-002",
+      "pagina": "circ:270",
+      "riferimento": "Elenco sotto C-PRO-007, seconda voce: solai modellabili con rigidezza finita, inclusa l’intera precisazione tra parentesi; marcatore e punto e virgola controllati."
+    },
+    {
+      "id": "C-LST-003",
+      "pagina": "circ:270",
+      "riferimento": "Elenco sotto C-PRO-007, terza voce: solai con rigidezza trascurabile, inclusa l’intera precisazione tra parentesi; marcatore e punto finale controllati."
+    },
+    {
+      "id": "C-PRO-008",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso immediatamente dopo il primo elenco, da «Nel caso di solai infinitamente rigidi» a «delle varie pareti»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-009",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, da «Nel caso di solai di rigidezza trascurabile» a «ortogonalmente al proprio piano»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-010",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, da «Nella situazione intermedia tra questi due casi limite» a «rispetto al caso di solai infinitamente rigidi»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-011",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, da «In via approssimata e in alternativa» a «analisi per singole pareti»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-012",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, da «Nei casi di edifici articolati» a «difficoltà di connessione con le murature»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-013",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, da «Quando la costruzione» a «tra i diversi sottosistemi strutturali»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-014",
+      "pagina": "circ:270",
+      "riferimento": "Capoverso successivo, da «Rientrano in queste situazioni» a «numerosi modi di vibrazione locali»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-015A",
+      "pagina": "circ:270",
+      "riferimento": "Segmento iniziale dell’ultimo capoverso della pagina, da «Nella valutazione della sicurezza sismica» fino alle parole finali «elementi quali i»; prosecuzione censita come C-PRO-015B."
+    },
+    {
+      "id": "C-PRO-015B",
+      "pagina": "circ:271",
+      "riferimento": "Segmento conclusivo del capoverso iniziato nella pagina precedente, dalle parole «cornicioni, i comignoli» a «modelli per l’analisi globale»; controllo integrale e ricongiungimento verificato con C-PRO-015A."
+    },
+    {
+      "id": "C-PRO-016",
+      "pagina": "circ:271",
+      "riferimento": "Capoverso da «Le NTC pongono in evidenza» ai due punti che introducono i fattori favorenti i meccanismi di dissesto; controllo integrale."
+    },
+    {
+      "id": "C-LST-004",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 1 di 12: assenza di connessioni soprattutto in sommità tra le diverse pareti di muratura; marcatore e punteggiatura controllati."
+    },
+    {
+      "id": "C-LST-005",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 2 di 12: assenza di connessioni efficaci tra pareti ortogonali; controllo integrale."
+    },
+    {
+      "id": "C-LST-006",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 3 di 12: assenza di connessioni trasversali tra i paramenti murari di una parete; controllo integrale."
+    },
+    {
+      "id": "C-LST-007",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 4 di 12: muratura poco coesa e facilmente disgregabile; controllo integrale."
+    },
+    {
+      "id": "C-LST-008",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 5 di 12: elementi spingenti, esempi tra parentesi e condizione sul trasferimento della spinta; controllo integrale su due righe."
+    },
+    {
+      "id": "C-LST-009",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 6 di 12: orizzontamenti voltati, spessore, spostamenti delle imposte e precisazione tra parentesi; controllo integrale su due righe."
+    },
+    {
+      "id": "C-LST-010",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 7 di 12: coperture e/o solai male organizzati e/o mal collegati alle pareti; controllo integrale."
+    },
+    {
+      "id": "C-LST-011",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 8 di 12: presenza di pareti eccessivamente snelle; controllo integrale."
+    },
+    {
+      "id": "C-LST-012",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 9 di 12: masse significative ai piani alti, inclusa la precisazione tra parentesi; controllo integrale."
+    },
+    {
+      "id": "C-LST-013",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 10 di 12: fenomeni di degrado nei materiali; controllo integrale."
+    },
+    {
+      "id": "C-LST-014",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 11 di 12: elementi non strutturali non adeguatamente ancorati o fragili/poco resistenti, con tutti gli esempi tra parentesi; controllo integrale su due righe."
+    },
+    {
+      "id": "C-LST-015",
+      "pagina": "circ:271",
+      "riferimento": "Elenco sotto C-PRO-016, voce 12 di 12: corpi di fabbrica di differente altezza; marcatore e punto finale controllati."
+    },
+    {
+      "id": "C-RUB-002",
+      "pagina": "circ:271",
+      "riferimento": "Rubrica C8.7.1.1 VERIFICA DELLE PARETI MURARIE ALLE AZIONI NON SISMICHE, subito dopo il secondo elenco: numerazione e titolo maiuscolo/grassetto controllati integralmente."
+    },
+    {
+      "id": "C-PRO-017",
+      "pagina": "circ:271",
+      "riferimento": "Unico capoverso sotto C8.7.1.1, da «Per la verifica delle pareti murarie» a «formulazioni di comprovata validità»; controllo integrale e rinvio a § 4.5.6 delle NTC."
+    },
+    {
+      "id": "C-RUB-003",
+      "pagina": "circ:271",
+      "riferimento": "Rubrica C8.7.1.2 MECCANISMI LOCALI - METODI DI ANALISI DELLA RISPOSTA SISMICA E CRITERI DI VERIFICA: numerazione, trattino, maiuscolo e grassetto controllati integralmente."
+    },
+    {
+      "id": "C-PRO-018",
+      "pagina": "circ:271",
+      "riferimento": "Primo capoverso sotto C8.7.1.2, da «Negli edifici in muratura» a «sedi di appoggio»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-019",
+      "pagina": "circ:271",
+      "riferimento": "Secondo capoverso sotto C8.7.1.2, da «L’identificazione dei meccanismi locali» a «anche di origine non sismica»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-020",
+      "pagina": "circ:271",
+      "riferimento": "Terzo capoverso sotto C8.7.1.2, da «Devono essere considerate» a «edifici adiacenti»; controllo integrale, incluse entrambe le parentesi."
+    },
+    {
+      "id": "C-PRO-021",
+      "pagina": "circ:271",
+      "riferimento": "Quarto capoverso sotto C8.7.1.2, da «Le forme ricorrenti» a «definire le modalità di collasso»; controllo integrale."
+    },
+    {
+      "id": "C-PRO-022",
+      "pagina": "circ:271",
+      "riferimento": "Quinto capoverso sotto C8.7.1.2, da «La verifica della maggior parte» a «per posizione e snellezza»; controllo integrale e rinvio a § 7.8.1.6 delle NTC."
+    },
+    {
+      "id": "C-RUB-004",
+      "pagina": "circ:271",
+      "riferimento": "Rubrica C8.7.1.2.1 Analisi dei meccanismi locali di corpo rigido, verso il fondo pagina: numerazione, titolo in maiuscolo/minuscolo e grassetto controllati integralmente."
+    },
+    {
+      "id": "C-PRO-023",
+      "pagina": "circ:271",
+      "riferimento": "Unico capoverso sotto C8.7.1.2.1 e ultimo elemento del perimetro, da «In generale, ogni meccanismo locale di corpo rigido» a «con il resto della costruzione»; controllo integrale, incluse le due parentesi e il punto finale."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Tutto quanto precede la rubrica 8.7.1: testata editoriale e contenuto delle sezioni 8.5.3, 8.5.4, 8.5.5, 8.6 e 8.7 con relativo capoverso introduttivo; esclusione per limite iniziale del perimetro e apparato editoriale."
+    },
+    {
+      "pagina": "ntc:297",
+      "riferimento": "Piè di pagina con numero stampato 293, lineette e quattro contrassegni grafici; apparato editoriale esterno al testo normativo in perimetro."
+    },
+    {
+      "pagina": "ntc:298",
+      "riferimento": "Dalla rubrica 8.7.2 inclusa fino al termine del contenuto visibile, comprese le sezioni 8.7.2 e 8.7.3; esclusione per limite finale «prima di 8.7.2»."
+    },
+    {
+      "pagina": "ntc:298",
+      "riferimento": "Piè di pagina con numero stampato 4, lineette e quattro contrassegni grafici; apparato editoriale esterno al testo normativo in perimetro."
+    },
+    {
+      "pagina": "circ:270",
+      "riferimento": "Testata editoriale e tre capoversi visibili sopra la rubrica C8.7.1, inclusa la continuazione iniziale da pagina precedente; esclusione espressa dal perimetro per quanto precede C8.7.1."
+    },
+    {
+      "pagina": "circ:270",
+      "riferimento": "Piè di pagina con numero stampato 266, lineette e quattro contrassegni grafici; apparato editoriale esterno al testo della Circolare in perimetro."
+    },
+    {
+      "pagina": "circ:271",
+      "riferimento": "Piè di pagina con numero stampato 7, lineette e quattro contrassegni grafici, immediatamente dopo il capoverso finale C-PRO-023; apparato editoriale esterno al testo in perimetro."
+    }
+  ],
+  "dubbi": []
+}

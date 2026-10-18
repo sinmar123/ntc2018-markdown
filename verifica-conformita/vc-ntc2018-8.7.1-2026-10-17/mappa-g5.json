@@ -1,0 +1,56 @@
+{
+  "firma": "CDX",
+  "scope": "8.7.1",
+  "data": "2026-10-17",
+  "lista_file": "lista-file.json",
+  "target_composto": "g5/target-scope-corretto.md",
+  "target_composto_sha256": "87e9926aba0fd457cd67d10ede44a9cfa14f068881e2a90eff3d414744745e15",
+  "testo_depurato": "g5/testo-depurato.md",
+  "righe_depurate": 662,
+  "pagine": {
+    "ntc": [297, 298],
+    "circolare": [270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283],
+    "totale": 16
+  },
+  "limiti_condivisi": [
+    "NTC 297: il perimetro inizia dopo il testo del § 8.7",
+    "NTC 298: il perimetro termina prima della rubrica § 8.7.2",
+    "Circolare 270: il perimetro inizia dopo il testo del § C8.7",
+    "Circolare 283: il perimetro termina prima della rubrica § C8.7.2"
+  ],
+  "blocchi_primari": [
+    {
+      "id": "b01",
+      "pagine": ["ntc:297", "ntc:298", "circ:270", "circ:271"],
+      "righe": [[1, 109]],
+      "limiti": "Dalla rubrica 8.7.1; per la Circolare dalla rubrica C8.7.1 fino al capoverso che termina con il collegamento della porzione interessata dal meccanismo con il resto della costruzione."
+    },
+    {
+      "id": "b02",
+      "pagine": ["circ:272", "circ:273"],
+      "righe": [[110, 219]],
+      "limiti": "Dal capoverso 'Per le verifiche che seguono' fino al capoverso che termina con l'altezza della cerniera identificata attraverso la minimizzazione del moltiplicatore α₀."
+    },
+    {
+      "id": "b03",
+      "pagine": ["circ:274", "circ:275", "circ:276", "circ:277", "circ:278"],
+      "righe": [[220, 455]],
+      "limiti": "Dal capoverso 'Queste resistenze attritive' fino alla definizione dello spostamento allo SLO, pari a 2/3 di quello allo SLD."
+    },
+    {
+      "id": "b04",
+      "pagine": ["circ:279", "circ:280", "circ:281", "circ:282", "circ:283"],
+      "righe": [[456, 662]],
+      "limiti": "Dal capoverso 'La domanda di spostamento, da confrontarsi' fino alla fine del § C8.7.1.4, prima di C8.7.2."
+    }
+  ],
+  "controlli": {
+    "righe_coperte_una_volta": true,
+    "pagine_assegnate_una_volta": true,
+    "lacune": [],
+    "sovrapposizioni": [],
+    "formule_definizioni_elenchi_spezzati": []
+  },
+  "nota_soglia": "Lo scope reale è di 16 pagine, una oltre la soglia consigliata di 15. Il dato è emerso in G0 ed è stato segnalato a Sandro; lo scope già avviato prosegue intero, sotto il limite massimo di 40 pagine.",
+  "nota_blocchi": "La seconda mappa conserva b01 e riallinea b02-b04 ai confini fisici delle pagine. b02 contiene due pagine perché ogni confine alternativo a 3-5 pagine avrebbe separato una formula dalle definizioni oppure una sequenza normativa continua. Il primo tentativo è conservato in config-g6.json come evidenza dell'errore tecnico rilevato prima della rivelazione del target."
+}

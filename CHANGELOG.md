@@ -1,5 +1,11 @@
 # Changelog - NTC 2018
 
+## 2026-10-18 - VC-OK del § 8.7.1 con C8.7.1, GBOT-verifica-ntc
+
+VC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-18 - Comando `pagine` di vc-supporto.py, GBOT-verifica-ntc
 
 Decisione di Sandro del 2026-10-18 alle 13:47: le colonne `pagine_pdf_ntc` e `pagine_pdf_circolare` del registro si correggono con lo strumento, mai a mano. Nuovo comando `vc-supporto.py pagine CONFIG_JSON [--applica]`: una sola riga `IN-CORSO`, stesso lucchetto della scheda, valori validati con il lint, motivo, autorizzazione ed evidenza obbligatori, ricevuta e lint dopo la scrittura; non tocca altre colonne. Test nuovo in `test_vc_supporto.py`; il test del canone neutro conta ora 25 voci, per la voce 25 del catalogo. 38 test OK. Primo uso: riga 8.7.1, NTC 297-298 e Circolare 270-283, riaccertate sui PDF ufficiali.

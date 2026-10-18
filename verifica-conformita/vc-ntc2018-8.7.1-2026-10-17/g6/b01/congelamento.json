@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-17T14:14:24.431651+00:00",
+  "firma": "OpenAI Codex (GPT-5), verificatore indipendente V /root/v871_b01",
+  "inventario_sha256": "50bde0633444ca55754cb8a6b03e9a0195e24080fb9a6cf383826d9fe6488986",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+  "manifest_fonte_sha256": "acfceaf53b4aaa0b76553b90b4593ed65323cb27d7a1cf780c51f29bfc403128"
+}

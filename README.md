@@ -12,6 +12,10 @@ Avere la normativa strutturale italiana in formato testo navigabile, consultabil
 
 Prossima azione: Nessuna sul § 8.6: VC conclusa sullo snapshot registrato.
 
+**§ 8.7.1 con C8.7.1, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 **§ 8.7 sola introduzione, registrato VC-OK, 2026-10-16:** VC-OK del solo `cap08/8.7-introduzione.md`. R1 e R2 approvate: rubrica `C8.7 PROGETTAZIONE DEGLI INTERVENTI` e tre capoversi della Circolare. G6 in un blocco, 7 id. Due ERR-AUDIT sulla resa (`Norma` e `Circolare`) aggiudicati come contenitori del corpus, senza altra correzione. G7 OK. G1 del 2026-10-13 con ricontrollo del 2026-10-16. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7-2026-10-16.md). Firma: GROK.
 
 Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
@@ -203,7 +207,7 @@ Per un LLM: leggere `indice-ntc2018.md`, poi `indice-capXX.md` del capitolo pert
 - **§ 4.2-A NTC + § C4.2-A Circolare**: giudizio storico `VC-OK al 2026-08-06`, ora `VC-SCADUTA - DA RICONFERMARE`. Il verbale conserva l'esito G0-G7 sul vecchio snapshot; la struttura corrente è governata da `cap04/indice-4.2.md` e richiede la riconferma su nuovo scope e manifest.
 - **§ 4.2-B NTC + § C4.2-B Circolare**: `SOSPESO` al settimo G6 sullo snapshot SHA-256 `1b548e70e811ed9a508713db79688e67d468c86bf13765d7652413aa493b2b70`; 3 `ERR-MD`, 1 `ERR-AUDIT`, 0 `DUBBIO`. G7 non avviato e nessuna promozione; serve l'autorizzazione esplicita a `max_giri: 8`, alla correzione distinta, all'errata-corrige dell'inventario e a un ottavo G6 integrale.
 - **Resa dei tag di formula**: lo script condiviso `strumenti/render-capitolo.py` applica le parentesi della fonte e verifica il risultato. Sul render corrente del § 4.1 sono presenti 81/81 tag, senza parentesi tonde ordinarie, e l'anomalia di fonte `[4.1.44)` è riprodotta alla lettera.
-- **Registro di verifica di conformità**: 379 righe, una per file normativo `x`, `x.y` o `x.y.z`; al 2026-10-14 43 `VC-OK`, 4 `IN-CORSO`, 34 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 289 `MAI-FATTA`. Date ed evidenze dei G7 sono esposte direttamente nelle righe interessate; il master dell'intero corpus resta `VC-DA-FARE`.
+- **Registro di verifica di conformità**: 379 righe, una per file normativo `x`, `x.y` o `x.y.z`; al 2026-10-18 56 `VC-OK`, 0 `IN-CORSO`, 28 `DA-RICONFERMARE`, 9 `DA-RIFARE`, 286 `MAI-FATTA`. Date ed evidenze dei G7 sono esposte direttamente nelle righe interessate; il master dell'intero corpus resta `VC-DA-FARE`.
 
 Dettaglio in `TODO.md`, storico in `CHANGELOG.md`.
 

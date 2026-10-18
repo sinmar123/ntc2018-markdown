@@ -1,0 +1,130 @@
+{
+  "firma": "GPT-6, verificatore indipendente (V)",
+  "controllo": "modifiche § 8, scope 8.7.1",
+  "snapshot_prima_sha256": "09eab0335ca26594b29ea19f279acf1da8496550f70883b55fa6695a4b0ba6c8",
+  "snapshot_dopo_sha256": "5c466acd11ce6c074f28ba1b022d78fff5930d5829f378701493ac52b98ad57c",
+  "diff": {
+    "esito": "OK",
+    "note": "b04-diff.txt contiene soltanto le quattro modifiche di lista-correzioni.json: le due rubriche, il richiamo [^4] e la definizione della nota."
+  },
+  "rilievi": [
+    {
+      "id": "C-RUB-002",
+      "esito": "CHIUSO",
+      "prova": "resa-dopo-p03.png: rubrica C8.7.1.1 e capoverso seguente sono su righe distinte."
+    },
+    {
+      "id": "C-RUB-003",
+      "esito": "CHIUSO",
+      "prova": "resa-dopo-p03.png: rubrica C8.7.1.2 e capoverso seguente sono su righe distinte."
+    },
+    {
+      "id": "C-RUB-004",
+      "esito": "CHIUSO",
+      "prova": "resa-dopo-p04.png: rubrica C8.7.1.2.1 e capoverso seguente sono su righe distinte."
+    },
+    {
+      "id": "B03-E044",
+      "esito": "CHIUSO",
+      "prova": "resa-dopo-p11.png: la rubrica C8.7.1.3.1 Edifici singoli è separata dal capoverso seguente."
+    },
+    {
+      "id": "B04-C279-HD-01",
+      "esito": "CHIUSO",
+      "prova": "fonte-circ-279-200dpi.png mostra la rubrica in grassetto corsivo; b04-testo-dopo.md usa la forma convenuta ###### *…*."
+    },
+    {
+      "id": "B04-C281-HD-01",
+      "esito": "CHIUSO",
+      "prova": "fonte-circ-281-raster-nativo.png mostra la rubrica in grassetto corsivo; b04-testo-dopo.md usa la forma convenuta ###### *…*."
+    },
+    {
+      "id": "B04-C281-HD-02",
+      "esito": "CHIUSO",
+      "prova": "fonte-circ-281-raster-nativo.png e resa-dopo-p16.png: la rubrica C8.7.1.3.2 e il capoverso seguente sono distinti."
+    },
+    {
+      "id": "B04-C282-HD-01",
+      "esito": "CHIUSO",
+      "prova": "fonte-circ-282-200dpi.png e resa-dopo-p17.png: la rubrica C8.7.1.3.3 e il capoverso seguente sono distinti."
+    },
+    {
+      "id": "B04-C283-HD-01",
+      "esito": "CHIUSO",
+      "prova": "fonte-circ-283-200dpi.png e resa-dopo-p18.png: la rubrica C8.7.1.4 e il capoverso seguente sono distinti."
+    },
+    {
+      "id": "B04-C281-PR-07",
+      "esito": "CHIUSO",
+      "prova": "fonte-circ-281-raster-nativo.png mostra il richiamo 4 in apice; b04-testo-dopo.md usa [^4] e resa-dopo-p16.png lo rende in apice."
+    },
+    {
+      "id": "B04-C281-NT-01",
+      "esito": "CHIUSO",
+      "prova": "La nota in fonte-circ-281-raster-nativo.png coincide nel testo e nelle enfasi con la definizione [^4] in b04-testo-dopo.md; resa-dopo-p16.png mostra la nota a piè di pagina."
+    }
+  ],
+  "domande_aperte": [
+    {
+      "id": "Q1",
+      "lettura_fonte": "STESSO_CAPOVERSO",
+      "prova": "fonte-circ-278-200dpi.png e fonte-circ-278-righe-vettoriali.json: «Nelle scelte di modellazione» segue senza stacco il capoverso precedente; le righe vettoriali hanno interlinea ordinaria.",
+      "markdown": "CONFORME"
+    },
+    {
+      "id": "Q2",
+      "lettura_fonte": "STESSO_CAPOVERSO",
+      "prova": "fonte-circ-278-200dpi.png e fonte-circ-278-righe-vettoriali.json: «Nel caso di diaframmi di rigidezza finita» continua il capoverso avviato da «Nel caso invece» senza stacco di paragrafo.",
+      "markdown": "CONFORME"
+    }
+  ],
+  "resa": {
+    "pagine_osservate": [
+      "resa-dopo-p03.png",
+      "resa-dopo-p04.png",
+      "resa-dopo-p11.png",
+      "resa-dopo-p12.png",
+      "resa-dopo-p13.png",
+      "resa-dopo-p16.png",
+      "resa-dopo-p17.png",
+      "resa-dopo-p18.png"
+    ],
+    "esito": "Le separazioni di rubrica e capoverso controllate risultano conformi; nota 4 e contesto delle modifiche non mostrano effetti indesiderati."
+  },
+  "nuovi_rilievi": [
+    {
+      "id": "AUDIT-MAP-B04-C281-HD-01",
+      "classe": "ERR-AUDIT",
+      "pagina": "resa-dopo.pdf, pp. 15-16",
+      "prova": "rilievi-g6.json indica p. 16 per la rubrica C8.7.1.3.1.2; il testo estratto da resa-dopo.pdf la colloca a p. 15. La pagina 16 inizia con il testo successivo."
+    }
+  ],
+  "esito": "KO",
+  "letture": [
+    "CONSEGNA.md",
+    "canone.md",
+    "lista-correzioni.json",
+    "rilievi-g6.json",
+    "b04-diff.txt",
+    "b04-testo-dopo.md",
+    "b03-testo-dopo.md",
+    "fonte-circ-278-200dpi.png",
+    "fonte-circ-278-righe-vettoriali.json",
+    "fonte-circ-279-200dpi.png",
+    "fonte-circ-281-200dpi.png",
+    "fonte-circ-281-raster-nativo.png",
+    "fonte-circ-281-600dpi.png",
+    "fonte-circ-282-200dpi.png",
+    "fonte-circ-283-200dpi.png",
+    "resa-dopo.pdf",
+    "resa-dopo-p03.png",
+    "resa-dopo-p04.png",
+    "resa-dopo-p11.png",
+    "resa-dopo-p12.png",
+    "resa-dopo-p13.png",
+    "resa-dopo-p16.png",
+    "resa-dopo-p17.png",
+    "resa-dopo-p18.png"
+  ],
+  "limiti": "Controllo limitato allo scope e ai file forniti. Non è presente resa-dopo-p15.png; la pagina di collocazione della rubrica C8.7.1.3.1.2 è stata riscontrata nel testo del PDF."
+}

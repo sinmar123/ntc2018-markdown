@@ -1,0 +1,10 @@
+{
+  "scope": "8.7.1",
+  "agente": "GBOT",
+  "riga": "8.7.1",
+  "pagine_pdf_ntc": "297-298",
+  "pagine_pdf_circolare": "270-283",
+  "motivo": "ERR-AUDIT del registro rilevato in G0 e rilievo G7-REGISTRO-8.7.1 del G7 tentativo 1: pagine incomplete; valori accertati sulla fonte ufficiale.",
+  "autorizzazione": "Sandro, 2026-10-18 ore 13:47, strada (a): correggere con lo strumento, non a mano.",
+  "evidenza": "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/registro-pagine/conferma-pagine.json"
+}

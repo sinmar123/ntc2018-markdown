@@ -1,0 +1,15 @@
+# Rapporto C, § 8.7.1 (Norma e Circolare), confronto iniziale
+
+Firma: GBOT-verifica-ntc (C), 2026-10-17. Esecutore del confronto: Grok Build sul W520 (modello `grok-4.6-build`), tre sessioni a contesto separato. Procedura VC-NTC/9, hash `14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f`. Catalogo `add1873d309b44930b8caccf8dd5ed3714926108a106230de35133a8a76e239e`. Base git `92a449e`. Target SHA-256 `643c7e83faec95dcde4cf74be90976190b0c122d46b50d88c12df50f03ae2a45`.
+
+G0. Riga `8.7.1`, file `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`. Norma: pagine fisiche 297-298, da `8.7.1.` a prima di `8.7.2.` (il registro indica solo 297: ERR-AUDIT del registro, da correggere alla registrazione). Circolare: pagine fisiche 270-283 (stampate 266-279), da `C8.7.1` a prima di `C8.7.2`; pagine 270 e 283 condivise con testo escluso. Il registro elenca 270-272, 274-277, 279, 282-283: mancano 273, 278, 280, 281, che contengono testo dello scope. Fuori: 8.7, 8.7.2-8.7.5, C8.7.6, C8.8. Lo scope occupa 16 pagine, sopra la soglia di 15 del § 2 oltre la quale si propone un sotto-scope: segnalato a Sandro, non diviso.
+
+G1. Ricognizione piena del 2026-10-13 riusata (dentro i trenta giorni). Ricontrollo mirato del 2026-10-17: le tre schede GU (D.M. 17/01/2018, Circolare 7/2019, D.M. 9/3/2023) sono identiche byte per byte al ricontrollo del 2026-10-16 (`g1/`). Impronte dei PDF congelati invariate.
+
+G2-G4. Tre blocchi: A righe 1-164 (Norma e Circolare 270-274), B righe 165-323 (274-279), C righe 324-472 (279-283). Norma: conforme parola per parola, rubrica compresa. Circolare: 18 formule numerate, nessuna tabella, nessuna figura, una nota. La pagina 281 non ha strato di testo: letta sul raster nativo 2221×3106, impronta `d860503c1a902573839c9451c86db2d4b884fc058ea1cc75e547b5807397d406`. Esito: 198 voci applicabili, 21 sostanziali, 3 dubbi, 22 anomalie della fonte, 5 voci respinte o assorbite. Elenco in [lista-correzioni-c.md](lista-correzioni-c.md).
+
+Controllo a campione di C. Tutte le 18 formule viste a 600-1200 dpi; ricontrollati sulla pagina i punti sostanziali B-01, B-07, B-11, B-12, B-15, B-18, B-75 e i pedici di A-41: confermati. Aggiunte G-01...G-09 (sfuggite ai blocchi): grassetto «Nel caso di muratura regolare» (la nota di C-15 che lo dava in tondo è errata), virgola dopo μ a p. 281, e∗ centrato in [C8.7.1.8]-[C8.7.1.9], a e S in tondo, V maiuscola in [C8.7.1.14], Φ e min corsivo in [C8.7.1.15]. Respinte C-24 e C-25: «[4]» e «**Nota 4.**» sono la convenzione dei file VC-OK 8.5.4 e 8.4. Assorbite B-64, B-66, B-76. Uniformate le lettere degli elenchi (C-50...C-55 le conservano come A-10). C-18 riclassificata DUBBIO. Il confronto di parole fra target e target dopo la lista mostra solo le modifiche attese.
+
+Stato: G0-G4 svolti, in attesa della decisione di Sandro sulla lista; nessuna correzione applicata; G5-G7 non avviati.
+
+Consumi Grok Build (dal JSON della CLI): A 5,82 M token, 3,73 USD; B 10,33 M, 6,45 USD; C 8,27 M, 5,15 USD; totale circa 24,4 M token (in gran parte cache), 15,33 USD.
