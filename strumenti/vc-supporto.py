@@ -373,6 +373,66 @@ def sync_titles(config_path, apply=False, run_checks=True):
     return result
 
 
+def set_pages(config_path, apply=False, run_checks=True):
+    """Aggiorna soltanto le colonne delle pagine PDF di una riga IN-CORSO, sotto lo stesso lucchetto.
+
+    Aggiunto il 2026-10-18, GBOT-verifica-ntc, su decisione di Sandro: le pagine accertate in G0
+    contro la fonte si registrano con lo strumento, mai a mano sul CSV."""
+    cfg = read_json(config_path)
+    row_id, agent, scope = cfg.get("riga"), cfg.get("agente"), cfg.get("scope")
+    require(all(isinstance(x, str) and x for x in (row_id, agent, scope)), "Scope/agente/riga mancanti")
+    fields = ("pagine_pdf_ntc", "pagine_pdf_circolare")
+    require(any(f in cfg for f in fields), "Nessuna colonna pagine indicata")
+    require(cfg.get("motivo", "").strip() and cfg.get("autorizzazione", "").strip(), "Motivo/autorizzazione mancanti")
+    evidence = cfg.get("evidenza")
+    require(isinstance(evidence, str) and inside(ROOT, evidence).is_file(), "Evidenza della fonte mancante")
+    valid_pages = runpy.run_path(str(ROOT / "strumenti/lint-registro-verifica.py"))["valid_pages"]
+    for field in fields:
+        if field in cfg:
+            require(isinstance(cfg[field], str) and (cfg[field] == "" or valid_pages(cfg[field])),
+                    f"{field} non valido: {cfg.get(field)!r}")
+    sheet = inside(ROOT, f"verifica-conformita/scheda-scope-ntc2018-{scope.lower()}.md")
+    text = sheet.read_text(encoding="utf-8")
+    require(re.search(r"(?m)^stato: IN-CORSO\s*$", text), "Scheda non in corso")
+    require(re.search(rf"(?m)^agente: {re.escape(agent)}\s*$", text), "Lucchetto di altro agente")
+    registry = ROOT / "registro-verifica-conformita-ntc2018.csv"
+    before = registry.read_bytes()
+    rows = list(csv.DictReader(io.StringIO(before.decode("utf-8-sig")), delimiter=";"))
+    selected = [r for r in rows if r["paragrafo"] == row_id]
+    require(len(selected) == 1 and selected[0]["stato_vc"] == "IN-CORSO", "Riga assente, non univoca o non IN-CORSO")
+    row = selected[0]
+    changes = {f: {"prima": row[f], "dopo": cfg[f]} for f in fields if f in cfg and row[f] != cfg[f]}
+    require(changes, "Nessuna pagina da aggiornare")
+    for field, change in changes.items():
+        row[field] = change["dopo"]
+    stream = io.StringIO(newline="")
+    writer = csv.DictWriter(stream, fieldnames=list(rows[0]), delimiter=";")
+    writer.writeheader(); writer.writerows(rows)
+    after = stream.getvalue().encode("utf-8-sig")
+    summary = {"fase": "PIANO", "scope": scope, "riga": row_id, "modifiche": changes,
+               "motivo": cfg["motivo"], "autorizzazione": cfg["autorizzazione"], "evidenza": evidence,
+               "file": str(registry.relative_to(ROOT))}
+    if not apply:
+        return summary
+    receipt = Path(config_path).resolve().with_suffix(".eseguito.json")
+    require(not receipt.exists(), "Aggiornamento pagine già tentato: controllare la ricevuta")
+    json_new(receipt, {**summary, "fase": "IN_CORSO", "prima": hashlib.sha256(before).hexdigest(),
+                       "dopo": hashlib.sha256(after).hexdigest()})
+    require(registry.read_bytes() == before, "Registro cambiato durante l'aggiornamento")
+    temporary = registry.with_name(registry.name + ".vc-nuovo")
+    with temporary.open("xb") as output:
+        output.write(after)
+    os.replace(temporary, registry)
+    if run_checks:
+        checked = subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "strumenti/lint-registro-verifica.py")],
+                                 cwd=ROOT, text=True, encoding="utf-8", capture_output=True)
+        require(checked.returncode == 0, "Pagine scritte; lint fallito: " + checked.stdout + checked.stderr)
+    result = {**summary, "fase": "SCRITTO", "prima": hashlib.sha256(before).hexdigest(),
+              "dopo": hashlib.sha256(after).hexdigest(), "controlli": "OK" if run_checks else "fixture"}
+    receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return result
+
+
 def verify_historical(root, manifest):
     """Risoluzione esplicita delle sole procedure vive mediante copie GIÀ nel manifest."""
     root = Path(root)
@@ -974,6 +1034,9 @@ def main():
     sync = commands.add_parser("sincronizza-titoli", help="Allinea i titoli delle sole righe IN-CORSO al target vivo")
     sync.add_argument("config")
     sync.add_argument("--applica", action="store_true")
+    pages = commands.add_parser("pagine", help="Aggiorna le sole colonne pagine PDF di una riga IN-CORSO")
+    pages.add_argument("config")
+    pages.add_argument("--applica", action="store_true")
     inv = commands.add_parser("valida-inventario", help="Controlla il formato prima del congelamento, senza target")
     inv.add_argument("blocco")
     g6 = commands.add_parser("valida-g6", help="Controlla copertura ID e formato del rapporto, senza giudicare la fonte")
@@ -1027,6 +1090,8 @@ def main():
             result = take_scope(args.config, args.applica)
         elif args.command == "sincronizza-titoli":
             result = sync_titles(args.config, args.applica)
+        elif args.command == "pagine":
+            result = set_pages(args.config, args.applica)
         elif args.command == "valida-inventario":
             result = inventory_check(args.blocco)
         elif args.command == "valida-g6":

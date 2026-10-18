@@ -1,5 +1,11 @@
 # Changelog - NTC 2018
 
+## 2026-10-18 - Comando `pagine` di vc-supporto.py, GBOT-verifica-ntc
+
+Decisione di Sandro del 2026-10-18 alle 13:47: le colonne `pagine_pdf_ntc` e `pagine_pdf_circolare` del registro si correggono con lo strumento, mai a mano. Nuovo comando `vc-supporto.py pagine CONFIG_JSON [--applica]`: una sola riga `IN-CORSO`, stesso lucchetto della scheda, valori validati con il lint, motivo, autorizzazione ed evidenza obbligatori, ricevuta e lint dopo la scrittura; non tocca altre colonne. Test nuovo in `test_vc_supporto.py`; il test del canone neutro conta ora 25 voci, per la voce 25 del catalogo. 38 test OK. Primo uso: riga 8.7.1, NTC 297-298 e Circolare 270-283, riaccertate sui PDF ufficiali.
+
+Firma: GBOT-verifica-ntc.
+
 ## 2026-10-18 - Rubriche su riga propria nella resa e note a piè di pagina, GBOT-verifica-ntc
 
 Due decisioni di Sandro del 2026-10-18, prese sui rilievi del G6 del § 8.7.1:

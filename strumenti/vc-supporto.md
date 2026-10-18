@@ -39,6 +39,15 @@ python strumenti/vc-supporto.py sincronizza-titoli CONFIG_JSON --applica
 
 Il JSON contiene `scope`, `righe` e `agente`. Il comando controlla il medesimo lucchetto, aggiorna esclusivamente il campo `titolo`, conserva una ricevuta ed esegue il lint.
 
+Se le pagine PDF di una riga `IN-CORSO` risultano errate o incomplete rispetto alla fonte, si correggono con lo strumento:
+
+```text
+python strumenti/vc-supporto.py pagine CONFIG_JSON
+python strumenti/vc-supporto.py pagine CONFIG_JSON --applica
+```
+
+Il JSON contiene `scope`, `agente`, `riga`, una o entrambe le colonne `pagine_pdf_ntc` e `pagine_pdf_circolare`, `motivo`, `autorizzazione` ed `evidenza` (file del repository con l'accertamento sulla fonte). Il comando controlla lo stesso lucchetto, valida i valori con il lint, aggiorna esclusivamente quelle colonne della sola riga indicata, conserva una ricevuta ed esegue il lint. Aggiunto il 2026-10-18, GBOT-verifica-ntc, su decisione di Sandro.
+
 ## Composizione del testo dello scope
 
 Dalla revisione 8 della procedura, 2026-10-15, CC cloud. Uno scope con più file si confronta su un testo unico: tutte le parti Norma nell'ordine dei file, poi tutte le parti Circolare, divise alla rubrica `## Circolare`.
