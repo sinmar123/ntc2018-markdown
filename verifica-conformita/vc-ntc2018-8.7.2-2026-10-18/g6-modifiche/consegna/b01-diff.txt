@@ -1,0 +1,43 @@
+--- testo.md
++++ testo-dopo.md
+@@ -124,23 +124,23 @@
+ 
+ dove:
+ 
+-$\gamma_{el}=1.5$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC),
+-
+-$L_V$ è la luce di taglio;
+-
+-$h$ è l’altezza della sezione;
+-
+-$\nu=N/(A_cf_c)$ è lo sforzo assiale normalizzato di compressione agente su tutta la sezione $A_c$;
+-
+-$\omega=A_sf_y/(A_cf_c)$ e $\omega'=A'_sf_y/(A_cf_c)$ sono le percentuali meccaniche di armatura longitudinale in trazione e compressione rispettivamente (nelle pareti tutta l’armatura longitudinale d’anima è da includere nella percentuale in trazione);
+-
+-$f_c$, $f_y$ e $f_{yw}$ sono la resistenza a compressione del calcestruzzo e la resistenza a snervamento dell’acciaio, longitudinale e trasversale, ottenute come media delle prove eseguite in sito, eventualmente corrette sulla base di fonti aggiuntive di informazione, divise per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto;
+-
+-$\rho_{sx}=A_{sx}/b_ws_h$ è la percentuale di armatura trasversale ($s_h$ = interasse delle staffe nella zona critica);
+-
+-$\rho_d$ è la percentuale di eventuali armature diagonali in ciascuna direzione,
+-
+-$\alpha$ è un fattore di efficienza del confinamento dato da:
++- $\gamma_{el}=1.5$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC),
++
++- $L_V$ è la luce di taglio;
++
++- $h$ è l’altezza della sezione;
++
++- $\nu=N/(A_cf_c)$ è lo sforzo assiale normalizzato di compressione agente su tutta la sezione $A_c$;
++
++- $\omega=A_sf_y/(A_cf_c)$ e $\omega'=A'_sf_y/(A_cf_c)$ sono le percentuali meccaniche di armatura longitudinale in trazione e compressione rispettivamente (nelle pareti tutta l’armatura longitudinale d’anima è da includere nella percentuale in trazione);
++
++- $f_c$, $f_y$ e $f_{yw}$ sono la resistenza a compressione del calcestruzzo e la resistenza a snervamento dell’acciaio, longitudinale e trasversale, ottenute come media delle prove eseguite in sito, eventualmente corrette sulla base di fonti aggiuntive di informazione, divise per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto;
++
++- $\rho_{sx}=A_{sx}/b_ws_h$ è la percentuale di armatura trasversale ($s_h$ = interasse delle staffe nella zona critica);
++
++- $\rho_d$ è la percentuale di eventuali armature diagonali in ciascuna direzione,
++
++- $\alpha$ è un fattore di efficienza del confinamento dato da:
+ 
+ $$
+ \alpha = \left(1-\frac{s_h}{2b_0}\right)\left(1-\frac{s_h}{2h_0}\right)

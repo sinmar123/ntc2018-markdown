@@ -14,12 +14,13 @@ atti:
 file_markdown: [cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md]
 righe_registro: ["8.7.2"]
 base_git: 856c566
+snapshot_sha256: 6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689
 giro_g6: 1
 max_giri: 3
-rilievi_aperti: 6
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: attesa}
-attesa_decisione: ["rilievi G6 giro 1: correzione dei 3 blocchi dove (voce 18), resa di [C8.7.2.8], chiusura senza modifiche dei rilievi 3-6"]
-prossimo_passo: "Decisione di Sandro sui rilievi del G6 (confronto in g6-rilievi-8.7.2.pdf); poi un giro di correzione, controllo delle modifiche (§ 8), G6 di riscontro e G7 con gpt-6.1-sol."
+rilievi_aperti: 0
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
+attesa_decisione: []
+prossimo_passo: "G7 con Codex gpt-6.1-sol (high, read-only, contesto nuovo) sul lotto di chiusura; se OK registra, README, CHANGELOG, diario e commit locali."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo sulla fonte, lista per Sandro, worktree e commit"}
@@ -27,8 +28,9 @@ routing_effettivo:
   primo_filtro: "corpus structural-codes, solo come filtro e mai come fonte"
   E: non_attivato
   V: {agente: "Codex sul W520", modello: "gpt-5.6-terra", ragionamento: high, sandbox: read-only, ruolo: "G6 giro 1, blocchi b01 e b02, contesti nuovi", esito: "KO: b01 4 rilievi, b02 2 rilievi"}
-  V_dubbi_G7: "gpt-6.1-sol non usato finora"
-consumi: {codex_terra_A: "149.256 token, 8 min", codex_terra_B: "164.504 token, 4,5 min", structural_codes: "script locale, nessun LLM", codex_terra_g6_b01: "fase 1 276.110 input (239.488 in cache), 6.332 output; fase 2 1.387.422 input (1.298.176 in cache), 21.246 output; 3,5 + 8 min", codex_terra_g6_b02: "fase 1 258.065 input (223.488 in cache), 4.366 output; fase 2 615.542 input (534.016 in cache), 15.529 output; 2,5 + 6 min", sol: "non usato"}
+  V_modifiche: {agente: "Codex sul W520", modello: "gpt-5.6-terra", ragionamento: high, sandbox: read-only, ruolo: "controllo delle modifiche § 8, contesto nuovo", esito: OK}
+  G7: {agente: "Codex sul W520", modello: "gpt-6.1-sol", ragionamento: high, sandbox: read-only}
+consumi: {codex_terra_A: "149.256 token, 8 min", codex_terra_B: "164.504 token, 4,5 min", structural_codes: "script locale, nessun LLM", codex_terra_g6_b01: "fase 1 276.110 input (239.488 in cache), 6.332 output; fase 2 1.387.422 input (1.298.176 in cache), 21.246 output; 3,5 + 8 min", codex_terra_g6_b02: "fase 1 258.065 input (223.488 in cache), 4.366 output; fase 2 615.542 input (534.016 in cache), 15.529 output; 2,5 + 6 min", codex_terra_modifiche: "369.881 input (312.576 in cache), 3.761 output; 2,7 min", sol: "solo G7"}
 ---
 
 # Scheda scope § 8.7.2
@@ -70,5 +72,14 @@ Firma: GBOT-verifica-ntc, 2026-10-18.
 - **16:28-16:36:** fase 2, confronto nello stesso contesto. `valida-g6`: schema OK; b01 38 ID coperti, 4 rilievi; b02 28 ID coperti, 2 rilievi. Esito KO.
 - Giudizio di C sulla fonte (livello vettoriale e ritagli a 600-800 dpi): COND-C285-DOVE-1 fondato (voce 18: i blocchi «dove:» vanno resi come elenco), esteso ai blocchi di [C8.7.2.8] e [C8.7.2.13]; l'errore viene dalla lista v1. FORM-287-03 riguarda solo la resa ed è da decidere. F-C285-87221, COND-C285-POST-ALFA e FORM-289-01 non sono fondati. C286-87234-FINO è una scelta di impacchettamento, non un errore del testo.
 - Nessuna correzione applicata, G7 non avviato. Evidenze: `vc-ntc2018-8.7.2-2026-10-18/g6/`, `sequenza-g6.json`, `esito-g6.json`. Scarti dichiarati: C ha trascritto byte per byte i JSON di V (sandbox read-only); entrambi i V hanno letto lo SKILL.md del plugin pdf di Codex; V b02 ha fatto una chiamata Computer Use con risultato vuoto.
+
+Firma: GBOT-verifica-ntc, 2026-10-18.
+
+## Decisione sui rilievi e controllo delle modifiche (2026-10-18)
+
+- **16:53 (ora di Roma):** Sandro decide sui sei rilievi (`vc-ntc2018-8.7.2-2026-10-18/decisione-g6-20261018.json`): COND-C285-DOVE-1 fondato, i tre blocchi «dove:» diventano elenco puntato (voce 18), senza toccare il testo; FORM-287-03 chiuso senza modifiche, [C8.7.2.8] resta com'è (solo resa, decisione di Sandro); F-C285-87221, COND-C285-POST-ALFA e FORM-289-01 chiusi senza modifiche (vettoriale e ritagli ad alta risoluzione); C286-87234-FINO chiuso come ERR-AUDIT documentale sul pacchetto.
+- **16:55-16:56:** lista g6 di 3 voci (21 righe; nel PDF di confronto C ne aveva contate 22 per errore, perimetro e testo invariati) applicata con `applica-lista` piano e `--applica`; indici interni rigenerati (target invariato dagli indici); lint 0 errori; `verifica-lista` della lista v1 più g6, 73 voci, sulla base `61aa496`: OK. Target `6b338b8c…3b689`.
+- **16:56:** `pacchetto-modifiche` sugli stessi blocchi del G6, con nuova resa di 9 pagine; confronto meccanico con la resa G5 e osservazione dell'intero documento da parte di C.
+- **16:59-17:02:** controllo delle modifiche con V Codex `gpt-5.6-terra` (high, read-only, contesto nuovo): diff OK, tre blocchi chiusi, resa OK, nessun nuovo rilievo, esito OK (`g6-modifiche/esito-terra.json`). `giro_g6` resta 1; il § 8 non prevede un G6 di riscontro. G6: OK.
 
 Firma: GBOT-verifica-ntc, 2026-10-18.
