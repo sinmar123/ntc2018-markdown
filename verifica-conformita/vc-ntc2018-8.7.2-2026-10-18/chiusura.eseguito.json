@@ -16,37 +16,37 @@
   "nota": "Giudizio di V già presente; nessun nuovo giudizio emesso dallo script",
   "impronte": [
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\registro-verifica-conformita-ntc2018.csv",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\registro-verifica-conformita-ntc2018.csv",
       "prima": "fd49f2af96ec67539b0431231db2f98ed607063797f81227e1728cc5fe2300ba",
       "dopo": "e252ceb29b8219c8591f900dfbb8c1e786d885a0d6df7001b2c5c28f4ecfd16e"
     },
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\README.md",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\README.md",
       "prima": "81d7612eb63bdb7fd4a0e10f340d1c9de092e107e753c10af915b3f00b4edb0b",
       "dopo": "60cd58914dd9d5e3a34da36dc363ec349ab7a4980399714da5c49498deecb259"
     },
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\TODO.md",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\TODO.md",
       "prima": "6ac3fee42a540ff3f52a306e509ae4339b59085ae2048894a3e4909466fcc739",
       "dopo": "8e0357ed1151cd28fb1fa45336ac1120998d7ed916a7265779961d594fbaf44d"
     },
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\CHANGELOG.md",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\CHANGELOG.md",
       "prima": "53a37371d6c12bb7f14b26a16f8ae96b54e2333ffadd076e7495dde1f39fe760",
       "dopo": "4efe7c22f9234543b4e946679dc005b46be16307338c79436d77bb6beec987d5"
     },
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\indice-ntc2018.md",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\indice-ntc2018.md",
       "prima": "127b5dcd8f2da102e029a2ca49823926367675971c2b2ae15c986f2f0dbba702",
       "dopo": "9e1400779b1c27ca851c01edc9421fd6fc8fdf48af8e1ab5a816f8399add7983"
     },
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\cap08\\cap08-costruzioni-esistenti-revisione.md",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\cap08\\cap08-costruzioni-esistenti-revisione.md",
       "prima": "cea87ea8da036e7ac0c3848accb0213752c2f405e0bed6f690c391452536ac92",
       "dopo": "4d8a8297d05fc80e45643ecde7117e83a439a59f45435b1ea9f01e01fd5f7c6b"
     },
     {
-      "path": "C:\\Users\\sandro\\ag_oc\\workspace\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\verifica-conformita\\scheda-scope-ntc2018-8.7.2.md",
+      "path": "<workspace>\\normativa\\ntc2018--norme-costruzioni\\_tmp_render\\wt-gbot-vc-8.7.2-261018\\verifica-conformita\\scheda-scope-ntc2018-8.7.2.md",
       "prima": "98875f8f272de212c3e09624c0bdf8f8bcd5ce7658480f78fc0b25905f5f8ae9",
       "dopo": "9592c1e8e6b3e3357324c988cccf5610c875f89150aed5d78b958abac4e1216d"
     }

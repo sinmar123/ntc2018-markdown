@@ -2,7 +2,7 @@
 
 Verifica di conformità del solo file `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md` (NTC p. 298, Circolare pp. 283-289), conclusa con G7 `OK` e registrata `VC-OK` il 2026-10-18 secondo la procedura VC-NTC/10. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md).
 
-Ramo `gbot/vc-8.7.2-261018`, basato su `cdx/vc-8.7.1-261017` (856c566, PR #19): da unire dopo la PR #19, oppure da ribasare su `main` quando la #19 sarà unita.
+Ramo `gbot/vc-8.7.2-261018`, basato su `cdx/vc-8.7.1-261017` (PR #19) e allineato con un merge alla sua punta `1d4c0e2`: **da unire dopo la PR #19**.
 
 ## Commit
 
@@ -14,7 +14,10 @@ Ramo `gbot/vc-8.7.2-261018`, basato su `cdx/vc-8.7.1-261017` (856c566, PR #19): 
 6. `d3a1326` G7 tentativo 1 KO per due ERR-AUDIT documentali.
 7. `247ccca` Rettifiche documentali (prove di C nel manifest, `manifest_sha256` nel piano).
 8. `d5817fe` VC-OK: G7 OK al tentativo 2, registro, file di governo e scheda.
-9. Questo testo della PR, fuori dal manifest.
+9. `93b833b` Testo della PR, fuori dal manifest.
+10. `1d4c0e2` (dal ramo della PR #19) Rettifica documentale 8.7.1: percorsi locali oscurati nella ricevuta di registrazione.
+11. `755a2da` Merge di `cdx/vc-8.7.1-261017` (nessun rebase).
+12. Rettifica documentale 8.7.2: percorsi locali oscurati nella ricevuta di registrazione; testo della PR aggiornato.
 
 ## Cosa cambia
 
@@ -33,4 +36,5 @@ Ramo `gbot/vc-8.7.2-261018`, basato su `cdx/vc-8.7.1-261017` (856c566, PR #19): 
 
 - [C8.7.2.8] resta su due righe con il tag sotto: scarto di sola resa, deciso da Sandro (la formula su una riga non entra nella pagina).
 - Isolamento: sandbox read-only senza `--always-approve`, cartelle temporanee esterne; i V hanno letto istruzioni del runtime (SKILL.md del plugin pdf, AGENTS.md del workspace), dichiarate nel verbale.
+- Ricevute `chiusura.eseguito.json` di 8.7.1 e 8.7.2: i percorsi assoluti del W520 sono sostituiti da `<workspace>` su decisione di Sandro (18/10 19:07), con nota `rettifica-percorsi-20261018.json` nel dossier (impronte prima e dopo). Le ricevute sono fuori dai manifest: `verifica-manifest` resta OK per entrambi gli scope. Restano percorsi assoluti in 100 file già presenti su `main` di scope precedenti, non toccati qui.
 - PDF e PNG di prova restano locali secondo `.gitignore`; il manifest ne conserva le impronte.
