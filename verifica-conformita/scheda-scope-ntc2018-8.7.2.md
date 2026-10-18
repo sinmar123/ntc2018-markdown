@@ -14,20 +14,21 @@ atti:
 file_markdown: [cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md]
 righe_registro: ["8.7.2"]
 base_git: 856c566
-giro_g6: 0
+giro_g6: 1
 max_giri: 3
-rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: in_corso, G7: attesa}
-attesa_decisione: []
-prossimo_passo: "G6 integrale con V Codex gpt-5.6-terra in due blocchi; poi G7 con gpt-6.1-sol se il G6 è a zero rilievi."
+rilievi_aperti: 6
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: attesa}
+attesa_decisione: ["rilievi G6 giro 1: correzione dei 3 blocchi dove (voce 18), resa di [C8.7.2.8], chiusura senza modifiche dei rilievi 3-6"]
+prossimo_passo: "Decisione di Sandro sui rilievi del G6 (confronto in g6-rilievi-8.7.2.pdf); poi un giro di correzione, controllo delle modifiche (§ 8), G6 di riscontro e G7 con gpt-6.1-sol."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo sulla fonte, lista per Sandro, worktree e commit"}
   confronto_iniziale: {agente: "Codex sul W520", modello: "gpt-5.6-terra", sandbox: read-only, ruolo: "confronto integrale sulla fonte", blocchi: "A (md 1-123, NTC 298 e Circolare 283-285) 15:51-15:59; B (md 124-344, Circolare 285-289) 15:51-15:55", esito: "A 22 ERR-MD di forma e 1 DUBBIO; B 35 ERR-MD di forma; nessuna voce sostanziale"}
   primo_filtro: "corpus structural-codes, solo come filtro e mai come fonte"
   E: non_attivato
-  V: "da attivare: gpt-5.6-terra ordinario, gpt-6.1-sol per dubbi e G7 (procedura rev. 10, § 5)"
-consumi: {codex_terra_A: "149.256 token, 8 min", codex_terra_B: "164.504 token, 4,5 min", structural_codes: "script locale, nessun LLM", sol: "non usato"}
+  V: {agente: "Codex sul W520", modello: "gpt-5.6-terra", ragionamento: high, sandbox: read-only, ruolo: "G6 giro 1, blocchi b01 e b02, contesti nuovi", esito: "KO: b01 4 rilievi, b02 2 rilievi"}
+  V_dubbi_G7: "gpt-6.1-sol non usato finora"
+consumi: {codex_terra_A: "149.256 token, 8 min", codex_terra_B: "164.504 token, 4,5 min", structural_codes: "script locale, nessun LLM", codex_terra_g6_b01: "fase 1 276.110 input (239.488 in cache), 6.332 output; fase 2 1.387.422 input (1.298.176 in cache), 21.246 output; 3,5 + 8 min", codex_terra_g6_b02: "fase 1 258.065 input (223.488 in cache), 4.366 output; fase 2 615.542 input (534.016 in cache), 15.529 output; 2,5 + 6 min", sol: "non usato"}
 ---
 
 # Scheda scope § 8.7.2
@@ -60,5 +61,14 @@ Firma: GBOT-verifica-ntc, 2026-10-18.
 - **16:15 (ora di Roma):** Sandro approva l'intera lista v1, 70 voci (5 sostanziali S-01…S-05, 65 di forma); i dubbi D-01…D-04 restano a testo invariato.
 - **16:17:** `applica-lista` piano e `--applica`: 70 voci, solo il target 8.7.2. Il risultato coincide con il target proposto prima dell'approvazione. `verifica-lista` rispetto a `61aa496`: OK. Indici interni rigenerati con `genera-indici-interni.py` (311 file, corpi invariati). Lint del registro: 0 errori. Evidenza: `vc-ntc2018-8.7.2-2026-10-18/decisione-applicazione-20261018.json`.
 - **16:19:** G5. Testo composto con `componi-scope` e depurato (353 righe); resa canonica `g5/resa-finale.pdf` (8 pagine, 14 tag a quadre), osservata da C senza tagli o caratteri mancanti. Mappa e due blocchi G6 in `mappa-g5.json` e `config-g6.json`: b01 NTC 298 e Circolare 283-286, righe 1-205; b02 Circolare 287-289, righe 206-353.
+
+Firma: GBOT-verifica-ntc, 2026-10-18.
+
+## G6, giro 1 (2026-10-18)
+
+- **16:21-16:25 (ora di Roma):** fase 1, inventario fonte-prima di V (Codex `gpt-5.6-terra`, high, read-only, contesto nuovo per blocco, senza `--always-approve`); `valida-inventario` e `rivela` OK su b01 e b02.
+- **16:28-16:36:** fase 2, confronto nello stesso contesto. `valida-g6`: schema OK; b01 38 ID coperti, 4 rilievi; b02 28 ID coperti, 2 rilievi. Esito KO.
+- Giudizio di C sulla fonte (livello vettoriale e ritagli a 600-800 dpi): COND-C285-DOVE-1 fondato (voce 18: i blocchi «dove:» vanno resi come elenco), esteso ai blocchi di [C8.7.2.8] e [C8.7.2.13]; l'errore viene dalla lista v1. FORM-287-03 riguarda solo la resa ed è da decidere. F-C285-87221, COND-C285-POST-ALFA e FORM-289-01 non sono fondati. C286-87234-FINO è una scelta di impacchettamento, non un errore del testo.
+- Nessuna correzione applicata, G7 non avviato. Evidenze: `vc-ntc2018-8.7.2-2026-10-18/g6/`, `sequenza-g6.json`, `esito-g6.json`. Scarti dichiarati: C ha trascritto byte per byte i JSON di V (sandbox read-only); entrambi i V hanno letto lo SKILL.md del plugin pdf di Codex; V b02 ha fatto una chiamata Computer Use con risultato vuoto.
 
 Firma: GBOT-verifica-ntc, 2026-10-18.
