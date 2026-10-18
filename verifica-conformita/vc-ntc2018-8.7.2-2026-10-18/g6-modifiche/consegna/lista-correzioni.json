@@ -1,0 +1,47 @@
+{
+  "scope": "8.7.2",
+  "versione": "g6-r1",
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "approvazione": "Sandro, 18/10/2026 16:53 ora di Roma: rilievo 1 (COND-C285-DOVE-1) fondato, correggere i tre blocchi «dove:» come elenco puntato, le 22 righe proposte, senza toccare il testo. Rettifica di C: le righe dei tre blocchi proposti sono 21 (9 + 9 + 3); il blocco di [C8.7.2.8] ha 9 voci, non 10 come scritto per errore di conteggio nel PDF; perimetro e testo dei blocchi invariati rispetto alla proposta; rilievo 2 (FORM-287-03) [C8.7.2.8] resta com'è (solo resa); rilievi 3-6 chiusi senza modifiche.",
+  "gruppi": [
+    {
+      "nome": "Correzioni dopo il G6 giro 1",
+      "voci": [
+        {
+          "id": "G6R1-01",
+          "rilievo": "COND-C285-DOVE-1",
+          "file": "cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md",
+          "pagina": "Circolare p. fisica 285",
+          "posizione": "C8.7.2.1, blocco «dove:» dopo [C8.7.2.1]",
+          "classe": "ERR-MD, forma",
+          "attuale": "$\\gamma_{el}=1.5$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC),\n\n$L_V$ è la luce di taglio;\n\n$h$ è l’altezza della sezione;\n\n$\\nu=N/(A_cf_c)$ è lo sforzo assiale normalizzato di compressione agente su tutta la sezione $A_c$;\n\n$\\omega=A_sf_y/(A_cf_c)$ e $\\omega'=A'_sf_y/(A_cf_c)$ sono le percentuali meccaniche di armatura longitudinale in trazione e compressione rispettivamente (nelle pareti tutta l’armatura longitudinale d’anima è da includere nella percentuale in trazione);\n\n$f_c$, $f_y$ e $f_{yw}$ sono la resistenza a compressione del calcestruzzo e la resistenza a snervamento dell’acciaio, longitudinale e trasversale, ottenute come media delle prove eseguite in sito, eventualmente corrette sulla base di fonti aggiuntive di informazione, divise per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto;\n\n$\\rho_{sx}=A_{sx}/b_ws_h$ è la percentuale di armatura trasversale ($s_h$ = interasse delle staffe nella zona critica);\n\n$\\rho_d$ è la percentuale di eventuali armature diagonali in ciascuna direzione,\n\n$\\alpha$ è un fattore di efficienza del confinamento dato da:\n",
+          "proposto": "- $\\gamma_{el}=1.5$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC),\n\n- $L_V$ è la luce di taglio;\n\n- $h$ è l’altezza della sezione;\n\n- $\\nu=N/(A_cf_c)$ è lo sforzo assiale normalizzato di compressione agente su tutta la sezione $A_c$;\n\n- $\\omega=A_sf_y/(A_cf_c)$ e $\\omega'=A'_sf_y/(A_cf_c)$ sono le percentuali meccaniche di armatura longitudinale in trazione e compressione rispettivamente (nelle pareti tutta l’armatura longitudinale d’anima è da includere nella percentuale in trazione);\n\n- $f_c$, $f_y$ e $f_{yw}$ sono la resistenza a compressione del calcestruzzo e la resistenza a snervamento dell’acciaio, longitudinale e trasversale, ottenute come media delle prove eseguite in sito, eventualmente corrette sulla base di fonti aggiuntive di informazione, divise per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto;\n\n- $\\rho_{sx}=A_{sx}/b_ws_h$ è la percentuale di armatura trasversale ($s_h$ = interasse delle staffe nella zona critica);\n\n- $\\rho_d$ è la percentuale di eventuali armature diagonali in ciascuna direzione,\n\n- $\\alpha$ è un fattore di efficienza del confinamento dato da:\n",
+          "nota": "Blocco «dove:» composto nella fonte come righe rientrate senza marcatore: reso come elenco puntato (catalogo, voce 18), solo con il marcatore «- », testo invariato, nessun riordino. Rilievo di V b01; esteso da C ai blocchi di [C8.7.2.8] e [C8.7.2.13]. Decisione di Sandro 18/10/2026 16:53."
+        },
+        {
+          "id": "G6R1-02",
+          "rilievo": "COND-C285-DOVE-1",
+          "file": "cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md",
+          "pagina": "Circolare p. fisica 287",
+          "posizione": "C8.7.2.3.4, blocco «dove:» dopo [C8.7.2.8]",
+          "classe": "ERR-MD, forma",
+          "attuale": "$\\gamma_{el}=1.15$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC);\n\n$h$ è l'altezza totale della sezione;\n\n$x$ è l'altezza della zona compressa della sezione (profondità dell'asse neutro);\n\n$N$ è lo sforzo normale di compressione (assunto pari a zero se di trazione);\n\n$L_V$ è la luce di taglio;\n\n$A_c$ è l'area della sezione pari a $(b\\times d)$ per la sezione rettangolare e $\\pi D_c^2/4$ per quella circolare (dove $D_c=D-2c-d_{bw}$, essendo $D$ il diametro della sezione, $c$ il copriferro, $d_{bw}$ il diametro delle staffe);\n\n$f_c$ è la resistenza a compressione del calcestruzzo ottenuta come media delle prove eseguite in sito, eventualmente corretta sulla base di fonti aggiuntive di informazione, divisa per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto; per gli elementi sismici primari il valore di $f_c$ deve essere ulteriormente diviso per il relativo coefficiente parziale;\n\n$\\rho_{tot}$ è la percentuale geometrica totale di armatura longitudinale;\n\n$V_w$ è il contributo dell'armatura trasversale per la resistenza a taglio definito come segue:\n",
+          "proposto": "- $\\gamma_{el}=1.15$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC);\n\n- $h$ è l'altezza totale della sezione;\n\n- $x$ è l'altezza della zona compressa della sezione (profondità dell'asse neutro);\n\n- $N$ è lo sforzo normale di compressione (assunto pari a zero se di trazione);\n\n- $L_V$ è la luce di taglio;\n\n- $A_c$ è l'area della sezione pari a $(b\\times d)$ per la sezione rettangolare e $\\pi D_c^2/4$ per quella circolare (dove $D_c=D-2c-d_{bw}$, essendo $D$ il diametro della sezione, $c$ il copriferro, $d_{bw}$ il diametro delle staffe);\n\n- $f_c$ è la resistenza a compressione del calcestruzzo ottenuta come media delle prove eseguite in sito, eventualmente corretta sulla base di fonti aggiuntive di informazione, divisa per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto; per gli elementi sismici primari il valore di $f_c$ deve essere ulteriormente diviso per il relativo coefficiente parziale;\n\n- $\\rho_{tot}$ è la percentuale geometrica totale di armatura longitudinale;\n\n- $V_w$ è il contributo dell'armatura trasversale per la resistenza a taglio definito come segue:\n",
+          "nota": "Blocco «dove:» composto nella fonte come righe rientrate senza marcatore: reso come elenco puntato (catalogo, voce 18), solo con il marcatore «- », testo invariato, nessun riordino. Rilievo di V b01; esteso da C ai blocchi di [C8.7.2.8] e [C8.7.2.13]. Decisione di Sandro 18/10/2026 16:53."
+        },
+        {
+          "id": "G6R1-03",
+          "rilievo": "COND-C285-DOVE-1",
+          "file": "cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md",
+          "pagina": "Circolare p. fisica 289",
+          "posizione": "C8.7.2.4.4, blocco «dove:» dopo [C8.7.2.13]",
+          "classe": "ERR-MD, forma",
+          "attuale": "$M_{e,Rd}$ è il momento di prima plasticizzazione di calcolo;\n\n$L_V$ è la luce di taglio;\n\n$I$ è il momento di inerzia della sezione nella direzione considerata.\n",
+          "proposto": "- $M_{e,Rd}$ è il momento di prima plasticizzazione di calcolo;\n\n- $L_V$ è la luce di taglio;\n\n- $I$ è il momento di inerzia della sezione nella direzione considerata.\n",
+          "nota": "Blocco «dove:» composto nella fonte come righe rientrate senza marcatore: reso come elenco puntato (catalogo, voce 18), solo con il marcatore «- », testo invariato, nessun riordino. Rilievo di V b01; esteso da C ai blocchi di [C8.7.2.8] e [C8.7.2.13]. Decisione di Sandro 18/10/2026 16:53."
+        }
+      ]
+    }
+  ]
+}

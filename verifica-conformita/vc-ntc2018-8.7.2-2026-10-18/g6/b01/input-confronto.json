@@ -1,0 +1,70 @@
+{
+  "versione": 1,
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2486,
+      "sha256": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 347,
+      "sha256": "6db0480d604cda2cc9ab37354ef798e862797d9e7d4ef353c10e8a628c94b8bc"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 11370,
+      "sha256": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418"
+    },
+    {
+      "path": "congelamento.json",
+      "bytes": 436,
+      "sha256": "6c30c41e9254e507eb81e152121c9de622799a4aa92444c8348ed7d6f38811df"
+    },
+    {
+      "path": "fonte-circ-283.png",
+      "bytes": 634758,
+      "sha256": "0973858f1c24c8b46ba90830746ab72fb1eea9645c53c702e724fd077c09c5b7"
+    },
+    {
+      "path": "fonte-circ-284.png",
+      "bytes": 645555,
+      "sha256": "c988fa768fe92bad18d68240add8467ef8e9f87c9a4da1f27c471207680e24c8"
+    },
+    {
+      "path": "fonte-circ-285.png",
+      "bytes": 508920,
+      "sha256": "f15f06d038f3df1182967801cf0c644b4fbb036b08cf72b4c7c764b6ee01db5a"
+    },
+    {
+      "path": "fonte-circ-286.png",
+      "bytes": 532617,
+      "sha256": "20d41905c38b4bceed071833bc4a48497770475dd696b618e253da90b1a71b29"
+    },
+    {
+      "path": "fonte-ntc-298.png",
+      "bytes": 662464,
+      "sha256": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1"
+    },
+    {
+      "path": "input-fonte.json",
+      "bytes": 1375,
+      "sha256": "b0404b6bad710e997e23f8ed1673876d701dec998e7d35b4906f66156d808485"
+    },
+    {
+      "path": "inventario.json",
+      "bytes": 7355,
+      "sha256": "bbda3373d323412bf5adf0c2eb3ba70b4f9eac08381b9183a4bd1608cf448f90"
+    },
+    {
+      "path": "resa-finale.pdf",
+      "bytes": 73627,
+      "sha256": "156458deaddb3c95be4306c93770a7f90b4de6c8c09aa279f7777546872b3966"
+    },
+    {
+      "path": "testo.md",
+      "bytes": 18403,
+      "sha256": "ee86c514782d3b338227876ef2050b65d5005f5cf2bfb1cc46252a058d60a830"
+    }
+  ]
+}

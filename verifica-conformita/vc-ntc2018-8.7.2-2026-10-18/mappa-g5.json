@@ -1,0 +1,87 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.2",
+  "data": "2026-10-18",
+  "lista_file": "lista-file.json",
+  "target_composto": "g5/target-scope-corretto.md",
+  "target_composto_sha256": "d8e38262ce809ac69c106963d60a61ec85efc2b10ab6beab761cebdfca2c9403",
+  "testo_depurato": "g5/testo-depurato.md",
+  "testo_depurato_sha256": "3a5c1cff342c30d006e05882ef0e7249aaebceb5cb9e94a2ecc816072389406a",
+  "righe_depurate": 353,
+  "pagine": {
+    "ntc": [
+      298
+    ],
+    "circolare": [
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289
+    ],
+    "totale": 8
+  },
+  "limiti_condivisi": [
+    "NTC 298: il perimetro va dalla rubrica 8.7.2 a prima della rubrica 8.7.3",
+    "Circolare 283: il perimetro inizia alla rubrica C8.7.2",
+    "Circolare 289: il perimetro termina prima della rubrica C8.7.3"
+  ],
+  "blocchi_primari": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:298",
+        "circ:283",
+        "circ:284",
+        "circ:285",
+        "circ:286"
+      ],
+      "righe": [
+        [
+          1,
+          205
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 8.7.2 a prima della rubrica 8.7.3, sulla pagina condivisa. Circolare: dalla rubrica C8.7.2 (sulla pagina 283 è escluso quanto precede C8.7.2) fino alle parole 'per travi e pilastri' che introducono la prima espressione della capacità di rotazione allo stato limite di danno, in fondo alla pagina 286."
+    },
+    {
+      "id": "b02",
+      "pagine": [
+        "circ:287",
+        "circ:288",
+        "circ:289"
+      ],
+      "righe": [
+        [
+          206,
+          353
+        ]
+      ],
+      "limiti": "Dalla prima espressione in testa alla pagina 287 (capacità di rotazione per travi e pilastri allo stato limite di danno) fino alla fine di C8.7.2.4.6 'Collegamenti', prima della rubrica C8.7.3 sulla pagina 289."
+    }
+  ],
+  "controlli": {
+    "righe_coperte_una_volta": true,
+    "pagine_assegnate_una_volta": true,
+    "lacune": [],
+    "sovrapposizioni": [],
+    "candidati_non_decisi": 0,
+    "indici_interni": "genera-indici-interni.py --applica --verifica: 311 file, 1754 collegamenti interni, corpi invariati",
+    "lint_registro": "0 errori, 7 avvisi preesistenti"
+  },
+  "resa": {
+    "file": "g5/resa-finale.pdf",
+    "sha256": "156458deaddb3c95be4306c93770a7f90b4de6c8c09aa279f7777546872b3966",
+    "bytes": 73627,
+    "pagine": 8,
+    "sorgente": "g5/testo-depurato.md",
+    "strumento": "strumenti/render-capitolo.py",
+    "controlli_script": "nessun tag con parentesi tonde; nessuna didascalia automatica",
+    "tag": "14 tag [C8.7.2.1]-[C8.7.2.13] con 7a e 7b, tutti a quadre",
+    "verifica_visiva": "GBOT, pagine 1-8 a 80 dpi e ritagli a 130 dpi delle formule [C8.7.2.1] e [C8.7.2.8]: nessun taglio, sovrapposizione o carattere mancante; elenchi a.-d. resi come elenco ordinato",
+    "esito": "OK"
+  },
+  "esito": "OK"
+}

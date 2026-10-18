@@ -1,0 +1,43 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "scope": "8.7.2",
+  "controllo": "controllo delle modifiche del § 8 della procedura VC-NTC/10, dopo il G6 integrale giro 1; non è un nuovo giro (giro_g6 resta 1); il § 8 non prevede un G6 di riscontro dopo l'unico controllo delle modifiche",
+  "decisione_sandro": "2026-10-18 16:53 (ora di Roma), decisione-g6-20261018.json: COND-C285-DOVE-1 corretto (esteso ai blocchi di [C8.7.2.8] e [C8.7.2.13]); FORM-287-03 chiuso senza modifiche (solo resa); F-C285-87221, COND-C285-POST-ALFA, FORM-289-01 e C286-87234-FINO chiusi senza modifiche.",
+  "esecuzione": "Lanciata da GBOT-verifica-ntc sul W520 con Codex CLI in sandbox read-only, senza --always-approve, contesto nuovo (su indicazione di Sandro), nella cartella temporanea della consegna esterna al workspace, con CONSEGNA.md e i file di manifest-consegna.json. Continuità con il G6 originale dichiarata tramite i rapporti conservati (§ 8: verificatore distinto dall'autore, nessun nuovo inventario fonte-prima).",
+  "verificatore_V": {
+    "agente": "Codex (CDX)",
+    "modello": "gpt-5.6-terra",
+    "ragionamento": "high",
+    "sandbox": "read-only",
+    "inizio": "2026-10-18T16:59:55+02:00",
+    "termine": "2026-10-18T17:02:38+02:00",
+    "esito": "OK",
+    "rilievi_chiusi": [
+      "COND-C285-DOVE-1",
+      "EST-C287-DOVE",
+      "EST-C289-DOVE"
+    ],
+    "nuovi_rilievi": 0,
+    "rapporto": "g6-modifiche/esito-terra.json",
+    "rapporto_sha256": "781745928b6a473ca47305b960a6e8d3a4a0b29965ef82f4ceadf5fc0f1cf2d8",
+    "trascrizione": "Messaggio finale JSON di V trascritto byte per byte da C (sandbox read-only).",
+    "letture_fuori_cartella": "nessuna: cinque comandi di sola lettura nella cartella di consegna, più la visione delle immagini elencate in letture",
+    "consumi": {
+      "input": 369881,
+      "input_in_cache": 312576,
+      "output": 3761,
+      "ragionamento": 1968
+    }
+  },
+  "rilievi_coperti": [
+    "COND-C285-DOVE-1",
+    "EST-C287-DOVE (estensione di C)",
+    "EST-C289-DOVE (estensione di C)"
+  ],
+  "fuori_dal_controllo": "FORM-287-03, F-C285-87221, COND-C285-POST-ALFA, FORM-289-01, C286-87234-FINO: chiusi senza modifiche per decisione di Sandro; target invariato in quei punti (diff completo).",
+  "snapshot_prima_sha256": "242f7892a7d3c7432d4dd90a847d2a92a9073e2640618056c4b63417a6a52527",
+  "snapshot_dopo_sha256": "6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689",
+  "manifest_consegna_sha256": "5846b5c2e8ab284d84a2b89cf922d3a339cc3715cd5776faf0a52b94113a256d",
+  "rettifica_documentale": "Nel PDF di confronto C aveva scritto 22 righe (10 per [C8.7.2.8]); le righe sono 21 (9 + 9 + 3). Perimetro e testo dei blocchi invariati rispetto alla proposta approvata."
+}

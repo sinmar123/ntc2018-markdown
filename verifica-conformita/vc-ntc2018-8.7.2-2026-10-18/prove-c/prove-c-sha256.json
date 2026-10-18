@@ -1,0 +1,67 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "nota": "Prove di C per il giudizio dei rilievi del G6 giro 1, archiviate per la rettifica G7-AUDIT-01 decisa da Sandro il 2026-10-18 alle 18:55. PDF e PNG restano locali secondo .gitignore; questo file e il manifest ne conservano le impronte.",
+  "file": [
+    {
+      "nome": "g6-rilievi-8.7.2.pdf",
+      "descrizione": "PDF di confronto per telefono dei rilievi G6 giro 1 consegnato a Sandro (citato da decisione-g6-20261018.json ed esito-g6.json)",
+      "sha256": "af9cb17e3dddaca191fc1ceacf88561a130fcec05910bf8ceb242d68a6adf66f"
+    },
+    {
+      "nome": "p285-bo600.png",
+      "descrizione": "Circolare p. 285, b_o e h_o, 600 dpi",
+      "sha256": "c7b29d753f5c49e760165cc9553540cf9a0c9ff9080717862b326d8083639abf"
+    },
+    {
+      "nome": "p285-dove200.png",
+      "descrizione": "Circolare p. 285, blocco dove: dopo [C8.7.2.1], 200 dpi",
+      "sha256": "df47b5684267c4d19324b9a6c3d6d37f7fbcca17c8efba0016a66fac692274d9"
+    },
+    {
+      "nome": "p285-thu600.png",
+      "descrizione": "Circolare p. 285, esponente di [C8.7.2.1], 600 dpi",
+      "sha256": "b395f4616fff6325ef667cb898a6c4447945ba64682d63112940df8f5dca6445"
+    },
+    {
+      "nome": "p287-dove110.png",
+      "descrizione": "Circolare p. 287, blocco dove: dopo [C8.7.2.8], 110 dpi",
+      "sha256": "3bec75fe2ea84b0d9ff6a679d497f17adb8e21669f43d09a865c0608000c3c25"
+    },
+    {
+      "nome": "p287-f8-300.png",
+      "descrizione": "Circolare p. 287, formula [C8.7.2.8], 300 dpi",
+      "sha256": "6c1c15a31f8cb654c376e3148deab691ce21b46aa752dc0b54a3b468996e6232"
+    },
+    {
+      "nome": "p289-dove200.png",
+      "descrizione": "Circolare p. 289, blocco dove: dopo [C8.7.2.13], 200 dpi",
+      "sha256": "6d690140c9a5bc9ae9af5aead1c2c66df74f43387f7a8714097c873c866339f7"
+    },
+    {
+      "nome": "p289-eRd800.png",
+      "descrizione": "Circolare p. 289, M_e.Rd in [C8.7.2.13], 800 dpi",
+      "sha256": "569956e1b69801f51581d9410813389e94dcccb68cd7b036ed062277706920e4"
+    },
+    {
+      "nome": "prove-vettoriali.json",
+      "descrizione": "span del livello vettoriale del PDF ufficiale per F-C285-87221, COND-C285-POST-ALFA, FORM-289-01",
+      "sha256": "aecbfcfe43d0aa8000a59e782f50a09c87a1d9bdab31c831d4c8bc22a1ab3dde"
+    },
+    {
+      "nome": "r-bo.png",
+      "descrizione": "resa G5 p. 4, b_o e h_o",
+      "sha256": "d6f0c972e0946dc8cae50c57b340c63336cbf28d1bb41a1e3b5412876ec774a5"
+    },
+    {
+      "nome": "r-dove1.png",
+      "descrizione": "resa G5 p. 4, blocco dove: dopo [C8.7.2.1]",
+      "sha256": "9fbfd4a58de0ec95c46ae9ca5f7367c198222d470614260e3c8fcfbdea7851af"
+    },
+    {
+      "nome": "r-f8.png",
+      "descrizione": "resa G5 p. 6, formula [C8.7.2.8]",
+      "sha256": "adae0276ed44b2ea58cb0df4c9cfc4ba08b4c76a0d213dc17c16829331be1b60"
+    }
+  ]
+}

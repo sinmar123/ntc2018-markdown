@@ -1,0 +1,53 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "scope": "8.7.2",
+  "data": "2026-10-18",
+  "decisione": {
+    "autore": "Sandro (Ing. Alessandro Sanvitale)",
+    "data_ora": "2026-10-18T16:53:00+02:00",
+    "riferimento": "esito-g6.json, g6-rilievi-8.7.2.pdf (PDF di confronto consegnato fuori dal repository)"
+  },
+  "rilievi": [
+    {
+      "id": "COND-C285-DOVE-1",
+      "blocco": "b01",
+      "classe_V": "ERR-MD",
+      "decisione": "FONDATO: correggere i tre blocchi «dove:» come elenco puntato (catalogo, voce 18), testo invariato; le righe sono 21 (9 + 9 + 3), indicate come 22 nel PDF per un errore di conteggio di C sul blocco di [C8.7.2.8], con perimetro e testo dei blocchi invariati",
+      "correzione": "correzioni-g6/lista-correzioni-g6.json, voci G6R1-01, G6R1-02, G6R1-03"
+    },
+    {
+      "id": "FORM-287-03",
+      "blocco": "b02",
+      "classe_V": "ERR-MD",
+      "decisione": "CHIUSO SENZA MODIFICHE per decisione di Sandro: [C8.7.2.8] resta in due righe con il tag sotto; contenuto identico alla fonte, scarto di sola resa (la formula su una riga non entra nella larghezza della pagina del render); nessuna voce del catalogo lo regola"
+    },
+    {
+      "id": "F-C285-87221",
+      "blocco": "b01",
+      "classe_V": "DUBBIO",
+      "decisione": "CHIUSO SENZA MODIFICHE: esponente 0.225 positivo con punto, nel livello vettoriale e nel ritaglio a 600 dpi; il presunto segno meno è l'angolo della parentesi quadra"
+    },
+    {
+      "id": "COND-C285-POST-ALFA",
+      "blocco": "b01",
+      "classe_V": "DUBBIO",
+      "decisione": "CHIUSO SENZA MODIFICHE: pedici lettera o (PalatinoLinotype-Italic, corpo 4,8) nel vettoriale e nel ritaglio a 600 dpi; target $b_o$ e $h_o$ (voce S-02)"
+    },
+    {
+      "id": "FORM-289-01",
+      "blocco": "b02",
+      "classe_V": "DUBBIO",
+      "decisione": "CHIUSO SENZA MODIFICHE: pedice e.Rd con punto nel vettoriale (Times-Italic e TimesNewRomanPSMT, corpo 6,1) e nel ritaglio a 800 dpi"
+    },
+    {
+      "id": "C286-87234-FINO",
+      "blocco": "b01",
+      "classe_V": "ERR-AUDIT",
+      "decisione": "CHIUSO SENZA MODIFICHE: ERR-AUDIT documentale sul pacchetto; la resa-finale.pdf data come asset copre l'intero scope (stessa scelta di 8.7.1); testo.md e perimetro corretti; annotato nel verbale"
+    }
+  ],
+  "prove_c": [
+    "livello vettoriale del PDF ufficiale con PyMuPDF (rawdict)",
+    "ritagli Gazzetta a 600-800 dpi (fuori dal repository, nel PDF di confronto)"
+  ]
+}

@@ -1,0 +1,50 @@
+--- testo.md
++++ testo-dopo.md
+@@ -34,23 +34,23 @@
+ 
+ (unità di misura MN, m) dove:
+ 
+-$\gamma_{el}=1.15$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC);
++- $\gamma_{el}=1.15$ per gli elementi primari ed 1.0 per gli elementi secondari (come definiti al § 7.2.3 delle NTC);
+ 
+-$h$ è l'altezza totale della sezione;
++- $h$ è l'altezza totale della sezione;
+ 
+-$x$ è l'altezza della zona compressa della sezione (profondità dell'asse neutro);
++- $x$ è l'altezza della zona compressa della sezione (profondità dell'asse neutro);
+ 
+-$N$ è lo sforzo normale di compressione (assunto pari a zero se di trazione);
++- $N$ è lo sforzo normale di compressione (assunto pari a zero se di trazione);
+ 
+-$L_V$ è la luce di taglio;
++- $L_V$ è la luce di taglio;
+ 
+-$A_c$ è l'area della sezione pari a $(b\times d)$ per la sezione rettangolare e $\pi D_c^2/4$ per quella circolare (dove $D_c=D-2c-d_{bw}$, essendo $D$ il diametro della sezione, $c$ il copriferro, $d_{bw}$ il diametro delle staffe);
++- $A_c$ è l'area della sezione pari a $(b\times d)$ per la sezione rettangolare e $\pi D_c^2/4$ per quella circolare (dove $D_c=D-2c-d_{bw}$, essendo $D$ il diametro della sezione, $c$ il copriferro, $d_{bw}$ il diametro delle staffe);
+ 
+-$f_c$ è la resistenza a compressione del calcestruzzo ottenuta come media delle prove eseguite in sito, eventualmente corretta sulla base di fonti aggiuntive di informazione, divisa per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto; per gli elementi sismici primari il valore di $f_c$ deve essere ulteriormente diviso per il relativo coefficiente parziale;
++- $f_c$ è la resistenza a compressione del calcestruzzo ottenuta come media delle prove eseguite in sito, eventualmente corretta sulla base di fonti aggiuntive di informazione, divisa per il fattore di confidenza appropriato in relazione al Livello di Conoscenza raggiunto; per gli elementi sismici primari il valore di $f_c$ deve essere ulteriormente diviso per il relativo coefficiente parziale;
+ 
+-$\rho_{tot}$ è la percentuale geometrica totale di armatura longitudinale;
++- $\rho_{tot}$ è la percentuale geometrica totale di armatura longitudinale;
+ 
+-$V_w$ è il contributo dell'armatura trasversale per la resistenza a taglio definito come segue:
++- $V_w$ è il contributo dell'armatura trasversale per la resistenza a taglio definito come segue:
+ 
+ - sezioni rettangolari:
+ 
+@@ -133,11 +133,11 @@
+ 
+ dove:
+ 
+-$M_{e,Rd}$ è il momento di prima plasticizzazione di calcolo;
++- $M_{e,Rd}$ è il momento di prima plasticizzazione di calcolo;
+ 
+-$L_V$ è la luce di taglio;
++- $L_V$ è la luce di taglio;
+ 
+-$I$ è il momento di inerzia della sezione nella direzione considerata.
++- $I$ è il momento di inerzia della sezione nella direzione considerata.
+ 
+ ##### C8.7.2.4.5 Travi e pilastri: Taglio
+ 

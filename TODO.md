@@ -11,6 +11,12 @@ Decisione di Sandro del 2026-10-18, presa nella VC del § 8.7.1: le note a piè 
 
 La ricerca è stata fatta il 2026-10-18 sui file `cap*/` con i modelli `**Nota n.**` e `parola[n]`; con questi modelli non risultano altre occorrenze. Firma: GBOT-verifica-ntc.
 
+## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc
+
+VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c…3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md). Firma: GBOT-verifica-ntc.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## Completato 2026-10-18 - VC § 8.7.1 con C8.7.1, GBOT-verifica-ntc e CDX
 
 VC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.

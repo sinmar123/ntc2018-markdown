@@ -1,0 +1,13 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "renderer": "strumenti/render-capitolo.py, invocato da vc-supporto.py pacchetto-modifiche --resa",
+  "resa_scope": {
+    "sorgente": "g6-modifiche/pacchetto/target-scope-dopo.md (composizione di pacchetto-modifiche)",
+    "pdf": "g6-modifiche/consegna/resa-dopo.pdf",
+    "sha256": "0964c756012a4305aae1454af3edcd72208088964ac1ed4af59544407f363003",
+    "pagine": 9,
+    "confronto_meccanico": "Rispetto a g5/resa-finale.pdf (8 pagine): testo uguale salvo i 21 marcatori di elenco, tre sillabazioni (percentuale, eventualmente, (b×d)), numeri di pagina e, in testa, l'indice interno e le righe di navigazione che la composizione di pacchetto-modifiche include e la resa G5 no. Lo spostamento di impaginazione tocca tutte le pagine: C ha osservato l'intero documento (9 pagine).",
+    "controllo_visivo_C": "Tre elenchi puntati composti correttamente alle pp. 4-5, 7 e 9; formule e tag invariati; nessun taglio o carattere mancante. Pagine 4, 5, 7 e 9 osservate anche da V."
+  }
+}

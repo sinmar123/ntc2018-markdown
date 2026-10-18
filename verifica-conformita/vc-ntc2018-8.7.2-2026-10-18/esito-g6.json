@@ -1,0 +1,24 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.2",
+  "data": "2026-10-18",
+  "gate": "G6",
+  "esito": "KO",
+  "giro": 1,
+  "blocchi": 2,
+  "id_coperti": 66,
+  "err_md": 2,
+  "err_audit": 1,
+  "dubbio": 3,
+  "giudizio_c": {
+    "COND-C285-DOVE-1": "fondato (catalogo voce 18); esteso ai blocchi dove di [C8.7.2.8] e [C8.7.2.13]",
+    "FORM-287-03": "solo resa, da decidere: lasciare oppure spezzare in tre righe con tag a destra",
+    "F-C285-87221": "non fondato: esponente 0.225 positivo (vettoriale e 600 dpi)",
+    "COND-C285-POST-ALFA": "non fondato: lettera o nel vettoriale (PalatinoLinotype-Italic) e a 600 dpi",
+    "FORM-289-01": "non fondato: e.Rd con punto nel vettoriale e a 800 dpi",
+    "C286-87234-FINO": "non è errore del testo: asset di render dell'intero scope, come in 8.7.1"
+  },
+  "g7": "NON_ESEGUITO",
+  "motivazione_g7": "PROCEDURA-VC rev. 10: G7 solo con G6 a zero ERR-MD, zero ERR-AUDIT e zero DUBBIO.",
+  "decisione_richiesta": "Sandro deve decidere sui sei rilievi. Nessuna correzione applicata; confronto in g6-rilievi-8.7.2.pdf consegnato a parte."
+}

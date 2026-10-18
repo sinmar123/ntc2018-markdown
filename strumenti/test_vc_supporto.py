@@ -696,6 +696,51 @@ class SupportoTest(unittest.TestCase):
             VC.apply_list(lista, write=True)
         self.assertEqual(target.read_text(encoding="utf-8"), "uno tre uno\n")
 
+    def absolute_forms(self, base):
+        return [str(base), base.as_posix(), json.dumps(str(base))[1:-1]]
+
+    def test_neutral_paths_relative_or_placeholder_and_restored(self):
+        workspace, home = self.root / "ws", self.root / "profilo"
+        temp = home / "AppData" / "Local" / "Temp"
+        project = workspace / "normativa" / "progetto"
+        for folder in (project, temp):
+            folder.mkdir(parents=True)
+        with patch.object(VC, "ROOT", project), patch.object(VC, "WORKSPACE_DIR", workspace), \
+                patch.object(VC, "TEMP_DIR", temp), patch.object(VC, "HOME_DIR", home):
+            self.assertEqual(VC.neutral(project / "cap08" / "a.md"), "cap08/a.md")
+            self.assertEqual(VC.neutral(workspace / "diario" / "voce.md"), "<workspace>/diario/voce.md")
+            self.assertEqual(VC.neutral(temp / "gbot" / "x.json"), "<temp>/gbot/x.json")
+            self.assertEqual(VC.neutral(home / ".codex" / "log.jsonl"), "<home>/.codex/log.jsonl")
+            for path in (workspace / "diario" / "voce.md", temp / "gbot" / "x.json", home / ".codex" / "log.jsonl"):
+                self.assertEqual(VC.restore(VC.neutral(path)), path.resolve())
+            self.assertEqual(VC.restore("cap08/a.md"), project / "cap08/a.md")
+            self.assertEqual(VC.restore(str(temp / "storico.json")), temp / "storico.json")
+            with self.assertRaisesRegex(ValueError, "non risolvibile"):
+                VC.restore("<altro>/x")
+            text = VC.neutral_text(f"letto {temp / 'a' / 'b.json'} e {(workspace / 'AGENTS.md').as_posix()}; "
+                                   f"profilo {home}{chr(92)}x.txt, non {home}-altro")
+            self.assertEqual(text, f"letto <temp>/a/b.json e <workspace>/AGENTS.md; profilo <home>/x.txt, non {home}-altro")
+            value = VC.sanitize({"path": str(project / "README.md"), "lista": [str(temp / "c.pdf")], "n": 3})
+            self.assertEqual(value, {"path": "<workspace>/normativa/progetto/README.md", "lista": ["<temp>/c.pdf"], "n": 3})
+
+    def test_written_receipts_and_coordination_carry_no_absolute_paths(self):
+        with patch.object(VC, "TEMP_DIR", self.root):
+            self.prepare()
+            plan_text = (self.destination / "coordinamento.json").read_text(encoding="utf-8")
+            plan = json.loads(plan_text)
+            self.assertEqual(plan["target"], "<temp>/norma.md")
+            self.assertEqual(plan["fonti"]["ntc"]["pdf"], "<temp>/fonte.pdf")
+            self.inventory()
+            self.assertEqual(VC.reveal(self.destination, "b01")["integrita"], "OK")
+        config, cfg, registry = self.registration_fixture()
+        with patch.object(VC, "ROOT", self.root):
+            VC.registration(config, True, run_checks=False)
+        receipt = config.with_suffix(".eseguito.json").read_text(encoding="utf-8")
+        self.assertIn('"path": "README.md"', receipt)
+        for text in (plan_text, receipt):
+            for form in self.absolute_forms(self.root):
+                self.assertNotIn(form, text)
+
 
 if __name__ == "__main__":
     unittest.main()

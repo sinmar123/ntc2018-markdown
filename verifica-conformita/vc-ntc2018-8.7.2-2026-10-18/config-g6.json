@@ -1,0 +1,77 @@
+{
+  "scope": "8.7.2",
+  "target": "g5/target-scope-corretto.md",
+  "dpi": 200,
+  "fonti": [
+    {
+      "id": "ntc",
+      "pdf": "../fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        298
+      ]
+    },
+    {
+      "id": "circ",
+      "pdf": "../fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289
+      ]
+    }
+  ],
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:298",
+        "circ:283",
+        "circ:284",
+        "circ:285",
+        "circ:286"
+      ],
+      "righe": [
+        [
+          1,
+          205
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 8.7.2 a prima della rubrica 8.7.3, sulla pagina condivisa. Circolare: dalla rubrica C8.7.2 (sulla pagina 283 è escluso quanto precede C8.7.2) fino alle parole 'per travi e pilastri' che introducono la prima espressione della capacità di rotazione allo stato limite di danno, in fondo alla pagina 286.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "g5/resa-finale.pdf",
+          "sha256": "156458deaddb3c95be4306c93770a7f90b4de6c8c09aa279f7777546872b3966"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "pagine": [
+        "circ:287",
+        "circ:288",
+        "circ:289"
+      ],
+      "righe": [
+        [
+          206,
+          353
+        ]
+      ],
+      "limiti": "Dalla prima espressione in testa alla pagina 287 (capacità di rotazione per travi e pilastri allo stato limite di danno) fino alla fine di C8.7.2.4.6 'Collegamenti', prima della rubrica C8.7.3 sulla pagina 289.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "g5/resa-finale.pdf",
+          "sha256": "156458deaddb3c95be4306c93770a7f90b4de6c8c09aa279f7777546872b3966"
+        }
+      ]
+    }
+  ]
+}

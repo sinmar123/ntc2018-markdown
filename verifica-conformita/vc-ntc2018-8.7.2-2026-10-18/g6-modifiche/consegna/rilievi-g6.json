@@ -1,0 +1,74 @@
+{
+  "scope": "8.7.2",
+  "giro_g6": 1,
+  "decisione": "Sandro, 2026-10-18 16:53 (ora di Roma)",
+  "rilievi": [
+    {
+      "id": "F-C285-87221",
+      "pagina": "circ:285",
+      "posizione": "Formula esposta con tag [C8.7.2.1], esponente della parentesi quadra contenente il rapporto delle max e f_c.",
+      "attuale nel testo": "\\left[\\frac{\\max(0{,}01;\\omega')}{\\max(0{,}01;\\omega)}f_c\\right]^{0.225}",
+      "fonte": "Nell'immagine fonte l'esponente appare come -0,225.",
+      "prova": "Confronto con resa-finale.pdf p.4 e fonte-circ-285.png; la fonte disponibile è raster a 200 dpi, inferiore ai 600 dpi prescritti per decidere segno e separatore.",
+      "classe proposta": "DUBBIO",
+      "blocco": "b01",
+      "decisione_sandro": "CHIUSO SENZA MODIFICHE: esponente 0.225 positivo con punto, nel livello vettoriale e nel ritaglio a 600 dpi; il presunto segno meno è l'angolo della parentesi quadra"
+    },
+    {
+      "id": "COND-C285-DOVE-1",
+      "pagina": "circ:285",
+      "posizione": "Blocco dove: fra le formule [C8.7.2.1] e [C8.7.2.2].",
+      "attuale nel testo": "Le nove definizioni sono rese come capoversi ordinari distinti, senza marcatori di elenco.",
+      "fonte": "Il blocco fonte è composto come righe rientrate prive di marcatore.",
+      "prova": "testo.md e resa-finale.pdf p.4; catalogo delle normalizzazioni, voce 18, prescrive la resa del blocco dove: come elenco puntato senza spezzare o riordinare.",
+      "classe proposta": "ERR-MD",
+      "blocco": "b01",
+      "decisione_sandro": "FONDATO: correggere i tre blocchi «dove:» come elenco puntato (catalogo, voce 18), testo invariato; le righe sono 21 (9 + 9 + 3), indicate come 22 nel PDF per un errore di conteggio di C sul blocco di [C8.7.2.8], con perimetro e testo dei blocchi invariati"
+    },
+    {
+      "id": "COND-C285-POST-ALFA",
+      "pagina": "circ:285",
+      "posizione": "Parentesi definitoria immediatamente sotto la formula [C8.7.2.2].",
+      "attuale nel testo": "($b_o$ e $h_o$ dimensioni del nucleo confinato, ...).",
+      "fonte": "Nell'immagine fonte i due pedici appaiono come zero: b_0 e h_0.",
+      "prova": "Confronto con resa-finale.pdf p.4 e fonte-circ-285.png; occorre un ritaglio della fonte ad almeno 600 dpi per distinguere definitivamente zero e lettera o.",
+      "classe proposta": "DUBBIO",
+      "blocco": "b01",
+      "decisione_sandro": "CHIUSO SENZA MODIFICHE: pedici lettera o (PalatinoLinotype-Italic, corpo 4,8) nel vettoriale e nel ritaglio a 600 dpi; target $b_o$ e $h_o$ (voce S-02)"
+    },
+    {
+      "id": "C286-87234-FINO",
+      "pagina": "circ:286",
+      "posizione": "Resa-finale.pdf, dopo la riga per travi e pilastri; pagine PDF 5-8.",
+      "attuale nel testo": "testo.md termina alla riga per travi e pilastri, ma resa-finale.pdf prosegue con le espressioni [C8.7.2.7a]-[C8.7.2.13] e ulteriori sezioni C8.7.2.3.5 e C8.7.2.4.",
+      "fonte": "Il perimetro termina alle parole per travi e pilastri in fondo a circ:286.",
+      "prova": "Lettura integrale di testo.md e resa-finale.pdf, incluso estratto e resa visiva della p.5; l'asset contiene materiale non presente nel testo né nel perimetro.",
+      "classe proposta": "ERR-AUDIT",
+      "blocco": "b01",
+      "decisione_sandro": "CHIUSO SENZA MODIFICHE: ERR-AUDIT documentale sul pacchetto; la resa-finale.pdf data come asset copre l'intero scope (stessa scelta di 8.7.1); testo.md e perimetro corretti; annotato nel verbale"
+    },
+    {
+      "id": "FORM-287-03",
+      "pagina": "circ:287",
+      "posizione": "Formula [C8.7.2.8], centro pagina; resa-finale.pdf pagina 6.",
+      "attuale nel testo": "La formula è resa con ambiente aligned in due righe e il tag [C8.7.2.8] risulta su riga separata sotto la formula, a sinistra.",
+      "fonte": "Formula composta su una sola riga, con tag [C8.7.2.8] sulla medesima riga all'estremità destra.",
+      "prova": "Confronto visivo integrale di fonte-circ-287.png con resa-finale.pdf pagina 6. La normalizzazione 16 non è applicabile: la fonte non presenta una formula a più rami.",
+      "classe proposta": "ERR-MD",
+      "blocco": "b02",
+      "decisione_sandro": "CHIUSO SENZA MODIFICHE per decisione di Sandro: [C8.7.2.8] resta in due righe con il tag sotto; contenuto identico alla fonte, scarto di sola resa (la formula su una riga non entra nella larghezza della pagina del render); nessuna voce del catalogo lo regola"
+    },
+    {
+      "id": "FORM-289-01",
+      "pagina": "circ:289",
+      "posizione": "Formula [C8.7.2.13], numeratore M con pedice e segno interno tra e e Rd.",
+      "attuale nel testo": "\\theta_y = \\frac{M_{e.Rd}L_V}{2EI}.",
+      "fonte": "Formula [C8.7.2.13] nell'area centrale della pagina.",
+      "prova": "La sola fonte raster disponibile è fonte-circ-289.png, 1653×2339 px a circa 200 dpi; non è disponibile un ritaglio nativo di pagina a 600 dpi o superiore. La resa-finale.pdf pagina 8 riproduce il testo attuale, ma non attesta il glifo della fonte.",
+      "domanda aperta": "Fornire un ritaglio nativo a 600 dpi o superiore del pedice di M nella formula [C8.7.2.13], per accertare puntualmente il segno tra e e Rd.",
+      "classe proposta": "DUBBIO",
+      "blocco": "b02",
+      "decisione_sandro": "CHIUSO SENZA MODIFICHE: pedice e.Rd con punto nel vettoriale (Times-Italic e TimesNewRomanPSMT, corpo 6,1) e nel ritaglio a 800 dpi"
+    }
+  ]
+}
