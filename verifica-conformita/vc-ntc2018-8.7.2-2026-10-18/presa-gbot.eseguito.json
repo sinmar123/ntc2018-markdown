@@ -1,0 +1,13 @@
+{
+  "fase": "SCRITTO",
+  "scope": "8.7.2",
+  "righe": [
+    "8.7.2"
+  ],
+  "file": [
+    "registro-verifica-conformita-ntc2018.csv",
+    "verifica-conformita/scheda-scope-ntc2018-8.7.2.md"
+  ],
+  "nota": "Presa aggregata; nessun giudizio VC emesso",
+  "controlli": "OK"
+}
