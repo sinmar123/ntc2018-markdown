@@ -1,10 +1,10 @@
 ---
 title: Procedura unica di conversione e verifica NTC 2018
 procedura_id: VC-NTC
-revisione: 9
-data: 2026-10-16
-approvazione: Sandro, uso esclusivo del CSV e cancellazione della vista XLSX autorizzati il 2026-09-12; esecutore OpenClaw e modelli leggeri su OpenRouter per le fasi facili chiesti il 2026-09-30; solo file Markdown, senza editor di note, chiesto il 2026-10-13; regole della VC del § 8.5 e revisione 8 chieste il 2026-10-15; lettura letterale dello scope chiesta il 2026-10-16
-redazione: CDX; revisione 6 CC; revisioni 7-9 CC cloud
+revisione: 10
+data: 2026-10-18
+approvazione: Sandro, uso esclusivo del CSV e cancellazione della vista XLSX autorizzati il 2026-09-12; esecutore OpenClaw e modelli leggeri su OpenRouter per le fasi facili chiesti il 2026-09-30; solo file Markdown, senza editor di note, chiesto il 2026-10-13; regole della VC del § 8.5 e revisione 8 chieste il 2026-10-15; lettura letterale dello scope chiesta il 2026-10-16; verificatori Codex Terra e Sol, scelta aperta dei modelli, Antigravity e note `[^n]` decisi il 2026-10-18
+redazione: CDX; revisione 6 CC; revisioni 7-9 CC cloud; revisione 10 GBOT-verifica-ntc
 ---
 
 # Procedura unica VC NTC 2018
@@ -20,6 +20,8 @@ Ogni affinamento operativo si applica a questo file, incrementando `revisione` e
 La revisione e l'hash della procedura e del catalogo usati si congelano nelle evidenze di ciascuno scope. Per scope precedenti, alla ripresa autorizzata si registra l'adozione della revisione corrente al prossimo passaggio non iniziato, comprese correzioni e registrazioni, mantenendo snapshot, rilievi, adjudicazioni, contatore G6, limite autorizzato e decisioni pendenti. Un G6 già iniziato non cambia regole a metà: si termina secondo il disegno congelato, oppure si interrompe e se ne registra il consumo prima del successivo. Nessun esito storico viene reinterpretato o promosso per effetto di questo aggiornamento.
 
 La revisione 6 recepisce due decisioni di Sandro del 2026-09-30: le NTC passano a un agente OpenClaw dedicato, NormaNTC18, e per le fasi facili si usano modelli leggeri: Luna in abbonamento e, in alternativa, DeepSeek su OpenRouter, perché il testo normativo è pubblico. Aggiunge soltanto i profili OpenClaw al § 5 e il rinvio alla revisione 5 al § 10; criteri, canone G6, gate e catalogo restano invariati.
+
+La revisione 10 recepisce le decisioni di Sandro del 2026-10-18, prese nella VC del § 8.7.1. Al § 5: i controlli ordinari del verificatore V si fanno con Codex `gpt-5.6-terra` e `gpt-6.1-sol` serve per i punti dubbi e per il G7; Luna non si usa per V; la scelta dei modelli resta aperta alle prove di Sandro, registrate nel dossier; Antigravity non lo lancia nessun agente, ma Sandro può usarlo lui stesso. Al § 4: le note a piè di pagina si scrivono come nota Markdown `[^n]`, voce 25 del catalogo, già aggiunta il 2026-10-18. Gli scope chiusi o avviati con la revisione 9 restano validi così come sono.
 
 La revisione 9 recepisce la decisione di Sandro del 2026-10-16 su come si legge lo scope di una richiesta: «fai x.y» comprende soltanto la riga `x.y` del registro, non i sottocapitoli (§ 2). Cambia soltanto il § 2; criteri, canone G6, gate e catalogo restano quelli della revisione 8.
 
@@ -75,7 +77,7 @@ Non aggiungere parole, intestazioni di tabella, estremi di sommatoria o notazion
 
 Verificare il 100% di prosa, rubriche, note, rinvii, formule numerate e non numerate, inline sostanziali, definizioni/condizioni, celle logiche, figure e didascalie. Il conteggio aiuta a dimostrare copertura, ma da solo non dimostra conformità.
 
-Per prosa, rubriche e note controllare anche la struttura: divisione in capoversi, appartenenza alle voci di elenco, rubriche e sottotitoli su riga propria, grassetto, corsivo e grassetto corsivo, apici dei richiami. Si conservano come nella fonte, salvo le voci del catalogo; le parole giuste in un capoverso sbagliato sono un rilievo. Le rubriche si scrivono come stampate: numero con o senza punto come nella fonte, testo in maiuscolo dove la fonte usa maiuscolo o maiuscoletto.
+Per prosa, rubriche e note controllare anche la struttura: divisione in capoversi, appartenenza alle voci di elenco, rubriche e sottotitoli su riga propria, grassetto, corsivo e grassetto corsivo, apici dei richiami. Si conservano come nella fonte, salvo le voci del catalogo; le parole giuste in un capoverso sbagliato sono un rilievo. Le rubriche si scrivono come stampate: numero con o senza punto come nella fonte, testo in maiuscolo dove la fonte usa maiuscolo o maiuscoletto. Le note a piè di pagina della fonte si scrivono come nota Markdown `[^n]`, con il numero, il testo e l'enfasi della fonte e senza la parola «Nota» (voce 25 del catalogo, dalla revisione 10).
 
 Per le tabelle controllare ordine, intestazioni gerarchiche, etichette, ogni valore, segno, decimale, unità, nota e accorpamento. Distinguere vuoto, trattino e non applicabile. Applicare alle celle accorpate esclusivamente la convenzione del catalogo; non inventare una colonna `Categoria`. Proteggere le barre matematiche nella sintassi Markdown e controllare le tabelle multipagina.
 
@@ -100,14 +102,17 @@ I gate sono criteri, non otto incarichi. Configurazione ordinaria: C, un V per b
 | E: preparazione o correzione interpretativa approvata non eseguibile con script | `gpt-5.6-terra`, `medium` | Solo quando necessario; limiti sugli apparati nel capoverso seguente |
 | Attività breve rigidamente definita, non coperta da script, se serve davvero delegarla | `gpt-5.6-luna`, `medium` | Alternativa a E per quel compito, non passaggio aggiuntivo |
 | C: confini, giudizio G0-G5, classificazione e adjudicazione ordinaria | `gpt-5.6-sol`, `high` | Non scrive le correzioni del target che coordinerà nel G6 |
-| V: inventario fonte-prima, G6 integrale e giudizio G7 | `gpt-5.6-sol`, `xhigh` | Contesto fresco, nessuna correzione del target |
+| V: controlli ordinari, cioè inventario fonte-prima, G6 integrale e controllo delle modifiche del § 8 | `gpt-5.6-terra` | Contesto fresco, nessuna correzione del target; ragionamento effettivo registrato nella scheda |
+| V: punti dubbi e giudizio G7 | `gpt-6.1-sol`, `high` | Contesto fresco, nessuna correzione del target |
 | Ambiguità persistente, possibile regressione, revisione del metodo | `gpt-6-astra`, `high`; `xhigh` solo se motivato | Solo il punto difficile e le prove necessarie |
 
 C usa Sol `xhigh` anche in G4/adjudicazione per glifi ambigui e apparati critici. Una sostituzione su formule o numeri può essere applicata da Terra solo se testo prima/dopo e localizzazione sono già approvati da Sol e il diff è riconfrontato; se richiede una nuova trascrizione interpretativa la esegue Sol, distinto da C. Il primo passaggio normativo e quello indipendente restano entrambi capaci di controllare gli apparati.
 
 Questi sono profili operativi, **non** l'obbligo di usare il massimo modello oggi disponibile. L'arrivo di Astra non promuove automaticamente tutti i ruoli ad Astra. Non usare `max` o `ultra` di default. Non promettere un cambio di modello della sessione principale: se serve un esecutore diverso si delega il compito delimitato, usando solo identificativi e livelli esposti dal runtime e registrando quelli effettivi. Se l'esecutore corrente è compatibile con il ruolo, può completarlo senza un nuovo contesto inutile, salvo l'indipendenza di V.
 
-Per altri runtime scegliere equivalenti documentati per preparazione, giudizio normativo e verifica critica, dichiarando il modello effettivo; non imporre la classe massima a tutte le attività. In assenza di un modello economico, uno script o il coordinatore può coprire la preparazione, dichiarando il mancato risparmio. In assenza del profilo critico, non degradare G6 a Terra/Luna: cercare un esecutore di capacità comparabile; se non disponibile fermare quel gate. Diversità di modello/fornitore e duplicazione di un blocco sono facoltative, da motivare come misurazione; non costituiscono gate.
+Per altri runtime scegliere equivalenti documentati per preparazione, giudizio normativo e verifica critica, dichiarando il modello effettivo; non imporre la classe massima a tutte le attività. In assenza di un modello economico, uno script o il coordinatore può coprire la preparazione, dichiarando il mancato risparmio. In assenza del profilo V, non degradare il G6 sotto Terra e non usare Luna per V: cercare un esecutore di capacità comparabile; se non disponibile fermare quel gate. Diversità di modello/fornitore e duplicazione di un blocco sono facoltative, da motivare come misurazione; non costituiscono gate.
+
+**Scelta dei modelli, dalla revisione 10.** Decisioni di Sandro del 2026-10-18. Terra per i controlli ordinari del verificatore e Sol per punti dubbi e G7 sono i profili predefiniti, non un elenco chiuso: Sandro può provare altri modelli in qualsiasi momento. Ogni prova si registra nel dossier dello scope con modello, impostazioni, chi l'ha lanciata, orario ed esito, accanto alle altre; una prova comparativa non sostituisce il giudizio del V designato. Un cambio stabile dei predefiniti è una decisione di Sandro, registrata nel CHANGELOG e in una nuova revisione di questa procedura. Resta fermo che V è indipendente da C e da chi ha scritto la lista delle correzioni. Antigravity (`agy`) non lo lancia nessun agente; Sandro può usarlo lui stesso lavorando direttamente sul W520, e le sue prove si registrano nel dossier come le altre.
 
 **Profili OpenClaw, per l'agente NormaNTC18, dalla revisione 6.** Stessi ruoli e stessi limiti della tabella precedente; cambia l'esecutore.
 
@@ -229,7 +234,7 @@ Registrare una sola volta nella scheda, per ruolo/fase: modello effettivo, ragio
 
 La prima applicazione registra una base di confronto per il costo **dello scope completato**, comprese preparazione, correzioni e chiusura. Non promettere risparmi percentuali prima della misura. Un ulteriore abbassamento del profilo critico si valuta su copie con errori noti e casi senza errori, in cieco rispetto alle soluzioni, confrontando omissioni, falsi positivi, dubbi, giri e consumo completo; non si prova degradando silenziosamente il G6 di produzione.
 
-Versioni precedenti: [VC-NTC/8](old/PROCEDURA-VC-r08-20261015.md); [VC-NTC/7](old/PROCEDURA-VC-r07-20261013.md), con il [catalogo di allora](old/normalizzazioni-dichiarate-NTC2018-r07-20261013.md); [VC-NTC/5](old/PROCEDURA-VC-r05-20260912.md), [VC-NTC/4](old/PROCEDURA-VC-r04-20260912.md), [VC-NTC/3](old/PROCEDURA-VC-r03-20260909.md), [prima dell'unificazione](old/procedura-vc-ante-20260905/) e [VC-NTC/1 con strumenti](old/procedura-vc-r01-20260905/). Non sono istruzioni attive.
+Versioni precedenti: [VC-NTC/9](old/PROCEDURA-VC-r09-20261016.md); [VC-NTC/8](old/PROCEDURA-VC-r08-20261015.md); [VC-NTC/7](old/PROCEDURA-VC-r07-20261013.md), con il [catalogo di allora](old/normalizzazioni-dichiarate-NTC2018-r07-20261013.md); [VC-NTC/5](old/PROCEDURA-VC-r05-20260912.md), [VC-NTC/4](old/PROCEDURA-VC-r04-20260912.md), [VC-NTC/3](old/PROCEDURA-VC-r03-20260909.md), [prima dell'unificazione](old/procedura-vc-ante-20260905/) e [VC-NTC/1 con strumenti](old/procedura-vc-r01-20260905/). Non sono istruzioni attive.
 
 La revisione 2 derivava dalla misura del § 3.4.4 e la sua efficacia doveva misurarsi al primo scope autorizzato, cioè il § 3.4.5 del 2026-09-09. **Quella misura in token non c'è**: il runtime che ha eseguito lo scope non espone i contatori, e la scheda lo dichiara. Quello che si è potuto misurare è il tempo e il suo impiego: due paragrafi di poche righe hanno occupato un pomeriggio, di cui circa metà in attesa fra il coordinatore e l'operatore per il render canonico, e la parte restante in attrito degli strumenti più che in verifica. La revisione 3 nasce da lì e agisce su tre voci di quell'attrito, cioè unità di scope, riuso del G1 e divieto di toccare il CSV a mano; la quarta, il renderer mancante nel container dell'esecutore, si è risolta fuori dalla procedura installandolo. Nessuna promessa percentuale: la prossima sezione autorizzata dirà se è servito.
 

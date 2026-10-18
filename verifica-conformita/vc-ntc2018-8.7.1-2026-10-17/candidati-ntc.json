@@ -1,0 +1,75 @@
+{
+ "pdf": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+ "pagine": "297-298",
+ "target": [
+  "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md"
+ ],
+ "nota": "Candidati da vagliare: non sono correzioni approvate.",
+ "capoversi_fonte": [
+  {
+   "pagina": 297,
+   "y_pt": 574.4,
+   "x_pt": 82.3,
+   "criterio": "inizio",
+   "inizio": "8.7.1. COSTRUZIONI IN MURATURA"
+  },
+  {
+   "pagina": 297,
+   "y_pt": 587.2,
+   "x_pt": 82.3,
+   "criterio": "rientro",
+   "inizio": "Nelle costruzioni esistenti in muratura, in particolare negli edifici, si posson"
+  },
+  {
+   "pagina": 297,
+   "y_pt": 640.6,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "La sicurezza della costruzione deve essere valutata nei confronti di entrambi i "
+  },
+  {
+   "pagina": 297,
+   "y_pt": 653.3,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "Per l’analisi sismica dei meccanismi locali si può far ricorso ai metodi dell’an"
+  },
+  {
+   "pagina": 297,
+   "y_pt": 706.7,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "L’analisi sismica globale deve considerare, per quanto possibile, il sistema str"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 131.0,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "In presenza di edifici in aggregato, contigui, a contatto od interconnessi con e"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 184.4,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "L’US dovrà avere continuità da cielo a terra, per quanto riguarda il flusso dei "
+  },
+  {
+   "pagina": 298,
+   "y_pt": 237.8,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "L'analisi globale di una singola unità strutturale assume spesso un significato "
+  },
+  {
+   "pagina": 298,
+   "y_pt": 331.8,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "Qualora gli orizzontamenti dell'edificio non siano sufficientemente rigidi nel p"
+  }
+ ],
+ "capoversi": [],
+ "enfasi": []
+}

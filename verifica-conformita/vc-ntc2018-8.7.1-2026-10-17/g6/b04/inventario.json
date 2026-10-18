@@ -1,0 +1,268 @@
+{
+  "firma": "Codex / V indipendente b04",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "B04-C279-PR-01",
+      "pagina": "circ:279",
+      "riferimento": "I due capoversi iniziali del perimetro, da «La domanda di spostamento, da confrontarsi» a «fornite dalle due distribuzioni»."
+    },
+    {
+      "id": "B04-C279-HD-01",
+      "pagina": "circ:279",
+      "riferimento": "Rubrica «C8.7.1.3.1.1 Pareti murarie»."
+    },
+    {
+      "id": "B04-C279-PR-02",
+      "pagina": "circ:279",
+      "riferimento": "I due capoversi sotto la rubrica Pareti murarie, da «Nel caso di analisi elastica» a «deformazione angolare limite di elemento»."
+    },
+    {
+      "id": "B04-C279-LS-01",
+      "pagina": "circ:279",
+      "riferimento": "Enunciato in enfasi «Nei maschi murari» e le tre voci dei meccanismi di rottura nel piano."
+    },
+    {
+      "id": "B04-C279-PR-03",
+      "pagina": "circ:279",
+      "riferimento": "Capoverso sulla verifica a pressoflessione, dal rinvio al § 7.8.2.2.1 fino all'introduzione delle formule [C8.7.1.13]."
+    },
+    {
+      "id": "B04-C279-FM-01",
+      "pagina": "circ:279",
+      "riferimento": "Formula esposta a due righe per θ_i e θ_j, unico tag [C8.7.1.13], inclusi frazioni, indici, valore assoluto e segni."
+    },
+    {
+      "id": "B04-C279-DF-01",
+      "pagina": "circ:279",
+      "riferimento": "Blocco definitorio dopo [C8.7.1.13], da «dove (assumendo nel piano della parete una terna destrorsa)» alla soglia SLC 0,01."
+    },
+    {
+      "id": "B04-C279-PR-04",
+      "pagina": "circ:279",
+      "riferimento": "Capoverso sul criterio di resistenza a taglio scorrimento, fino all'introduzione della relazione per blocchi standard."
+    },
+    {
+      "id": "B04-C279-FM-02",
+      "pagina": "circ:279",
+      "riferimento": "Formula esposta f_v,lim = 0.065 f_b / 0.7, tag [C8.7.1.14], con indici, decimali e frazione."
+    },
+    {
+      "id": "B04-C279-DF-02",
+      "pagina": "circ:279",
+      "riferimento": "I due capoversi dopo [C8.7.1.14]: definizione di f_b, soglia SLC 0.005 e rinvio ai meccanismi di taglio con fessurazione diagonale."
+    },
+    {
+      "id": "B04-C279-LS-02",
+      "pagina": "circ:279",
+      "riferimento": "Enunciato in enfasi «Nelle fasce di piano» e le due voci dei meccanismi di rottura nel piano."
+    },
+    {
+      "id": "B04-C279-PR-05",
+      "pagina": "circ:279",
+      "riferimento": "Capoverso finale con incipit in enfasi sottolineata «Per le valutazioni relative alla pressoflessione», fino al rinvio al § 7.8.2.2.4 delle NTC."
+    },
+    {
+      "id": "B04-C280-PR-01",
+      "pagina": "circ:280",
+      "riferimento": "Capoverso iniziale sul dominio di resistenza a pressoflessione delle fasce, fino all'introduzione dell'espressione della resistenza a trazione orizzontale."
+    },
+    {
+      "id": "B04-C280-FM-01",
+      "pagina": "circ:280",
+      "riferimento": "Formula esposta f_ftd = min(...), tag [C8.7.1.15], inclusi i due argomenti del minimo, indici, frazioni e parentesi."
+    },
+    {
+      "id": "B04-C280-DF-01",
+      "pagina": "circ:280",
+      "riferimento": "Capoverso definitorio dopo [C8.7.1.15], da σ_y a φ e al rinvio [C8.7.1.2]."
+    },
+    {
+      "id": "B04-C280-PR-02",
+      "pagina": "circ:280",
+      "riferimento": "I due capoversi da «In assenza di valutazioni più accurate» alla soglia di deformazione angolare 0,015 negli altri casi."
+    },
+    {
+      "id": "B04-C280-LS-01",
+      "pagina": "circ:280",
+      "riferimento": "Enunciato in enfasi «Per le valutazioni relative al taglio» e le due voci sulle famiglie di murature."
+    },
+    {
+      "id": "B04-C280-PR-03",
+      "pagina": "circ:280",
+      "riferimento": "Capoverso sul riferimento della Tabella C8.5.I per τ_0 e f_v0 e sul caso della muratura in mattoni pieni e malta di calce."
+    },
+    {
+      "id": "B04-C280-PR-04",
+      "pagina": "circ:280",
+      "riferimento": "Enunciato con incipit in enfasi «Nel caso di muratura irregolare» che introduce la relazione seguente."
+    },
+    {
+      "id": "B04-C280-FM-02",
+      "pagina": "circ:280",
+      "riferimento": "Formula esposta con le due forme equivalenti di V_t, tag [C8.7.1.16], inclusi radicali, frazioni, indici, uguaglianza e fattori."
+    },
+    {
+      "id": "B04-C280-DF-02",
+      "pagina": "circ:280",
+      "riferimento": "Blocco «dove:» sotto [C8.7.1.16], tutte le cinque righe logiche per l, t, σ_0, f_td e τ_0d, b, comprese condizioni e valori inline."
+    },
+    {
+      "id": "B04-C280-PR-05",
+      "pagina": "circ:280",
+      "riferimento": "I quattro capoversi dopo il blocco definitorio: soglie SLC per maschi e fasce, resistenza residua e frase finale che introduce l'elenco percentuale continuato a pagina 281."
+    },
+    {
+      "id": "B04-C281-LS-01",
+      "pagina": "circ:281",
+      "riferimento": "Continuazione dell'elenco della resistenza residua: tre voci per architrave in c.a./acciaio, architrave in legno e arco in muratura, con percentuali 60%, 40%, 10%; verificata anche sul raster nativo 2221×3106."
+    },
+    {
+      "id": "B04-C281-PR-01",
+      "pagina": "circ:281",
+      "riferimento": "Capoverso sul contributo della resistenza residua tramite legame multilineare o bilineare, con valori 0,005 e 0,015."
+    },
+    {
+      "id": "B04-C281-PR-02",
+      "pagina": "circ:281",
+      "riferimento": "Enunciato con incipit in enfasi «Nel caso di muratura regolare» che introduce la relazione completa."
+    },
+    {
+      "id": "B04-C281-FM-01",
+      "pagina": "circ:281",
+      "riferimento": "Formula esposta per V_t con due uguaglianze e disuguaglianza finale ≤ V_t,lim, tag [C8.7.1.17], completa di tilde, indici, frazioni e parentesi; verificata sul raster nativo e sulla pagina a 600 dpi."
+    },
+    {
+      "id": "B04-C281-DF-01",
+      "pagina": "circ:281",
+      "riferimento": "Capoverso «dove:» dopo [C8.7.1.17], con definizioni di resistenza e attrito equivalenti e dei parametri f_v0, μ e φ."
+    },
+    {
+      "id": "B04-C281-PR-03",
+      "pagina": "circ:281",
+      "riferimento": "Capoverso da «In assenza di valutazioni più accurate» sui valori di μ e μ con tilde e sull'esempio della tessitura muraria."
+    },
+    {
+      "id": "B04-C281-PR-04",
+      "pagina": "circ:281",
+      "riferimento": "Enunciato con V_t,lim in enfasi, fino all'introduzione dell'espressione per blocchi di forma standard."
+    },
+    {
+      "id": "B04-C281-FM-02",
+      "pagina": "circ:281",
+      "riferimento": "Formula esposta per V_t,lim, tag [C8.7.1.18], inclusi prodotto, divisione per 2.3, radicale, frazione e indici; verificata sul raster nativo e sulla pagina a 600 dpi."
+    },
+    {
+      "id": "B04-C281-DF-02",
+      "pagina": "circ:281",
+      "riferimento": "Capoverso definitorio dopo [C8.7.1.18] per f_btd, con relazione inline f_bt = 0,1 f_b."
+    },
+    {
+      "id": "B04-C281-PR-05",
+      "pagina": "circ:281",
+      "riferimento": "I due capoversi sulle soglie SLC 0,005/0,004 e sulle fasce di piano, fino al calcolo della resistenza residua."
+    },
+    {
+      "id": "B04-C281-HD-01",
+      "pagina": "circ:281",
+      "riferimento": "Rubrica «C8.7.1.3.1.2 Solai e coperture»."
+    },
+    {
+      "id": "B04-C281-PR-06",
+      "pagina": "circ:281",
+      "riferimento": "I due capoversi della sottosezione Solai e coperture, dal criterio di rigidezza nel piano alla capacità di diaframma dimostrata e quantificata."
+    },
+    {
+      "id": "B04-C281-HD-02",
+      "pagina": "circ:281",
+      "riferimento": "Rubrica «C8.7.1.3.2 Edifici in aggregato»."
+    },
+    {
+      "id": "B04-C281-PR-07",
+      "pagina": "circ:281",
+      "riferimento": "Primo capoverso di Edifici in aggregato, con richiamo di nota 4 dopo «edifici», fino ai meccanismi di giustapposizione e sovrapposizione."
+    },
+    {
+      "id": "B04-C281-NT-01",
+      "pagina": "circ:281",
+      "riferimento": "Nota a piè di pagina 4, inclusi richiamo, linea di separazione e testo sul concetto di Unità Strutturale (US)."
+    },
+    {
+      "id": "B04-C282-PR-01",
+      "pagina": "circ:282",
+      "riferimento": "I due capoversi iniziali, dalla definizione della porzione di aggregato che costituisce l'US all'introduzione dei diversi strati d'informazione."
+    },
+    {
+      "id": "B04-C282-LS-01",
+      "pagina": "circ:282",
+      "riferimento": "Elenco completo dei sette strati d'informazione, dai rapporti tra processi di aggregazione ai disassamenti e alle rastremazioni delle pareti."
+    },
+    {
+      "id": "B04-C282-PR-02",
+      "pagina": "circ:282",
+      "riferimento": "Sequenza dei sette capoversi sull'individuazione dell'US, confini, interazioni con edifici adiacenti, effetti locali e metodi d'analisi, fino alla traslazione dei solai rigidi."
+    },
+    {
+      "id": "B04-C282-HD-01",
+      "pagina": "circ:282",
+      "riferimento": "Rubrica «C8.7.1.3.3 Edifici semplici»."
+    },
+    {
+      "id": "B04-C282-PR-03",
+      "pagina": "circ:282",
+      "riferimento": "Capoverso introduttivo di Edifici semplici, con rinvio al § 7.8.1.9, simboli f_k e f_m e frase che introduce le condizioni."
+    },
+    {
+      "id": "B04-C282-LS-02",
+      "pagina": "circ:282",
+      "riferimento": "Elenco alfabetico delle condizioni: voci a, b, c e parte iniziale della voce d fino a «ad esempio comignoli,»; controllo integrale dei marcatori e della struttura."
+    },
+    {
+      "id": "B04-C283-LS-01",
+      "pagina": "circ:283",
+      "riferimento": "Continuazione della voce d («cornicioni ecc.») e voci e-f dell'elenco delle condizioni per gli edifici semplici."
+    },
+    {
+      "id": "B04-C283-PR-01",
+      "pagina": "circ:283",
+      "riferimento": "Capoverso conclusivo di C8.7.1.3.3, da «Se l'intervento rispetta» all'omissione delle analisi ante e post intervento."
+    },
+    {
+      "id": "B04-C283-HD-01",
+      "pagina": "circ:283",
+      "riferimento": "Rubrica in maiuscoletto «C8.7.1.4 Elementi strutturali in legno»."
+    },
+    {
+      "id": "B04-C283-PR-02",
+      "pagina": "circ:283",
+      "riferimento": "Tutti i quattro capoversi del § C8.7.1.4, dai collegamenti tra elementi lignei fino al contributo delle membrature al comportamento strutturale globale."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "circ:279",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, numero/data, righe di separazione, numero stampato 275 e fregi di fondo pagina."
+    },
+    {
+      "pagina": "circ:280",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, numero/data, righe di separazione, numero stampato 276 e fregi di fondo pagina."
+    },
+    {
+      "pagina": "circ:281",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, numero/data, righe di separazione, numero stampato 277 e fregi di fondo pagina."
+    },
+    {
+      "pagina": "circ:282",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, numero/data, righe di separazione, numero stampato 278 e fregi di fondo pagina."
+    },
+    {
+      "pagina": "circ:283",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, numero/data, righe di separazione, numero stampato 279 e fregi di fondo pagina."
+    },
+    {
+      "pagina": "circ:283",
+      "riferimento": "Tutto quanto inizia con la rubrica «C8.7.2 COSTRUZIONI DI CALCESTRUZZO ARMATO O DI ACCIAIO» e prosegue fino al termine della pagina, escluso espressamente dal PERIMETRO.md."
+    }
+  ],
+  "dubbi": []
+}

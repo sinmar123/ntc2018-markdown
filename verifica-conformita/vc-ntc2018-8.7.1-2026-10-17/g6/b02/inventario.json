@@ -1,0 +1,146 @@
+{
+  "firma": "Codex, agente V indipendente /root/v871_b02_v2 (modello non esposto dal runtime)",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "b02-c272-p01",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso iniziale del perimetro, da «Per le verifiche che seguono» a «fenomeni di disgregazione»."
+    },
+    {
+      "id": "b02-c272-p02",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «Le ipotesi tradizionalmente adottate…», immediatamente prima dell’elenco a trattini."
+    },
+    {
+      "id": "b02-c272-l01",
+      "pagina": "circ:272",
+      "riferimento": "Elenco a trattini di 3 ipotesi, dalla resistenza a trazione nulla alla resistenza a compressione infinita; controllo integrale delle tre voci."
+    },
+    {
+      "id": "b02-c272-p03",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «Tuttavia, per una simulazione più realistica…», introduttivo all’elenco alfabetico."
+    },
+    {
+      "id": "b02-c272-l02",
+      "pagina": "circ:272",
+      "riferimento": "Elenco alfabetico a)-e), dagli scorrimenti tra i blocchi alle pareti a paramenti scollegati; controllo integrale delle 5 voci."
+    },
+    {
+      "id": "b02-c272-p04",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «In generale occorre considerare i meccanismi locali significativi…»."
+    },
+    {
+      "id": "b02-c272-p05",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «Nel caso di analisi statica…», inclusi α₀, q e le due locuzioni in grassetto corsivo sugli approcci cinematici."
+    },
+    {
+      "id": "b02-c272-p06",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «In particolare, la verifica attraverso i metodi dell’analisi limite…», introduttivo all’elenco dei passi."
+    },
+    {
+      "id": "b02-c272-l03",
+      "pagina": "circ:272",
+      "riferimento": "Elenco a trattini di 5 passi dell’analisi limite, dall’individuazione del meccanismo alle verifiche di sicurezza; controllo integrale di voci, simboli e condizioni."
+    },
+    {
+      "id": "b02-c272-p07",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso con incipit in grassetto corsivo «L’approccio cinematico lineare», fino al fattore di comportamento q."
+    },
+    {
+      "id": "b02-c272-p08",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso con incipit in grassetto corsivo «L’approccio cinematico non lineare», inclusa la curva α-dc e la condizione α=0."
+    },
+    {
+      "id": "b02-c272-p09",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «Essa può essere trasformata…», incluso il rinvio al § C8.7.1.2.4 e la verifica allo stato limite ultimo."
+    },
+    {
+      "id": "b02-c272-p10",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso «Nel caso di analisi dinamica non lineare…», fino alle azioni fuori dal piano medio."
+    },
+    {
+      "id": "b02-c272-h01",
+      "pagina": "circ:272",
+      "riferimento": "Rubrica su riga propria «C8.7.1.2.1.1 Analisi con approccio cinematico lineare», con numero e stile tipografico."
+    },
+    {
+      "id": "b02-c272-p11",
+      "pagina": "circ:272",
+      "riferimento": "Primo capoverso sotto la rubrica, da «L’analisi con approccio cinematico lineare» al fattore di comportamento q."
+    },
+    {
+      "id": "b02-c272-p12",
+      "pagina": "circ:272",
+      "riferimento": "Capoverso finale della pagina, da «A titolo indicativo» all’esempio dell’azione proporzionale all’intera massa."
+    },
+    {
+      "id": "b02-c273-p01",
+      "pagina": "circ:273",
+      "riferimento": "Capoverso iniziale «Applicando il teorema dei lavori virtuali…», introduttivo alla prima espressione."
+    },
+    {
+      "id": "b02-c273-f01",
+      "pagina": "circ:273",
+      "riferimento": "Formula esposta del moltiplicatore α₀ con tag [C8.7.1.1]; controllo integrale di numeratore, denominatore, sommatorie, indici, segni e tag."
+    },
+    {
+      "id": "b02-c273-d01",
+      "pagina": "circ:273",
+      "riferimento": "Blocco «dove:» successivo a [C8.7.1.1], dalla definizione di N a quella di Lᵢ; controllo integrale delle 9 coppie simbolo-definizione."
+    },
+    {
+      "id": "b02-c273-p02",
+      "pagina": "circ:273",
+      "riferimento": "Capoverso «Il moltiplicatore α₀ che si ottiene dall’equazione [C8.7.1.1]…»."
+    },
+    {
+      "id": "b02-c273-p03",
+      "pagina": "circ:273",
+      "riferimento": "Capoverso «Quest’ultimo può essere stimato…», sul minimo dei moltiplicatori e sul processo di minimizzazione."
+    },
+    {
+      "id": "b02-c273-c01",
+      "pagina": "circ:273",
+      "riferimento": "Capoverso «Un caso particolarmente significativo…», con ipotesi, condizioni e grandezze h e F che precedono [C8.7.1.2]."
+    },
+    {
+      "id": "b02-c273-f02",
+      "pagina": "circ:273",
+      "riferimento": "Formula esposta della risultante F con tag [C8.7.1.2]; controllo integrale di coefficiente, fattori, esponenti, simboli e tag."
+    },
+    {
+      "id": "b02-c273-d02",
+      "pagina": "circ:273",
+      "riferimento": "Blocco «dove:» successivo a [C8.7.1.2], dalla definizione di n a quella del peso specifico; controllo integrale delle 6 coppie simbolo-definizione e dei rinvii."
+    },
+    {
+      "id": "b02-c273-c02",
+      "pagina": "circ:273",
+      "riferimento": "Capoverso finale del perimetro, dal punto di applicazione a quota 1/3h alla minimizzazione del moltiplicatore α₀, incluse le precisazioni su h e cerniera."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "circ:272",
+      "riferimento": "Testata editoriale della Gazzetta Ufficiale sopra il corpo normativo (data, supplemento e serie)."
+    },
+    {
+      "pagina": "circ:272",
+      "riferimento": "Fascia di piede sotto il corpo normativo, con numero di pagina e marcatori tipografici/di stampa."
+    },
+    {
+      "pagina": "circ:273",
+      "riferimento": "Fascia di piede sotto il capoverso finale, con numero di pagina e marcatori tipografici/di stampa."
+    }
+  ],
+  "dubbi": []
+}

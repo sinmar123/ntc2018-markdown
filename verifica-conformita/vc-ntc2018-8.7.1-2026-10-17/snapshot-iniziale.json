@@ -1,0 +1,134 @@
+{
+ "firma": "GBOT-verifica-ntc",
+ "scope": "8.7.1",
+ "data": "2026-10-17",
+ "pagine": [
+  {
+   "fonte": "ntc",
+   "pagina_fisica": 297,
+   "png": "ntc-p297-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "ntc",
+   "pagina_fisica": 298,
+   "png": "ntc-p298-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 270,
+   "png": "circ-p270-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 271,
+   "png": "circ-p271-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 272,
+   "png": "circ-p272-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 273,
+   "png": "circ-p273-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 3
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 274,
+   "png": "circ-p274-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 8
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 275,
+   "png": "circ-p275-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 5
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 276,
+   "png": "circ-p276-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 6
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 277,
+   "png": "circ-p277-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 4
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 278,
+   "png": "circ-p278-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 279,
+   "png": "circ-p279-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 7
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 280,
+   "png": "circ-p280-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 14
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 281,
+   "png": "circ-p281-200dpi.png",
+   "immagini_incorporate": 6,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 282,
+   "png": "circ-p282-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 283,
+   "png": "circ-p283-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 2
+  },
+  {
+   "fonte": "circ",
+   "pagina_fisica": 284,
+   "png": "circ-p284-200dpi.png",
+   "immagini_incorporate": 4,
+   "disegni_vettoriali": 3
+  }
+ ],
+ "target": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+ "target_sha256": "643c7e83faec95dcde4cf74be90976190b0c122d46b50d88c12df50f03ae2a45",
+ "procedura_sha256": "14084c23fd8a0563515a906d0192b93dbd419ac0a8a2a6f8a3715938bedde82f",
+ "catalogo_sha256": "add1873d309b44930b8caccf8dd5ed3714926108a106230de35133a8a76e239e",
+ "fonti_sha256": {
+  "ntc": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+  "circ": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c"
+ }
+}

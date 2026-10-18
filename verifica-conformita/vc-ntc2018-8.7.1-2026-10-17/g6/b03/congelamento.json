@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-17T14:14:27.011064+00:00",
+  "firma": "Codex V indipendente /root/v871_b03_v2 (GPT-5)",
+  "inventario_sha256": "b93d92e8445b5213a5e26da20d1e88b653aa82468a2cb034a052415062a34c90",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "fd16e62e25cfd44e84adb509af4b57af9559f5064e72681998b8703fe49e9b61",
+  "manifest_fonte_sha256": "7f3cf9e9c89077bd3734ae884c889ff8a1de7d95712c5487dcaccee6ab6eda0f"
+}

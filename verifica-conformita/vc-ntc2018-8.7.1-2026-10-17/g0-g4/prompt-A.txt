@@ -1,0 +1,41 @@
+Sei l'esecutore del confronto iniziale G0-G4 della verifica di conformità (VC) del § 8.7.1 delle NTC 2018 e della Circolare 7/2019, per il committente, coordinato dall'agente GBOT-verifica-ntc. Lavori solo sul BLOCCO A descritto sotto. Scrivi in italiano, con accenti veri, senza trattino lungo.
+
+Cartella di lavoro (dalla radice del progetto): _tmp_render/cap08/vc-8.7.1-20261017-gbot/
+
+DIVIETI ASSOLUTI
+- Non modificare nessun file del progetto: niente cap08/, niente CSV, scheda, TODO, CHANGELOG, README, procedura. Il target NON si corregge: solo si confronta.
+- Scrivi soltanto i due file di uscita indicati in fondo e, se ti servono appunti, file dentro g0-g4/lavoro-A/.
+- Niente git, niente rete.
+- Non inventare dati. Ogni rilievo deve citare la pagina fisica e il testo che la fonte stampa davvero. Se non riesci a leggere con certezza, classifica DUBBIO e indica le letture possibili, senza scegliere.
+- Le anomalie della fonte (refusi, rinvii irregolari, numerazioni strane) si documentano come AF e NON si propone di correggerle, salvo i requisiti stretti di AF-COR del canone.
+
+CRITERI (leggi prima di iniziare)
+- procedura-congelata-r9.md: il § 2, paragrafo «Convenzioni del corpus», e i §§ 3 e 4 tra i marcatori CANONE-G6.
+- catalogo-congelato.md: le sole normalizzazioni ammesse (classe N). Una differenza coperta da una voce del catalogo non è un rilievo; citane il numero di voce nella nota se ti serve.
+- Convenzioni: simboli e greche nella prosa in LaTeX inline; pedici ed esponenti come nella fonte, anche nelle unità; rubriche come stampate (numero con o senza punto come nella fonte, maiuscolo se la fonte usa maiuscolo o maiuscoletto); capoversi, grassetti, corsivi, voci di elenco come nella fonte; formule con il tag originale.
+
+FONTI (pagine fisiche dei PDF ufficiali GU; la pagina stampata della Circolare è la fisica meno 4)
+- Pagine intere a 200 dpi: fonte/<atto>-p<N>-200dpi.png (atto = ntc o circ). Guardale: la pagina stampata prevale sul testo estratto.
+- Testo estratto: fonte/<atto>-p<N>.txt (solo ausilio).
+- Codifica a span: fonte/<atto>-p<N>-span.txt; ogni riga ha y e x, e per ogni span [stile|corpo|font]testo, con stile B grassetto, I corsivo, ^ apice. Serve per capoversi (interlinea, rientro), enfasi, apici e pedici (corpo minore e y spostata).
+- Candidati automatici di capoversi ed enfasi: candidati-ntc.json e candidati-circ.json. Sono CANDIDATI con falsi positivi noti (note, simboli, ricerche ripetute): vagliali uno per uno sulla pagina, includi solo quelli veri. Riguardano tutto lo scope: considera solo quelli che cadono nel tuo blocco.
+
+TARGET
+- target-scope.md nella cartella di lavoro: è il Markdown del file cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md composto per lo scope. Usa per le posizioni i numeri di riga del FILE ORIGINALE cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md (puoi leggerlo, senza modificarlo). L'indice interno tra INDICE-INTERNO:INIZIO/FINE, le ancore <a id=...> e le righe di link di ritorno sono apparato di navigazione: escluse dal confronto.
+
+BLOCCO A
+Norma: 8.7.1 intero, pagine fisiche NTC 297-298 (dalla rubrica 8.7.1 fino a prima di 8.7.2). Circolare: da C8.7.1 (pagina fisica 270) fino a prima della rubrica C8.7.1.2.1.2 (pagina fisica 274), cioè C8.7.1, C8.7.1.1, C8.7.1.2, C8.7.1.2.1, C8.7.1.2.1.1. Righe del file Markdown originale 1-164 (titolo, Norma, Circolare fino alla riga 164). Pagine da guardare: ntc 297, 298; circ 270, 271, 272, 273, 274 (solo la parte prima di C8.7.1.2.1.2).
+
+COSA FARE
+Confronta il 100% del blocco, elemento per elemento, con la pagina stampata: prosa parola per parola (comprese punteggiatura, apostrofi e accenti stampati, per esempio E' contro È), rubriche, divisione in capoversi, voci di elenco e loro marcatori, grassetti, corsivi, apici e pedici, note, rinvii, formule display e inline (entrambi i membri, frazioni, radici, parentesi, indici, apici e primi, greche, operatori, segni, limiti, numeri, unità, tag numerici), tabelle e figure se presenti (cella per cella, didascalie), definizioni e condizioni dopo «dove». Per ogni numero e coefficiente controlla la cifra stampata. Non fermarti ai candidati: leggi tutto.
+
+USCITE (due file, dentro g0-g4/)
+1) g0-g4/confronto-A.json, JSON UTF-8 con:
+ {"blocco":"A","pagine":{...},"righe_md":"...","conteggi":{"rubriche":n,"capoversi":n,"voci_elenco":n,"formule_display":n,"formule_numerate":n,"inline_sostanziali":n,"tabelle":n,"celle":n,"figure":n,"note":n},
+  "rilievi":[{"id":"A-01","riga_md":n,"pagina_fisica":"circ 272","y_pt":123.4,"attuale":"testo esatto come compare nel Markdown, unico nel file","fonte":"cosa stampa la fonte","proposto":"testo Markdown proposto","classe":"ERR-MD|AF|DUBBIO","categoria":"valore|formula|prosa|rubrica|capoverso|enfasi|pedice-apice|elenco|rinvio|tabella|figura|altro","effetto":"sostanziale|forma","nota":"breve"}],
+  "anomalie_fonte":[{"pagina_fisica":"...","descrizione":"...","resa_nel_md":"conservata|non conservata"}],
+  "candidati_scartati":n, "letture":["file letti"]}
+ Sostanziale = cambia un valore, un coefficiente, una formula, un segno, una grandezza, una prescrizione o il senso; forma = solo presentazione (capoversi, enfasi, rubriche, apici di richiamo, spazi, punteggiatura che non cambia il senso). Nei rilievi di capoverso basta un frammento breve di attuale che sia unico nel file, per esempio le ultime parole del capoverso precedente e le prime del successivo, e il proposto con \n\n al punto giusto.
+2) g0-g4/confronto-A.md: sintesi leggibile, al massimo 400 parole più le tabelle: copertura, rilievi sostanziali in testa, poi forma raggruppata, anomalie della fonte, dubbi.
+
+Alla fine rispondi con un riepilogo di 10 righe: numero di rilievi per classe e categoria, eventuali sostanziali, dubbi, e problemi incontrati.

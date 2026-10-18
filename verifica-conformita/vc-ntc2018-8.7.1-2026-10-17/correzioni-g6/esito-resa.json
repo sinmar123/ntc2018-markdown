@@ -1,0 +1,15 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "renderer": "strumenti/render-capitolo.py con -V block-headings e contatore delle note allineato a [^n] nella sola copia di render",
+  "pandoc": "3.9.0.2",
+  "prova_corpus": "Render dei 36 file Markdown di cap08/: 35 riusciti; il file vivo di 8.7.1 si ferma su «Too deeply nested» per la profondità del proprio indice interno, come già con il renderer precedente (vedi g5/esito-resa.json).",
+  "resa_scope": {
+    "sorgente": "g6-modifiche/pacchetto/testo-dopo.md (testo depurato composto da pacchetto-modifiche)",
+    "pdf": "g6-modifiche/consegna/resa-dopo.pdf",
+    "sha256": "78e6f1cb72d1ed91e7f32be62c4cd33c4129e9aabe9b3ce0403ba299903d1b0d",
+    "pagine": 18,
+    "controlli_script": "nessun tag con parentesi tonde; nessuna didascalia automatica",
+    "controllo_visivo_C": "Rubriche di livello 4 e 5 su riga propria (pp. 3, 4, 11, 16, 17, 18); nota 4 con richiamo in apice e testo a piè di pagina, p. 16. Pagine osservate anche dai due V."
+  }
+}

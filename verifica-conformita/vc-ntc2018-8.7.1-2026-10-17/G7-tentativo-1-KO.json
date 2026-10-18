@@ -1,0 +1,27 @@
+{
+  "firma": "Codex (GPT-6), verificatore critico indipendente G7",
+  "data": "2026-10-18",
+  "giudizio_g7": "KO",
+  "scope": "8.7.1",
+  "snapshot_sha256": "5c466acd11ce6c074f28ba1b022d78fff5930d5829f378701493ac52b98ad57c",
+  "manifest_sha256": "b5daf4e9c799fc5f809a1c8ac57e90f9944b39096e433a0ff05f9da1f4b96617",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_aperti": [
+    {
+      "id": "G7-REGISTRO-8.7.1",
+      "classe": "ERR-AUDIT",
+      "prova": "rapporto-c.md, G0, qualifica come ERR-AUDIT le pagine incomplete del registro. La sua integrazione finale e verbale.md dichiarano il residuo ancora nel TODO; riepilogo-meccanico.json conferma NTC 297 e Circolare 270-272, 274-277, 279, 282-283, anziché NTC 297-298 e Circolare 270-283. Non risulta una chiusura documentata di questo errore."
+    }
+  ],
+  "motivazione": "Impronta del manifest ricalcolata e coerente; presenti 168 voci e il target con lo snapshot dichiarato. Il riepilogo attesta verifica-manifest OK. I 14 rilievi G6 risultano riconciliati: 11 chiusi da Sol, 6 e 7 non fondati con conferma Q1/Q2, C-PRO-016 rettificato documentalmente. Il rilievo comparativo Luna è motivatamente respinto. verifica-lista attesta base 92a449e più 210 voci approvate, con uguaglianza a indici esclusi. Deroga, prova comparativa, tentativo interrotto e limiti sono riportati; giro_g6 è 1 su 3. Tuttavia permane l'errore delle pagine nel registro, esplicitamente qualificato ERR-AUDIT e rinviato al TODO. La dichiarazione di zero ERR-AUDIT non è quindi pienamente riconciliata e impedisce G7 OK.",
+  "limiti": "Controllo documentale senza nuova lettura della fonte: target, CSV e corpus originali non sono presenti, e verifica-manifest resta un'attestazione consegnata. AGENTS.md esterno è stato letto preliminarmente come istruzione, senza usarlo come fonte del giudizio."
+}

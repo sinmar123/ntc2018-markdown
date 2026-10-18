@@ -1,0 +1,77 @@
+{
+ "dubbi": [
+  {
+   "id": "A-41",
+   "riga_md": 160,
+   "pagina_fisica": "circ 273",
+   "y_pt": 636.6,
+   "attuale": "$t_s$ è lo spessore della parete trasversale",
+   "fonte": "due letture, vedi nota",
+   "proposto": "",
+   "classe": "DUBBIO",
+   "categoria": "pedice-apice",
+   "effetto": "forma",
+   "nota": "Lettura 1: pedice S maiuscolo. Il livello testo Palatino corsivo ha il carattere S a corpo 4.8, e il candidato di enfasi registra «tS». Lettura 2: pedice s minuscolo, come nel Markdown; la pagina a 200 dpi, anche ingrandita, si legge così, e la formula accanto si legge t_s. Non scelgo. Il w della definizione è minuscolo ed è certo."
+  },
+  {
+   "id": "C-18",
+   "riga_md": 423,
+   "pagina_fisica": "circ 281",
+   "y_pt": 441.5,
+   "attuale": "0{,}1f_b",
+   "fonte": "Nel testo «come f_bt = 0,1 f_b» il coefficiente 0,1 è in grassetto e la virgola è quella stampata.",
+   "proposto": "\\mathbf{0{,}1}f_b",
+   "classe": "DUBBIO",
+   "categoria": "enfasi",
+   "effetto": "forma",
+   "nota": "Riclassificato DUBBIO da GBOT: la fonte stampa in grassetto l’intera espressione «fbt = 0,1fb»; la voce 20 toglie il grassetto ai simboli, resta da decidere se togliere anche quello del numero (lettura A: $f_{bt}=0{,}1f_b$ invariato; lettura B: solo 0,1 in grassetto)."
+  },
+  {
+   "id": "C-26",
+   "riga_md": 441,
+   "pagina_fisica": "circ 281",
+   "y_pt": 711.2,
+   "attuale": "Unità Strutturale (US), chiaramente",
+   "fonte": "Nella nota il corpo è minore. Il grassetto di US, certo nel corpo del paragrafo, qui non è risolto.",
+   "proposto": "Unità Strutturale (US), chiaramente",
+   "classe": "DUBBIO",
+   "categoria": "enfasi",
+   "effetto": "forma",
+   "nota": "Lettura A: US in grassetto, come nel corpo. Lettura B: US in tondo, nel corpo minore della nota. Non si sceglie."
+  },
+  {
+   "id": "D-01",
+   "riga_md": 368,
+   "pagina_fisica": "circ 280",
+   "attuale": "ed elastofragile a trazione",
+   "proposto": "ed elastofragile a trazione",
+   "fonte": "«elasto-» a fine riga (y 230), «fragile» a inizio della riga seguente; unica occorrenza della parola nella Circolare",
+   "classe": "DUBBIO",
+   "categoria": "prosa",
+   "effetto": "forma",
+   "nota": "v2, da structural-codes (loro «elasto-fragile»). Lettura A: trattino di sillabazione, «elastofragile» come nel file. Lettura B: composto con trattino, «elasto-fragile». La pagina non lo decide. Proposta: lasciare com’è salvo decisione di Sandro."
+  }
+ ],
+ "scartati": [
+  {
+   "id": "B-64",
+   "motivo": "assorbito in B-11"
+  },
+  {
+   "id": "B-66",
+   "motivo": "assorbito in B-12"
+  },
+  {
+   "id": "B-76",
+   "motivo": "assorbito in B-75"
+  },
+  {
+   "id": "C-24",
+   "motivo": "Respinto: il richiamo di nota [4] è la convenzione del corpus, usata nei file VC-OK 8.5.4 e 8.4 (voce 11 del catalogo, marcatori di nota)."
+  },
+  {
+   "id": "C-25",
+   "motivo": "Respinto: la resa **Nota 4.** è la convenzione del corpus, usata nei file VC-OK 8.5.4 e 8.4; il testo della nota coincide."
+  }
+ ]
+}

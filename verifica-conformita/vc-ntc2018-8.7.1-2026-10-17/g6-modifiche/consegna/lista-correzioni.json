@@ -1,0 +1,54 @@
+{
+  "scope": "8.7.1",
+  "versione": "g6-r1",
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "approvazione": "Sandro, 18/10/2026 11:13-11:18 ora di Roma: rilievi 8, 9 (corsivo delle rubriche) e 13, 14 (nota 4 come la fonte, cliccabile con [^4]); «ok..vai» alle 11:18.",
+  "gruppi": [
+    {
+      "nome": "Correzioni dopo il G6 giro 1",
+      "voci": [
+        {
+          "id": "G6R1-08",
+          "rilievo": "B04-C279-HD-01",
+          "file": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+          "pagina": "Circolare p. fisica 279",
+          "classe": "ERR-MD, forma",
+          "attuale": "###### C8.7.1.3.1.1 Pareti murarie\n",
+          "proposto": "###### *C8.7.1.3.1.1 Pareti murarie*\n",
+          "nota": "Rubrica in grassetto corsivo nella fonte (PalatinoLinotype-BoldIta), come le rubriche di sesto livello C8.7.1.2.1.x; convenzione del corpus ###### *…*. Decisione di Sandro 18/10/2026."
+        },
+        {
+          "id": "G6R1-09",
+          "rilievo": "B04-C281-HD-01",
+          "file": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+          "pagina": "Circolare p. fisica 281 (solo raster)",
+          "classe": "ERR-MD, forma",
+          "attuale": "###### C8.7.1.3.1.2 Solai e coperture\n",
+          "proposto": "###### *C8.7.1.3.1.2 Solai e coperture*\n",
+          "nota": "Come G6R1-08. Decisione di Sandro 18/10/2026."
+        },
+        {
+          "id": "G6R1-13",
+          "rilievo": "B04-C281-PR-07",
+          "file": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+          "pagina": "Circolare p. fisica 281 (solo raster)",
+          "classe": "ERR-MD, forma",
+          "attuale": "Un aggregato edilizio di edifici[4] è",
+          "proposto": "Un aggregato edilizio di edifici[^4] è",
+          "nota": "Richiamo di nota in apice come nella fonte, reso con la nota a piè di pagina Markdown [^4] (catalogo, voce 25). Decisione di Sandro 18/10/2026."
+        },
+        {
+          "id": "G6R1-14",
+          "rilievo": "B04-C281-NT-01",
+          "file": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+          "pagina": "Circolare p. fisica 281 (solo raster)",
+          "classe": "ERR-MD, forma",
+          "attuale": "**Nota 4.** Nell’analisi degli aggregati,",
+          "proposto": "[^4]: Nell’analisi degli aggregati,",
+          "nota": "Testo della nota come nella fonte, senza la parola «Nota», definito come nota a piè di pagina Markdown (catalogo, voce 25). Enfasi interne invariate (C-26 deciso a testo invariato il 17/10/2026). Decisione di Sandro 18/10/2026."
+        }
+      ]
+    }
+  ]
+}

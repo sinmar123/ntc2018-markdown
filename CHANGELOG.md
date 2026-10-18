@@ -1,5 +1,32 @@
 # Changelog - NTC 2018
 
+## 2026-10-18 - PROCEDURA-VC revisione 10: verificatori, scelta dei modelli e note `[^n]`, GBOT-verifica-ntc
+
+Decisioni di Sandro del 2026-10-18 alle 13:50, 13:51 e 13:53, dopo la VC del § 8.7.1. § 5: V ordinario Codex `gpt-5.6-terra` (inventario fonte-prima, G6 integrale, controllo delle modifiche), `gpt-6.1-sol` `high` per punti dubbi e G7; Luna non si usa per V. Nuovo capoverso sulla scelta aperta dei modelli: Terra e Sol sono predefiniti, Sandro può provarne altri in ogni momento, ogni prova si registra nel dossier con modello, impostazioni ed esito, un cambio stabile è decisione di Sandro registrata; V resta indipendente da C e dall'autore della lista. Antigravity non lo lancia nessun agente, Sandro può usarlo lui stesso sul W520 e le sue prove si registrano come le altre. Adeguata la frase sul profilo critico assente (non sotto Terra, mai Luna per V). § 4: note a piè di pagina come nota Markdown `[^n]`, voce 25 del catalogo. Copia della revisione 9 in `old/PROCEDURA-VC-r09-20261016.md`; README aggiornato. La VC del § 8.7.1, svolta con la revisione 9, non cambia.
+
+Firma: GBOT-verifica-ntc.
+
+## 2026-10-18 - VC-OK del § 8.7.1 con C8.7.1, GBOT-verifica-ntc
+
+VC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
+## 2026-10-18 - Comando `pagine` di vc-supporto.py, GBOT-verifica-ntc
+
+Decisione di Sandro del 2026-10-18 alle 13:47: le colonne `pagine_pdf_ntc` e `pagine_pdf_circolare` del registro si correggono con lo strumento, mai a mano. Nuovo comando `vc-supporto.py pagine CONFIG_JSON [--applica]`: una sola riga `IN-CORSO`, stesso lucchetto della scheda, valori validati con il lint, motivo, autorizzazione ed evidenza obbligatori, ricevuta e lint dopo la scrittura; non tocca altre colonne. Test nuovo in `test_vc_supporto.py`; il test del canone neutro conta ora 25 voci, per la voce 25 del catalogo. 38 test OK. Primo uso: riga 8.7.1, NTC 297-298 e Circolare 270-283, riaccertate sui PDF ufficiali.
+
+Firma: GBOT-verifica-ntc.
+
+## 2026-10-18 - Rubriche su riga propria nella resa e note a piè di pagina, GBOT-verifica-ntc
+
+Due decisioni di Sandro del 2026-10-18, prese sui rilievi del G6 del § 8.7.1:
+
+- `strumenti/render-capitolo.py` passa a pandoc `-V block-headings`. Le rubriche di livello 4 e 5 (`\paragraph` e `\subparagraph`) escono su riga propria, come nella Gazzetta, invece che sulla stessa riga del capoverso. Vale per tutto il corpus e non cambia nessun file Markdown. Nella sola copia temporanea di render il contatore delle note LaTeX si allinea al numero dell'etichetta `[^n]`, così il PDF stampa lo stesso apice della fonte. Prova: render dei 36 file Markdown di `cap08/` con pandoc 3.9.0.2. Riescono tutti salvo il file vivo di 8.7.1, che come prima delle modifiche si ferma su «Too deeply nested» per la profondità del proprio indice interno. Il testo depurato di 8.7.1 si rende in 18 pagine, con rubriche su riga propria e nota 4 in apice.
+- Catalogo delle normalizzazioni, nuova voce 25: note a piè di pagina come nota Markdown `[^n]`, con numero, testo ed enfasi della fonte e senza la parola «Nota». Procedura invariata, revisione 9. Il riallineamento dei paragrafi già chiusi con la convenzione precedente è annotato nel TODO.
+
+Firma: GBOT-verifica-ntc.
+
 ## 2026-10-16 - Integrazione della VC 8.7 e autorizzazione all’unione della PR #17, CDX
 
 Su autorizzazione di Sandro integrato main 27943b3, che comprende la PR #16 sulla sola introduzione 8.7. Risolti i cinque conflitti nei file di governo conservando entrambe le VC. Nel CSV sono stati trasferiti integralmente i record già registrati: 8.6 dal ramo CDX, 8.7 da main, senza una nuova registrazione o modifica dei campi. Target 8.6 identico allo snapshot verificato; target ed evidenze 8.7 identici a main. Confermate le dieci correzioni approvate e l’integrità delle 73 evidenze locali del manifest di pubblicazione. Linter: 379 righe, 13 colonne, 55 VC-OK, zero errori e sette avvisi, compreso quello ereditato dalla riga 8.7. Unione della PR #17 autorizzata da Sandro; esito remoto consultabile nella PR. Firma: CDX. [PR #17](https://github.com/sinmar123/ntc2018-markdown/pull/17).

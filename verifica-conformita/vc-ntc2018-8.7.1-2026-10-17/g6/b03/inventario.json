@@ -1,0 +1,294 @@
+{
+  "firma": "Codex V indipendente /root/v871_b03_v2 (GPT-5)",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "B03-E001",
+      "pagina": "circ:274",
+      "riferimento": "I primi due capoversi, da «Queste resistenze attritive» a «essere assunto a quota 1/2h»; controllo integrale di prosa, capoversi, simboli inline e richiami [C8.7.1.2]."
+    },
+    {
+      "id": "B03-E002",
+      "pagina": "circ:274",
+      "riferimento": "Rubrica C8.7.1.2.1.2 «Analisi con approccio cinematico non lineare», inclusi numerazione, corsivo e struttura su riga propria."
+    },
+    {
+      "id": "B03-E003",
+      "pagina": "circ:274",
+      "riferimento": "I due capoversi della C8.7.1.2.1.2, da «L’analisi con approccio cinematico non lineare» a «si modificano o si mantengono costanti»; controllo integrale di prosa, simboli inline e struttura dei capoversi."
+    },
+    {
+      "id": "B03-E004",
+      "pagina": "circ:274",
+      "riferimento": "Rubrica C8.7.1.2.1.3 «Definizione dell’oscillatore non lineare equivalente», inclusi numerazione, corsivo e struttura."
+    },
+    {
+      "id": "B03-E005",
+      "pagina": "circ:274",
+      "riferimento": "Capoverso introduttivo della C8.7.1.2.1.3, da «Al fine di valutare la domanda sismica» a «come a(d):», inclusi virgolette e simboli inline."
+    },
+    {
+      "id": "B03-E006",
+      "pagina": "circ:274",
+      "riferimento": "Formula numerata [C8.7.1.3], intera espressione di a con frazione, indici, prodotto e tag."
+    },
+    {
+      "id": "B03-E007",
+      "pagina": "circ:274",
+      "riferimento": "Formula numerata [C8.7.1.4], intera espressione di d con sommatorie, frazione, indici, pedici e tag."
+    },
+    {
+      "id": "B03-E008",
+      "pagina": "circ:274",
+      "riferimento": "Blocco «dove:» successivo a [C8.7.1.4]: definizioni complete di g, FC, δCx ed e*, con tutti i simboli, richiami e capoversi rientrati."
+    },
+    {
+      "id": "B03-E009",
+      "pagina": "circ:274",
+      "riferimento": "Formula numerata [C8.7.1.5], intera definizione di e* con parentesi quadre, sommatorie, esponente, indici e tag."
+    },
+    {
+      "id": "B03-E010",
+      "pagina": "circ:274",
+      "riferimento": "Due capoversi da «La curva di capacità così ottenuta» a «attraverso la equazione [C8.7.1.6]»; controllo integrale di prosa, struttura, simboli inline e richiamo."
+    },
+    {
+      "id": "B03-E011",
+      "pagina": "circ:274",
+      "riferimento": "Formula numerata [C8.7.1.6], intera relazione tra a e d con π, frazione, esponente e tag."
+    },
+    {
+      "id": "B03-E012",
+      "pagina": "circ:274",
+      "riferimento": "Capoverso «Il periodo T0, a sua volta» fino a «con la formula:», inclusi simbolo inline e punteggiatura."
+    },
+    {
+      "id": "B03-E013",
+      "pagina": "circ:274",
+      "riferimento": "Formula numerata [C8.7.1.7], intera espressione di T0 con coefficienti, snellezza, radice, frazione e tag."
+    },
+    {
+      "id": "B03-E014",
+      "pagina": "circ:275",
+      "riferimento": "Blocco «dove:» in prosecuzione di [C8.7.1.7]: definizioni complete di g, κ, L, λ, W ed E, inclusi valore 6,2, valore 2,2, parentesi, unità concettuali e capoversi rientrati."
+    },
+    {
+      "id": "B03-E015",
+      "pagina": "circ:275",
+      "riferimento": "Capoverso da «Questo tratto lineare definisce» a «mediante la trasformazione di variabili (C8.7.1.4) e (C8.7.1.5)», inclusi richiami e simboli inline."
+    },
+    {
+      "id": "B03-E016",
+      "pagina": "circ:275",
+      "riferimento": "Rubrica C8.7.1.2.1.4 «Azioni spettrali da applicare nella verifica dei meccanismi locali», inclusi numerazione, corsivo e struttura."
+    },
+    {
+      "id": "B03-E017",
+      "pagina": "circ:275",
+      "riferimento": "Quattro capoversi della C8.7.1.2.1.4, da «Per la verifica dei meccanismi locali» a «massima amplificazione spettrale»; controllo integrale di prosa, struttura, simboli e richiami [C.7.2.5÷10]."
+    },
+    {
+      "id": "B03-E018",
+      "pagina": "circ:275",
+      "riferimento": "Rubrica C8.7.1.2.1.5 «Verifica dello Stato Limite di Danno del meccanismo locale», inclusi numerazione, corsivo e struttura."
+    },
+    {
+      "id": "B03-E019",
+      "pagina": "circ:275",
+      "riferimento": "Primi due capoversi della C8.7.1.2.1.5, da «Nel caso dei meccanismi locali» a «moltiplicatore di attivazione α0:»; controllo integrale di prosa e simboli inline."
+    },
+    {
+      "id": "B03-E020",
+      "pagina": "circ:275",
+      "riferimento": "Formula numerata [C8.7.1.8], intera definizione di az,SLD con frazione, indici, prodotto e tag."
+    },
+    {
+      "id": "B03-E021",
+      "pagina": "circ:275",
+      "riferimento": "Capoverso da «Nel caso invece di meccanismi locali relativi ad elementi liberi di vibrare» a «approssimata da α0):», inclusi elenco parentetico, ξ=5%, simboli e condizioni espresse in prosa."
+    },
+    {
+      "id": "B03-E022",
+      "pagina": "circ:275",
+      "riferimento": "Formula numerata [C8.7.1.9], intera relazione Sez,SLD(T0) con uguaglianza e approssimazione, frazioni, indici e tag."
+    },
+    {
+      "id": "B03-E023",
+      "pagina": "circ:275",
+      "riferimento": "Capoverso successivo a [C8.7.1.9], da «Per la verifica è, in entrambi i casi» a «struttura oggetto di verifica», inclusi richiami [C7.2.11], [C7.2.5] e simboli inline."
+    },
+    {
+      "id": "B03-E024",
+      "pagina": "circ:275",
+      "riferimento": "Rubrica C8.7.1.2.1.6 «Verifica degli Stati Limite Ultimi di Salvaguardia della Vita (SLV) e di prevenzione del Collasso (SLC)», inclusi numerazione, corsivo, sigle e struttura."
+    },
+    {
+      "id": "B03-E025",
+      "pagina": "circ:275",
+      "riferimento": "Capoverso introduttivo della C8.7.1.2.1.6 e riga «SLV: lo spostamento dSLV corrisponde al minore tra gli spostamenti così definiti:», inclusi grassetto dell’etichetta e simbolo inline."
+    },
+    {
+      "id": "B03-E026",
+      "pagina": "circ:276",
+      "riferimento": "Le due voci dell’elenco SLV in apertura pagina: condizione del 40% di d0 e condizione di rottura/capacità superiore al 50%, controllate integralmente con simboli, percentuali, parentesi ed esempio."
+    },
+    {
+      "id": "B03-E027",
+      "pagina": "circ:276",
+      "riferimento": "Blocco SLC dalla riga «SLC: lo spostamento dSLC» alle due voci dell’elenco: condizione del 60% di d0 e situazioni incompatibili con la stabilità; controllo integrale di etichetta, prosa, simboli, percentuali e struttura."
+    },
+    {
+      "id": "B03-E028",
+      "pagina": "circ:276",
+      "riferimento": "Due capoversi da «Per la verifica si utilizzano» a «non esser adeguatamente rappresentante dalle equazioni che seguono», inclusi SLV, q e struttura dei capoversi."
+    },
+    {
+      "id": "B03-E029",
+      "pagina": "circ:276",
+      "riferimento": "Rubrica C8.7.1.2.1.7 «Verifica semplificata dello SLV con fattore di comportamento q (analisi cinematica lineare)», inclusi numerazione, corsivo e struttura."
+    },
+    {
+      "id": "B03-E030",
+      "pagina": "circ:276",
+      "riferimento": "Quattro capoversi della C8.7.1.2.1.7, da «Questo metodo di verifica può essere utilizzato» a «come definita al §3.2 delle NTC»; controllo integrale di prosa, capoversi, formule inline, q=2 e richiami."
+    },
+    {
+      "id": "B03-E031",
+      "pagina": "circ:276",
+      "riferimento": "Rubrica C8.7.1.2.1.8 «Verifica in spostamento allo SLV e allo SLC (analisi cinematica non lineare)», inclusi numerazione, corsivo e struttura."
+    },
+    {
+      "id": "B03-E032",
+      "pagina": "circ:276",
+      "riferimento": "Capoverso introduttivo della C8.7.1.2.1.8, da «La verifica in spostamento si esegue» a «periodo equivalente caratteristico dei due stati limite:», inclusi a(d), SLV e SLC."
+    },
+    {
+      "id": "B03-E033",
+      "pagina": "circ:276",
+      "riferimento": "Formula numerata [C8.7.1.10], intera definizione di TSLV con coefficiente 1,68π, radice, rapporto dSLV/a(dSLV), indici e tag."
+    },
+    {
+      "id": "B03-E034",
+      "pagina": "circ:276",
+      "riferimento": "Formula numerata [C8.7.1.11], intera definizione di TSLC con coefficiente 1,56π, radice, rapporto dSLC/a(dSLC), indici e tag."
+    },
+    {
+      "id": "B03-E035",
+      "pagina": "circ:276",
+      "riferimento": "Cinque capoversi da «Tali periodi sono opportunamente ridotti» alla chiusa «è possibile riferirsi alle seguenti espressioni per lo SLV:»; controllo integrale di prosa, intervallo [T0, TSLV], rinvii, formule inline, simboli e struttura."
+    },
+    {
+      "id": "B03-E036",
+      "pagina": "circ:277",
+      "riferimento": "Formula numerata [C8.7.1.12], intera espressione di dSLV con Sez(TSLV,ξ,z), fattore TSLV²/4π², disuguaglianza, fattore b²T1²/4π², indici, esponenti e tag."
+    },
+    {
+      "id": "B03-E037",
+      "pagina": "circ:277",
+      "riferimento": "Condizione associata a [C8.7.1.12], stampata a destra della formula: «per TSLV > bT1», inclusi indici e operatore."
+    },
+    {
+      "id": "B03-E038",
+      "pagina": "circ:277",
+      "riferimento": "Tre capoversi da «Dalla espressione [C8.7.1.12]» a «in corrispondenza dei valori ag,SLV e ag,SLC»; controllo integrale di prosa, richiami, simboli, percentuali e struttura."
+    },
+    {
+      "id": "B03-E039",
+      "pagina": "circ:277",
+      "riferimento": "Rubrica C8.7.1.2.1.9 «Verifica con analisi dinamica non lineare dello SLV e SLC», inclusi numerazione, corsivo, sigle e struttura."
+    },
+    {
+      "id": "B03-E040",
+      "pagina": "circ:277",
+      "riferimento": "Primi cinque capoversi della C8.7.1.2.1.9, da «La verifica con analisi dinamica non lineare» a «questi possono essere modellati considerando diversi contributi:»; controllo integrale di prosa, capoversi, richiami e simboli."
+    },
+    {
+      "id": "B03-E041",
+      "pagina": "circ:277",
+      "riferimento": "Elenco numerato dei tre contributi dissipativi (coefficienti di restituzione, dissipazione viscosa equivalente, plasticizzazioni/meccanismi attritivi), controllato integralmente nelle tre voci e nella loro struttura."
+    },
+    {
+      "id": "B03-E042",
+      "pagina": "circ:277",
+      "riferimento": "Ultimi due capoversi della C8.7.1.2.1.9, da «La verifica con analisi dinamica non lineare consente anche» a «così come definita al § C8.7.1.2.1.6»; controllo integrale di prosa, simboli e riferimenti."
+    },
+    {
+      "id": "B03-E043",
+      "pagina": "circ:277",
+      "riferimento": "Rubrica C8.7.1.3 «MECCANISMI GLOBALI METODI DI ANALISI DELLA RISPOSTA SISMICA E CRITERI DI VERIFICA», inclusi maiuscoletto reso in maiuscolo, numerazione e struttura."
+    },
+    {
+      "id": "B03-E044",
+      "pagina": "circ:277",
+      "riferimento": "Rubrica C8.7.1.3.1 «Edifici singoli», inclusi numerazione, grassetto e struttura su riga propria."
+    },
+    {
+      "id": "B03-E045",
+      "pagina": "circ:278",
+      "riferimento": "Primi tre capoversi della C8.7.1.3.1, da «L’analisi globale della risposta sismica» a «diverse ipotesi nel campo di variabilità dei parametri in gioco»; controllo integrale di prosa, virgolette, parentesi ed esempi."
+    },
+    {
+      "id": "B03-E046",
+      "pagina": "circ:278",
+      "riferimento": "Tre capoversi da «La verifica della risposta globale» a «devono essere verificati a posteriori»; controllo integrale di prosa, SLV, q, rinvii e struttura."
+    },
+    {
+      "id": "B03-E047",
+      "pagina": "circ:278",
+      "riferimento": "Tre capoversi sui diaframmi, da «Nel caso i diaframmi orizzontali siano di rigidezza trascurabile» a «pesato con le corrispondenti masse sismiche»; controllo integrale di prosa, richiami, gruppi, simboli e struttura."
+    },
+    {
+      "id": "B03-E048",
+      "pagina": "circ:278",
+      "riferimento": "Capoverso «Nella modellazione globale eventuali porzioni di muratura» e le due condizioni in elenco puntato fino a «elemento accoppiato resistente a trazione»; controllo integrale di prosa, parentesi e struttura dell’elenco."
+    },
+    {
+      "id": "B03-E049",
+      "pagina": "circ:278",
+      "riferimento": "Due capoversi da «Per le verifiche di sicurezza nei riguardi del comportamento sismico globale» a «nei modi appresso indicati:»; controllo integrale di prosa, riferimenti e struttura."
+    },
+    {
+      "id": "B03-E050",
+      "pagina": "circ:278",
+      "riferimento": "Blocco SLC, dalla riga definitoria «SLC: per la definizione della bilineare equivalente» alle due condizioni in elenco; controllo integrale di etichetta in grassetto, prosa, 80%, rinvio § C.7.3.4.2, parentesi e struttura."
+    },
+    {
+      "id": "B03-E051",
+      "pagina": "circ:278",
+      "riferimento": "Riga definitoria SLV: «lo spostamento ultimo a SLV ... è pari a ¾ dello spostamento a SLC», inclusi etichetta in grassetto, frazione e struttura."
+    },
+    {
+      "id": "B03-E052",
+      "pagina": "circ:278",
+      "riferimento": "Blocco SLD, dalla riga «SLD: lo spostamento corrispondente» alle due condizioni in elenco; controllo integrale di etichetta in grassetto, prosa, frazione 3/4, parentesi e struttura."
+    },
+    {
+      "id": "B03-E053",
+      "pagina": "circ:278",
+      "riferimento": "Riga definitoria finale del perimetro: «SLO: lo spostamento corrispondente è pari a 2/3 di quello allo SLD», inclusi etichetta in grassetto, frazione e punteggiatura."
+    }
+  ],
+  "esclusioni": [
+    {
+      "pagina": "circ:274",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, filetto, numero pagina 270 e riquadri tipografici nel margine inferiore: apparato editoriale esterno al perimetro normativo."
+    },
+    {
+      "pagina": "circ:275",
+      "riferimento": "Numero pagina 271 e riquadri tipografici nel margine inferiore: apparato editoriale esterno al perimetro normativo."
+    },
+    {
+      "pagina": "circ:276",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, filetto, numero pagina 272 e riquadri tipografici nel margine inferiore: apparato editoriale esterno al perimetro normativo."
+    },
+    {
+      "pagina": "circ:277",
+      "riferimento": "Numero pagina 273 e riquadri tipografici nel margine inferiore: apparato editoriale esterno al perimetro normativo."
+    },
+    {
+      "pagina": "circ:278",
+      "riferimento": "Testatina editoriale della Gazzetta Ufficiale, filetto, numero pagina 274 e riquadri tipografici nel margine inferiore: apparato editoriale esterno al perimetro normativo."
+    }
+  ],
+  "dubbi": []
+}

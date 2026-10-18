@@ -1,0 +1,87 @@
+[
+ {
+  "blocco": "b01",
+  "id": "C-RUB-002",
+  "pagina_posizione": "circ:271, rubrica C8.7.1.1 e primo capoverso successivo; resa-finale.pdf p. 3",
+  "prova": "La fonte compone la rubrica su riga propria e avvia «Per la verifica delle pareti murarie» sulla riga seguente. testo.md, righe 90-92, conserva due blocchi separati; la resa PDF p. 3 colloca invece l’inizio di C-PRO-017 sulla stessa riga della rubrica. La trasformazione non è nel catalogo. Confronto visivo: fonte-circ-271.png e resa-finale.pdf p. 3; ritagli di lavoro prova-rubriche-fonte-circ271-native-200.png e prova-rubriche-target-p3-180.png.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b01",
+  "id": "C-RUB-003",
+  "pagina_posizione": "circ:271, rubrica C8.7.1.2 e primo capoverso successivo; resa-finale.pdf p. 3",
+  "prova": "La fonte pone la rubrica su riga propria e inizia «Negli edifici in muratura» sotto di essa. testo.md, righe 94-96, separa correttamente i blocchi; la resa PDF p. 3 rende invece C-PRO-018 in continuità sulla stessa riga della rubrica, dopo il titolo spezzato. Nessuna normalizzazione ammette l’unione.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b01",
+  "id": "C-RUB-004",
+  "pagina_posizione": "circ:271, rubrica C8.7.1.2.1 e capoverso finale del perimetro; resa-finale.pdf p. 4",
+  "prova": "La fonte compone la rubrica su riga propria e il capoverso «In generale, ogni meccanismo locale» sotto di essa. testo.md, righe 106-108, conserva due blocchi; la resa PDF p. 4 pone C-PRO-023 sulla stessa riga della rubrica. Confronto visivo: fonte-circ-271.png e resa-finale.pdf p. 4; ritaglio di lavoro prova-rubrica-C-RUB-004-target-p4-180.png.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b03",
+  "id": "B03-E044",
+  "pagina": "circ:277/circ:278",
+  "posizione": "Rubrica C8.7.1.3.1 «Edifici singoli» e avvio del primo capoverso.",
+  "prova": "La fonte colloca la rubrica su una riga propria al fondo di circ:277 e fa iniziare «L’analisi globale della risposta sismica» come capoverso autonomo in circ:278. In testo.md:195 la rubrica è marcata come intestazione di quinto livello; nella resa canonica resa-finale.pdf, p. 11, il primo capoverso è invece composto sulla stessa riga della rubrica. La resa non conserva la separazione strutturale stampata.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C279-HD-01",
+  "pagina": "circ:279",
+  "posizione": "Rubrica C8.7.1.3.1.1 Pareti murarie; testo.md riga 5, resa-finale.pdf pagina 13.",
+  "prova": "La fonte stampa l'intera rubrica in grassetto corsivo; nella resa canonica del target la rubrica è in tondo non grassetto. La differenza non è compresa nelle normalizzazioni dichiarate.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C281-HD-01",
+  "pagina": "circ:281",
+  "posizione": "Rubrica C8.7.1.3.1.2 Solai e coperture; testo.md riga 134, resa-finale.pdf pagina 16.",
+  "prova": "La fonte stampa l'intera rubrica in grassetto corsivo; nella resa canonica del target la rubrica è in tondo non grassetto. La differenza non è compresa nelle normalizzazioni dichiarate.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C281-HD-02",
+  "pagina": "circ:281",
+  "posizione": "Rubrica C8.7.1.3.2 Edifici in aggregato; testo.md riga 140, resa-finale.pdf pagina 16.",
+  "prova": "Nella fonte la rubrica occupa una riga propria e il capoverso inizia sotto; nella resa canonica del target la rubrica è run-in e il capoverso «Un aggregato edilizio» prosegue sulla stessa riga.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C282-HD-01",
+  "pagina": "circ:282",
+  "posizione": "Rubrica C8.7.1.3.3 Edifici semplici; testo.md riga 181, resa-finale.pdf pagina 17.",
+  "prova": "Nella fonte la rubrica occupa una riga propria e il capoverso inizia sotto; nella resa canonica del target la rubrica è run-in e il capoverso «Sulle costruzioni esistenti» prosegue sulla stessa riga.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C283-HD-01",
+  "pagina": "circ:283",
+  "posizione": "Rubrica C8.7.1.4 ELEMENTI STRUTTURALI IN LEGNO; testo.md riga 199, resa-finale.pdf pagina 18.",
+  "prova": "Nella fonte la rubrica occupa una riga propria e il primo capoverso inizia sotto; nella resa canonica del target la rubrica è run-in e il capoverso «I collegamenti» prosegue sulla stessa riga.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C281-PR-07",
+  "pagina": "circ:281",
+  "posizione": "Richiamo della nota 4 dopo la prima occorrenza di «edifici»; testo.md riga 142, resa-finale.pdf pagina 16.",
+  "prova": "La fonte usa il solo numero 4 in apice; il target stampa [4] sulla linea di base. Apice e forma del richiamo non sono conservati e nessuna normalizzazione autorizza la sostituzione.",
+  "classe_proposta": "ERR-MD"
+ },
+ {
+  "blocco": "b04",
+  "id": "B04-C281-NT-01",
+  "pagina": "circ:281",
+  "posizione": "Nota 4; testo.md riga 144, resa-finale.pdf pagina 16.",
+  "prova": "La fonte colloca la nota a piè di pagina sotto una linea di separazione e la apre con il richiamo 4 in apice; il target la rende come capoverso ordinario immediatamente dopo il testo, aggiungendo l'etichetta in grassetto «Nota 4.» e omettendo la struttura di piè di pagina.",
+  "classe_proposta": "ERR-MD"
+ }
+]

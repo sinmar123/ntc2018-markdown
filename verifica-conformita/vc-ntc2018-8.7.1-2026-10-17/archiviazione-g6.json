@@ -1,0 +1,24 @@
+{
+  "firma": "CDX",
+  "scope": "8.7.1",
+  "data": "2026-10-17",
+  "pacchetto_originale_locale": "%LOCALAPPDATA%\\Temp\\ntc2018-g6-8.7.1-261017-cdx-v2",
+  "coordinamento_originale_sha256": "40e0dc5ed84aa44df5b5450dde293a9c47f9b68a1734f55040b07444008cf801",
+  "coordinamento_pubblico_redatto": {
+    "file": "g6/coordinamento-pubblico.json",
+    "sha256": "79cdfd030018edd056b20f58b6004a47334b22ddc478412a91da7a5406214f71"
+  },
+  "inventario_b01_originale_sha256": "50bde0633444ca55754cb8a6b03e9a0195e24080fb9a6cf383826d9fe6488986",
+  "inventario_b01_pubblico_redatto": {
+    "file": "g6/b01/inventario-pubblico.json",
+    "sha256": "6ede168ebe34d9eeb9314ad5fdce467e1bcdb179c99a9b5ccc336b87180f8e6e"
+  },
+  "originali_non_pubblicati": [
+    "g6/coordinamento.json",
+    "g6/b01/inventario.json",
+    "g6/tentativo-mappa-1/"
+  ],
+  "motivo": "Gli originali restano nel dossier locale e sono esclusi dalla pubblicazione perché contengono percorsi locali personali. Le copie pubbliche differiscono soltanto per la redazione dei percorsi. Impronte e cronologia preservano la tracciabilità.",
+  "binari": "PNG, PDF, SVG e altri binari di prova restano locali secondo .gitignore; le loro impronte sono conservate nei manifest locali e nei file prove-aggiuntive-sha256.json.",
+  "validazione": "I quattro rapporti originali sono stati validati con vc-supporto.py valida-g6 prima della redazione; schema e copertura erano OK."
+}

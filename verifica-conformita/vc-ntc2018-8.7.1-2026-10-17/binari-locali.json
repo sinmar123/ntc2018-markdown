@@ -1,0 +1,884 @@
+{
+    "firma":  "CDX",
+    "data":  "2026-10-17",
+    "criterio":  "PNG, PDF e campione-gbot.zip usati o conservati come prove locali; non pubblicati",
+    "numero_file":  146,
+    "file":  [
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/campione-gbot.zip",
+                     "sha256":  "20944034d32a4770387996b503175ab12a77cd15aa38f5f4f414217ca3dfecb1",
+                     "bytes":  2789303,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p270-200dpi.png",
+                     "sha256":  "a2cf890e86435de2f9869852516e7ba786ebc17e723d4981333604c30e62ba76",
+                     "bytes":  672309,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p271-200dpi.png",
+                     "sha256":  "b3dd8e08927c6dd385b5c7ba18bde318e77a0660e020d1df7bed27afab478ff4",
+                     "bytes":  655707,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p272-200dpi.png",
+                     "sha256":  "0cdca9530d7fcbaf4b322dea7a2317ede57b766075a5ddff3b6eab6de4686127",
+                     "bytes":  688557,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p273-200dpi.png",
+                     "sha256":  "77c8b2e2b23919c31d872e4f7919dd93ae69e803a7d9eb6c57651dc20dc60295",
+                     "bytes":  593231,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p274-200dpi.png",
+                     "sha256":  "2b55c43ae32a5d4b23cc2add9271a601fb40d550446fc1e9b625868c5d3fdcb9",
+                     "bytes":  599329,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p275-200dpi.png",
+                     "sha256":  "86aaac2efc9979e68ecd27df95ffb7fde417757fe4c528937d1cc8043d7ad133",
+                     "bytes":  647334,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p276-200dpi.png",
+                     "sha256":  "052564d72e14166e45e2ee013ee8dd79bd32a9a3398c501261b1aca607bd8a14",
+                     "bytes":  652165,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p277-200dpi.png",
+                     "sha256":  "dc71815461b52602f70417217d573add892e3eceabea23543de581a4443d1db9",
+                     "bytes":  651189,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p278-200dpi.png",
+                     "sha256":  "9aaca8882317babfded8c0743b31956fc78ce6e738de0ee38759c4d24e830a90",
+                     "bytes":  717940,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p279-200dpi.png",
+                     "sha256":  "220f347d0b83eaa191c34fc7d38cd81d61baeace09e136a6f34d6730aacadccf",
+                     "bytes":  586954,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p280-200dpi.png",
+                     "sha256":  "c7a4ac1a6ddef601ea4a66c30fd69389c129bf7fbfa39642d5c5a4105fd7c99c",
+                     "bytes":  666935,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p281-200dpi.png",
+                     "sha256":  "ff814deb4ffd4f5af686da1cd48aab502c67d8cd4e7a65302a83c7aadf8a98b7",
+                     "bytes":  856444,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p282-200dpi.png",
+                     "sha256":  "6ca4203dfecb649db6ef62825cb03cc8685d5a192bbac6eabae071df9f1072be",
+                     "bytes":  686003,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p283-200dpi.png",
+                     "sha256":  "0973858f1c24c8b46ba90830746ab72fb1eea9645c53c702e724fd077c09c5b7",
+                     "bytes":  634758,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/circ-p284-200dpi.png",
+                     "sha256":  "c988fa768fe92bad18d68240add8467ef8e9f87c9a4da1f27c471207680e24c8",
+                     "bytes":  645555,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/ntc-p297-200dpi.png",
+                     "sha256":  "68e56b16f803102a219bbcf4b32c36012b269ace2beac3e209360285b1f43a46",
+                     "bytes":  608541,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/fonte/ntc-p298-200dpi.png",
+                     "sha256":  "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1",
+                     "bytes":  662464,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/a0.png",
+                     "sha256":  "e456724927879ed85136c509702de1814ef571373187d4e4b65584232441ef37",
+                     "bytes":  7488,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/a0z.png",
+                     "sha256":  "1f35a94d8ee51aba0c84bd9a1499d3853ba0161efc26c4ea2a5fd531101d4533",
+                     "bytes":  15355,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/dove2.png",
+                     "sha256":  "f7514149302dda273a6ba045657b350ea4df49716f7050f752ddcdd05b642e08",
+                     "bytes":  26993,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/f111.png",
+                     "sha256":  "bb8c615df73b07c8801100fef2d485ee0faa859d0db903f4113ae1596d2a4470",
+                     "bytes":  11180,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/f112.png",
+                     "sha256":  "68911a2140830b35f8784efdb3773148108391d68572525749cdc0d6059f34ea",
+                     "bytes":  6630,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/f112z.png",
+                     "sha256":  "7d7fbc78cb1c153d6ee1965b084bb264c714fb277c854dc2a29fcd1d4296a8aa",
+                     "bytes":  9840,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/fband.png",
+                     "sha256":  "15c9601669198ca7df984dcce22490a698fbd62a095ddf6218bc9d4bbbfc7666",
+                     "bytes":  8002,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/lapo.png",
+                     "sha256":  "a451847ee1c1f7ff2bcc929b332ff4845b3d285586b4c7f3e628667b9eba21a8",
+                     "bytes":  39463,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/ntc-end.png",
+                     "sha256":  "26da4ec5a8fc724a4582e63e3c739350e632b08e599389d214aa1911dacac7a1",
+                     "bytes":  32411,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/ntc-start.png",
+                     "sha256":  "a65230adad3719fc62101db0bb789c8461f20aa32a93965dd303d3cfa0fca8d2",
+                     "bytes":  29179,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/phi.png",
+                     "sha256":  "3a76652778a9d5fdec4f6f0fa1bb4af00a01c454b800023b37553b104ea25bc7",
+                     "bytes":  38759,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/q6.png",
+                     "sha256":  "ddf14cf32f2086a2cca8e04f88885f925e679e12887372273a3ef6ed282c23bd",
+                     "bytes":  23905,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/q6z.png",
+                     "sha256":  "788de8bb6d8039e19a75ab259fdd5f93928a98020bff979b39f422b468edafe6",
+                     "bytes":  9968,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/qband.png",
+                     "sha256":  "eef97b921a7b4f79f304e2b06063c9409daabfc7d514fc2d6ae4168eb2e5c6d9",
+                     "bytes":  10450,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/tsband.png",
+                     "sha256":  "89ad10331436f2662de181e0e53df47e26a8de52e226ac57060a73490ec08c5a",
+                     "bytes":  6061,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-A/tsz.png",
+                     "sha256":  "4173678ce086361320c5b89123e1a1d79a80e9abe3d4122600a9dac6f8c66511",
+                     "bytes":  22880,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/a0base.png",
+                     "sha256":  "98c89f29dede1aa0a7b5303d6b08c2f91ef3f94a6366a9a5c35323515307b0fa",
+                     "bytes":  50808,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/agcomma.png",
+                     "sha256":  "bbe33ee6156a18510d370ea24049a7c82b591afe35c1e9ec6300e96f1ee42414",
+                     "bytes":  122999,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/alfacolon.png",
+                     "sha256":  "fe31362afa93ba881f16c2651f592fd910dd7be3a7c322a01be83cb1e8b3241a",
+                     "bytes":  57658,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/az.png",
+                     "sha256":  "765131df7b8c06bb1903b8dccbc4efb212c2206bf69a8e74d34d8ae7d0302f35",
+                     "bytes":  297044,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/dove-lambda.png",
+                     "sha256":  "2bf372ec5cf1df6ed7d394122f9b62e23f4c282f385b89f146b59c3409468555",
+                     "bytes":  36245,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/doveH.png",
+                     "sha256":  "50b3fd139d4e17b8b63bf74a2e93ba12637700b83b6dafa17e4f6d7837aa0e9b",
+                     "bytes":  88312,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/doveL.png",
+                     "sha256":  "01e346f24b25ed0cc857c87b4c327911eb30e97bdd6721a07d352ee168d9b1be",
+                     "bytes":  88069,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f10f11.png",
+                     "sha256":  "54b6449e5c1e1f0f24c9a3be4c64f23d9721ba047eed602ff69703f619a25793",
+                     "bytes":  245178,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f12.png",
+                     "sha256":  "4254f0306676b093b86865768f2bbaccb3dedbabfd50fc613029ebcc95ff166c",
+                     "bytes":  139639,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f3-dc.png",
+                     "sha256":  "b30733f58a90a7f9da74a947f70bbe6c9b747e1cf71ddaeb2e78caffb223331c",
+                     "bytes":  43877,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f4-den-sub.png",
+                     "sha256":  "ec759e326490687de904c281697f7b2170b03a6551427c4e3ceaeb68f5b14dd0",
+                     "bytes":  22506,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f4-num-sub.png",
+                     "sha256":  "2ae469cc80243780cbd551655f300200657c0f4f8dc17fe40e25592796bb1df6",
+                     "bytes":  36304,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f4-Pk.png",
+                     "sha256":  "efc83b76c519670ac66689eb8622d32cb52c2a4dbfe8c67bf0badf71636b5c7e",
+                     "bytes":  34201,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f5-sub.png",
+                     "sha256":  "7bdd24156f9105ce35bf4dc36bca7e4e8be5a00037b17da2c83c0d73f1051fce",
+                     "bytes":  74205,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f6-real.png",
+                     "sha256":  "6e918a639790a6cec8dee80493b7b57e6c363668d95e1401ee14085e941126b8",
+                     "bytes":  146271,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f7-real.png",
+                     "sha256":  "ca2ff0e0ef7d68c103a60bb1aea5a0f33ff3f2405ac55944cb85ff7ec82db698",
+                     "bytes":  60310,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f7sym.png",
+                     "sha256":  "e5e8426fe65bd0c2d15c557af6ad3970e94879ab97699e544a82dcb944815ddf",
+                     "bytes":  177316,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/f8f9.png",
+                     "sha256":  "13630e9f528a6ad3c73b877fc5b5b80ac1be37ef23af0dd2087eb471e08ed24a",
+                     "bytes":  711484,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/lc1.png",
+                     "sha256":  "83118ed06641953f83eacb8c3844db9bdcf0b50db5e925344cdb37baab5e5c6e",
+                     "bytes":  38930,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/lc1end.png",
+                     "sha256":  "dfb40955f324cc3d1fb592e41baebadcba93accacfd7a80019ed94252480c52d",
+                     "bytes":  17849,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-ad-f6.png",
+                     "sha256":  "512d1324bd5e7be143e1f5ce089800bd070d71eeaf4d4888f763a5b8d495248b",
+                     "bytes":  93782,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-alfa-d.png",
+                     "sha256":  "14cf2a9fe5964e69742a84ae3f80913df2deaa087b06cca18c314fa786327b70",
+                     "bytes":  109737,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-dove-delta.png",
+                     "sha256":  "515e8f4430486d0ac31f1185a85f7c6e80dd58cf4b95d146a47002832a9afe27",
+                     "bytes":  208564,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-f3.png",
+                     "sha256":  "bac6201c5387c736345e56eaa7ab0a3c4d14ce0e8e55b861a8fcdf63d9e01966",
+                     "bytes":  36874,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-f4.png",
+                     "sha256":  "2a40f0427d702fc7707c3d7079188c702dff27ecd8a534f678e7cab5989c9c46",
+                     "bytes":  43561,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-f5.png",
+                     "sha256":  "a3b7c784836d03b3b429e664a6ee11a9291d5a7dc29404dadf99a1de49fbaa2a",
+                     "bytes":  76264,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-f7.png",
+                     "sha256":  "cf20a7a081f2cc2ea9dcb64fd059f4f8b727a606de29a0e9d708a98e989e2c77",
+                     "bytes":  33628,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p274-rubrica-212.png",
+                     "sha256":  "2b988007257a24e49b71bbc080843629b026d5b03243f5bbc700c2b04af6a063",
+                     "bytes":  58899,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p275-az.png",
+                     "sha256":  "ba8b49886b6372e06aa6149734e5e0c5b51c37d85a152c35645e6b66403eb81f",
+                     "bytes":  103350,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p275-dove-k.png",
+                     "sha256":  "f827dddc35f3a388da65926c7c293fdfce0bda37b04fb9ae8793cc60f0f39e8d",
+                     "bytes":  184617,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p275-f8.png",
+                     "sha256":  "0fce8dbf97f53091a99bde65296c3154b9461058542ad1447f92a0426ccbb83f",
+                     "bytes":  66132,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p275-f9.png",
+                     "sha256":  "3b8fd2d35a533a82dabcc17f497f9785342b4548322d4dc7c5b4ab95d44bdaf9",
+                     "bytes":  102956,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p276-alfa0.png",
+                     "sha256":  "b1c3cc11a5c8c68c668299ac2746f011bd2c77e3c9f1c8699d1745266fb0d3a3",
+                     "bytes":  99514,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p276-elenchi.png",
+                     "sha256":  "7f54ce868cf4c65536c3a5b6827463175014b79d4ba5ca9e3485585b71e156f9",
+                     "bytes":  402763,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p276-f10-11.png",
+                     "sha256":  "255b631a6f4c632d9f5109ad0b6b392cef0717e3d67e98ac5213c83052ad4e2b",
+                     "bytes":  92885,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p276-T2.png",
+                     "sha256":  "948f1bf2d7fd180cb3ad8bc1bb3025d92c9241dc22206bbf42535fe1a360f9bc",
+                     "bytes":  245939,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p277-ag.png",
+                     "sha256":  "f7ba3db7e2ec5c7637ee1436fdfcef6ad629529f9c3d776d0256494783cefd62",
+                     "bytes":  299162,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p277-f12.png",
+                     "sha256":  "318de7c809cc079fbcb427a1acb8f6188da5726fa17a69fc4d07cd5fe0112e14",
+                     "bytes":  132394,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p277-rubrica-3.png",
+                     "sha256":  "9ba8c09244b3f62adbea236d2f847f9b63dc9fcbe6c24e250a3032fe74fa97b5",
+                     "bytes":  46689,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p277-virgola.png",
+                     "sha256":  "79b83c5873f44dcb01618a24a4674aabdd7d743c3400f5bad9fbc04c2450aea7",
+                     "bytes":  90559,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p278-sl.png",
+                     "sha256":  "b159730fd253608f0db12170577b0a29fd73d72938b0dbff5d1095ea49525c8e",
+                     "bytes":  366930,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/p279-q.png",
+                     "sha256":  "0509eff2fcf3ef545c149dd246b284902c3fe63a0022ecb189fe6e39caf762cc",
+                     "bytes":  239465,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/qstar.png",
+                     "sha256":  "21d0579114f902357eee7d44e301fe64f271198792a0262ac5323b1d72552b29",
+                     "bytes":  288316,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/qstar2.png",
+                     "sha256":  "be94b66610993aa9d16d2c84c88d43be194465185f2d3fa25d4781cdf0968d75",
+                     "bytes":  202935,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/qsym.png",
+                     "sha256":  "3a862eb860c930f67200489829268f804be4820489decb3549f0a5b9d8ab23e3",
+                     "bytes":  30768,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/rub212.png",
+                     "sha256":  "86d20a943d2c7487a8e06379cbfd3864813edc9ef1989c20c133aa0933619c61",
+                     "bytes":  31849,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/rub3.png",
+                     "sha256":  "c311bf6e598988c3ab115bf182cd87359c8c838ff0004cd72a5cb7a7b0b8249a",
+                     "bytes":  26681,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-B/t2pi.png",
+                     "sha256":  "5e407a6d9ebb4edd40af71056af47c10ee1c06fecc11a8f90c16d3e30ce38e2a",
+                     "bytes":  394256,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/den14.png",
+                     "sha256":  "a9e7444da7b70a734067f8f60896ab9eacb7ad6c192924dd29982b6ccc9ffaa2",
+                     "bytes":  2185,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/f16a.png",
+                     "sha256":  "76148f30215ddd18ee086221fdffdd9cd6eba70d6c64996a23bef502d822b0e1",
+                     "bytes":  12171,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/f16b.png",
+                     "sha256":  "dd8d95769830680cb018f8d0b0cff5ba446635126d5b632b061c6c50aa2a158c",
+                     "bytes":  5258,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-192-438.png",
+                     "sha256":  "d321d1375b931f3c1a2925eb9d034528795cf057191c262989590098c3243056",
+                     "bytes":  414,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-204-436.png",
+                     "sha256":  "b926e58e6881870430c7facf9943eb2c622f04dbc7f552987c811f29908fe796",
+                     "bytes":  268,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-241-447.png",
+                     "sha256":  "a20c45d56e4106006876b5e276003f22a113aab25a0d890355b4b98e0a3c73f6",
+                     "bytes":  259,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-256-544.png",
+                     "sha256":  "02af306190c343f8819e54452d43d6ed21a76472efb92131ce45f3db62272e9c",
+                     "bytes":  156,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-264-555.png",
+                     "sha256":  "3ed79183d663cf9e81837886b9f7ccfeaa237fb00966305e10bbe10ef9bfd2e7",
+                     "bytes":  135,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-268-438.png",
+                     "sha256":  "340d69f6a7b1e1a68f8528fc392ef25782500829d31623110c0f3562f728f21b",
+                     "bytes":  398,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-306-537.png",
+                     "sha256":  "0b12aab9da474711827b10896f2695956d34fe07102241dae56b205d669fd14b",
+                     "bytes":  466,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/ink-384-590.png",
+                     "sha256":  "c1ca6639054c034029cf197b4446d62be9e98920a12654885bd07e5584c9ebd0",
+                     "bytes":  410,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-0.png",
+                     "sha256":  "f8b7dbb8c2ef338c270ab9ef1dd8b648729a34421754a4b1ccfa804581491a95",
+                     "bytes":  16871,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-1.png",
+                     "sha256":  "81f7eb347598bfb4f102ee113868aec76a4ae310701c925f8583dfcb309e4f63",
+                     "bytes":  17443,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-2.png",
+                     "sha256":  "5be7b8a4fc3bb1195dbcb987cc6ceaad4de0aaedbb0a17ac06bc2cce0e98be8a",
+                     "bytes":  26052,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-3.png",
+                     "sha256":  "11dbb6432810d4dbb7135d5a2188178bf9cf1b4a379485c2a42ec007db503556",
+                     "bytes":  24341,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-4.png",
+                     "sha256":  "4c25e22a9ccb57647af6c4b03270db5af9cf29075c65ff7001add78dab658f90",
+                     "bytes":  23181,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-5.png",
+                     "sha256":  "30126d1fff77429f11eaca7c531ee2e8851bcf55322e7b04aecb24a06afab7b3",
+                     "bytes":  22887,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-6.png",
+                     "sha256":  "80f22ee78a9c8536307d312da938d14a28e68cd97f1a998c3676d63ba8faece0",
+                     "bytes":  22637,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/n281-7.png",
+                     "sha256":  "8d591c70583b151560cb8b8ef25853d509fddc22ceec340748a9c710aa182084",
+                     "bytes":  16834,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/num14.png",
+                     "sha256":  "35febebef0c37c2cd57f9feb1787a3e7c1799d30a6baf1a9137e9f11fdffe4b9",
+                     "bytes":  4923,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p279-005.png",
+                     "sha256":  "1802f82bf3f6d660bc1954b9ca6640368db264c46c218e98d7843be9388ef59b",
+                     "bytes":  41029,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p279-f13.png",
+                     "sha256":  "d92e374ceae5bc453b7df10c5280e254acdfe76659ce8041fbe9f117abd927f0",
+                     "bytes":  24745,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p279-f14.png",
+                     "sha256":  "e6774b7fbf9aaa4301fd0c7a684f99274833523306c7f51039cbafbf3ca98a51",
+                     "bytes":  9129,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p279-grassetti.png",
+                     "sha256":  "07e6e6d09994e70b78869940729ea9030580ecb723799929d63642a2c9c70e6c",
+                     "bytes":  61377,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p279-rubrica.png",
+                     "sha256":  "99a7eb8b7cc2b1cc825ec5f91f939d46cccc9e1fa6f3fb88e85fc4a40a1db4af",
+                     "bytes":  15457,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p280-bold.png",
+                     "sha256":  "ce095842b7dd2522cd1005e9921e1285df9f3001e79378fc2979c4614bda4da0",
+                     "bytes":  135675,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p280-dove.png",
+                     "sha256":  "2fb259c001da7937f606271dba9be604a8e0c271f5767d60fde41cef10d8f653",
+                     "bytes":  136877,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p280-f15.png",
+                     "sha256":  "5ea86b8da0e4151ea38208c6fc46660c3cc6a9633876783c0ace9aeb63dc6457",
+                     "bytes":  27454,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p280-f16.png",
+                     "sha256":  "c11232d5aaa1ccda1701e28a974ccf84559638fa07739bd3522ef4ebbef58b3e",
+                     "bytes":  14348,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-banda-0.png",
+                     "sha256":  "306c949bfce3b2144bf687ce87dea32e87382f8dab2ca51b48d11f1cda88cbb0",
+                     "bytes":  60888,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-banda-1.png",
+                     "sha256":  "ceb8c1332afd9587b2220ab7dd8b247e19aa5a99071ae058df0bcecd3193a07d",
+                     "bytes":  203276,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-banda-2.png",
+                     "sha256":  "e3420b06180c34995f7c3e472445bac171c25228f72e6dc1440dc93b0ff8ac47",
+                     "bytes":  232374,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-banda-3.png",
+                     "sha256":  "bd53ec94374e61ff17366f3bdc882e9a729859aadcf4272822ab6474b779ab8b",
+                     "bytes":  239089,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-banda-4.png",
+                     "sha256":  "920ae128b177e2cc95db01a6e1d9ce1259aec5b00248ec53baf5473014b1b506",
+                     "bytes":  193271,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-banda-5.png",
+                     "sha256":  "6a78956c17871852a56f15eaaaa235bfe785bda1e36bf21e4a7b9c253d3852db",
+                     "bytes":  189469,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/p281-nativo.png",
+                     "sha256":  "d860503c1a902573839c9451c86db2d4b884fc058ea1cc75e547b5807397d406",
+                     "bytes":  174989,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-005.png",
+                     "sha256":  "5b5a3378a22f95bd6925ab69b535c88eda60943ca78225855c903fcab68291bc",
+                     "bytes":  6833,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-15.png",
+                     "sha256":  "8520f284ea277584504cec7aeae0978b92eba8ddf4404a10587e5e8554544f66",
+                     "bytes":  20654,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-f13.png",
+                     "sha256":  "3d19b376d43b0c87523311078b8fc47aa9b19e704a0c445c1cb8ed13a53ffc0f",
+                     "bytes":  23846,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-f14.png",
+                     "sha256":  "87b27c562df4a459d31dfd22ce7d4e404f101205add42756af8292ccec44d8c8",
+                     "bytes":  10604,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-f15.png",
+                     "sha256":  "45ab164186e87588563bd8f47f2a5adbdae80e302555e6187b5cbba1ed7635cb",
+                     "bytes":  25911,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-f16.png",
+                     "sha256":  "8bb9c5cb484def88ca6f42647da4d7b971dd6bb8a63795cc68440fa93e99a31a",
+                     "bytes":  18525,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-fasce.png",
+                     "sha256":  "7908c5830c6de36f2f9b5747d9e9f7fea082f04629bd38883dd90a089162323b",
+                     "bytes":  19418,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-irregolare.png",
+                     "sha256":  "c31433bfe76b068a082f7066ac5b491dbffb471b3329693a33a2245a6edbc7f0",
+                     "bytes":  15636,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-nei-maschi.png",
+                     "sha256":  "1f769b8dad525b3d8dd96c5b7d26fe891c85f1d86228d761e05f4b01a5e90ff0",
+                     "bytes":  13712,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-presso.png",
+                     "sha256":  "a79382d31e3aca9d72644b59d6ae74020f5363bc8c7c891b907258faaec7378d",
+                     "bytes":  23071,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-rubrica.png",
+                     "sha256":  "9f33e13c41f2b288e153fe7b360965aa4674c440edd34b45241ce4a607840082",
+                     "bytes":  9067,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-slc.png",
+                     "sha256":  "539ce43c99dd95c2eb711e6d7cf46369ac90025d8a7dbe94a0da623f05e84e4d",
+                     "bytes":  13742,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/r600-taglio-bold.png",
+                     "sha256":  "4b029a0113bed115ad362374fd0bb28c48756a9bd53bdf5403162223e2f76fa9",
+                     "bytes":  20847,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/tight-002.png",
+                     "sha256":  "a05492de7217a9fad320ab8152f77d998e2ae062d4ae0b7ec8ffc683356596a8",
+                     "bytes":  7655,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/tight-f14.png",
+                     "sha256":  "926248292d51aa12eec61047b1ac9e6f3fc8928397ef0076ac3dd76c69b11c65",
+                     "bytes":  5645,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/tight-f16.png",
+                     "sha256":  "1ff0c19f81031eb387d484859ed7514d077e3b06bcdbdbc8bee1257e6282750c",
+                     "bytes":  19031,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-01.png",
+                     "sha256":  "ebe325b486b5b817876b85b4c06ec8984459f8513b40fe56c3e9ad7bda29d357",
+                     "bytes":  14009,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-01b.png",
+                     "sha256":  "fb02421592ce0a6b2deafb8c53c5ff2fc91dc69fca3f882b559514bb5bdb41ca",
+                     "bytes":  7729,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-aggregato.png",
+                     "sha256":  "09bdbd6781b8daca6aceff339e43f221352d1c6f3c0ba52db282c41ea7df75df",
+                     "bytes":  15898,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-dove18.png",
+                     "sha256":  "24de93c11f39a145b9c9de18e093c829b67dd709af2b1d215737a39a5840726b",
+                     "bytes":  15758,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-f18-mid.png",
+                     "sha256":  "99a74a30c94589f3622cfebd1e8cb07b6e35a47991755482086e4289a6368bb4",
+                     "bytes":  5276,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-f18.png",
+                     "sha256":  "2c7e4f2487f143d03eb043a0514d2e94846a571f280dee08cc661ca7e838a8cb",
+                     "bytes":  9080,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-nota.png",
+                     "sha256":  "3505903c520725e8eee471104fccf4bbb6f951c81c4f18ac330220dcde8bda42",
+                     "bytes":  12104,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-regolare.png",
+                     "sha256":  "2b05e980a0951093e981b1cf629da38bd172e1585ecb843e94b86323be8e6372",
+                     "bytes":  4377,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-us1.png",
+                     "sha256":  "36bd6bef06bcaa42b56c85787b9d34bfbce142c54de976e1abf066e7f58324a3",
+                     "bytes":  12344,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/cap08/vc-8.7.1-20261017-gbot/g0-g4/lavoro-C/z-vtlim.png",
+                     "sha256":  "a7f2dc695a16e88d367c5b8df08b2ebfa2c0103b171bfbb2b676fee44870b158",
+                     "bytes":  3766,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+                     "sha256":  "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+                     "bytes":  9888288,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+                     "sha256":  "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+                     "bytes":  50658045,
+                     "pubblicazione":  "locale_non_committato"
+                 }
+             ]
+}

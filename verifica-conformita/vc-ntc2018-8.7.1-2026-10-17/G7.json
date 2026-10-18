@@ -1,0 +1,21 @@
+{
+  "firma": "Codex (GPT-6), verificatore critico indipendente G7",
+  "data": "2026-10-18",
+  "giudizio_g7": "OK",
+  "scope": "8.7.1",
+  "snapshot_sha256": "5c466acd11ce6c074f28ba1b022d78fff5930d5829f378701493ac52b98ad57c",
+  "manifest_sha256": "b83b4ba1d4eb65b5180cb344157380ed0bb018f417d393c93ce1e464ec34ee4b",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "OK"
+  },
+  "rilievi_aperti": [],
+  "motivazione": "Impronte del manifest e del verbale ricalcolate e coerenti con il riepilogo. Il manifest contiene 174 percorsi univoci e il target con l'impronta dichiarata; verifica-manifest è attestato OK. I 14 rilievi G6 risultano chiusi: 11 confermati da Sol, due non fondati con conferma Q1/Q2, C-PRO-016 rettificato documentalmente. Il rilievo comparativo Luna risulta motivatamente respinto; Terra conferma le chiusure senza nuovi rilievi. verifica-lista attesta la base 92a449e più le 210 voci approvate v3 e g6, con uguaglianza a indici esclusi. Verbale e scheda riportano deroga, prove comparative, tentativo interrotto e limiti. G7-REGISTRO-8.7.1 è chiuso: conferma-pagine, ricevuta SCRITTO con controlli OK, riga CSV riepilogata, lint 0, verbale, scheda e rapporto concordano su NTC 297-298 e Circolare 270-283. giro_g6 è 1 su max_giri 3; nessun ERR-MD, ERR-AUDIT o DUBBIO resta aperto.",
+  "limiti": "Riconciliazione documentale senza nuova lettura delle fonti: target, CSV e corpus originali sono assenti, quindi verifica-manifest e verifica-lista restano attestazioni consegnate. AGENTS.md esterno è stato letto preliminarmente come istruzione, senza usarlo come fonte del giudizio."
+}

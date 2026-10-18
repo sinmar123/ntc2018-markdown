@@ -1,0 +1,7 @@
+# Gli originali congelati contengono percorsi locali personali.
+# Restano nel dossier locale; si pubblicano le copie redatte e le impronte.
+/coordinamento.json
+/b01/inventario.json
+/tentativo-mappa-1/
+/prove-aggiuntive/**/*.svg
+/prove-aggiuntive/**/*.html

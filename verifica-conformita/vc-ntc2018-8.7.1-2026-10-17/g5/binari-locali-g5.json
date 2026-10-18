@@ -1,0 +1,121 @@
+{
+    "firma":  "CDX",
+    "data":  "2026-10-17",
+    "numero_file":  19,
+    "file":  [
+                 {
+                     "file":  "g5/resa-finale.pdf",
+                     "sha256":  "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622",
+                     "bytes":  122471,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-01.png",
+                     "sha256":  "faa229fcb251b051baa34b356ab95bd9e4379f470caaf10e08a85cdbe3b1d23e",
+                     "bytes":  366043,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-02.png",
+                     "sha256":  "5bb2b3f1fb11617b51b13bd75c537839fca43e9bfd483e830fa150b76822b71d",
+                     "bytes":  344925,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-03.png",
+                     "sha256":  "e3134b50edc8505a36b1195912115c5443369b32f255ecda0fdeb5c4a933ee6b",
+                     "bytes":  308876,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-04.png",
+                     "sha256":  "1fb791afb1f317872141a8134bfe3477ee3cd65dc2c1e5b09520f5b5f4d80d9c",
+                     "bytes":  320360,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-05.png",
+                     "sha256":  "ccbd3e42614060927c462f04f41ea1a1896ab22a6306fb50add4c6aa7b35d2f6",
+                     "bytes":  330584,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-06.png",
+                     "sha256":  "30af7c8978be54bc117ec4d490ec4a691e5b7966048c2c7d4be1d796f3523056",
+                     "bytes":  333626,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-07.png",
+                     "sha256":  "52a83871ef393afe838f42a00ed8eafed90b62332f9f7b6304561f9dec122028",
+                     "bytes":  247374,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-08.png",
+                     "sha256":  "557dc7a1efd8054655444ef60cc8de71f3f5d628101ed3d7d8312d22c431dd2c",
+                     "bytes":  300764,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-09.png",
+                     "sha256":  "a7920529c90cc482a4b6cb4eeda290106263a638d6c2c1a00c841730b1b412c9",
+                     "bytes":  338318,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-10.png",
+                     "sha256":  "ddc32a51d39d9506e51f68c055bd37e31662451d3ad80ba529048170bfebbf90",
+                     "bytes":  319500,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-11.png",
+                     "sha256":  "afef1bb379db16ee474051d47d25bceb6d42da4eef0e2af243d30f6bedf08055",
+                     "bytes":  358049,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-12.png",
+                     "sha256":  "ec55ecfb782bbb73f4d9cda7c27013134436e3b4c038b2ba56bd6559cd342e4e",
+                     "bytes":  345371,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-13.png",
+                     "sha256":  "a959cbb420737cc221c5e8a5c8a3dcafd62e2754a6d6cf44ea179dce201c2c27",
+                     "bytes":  293823,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-14.png",
+                     "sha256":  "e0459aec54214c05c092286271032724f433f2c43dc0f6f0005f3a7073c55618",
+                     "bytes":  302106,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-15.png",
+                     "sha256":  "60a8cc3936229ddeb806f9fcfbd24b0b6ad14f9a19cce5707f4cc4fb82e0888f",
+                     "bytes":  338657,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-16.png",
+                     "sha256":  "f64944e47c58c8ef3c4e1e312b2097643a3645ac119d436cc43a7b5f6e3c2b5d",
+                     "bytes":  319192,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-17.png",
+                     "sha256":  "6d61e7a2c43d74b3f24e012aeee67a356ef261c37e4b63c38030e9b5249fe9be",
+                     "bytes":  368582,
+                     "pubblicazione":  "locale_non_committato"
+                 },
+                 {
+                     "file":  "_tmp_render/pdfs/vc871-g5/page-18.png",
+                     "sha256":  "8baef3f7b04834754e69dcd49f5d5cb927644d64a8fc6b27aaf5e54cbfca331a",
+                     "bytes":  137412,
+                     "pubblicazione":  "locale_non_committato"
+                 }
+             ]
+}

@@ -1,0 +1,13 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "scope": "8.7.1",
+  "decisione": "Sandro, 2026-10-18 19:07 (ora di Roma): oscurare i percorsi assoluti del W520 con il nome utente nelle ricevute di registrazione.",
+  "file": "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/chiusura.eseguito.json",
+  "sostituzioni": 7,
+  "da": "C:\\\\Users\\\\<utente>\\\\ag_oc\\\\workspace (prefisso locale del W520)",
+  "a": "<workspace>",
+  "sha256_prima": "463d926c3394487ef97bbbd08194b94b487b0994c3804472e3bf3f748daddd6c",
+  "sha256_dopo": "c05256b832b8c527466f9c1db18d95f4eeaec90074523c9d51010bbeb5cb309c",
+  "natura": "Rettifica documentale (§ 8, errore solo documentale): la ricevuta non è nel manifest di rilascio né nel giudizio G7; impronte, controlli e contenuto della registrazione invariati, solo i percorsi locali sono resi generici. verifica-manifest OK dopo la rettifica."
+}

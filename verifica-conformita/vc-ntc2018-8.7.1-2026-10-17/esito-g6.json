@@ -1,0 +1,19 @@
+{
+  "firma": "CDX",
+  "scope": "8.7.1",
+  "data": "2026-10-17",
+  "gate": "G6",
+  "esito": "KO",
+  "giro": 1,
+  "blocchi": 4,
+  "pagine": 16,
+  "righe_depurate": 662,
+  "id_coperti": 180,
+  "err_md": 13,
+  "err_audit": 1,
+  "dubbio": 0,
+  "rilievi_aperti": 14,
+  "g7": "NON_ESEGUITO",
+  "motivazione_g7": "La procedura VC-NTC/9 e il prompt operativo ammettono G7 solo con G6 a zero ERR-MD, zero ERR-AUDIT e zero DUBBIO.",
+  "decisione_richiesta": "Sandro deve valutare i quattordici rilievi. Nessuna correzione è stata applicata e non è stato consumato un secondo giro."
+}

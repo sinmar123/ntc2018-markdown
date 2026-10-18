@@ -1,0 +1,58 @@
+{
+  "firma": "CDX",
+  "data": "2026-10-17",
+  "renderer": "strumenti/render-capitolo.py, non modificato",
+  "sorgente_render": "g5/testo-depurato.md",
+  "sorgente_render_sha256": "3195a7405e5fa9142df8cc38b9b306d0be705458b326e624f64ffbb80c142fa1",
+  "motivazione_sorgente": "Il testo depurato è prodotto dal depuratore comune sul target composto e rimuove soltanto navigazione, ancore e contenitori. Il tentativo diretto sul file vivo è stato respinto da XeLaTeX per l'eccessiva profondità dell'indice interno; nessun PDF era stato prodotto. Indice e link del file vivo sono stati verificati separatamente.",
+  "ambiente": "Configurazione MiKTeX già collaudata nella VC 8.6, copiata in una cartella temporanea interna alla worktree; nessuna modifica all'installazione condivisa.",
+  "tentativi": [
+    {
+      "esito": "RESPINTO",
+      "motivo": "Installazione utente temporanea inizialmente vuota; MiKTeX ha richiesto il completamento del setup.",
+      "pdf_prodotto": false
+    },
+    {
+      "esito": "RESPINTO",
+      "motivo": "Render diretto del file vivo: indice interno oltre la profondità massima degli elenchi LaTeX; errore 'Too deeply nested'.",
+      "pdf_prodotto": false
+    },
+    {
+      "esito": "OK",
+      "motivo": "Render canonico del testo normativo depurato con la configurazione MiKTeX collaudata.",
+      "pdf_prodotto": true
+    }
+  ],
+  "pdf": {
+    "file": "g5/resa-finale.pdf",
+    "sha256": "a4749131516e679e75b008fbebe1c96539060fb7f0952ba81211985c14d49622",
+    "bytes": 122471,
+    "pagine": 18,
+    "formato": "letter 612 x 792 pt"
+  },
+  "controlli_canonici": {
+    "tag_con_parentesi_tonde": 0,
+    "didascalie_automatiche_Figure_Figura": 0,
+    "tag_numerati_circolare": 18,
+    "tag_presenti": [
+      "C8.7.1.1", "C8.7.1.2", "C8.7.1.3", "C8.7.1.4", "C8.7.1.5", "C8.7.1.6",
+      "C8.7.1.7", "C8.7.1.8", "C8.7.1.9", "C8.7.1.10", "C8.7.1.11", "C8.7.1.12",
+      "C8.7.1.13", "C8.7.1.14", "C8.7.1.15", "C8.7.1.16", "C8.7.1.17", "C8.7.1.18"
+    ],
+    "glifi_sospetti_nel_testo_estratto": 0
+  },
+  "verifica_visiva": {
+    "pagine_osservate": "1-18",
+    "esito": "OK",
+    "tagli": 0,
+    "sovrapposizioni": 0,
+    "caratteri_mancanti": 0,
+    "note": "Rubriche, elenchi, formule e relativi tag risultano leggibili. I marcatori 1), 2), 3) sono resi come elenco ordinato; gli elenchi introdotti da 'dove:' sono separati e leggibili."
+  },
+  "binari_locali": {
+    "file": "g5/binari-locali-g5.json",
+    "sha256": "6af209e0880d9fb217102dc2cd2c5ba300cd8193f6ef7cc4564e4f34ce510bf7",
+    "numero_file": 19
+  },
+  "esito": "OK"
+}

@@ -1,0 +1,133 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "scope": "8.7.1",
+  "giro_g6": 1,
+  "decisioni_sandro": "2026-10-18, 11:13-11:18 ora di Roma: rilievi 8 e 9 corretti con il corsivo della convenzione del corpus; 13 e 14 come la fonte, nota cliccabile [^4] (nuova voce 25 del catalogo); 1-3, 5, 10-12 risolti nel renderer comune; 4 rettifica documentale; 6 e 7 non fondati. «ok..vai» alle 11:18. Alle 13:19: G6 valido con Sol come V, chiusura e commit locale.",
+  "rilievi": [
+    {
+      "n": 1,
+      "id": "C-RUB-002",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Chiuso con -V block-headings nel renderer; .md invariato; confermato da V"
+    },
+    {
+      "n": 2,
+      "id": "C-RUB-003",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Come 1"
+    },
+    {
+      "n": 3,
+      "id": "C-RUB-004",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Come 1"
+    },
+    {
+      "n": 4,
+      "id": "C-PRO-016",
+      "classe_v": "ERR-AUDIT",
+      "natura": "documentale",
+      "esito": "CHIUSO",
+      "come": "Rettifica documentale qui sotto; nessun errore del testo"
+    },
+    {
+      "n": 5,
+      "id": "B03-E044",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Come 1"
+    },
+    {
+      "n": 6,
+      "id": "B03-E045",
+      "classe_v": "ERR-MD",
+      "natura": "non fondato",
+      "esito": "CHIUSO",
+      "come": "Motivazione qui sotto; confermato da V (Q1)"
+    },
+    {
+      "n": 7,
+      "id": "B03-E047",
+      "classe_v": "ERR-MD",
+      "natura": "non fondato",
+      "esito": "CHIUSO",
+      "come": "Motivazione qui sotto; confermato da V (Q2)"
+    },
+    {
+      "n": 8,
+      "id": "B04-C279-HD-01",
+      "classe_v": "ERR-MD",
+      "natura": "testo",
+      "esito": "CHIUSO",
+      "come": "Voce G6R1-08"
+    },
+    {
+      "n": 9,
+      "id": "B04-C281-HD-01",
+      "classe_v": "ERR-MD",
+      "natura": "testo",
+      "esito": "CHIUSO",
+      "come": "Voce G6R1-09"
+    },
+    {
+      "n": 10,
+      "id": "B04-C281-HD-02",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Come 1"
+    },
+    {
+      "n": 11,
+      "id": "B04-C282-HD-01",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Come 1"
+    },
+    {
+      "n": 12,
+      "id": "B04-C283-HD-01",
+      "classe_v": "ERR-MD",
+      "natura": "resa",
+      "esito": "CHIUSO",
+      "come": "Come 1"
+    },
+    {
+      "n": 13,
+      "id": "B04-C281-PR-07",
+      "classe_v": "ERR-MD",
+      "natura": "testo",
+      "esito": "CHIUSO",
+      "come": "Voce G6R1-13, catalogo voce 25"
+    },
+    {
+      "n": 14,
+      "id": "B04-C281-NT-01",
+      "classe_v": "ERR-MD",
+      "natura": "testo",
+      "esito": "CHIUSO",
+      "come": "Voce G6R1-14, catalogo voce 25"
+    }
+  ],
+  "rettifica_C-PRO-016": {
+    "tipo": "errore solo documentale (§ 8: target, copertura e giudizi invariati)",
+    "inventario": "g6/b01/inventario.json (originale locale) e g6/b01/inventario-pubblico.json, congelati e non modificati",
+    "rettifica": "L'elemento C-PRO-016 dell'inventario fonte-prima di b01 descrive come un solo capoverso due capoversi distinti della Circolare, p. fisica 271: «Le NTC pongono in evidenza… dell’aggregato.» e «Le esperienze maturate… favoriti da:». Va letto come gruppo di due capoversi. Entrambi sono presenti e separati nel Markdown e conformi alla fonte, come ha rilevato lo stesso V di b01.",
+    "prova": "Posizioni vettoriali della p. 271: la riga «estesa dell’aggregato.» è corta (termina a x 150 pt) e il capoverso seguente comincia a y 158 pt con uno stacco di circa 14 pt, contro 10-11 pt fra le righe dello stesso capoverso.",
+    "effetti": "Nessuna modifica del target, della copertura (C-PRO-016 resta coperto) o dei giudizi; nessun ritorno a V."
+  },
+  "motivazione_rilievi_6_7": {
+    "B03-E045": "Circolare p. fisica 278: «…(quali ad esempio gli incatenamenti).» chiude una riga piena (fino a x 523 pt) e «Nelle scelte di modellazione» comincia alla riga seguente con l'interlinea ordinaria, circa 10,5 pt (y0 165,5 → 176,0), senza lo stacco di circa 13-14 pt che la pagina lascia fra capoversi. La Circolare non usa rientro di prima riga. Stesso capoverso: il Markdown è conforme.",
+    "B03-E047": "Circolare p. fisica 278: «…sul primo modo.» chiude una riga piena e «Nel caso di diaframmi di rigidezza finita» comincia alla riga seguente con l'interlinea ordinaria (y0 389,1 → 399,6), senza stacco di capoverso. Stesso capoverso: il Markdown è conforme.",
+    "conferma": "Domande aperte Q1 e Q2 poste senza la lettura di C: entrambi i verificatori (Sol, V; Luna, prova comparativa) hanno letto STESSO_CAPOVERSO e Markdown CONFORME."
+  }
+}

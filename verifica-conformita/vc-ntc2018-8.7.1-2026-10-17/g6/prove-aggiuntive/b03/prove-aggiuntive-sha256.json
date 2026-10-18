@@ -1,0 +1,72 @@
+﻿[
+    {
+        "Name":  "circ-p274-275-bbox.html",
+        "Length":  178952,
+        "sha256":  "23258e06cf055f453de6eb56fbc0edfd4a8d30e3df5c118759ca0f4fdd552155"
+    },
+    {
+        "Name":  "circ-p274-formula-C8.7.1.7-600dpi.png",
+        "Length":  167007,
+        "sha256":  "ff1d93a6db3f0814ede1af6bf69e526981fd214201b8f7a9e85e337aacc2b896"
+    },
+    {
+        "Name":  "circ-p274-formule-C8.7.1.3-4-600dpi.png",
+        "Length":  393781,
+        "sha256":  "f9afadb7d7446a2b2727a3c12f501e12d1dfc1651d9c85a8c00d5e2a502dde7b"
+    },
+    {
+        "Name":  "circ-p274-vettoriale.svg",
+        "Length":  713162,
+        "sha256":  "fc5021c193a441a088def8903be7520043b5d4d9dce54779e2accc65bfb53787"
+    },
+    {
+        "Name":  "circ-p275-formula-C8.7.1.7-dove-600dpi-v2.png",
+        "Length":  415704,
+        "sha256":  "3d8181fe293616f8d6c36eab6b11bb98370bda7c41af14c571e7bd1c08097b10"
+    },
+    {
+        "Name":  "circ-p275-formula-C8.7.1.7-dove-600dpi.png",
+        "Length":  272988,
+        "sha256":  "214a1807fb3176bed018e47b23451487f58eedbc1a031bf3348dc49ad1c17fd3"
+    },
+    {
+        "Name":  "circ-p275-formule-C8.7.1.8-9-600dpi.png",
+        "Length":  421228,
+        "sha256":  "1993cf2cb60f9142ffad737b55d7e30aa69a2e5083a895ef19d904797f647a3f"
+    },
+    {
+        "Name":  "circ-p275-vettoriale.svg",
+        "Length":  732759,
+        "sha256":  "8d860f0242fbd1ca0cd986aa027a8e7944ed063623ddaac2dfaff1dc32ef0420"
+    },
+    {
+        "Name":  "circ-p276-bbox.html",
+        "Length":  95844,
+        "sha256":  "f855e1203813fe2bc05251df07edf69126e4ba4a5803675f90380a9a0593c3dc"
+    },
+    {
+        "Name":  "circ-p276-curva-capacita-a-d-formula-C8.7.1.10-600dpi.png",
+        "Length":  297582,
+        "sha256":  "25c359ab4382e6b21b4ebdaa33d779df29883ea4fffc8912ab1159317dd28528"
+    },
+    {
+        "Name":  "circ-p276-vettoriale.svg",
+        "Length":  725209,
+        "sha256":  "6153176c04273cb0136c74b24e6efab5e6891375390567fa7fc89202ce02363e"
+    },
+    {
+        "Name":  "circ-p278-bbox.html",
+        "Length":  103037,
+        "sha256":  "2d3d2306af9ed7409ef5e09b57ed6c032fa50e115f595962c1edfaf6ce9682c4"
+    },
+    {
+        "Name":  "circ-p278-etichette-SLC-SLV-SLD-SLO-600dpi.png",
+        "Length":  539877,
+        "sha256":  "5952034ccde1932fe7c9cf046b07573fbbe373ba904fae2a199a073ad5b82183"
+    },
+    {
+        "Name":  "circ-p278-vettoriale.svg",
+        "Length":  671174,
+        "sha256":  "de0b5bbdaddf3e575b8d51638a6b1046a88329e4140a8b45b70b378568f613c3"
+    }
+]

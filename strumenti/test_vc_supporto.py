@@ -212,7 +212,7 @@ class SupportoTest(unittest.TestCase):
         self.assertNotIn("AF-3.3-", canone)
         self.assertNotIn("C4.1.10", canone)
         import re
-        self.assertEqual(len(re.findall(r"(?m)^\d+\. ", canone)), 24)
+        self.assertEqual(len(re.findall(r"(?m)^\d+\. ", canone)), 25)  # voce 25, note [^n], 2026-10-18
 
     def test_usage_uses_last_counter_and_excludes_parent(self):
         for sid, source in (("child", {"subagent": {"thread_spawn": {"agent_path": "/root/prova"}}}), ("parent", "cli")):
@@ -345,6 +345,27 @@ class SupportoTest(unittest.TestCase):
             self.assertEqual(VC.read_json(config.with_suffix(".eseguito.json"))["fase"], "SCRITTO")
             with self.assertRaises(ValueError):
                 VC.registration(config, True, run_checks=False)
+
+    def test_pages_update_only_page_columns_under_lock(self):
+        config, cfg, registry = self.registration_fixture()
+        (self.root / "fonte.json").write_text("{}", encoding="utf-8")
+        pages = self.root / "pagine.json"
+        pages.write_text(json.dumps({"scope": "prova", "agente": "CDX", "riga": "prova", "pagine_pdf_ntc": "1-3",
+                                     "motivo": "pagine accertate in G0", "autorizzazione": "Sandro, fixture",
+                                     "evidenza": "fonte.json"}), encoding="utf-8")
+        original = registry.read_bytes()
+        with patch.object(VC, "ROOT", self.root):
+            self.assertEqual(VC.set_pages(pages)["modifiche"], {"pagine_pdf_ntc": {"prima": "1-2", "dopo": "1-3"}})
+            self.assertEqual(original, registry.read_bytes())
+            self.assertEqual(VC.set_pages(pages, True, run_checks=False)["fase"], "SCRITTO")
+            row = next(csv.DictReader(io.StringIO(registry.read_text(encoding="utf-8-sig")), delimiter=";"))
+            self.assertEqual((row["pagine_pdf_ntc"], row["stato_vc"], row["titolo"]), ("1-3", "IN-CORSO", "Norma sintetica"))
+            with self.assertRaises(ValueError):
+                VC.set_pages(pages, True, run_checks=False)
+            bad = json.loads(pages.read_text(encoding="utf-8")); bad["pagine_pdf_ntc"] = "3-1"
+            pages.write_text(json.dumps(bad), encoding="utf-8")
+            with self.assertRaises(ValueError):
+                VC.set_pages(pages)
 
     def test_registration_adds_procedure_without_relabeling_history(self):
         config, cfg, registry = self.registration_fixture()

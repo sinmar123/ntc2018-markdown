@@ -1,0 +1,46 @@
+{
+  "scope": "8.7.1",
+  "agente": "GBOT",
+  "data": "2026-10-18",
+  "g7": "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/G7.json",
+  "g7_sha256": "2a2cd3806c31b6e40928ccd00e9455b46e453cea52f7d5c50ebcf33df9d77276",
+  "manifest": "verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/manifest-rilascio.json",
+  "verbale": "verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md",
+  "verbale_sha256": "eeb2da3c21b692ce3c8269d0dc7e061e2c775887b11a05523a7c5250734c0c0f",
+  "nota": "VC-OK del solo file cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md, § 8.7.1 con C8.7.1, NTC 297-298 e Circolare 270-283. C GBOT-verifica-ntc in G0-G4; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (14 rilievi); GBOT ha giudicato i rilievi per Sandro, applicato 4 correzioni, renderer con rubriche su riga propria e voce 25 del catalogo. Controllo delle modifiche e G7 con Codex gpt-6.1-sol; prove comparative gpt-6-luna e gpt-5.6-terra. Pagine del registro corrette con vc-supporto.py pagine. G7 OK al tentativo 2.",
+  "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+  "procedura_vc": "VC-NTC/9",
+  "master_non_pertinente": "Nessun registro master nel worktree: lo stato operativo resta il CSV del progetto.",
+  "modifiche": [
+    {
+      "path": "README.md",
+      "prima": "**§ 8.7 sola introduzione, registrato VC-OK, 2026-10-16:**",
+      "dopo": "**§ 8.7.1 con C8.7.1, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n**§ 8.7 sola introduzione, registrato VC-OK, 2026-10-16:**"
+    },
+    {
+      "path": "TODO.md",
+      "prima": "## Completato 2026-10-16 - VC § 8.6/C8.6, CDX",
+      "dopo": "## Completato 2026-10-18 - VC § 8.7.1 con C8.7.1, GBOT-verifica-ntc e CDX\n\nVC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## Completato 2026-10-16 - VC § 8.6/C8.6, CDX"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "prima": "## 2026-10-18 - Comando `pagine` di vc-supporto.py, GBOT-verifica-ntc",
+      "dopo": "## 2026-10-18 - VC-OK del § 8.7.1 con C8.7.1, GBOT-verifica-ntc\n\nVC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - Comando `pagine` di vc-supporto.py, GBOT-verifica-ntc"
+    },
+    {
+      "path": "indice-ntc2018.md",
+      "prima": "**§ 8.7 sola introduzione, VC-OK registrato il 2026-10-16:**",
+      "dopo": "**§ 8.7.1 con C8.7.1, VC-OK registrato il 2026-10-18:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.1.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/).\n\n**§ 8.7 sola introduzione, VC-OK registrato il 2026-10-16:**"
+    },
+    {
+      "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "## 2026-10-16 - Integrazione della VC 8.7 e autorizzazione all’unione della PR #17, CDX",
+      "dopo": "## 2026-10-18 - VC-OK del § 8.7.1 con C8.7.1\n\nVC-OK del solo `cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md`, § 8.7.1 con C8.7.1 (NTC 297-298, Circolare 270-283), snapshot `5c466acd…ad57c`. Ruoli: GBOT-verifica-ntc C in G0-G4 con confronto iniziale Grok Build; CDX ha applicato la lista v3 di 206 voci, G5 e G6 giro 1 (180/180 ID, 14 rilievi); GBOT-verifica-ntc ha giudicato i rilievi per Sandro, applicato le 4 correzioni del giro 2, aggiornato il renderer (rubriche su riga propria, note `[^n]`) e la voce 25 del catalogo, e preparato la resa; Codex gpt-6.1-sol ha fatto il controllo delle modifiche come V e il G7; gpt-6-luna e gpt-5.6-terra sono prove comparative di Sandro. Pagine del registro corrette con il nuovo `vc-supporto.py pagine`. G7 `KO` al tentativo 1 per le sole pagine del registro, `OK` al tentativo 2. `giro_g6` 1 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-16 - Integrazione della VC 8.7 e autorizzazione all’unione della PR #17, CDX"
+    },
+    {
+      "path": "verifica-conformita/scheda-scope-ntc2018-8.7.1.md",
+      "prima": "Prossimo passo: G7 tentativo 2 con le stesse modalità.\n",
+      "dopo": "Prossimo passo: G7 tentativo 2 con le stesse modalità.\n\n## Chiusura 2026-10-18\n\nG7 tentativo 2, Codex gpt-6.1-sol high read-only in contesto nuovo, dalle 13:56 alle 13:58: `OK`, gate G0-G7 OK, zero rilievi aperti, manifest `b83b4ba1…ee4b` di 174 file, snapshot `5c466acd…ad57c` (`vc-ntc2018-8.7.1-2026-10-17/G7.json`). Riga 8.7.1 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.1-2026-10-18.md). Firma: GBOT-verifica-ntc.\n"
+    }
+  ]
+}

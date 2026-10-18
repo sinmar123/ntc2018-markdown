@@ -1,0 +1,436 @@
+{
+ "fonte": "GU-2019-35-SO5-Circolare-7-2019.pdf",
+ "fonte_sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+ "pagina_fisica": 278,
+ "unita": "punti PDF, origine in alto a sinistra",
+ "metodo": "PyMuPDF get_text('dict'), righe in ordine di y; nessuna interpretazione",
+ "righe": [
+  {
+   "y0": 57.7,
+   "y1": 68.4,
+   "x0": 48.2,
+   "x1": 87.8,
+   "testo": "11-2-2019"
+  },
+  {
+   "y0": 57.9,
+   "y1": 67.8,
+   "x0": 183.4,
+   "x1": 411.9,
+   "testo": "Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE"
+  },
+  {
+   "y0": 57.9,
+   "y1": 67.8,
+   "x0": 468.5,
+   "x1": 547.1,
+   "testo": "Serie generale - n. 35"
+  },
+  {
+   "y0": 99.6,
+   "y1": 107.5,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "L’analisi globale della risposta sismica degli edifici con struttura muraria “singoli” (cioè non facenti parte di un aggregato) può"
+  },
+  {
+   "y0": 110.3,
+   "y1": 118.1,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "essere effettuata sia mediante l’analisi dei singoli setti murari sottoposti alle azioni di loro competenza (nel proprio piano e fuori"
+  },
+  {
+   "y0": 120.8,
+   "y1": 128.6,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "dal proprio piano) in base ad una suddivisione per aree di influenza (come già esposto), sia mediante un modello globale in"
+  },
+  {
+   "y0": 131.3,
+   "y1": 139.1,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "grado di ripartire tra i vari setti le azioni sismiche agenti sull’intero fabbricato. La scelta deve essere effettuata in base alle"
+  },
+  {
+   "y0": 141.8,
+   "y1": 149.6,
+   "x0": 73.9,
+   "x1": 430.4,
+   "testo": "effettive capacità degli elementi costruttivi presenti di garantire la ripartizione delle azioni orizzontali."
+  },
+  {
+   "y0": 154.9,
+   "y1": 162.7,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "L’analisi e le verifiche devono essere condotte considerando le sollecitazioni e le capacità di tutti gli elementi costruttivi, quali le"
+  },
+  {
+   "y0": 165.5,
+   "y1": 173.3,
+   "x0": 73.9,
+   "x1": 523.1,
+   "testo": "pareti, i diaframmi di piano, le connessioni tra essi e con gli eventuali presidi di rinforzo (quali ad esempio gli incatenamenti)."
+  },
+  {
+   "y0": 176.0,
+   "y1": 183.9,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "Nelle scelte di modellazione occorre considerare le incertezze sulle caratteristiche meccaniche delle murature, degli elementi"
+  },
+  {
+   "y0": 186.5,
+   "y1": 194.4,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "lignei, dei vincoli tra gli elementi strutturali e dei vincoli esterni (ad esempio con edifici in aderenza la cui modellazione esplicita"
+  },
+  {
+   "y0": 197.1,
+   "y1": 204.9,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "sia omessa). Oltre a ciò, può essere opportuno condurre diverse analisi con modelli alternativi e/o formulare diverse ipotesi nel"
+  },
+  {
+   "y0": 207.6,
+   "y1": 215.4,
+   "x0": 73.9,
+   "x1": 225.2,
+   "testo": "campo di variabilità dei parametri in gioco."
+  },
+  {
+   "y0": 220.7,
+   "y1": 228.5,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "La verifica della risposta globale di costruzioni esistenti in muratura allo stato limite ultimo può essere eseguita con i metodi"
+  },
+  {
+   "y0": 231.3,
+   "y1": 239.1,
+   "x0": 73.9,
+   "x1": 188.1,
+   "testo": "dell’analisi lineare o non lineare."
+  },
+  {
+   "y0": 244.3,
+   "y1": 252.2,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "Nell’analisi lineare, per la verifica a SLV le sollecitazioni in ciascun elemento sono valutate con un’azione sismica ridotta dal"
+  },
+  {
+   "y0": 254.9,
+   "y1": 262.8,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "fattore di comportamento q; tali sollecitazioni, eventualmente ridistribuite secondo quanto indicato al § 7.8.1.5.2 delle NTC,"
+  },
+  {
+   "y0": 265.4,
+   "y1": 273.3,
+   "x0": 73.9,
+   "x1": 314.4,
+   "testo": "devono essere verificate con i criteri di resistenza indicati nel seguito."
+  },
+  {
+   "y0": 278.5,
+   "y1": 286.4,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "Nell’analisi non lineare, il controllo della compatibilità tra sollecitazioni e resistenze a livello di singolo elemento è eseguito nel"
+  },
+  {
+   "y0": 289.2,
+   "y1": 297.0,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "corso dell’analisi stessa e la verifica è effettuata a livello globale attraverso un confronto tra la domanda di spostamento e la"
+  },
+  {
+   "y0": 299.7,
+   "y1": 307.5,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "corrispondente capacità. Eventuali meccanismi di rottura ritenuti significativi, ma non esplicitamente considerati nell’analisi (ad"
+  },
+  {
+   "y0": 310.2,
+   "y1": 318.0,
+   "x0": 73.9,
+   "x1": 402.3,
+   "testo": "esempio quelli relativi ad alcuni elementi di connessione), devono essere verificati a posteriori."
+  },
+  {
+   "y0": 323.3,
+   "y1": 331.1,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "Nel caso i diaframmi orizzontali siano di rigidezza trascurabile, ovvero non in grado di garantire una significativa ripartizione"
+  },
+  {
+   "y0": 333.8,
+   "y1": 341.6,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "delle azioni sismiche tra le diverse pareti murarie, l’analisi globale della risposta sismica può essere effettuata analizzando i"
+  },
+  {
+   "y0": 344.3,
+   "y1": 352.2,
+   "x0": 73.9,
+   "x1": 453.8,
+   "testo": "singoli setti murari, sottoposti alle azioni di loro competenza in base a una suddivisione per aree di influenza."
+  },
+  {
+   "y0": 357.5,
+   "y1": 365.4,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "Nel caso invece di diaframmi dotati di rigidezza non trascurabile, l’analisi della risposta sismica globale può essere effettuata con"
+  },
+  {
+   "y0": 368.1,
+   "y1": 375.9,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "uno dei metodi di cui al § 7.3, con le precisazioni e le restrizioni indicate al § 7.8.1.5, delle NTC. In particolare è possibile"
+  },
+  {
+   "y0": 378.6,
+   "y1": 386.4,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "utilizzare l’analisi statica non lineare assegnando, come distribuzioni principale e secondaria, rispettivamente, la prima"
+  },
+  {
+   "y0": 389.1,
+   "y1": 396.9,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "distribuzione, sia del Gruppo 1, sia del Gruppo 2, indipendentemente dalla percentuale di massa partecipante sul primo modo."
+  },
+  {
+   "y0": 399.6,
+   "y1": 407.4,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "Nel caso di diaframmi di rigidezza finita, non potendosi definire lo spostamento del centro di massa dell’ultimo livello (v. §"
+  },
+  {
+   "y0": 410.2,
+   "y1": 418.0,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "7.3.4.2 delle NTC), lo spostamento dC da assumersi per la curva di capacità può essere coerentemente assunto come lo"
+  },
+  {
+   "y0": 420.7,
+   "y1": 428.5,
+   "x0": 73.9,
+   "x1": 405.2,
+   "testo": "spostamento medio tra quello delle diverse pareti, pesato con le corrispondenti masse sismiche."
+  },
+  {
+   "y0": 433.8,
+   "y1": 441.6,
+   "x0": 73.9,
+   "x1": 523.1,
+   "testo": "Nella modellazione globale eventuali porzioni di muratura in grado di accoppiare la risposta degli elementi verticali possono"
+  },
+  {
+   "y0": 444.3,
+   "y1": 452.1,
+   "x0": 73.9,
+   "x1": 432.6,
+   "testo": "essere considerate parte del sistema resistente, quando siano verificate entrambe le seguenti condizioni:"
+  },
+  {
+   "y0": 456.8,
+   "y1": 464.6,
+   "x0": 92.3,
+   "x1": 96.6,
+   "testo": "\u0003"
+  },
+  {
+   "y0": 457.4,
+   "y1": 465.2,
+   "x0": 104.6,
+   "x1": 523.3,
+   "testo": "la porzione considerata sia sorretta da un architrave, da un arco o da una piattabanda strutturalmente efficace, che ne"
+  },
+  {
+   "y0": 467.9,
+   "y1": 475.8,
+   "x0": 104.6,
+   "x1": 414.9,
+   "testo": "garantisca il sostegno anche nel caso in cui la stessa sia fessurata e danneggiata dal sisma;"
+  },
+  {
+   "y0": 477.9,
+   "y1": 485.7,
+   "x0": 92.3,
+   "x1": 96.6,
+   "testo": "\u0003"
+  },
+  {
+   "y0": 478.5,
+   "y1": 486.4,
+   "x0": 104.6,
+   "x1": 523.3,
+   "testo": "essa sia efficacemente ammorsata alle pareti che la sostengono (ovvero sia possibile confidare in una resistenza"
+  },
+  {
+   "y0": 489.1,
+   "y1": 496.9,
+   "x0": 104.6,
+   "x1": 523.3,
+   "testo": "orizzontale a trazione, anche se limitata) o si possa instaurare nella porzione un meccanismo resistente a puntone"
+  },
+  {
+   "y0": 499.6,
+   "y1": 507.4,
+   "x0": 104.6,
+   "x1": 462.3,
+   "testo": "diagonale (ad esempio per la presenza di una catena o di un elemento accoppiato resistente a trazione)."
+  },
+  {
+   "y0": 510.1,
+   "y1": 517.9,
+   "x0": 73.9,
+   "x1": 523.3,
+   "testo": "Per le verifiche di sicurezza nei riguardi del comportamento sismico globale, è possibile applicare quanto prescritto dalle NTC"
+  },
+  {
+   "y0": 520.6,
+   "y1": 528.4,
+   "x0": 73.9,
+   "x1": 415.3,
+   "testo": "per la progettazione delle nuove costruzioni in muratura, con le precisazioni nel seguito riportate."
+  },
+  {
+   "y0": 533.8,
+   "y1": 541.6,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "Nel caso dell’analisi statica non lineare la capacità in spostamento relativa ai diversi stati limite è valutata, sulla curva taglio di"
+  },
+  {
+   "y0": 544.3,
+   "y1": 552.2,
+   "x0": 73.9,
+   "x1": 235.2,
+   "testo": "base-spostamento, nei modi appresso indicati:"
+  },
+  {
+   "y0": 557.4,
+   "y1": 565.3,
+   "x0": 73.9,
+   "x1": 523.2,
+   "testo": "SLC: per la definizione della bilineare equivalente, identificata seguendo i criteri indicati al § C.7.3.4.2, lo spostamento ultimo a"
+  },
+  {
+   "y0": 567.9,
+   "y1": 575.8,
+   "x0": 92.4,
+   "x1": 333.7,
+   "testo": "SLC è dato dal minore tra quelli forniti dalle seguenti due condizioni:"
+  },
+  {
+   "y0": 581.0,
+   "y1": 588.9,
+   "x0": 94.8,
+   "x1": 370.5,
+   "testo": "\u0003 quello corrispondente ad un taglio di base residuo pari all’80% del massimo;"
+  },
+  {
+   "y0": 591.7,
+   "y1": 599.5,
+   "x0": 94.8,
+   "x1": 516.2,
+   "testo": "\u0003 quello corrispondente al raggiungimento della soglia limite della deformazione angolare a SLC in tutti i maschi murari"
+  },
+  {
+   "y0": 602.2,
+   "y1": 610.0,
+   "x0": 104.6,
+   "x1": 512.8,
+   "testo": "verticali di un qualunque livello in una qualunque parete ritenuta significativa ai fini della sicurezza (questo controllo"
+  },
+  {
+   "y0": 612.7,
+   "y1": 620.5,
+   "x0": 104.6,
+   "x1": 504.3,
+   "testo": "può essere omesso nelle analisi quando i diaframmi siano infinitamente rigidi o quando sia eseguita l’analisi di una"
+  },
+  {
+   "y0": 623.2,
+   "y1": 631.0,
+   "x0": 104.6,
+   "x1": 159.6,
+   "testo": "singola parete)."
+  },
+  {
+   "y0": 638.8,
+   "y1": 646.7,
+   "x0": 73.9,
+   "x1": 466.6,
+   "testo": "SLV: lo spostamento ultimo a SLV, sulla bilineare equivalente sopra definita, è pari a ¾ dello spostamento a SLC"
+  },
+  {
+   "y0": 652.0,
+   "y1": 659.8,
+   "x0": 73.9,
+   "x1": 442.5,
+   "testo": "SLD: lo spostamento corrispondente è il minore tra gli spostamenti ottenuti dalle seguenti due condizioni:"
+  },
+  {
+   "y0": 665.2,
+   "y1": 673.1,
+   "x0": 94.8,
+   "x1": 509.6,
+   "testo": "\u0003 quello corrispondente al limite elastico della bilineare equivalente, definita a partire dallo spostamento ultimo a SLC;"
+  },
+  {
+   "y0": 675.7,
+   "y1": 683.6,
+   "x0": 94.8,
+   "x1": 495.0,
+   "testo": "\u0003 quello corrispondente al raggiungimento della resistenza massima a taglio in tutti i maschi murari verticali in un"
+  },
+  {
+   "y0": 686.2,
+   "y1": 694.1,
+   "x0": 104.6,
+   "x1": 502.0,
+   "testo": "qualunque livello di una qualunque parete ritenuta significativa ai fini dell’uso della costruzione (e comunque non"
+  },
+  {
+   "y0": 696.8,
+   "y1": 704.6,
+   "x0": 104.6,
+   "x1": 469.1,
+   "testo": "prima dello spostamento per il quale si raggiunge un taglio di base pari a 3/4 del taglio di base massimo)."
+  },
+  {
+   "y0": 712.4,
+   "y1": 720.3,
+   "x0": 73.9,
+   "x1": 308.3,
+   "testo": "SLO: lo spostamento corrispondente è pari a 2/3 di quello allo SLD."
+  },
+  {
+   "y0": 764.9,
+   "y1": 776.0,
+   "x0": 274.9,
+   "x1": 320.9,
+   "testo": "—  274  —"
+  }
+ ]
+}

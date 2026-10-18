@@ -1,0 +1,23 @@
+{
+  "firma": "GBOT-verifica-ntc (C)",
+  "data": "2026-10-18",
+  "comando": "python strumenti/vc-supporto.py verifica-lista verifica-conformita/vc-ntc2018-8.7.1-2026-10-17/correzioni-g6/lista-v3-piu-g6.json 92a449e",
+  "esito": {
+    "base": "92a449e",
+    "voci": 210,
+    "file": [
+      {
+        "file": "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md",
+        "uguale_indici_esclusi": true
+      }
+    ],
+    "esito": "OK",
+    "file_cambiati_dalla_base": [
+      "cap08/8.7.1-progettazione-interventi-costruzioni-in-muratura.md"
+    ]
+  },
+  "lista_g6_sha256": "92673a0bc6e45e07046d51c55788b0b3b08f0233212c9f7a6caccbd6d97cf4cd",
+  "lista_v3_sha256": "989e47a02697e92a222f40785eb885aab597620e7922b3fa578e92e9f87f8fa8",
+  "applicazione": "applica-lista correzioni-g6/lista-correzioni-g6.json, piano poi --applica, 4 voci sul target 09eab033…; indici interni rigenerati con genera-indici-interni.py --applica --verifica --snapshot (311 file, 1754 collegamenti, 311 corpi invariati)",
+  "target_sha256": "5c466acd11ce6c074f28ba1b022d78fff5930d5829f378701493ac52b98ad57c"
+}
