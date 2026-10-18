@@ -16,10 +16,10 @@ righe_registro: ["8.7.2"]
 base_git: 856c566
 giro_g6: 0
 max_giri: 3
-rilievi_aperti: 70
-gate: {G0: OK, G1: OK, G2: in_corso, G3: in_corso, G4: in_corso, G5: attesa, G6: attesa, G7: attesa}
-attesa_decisione: [lista delle correzioni]
-prossimo_passo: "Decisione di Sandro sulla lista v1 (70 voci: 5 sostanziali, 65 di forma; 4 dubbi). Nessuna correzione prima dell'approvazione."
+rilievi_aperti: 0
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: in_corso, G7: attesa}
+attesa_decisione: []
+prossimo_passo: "G6 integrale con V Codex gpt-5.6-terra in due blocchi; poi G7 con gpt-6.1-sol se il G6 è a zero rilievi."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo sulla fonte, lista per Sandro, worktree e commit"}
@@ -52,5 +52,13 @@ Firma: GBOT-verifica-ntc, 2026-10-18.
 Confronto integrale di Codex `gpt-5.6-terra` (high, sola lettura) in due blocchi: 57 ERR-MD tutte di forma e 1 dubbio. Primo filtro con structural-codes (solo candidati). Controllo di C sulla Gazzetta, livello vettoriale e ritagli fino a 600 dpi, con tutte le 14 formule numerate: aggiunte 5 voci sostanziali che Codex non aveva visto (S-01 esponente di [C8.7.2.1] senza segno meno; S-02 pedice o sotto [C8.7.2.2]; S-03-S-05 V_W nelle formule [C8.7.2.8]-[C8.7.2.10]) e 10 di forma; corrette due proposte di Codex (A-16, B-33). Totale 70 voci, 5 sostanziali e 65 di forma; 4 dubbi con proposta di testo invariato; 6 anomalie della fonte conservate.
 
 File: `vc-ntc2018-8.7.2-2026-10-18/lista-correzioni-c.md`, `lista-correzioni.json` (verificata con `applica-lista` senza `--applica`: 70 voci, nulla scritto), `diff-proposto.patch`, `confronto-sostanziali-8.7.2.pdf`, `confronto-iniziale/codex-terra-blocco-A.json` e `-B.json`. Target invariato (SHA-256 `5fe477b8…4d03`).
+
+Firma: GBOT-verifica-ntc, 2026-10-18.
+
+## Approvazione e applicazione (2026-10-18)
+
+- **16:15 (ora di Roma):** Sandro approva l'intera lista v1, 70 voci (5 sostanziali S-01…S-05, 65 di forma); i dubbi D-01…D-04 restano a testo invariato.
+- **16:17:** `applica-lista` piano e `--applica`: 70 voci, solo il target 8.7.2. Il risultato coincide con il target proposto prima dell'approvazione. `verifica-lista` rispetto a `61aa496`: OK. Indici interni rigenerati con `genera-indici-interni.py` (311 file, corpi invariati). Lint del registro: 0 errori. Evidenza: `vc-ntc2018-8.7.2-2026-10-18/decisione-applicazione-20261018.json`.
+- **16:19:** G5. Testo composto con `componi-scope` e depurato (353 righe); resa canonica `g5/resa-finale.pdf` (8 pagine, 14 tag a quadre), osservata da C senza tagli o caratteri mancanti. Mappa e due blocchi G6 in `mappa-g5.json` e `config-g6.json`: b01 NTC 298 e Circolare 283-286, righe 1-205; b02 Circolare 287-289, righe 206-353.
 
 Firma: GBOT-verifica-ntc, 2026-10-18.

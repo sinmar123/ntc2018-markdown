@@ -1,0 +1,65 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-18",
+  "scope": "8.7.2",
+  "approvazione": {
+    "decisore": "Sandro",
+    "data_ora": "2026-10-18T16:15:00+02:00",
+    "oggetto": "Lista v1 approvata per intero: 70 voci (5 sostanziali S-01…S-05, 65 di forma); dubbi D-01…D-04 decisi a testo invariato",
+    "nuova_richiesta_non_necessaria": true
+  },
+  "lista": {
+    "file": "lista-correzioni.json",
+    "versione": 1,
+    "sha256": "85abc33ff99330fb0015867046a0586ad62304ef2d37ca6e791b2bde0ac2de55",
+    "voci": 70,
+    "sostanziali": 5,
+    "forma": 65,
+    "file_interessati": [
+      "cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md"
+    ]
+  },
+  "applicazione": {
+    "strumento": "python strumenti/vc-supporto.py applica-lista",
+    "piano": {
+      "voci": 70,
+      "file": 1,
+      "esito": "OK"
+    },
+    "applicazione_esito": "OK",
+    "ora": "16:17 (ora di Roma)",
+    "base_git": "61aa496a61d4995ef55e01c55d6a87bd0bb4beca",
+    "target_prima_sha256": "5fe477b8f72a4fd51b82c124bd7f5a51618419dccdb69e960ef4c6da975d4b03",
+    "target_dopo_lista_prima_indici_sha256": "97f37153d1721a99a1ef1796ec2364a393ca85a46c84cdb897669757adf54a67",
+    "riscontro": "coincide con il target proposto calcolato prima dell'approvazione (diff-proposto.patch)",
+    "diff_proposto_sha256": "b1384258dc383b4bbdd92f3bcf7281918980b264a2cb4dc79ecde8d0a6a5dacd",
+    "verifica_lista": {
+      "comando": "verifica-lista lista-correzioni.json 61aa496",
+      "esito": "OK",
+      "uguale_indici_esclusi": true,
+      "file_cambiati_dalla_base": [
+        "cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md"
+      ]
+    }
+  },
+  "indici_interni": {
+    "strumento": "python strumenti/genera-indici-interni.py --applica --verifica --snapshot _tmp_render/cap08/vc-8.7.2-20261018-gbot/indici",
+    "esito": "OK: 311 file, 1754 collegamenti interni, corpi invariati",
+    "altri_file_normativi_modificati": []
+  },
+  "target_finale": {
+    "file": "cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md",
+    "sha256": "242f7892a7d3c7432d4dd90a847d2a92a9073e2640618056c4b63417a6a52527",
+    "bytes": 33124
+  },
+  "lint": "lint-registro-verifica.py: 0 errori, 7 avvisi preesistenti",
+  "controllo_effetti_C": {
+    "esito": "OK",
+    "controlli": [
+      "solo il target 8.7.2 cambiato fra i file normativi",
+      "indice interno rigenerato con le rubriche nuove",
+      "diff normativo, indici esclusi, uguale all'applicazione esatta della lista approvata"
+    ],
+    "rilievi": []
+  }
+}

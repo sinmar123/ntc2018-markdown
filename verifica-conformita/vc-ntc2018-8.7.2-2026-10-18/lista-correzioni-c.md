@@ -1,6 +1,8 @@
 # § 8.7.2 e C8.7.2: lista delle correzioni proposte (v1)
 
-Firma: GBOT-verifica-ntc, 18/10/2026. Procedura VC-NTC/10. Proposte **non applicate**: in attesa dell’approvazione di Sandro.
+Firma: GBOT-verifica-ntc, 18/10/2026. Procedura VC-NTC/10.
+
+**Approvazione.** Sandro ha approvato l’intera lista v1 il 18/10/2026 alle 16:15 (ora di Roma): 70 voci, 5 sostanziali (S-01…S-05) e 65 di forma. I dubbi D-01…D-04 restano a testo invariato. Le voci si applicano con `vc-supporto.py applica-lista`.
 
 File: `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, base git `856c566` (ramo `gbot/vc-8.7.2-261018`). Pagine fisiche: Norma 298 (stampata 294); Circolare 283-289 (stampate 279-285).
 
@@ -90,7 +92,7 @@ Dopo l’applicazione l’indice interno va rigenerato con `genera-indici-intern
 | B-33 | 333 | C 289 | definizioni | `dove: Me,Rd è il momento di prima plasticizzazione di calcolo; LV è la luce di taglio; I è il momento di inerzia della sezione nella direzione considerata.` | `dove:⏎⏎$M_{e,Rd}$ è il momento di prima plasticizzazione di calcolo;⏎⏎$L_V$ è la luce di taglio;⏎⏎$I$ è il momento di inerzia della sezione nella direzione considerata.` | Simboli in testo semplice resi come simboli, un simbolo per riga come nella fonte. Codex proponeva $LV$: corretto da GBOT in $L_V$ (la fonte stampa L con pedice V). Il pedice e,Rd con la virgola è quello della definizione; nella formula resta e.Rd. Motore: Codex gpt-5.6-terra, proposta corretta da GBOT. |
 | G-10 | 338 | C 289 | simbolo | `resistenza a taglio VR si valuta` | `resistenza a taglio $V_R$ si valuta` | La fonte stampa V con pedice R; il Markdown ha «VR» in testo semplice. Non segnalato da Codex. Motore: GBOT (controllo sulla fonte). |
 
-## Dubbi (proposta: lasciare il testo com’è)
+## Dubbi (decisione di Sandro del 18/10/2026, 16:15: testo invariato)
 
 | ID | Riga | Pagina | Punto | Proposta |
 |---|---|---|---|---|
