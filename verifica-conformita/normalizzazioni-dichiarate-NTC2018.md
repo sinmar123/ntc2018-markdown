@@ -54,6 +54,12 @@ Emerse dal G6 del § 8.5. Anche qui nessuna parola, cifra o grandezza cambia. Da
 23. **Maiuscoletto.** Il maiuscoletto della fonte, per esempio nelle rubriche della Circolare, si rende con lettere maiuscole.
 24. **Trattino ripetuto in una cella vuota.** In una cella di tabella senza valore, il trattino che la fonte ripete su ogni riga di testo della cella si rende con un solo trattino. Caso noto: Tab. C8.5.I, colonna fv0.
 
+## Ammesse dal 18/10/2026, decise da Sandro
+
+Emersa dal G6 del § 8.7.1. Nessuna parola, cifra o grandezza cambia. Vale per gli scope nuovi e per le correzioni successive; le VC chiuse con la convenzione precedente («[n]» nel testo e «**Nota n.**» davanti alla nota) restano valide sul loro snapshot fino al riallineamento annotato nel TODO del progetto.
+
+25. **Note a piè di pagina.** Il richiamo di nota che la fonte stampa in apice nel testo corrente si scrive come nota a piè di pagina Markdown `[^n]`, con lo stesso numero della fonte; il testo della nota si scrive come definizione `[^n]: …` subito dopo il capoverso che contiene il richiamo, senza la parola «Nota» e senza altre parole, con le enfasi della fonte. Nel PDF prodotto da `strumenti/render-capitolo.py` il richiamo esce in apice con il numero della fonte e la nota a piè di pagina; i viewer che rinumerano le note in ordine di comparsa, per esempio GitHub, possono mostrare un numero diverso, ma l'etichetta nel Markdown resta quella della fonte. Non riguarda i richiami nelle testate di tabella, che seguono il § 2 della procedura, né i rinvii alle annotazioni redazionali. Caso noto: nota 4 del § C8.7.1.3.2, p. fisica 281 della Circolare.
+
 ## Cronologia delle decisioni
 
 | Data | Chi | Che cosa |
@@ -63,3 +69,4 @@ Emerse dal G6 del § 8.5. Anche qui nessuna parola, cifra o grandezza cambia. Da
 | 2026-08-06 | Sandro | voci 5, 6 e 9: punti di moltiplicazione, accorpamenti, punteggiatura delle didascalie |
 | 2026-08-06 | Sandro | voci 13-18, sui sei criteri di resa emersi da G2 e G4 del § 3.3 |
 | 2026-10-14 | Sandro | decisioni della VC del § 8.5, rese generali dalla revisione 8 il 2026-10-15: voce 1 precisata (i capoversi si conservano), voci 19-24 |
+| 2026-10-18 | Sandro | voce 25, decisa nella VC del § 8.7.1: note a piè di pagina come nota Markdown `[^n]`, con numero, testo ed enfasi della fonte e senza la parola «Nota» |

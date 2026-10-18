@@ -212,7 +212,7 @@ class SupportoTest(unittest.TestCase):
         self.assertNotIn("AF-3.3-", canone)
         self.assertNotIn("C4.1.10", canone)
         import re
-        self.assertEqual(len(re.findall(r"(?m)^\d+\. ", canone)), 24)
+        self.assertEqual(len(re.findall(r"(?m)^\d+\. ", canone)), 25)  # voce 25, note [^n], 2026-10-18
 
     def test_usage_uses_last_counter_and_excludes_parent(self):
         for sid, source in (("child", {"subagent": {"thread_spawn": {"agent_path": "/root/prova"}}}), ("parent", "cli")):

@@ -89,6 +89,15 @@ def rendi(sorgente: Path, destinazione: Path) -> None:
         immagine_limitata,
         testo_render,
     )
+    # Note a piè di pagina Markdown `[^n]` (catalogo, voce 25): LaTeX numera le
+    # note da 1, mentre la fonte stampa il proprio numero (per esempio 4 nel
+    # § C8.7.1.3.2). Nella sola copia di render si allinea il contatore al numero
+    # dell'etichetta, così il PDF canonico stampa lo stesso apice della Gazzetta.
+    testo_render = re.sub(
+        r"\[\^(\d+)\](?!:)",
+        lambda m: f"\\setcounter{{footnote}}{{{int(m.group(1)) - 1}}}[^{m.group(1)}]",
+        testo_render,
+    )
     sorgente_render = sorgente
     temporaneo = None
     if testo_render != testo:
@@ -118,6 +127,12 @@ def rendi(sorgente: Path, destinazione: Path) -> None:
         str(preambolo),
         "-V",
         "geometry:margin=2cm",
+        # Le rubriche di livello 4 e 5 (\paragraph e \subparagraph) sono
+        # «run-in» nella classe article: senza questa variabile il capoverso
+        # seguente parte sulla stessa riga della rubrica, mentre la Gazzetta le
+        # stampa su riga propria. Decisione di Sandro del 2026-10-18 (G6 § 8.7.1).
+        "-V",
+        "block-headings",
         "--resource-path",
         str(sorgente.parent),
     ]
