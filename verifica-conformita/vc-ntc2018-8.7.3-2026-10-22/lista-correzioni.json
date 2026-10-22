@@ -1,0 +1,28 @@
+[
+ {
+  "id": "F-01",
+  "file": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+  "attuale": "### C8.7.3. Costruzioni miste",
+  "proposto": "### C8.7.3 COSTRUZIONI MISTE",
+  "pagina": "Circolare fisica 289",
+  "classe": "ERR-MD",
+  "effetto": "forma",
+  "categoria": "rubrica",
+  "decisione": "da decidere da Sandro, lista v1",
+  "trovata_da": "CDX-terra (T-01); confermata GBOT",
+  "nota": "Numero senza punto finale; titolo in maiuscoletto, reso in maiuscolo (catalogo, voce 23). Dopo l’applicazione l’indice interno va rigenerato con genera-indici-interni.py. Fonte: rubrica a p. 289, y 459,8 pt. Motore: Codex gpt-5.6-terra (confronto integrale), verificata da GBOT."
+ },
+ {
+  "id": "F-02",
+  "file": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+  "attuale": "sia favorevole. L’analisi statica non lineare",
+  "proposto": "sia favorevole.\n\nL’analisi statica non lineare",
+  "pagina": "Circolare fisica 289",
+  "classe": "ERR-MD",
+  "effetto": "forma",
+  "categoria": "capoverso",
+  "decisione": "da decidere da Sandro, lista v1",
+  "trovata_da": "CDX-terra (T-02); confermata GBOT e da vc-struttura-fonte.py",
+  "nota": "La fonte va a capo e apre un nuovo capoverso (p. 289, y 549,3 pt, criterio interlinea); la voce 1 del catalogo non copre l’unione dei capoversi. Motore: Codex gpt-5.6-terra (confronto integrale), verificata da GBOT."
+ }
+]
