@@ -1,0 +1,49 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "motivo": "Procedura VC-NTC/10, § 9, e dichiarazione nel verbale: il log del G7 tentativo 4 non poteva stare nel manifest che quel G7 ha verificato; la sua copia ripulita è aggiunta dopo il giudizio (KO), con questo indice separato.",
+  "metodo": "come log-g7/indice.json (ripulitura-log.py)",
+  "letture_esterne_del_verificatore": "nessuna: nel tentativo 4 nessun comando del verificatore apre file fuori dalla cartella del G7; AGENTS.md del workspace non letto",
+  "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
+  "log": [
+    {
+      "copia": "log-g7/g7-tentativo-4-log.txt",
+      "tentativo_g7": 4,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t4-out/G7-log.txt",
+      "sha256_originale": "d9e2c7b5f4059fa013556e6707ceb4f053ecd4f730e42b763ceccc9c11716d9c",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 795988,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "56a55c15f3b4c758a8e6e2c1220e3b48652dfd2905afd06e201a7e348add9f0c",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 15
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 14
+        }
+      ],
+      "sha256_copia_ripulita": "0b2260b2e3a29deb47a61700bf61aeb251524e5b448010cb436a3ff3ae71a7e0",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 397981,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16323-6bf4-7bb2-b050-dfcd81e94ba6",
+        "token": "130.412"
+      },
+      "impronta_originale_gia_dichiarata": "G7-tentativo-4-esecuzione.json, log_sha256"
+    }
+  ]
+}

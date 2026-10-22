@@ -18,9 +18,9 @@ snapshot_sha256: 1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f0
 giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
-attesa_decisione: []
-prossimo_passo: "G7 tentativo 4 con Codex gpt-6.1-sol, poi registrazione."
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
+attesa_decisione: [G7-AUDIT-06, G7-AUDIT-07, G7-AUDIT-08]
+prossimo_passo: "Decisione di Sandro sui rilievi G7-AUDIT-06, 07 e 08 del G7 tentativo 4."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -129,3 +129,15 @@ Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 3 KO.
 - Manifest del tentativo 3 conservato come `manifest-rilascio-g7-tentativo-3.json`; manifest, verbale e piano di registrazione rigenerati. `giro_g6` resta 1.
 
 Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4.
+
+## G7 tentativo 4, KO
+
+Il 2026-10-22, dalle 12:23 alle 12:29 (ora di Roma), CDX con Codex gpt-6.1-sol (ragionamento high, sandbox read-only, contesto nuovo, 130.412 token letti dal log in UTF-16) ha giudicato KO il G7 sul manifest 1b3684d6a6314861362e169e1930f5e2cf624ef1afd9d55fc64a1aa7c18a9048. Il verificatore non ha aperto file fuori dalla cartella, AGENTS.md compreso. G7-AUDIT-01..05 risultano risolti. Gate G6 e G7 giudicati KO per tre rilievi nuovi:
+
+- G7-AUDIT-06 (ERR-AUDIT): nel G6 tentativo 2, fase 2, il verificatore ha letto la documentazione dei plugin di Codex, fuori dal blocco, mentre istruzioni e coordinatore lo vietavano; rapporto G6 e verbale attestano un confronto svolto solo sui materiali del blocco. Per il § 7 della procedura la lettura vietata invalida il blocco.
+- G7-AUDIT-07 (ERR-AUDIT): i log del G6 tentativo 2 non dimostrano la lettura visiva integrale delle pagine (misure di pixel, estrazioni di testo e font, una «lettura visiva» stampata come stringa letterale dal comando).
+- G7-AUDIT-08 (ERR-AUDIT): le autorizzazioni di Sandro ai rilanci dei G7 tentativi 2, 3 e 4 sono citate senza l'ora della decisione.
+
+Il giudizio è in `vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-4-KO.json`, l'esecuzione in `G7-tentativo-4-esecuzione.json`, la copia ripulita del log in `log-g7/g7-tentativo-4-log.txt` con `log-g7/indice-post-g7.json`. Nessun rilancio, nessuna registrazione: serve la decisione di Sandro. G7-AUDIT-06 e G7-AUDIT-07 toccano la validità del G6 e non sono correzioni documentali.
+
+Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4 KO.
