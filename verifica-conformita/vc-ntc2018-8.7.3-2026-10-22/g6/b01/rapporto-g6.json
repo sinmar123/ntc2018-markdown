@@ -1,0 +1,50 @@
+{
+  "firma": "CDX, Codex GPT-6",
+  "esito": "KO",
+  "coperti": [
+    "NTC-873-RUB",
+    "NTC-873-P1",
+    "NTC-873-L1",
+    "NTC-873-L2",
+    "NTC-873-L3",
+    "NTC-873-P2",
+    "CIRC-873-RUB",
+    "CIRC-873-P1",
+    "CIRC-873-P2"
+  ],
+  "normalizzazioni": [1, 21, 23],
+  "rilievi": [
+    {
+      "id": "G6-AUDIT-01",
+      "elementi": [
+        "CIRC-873-RUB",
+        "CIRC-873-P1",
+        "CIRC-873-P2"
+      ],
+      "pagina": "circ:289",
+      "posizione": "inventario.json: riferimenti dei tre elementi della Circolare ed esclusione da C8.7.4",
+      "prova": "Le coordinate congelate sono errate. Nell'immagine nativa 1653×2339, C8.7.3 e i suoi due capoversi sono interamente contenuti nel rettangolo x=190–1470, y=1270–1675. Il rettangolo attribuito alla rubrica, y=1085–1110, individua invece C8.7.2.4.5; quello attribuito al secondo capoverso, y=1304–1445, ricade nel primo. L'esclusione da y=1460 comprende ancora testo di C8.7.3. Verifica visiva mediante ritaglio in memoria senza ricampionamento di fonte-circ-289.png.",
+      "classe_proposta": "ERR-AUDIT"
+    }
+  ],
+  "attestazione": "Confrontati integralmente tutti gli elementi mediante le pagine fonte, testo.md e l'unica pagina di resa-finale.pdf, anche nella resa visiva. Verificati parole, punteggiatura, rubriche, enfasi, capoversi, appartenenza delle tre voci all'elenco e condizioni espresse nella prosa. Nessuna difformità del corpus rilevata. Il KO riguarda la localizzazione nell'inventario congelato, non la trascrizione. Manifest e congelamento verificati conformi.",
+  "letture": [
+    "ISTRUZIONI-V.md",
+    "PERIMETRO.md",
+    "canone.md",
+    "input-fonte.json",
+    "fonte-ntc-298.png",
+    "fonte-circ-289.png",
+    "congelamento.json",
+    "inventario.json",
+    "input-confronto.json",
+    "testo.md",
+    "resa-finale.pdf"
+  ],
+  "isolamento": {
+    "ambito": "Documenti letti esclusivamente nella cartella del blocco; target consultato dopo il via.",
+    "sandbox": "Sola lettura; nessun file scritto o modificato. Resa PDF e ritagli elaborati in memoria.",
+    "limiti_prove": "Fonti consegnate come PNG a circa 200 dpi; PDF ufficiali e dettagli fonte a 600 dpi non disponibili. Nessuna adjudicazione su glifi controversi.",
+    "arresto": "Fase G6 conclusa; nessuna attività G7."
+  }
+}

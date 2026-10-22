@@ -1,0 +1,57 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "lista_file": "lista-file.json",
+  "target_composto": "g5/target-scope-corretto.md",
+  "target_composto_sha256": "a8a04a8be56df6e80044514439cc559ca610569ac77aa8c0fb0f12e01dd2a765",
+  "testo_depurato": "g5/testo-depurato.md",
+  "testo_depurato_sha256": "d6485ea325abbd2a4cb7fa8204e7bab9410fe3c094a6bbb939d707e2effbb2ce",
+  "righe_depurate": 17,
+  "pagine": {
+    "ntc": [
+      298
+    ],
+    "circolare": [
+      289
+    ],
+    "totale": 2
+  },
+  "limiti_condivisi": [
+    "NTC 298: il perimetro va dalla rubrica 8.7.3 a prima della rubrica 8.7.4 (pagina 299)",
+    "Circolare 289: il perimetro va dalla rubrica C8.7.3 a prima della rubrica C8.7.4"
+  ],
+  "blocchi_primari": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:298",
+        "circ:289"
+      ],
+      "righe": [
+        [
+          1,
+          17
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 8.7.3 a prima della rubrica 8.7.4; sulla pagina 298 è escluso quanto precede 8.7.3. Circolare: dalla rubrica C8.7.3 a prima della rubrica C8.7.4; sulla pagina 289 è escluso quanto precede C8.7.3 e quanto segue da C8.7.4."
+    }
+  ],
+  "controlli": {
+    "righe_coperte_una_volta": true,
+    "pagine_assegnate_una_volta": true,
+    "lacune": [],
+    "sovrapposizioni": [],
+    "candidati_non_decisi": 0,
+    "indici_interni": "genera-indici-interni.py --applica --verifica: 311 file, 1754 collegamenti interni, corpi invariati",
+    "lint_registro": "0 errori, 7 avvisi preesistenti"
+  },
+  "resa": {
+    "file": "g5/resa-finale.pdf",
+    "sha256": "e1779df3e4ead0aa613eb447cbb67c672236f187ef897a12c1f2796c976407ff",
+    "bytes": 13946,
+    "pagine": 1,
+    "sorgente": "g5/testo-depurato.md",
+    "strumento": "strumenti/render-capitolo.py"
+  }
+}

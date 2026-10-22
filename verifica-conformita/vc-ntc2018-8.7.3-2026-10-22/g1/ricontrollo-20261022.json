@@ -1,0 +1,12 @@
+{
+  "data": "2026-10-22",
+  "firma": "GBOT-verifica-ntc",
+  "tipo": "ricontrollo mirato G1 (ricognizione piena 2026-10-13 riusata, entro trenta giorni)",
+  "schede_gu": {
+    "ntc-atto.html": "56a736a2999bc7954b09f00e2dc72ace79b04c39a5f0f7611b790fd1ec1757c3",
+    "circolare-atto.html": "99a976eec32fd8e5f60d450998a42b2c0dfc5dd09458f3582c495f5069a29b7e",
+    "dm2023-atto.html": "e997d162dd4944f312611a93b832d335f89014d118678522af4ac65434ebad1a"
+  },
+  "confronto": "schede scaricate il 2026-10-22 byte per byte identiche a quelle del 2026-10-18 (dossier 8.7.2, g1/): nessun avviso di rettifica o modifica nuovo",
+  "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=AAAA-MM-GG&atto.codiceRedazionale=18A00716 | 19A00855 | 23A01847"
+}
