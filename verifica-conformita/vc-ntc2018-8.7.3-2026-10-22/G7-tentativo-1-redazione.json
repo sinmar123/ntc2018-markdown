@@ -1,0 +1,24 @@
+{
+  "file": "G7-tentativo-1-KO.json",
+  "sha256_originale": "62ea8b75791aeada55d09b44c1a26070fbd0eb00c8dca4bf72bd0c756135ae2c",
+  "sha256_pubblicato": "ea5b1b1a5496fa8ab59eaadc6725881d75461d6a9ae8304625bfc7256e30f005",
+  "redazione": "Percorso locale dell'AGENTS.md del workspace sostituito con <workspace>/AGENTS.md; nessun'altra differenza.",
+  "esecuzione": {
+    "tentativo": 1,
+    "motore": "Codex CLI",
+    "modello_richiesto": "gpt-6.1-sol",
+    "modello_dal_log": "gpt-6.1-sol",
+    "ragionamento": "high",
+    "sandbox": "read-only, senza --always-approve",
+    "contesto": "nuovo",
+    "inizio": "2026-10-22T08:11:35+02:00",
+    "termine": "2026-10-22T08:14:16+02:00",
+    "token": "67.227",
+    "letture_fuori_cartella": "AGENTS.md del workspace, istruzione preliminare del runtime (dichiarato da V)"
+  },
+  "causa_accertata_da_C": {
+    "G7-AUDIT-01": "I log di Codex scritti da PowerShell sono in UTF-16: lo script di C li ha letti come UTF-8 e non ha trovato le righe «model:» e «tokens used», scrivendo «non letto» e «non disponibile» in sequenza-g6.json. Riletti in UTF-16, i log del tentativo 2 riportano model: gpt-5.6-terra in entrambe le fasi (54.208 e 117.962 token). Il rilievo è fondato sul documento.",
+    "G7-AUDIT-02": "Fondato: il verbale non riporta gli URL degli atti e ricontrollo-g1-20261022.json dà un modello di URL, come nel dossier di 8.7.2."
+  },
+  "rilancio": "nessuno: decisione di Sandro richiesta (procedura § 8 e regola del coordinatore)"
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "8.7.3",
+  "agente": "GBOT",
+  "data": "2026-10-22",
+  "g7": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7.json",
+  "g7_sha256": "DA_COMPILARE_DOPO_IL_G7",
+  "manifest": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json",
+  "manifest_sha256": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+  "verbale": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md",
+  "verbale_sha256": "82d1db90ad0fa9520a17b7fd5bc8b119f3a1c2e9de4b7ad818f31f69850715bf",
+  "nota": "VC-OK del solo file cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3, NTC 298 e Circolare 289. C GBOT-verifica-ntc: lista v1 di 2 voci di forma approvata da Sandro, G5, giudizio dei rilievi del G6. CDX Codex gpt-5.6-terra: confronto iniziale e G6 giro 1 (tentativo 1 annullato, fase 2 con gpt-6-astra; tentativo 2 con un rilievo non fondato chiuso da Sandro). CDX Codex gpt-6.1-sol: G7.",
+  "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+  "procedura_vc": "VC-NTC/10",
+  "master_non_pertinente": "Nessun registro master nel worktree: lo stato operativo resta il CSV del progetto.",
+  "modifiche": [
+    {
+      "path": "README.md",
+      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**",
+      "dopo": "**§ 8.7.3 con C8.7.3, registrato VC-OK, 2026-10-22:** VC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**"
+    },
+    {
+      "path": "TODO.md",
+      "prima": "## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc",
+      "dopo": "## Completato 2026-10-22 - VC § 8.7.3 con C8.7.3, GBOT-verifica-ntc e CDX\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "prima": "## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc",
+      "dopo": "## 2026-10-22 - VC-OK del § 8.7.3 con C8.7.3, GBOT-verifica-ntc e CDX\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc"
+    },
+    {
+      "path": "indice-ntc2018.md",
+      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**",
+      "dopo": "**§ 8.7.3 con C8.7.3, VC-OK registrato il 2026-10-22:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/).\n\n**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**"
+    },
+    {
+      "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2",
+      "dopo": "## 2026-10-22 - VC-OK del § 8.7.3 con C8.7.3\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2"
+    },
+    {
+      "path": "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
+      "prima": "Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7.\n",
+      "dopo": "Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7.\n\n## Chiusura 2026-10-22\n\nG7 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `OK`, gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json`, snapshot `1a400982…d4f08` (`vc-ntc2018-8.7.3-2026-10-22/G7.json`). Riga 8.7.3 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.3-2026-10-22.md).\n\nFirma: GBOT-verifica-ntc, 2026-10-22.\n"
+    }
+  ]
+}
