@@ -32,6 +32,16 @@
       "sha256": "197f51ce21509088934e7521f5afc2db6b0a373bb46bb09d6d90f1a0e47a1564"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-KO.json",
+      "bytes": 3097,
+      "sha256": "f0482d771eb21159c83d09d204704ba7f8128e418140d68481a4f93472d7ad57"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-esecuzione.json",
+      "bytes": 1059,
+      "sha256": "634b1b29fab744bf1635c1e9f3b188fc422b6a28c3a6f7481cb0c49332959711"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md",
       "bytes": 8671,
       "sha256": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48"
@@ -267,9 +277,39 @@
       "sha256": "cd950d4586574f1fde522a4b6e1bc2a2ecaaddac98de2eb8afbd935d757b8277"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-1-annullato-fase1-log.txt",
+      "bytes": 23154,
+      "sha256": "0909e0bd6ef6cf4e5e06014db510496d371f985c90cbfcfaa6f6812891995a5c"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-1-annullato-fase2-log.txt",
+      "bytes": 623707,
+      "sha256": "78748d5ff37fe176002347653accdf5a672d57d19be0e78a574d503390a6a4b4"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase1-log.txt",
+      "bytes": 34629,
+      "sha256": "83cf9d5443d9b0ecac0231859592bd35bbebaba82464267e6375e534f4c2db55"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase2-log.txt",
+      "bytes": 94518,
+      "sha256": "80de8eca9c69efce5086ce68315279892f6fcdcdfa869bb9702457a51202756e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/indice.json",
+      "bytes": 6635,
+      "sha256": "12d3d6d79012c6927c946a3ba755459d97187183a62e16cd01c7eeb1016accd3"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json",
       "bytes": 12656,
       "sha256": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-2.json",
+      "bytes": 13513,
+      "sha256": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json",
@@ -303,8 +343,8 @@
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/rettifica-g7-audit-01-20261022.json",
-      "bytes": 3632,
-      "sha256": "8cceb1de0f5d802952fccd1398f85e0bfaaf43651f48b4aa051ce127ae6972ad"
+      "bytes": 3902,
+      "sha256": "bc4bda7baa412cfbe8e97e40e47e8b19d5a2dd29b4775ab4c6b8d7f036d18c8d"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-1-annullato.json",
@@ -318,8 +358,8 @@
     },
     {
       "path": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md",
-      "bytes": 8608,
-      "sha256": "97acb48a536bcbd4d3924bf6f90a1c039a265ebb3644eebf13e5eb55601e9a44"
+      "bytes": 9411,
+      "sha256": "01b6a3cb94f8de74738949b0e5b9ffbcff25448fe3d08441d0db8eb00944e3e5"
     }
   ]
 }

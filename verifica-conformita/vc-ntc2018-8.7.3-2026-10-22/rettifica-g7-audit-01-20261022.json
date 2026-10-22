@@ -84,5 +84,9 @@
   },
   "causa": "I log, redirezionati da PowerShell con *>, sono in UTF-16 LE; lo script di C li leggeva come UTF-8 e non trovava le righe «model:» e «tokens used». Gli script di C ora leggono il BOM e decodificano UTF-16 (funzione leggi_log). Nessuno strumento del repository era coinvolto.",
   "file_originali": "non riscritti: sequenza-g6.json e sequenza-g6-tentativo-1-annullato.json restano come registrati; vale questa rettifica",
-  "effetti": "nessuno su target, copertura, inventari, rapporti o giudizi del G6"
+  "effetti": "nessuno su target, copertura, inventari, rapporti o giudizi del G6",
+  "copie_dei_log": {
+    "indice": "log-g6/indice.json",
+    "aggiunto": "2026-10-22, rilievo G7-AUDIT-03: copie ripulite dei quattro log citati in fonte_dei_valori, con le impronte degli originali e delle copie; gli altri campi di questa rettifica sono invariati"
+  }
 }

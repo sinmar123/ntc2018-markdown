@@ -19,8 +19,8 @@ giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
 gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
-attesa_decisione: [G7-AUDIT-03]
-prossimo_passo: "Decisione di Sandro su G7-AUDIT-03 (log citati dalla rettifica fuori dal manifest)."
+attesa_decisione: [G7-AUDIT-04, G7-AUDIT-05]
+prossimo_passo: "Decisione di Sandro su G7-AUDIT-04 (log del G7 tentativo 2 fuori dal manifest) e G7-AUDIT-05 (percorso di sistema di PowerShell nelle copie dei log)."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -103,3 +103,21 @@ Il 2026-10-22, dalle 10:11 alle 10:14 (ora di Roma), CDX con Codex gpt-6.1-sol (
 Il giudizio è in `vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-KO.json`, l'esecuzione in `G7-tentativo-2-esecuzione.json`. Nessun rilancio, nessuna registrazione: serve la decisione di Sandro.
 
 Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 2 KO.
+
+## Rettifica G7-AUDIT-03 e lotto G7 tentativo 3, 2026-10-22
+
+- Sandro: «Sì, aggiungi i log e rifai il G7 con Sol». I quattro log di Codex citati da `rettifica-g7-audit-01-20261022.json` sono nel dossier in `vc-ntc2018-8.7.3-2026-10-22/log-g6/`, copie UTF-8 con i percorsi locali sostituiti da segnaposto; `log-g6/indice.json` riporta le impronte degli originali e delle copie e le sostituzioni. Nella rettifica è stato aggiunto solo il campo `copie_dei_log`.
+- Manifest del tentativo 2 conservato come `manifest-rilascio-g7-tentativo-2.json`; manifest, verbale e piano di registrazione rigenerati. `giro_g6` resta 1.
+
+Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 3.
+
+## G7 tentativo 3, KO
+
+Il 2026-10-22, dalle 10:53 alle 10:57 (ora di Roma), CDX con Codex gpt-6.1-sol (ragionamento high, sandbox read-only, contesto nuovo, 80.227 token letti dal log in UTF-16) ha giudicato KO il G7 sul manifest 7f1bc9eb9e4cc3bfaeb58437df98a039d02620c998903bc80fb7dc5cacbd5146. G7-AUDIT-01, G7-AUDIT-02 e G7-AUDIT-03 risultano risolti. Restano due rilievi nuovi:
+
+- G7-AUDIT-04 (ERR-AUDIT): `G7-tentativo-2-esecuzione.json` cita il log del G7 tentativo 2 (sha256 7535ab28…c309), che non è nel manifest.
+- G7-AUDIT-05 (ERR-AUDIT): le quattro copie in `log-g6/` conservano il percorso assoluto di sistema dell'eseguibile PowerShell (cartella Windows), una riga per copia.
+
+Il giudizio è in `vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-3-KO.json`, l'esecuzione in `G7-tentativo-3-esecuzione.json`. Nessun rilancio, nessuna registrazione: serve la decisione di Sandro.
+
+Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 3 KO.
