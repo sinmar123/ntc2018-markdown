@@ -19,7 +19,7 @@
     {
       "path": "congelamento.json",
       "bytes": 427,
-      "sha256": "ea8b576cc0a30f715cff08b2c0763f21d3a4f44b72833e94f58d252b77fa41e6"
+      "sha256": "ccc1cc08a131776ff4620f451668bed4b3de0464448c1a5dfb723079cfac16b8"
     },
     {
       "path": "fonte-circ-289.png",
@@ -38,8 +38,8 @@
     },
     {
       "path": "inventario.json",
-      "bytes": 2123,
-      "sha256": "2024e0c00dff34c8cb5fe5bcdb329bf0bd30e2e673f26468418ff079f48ab908"
+      "bytes": 1985,
+      "sha256": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9"
     },
     {
       "path": "resa-finale.pdf",

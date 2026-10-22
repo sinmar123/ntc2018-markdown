@@ -1,0 +1,22 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "gate": "G6",
+  "esito": "KO",
+  "giro": 1,
+  "blocchi": 1,
+  "id_coperti": 9,
+  "err_md": 0,
+  "err_audit": 1,
+  "dubbio": 0,
+  "giudizio_c": {
+    "G6-AUDIT-01": "fondato come errore documentale dell'inventario congelato: le coordinate in pixel dei tre elementi della Circolare (rubrica a y=1085-1110 della pagina a 200 dpi) non corrispondono a C8.7.3, che nella fonte comincia a y 459,8 pt, cioè circa 1277 px a 200 dpi (livello vettoriale); le coordinate della Norma sono coerenti (8.7.3 a 574,1 pt, circa 1595 px). V attesta il confronto integrale di tutti i 9 elementi e nessuna difformità del corpus. Target, copertura per ID e giudizio normativo invariati: è il caso del § 8 «errore solo documentale», ma la chiusura resta a Sandro."
+  },
+  "scostamenti": [
+    "fase 2 eseguita con gpt-6-astra invece di gpt-5.6-terra (resume senza -m)"
+  ],
+  "g7": "NON_ESEGUITO",
+  "motivazione_g7": "PROCEDURA-VC rev. 10: G7 solo con G6 a zero ERR-MD, zero ERR-AUDIT e zero DUBBIO.",
+  "decisione_richiesta": "Sandro decide su G6-AUDIT-01 (rettifica documentale delle coordinate dell'inventario senza nuovo G6, oppure altro) e sullo scostamento di modello della fase 2."
+}

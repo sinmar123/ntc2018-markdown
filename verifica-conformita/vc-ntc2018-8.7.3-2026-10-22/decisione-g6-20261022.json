@@ -1,0 +1,20 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "decisione": {
+    "decisore": "Sandro",
+    "data_ora": "2026-10-22T07:48:00+02:00",
+    "testo": "«Rifai il G6 con Terra da capo, poi G7 con Sol»"
+  },
+  "oggetto": "G6 giro 1, tentativo 1, annullato: fase 2 eseguita con gpt-6-astra invece di gpt-5.6-terra (ripresa senza -m) e rilievo G6-AUDIT-01 (coordinate errate dell'inventario per la Circolare). Nessuna rettifica dell'inventario congelato: G6 rifatto per intero, fase 1 e fase 2, alla cieca in un contesto nuovo, con gpt-5.6-terra, sullo stesso snapshot e con la stessa configurazione.",
+  "tentativo_1": {
+    "cartella": "g6-tentativo-1-annullato/b01",
+    "sequenza": "sequenza-g6-tentativo-1-annullato.json",
+    "esito": "esito-g6-tentativo-1-annullato.json",
+    "rapporto_sha256": "2bcfb22da868aa7f1a29371d0c0df18ba0428dcbf380d3e5bb9b00c2df993b90"
+  },
+  "contatore": "giro_g6 resta 1: la procedura (§ 8) prevede che il recupero dei blocchi invalidi sul medesimo snapshot completi il giro corrente senza incrementare il contatore; il tentativo annullato resta registrato.",
+  "g7": "con gpt-6.1-sol, solo se il nuovo G6 è a zero ERR-MD, zero ERR-AUDIT e zero DUBBIO",
+  "controllo_modello": "-m gpt-5.6-terra -c model_reasoning_effort=high a ogni invocazione, ripresa compresa; sandbox read-only (-s per exec; per resume, che non accetta -s, -c sandbox_mode=\"read-only\"); modello effettivo letto dal log di ogni invocazione"
+}

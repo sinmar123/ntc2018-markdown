@@ -18,8 +18,8 @@ giro_g6: 1
 max_giri: 3
 rilievi_aperti: 1
 gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: attesa}
-attesa_decisione: [G6-AUDIT-01, scostamento di modello della fase 2 del G6]
-prossimo_passo: "Decisione di Sandro su G6-AUDIT-01 e sullo scostamento di modello; nessun G7 prima di G6 a zero."
+attesa_decisione: [NTC-873-CONDIZIONE del G6 giro 1 tentativo 2]
+prossimo_passo: "Decisione di Sandro sul rilievo NTC-873-CONDIZIONE; nessun G7 prima di G6 a zero."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -59,5 +59,13 @@ Firma: GBOT-verifica-ntc, 2026-10-22.
 - Fase 1 (07:40-07:42) Codex gpt-5.6-terra, high, read-only, contesto nuovo: inventario di 9 elementi; `valida-inventario`, `rivela` e `verifica-pacchetto` OK.
 - Fase 2 (07:42-07:44) nello stesso contesto con `codex exec resume`: **scostamento**, la ripresa senza `-m` ha usato il modello predefinito gpt-6-astra. `valida-g6`: schema OK, 9 ID coperti, 1 rilievo.
 - Esito **KO**: 0 `ERR-MD`, 1 `ERR-AUDIT`, 0 `DUBBIO`. G6-AUDIT-01: coordinate in pixel dell'inventario errate per i tre elementi della Circolare; V attesta il confronto integrale e nessuna difformità del corpus. C lo giudica errore documentale fondato (`esito-g6.json`). G7 non avviato.
+
+Firma: GBOT-verifica-ntc, 2026-10-22.
+
+## G6 giro 1, tentativo 2, 2026-10-22
+
+- **07:48:** Sandro decide «Rifai il G6 con Terra da capo, poi G7 con Sol». Tentativo 1 annullato (fase 2 con gpt-6-astra, G6-AUDIT-01), conservato in `g6-tentativo-1-annullato/` con `sequenza-g6-tentativo-1-annullato.json` ed `esito-g6-tentativo-1-annullato.json` (`decisione-g6-20261022.json`). `giro_g6` resta 1 (§ 8: recupero sullo stesso snapshot).
+- Nuovo `prepara` con la stessa configurazione. Fase 1 (07:49-07:54) e fase 2 (07:55-07:57) con Codex gpt-5.6-terra, high, read-only, contesto nuovo e poi ripreso; modello letto nel log di entrambe le fasi. `valida-inventario`, `rivela`, `verifica-pacchetto` OK; `valida-g6`: schema OK, 6 ID coperti, 1 rilievo.
+- Esito **KO**: 1 `ERR-MD`, 0 `ERR-AUDIT`, 0 `DUBBIO`. NTC-873-CONDIZIONE: V legge «Per tale situazione» all'inizio del capoverso conclusivo di 8.7.3. C lo giudica non fondato: la fonte stampa «Per queste situazioni» (livello vettoriale e ritaglio a 600 dpi in `prove-c/`). G7 non avviato; decisione a Sandro.
 
 Firma: GBOT-verifica-ntc, 2026-10-22.

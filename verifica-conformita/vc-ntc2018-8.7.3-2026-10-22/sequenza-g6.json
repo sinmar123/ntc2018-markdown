@@ -3,32 +3,32 @@
   "scope": "8.7.3",
   "data": "2026-10-22",
   "giro_g6": 1,
+  "tentativo": 2,
+  "decisione": "decisione-g6-20261022.json",
   "configurazione_valida": {
     "file": "config-g6.json",
     "sha256": "e2c1b3b0c38314ed959b3c8027a6259dc0f0b91294f313826802f6288d40a549",
-    "destinazione_locale": "<temp>/ntc2018-g6-8.7.3-261022-gbot"
+    "destinazione_locale": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2"
   },
   "fasi": {
-    "fase_1_inventario": "07:40-07:42 (ora di Roma), b01, contesto nuovo",
-    "valida_inventario": "OK (9 elementi, 2 pagine)",
+    "fase_1_inventario": "07:49-07:54 (ora di Roma), b01, contesto nuovo (sessione 01a16228-9cad-7d51-82f1-ed2b08ad47f6)",
+    "valida_inventario": "OK (6 elementi, 2 pagine)",
     "rivela": "integrità OK, 10 file; verifica-pacchetto OK",
-    "fase_2_confronto": "07:42-07:44 (ora di Roma), stesso contesto della fase 1 (codex exec resume, sessione 01a16220-67be-72b2-a868-f5729dc4b88c)",
-    "valida_g6": "{\"schema\": \"OK\", \"coperti\": 9, \"rilievi\": 1, \"esito_dichiarato_da_V\": \"KO\", \"giudizio_vc\": \"NON_EMESSO\"}"
+    "fase_2_confronto": "07:55-07:57 (ora di Roma), stesso contesto (codex exec resume con -m gpt-5.6-terra)",
+    "valida_g6": "{\"schema\": \"OK\", \"coperti\": 6, \"rilievi\": 1, \"esito_dichiarato_da_V\": \"KO\", \"giudizio_vc\": \"NON_EMESSO\"}"
   },
   "hash": {
-    "b01_inventario": "2024e0c00dff34c8cb5fe5bcdb329bf0bd30e2e673f26468418ff079f48ab908",
-    "b01_rapporto": "2bcfb22da868aa7f1a29371d0c0df18ba0428dcbf380d3e5bb9b00c2df993b90"
+    "b01_inventario": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+    "b01_rapporto": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55"
   },
   "profilo_v": {
     "motore": "Codex CLI",
-    "modello_fase_1": "gpt-5.6-terra (registrato nel log)",
-    "modello_fase_2": "gpt-6-astra (registrato nel log)",
+    "modello_fase_1": "non letto",
+    "modello_fase_2": "non letto",
     "ragionamento": "high",
-    "sandbox": "read-only, senza --always-approve",
-    "scostamento_modello": "Nella ripresa della fase 2 C non ha ripassato -m gpt-5.6-terra a codex exec resume: la CLI ha usato il modello predefinito gpt-6-astra nello stesso contesto. Non è Luna; non è il verificatore ordinario deciso da Sandro (Terra). Da decidere da Sandro.",
-    "indipendenza": "V non ha scritto la lista né visto il dossier o il confronto iniziale; C = GBOT-verifica-ntc, autore dell'applicazione con lo strumento",
-    "trascrizione": "In sandbox read-only V non può scrivere file: C ha trascritto byte per byte il messaggio finale JSON di V in inventario.json e rapporto-g6.json (stesse impronte del messaggio).",
-    "isolamento_dichiarato": "Letture dichiarate da V e comandi nel log solo nella cartella del blocco; ritagli e rese elaborati in memoria."
+    "sandbox": "read-only in entrambe le fasi (dal log); exec con -s read-only, resume con -c sandbox_mode=\"read-only\" perché resume non accetta -s",
+    "trascrizione": "C ha trascritto byte per byte il messaggio finale JSON di V in inventario.json e rapporto-g6.json.",
+    "indipendenza": "V non ha scritto la lista né visto dossier, confronto iniziale o tentativo 1"
   },
   "consumi_token": {
     "fase1": "non disponibile",
