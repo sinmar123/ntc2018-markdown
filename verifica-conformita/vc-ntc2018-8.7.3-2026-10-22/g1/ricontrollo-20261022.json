@@ -8,5 +8,16 @@
     "dm2023-atto.html": "e997d162dd4944f312611a93b832d335f89014d118678522af4ac65434ebad1a"
   },
   "confronto": "schede scaricate il 2026-10-22 byte per byte identiche a quelle del 2026-10-18 (dossier 8.7.2, g1/): nessun avviso di rettifica o modifica nuovo",
-  "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=AAAA-MM-GG&atto.codiceRedazionale=18A00716 | 19A00855 | 23A01847"
+  "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=AAAA-MM-GG&atto.codiceRedazionale=18A00716 | 19A00855 | 23A01847",
+  "url_consultati": {
+    "ntc-atto.html": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2018-02-20&atto.codiceRedazionale=18A00716",
+    "circolare-atto.html": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2019-02-11&atto.codiceRedazionale=19A00855",
+    "dm2023-atto.html": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2023-03-22&atto.codiceRedazionale=23A01847"
+  },
+  "url_eli": {
+    "D.M. 17/01/2018 (NTC)": "https://www.gazzettaufficiale.it/eli/id/2018/02/20/18A00716/sg",
+    "Circolare 21/01/2019 n. 7": "https://www.gazzettaufficiale.it/eli/id/2019/02/11/19A00855/sg",
+    "D.M. 9/03/2023": "https://www.gazzettaufficiale.it/eli/id/2023/03/22/23A01847/sg"
+  },
+  "rettifica": "2026-10-22, G7-AUDIT-02: aggiunti url_consultati (indirizzi esatti interrogati dallo script del ricontrollo) e url_eli (identificativi ELI già usati nel repository); il campo url resta come registrato"
 }

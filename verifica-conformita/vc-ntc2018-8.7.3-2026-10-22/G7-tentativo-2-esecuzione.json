@@ -1,0 +1,23 @@
+{
+  "file": "G7-tentativo-2-KO.json",
+  "sha256": "f0482d771eb21159c83d09d204704ba7f8128e418140d68481a4f93472d7ad57",
+  "redazione": "nessuna: il file è la trascrizione byte per byte del messaggio finale di V (V ha già scritto <workspace>/AGENTS.md)",
+  "esecuzione": {
+    "tentativo": 2,
+    "motore": "Codex CLI",
+    "modello_richiesto": "gpt-6.1-sol",
+    "modello_dal_log": "gpt-6.1-sol",
+    "lettura_log": "UTF-16 LE con BOM, decodificato",
+    "ragionamento": "high",
+    "sandbox": "read-only, senza --always-approve",
+    "contesto": "nuovo",
+    "sessione": "01a162aa-0f17-7ee0-94ec-32dfa685d253",
+    "inizio": "2026-10-22T10:11:12+02:00",
+    "termine": "2026-10-22T10:14:54+02:00",
+    "token": "79.544",
+    "log_sha256": "7535ab288c36129e47c79527ff43aba065d93a694e4608d3960cdd85ffa1c309",
+    "log": "fuori dal repository, nella cartella temporanea del W520"
+  },
+  "manifest_sha256_valutato": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
+  "rilancio": "nessuno: un G7 KO non si rilancia senza decisione di Sandro"
+}

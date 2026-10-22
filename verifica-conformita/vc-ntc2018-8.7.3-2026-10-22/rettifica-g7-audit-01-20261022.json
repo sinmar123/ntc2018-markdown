@@ -1,0 +1,88 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "tipo": "rettifica documentale (procedura VC-NTC/10, § 8: errore solo documentale con target, copertura e giudizi invariati; giro_g6 resta 1)",
+  "autorizzazione": {
+    "decisore": "Sandro",
+    "testo": "«Sì, correggi e rifai il G7 con Sol»",
+    "data": "2026-10-22"
+  },
+  "rilievo": "G7-AUDIT-01 (G7-tentativo-1-KO.json)",
+  "rettifica_di": {
+    "sequenza-g6.json": {
+      "sha256_invariato": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
+      "campi_errati": {
+        "profilo_v.modello_fase_1": "non letto",
+        "profilo_v.modello_fase_2": "non letto",
+        "consumi_token.fase1": "non disponibile",
+        "consumi_token.fase2": "non disponibile"
+      },
+      "valori_corretti": {
+        "modello_fase_1": "gpt-5.6-terra",
+        "modello_fase_2": "gpt-5.6-terra",
+        "token_fase_1": "54.208",
+        "token_fase_2": "117.962"
+      }
+    },
+    "sequenza-g6-tentativo-1-annullato.json": {
+      "sha256_invariato": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb",
+      "campi_errati": {
+        "consumi_token.fase1": "non disponibile",
+        "consumi_token.fase2": "non disponibile"
+      },
+      "valori_corretti": {
+        "modello_fase_1": "gpt-5.6-terra",
+        "modello_fase_2": "gpt-6-astra",
+        "token_fase_1": "43.968",
+        "token_fase_2": "97.981"
+      }
+    }
+  },
+  "fonte_dei_valori": {
+    "tentativo_2": {
+      "fase1": {
+        "modello": "gpt-5.6-terra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "token": "54.208",
+        "sessione": "01a16228-9cad-7d51-82f1-ed2b08ad47f6",
+        "log_sha256": "12e59ef5a28b5ddbd40a774c034a3d32651296381f3514a719d46bc9fe008120",
+        "codifica": "UTF-16 LE con BOM"
+      },
+      "fase2": {
+        "modello": "gpt-5.6-terra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "token": "117.962",
+        "sessione": "01a16228-9cad-7d51-82f1-ed2b08ad47f6",
+        "log_sha256": "3622ab0f6050792978555483aacb8420acd36ed7c340f58992761d8c42279b33",
+        "codifica": "UTF-16 LE con BOM"
+      }
+    },
+    "tentativo_1_annullato": {
+      "fase1": {
+        "modello": "gpt-5.6-terra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "token": "43.968",
+        "sessione": "01a16220-67be-72b2-a868-f5729dc4b88c",
+        "log_sha256": "a583e0f21b3f1745dc6f5bab053b0187c7dedd96e1e8f4fde63f89e6fadef871",
+        "codifica": "UTF-16 LE con BOM"
+      },
+      "fase2": {
+        "modello": "gpt-6-astra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "token": "97.981",
+        "sessione": "01a16220-67be-72b2-a868-f5729dc4b88c",
+        "log_sha256": "f8a1a529d54e58c4452492f6687894685f9e41e30b85701c94063c2f2bffc156",
+        "codifica": "UTF-16 LE con BOM"
+      }
+    },
+    "nota": "log locali di Codex CLI fuori dal repository (<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro e <temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro), riletti in UTF-16; impronte dei log riportate"
+  },
+  "causa": "I log, redirezionati da PowerShell con *>, sono in UTF-16 LE; lo script di C li leggeva come UTF-8 e non trovava le righe «model:» e «tokens used». Gli script di C ora leggono il BOM e decodificano UTF-16 (funzione leggi_log). Nessuno strumento del repository era coinvolto.",
+  "file_originali": "non riscritti: sequenza-g6.json e sequenza-g6-tentativo-1-annullato.json restano come registrati; vale questa rettifica",
+  "effetti": "nessuno su target, copertura, inventari, rapporti o giudizi del G6"
+}

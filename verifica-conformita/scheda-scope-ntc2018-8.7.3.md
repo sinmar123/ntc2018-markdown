@@ -19,8 +19,8 @@ giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
 gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
-attesa_decisione: [G7-AUDIT-01, G7-AUDIT-02]
-prossimo_passo: "Decisione di Sandro sulle rettifiche documentali dei due ERR-AUDIT del G7; nessun rilancio del G7 senza decisione."
+attesa_decisione: [G7-AUDIT-03]
+prossimo_passo: "Decisione di Sandro su G7-AUDIT-03 (log citati dalla rettifica fuori dal manifest)."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -86,3 +86,20 @@ Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7.
 - Nessun rilancio, nessuna registrazione: decisione di Sandro.
 
 Firma: GBOT-verifica-ntc, 2026-10-22.
+
+## Rettifiche e lotto G7 tentativo 2, 2026-10-22
+
+- Sandro: «Sì, correggi e rifai il G7 con Sol». G7-AUDIT-01: `rettifica-g7-audit-01-20261022.json`, modelli e token del G6 riletti dai log UTF-16 (tentativo 2: gpt-5.6-terra, 54.208 e 117.962 token; tentativo 1: gpt-5.6-terra 43.968, gpt-6-astra 97.981); `sequenza-g6*.json` non riscritti. G7-AUDIT-02: URL degli atti nel verbale e in `g1/ricontrollo-20261022.json`. `giro_g6` resta 1.
+- Manifest del tentativo 1 conservato come `manifest-rilascio-g7-tentativo-1.json`; manifest, verbale e piano di registrazione rigenerati.
+
+Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 2.
+
+## G7 tentativo 2, KO
+
+Il 2026-10-22, dalle 10:11 alle 10:14 (ora di Roma), CDX con Codex gpt-6.1-sol (ragionamento high, sandbox read-only, contesto nuovo, 79.544 token letti dal log in UTF-16) ha giudicato KO il G7 sul manifest 1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10. G7-AUDIT-01 e G7-AUDIT-02 risultano risolti. Resta un rilievo nuovo:
+
+- G7-AUDIT-03 (ERR-AUDIT): la rettifica `rettifica-g7-audit-01-20261022.json` cita quattro log di Codex come fonte di modelli e token, ma i log non sono nel manifest. Il § 9 chiede che anche un'evidenza citata da un'altra evidenza del manifest sia inclusa.
+
+Il giudizio è in `vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-KO.json`, l'esecuzione in `G7-tentativo-2-esecuzione.json`. Nessun rilancio, nessuna registrazione: serve la decisione di Sandro.
+
+Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 2 KO.

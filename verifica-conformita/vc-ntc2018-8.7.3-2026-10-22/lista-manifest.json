@@ -4,6 +4,8 @@
  "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
  "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
  "strumenti/render-capitolo.py",
+ "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-KO.json",
+ "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-redazione.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/config-g6.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/confronto-8.7.3.pdf",
@@ -51,12 +53,14 @@
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-correzioni-c.md",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-correzioni.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-file.json",
+ "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/presa-gbot.eseguito.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/presa-gbot.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/ntc298-per-queste-600dpi.png",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/prova-NTC-873-CONDIZIONE.json",
+ "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/rettifica-g7-audit-01-20261022.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-1-annullato.json",
  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json"
 ]
