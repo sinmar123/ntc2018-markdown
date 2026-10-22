@@ -24,7 +24,7 @@ byte per byte). Non leggere nulla fuori da questa cartella. Fermati dopo l'inven
 codex
 Leggo esclusivamente i quattro file indicati e produco l’inventario richiesto, senza scrivere nulla.
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Get-Content -Raw ISTRUZIONI-V.md; 
+"<powershell>" -Command 'Get-Content -Raw ISTRUZIONI-V.md; 
 Get-Content -Raw PERIMETRO.md; Get-Content -Raw canone.md; Get-Content -Raw input-fonte.json' in 
 <temp>\ntc2018-g6-8.7.3-261022-gbot\b01
  succeeded in 489ms:
@@ -269,7 +269,7 @@ testate di tabella, che seguono il Â§ 2 della procedura, nÃ© i rinvii alle a
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Get-ChildItem -File | Select-Object 
+"<powershell>" -Command 'Get-ChildItem -File | Select-Object 
 Name,Length' in <temp>\ntc2018-g6-8.7.3-261022-gbot\b01
  succeeded in 492ms:
 
@@ -287,7 +287,7 @@ PERIMETRO.md          267
 mcp: cua_repl/js started
 mcp: cua_repl/js (completed)
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+"<powershell>" -Command "@'
 from PIL import Image
 for path in ('fonte-ntc-298.png','fonte-circ-289.png'):
     im=Image.open(path)
@@ -298,7 +298,7 @@ fonte-ntc-298.png (1653, 2339) RGB (199.9996, 199.9996)
 fonte-circ-289.png (1653, 2339) RGB (199.9996, 199.9996)
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$img = 
+"<powershell>" -Command '$img = 
 [System.Drawing.Image]::FromFile('"'fonte-ntc-298.png'); Write-Output (\"{0}x{1}\" -f "'$img.Width,$img.Height); 
 $img.Dispose()' in <temp>\ntc2018-g6-8.7.3-261022-gbot\b01
  exited 1 in 663ms:

@@ -20,5 +20,6 @@
     "G7-AUDIT-01": "I log di Codex scritti da PowerShell sono in UTF-16: lo script di C li ha letti come UTF-8 e non ha trovato le righe «model:» e «tokens used», scrivendo «non letto» e «non disponibile» in sequenza-g6.json. Riletti in UTF-16, i log del tentativo 2 riportano model: gpt-5.6-terra in entrambe le fasi (54.208 e 117.962 token). Il rilievo è fondato sul documento.",
     "G7-AUDIT-02": "Fondato: il verbale non riporta gli URL degli atti e ricontrollo-g1-20261022.json dà un modello di URL, come nel dossier di 8.7.2."
   },
-  "rilancio": "nessuno: decisione di Sandro richiesta (procedura § 8 e regola del coordinatore)"
+  "rilancio": "nessuno: decisione di Sandro richiesta (procedura § 8 e regola del coordinatore)",
+  "copia_del_log": "log-g7/indice.json: copia ripulita del log, aggiunta il 2026-10-22 (rilievo G7-AUDIT-04); gli altri campi sono invariati"
 }

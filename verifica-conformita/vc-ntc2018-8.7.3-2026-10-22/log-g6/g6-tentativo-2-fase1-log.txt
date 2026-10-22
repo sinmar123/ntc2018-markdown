@@ -26,7 +26,7 @@ codex
 Leggo esclusivamente i quattro file indicati nella cartella corrente e, se necessario, le immagini `fonte-*.png` per 
 le coordinate. Eseguirò soltanto FONTE-PRIMA e restituirò il JSON richiesto.
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Get-ChildItem -Force | Select-Object 
+"<powershell>" -Command 'Get-ChildItem -Force | Select-Object 
 Name,Length,LastWriteTime | Format-Table -AutoSize' in 
 <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
  succeeded in 897ms:
@@ -43,7 +43,7 @@ PERIMETRO.md          267 22/10/2026 07:49:45
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Get-Content -Raw ISTRUZIONI-V.md; 
+"<powershell>" -Command 'Get-Content -Raw ISTRUZIONI-V.md; 
 Get-Content -Raw PERIMETRO.md; Get-Content -Raw canone.md; Get-Content -Raw input-fonte.json' in 
 <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
  succeeded in 653ms:
@@ -288,7 +288,7 @@ testate di tabella, che seguono il Â§ 2 della procedura, nÃ© i rinvii alle a
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 Get-ChildItem fonte-*.png | ForEach-Object { $i=[System.Drawing.Image]::FromFile($_.FullName); [PSCustomObject]@{Name=$
 _.Name;Width=$i.Width;Height=$i.Height;HorizontalResolution=$i.HorizontalResolution;VerticalResolution=$i.VerticalResol
 ution}; $i.Dispose() } | Format-Table -AutoSize' in 
@@ -303,7 +303,7 @@ fonte-ntc-298.png   1653   2339             199,9996           199,9996
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'tesseract fonte-ntc-298.png stdout -l 
+"<powershell>" -Command 'tesseract fonte-ntc-298.png stdout -l 
 ita+eng --psm 6 tsv 2>$null | Select-String -Pattern '"'8.7.3|COSTRUZIONI|Alcune|situazione'" in 
 <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
  exited 1 in 1356ms:
@@ -317,7 +317,7 @@ In riga:2 car:1
  
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $files='"'fonte-ntc-298.png','fonte-circ-289.png'; foreach("'$file in 
 $files){$bmp=[System.Drawing.Bitmap]::new((Resolve-Path $file)); $runs=@();$on=$false; for($y=0;$y -lt 
 $bmp.Height;$y++){ $n=0; for($x=120;$x -lt 1500;$x+=2){$p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and $p.G -lt 150 -and 
@@ -367,7 +367,7 @@ fonte-circ-289.png
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $files='"'fonte-ntc-298.png','fonte-circ-289.png'; foreach("'$file in $files){$path=(Resolve-Path $file).Path; 
 $bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; for($y=0;$y -lt $bmp.Height;$y++){ $n=0; for($x=120;$x 
 -lt 1500;$x+=2){$p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and $p.G -lt 150 -and $p.B -lt 150){$n++}}; if($n -ge 
@@ -375,7 +375,7 @@ $bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; for($y=0;$y -lt 
 ('"'{0}-{1}' -f "'$s,($bmp.Height-1))}; $bmp.Dispose(); Write-Output $file; Write-Output ($runs -join '"', ') }" in 
 <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $path=(Resolve-Path '"'fonte-circ-289.png').Path; "'$bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; 
 for($y=0;$y -lt $bmp.Height;$y++){ $n=0; for($x=120;$x -lt 1500;$x+=3){$p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and 
 $p.G -lt 150 -and $p.B -lt 150){$n++}}; if($n -ge 6){if(-not $on){$s=$y;$on=$true}}elseif($on){$runs += ('"'{0}-{1}' 
@@ -410,7 +410,7 @@ fonte-circ-289.png
 1894-1896, 1899-1908, 2125-2277
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $path=(Resolve-Path '"'fonte-circ-289.png').Path; "'$bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; 
 for($y=1050;$y -le 1730;$y++){ $n=0; for($x=150;$x -le 1500;$x++){ $p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and $p.G 
 -lt 150 -and $p.B -lt 150){$n++}}; if($n -ge 15){if(-not $on){$s=$y;$on=$true}}elseif($on){$runs += ('"'{0}-{1}' -f 
@@ -422,7 +422,7 @@ for($y=1050;$y -le 1730;$y++){ $n=0; for($x=150;$x -le 1500;$x++){ $p=$bmp.GetPi
 1605-1605, 1614-1628, 1642-1660, 1662-1663, 1705-1719
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $bmp=[System.Drawing.Bitmap]::new((Resolve-Path '"'fonte-circ-289.png').Path); foreach("'$y in 
 1100..1200){$n=0;for($x=150;$x -le 1500;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 180 -and $p.G -lt 180 -and $p.B -lt 
 180){$n++}};if($n -gt 0){'"'{0}:{1}' -f "'$y,$n}};$bmp.Dispose()' in 
@@ -482,7 +482,7 @@ codex
 Ho delimitato sulle immagini native (1653×2339 px) i tratti inclusi ed esclusi; sto ricontrollando i rettangoli di 
 confine prima di chiudere l’inventario.
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; $chec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; $chec
 ks=@(@('"'fonte-ntc-298.png',1590,1920),@('fonte-ntc-298.png',260,1565),@('fonte-circ-289.png',1080,1670),@('fonte-circ
 -289.png',270,1050),@('fonte-circ-289.png',1700,1910)); foreach("'$c in 
 $checks){$bmp=[System.Drawing.Bitmap]::new((Resolve-Path 
@@ -492,7 +492,7 @@ $minX){$minX=$x};if($x -gt $maxX){$maxX=$x};if($y -lt $minY){$minY=$y};if($y -gt
 $maxY){$maxY=$y}}}};$bmp.Dispose();'"'{0} y{1}-{2}: x{3}-{4}, y{5}-{6}' -f 
 "'$c[0],$c[1],$c[2],$minX,$maxX,$minY,$maxY}' in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $bmp=[System.Drawing.Bitmap]::new((Resolve-Path 
 '"'fonte-circ-289.png').Path);"'$minX=$bmp.Width;$maxX=-1;$minY=$bmp.Height;$maxY=-1;for($y=1080;$y -le 
 1670;$y++){for($x=0;$x -lt $bmp.Width;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 100 -and $p.G -lt 100 -and $p.B -lt 
@@ -503,7 +503,7 @@ $maxY){$maxY=$y}}}};$bmp.Dispose();'"'x{0}-{1}, y{2}-{3}' -f "'$minX,$maxX,$minY
 x206-1447, y1086-1663
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; 
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
 $bmp=[System.Drawing.Bitmap]::new((Resolve-Path 
 '"'fonte-circ-289.png').Path);"'$minX=$bmp.Width;$maxX=-1;$minY=$bmp.Height;$maxY=-1;for($y=1700;$y -le 
 1915;$y++){for($x=0;$x -lt $bmp.Width;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 100 -and $p.G -lt 100 -and $p.B -lt 

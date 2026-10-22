@@ -1,0 +1,191 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest; nel dossier niente dati personali, percorsi assoluti o contenuti di file esterni al progetto. Rilievo G7-AUDIT-04: il log del G7 tentativo 2, citato da G7-tentativo-2-esecuzione.json, non era nel manifest; per chiudere la famiglia di rilievi sono copiati i log dei tentativi 1, 2 e 3. Decisioni di Sandro «Sì, sistema tutto e rifai il G7 con Sol» e «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol».",
+  "metodo": "come log-g6/indice.json (ripulitura-log.py). In tutti e tre i tentativi il verificatore ha letto l'AGENTS.md del workspace prima della consegna: quel contenuto, istruzioni private del workspace con il nome completo dell'utente, e' omesso.",
+  "controllo_dati_personali": "Prima della copia C ha cercato negli originali indirizzi e-mail, numeri di telefono, codici fiscali, IBAN, partite IVA, nomi di committenti o clienti, indirizzi, chiavi e password. Nei log del G7 il solo dato personale era il nome completo dell'utente, dentro il contenuto dell'AGENTS.md del workspace letto dal verificatore: quel contenuto e' omesso. Nessun altro dato personale. Dopo la ripulitura le copie non contengono percorsi assoluti, nome utente, nome completo o blocchi dei file omessi (controllo-dossier.py).",
+  "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
+  "log_del_g7_in_corso": "il log del G7 tentativo 4 non puo' stare nel manifest che quel G7 verifica: la sua copia ripulita sara' aggiunta dopo il giudizio, con indice separato indice-post-g7.json",
+  "log": [
+    {
+      "copia": "log-g7/g7-tentativo-1-log.txt",
+      "tentativo_g7": 1,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-out/G7-log.txt",
+      "sha256_originale": "11966d4a3eb9a84ef1a5c14fdf89095879ca6940711626688cfb0fbdf57f6395",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 391038,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "92828c5e49a6fccfa396d470ef70e9c6be7e9bfc496ccd10149bdc3869b15aff",
+      "omissioni": [
+        {
+          "cosa": "AGENTS.md del workspace",
+          "righe": 318,
+          "sha256_blocco": "be7a45916069459c652e543df26f81ed8923413db090456aabe86119c27b70be",
+          "riga_nella_copia": 30,
+          "file_letti": [
+            "AGENTS.md"
+          ]
+        }
+      ],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 11
+        },
+        {
+          "da": "workspace dell'utente",
+          "a": "<workspace>",
+          "occorrenze": 3
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 10
+        }
+      ],
+      "sha256_copia_ripulita": "28ae1c56a559f3989ce34877c19d2d9827b50a4d731ef8f33bb717337b08d837",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 176294,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a1623c-87fd-7fa0-99d0-649d7bc2cf72",
+        "token": "67.227"
+      },
+      "impronta_originale_gia_dichiarata": "prima dichiarazione: G7-tentativo-1-redazione.json non riportava l'impronta del log"
+    },
+    {
+      "copia": "log-g7/g7-tentativo-2-log.txt",
+      "tentativo_g7": 2,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2-out/G7-log.txt",
+      "sha256_originale": "7535ab288c36129e47c79527ff43aba065d93a694e4608d3960cdd85ffa1c309",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 484772,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "5664306b9199269f14f3c837c376a426b611ee9e622176640ea6c9e14e5da199",
+      "omissioni": [
+        {
+          "cosa": "AGENTS.md del workspace",
+          "righe": 318,
+          "sha256_blocco": "be7a45916069459c652e543df26f81ed8923413db090456aabe86119c27b70be",
+          "riga_nella_copia": 31,
+          "file_letti": [
+            "AGENTS.md"
+          ]
+        }
+      ],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 18
+        },
+        {
+          "da": "workspace dell'utente",
+          "a": "<workspace>",
+          "occorrenze": 1
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 17
+        }
+      ],
+      "sha256_copia_ripulita": "ed7125a8b2dd5a4c0a5210a43462af6f40414068384687269f3c078d2d7fdf1c",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 222887,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a162aa-0f17-7ee0-94ec-32dfa685d253",
+        "token": "79.544"
+      },
+      "impronta_originale_gia_dichiarata": "G7-tentativo-2-esecuzione.json, log_sha256"
+    },
+    {
+      "copia": "log-g7/g7-tentativo-3-log.txt",
+      "tentativo_g7": 3,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3-out/G7-log.txt",
+      "sha256_originale": "3e5e754d815864594a30384332f965b66c36ce317e5a5fafd5d91ede474348b6",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 500120,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "6d5a5064784e35bf355e6b272933c45541586f2136395e95e0802954de8b429f",
+      "omissioni": [
+        {
+          "cosa": "AGENTS.md del workspace",
+          "righe": 318,
+          "sha256_blocco": "be7a45916069459c652e543df26f81ed8923413db090456aabe86119c27b70be",
+          "riga_nella_copia": 33,
+          "file_letti": [
+            "AGENTS.md"
+          ]
+        }
+      ],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 5
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 19
+        },
+        {
+          "da": "workspace dell'utente",
+          "a": "<workspace>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella di configurazione di Codex nel profilo utente",
+          "a": "<codex-home>",
+          "occorrenze": 1
+        },
+        {
+          "da": "profilo utente (unita', Users, nome utente)",
+          "a": "<home>",
+          "occorrenze": 3
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 26
+        },
+        {
+          "da": "cartella di sistema di Windows",
+          "a": "<sistema>",
+          "occorrenze": 5
+        },
+        {
+          "da": "lettera di unita' disco di un altro percorso assoluto",
+          "a": "<unita>",
+          "occorrenze": 3
+        }
+      ],
+      "sha256_copia_ripulita": "a3687be8219534c28f3027e9bbde29f5ec81fe2375de0f6244b16ca342f37c85",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 229853,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a162d0-540f-70c2-a032-dad8d8986cd6",
+        "token": "80.227"
+      },
+      "impronta_originale_gia_dichiarata": "G7-tentativo-3-esecuzione.json, log_sha256"
+    }
+  ]
+}

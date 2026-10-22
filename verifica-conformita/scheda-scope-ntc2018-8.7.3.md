@@ -18,9 +18,9 @@ snapshot_sha256: 1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f0
 giro_g6: 1
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
-attesa_decisione: [G7-AUDIT-04, G7-AUDIT-05]
-prossimo_passo: "Decisione di Sandro su G7-AUDIT-04 (log del G7 tentativo 2 fuori dal manifest) e G7-AUDIT-05 (percorso di sistema di PowerShell nelle copie dei log)."
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
+attesa_decisione: []
+prossimo_passo: "G7 tentativo 4 con Codex gpt-6.1-sol, poi registrazione."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -121,3 +121,11 @@ Il 2026-10-22, dalle 10:53 alle 10:57 (ora di Roma), CDX con Codex gpt-6.1-sol (
 Il giudizio è in `vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-3-KO.json`, l'esecuzione in `G7-tentativo-3-esecuzione.json`. Nessun rilancio, nessuna registrazione: serve la decisione di Sandro.
 
 Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 3 KO.
+
+## Rettifiche G7-AUDIT-04 e G7-AUDIT-05 e lotto G7 tentativo 4, 2026-10-22
+
+- Sandro: «Sì, sistema tutto e rifai il G7 con Sol», poi «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol». Copie ripulite dei log dei G7 tentativi 1, 2 e 3 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, con il contenuto dell'AGENTS.md del workspace omesso; copie in `log-g6/` rifatte senza alcun percorso assoluto e senza la documentazione dei plugin di Codex; indici con impronte, omissioni e sostituzioni; procedura in `ripulitura-log.py`.
+- Controllo automatico `controllo-dossier.py` prima del manifest e sul manifest generato. Il log del G7 tentativo 4 resta fuori dal manifest che quel G7 verifica e sarà aggiunto dopo il giudizio.
+- Manifest del tentativo 3 conservato come `manifest-rilascio-g7-tentativo-3.json`; manifest, verbale e piano di registrazione rigenerati. `giro_g6` resta 1.
+
+Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4.

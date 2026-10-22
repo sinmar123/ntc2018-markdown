@@ -19,5 +19,6 @@
     "log": "fuori dal repository, nella cartella temporanea del W520"
   },
   "manifest_sha256_valutato": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
-  "rilancio": "nessuno: un G7 KO non si rilancia senza decisione di Sandro"
+  "rilancio": "nessuno: un G7 KO non si rilancia senza decisione di Sandro",
+  "copia_del_log": "log-g7/indice.json: copia ripulita del log, aggiunta il 2026-10-22 (rilievo G7-AUDIT-04); gli altri campi sono invariati"
 }

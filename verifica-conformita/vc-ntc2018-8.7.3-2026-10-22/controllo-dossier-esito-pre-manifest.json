@@ -1,0 +1,25 @@
+{
+  "controllo": "controllo-dossier.py",
+  "sha256_script": "fac422d6394ae728a2104b07ffa9bd7b899235b5eb3039cf6fcf0e06e38cf991",
+  "modo": "pre",
+  "insieme": "lista-manifest.json con impronte vive",
+  "file_nel_insieme": 102,
+  "file_esaminati": 101,
+  "file_binari": 13,
+  "impronte_citate": 1130,
+  "percorsi_citati": 2963,
+  "problemi": 0,
+  "elenco": [],
+  "note": {},
+  "esclusi_per_costruzione": {
+    "G7.json": "giudizio del G7 in corso, fuori dal manifest che giudica",
+    "G7-redazione.json": "redazione del giudizio del G7 in corso",
+    "chiusura.json": "piano di registrazione: legato al manifest per impronta, compilato dopo il G7",
+    "chiusura.eseguito.json": "esito della registrazione, successivo al G7",
+    "manifest-rilascio.json": "il manifest stesso",
+    "lista-manifest.json": "elenco di lavoro da cui il manifest e' generato",
+    "corpo-pr.md": "testo della richiesta di unione, successivo al G7",
+    "controllo-dossier-esito-post-manifest.json": "esito di questo controllo sul manifest gia' generato",
+    "indice-post-g7.json": "indice della copia del log del G7 in corso, aggiunta dopo il giudizio"
+  }
+}

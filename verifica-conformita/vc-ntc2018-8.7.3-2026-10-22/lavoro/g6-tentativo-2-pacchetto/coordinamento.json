@@ -1,0 +1,52 @@
+{
+  "versione": 1,
+  "scope": "8.7.3",
+  "target": "<workspace>/normativa/ntc2018--norme-costruzioni/_tmp_render/wt-cdx-vc-8.7.3-261022/verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g5/target-scope-corretto.md",
+  "snapshot_sha256": "a8a04a8be56df6e80044514439cc559ca610569ac77aa8c0fb0f12e01dd2a765",
+  "clean_sha256": "fcfc58a063143234edff8073be7d72b3b2a385cb38baf319fa91cc8dc31596cc",
+  "procedura_sha256": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22",
+  "catalogo_sha256": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48",
+  "fonti": {
+    "ntc": {
+      "id": "ntc",
+      "pdf": "<workspace>/normativa/ntc2018--norme-costruzioni/_tmp_render/wt-cdx-vc-8.7.3-261022/verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+      "sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+      "pagine": [
+        298
+      ]
+    },
+    "circ": {
+      "id": "circ",
+      "pdf": "<workspace>/normativa/ntc2018--norme-costruzioni/_tmp_render/wt-cdx-vc-8.7.3-261022/verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+      "sha256": "f7c3b8d1f443aadb6b3e020b6b6c19813683492ecaadd2c15bf6bf1939aaed7c",
+      "pagine": [
+        289
+      ]
+    }
+  },
+  "blocchi": [
+    {
+      "id": "b01",
+      "pagine": [
+        "ntc:298",
+        "circ:289"
+      ],
+      "righe": [
+        [
+          1,
+          17
+        ]
+      ],
+      "limiti": "NTC: dalla rubrica 8.7.3 a prima della rubrica 8.7.4; sulla pagina 298 è escluso quanto precede 8.7.3. Circolare: dalla rubrica C8.7.3 a prima della rubrica C8.7.4; sulla pagina 289 è escluso quanto precede C8.7.3 e quanto segue da C8.7.4.",
+      "assets": [
+        {
+          "name": "resa-finale.pdf",
+          "source": "<workspace>/normativa/ntc2018--norme-costruzioni/_tmp_render/wt-cdx-vc-8.7.3-261022/verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g5/resa-finale.pdf",
+          "sha256": "e1779df3e4ead0aa613eb447cbb67c672236f187ef897a12c1f2796c976407ff"
+        }
+      ],
+      "target_sha256": "fcfc58a063143234edff8073be7d72b3b2a385cb38baf319fa91cc8dc31596cc",
+      "manifest_fonte_sha256": "1b55fb10ad4f8012ab0dca046fecb82b8964f61bff271eb98c723c79ae0232c1"
+    }
+  ]
+}

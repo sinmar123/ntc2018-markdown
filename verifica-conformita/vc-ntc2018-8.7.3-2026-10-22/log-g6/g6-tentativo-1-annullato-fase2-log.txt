@@ -27,7 +27,7 @@ codex
 Leggo il congelamento, il testo e la resa finale, poi confronto integralmente il contenuto in perimetro con le due 
 pagine fonte.
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Get-Content -Raw -Encoding UTF8 
+"<powershell>" -Command 'Get-Content -Raw -Encoding UTF8 
 congelamento.json; Get-Content -Raw -Encoding UTF8 testo.md; Get-ChildItem -File | Select-Object Name,Length' in 
 <temp>\ntc2018-g6-8.7.3-261022-gbot\b01
  succeeded in 520ms:
@@ -93,7 +93,7 @@ testo.md               2447
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -Raw -Encoding UTF8 
+"<powershell>" -Command "Get-Content -Raw -Encoding UTF8 
 inventario.json; Get-Content -Raw -Encoding UTF8 input-confronto.json; @'
 import fitz,json
 p=fitz.open('resa-finale.pdf')
@@ -202,7 +202,7 @@ verifica delle connessioni tra elementi di diverso materiale, valutando l’enti
 il raggiungimento dello stato limite di interesse.\n1\n"], "immagini": [0]}
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+"<powershell>" -Command "@'
 import fitz,base64
 p=fitz.open('resa-finale.pdf')
 print(base64.b64encode(p[0].get_pixmap(dpi=160).tobytes('png')).decode())
@@ -2535,7 +2535,7 @@ codex
 Il testo e la resa finale risultano coerenti nella lettura completa. Verifico ora le localizzazioni dell’inventario 
 congelato: quelle della Circolare sembrano riferirsi a zone diverse dai capoversi indicati.
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+"<powershell>" -Command "@'
 from PIL import Image
 import base64,io,json
 out=[]
@@ -5228,7 +5228,7 @@ CoVCoVAolHYBPQNMoVAoFAqFQqFQKJR2AZ0AUygUCoVCoVAoFAqlXUAnwBQKhUKhUCgUCoVCaRfQCTCF
 AUygUCoVCoVAoFAqlXUAnwBQKhUKhUCgUCoVCaRfQCTCFQqFQKBQKhUKhUNoFdAJMoVAoFAqFQqFQKBSmPfA/ivEqBrkBnQoAAAAASUVORK5CYII="}]
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+"<powershell>" -Command "@'
 import json,hashlib,pathlib,fitz
 manifest=json.loads(pathlib.Path('input-confronto.json').read_text(encoding='utf-8-sig'))
 errors=[]

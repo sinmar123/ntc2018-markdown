@@ -1,0 +1,66 @@
+—  294  —
+Supplemento ordinario n. 8 alla GAZZETTA UFFICIALE
+Serie generale - n. 42
+20-2-2018
+ 
+Nel caso di muratura irregolare, la resistenza a taglio di progetto di un pannello in muratura, per azioni nel suo piano medio, po-
+trà essere calcolata facendo ricorso a formulazioni, alternative rispetto a quelle adottate per opere nuove, purché di comprovata 
+validità.  
+In presenza di edifici in aggregato, contigui, a contatto od interconnessi con edifici adiacenti, i metodi di verifica di uso generale 
+per gli edifici di nuova costruzione possono risultare inadeguati. Nell’analisi di un edificio facente parte di un aggregato edilizio, 
+infatti, occorre tenere conto delle possibili interazioni derivanti dalla contiguità strutturale con gli edifici adiacenti. A tal fine do-
+vrà essere individuata l’unità strutturale (US) oggetto di studio, evidenziando le azioni che su di essa possono derivare dalle uni-
+tà strutturali contigue.  
+L’US dovrà avere continuità da cielo a terra, per quanto riguarda il flusso dei carichi verticali e, di norma, sarà delimitata o da 
+spazi aperti, o da giunti strutturali, o da edifici contigui strutturalmente ma, almeno tipologicamente, diversi. Oltre a quanto 
+normalmente previsto per gli edifici non disposti in aggregato, per gli edifici in aggregato dovranno essere valutati gli effetti di: 
+spinte non contrastate sulle pareti in comune con le US adiacenti, causate da orizzontamenti sfalsati di quota, meccanismi locali 
+derivanti da prospetti non allineati, sia verticalmente sia orizzontalmente, US adiacenti di differente altezza.  
+L'analisi globale di una singola unità strutturale assume spesso un significato convenzionale e perciò può utilizzare metodologie 
+semplificate. La verifica di una US dotata di orizzontamenti sufficientemente rigidi nel proprio piano può essere svolta, anche per 
+edifici con più di due orizzontamenti, mediante l'analisi statica non lineare, con verifica in termini sia di forze sia di spostamenti, 
+analizzando e verificando separatamente ciascun interpiano dell'edificio, e trascurando la variazione della forza assiale nei ma-
+schi murari dovuta all'effetto dell'azione sismica. Con l'esclusione di US d'angolo o di testata, così come di parti di edificio non 
+vincolate o non aderenti su alcun lato ad altre unità strutturali, l'analisi potrà anche essere svolta trascurando gli effetti torsionali, 
+nell’ipotesi che gli orizzontamenti possano unicamente traslare nella direzione dell'azione sismica considerata. Nel caso invece di 
+US d’angolo o di testata è comunque ammesso il ricorso ad analisi semplificate, purché si tenga conto di possibili effetti torsionali 
+e dell’azione aggiuntiva trasferita dalle US adiacenti applicando opportuni coefficienti maggiorativi delle azioni orizzontali.  
+Qualora gli orizzontamenti dell'edificio non siano sufficientemente rigidi nel proprio piano si potrà procedere all'analisi delle 
+singole pareti o dei sistemi di pareti complanari, essendo ciascuna parete soggetta ai carichi verticali di competenza ed alle corri-
+spondenti azioni del sisma nella direzione parallela alla parete. 
+8.7.2.  
+COSTRUZIONI IN CALCESTRUZZO ARMATO O IN ACCIAIO  
+Nelle costruzioni esistenti in calcestruzzo armato o in acciaio soggette ad azioni sismiche viene attivata la capacità di elementi e 
+meccanismi resistenti, che possono essere “duttili” o “fragili”.  
+L’analisi sismica globale deve utilizzare, per quanto possibile, metodi di analisi che consentano di valutare in maniera appropria-
+ta sia la resistenza sia la duttilità disponibili. L’impiego di metodi di calcolo lineari richiede al progettista un’opportuna defini-
+zione del fattore di comportamento in relazione alle caratteristiche meccaniche, globali e locali, della struttura in esame.  
+I meccanismi “duttili” si verificano controllando che la domanda non superi la corrispondente capacità in termini di deformazio-
+ne o di resistenza in relazione al metodo utilizzato; i meccanismi “fragili” si verificano controllando che la domanda non superi la 
+corrispondente capacità in termini di resistenza.  
+Per il calcolo della capacità di elementi/meccanismi duttili si impiegano le proprietà dei materiali esistenti, determinate secondo 
+le modalità indicate al § 8.5.3, divise per i fattori di confidenza corrispondenti al livello di conoscenza raggiunto.  
+Per il calcolo della capacità di elementi/meccanismi fragili, le resistenze dei materiali si dividono per i corrispondenti coefficienti 
+parziali e per i fattori di confidenza corrispondenti al livello di conoscenza raggiunto.  
+Per i materiali nuovi o aggiunti si impiegano le proprietà di calcolo come per le nuove costruzioni. 
+Nel caso di demolizioni o interventi su organismi in c.a. facenti parte di aggregati edilizi è fatto obbligo al progettista di operare 
+indagini e/o verifiche atte ad accertare, preliminarmente, l’assenza di interazioni con i corpi adiacenti, al fine di poter escludere il 
+prodursi, su di essi, di modifiche in senso negativo del comportamento strutturale a seguito delle demolizioni o degli interventi. 
+8.7.3.  
+COSTRUZIONI MISTE  
+Alcune tipologie di costruzioni esistenti possono essere classificate come miste. Situazioni ricorrenti sono:  
+– 
+costruzioni le cui pareti perimetrali siano in muratura portante e la cui struttura verticale interna sia rappresentata da pilastri 
+(per esempio in c.a. o acciaio);  
+– 
+costruzioni in muratura su cui gravino sopraelevazioni aventi sistema strutturale, per esempio, in c.a. o acciaio, o edifici in c.a. 
+o acciaio su cui gravino sopraelevazioni in muratura;  
+– 
+costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui sistema strutturale (per esempio, in c.a. o acciaio) 
+sia interconnesso con quello preesistente in muratura.  
+Per queste situazioni è necessario prevedere modellazioni che tengano in considerazione le particolarità strutturali identificate e 
+l’interazione tra elementi strutturali diversi per materiale e rigidezza, ricorrendo, ove necessario, a metodi di analisi non lineare 
+di comprovata validità. 
+ 
+ 
+ 
