@@ -2,11 +2,11 @@
   "firma": "GBOT-verifica-ntc",
   "scope": "8.7.3",
   "data": "2026-10-23",
-  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest; nel dossier niente dati personali, percorsi assoluti o contenuti di file esterni al progetto. Rilievo G7-AUDIT-04: il log del G7 tentativo 2, citato da G7-tentativo-2-esecuzione.json, non era nel manifest; per chiudere la famiglia di rilievi sono copiati i log dei tentativi 1, 2 e 3. Decisioni di Sandro «Sì, sistema tutto e rifai il G7 con Sol» e «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol». Aggiornamento 2026-10-23: aggiunto il log del G7 tentativo 4 (da indice-post-g7) prima del G7 tentativo 5.",
+  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest; nel dossier niente dati personali, percorsi assoluti o contenuti di file esterni al progetto. Rilievo G7-AUDIT-04: il log del G7 tentativo 2, citato da G7-tentativo-2-esecuzione.json, non era nel manifest; per chiudere la famiglia di rilievi sono copiati i log dei tentativi 1, 2 e 3. Decisioni di Sandro «Sì, sistema tutto e rifai il G7 con Sol» e «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol». Aggiornamento 2026-10-23: aggiunto il log del G7 tentativo 4 (da indice-post-g7) prima del G7 tentativo 5. Aggiornamento 2026-10-23 (dopo G7 t5 KO e decisione sessione unica Haiku): aggiunto il log del G7 tentativo 5 prima del G7 tentativo 6.",
   "metodo": "come log-g6/indice.json (ripulitura-log.py). In tutti e tre i tentativi il verificatore ha letto l'AGENTS.md del workspace prima della consegna: quel contenuto, istruzioni private del workspace con il nome completo dell'utente, e' omesso.",
   "controllo_dati_personali": "Prima della copia C ha cercato negli originali indirizzi e-mail, numeri di telefono, codici fiscali, IBAN, partite IVA, nomi di committenti o clienti, indirizzi, chiavi e password. Nei log del G7 il solo dato personale era il nome completo dell'utente, dentro il contenuto dell'AGENTS.md del workspace letto dal verificatore: quel contenuto e' omesso. Nessun altro dato personale. Dopo la ripulitura le copie non contengono percorsi assoluti, nome utente, nome completo o blocchi dei file omessi (controllo-dossier.py).",
   "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
-  "log_del_g7_in_corso": "il log del G7 tentativo 5 non puo stare nel manifest che quel G7 verifica: la sua copia ripulita sara aggiunta dopo il giudizio, con indice separato indice-post-g7.json",
+  "log_del_g7_in_corso": "il log del G7 tentativo 5 e' ora nel manifest (dopo giudizio KO); il log del G7 tentativo 6 non puo stare nel manifest che quel G7 verifica",
   "log": [
     {
       "copia": "log-g7/g7-tentativo-1-log.txt",
@@ -232,6 +232,79 @@
       "sha256_escluso_controllo_post": "9174d4e0d80cbfdc5491023c3cc4f3b9e9df1bf869c431136674742582fbe10d",
       "sha256_escluso_lista_manifest": "cc527b36dbf803a64a4fac186b9e75ed88fcaf2fa56abeffee6ee472e743bdc5",
       "sha256_escluso_consegna_g7": "c7886195709f054262b7354746f6eb678949eed2c64b4c9f9635a263bb54665c"
+    },
+    {
+      "copia": "log-g7/g7-tentativo-5-log.txt",
+      "tentativo_g7": 5,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t5-out/G7-log.txt",
+      "sha256_originale": "f407adcb6f7b69c8ec085524c125ac7d3f41959e5305b504b943f2f305c0c341",
+      "codifica_originale": "UTF-8 senza BOM",
+      "byte_originale": 414595,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "f407adcb6f7b69c8ec085524c125ac7d3f41959e5305b504b943f2f305c0c341",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 175
+        },
+        {
+          "da": "profilo utente (unita', Users, nome utente)",
+          "a": "<home>",
+          "occorrenze": 1
+        },
+        {
+          "da": "lettera di unita' disco di un altro percorso assoluto",
+          "a": "<unita>",
+          "occorrenze": 1
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 26
+        }
+      ],
+      "sha256_copia_ripulita": "bbc60e99c6e3525740c3205f4dff2633b5f8b2fba22f4add29fae8e05fa9a14a",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 408871,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a167b8-47d7-7833-8922-2db20a2675e1",
+        "token": "111.564"
+      },
+      "impronta_originale_gia_dichiarata": "G7-tentativo-5-esecuzione.json cita log_sha256 della copia ripulita; originale TEMP fuori repo",
+      "nota": "Aggiunto dopo giudizio KO; era fuori dal manifest che il G7 t5 ha verificato. Ora nel manifest per G7 t6.",
+      "sha256_storico_citato_01": "82b2297719534a44d3ceb5906d24759a0a265abd595dca566ae4b9fcd8b464f7",
+      "sha256_storico_citato_02": "68516ca5d8615687d92d2e17bc3305eeeba878ddf3857b43d8601a58fa5f4dcc",
+      "sha256_storico_citato_03": "0f47892a79c2765a70d394500ab4af8963fcf71f44621a69a27e2115a82b4a95",
+      "sha256_storico_citato_04": "2eed0e938f42e1b942865a85af22ccd25a271ce58ffeaface3464823a5c2543d",
+      "sha256_storico_citato_05": "7258529d0d04238fd31b22777b9844589b1e9e904580d9ae7269d95ad0ff443f",
+      "sha256_storico_citato_06": "8103349f93e93edac9e485baeb653684ec61ce1cb1c57e88bb2013352691a80c",
+      "sha256_storico_citato_07": "532b56a2a52b633d0fff4cdd8e312a00be14fea5c5ac74271e115969402cd5b1",
+      "sha256_storico_citato_08": "a88aba2a322fc8cf6020c7cb67077980aab11e1ce70c92899a437ebe51697bb5",
+      "sha256_storico_citato_09": "2e50374cb57ab878d6c513c853e1baa5abc24c462c1e603ada15d8e60ad7fd5b",
+      "nota_sha256_storici": "Impronte di stati intermedi citati nel log o nel manifest-rilascio-g7-tentativo-5.json, non piu' nei file vivi; registrate qui affinche' controllo-dossier le risolva come derivati.",
+      "sha256_storico_citato_10": "6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689"
+    },
+    {
+      "tentativo_g7": 6,
+      "esito": "copia",
+      "copia": "g7-tentativo-6-log.txt",
+      "sha256_originale": "98b655e0b84db2457b69af0094ad7cf9c6487a5538ab0a5e3c414d917021be3d",
+      "sha256_testo_decodificato_prima_delle_ripuliture": "98b655e0b84db2457b69af0094ad7cf9c6487a5538ab0a5e3c414d917021be3d",
+      "sha256_copia_ripulita": "a79878a4728c737fba4a121b828f7dd3e741d29d503c8c2867fe3f081eb56047",
+      "byte_copia": 432089,
+      "giudizio": "KO",
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a167db-15c3-7b93-860c-0bdad25d1ac2",
+        "token": "118.526"
+      },
+      "nota": "G7 tentativo 6 KO per G7-AUDIT-12 e G7-AUDIT-13; in attesa di decisione."
     }
   ],
   "tentativo_5": {

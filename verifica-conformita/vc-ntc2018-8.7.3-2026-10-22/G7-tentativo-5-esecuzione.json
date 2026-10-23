@@ -15,9 +15,10 @@
     "inizio": "2026-10-23T09:44:46+02:00",
     "termine": "2026-10-23T09:50:48+02:00",
     "token": "111.564",
-    "log_sha256": "addc4503c3889914fd33a56db91b1bc8acd421766a72ca550f915936105581dd",
+    "log_sha256": "bbc60e99c6e3525740c3205f4dff2633b5f8b2fba22f4add29fae8e05fa9a14a",
     "log": "copia ripulita in log-g7/g7-tentativo-5-log.txt (fuori dal manifest)",
-    "letture_fuori_cartella": "nessuna (consegna: vietato aprire file fuori dalla cartella, AGENTS.md compreso)"
+    "letture_fuori_cartella": "nessuna (consegna: vietato aprire file fuori dalla cartella, AGENTS.md compreso)",
+    "nota_ripulitura": "Copia ripulita con ripulitura-log.py (wrap UTF-8→UTF-16) + sostituzione residui unita/home/repo; sha aggiornato 2026-10-23 dopo decisione sessione unica."
   },
   "manifest_sha256_valutato": "f6b35b84423ece544b38f23ca54113692b2763b6cdd5242a342bf8b407fe8c83",
   "rilievi": [

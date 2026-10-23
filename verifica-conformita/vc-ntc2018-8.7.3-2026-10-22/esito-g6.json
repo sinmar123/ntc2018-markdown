@@ -5,15 +5,15 @@
   "gate": "G6",
   "esito": "OK",
   "giro": 2,
-  "tentativo": 3,
+  "tentativo": 4,
   "blocchi": 1,
   "id_coperti": 9,
   "err_md": 0,
   "err_audit": 0,
   "dubbio": 0,
   "giudizio_c": {
-    "nota": "Zero rilievi da V (Haiku). Prova lettura immagini OK nel log. G6 precedente (tentativo 2) invalidato e archiviato."
+    "nota": "Zero rilievi. Sessione unica Haiku (AUDIT-09 chiuso). PNG aperti in entrambe le fasi. Due-sessioni precedente archiviato."
   },
   "g7": "DA_ESEGUIRE",
-  "motivazione_g7": "G6 a zero ERR-MD, zero ERR-AUDIT, zero DUBBIO: G7 autorizzato dalla decisione prova Haiku di Sandro."
+  "motivazione_g7": "G6 a zero ERR-MD/AUDIT/DUBBIO; decisione <utente> autorizza G7 dopo sessione unica."
 }

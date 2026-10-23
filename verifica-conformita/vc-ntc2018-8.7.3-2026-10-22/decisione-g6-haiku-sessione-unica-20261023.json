@@ -1,0 +1,27 @@
+{
+  "tipo": "decisione-correzione-e-ripresa",
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-23T09:57:46+02:00",
+  "testo_approvazione": "Sistema i documenti, rifai G6 Haiku in una sessione, poi G7",
+  "chi": "<utente>",
+  "scope": "8.7.3",
+  "chiude": [
+    "G7-AUDIT-09",
+    "G7-AUDIT-10",
+    "G7-AUDIT-11"
+  ],
+  "giro_g6": 2,
+  "nota_giro": "giro_g6 resta 2: ripresa corretta della stessa prova (non un nuovo giro)",
+  "decisione": [
+    "Correggere subito AUDIT-10 (scheda routing_effettivo.V = CC/HAIKU claude-haiku-5-5 per il G6 corrente; Terra solo come storico invalidato) e AUDIT-11 (verbale: distinguere output originale di V dalla normalizzazione di C sui coperti, senza «byte per byte» falso).",
+    "Archiviare il G6 Haiku a due sessioni come invalido per AUDIT-09 (§ 7: due fasi nello stesso contesto).",
+    "Rifare il G6 Haiku in un'unica sessione Claude Code (fase 1 + resume fase 2 sulla stessa session_id), poi G7 con gpt-6.1-sol."
+  ],
+  "vietato": [
+    "Antigravity",
+    "--always-approve",
+    "sandbox allargata senza ok",
+    "rilancio autonomo se KO",
+    "--fork-session"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "session_id": "8df3e30c-9434-42c3-a734-b79ec154c27e",
+  "file": [
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase1-haiku.stream.jsonl",
+      "sha256_originale": "5c6c185e985775e1bf37d5bac6e6151f41261332fb95c9f3cbbc886c56c53d52",
+      "byte_originale": 2693769,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase1-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "cea250c8435d2881352b47a2960ea2e02a4133a83b43f130909f1d6406f83080",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 1
+        }
+      ],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase2-haiku.stream.jsonl",
+      "sha256_originale": "dd5e19e0232b3c0b7bef50aac221ce4bc9cf4b684bc859a9c51aa8343921c7b0",
+      "byte_originale": 2698328,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase2-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "8eb5f53fba87d13473163a52d1d747b98e195613a97a926209c1f1478f83a9a8",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 1
+        }
+      ],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase1-result.txt",
+      "sha256_originale": "c6fe485e4d248c5a2e9019aff8cd9e5369e6866f6f9feba7643192212eb51f5d",
+      "byte_originale": 6562,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase1-result.txt",
+      "sha256_copia_ripulita": "c6fe485e4d248c5a2e9019aff8cd9e5369e6866f6f9feba7643192212eb51f5d",
+      "sostituzioni": [],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase2-result.txt",
+      "sha256_originale": "83165d2b047e7c31757115ae1c228bbe4728ef1a982824a3409f829244b1d34a",
+      "byte_originale": 2817,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt",
+      "sha256_copia_ripulita": "83165d2b047e7c31757115ae1c228bbe4728ef1a982824a3409f829244b1d34a",
+      "sostituzioni": [],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "rapporto-g6-originale-V.json",
+      "sha256_originale": "40136f169a5fc609ebfc28e9a1856b1cd4a6c33e288c946535fb3c08546c384a",
+      "byte_originale": 1257,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/rapporto-g6-originale-V.json",
+      "sha256_copia_ripulita": "40136f169a5fc609ebfc28e9a1856b1cd4a6c33e288c946535fb3c08546c384a",
+      "sostituzioni": [],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    }
+  ]
+}

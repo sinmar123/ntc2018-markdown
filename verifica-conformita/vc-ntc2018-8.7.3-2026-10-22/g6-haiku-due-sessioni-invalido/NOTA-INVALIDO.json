@@ -1,0 +1,12 @@
+{
+  "tipo": "archivio-invalido",
+  "motivo": "G7-AUDIT-09: due sessioni Claude Code distinte (fase1 fb3dbe87-451d-482f-b85c-42b75d837f7e, fase2 e20bd296-ae3c-439e-9123-ec492d0d309e) contro § 7 procedura (stesso contesto). PNG e valida-g6 OK non sanano.",
+  "decisione": "decisione-g6-haiku-sessione-unica-20261023.json",
+  "conservati_anche_in": [
+    "lavoro/g6-giro2-haiku/",
+    "controllo-log-g6-giro2-haiku.json",
+    "controllo-log-prova-haiku-20261023.json"
+  ],
+  "giro_g6": 2,
+  "tentativo_archiviato": 3
+}

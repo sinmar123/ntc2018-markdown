@@ -18,9 +18,9 @@ Vigenza: ricognizione piena del 2026-10-13, ricontrollo mirato del 2026-10-22 (`
 - Confronto iniziale integrale: Codex sul W520 (CDX), gpt-5.6-terra, high, read-only, un blocco in due passaggi (confronto-iniziale/codex-terra.json). Candidati di struttura con `strumenti/vc-struttura-fonte.py`. gpt-6.1-sol non attivato per dubbi: nessun dubbio.
 - G6 integrale, giro 1: V Codex (CDX), contesto nuovo. Tentativo 1 annullato; tentativo 2 con gpt-5.6-terra (poi invalidato da G7-AUDIT-06/07/08, archiviato in g6-tentativo-2-invalido/).
 - G6 integrale, giro 2: V Claude Code Haiku (CC/HAIKU) sul W520, Claude Max; --restricted --tools Read; C trascrive i JSON. Prova immagini e blocco G6 OK.
-- G7: Codex gpt-6.1-sol, high, read-only, contesto nuovo, giudizio in G7.json (tentativo 5 dopo KO del tentativo 4).
+- G7: Codex gpt-6.1-sol, high, read-only, contesto nuovo, giudizio in G7.json (tentativo 6 dopo KO del tentativo 5; AUDIT-09/10/11 in corso di chiusura).
 
-Natura: verifica svolta da agenti AI; nessuna revisione umana integrale. Sandro ha approvato la lista v1 e deciso sul G6 (annullamento del tentativo 1, chiusura del rilievo del tentativo 2). Isolamento reale: cartelle temporanee esterne al workspace e sandbox read-only di Codex, senza `--always-approve`; nessuna sandbox di lettura dimostrata; letture dichiarate da V solo nella cartella del blocco. In sandbox read-only V non può scrivere file: C ha trascritto byte per byte i messaggi finali JSON di V.
+Natura: verifica svolta da agenti AI; nessuna revisione umana integrale. Sandro ha approvato la lista v1 e deciso sul G6 (annullamento del tentativo 1, chiusura del rilievo del tentativo 2). Isolamento reale: cartelle temporanee esterne al workspace e sandbox read-only di Codex, senza `--always-approve`; nessuna sandbox di lettura dimostrata; letture dichiarate da V solo nella cartella del blocco. In sandbox read-only / --restricted --tools Read V non può scrivere file: C trascrive i messaggi finali JSON di V. Per il G6 Haiku a due sessioni (poi invalidato per G7-AUDIT-09) l'originale di fase 2 è in `lavoro/g6-giro2-haiku/fase2-result.txt` (18 ID in `coperti`, inclusi id di esclusioni); C ha normalizzato `rapporto-g6.json` ai soli 9 id di `inventario.elementi` richiesti da `valida-g6`, documentando la restrizione in `isolamento` e in `sequenza-g6.json`. Non è una trascrizione byte per byte del messaggio di V.
 
 ## Correzioni prima del G6
 
@@ -58,3 +58,16 @@ Prossima azione: G7 tentativo 5 con Codex gpt-6.1-sol, subordinato al giudizio d
 ## G7 tentativo 5 — KO (2026-10-23, Europa/Roma)
 
 Dalle 09:44:46 alle 09:50:48 (ora di Roma), CDX con Codex `gpt-6.1-sol` (ragionamento high, sandbox read-only, contesto nuovo, 111.564 token letti dal log, modello letto nel log: `gpt-6.1-sol`) ha giudicato **KO** il G7 sul manifest `f6b35b84423ece544b38f23ca54113692b2763b6cdd5242a342bf8b407fe8c83`. Rilievi aperti: G7-AUDIT-09 (due sessioni Haiku distinte contro § 7 stesso contesto), G7-AUDIT-10 (scheda routing_effettivo.V ancora su gpt-5.6-terra tentativo 2), G7-AUDIT-11 (verbale «byte per byte» vs rapporto normalizzato da C, 18→9 ID). Trascrizione: `G7-tentativo-5-KO.json`. Esecuzione: `G7-tentativo-5-esecuzione.json`. Nessun rilancio senza decisione di Sandro. Nessuna registrazione VC-OK.
+
+
+### G6 giro 2 — Haiku in sessione unica (tentativo 4, 2026-10-23)
+
+Dopo il KO del G7 tentativo 5 (G7-AUDIT-09/10/11), Sandro ha autorizzato la correzione documentale e il rifacimento del G6 Haiku in un'unica sessione (`decisione-g6-haiku-sessione-unica-20261023.json`). Il G6 Haiku a due sessioni (`fb3dbe87-…` / `e20bd296-…`) è archiviato in `g6-haiku-due-sessioni-invalido/` (log e prove conservati). Nuova esecuzione: Claude Code `claude-haiku-5-5`, `--restricted --tools Read`, fase 1 poi `--resume` stessa `session_id` `8df3e30c-9434-42c3-a734-b79ec154c27e` per la fase 2. PNG aperti in entrambe le fasi; `valida-g6` 9 ID, 0 rilievi; V ha già prodotto 9 id in `coperti` (nessuna normalizzazione 18→9 in questo giro). Controllo C: `controllo-log-g6-giro2-haiku-sessione-unica.json`. Log ripuliti in `lavoro/g6-giro2-haiku-sessione-unica/`. `giro_g6` resta 2. Scheda: `routing_effettivo.V` = CC/HAIKU per il G6 corrente.
+
+## Decisione sessione unica Haiku (2026-10-23, Europa/Roma)
+
+Sandro alle 2026-10-23T09:57:46+02:00: «Sistema i documenti, rifai G6 Haiku in una sessione, poi G7» (`decisione-g6-haiku-sessione-unica-20261023.json`). Chiude G7-AUDIT-09, 10 e 11. Scheda: `routing_effettivo.V` aggiornato a CC/HAIKU `claude-haiku-5-5` per il G6 corrente (Terra solo storico invalidato). Verbale: distinta l'uscita originale di V dalla normalizzazione di C sui `coperti`. Il G6 Haiku a due sessioni (`fb3dbe87-…` / `e20bd296-…`) è archiviato in `g6-haiku-due-sessioni-invalido/` per scostamento dal § 7. `giro_g6` resta 2. Prossima azione: G6 Haiku in un'unica sessione (fase 1 + resume fase 2), poi G7 tentativo 6.
+
+### G7 tentativo 6 — KO (2026-10-23, Europa/Roma)
+
+Dalle 10:22:51 alle 10:28:26 (ora di Roma), CDX con Codex `gpt-6.1-sol` (ragionamento high, sandbox read-only, contesto nuovo, 118.526 token letti dal log, sessione `01a167db-15c3-7b93-860c-0bdad25d1ac2`) ha emesso giudizio `KO` in `G7-tentativo-6-KO.json` per `G7-AUDIT-12` (riserve in `lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt` non riconciliate con `rapporto-g6.json`/`esito-g6.json`) e `G7-AUDIT-13` (verbale elenca normalizzazioni 1, 21, 23; G6 corrente attesta anche la 2). Nessun rilancio senza decisione. Manifest valutato `a9c80db3a49bf4b245c4eaeedd785c40b07d297b47810cb5b8be43e3ce65f028`.

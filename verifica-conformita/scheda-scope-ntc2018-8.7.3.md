@@ -3,7 +3,7 @@ scope_id: ntc2018-8.7.3
 stato: IN-CORSO
 agente: GBOT
 agente_istanza: GBOT-verifica-ntc
-macchina: "W520; GBOT-verifica-ntc come C; Codex sul W520 (CDX) per confronto integrale, G5 e G6"
+macchina: "W520; GBOT-verifica-ntc come C; Claude Code Haiku (CC/HAIKU) per G6 corrente; Codex sul W520 (CDX) per confronto iniziale, G5 storico e G7"
 presa_in_carico: 2026-10-22
 procedura: VC-NTC/10
 procedura_sha256: bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22
@@ -18,16 +18,16 @@ snapshot_sha256: 1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f0
 giro_g6: 2
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
 attesa_decisione: []
-prossimo_passo: "G7 tentativo 5 KO (G7-AUDIT-09/10/11); fermo senza rilancio."
+prossimo_passo: "Decisione di Sandro su G7-AUDIT-12 (riserve in fase2-result.txt vs rapporto OK) e G7-AUDIT-13 (normalizzazione 2 assente dal verbale)."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
   confronto_iniziale: {agente: "Codex sul W520 (CDX)", modello: "gpt-5.6-terra", sandbox: read-only, ruolo: "confronto integrale sulla fonte e secondo passaggio mirato"}
   dubbi: {agente: "Codex sul W520 (CDX)", modello: "gpt-6.1-sol", sandbox: read-only, ruolo: "solo voci dubbie"}
   E: non_attivato
-  V: {agente: "Codex sul W520 (CDX)", modello_g6: "gpt-5.6-terra (tentativo 2; tentativo 1 annullato: fase 2 gpt-6-astra)", modello_g7: "gpt-6.1-sol", sandbox: read-only}
+  V: {agente: "Claude Code sul W520 (CC/HAIKU) per G6 corrente; Codex sul W520 (CDX) per G7", modello_g6: "claude-haiku-5-5 (giro 2, sessione unica; precedente due-sessioni invalidato per G7-AUDIT-09; Terra gpt-5.6-terra solo storico invalidato: tentativo 2 giro 1 e fase1 giro2 controllo-log KO)", modello_g7: "gpt-6.1-sol", sandbox: "G6: --restricted --tools Read; G7: read-only"}
 consumi: {}
 ---
 
@@ -162,3 +162,6 @@ Decisione di Sandro «Sì, prova Haiku e se OK chiudi G6 e G7» (decisione-prova
 
 Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 Haiku.
 
+## Nota G7 tentativo 6 (2026-10-23, Europa/Roma)
+
+G7 tentativo 6 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `KO` per G7-AUDIT-12 e G7-AUDIT-13 (sessione `01a167db-15c3-7b93-860c-0bdad25d1ac2`, 118.526 token). Nessun rilancio senza decisione. Vedi `G7-tentativo-6-KO.json` e `G7-tentativo-6-esecuzione.json`.

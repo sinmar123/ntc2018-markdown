@@ -16,7 +16,7 @@ codex
 Leggo CONSEGNA-G7.md e applico le sue regole restando in questa cartella.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath .\\CONSEGNA-G7.md" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
+"<powershell>" -Command "Get-Content -LiteralPath .\\CONSEGNA-G7.md" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 491ms:
 # Consegna al verificatore: G7 tentativo 5, scope Â§ 8.7.3 / C8.7.3
 
@@ -97,7 +97,7 @@ Rispondi soltanto con un oggetto JSON valido, senza testo prima o dopo e senza b
 - `limiti`: limiti del controllo, in una o due frasi.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "rg --files -g '*'" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
+"<powershell>" -NoProfile -Command "rg --files -g '*'" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 1286ms:
 verifica-conformita\verbale-VC-ntc2018-8.7.3-2026-10-22.md
 verifica-conformita\vc-ntc2018-8.7.3-2026-10-22\sequenza-g6.json
@@ -240,14 +240,14 @@ verifica-conformita\vc-ntc2018-8.7.3-2026-10-22\g6\b01\congelamento.json
 verifica-conformita\vc-ntc2018-8.7.3-2026-10-22\g6\b01\canone.md
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Write-Output 'riepilogo-meccanico.json'
+"<powershell>" -NoProfile -Command "Write-Output 'riepilogo-meccanico.json'
 Get-Content -Encoding UTF8 -LiteralPath 'riepilogo-meccanico.json'
 Write-Output 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md'
 Write-Output 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md'" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Write-Output 'verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md'
+"<powershell>" -NoProfile -Command "Write-Output 'verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md'
 Write-Output 'verifica-conformita/scheda-scope-ntc2018-8.7.3.md'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/scheda-scope-ntc2018-8.7.3.md'
@@ -493,7 +493,7 @@ verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json
   "modifiche": [
     {
       "path": "README.md",
-      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c…3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md). Firma: GBOT-verifica-ntc.",
+      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](<fuori-scope>/verbale-8.7.2.md). Firma: GBOT-verifica-ntc.",
       "dopo": "**§ 8.7.3 con C8.7.3, registrato VC-OK, 2026-10-23:** VC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 (PNG aperti nel log; `valida-g6` 9 ID, 0 rilievi); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 5; tentativi 1-4 KO per ERR-AUDIT; G6 tentativo 2 invalidato e archiviato). `giro_g6` 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**"
     },
     {
@@ -508,7 +508,7 @@ verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json
     },
     {
       "path": "indice-ntc2018.md",
-      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.2.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/).",
+      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:** [verbale](./<fuori-scope>/verbale-8.7.2.md), [scheda](<fuori-scope>/scheda-8.7.2.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/).",
       "dopo": "**§ 8.7.3 con C8.7.3, VC-OK registrato il 2026-10-23:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/).\n\n**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**"
     },
     {
@@ -1060,7 +1060,7 @@ Emersa dal G6 del § 8.7.1. Nessuna parola, cifra o grandezza cambia. Vale per g
 | 2026-10-18 | Sandro | voce 25, decisa nella VC del § 8.7.1: note a piè di pagina come nota Markdown `[^n]`, con numero, testo ed enfasi della fonte e senza la parola «Nota» |
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Get-Content -Encoding UTF8 -LiteralPath .\\riepilogo-meccanico.json" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
+"<powershell>" -NoProfile -Command "Get-Content -Encoding UTF8 -LiteralPath .\\riepilogo-meccanico.json" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 482ms:
 {
   "prodotto_da": "script di C (GBOT-verifica-ntc), 2026-10-23, G7 tentativo 5",
@@ -1279,7 +1279,7 @@ exec
 }
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\vc-ntc2018-8.7.3-2026-10-22\\chiusura.json
+"<powershell>" -NoProfile -Command "Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\vc-ntc2018-8.7.3-2026-10-22\\chiusura.json
 Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\scheda-scope-ntc2018-8.7.3.md | Select-Object -Skip 115" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 651ms:
 {
@@ -1299,7 +1299,7 @@ Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\scheda-scope-ntc
   "modifiche": [
     {
       "path": "README.md",
-      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c…3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md). Firma: GBOT-verifica-ntc.",
+      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](<fuori-scope>/verbale-8.7.2.md). Firma: GBOT-verifica-ntc.",
       "dopo": "**§ 8.7.3 con C8.7.3, registrato VC-OK, 2026-10-23:** VC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 (PNG aperti nel log; `valida-g6` 9 ID, 0 rilievi); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 5; tentativi 1-4 KO per ERR-AUDIT; G6 tentativo 2 invalidato e archiviato). `giro_g6` 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**"
     },
     {
@@ -1314,7 +1314,7 @@ Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\scheda-scope-ntc
     },
     {
       "path": "indice-ntc2018.md",
-      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.2.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/).",
+      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:** [verbale](./<fuori-scope>/verbale-8.7.2.md), [scheda](<fuori-scope>/scheda-8.7.2.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/).",
       "dopo": "**§ 8.7.3 con C8.7.3, VC-OK registrato il 2026-10-23:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/).\n\n**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**"
     },
     {
@@ -1383,7 +1383,7 @@ codex
 Le impronte e il piano di registrazione concordano con il riepilogo. Verifico la copertura Haiku, le prove di apertura delle immagini e la coerenza dei ruoli dichiarati.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Write-Output 'esito-g6.json'
+"<powershell>" -NoProfile -Command "Write-Output 'esito-g6.json'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json'
 Write-Output 'sequenza-g6.json'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json'
@@ -1784,7 +1784,7 @@ g6/b01/congelamento.json
 }
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\vc-ntc2018-8.7.3-2026-10-22\\procedura-congelata-r10.md | Select-Object -First 205" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
+"<powershell>" -NoProfile -Command "Get-Content -Encoding UTF8 -LiteralPath .\\verifica-conformita\\vc-ntc2018-8.7.3-2026-10-22\\procedura-congelata-r10.md | Select-Object -First 205" in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 660ms:
 ---
 title: Procedura unica di conversione e verifica NTC 2018
@@ -1993,7 +1993,7 @@ Il recupero dei blocchi invalidi sul medesimo snapshot completa il giro corrente
 Oltre all'arresto dopo l'unico controllo delle modifiche, fermarsi se si raggiunge `max_giri`, restano adjudicazioni discordi o serve conoscenza esterna all'atto. L'elenco per Sandro indica il punto irrisolto e il lavoro minimo proposto. Il limite aumenta soltanto con autorizzazione esplicita e non si azzera migrando procedura o modello; nessun consumo del tetto residuo è automatico.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Write-Output 'lavoro/g6-giro2-haiku/fase2-result.txt'
+"<powershell>" -NoProfile -Command "Write-Output 'lavoro/g6-giro2-haiku/fase2-result.txt'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase2-result.txt'
 Write-Output 'lavoro/g6-giro2-haiku/fase1-result.txt'
 Get-Content -Encoding UTF8 -LiteralPath 'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase1-result.txt'
@@ -3903,11 +3903,11 @@ G7-tentativo-4-KO.json
 }
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$taskDir = '"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
-Get-Content -Encoding UTF8 -LiteralPath \""'$taskDir/manifest-rilascio.json" | Select-Object -First 42
+"<powershell>" -NoProfile -Command '$taskDir = '"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
+Get-Content -Encoding UTF8 -LiteralPath \""'$<task>/manifest-rilascio.json" | Select-Object -First 42
 foreach ($taskName in @('"'fase1-haiku-stream.jsonl','fase2-haiku-stream.jsonl','prova-haiku-stream.jsonl')) {
 Write-Output "'$taskName
-foreach ($taskLine in Get-Content -Encoding UTF8 -LiteralPath "$taskDir/lavoro/g6-giro2-haiku/$taskName") {
+foreach ($taskLine in Get-Content -Encoding UTF8 -LiteralPath "$<task>/lavoro/g6-giro2-haiku/$taskName") {
 $taskEvent = $taskLine | ConvertFrom-Json
 if ($taskEvent.type -eq '"'system') { [pscustomobject]@{type="'$taskEvent.type;subtype=$taskEvent.subtype;session_id=$taskEvent.session_id;model=$taskEvent.model;tools=$taskEvent.tools} | ConvertTo-Json -Compress -Depth 5 }
 if ($taskEvent.type -eq '"'assistant') { foreach ("'$taskContent in $taskEvent.message.content) { if ($taskContent.type -eq '"'tool_use') { [pscustomobject]@{type='tool_use';name="'$taskContent.name;input=$taskContent.input;id=$taskContent.id} | ConvertTo-Json -Compress -Depth 5 } } }
@@ -4051,8 +4051,8 @@ prova-haiku-stream.jsonl
 {"type":"result","session_id":"56fff203-3a61-4d66-9efe-2bc64018c9c8","subtype":"success","is_error":false}
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$taskDir = '"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
-"'$taskManifest = Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/manifest-rilascio.json" | ConvertFrom-Json
+"<powershell>" -NoProfile -Command '$taskDir = '"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
+"'$taskManifest = Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/manifest-rilascio.json" | ConvertFrom-Json
 $taskMissing = @(); $taskWrong = @(); $taskCount = 0
 foreach ($taskEntry in $taskManifest.files) {
 if ([IO.Path]::IsPathRooted($taskEntry.path) -or $taskEntry.path -match '"'("'^|[/'"\\\\])\\.\\.([/\\\\]|"'$)'"') { throw 'Manifest path outside permitted root' }
@@ -4062,12 +4062,12 @@ $taskDigest = (Get-FileHash -Algorithm SHA256 -LiteralPath $taskEntry.path).Hash
 if ($taskDigest -ne $taskEntry.sha256 -or (Get-Item -LiteralPath $taskEntry.path).Length -ne $taskEntry.bytes) { $taskWrong += $taskEntry.path }
 } else { $taskMissing += $taskEntry.path }
 }
-[pscustomobject]@{manifest_sha256=(Get-FileHash -Algorithm SHA256 -LiteralPath "$taskDir/manifest-rilascio.json").Hash.ToLower();presenti=$taskCount;mancanti=$taskMissing;difformi=$taskWrong} | ConvertTo-Json -Depth 4
+[pscustomobject]@{manifest_sha256=(Get-FileHash -Algorithm SHA256 -LiteralPath "$<task>/manifest-rilascio.json").Hash.ToLower();presenti=$taskCount;mancanti=$taskMissing;difformi=$taskWrong} | ConvertTo-Json -Depth 4
 foreach ($taskName in @('"'config-g6.json','mappa-g5.json','g6/b01/input-confronto.json','decisione-applicazione-20261022.json','controllo-dossier-esito-pre-manifest.json','controllo-dossier-esito-post-manifest.json')) {
 Write-Output "'$taskName
-Get-Content -Encoding UTF8 -LiteralPath "$taskDir/$taskName"
+Get-Content -Encoding UTF8 -LiteralPath "$<task>/$taskName"
 }
-$taskInventory=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/g6/b01/inventario.json" | ConvertFrom-Json
+$taskInventory=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/g6/b01/inventario.json" | ConvertFrom-Json
 [pscustomobject]@{firma=$taskInventory.firma;esito=$taskInventory.esito_provvisorio;id=@($taskInventory.elementi.id);dubbi=$taskInventory.dubbi} | ConvertTo-Json -Depth 6' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 1720ms:
 {
@@ -4388,17 +4388,17 @@ codex
 I log confermano l’apertura dei PNG in entrambe le fasi. Emerge però uno scostamento: le due fasi Haiku usano sessioni distinte, mentre il § 7 richiede lo stesso contesto. Controllo anche che le sostituzioni del piano di registrazione siano applicabili.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$taskDir='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
-"'$taskPlan=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/chiusura.json" | ConvertFrom-Json
+"<powershell>" -NoProfile -Command '$taskDir='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
+"'$taskPlan=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/chiusura.json" | ConvertFrom-Json
 $taskSheet=Get-Content -Raw -Encoding UTF8 -LiteralPath '"'verifica-conformita/scheda-scope-ntc2018-8.7.3.md'
 foreach ("'$taskChange in $taskPlan.modifiche) {
 [pscustomobject]@{path=$taskChange.path;prima_lf=([regex]::Matches($taskChange.prima,"`n")).Count;prima_backslash_n=([regex]::Matches($taskChange.prima,'"'\\\\n')).Count;dopo_lf=([regex]::Matches("'$taskChange.dopo,"`n")).Count;dopo_backslash_n=([regex]::Matches($taskChange.dopo,'"'\\\\n')).Count;prima_presente_nella_scheda="'$(if($taskChange.path -eq '"'verifica-conformita/scheda-scope-ntc2018-8.7.3.md'){"'$taskSheet.Contains($taskChange.prima)}else{$null})} | ConvertTo-Json -Compress
 }
-$taskIndex=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/lavoro/indice.json" | ConvertFrom-Json
+$taskIndex=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/lavoro/indice.json" | ConvertFrom-Json
 $taskIndex | Select-Object -Property * -ExcludeProperty file | ConvertTo-Json -Depth 7
 $taskIndex.file | Where-Object { ($_ | ConvertTo-Json -Compress -Depth 8) -match '"'haiku|giro2' } | ConvertTo-Json -Depth 8
-Get-Content -Encoding UTF8 -LiteralPath \""'$taskDir/g6/b01/ISTRUZIONI-V.md"
-Get-Content -Encoding UTF8 -LiteralPath "$taskDir/g1/ricontrollo-20261022.json"' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
+Get-Content -Encoding UTF8 -LiteralPath \""'$<task>/g6/b01/ISTRUZIONI-V.md"
+Get-Content -Encoding UTF8 -LiteralPath "$g1/ricontrollo-20261022.json"' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 898ms:
 {"path":"README.md","prima_lf":0,"prima_backslash_n":0,"dopo_lf":4,"dopo_backslash_n":0,"prima_presente_nella_scheda":null}
 {"path":"TODO.md","prima_lf":0,"prima_backslash_n":0,"dopo_lf":6,"dopo_backslash_n":0,"prima_presente_nella_scheda":null}
@@ -4639,14 +4639,14 @@ nel rapporto stesso. Non riscrivere hash calcolabili o creare rapporti aggiuntiv
 }
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$taskDir='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
+"<powershell>" -NoProfile -Command '$taskDir='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
 "'$taskIndexNames=@('"'log-g6/indice.json','log-g7/indice.json','lavoro/indice.json')
 "'$taskIssues=@();$taskChecked=0
 foreach($taskIndexName in $taskIndexNames){
-$taskIndex=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/$taskIndexName" | ConvertFrom-Json
+$taskIndex=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/$taskIndexName" | ConvertFrom-Json
 $taskRows=@($taskIndex.log)+@($taskIndex.file)
 foreach($taskRow in $taskRows){if($taskRow.copia){
-$taskCopy="$taskDir/$($taskRow.copia)"
+$taskCopy="$<task>/$($taskRow.copia)"
 if(Test-Path -LiteralPath $taskCopy -PathType Leaf){
 $taskChecked++
 if((Get-FileHash -Algorithm SHA256 -LiteralPath $taskCopy).Hash.ToLower() -ne $taskRow.sha256_copia_ripulita){$taskIssues += $taskCopy}
@@ -4654,12 +4654,12 @@ if((Get-FileHash -Algorithm SHA256 -LiteralPath $taskCopy).Hash.ToLower() -ne $t
 }
 }
 [pscustomobject]@{copie_indicizzate_verificate=$taskChecked;impronte_difformi=$taskIssues}|ConvertTo-Json -Depth 3
-$taskManifest=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/manifest-rilascio.json"|ConvertFrom-Json
-$taskList=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/lista-manifest.json"|ConvertFrom-Json
+$taskManifest=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/manifest-rilascio.json"|ConvertFrom-Json
+$taskList=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/lista-manifest.json"|ConvertFrom-Json
 Write-Output '"'Struttura lista manifest'
 "'$taskList | Get-Member -MemberType NoteProperty | Select-Object Name | ConvertTo-Json -Compress
 Write-Output '"'Righe probanti'
-Select-String -Encoding UTF8 -LiteralPath \""'$taskDir/sequenza-g6.json","$taskDir/controllo-log-g6-giro2-haiku.json",'"'verifica-conformita/scheda-scope-ntc2018-8.7.3.md','verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md' -Pattern 'sessione|contesto nuovo|sessione nuova|modello_g6:|byte per byte|ristretto' | ForEach-Object { [pscustomobject]@{file="'$_.Filename;riga=$_.LineNumber;testo=$_.Line} } | ConvertTo-Json -Depth 3' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
+Select-String -Encoding UTF8 -LiteralPath \""'$<task>/sequenza-g6.json","$controllo-log-g6-giro2-haiku.json",'"'verifica-conformita/scheda-scope-ntc2018-8.7.3.md','verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md' -Pattern 'sessione|contesto nuovo|sessione nuova|modello_g6:|byte per byte|ristretto' | ForEach-Object { [pscustomobject]@{file="'$_.Filename;riga=$_.LineNumber;testo=$_.Line} } | ConvertTo-Json -Depth 3' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 1713ms:
 {
     "copie_indicizzate_verificate":  35,
@@ -4778,17 +4778,17 @@ Righe probanti
 ]
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$taskDir='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
-"'$taskIndex=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/lavoro/indice.json"|ConvertFrom-Json
+"<powershell>" -NoProfile -Command '$taskDir='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'
+"'$taskIndex=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/lavoro/indice.json"|ConvertFrom-Json
 [pscustomobject]@{conteggi_dichiarati=$taskIndex.conteggi;conteggi_effettivi=@($taskIndex.file|Group-Object esito|Select-Object Name,Count)}|ConvertTo-Json -Depth 5
-$taskResult=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/lavoro/g6-giro2-haiku/fase2-result.txt"
+$taskResult=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/lavoro/g6-giro2-haiku/fase2-result.txt"
 $taskMatch=[regex]::Match($taskResult,'"'(?s)"'```json'"\\s*(.*?)\\s*"'```'"')
 "'$taskOriginal=$taskMatch.Groups[1].Value|ConvertFrom-Json
-$taskReport=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/g6/b01/rapporto-g6.json"|ConvertFrom-Json
+$taskReport=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/g6/b01/rapporto-g6.json"|ConvertFrom-Json
 $taskDiff=@();foreach($taskProperty in $taskOriginal.PSObject.Properties){if(($taskProperty.Value|ConvertTo-Json -Compress -Depth 10) -ne ($taskReport.($taskProperty.Name)|ConvertTo-Json -Compress -Depth 10)){$taskDiff+=$taskProperty.Name}}
 [pscustomobject]@{campi_rapporto_differenti=$taskDiff;coperti_originale=@($taskOriginal.coperti).Count;coperti_rapporto=@($taskReport.coperti).Count}|ConvertTo-Json -Depth 3
-$taskList=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/lista-manifest.json"|ConvertFrom-Json
-$taskManifest=Get-Content -Raw -Encoding UTF8 -LiteralPath "$taskDir/manifest-rilascio.json"|ConvertFrom-Json
+$taskList=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/lista-manifest.json"|ConvertFrom-Json
+$taskManifest=Get-Content -Raw -Encoding UTF8 -LiteralPath "$<task>/manifest-rilascio.json"|ConvertFrom-Json
 [pscustomobject]@{elementi_lista=@($taskList).Count;manifest_non_in_lista=@($taskManifest.files.path|Where-Object{$_ -notin $taskList});lista_non_in_manifest=@($taskList|Where-Object{$_ -notin $taskManifest.files.path})}|ConvertTo-Json -Depth 4' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t5
  succeeded in 796ms:
 {
