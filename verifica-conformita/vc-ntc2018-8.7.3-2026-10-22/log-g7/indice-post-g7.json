@@ -1,8 +1,8 @@
 {
   "firma": "GBOT-verifica-ntc",
   "scope": "8.7.3",
-  "data": "2026-10-22",
-  "motivo": "Procedura VC-NTC/10, § 9, e dichiarazione nel verbale: il log del G7 tentativo 4 non poteva stare nel manifest che quel G7 ha verificato; la sua copia ripulita è aggiunta dopo il giudizio (KO), con questo indice separato.",
+  "data": "2026-10-23",
+  "motivo": "Log e metadati dei G7 nati dopo il manifest giudicato: tentativo 4 (storico) e tentativo 7 OK OR/DeepSeek. Non alterano log-g7/indice.json incluso nel manifest 5f8f8a0e…0cf9e.",
   "metodo": "come log-g7/indice.json (ripulitura-log.py)",
   "letture_esterne_del_verificatore": "nessuna: nel tentativo 4 nessun comando del verificatore apre file fuori dalla cartella del G7; AGENTS.md del workspace non letto",
   "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
@@ -44,6 +44,37 @@
         "token": "130.412"
       },
       "impronta_originale_gia_dichiarata": "G7-tentativo-4-esecuzione.json, log_sha256"
+    },
+    {
+      "tentativo": 7,
+      "file": "g7-tentativo-7-log.txt",
+      "sha256": "8a100c336cd445c4f8d2ef6f29dca705755b9b47e9518475f8aaeba99da6819a",
+      "bytes": 7693,
+      "giudizio": "OK"
     }
-  ]
+  ],
+  "manifest_giudicato_sha256_t7": "5f8f8a0e2cf0fefcd16395e05a65eb80265b8539c345caa33c19b0109db0cf9e",
+  "indice_manifest_sha256": "af99a569ae3a10cff03426f07af5c107c114a17eb4d08af5fe56a6f2c727dcd8",
+  "tentativo_7": {
+    "tentativo": 7,
+    "file_ok": "G7-tentativo-7-OK.json",
+    "sha256_ok": "d31adcd1a515453498613a71426386cbefc949e6091d14b75fb5a22cef353dca",
+    "esecuzione": "G7-tentativo-7-esecuzione.json",
+    "sha256_esecuzione": "6198888ee5211ac927b49431e0c7d6a3e92efd2295011ea5d5cbee75e27cf238",
+    "log_copia": "g7-tentativo-7-log.txt",
+    "sha256_log_copia": "8a100c336cd445c4f8d2ef6f29dca705755b9b47e9518475f8aaeba99da6819a",
+    "modello": "deepseek/deepseek-v4-pro",
+    "firma": "OR/DeepSeek/deepseek/deepseek-v4-pro",
+    "via": "OpenRouter",
+    "prova": true,
+    "token": 635189,
+    "prompt_tokens": 560208,
+    "completion_tokens": 74981,
+    "reasoning_tokens": 70393,
+    "costo_usd_approx": 0.497,
+    "giudizio": "OK",
+    "rilievi": [],
+    "inizio": "2026-10-23T14:03:50+02:00",
+    "fine": "2026-10-23T14:20:13+02:00"
+  }
 }

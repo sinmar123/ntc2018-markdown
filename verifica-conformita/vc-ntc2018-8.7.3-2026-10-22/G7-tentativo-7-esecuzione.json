@@ -1,0 +1,33 @@
+{
+  "file": "G7-tentativo-7-OK.json",
+  "sha256": "d31adcd1a515453498613a71426386cbefc949e6091d14b75fb5a22cef353dca",
+  "redazione": "nessuna: il file e' la trascrizione del messaggio finale di V (JSON di giudizio)",
+  "alias": "G7.json",
+  "esecuzione": {
+    "tentativo": 7,
+    "motore": "OpenRouter API (tool-calling harness GBOT)",
+    "modello_richiesto": "deepseek/deepseek-v4-pro",
+    "modello_dal_log": "deepseek/deepseek-v4-pro",
+    "firma": "OR/DeepSeek/deepseek/deepseek-v4-pro",
+    "ragionamento": "effort=low",
+    "sandbox": "sola lettura cartella pack; niente AGENTS.md; niente scrittura sul dossier da V",
+    "contesto": "nuovo",
+    "inizio": "2026-10-23T14:03:50+02:00",
+    "termine": "2026-10-23T14:20:13+02:00",
+    "token": {
+      "prompt": 560208,
+      "completion": 74981,
+      "reasoning": 70393,
+      "total": 635189
+    },
+    "costo_usd": 0.49729548,
+    "turns": 9,
+    "log_sha256": "8a100c336cd445c4f8d2ef6f29dca705755b9b47e9518475f8aaeba99da6819a",
+    "log": "copia ripulita in log-g7/g7-tentativo-7-log.txt (fuori dal manifest)",
+    "letture_fuori_cartella": "nessuna (consegna: vietato aprire file fuori dalla cartella, AGENTS.md compreso)"
+  },
+  "manifest_sha256_valutato": "5f8f8a0e2cf0fefcd16395e05a65eb80265b8539c345caa33c19b0109db0cf9e",
+  "rilievi": [],
+  "giudizio_g7": "OK",
+  "copia_del_log": "log-g7/g7-tentativo-7-log.txt"
+}

@@ -1,6 +1,6 @@
 ---
 scope_id: ntc2018-8.7.3
-stato: IN-CORSO
+stato: CHIUSO
 agente: GBOT
 agente_istanza: GBOT-verifica-ntc
 macchina: "W520; GBOT-verifica-ntc come C; Claude Code Haiku (CC/HAIKU) per G6 corrente; Codex sul W520 (CDX) per confronto iniziale, G5 storico e G7"
@@ -18,9 +18,9 @@ snapshot_sha256: 1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f0
 giro_g6: 2
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: in_corso}
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: OK}
 attesa_decisione: []
-prossimo_passo: "Decisione di Sandro su G7-AUDIT-12 (riserve in fase2-result.txt vs rapporto OK) e G7-AUDIT-13 (normalizzazione 2 assente dal verbale)."
+prossimo_passo: "Nessuna sul file: VC conclusa sullo snapshot registrato."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -165,3 +165,13 @@ Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 Haiku.
 ## Nota G7 tentativo 6 (2026-10-23, Europa/Roma)
 
 G7 tentativo 6 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `KO` per G7-AUDIT-12 e G7-AUDIT-13 (sessione `01a167db-15c3-7b93-860c-0bdad25d1ac2`, 118.526 token). Nessun rilancio senza decisione. Vedi `G7-tentativo-6-KO.json` e `G7-tentativo-6-esecuzione.json`.
+
+## Nota allineamento AUDIT-12/13 e G7 DeepSeek (2026-10-23, Europa/Roma)
+
+Documenti allineati senza rifare G6 (`rettifica-g7-audit-12-13-20261023.json`). G7 tentativo 7 di prova con OR/DeepSeek autorizzato; non e' cambio stabile di procedura.
+
+## Chiusura 2026-10-23
+
+G7 tentativo 7 di prova con OpenRouter DeepSeek `deepseek/deepseek-v4-pro` (sola lettura cartella, tool-calling): `OK` (tentativi 1-6 con Codex gpt-6.1-sol `KO` per ERR-AUDIT; AUDIT-12/13 chiusi documentali senza rifare G6). Gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json`, snapshot `1a400982…d4f08` (`vc-ntc2018-8.7.3-2026-10-22/G7.json`). Copia ripulita del log di questo G7 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, fuori dal manifest giudicato. Riga 8.7.3 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.3-2026-10-22.md).
+
+Firma: GBOT-verifica-ntc, 2026-10-23.

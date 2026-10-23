@@ -1,0 +1,12 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-23T13:39:03+02:00",
+  "riferimento_rapporto": "g6/b01/rapporto-g6.json",
+  "riferimento_originale_prosa": "lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt",
+  "nota": "Il rapporto JSON di V (esito OK, rilievi []) e' invariato. Le note in prosa della stessa risposta di V sono riconciliate in rettifica-g7-audit-12-13-20261023.json: nessuna e' di merito sul testo normativo.",
+  "normalizzazioni_attestate_da_V": [
+    "2",
+    "21",
+    "23"
+  ]
+}

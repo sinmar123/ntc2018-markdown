@@ -38,7 +38,7 @@ Il G7 tentativo 4 (Codex gpt-6.1-sol) ha invalidato il blocco G6 tentativo 2 per
 
 ## Normalizzazioni, limiti e manifest
 
-Normalizzazioni applicate secondo il catalogo, voci 1-25; in questo scope voci 1, 21 e 23. Consumi (token dichiarati dalla CLI, letti dai log UTF-16; valori rettificati in `rettifica-g7-audit-01-20261022.json`): confronto iniziale gpt-5.6-terra 40.218; G6 tentativo 1 fase 1 43.968 (gpt-5.6-terra), fase 2 97.981 (gpt-6-astra); G6 tentativo 2 fase 1 54.208, fase 2 117.962 (gpt-5.6-terra); G7 tentativo 1 gpt-6.1-sol 67.227; G7 tentativo 2 gpt-6.1-sol 79.544; G7 tentativo 3 gpt-6.1-sol 80.227; G7 tentativo 4 KO; G6 giro 2 Haiku fase 1 circa 34.544, fase 2 circa 35.908 (token dichiarati dalla CLI Claude Code); G7 tentativo 5 nel giudizio. Nessun costo in valuta esposto.
+Normalizzazioni applicate secondo il catalogo, voci 1-25; in questo scope voci **1, 2, 21 e 23** (la voce 2, apostrofi curvi, e' attestata dal rapporto G6 corrente e da `fase2-result.txt`; mancava dalla sintesi del verbale ed e' stata aggiunta in chiusura di G7-AUDIT-13, `rettifica-g7-audit-12-13-20261023.json`). Consumi (token dichiarati dalla CLI, letti dai log UTF-16; valori rettificati in `rettifica-g7-audit-01-20261022.json`): confronto iniziale gpt-5.6-terra 40.218; G6 tentativo 1 fase 1 43.968 (gpt-5.6-terra), fase 2 97.981 (gpt-6-astra); G6 tentativo 2 fase 1 54.208, fase 2 117.962 (gpt-5.6-terra); G7 tentativo 1 gpt-6.1-sol 67.227; G7 tentativo 2 gpt-6.1-sol 79.544; G7 tentativo 3 gpt-6.1-sol 80.227; G7 tentativo 4 KO; G6 giro 2 Haiku fase 1 circa 34.544, fase 2 circa 35.908 (token dichiarati dalla CLI Claude Code); G7 tentativo 5 nel giudizio. Nessun costo in valuta esposto.
 
 Il G7 tentativo 1 (Codex gpt-6.1-sol, dalle 08:11 alle 08:14) è stato `KO` per due `ERR-AUDIT` documentali: G7-AUDIT-01, `sequenza-g6.json` riportava «non letto» per i modelli del G6 tentativo 2 perché lo script di C leggeva come UTF-8 i log UTF-16 di Codex; G7-AUDIT-02, il verbale non riportava gli URL degli atti e il ricontrollo G1 ne dava solo un modello. Su decisione di Sandro («Sì, correggi e rifai il G7 con Sol») C li ha rettificati senza toccare target, copertura o giudizi: `rettifica-g7-audit-01-20261022.json` (modelli e token dai log, file originali non riscritti), URL in questo verbale e campi aggiunti in `g1/ricontrollo-20261022.json`. Il tentativo 1 è conservato in `G7-tentativo-1-KO.json` (percorso locale redatto, `G7-tentativo-1-redazione.json`), con il manifest di allora `manifest-rilascio-g7-tentativo-1.json`.
 
@@ -68,6 +68,21 @@ Dopo il KO del G7 tentativo 5 (G7-AUDIT-09/10/11), Sandro ha autorizzato la corr
 
 Sandro alle 2026-10-23T09:57:46+02:00: «Sistema i documenti, rifai G6 Haiku in una sessione, poi G7» (`decisione-g6-haiku-sessione-unica-20261023.json`). Chiude G7-AUDIT-09, 10 e 11. Scheda: `routing_effettivo.V` aggiornato a CC/HAIKU `claude-haiku-5-5` per il G6 corrente (Terra solo storico invalidato). Verbale: distinta l'uscita originale di V dalla normalizzazione di C sui `coperti`. Il G6 Haiku a due sessioni (`fb3dbe87-…` / `e20bd296-…`) è archiviato in `g6-haiku-due-sessioni-invalido/` per scostamento dal § 7. `giro_g6` resta 2. Prossima azione: G6 Haiku in un'unica sessione (fase 1 + resume fase 2), poi G7 tentativo 6.
 
+### Riconciliazione riserve in fase2-result.txt (G7-AUDIT-12, 2026-10-23, Europa/Roma)
+
+Output originale di V (prosa + JSON) conservato in `lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt`. Il JSON (trascritto in `g6/b01/rapporto-g6.json`) ha `esito` OK e `rilievi` []. Le note in prosa **non sono rilievi sul testo normativo** e sono trattate cosi' (`rettifica-g7-audit-12-13-20261023.json`, `g6/b01/nota-riserve-fase2-C.json`):
+
+1. **Rubriche come titoli Markdown** (`#`, `###`) invece del grassetto della fonte: V afferma contenuto identico e assenza di differenze di sostanza; il catalogo non ha una voce dedicata a questa resa. **Trattamento: chiusa come non-rilievo** (convenzione di corpus / da eventuale decisione catalogo di Sandro, non modifica del target in questa VC).
+2. **Discordanza chiavi pagina** (`ntc:298`, `circ:289`) vs numeri stampati (294, 285): gia' in inventario; le chiavi identificano le pagine fisiche del PDF usate in G0/G6. **Trattamento: chiusa come non-rilievo sul testo**.
+3. **Refuso «strutturale».. nell'inventario**: V lo attribuisce al pacchetto di verifica, non al corpus. **Trattamento: non applicabile al target**.
+
+Nessuna di queste riserve e' di merito sul Markdown rispetto alla fonte; non si rifa' il G6.
+
 ### G7 tentativo 6 — KO (2026-10-23, Europa/Roma)
 
 Dalle 10:22:51 alle 10:28:26 (ora di Roma), CDX con Codex `gpt-6.1-sol` (ragionamento high, sandbox read-only, contesto nuovo, 118.526 token letti dal log, sessione `01a167db-15c3-7b93-860c-0bdad25d1ac2`) ha emesso giudizio `KO` in `G7-tentativo-6-KO.json` per `G7-AUDIT-12` (riserve in `lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt` non riconciliate con `rapporto-g6.json`/`esito-g6.json`) e `G7-AUDIT-13` (verbale elenca normalizzazioni 1, 21, 23; G6 corrente attesta anche la 2). Nessun rilancio senza decisione. Manifest valutato `a9c80db3a49bf4b245c4eaeedd785c40b07d297b47810cb5b8be43e3ce65f028`.
+
+
+### Decisione Sandro — allineamento AUDIT-12/13 e G7 DeepSeek (2026-10-23, Europa/Roma)
+
+Alle 2026-10-23T13:39:03+02:00, Sandro: «Si: allinea i documenti, poi G7 con DeepSeek» (`decisione-g7-deepseek-audit-12-13-20261023.json`). Chiude G7-AUDIT-12 e G7-AUDIT-13. Autorizza un G7 di **prova** con DeepSeek via OpenRouter (non cambio stabile di procedura; Sol resta il predefinito). Nessun rifacimento G6.

@@ -289,13 +289,45 @@
       "sha256_storico_citato_10": "6b338b8c2610ab51603db0dc9aa140ba6b0a15cbdfc68e0583c0f5626ae3b689"
     },
     {
+      "copia": "log-g7/g7-tentativo-6-log.txt",
       "tentativo_g7": 6,
       "esito": "copia",
-      "copia": "g7-tentativo-6-log.txt",
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t6-out/G7-log.txt",
       "sha256_originale": "98b655e0b84db2457b69af0094ad7cf9c6487a5538ab0a5e3c414d917021be3d",
-      "sha256_testo_decodificato_prima_delle_ripuliture": "98b655e0b84db2457b69af0094ad7cf9c6487a5538ab0a5e3c414d917021be3d",
-      "sha256_copia_ripulita": "a79878a4728c737fba4a121b828f7dd3e741d29d503c8c2867fe3f081eb56047",
-      "byte_copia": 432089,
+      "codifica_originale": "UTF-8 con BOM",
+      "byte_originale": 432490,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "953234094e2306d628cb0d17659a1b1b00a011c6d06c0b50fd4a0d39af472ace",
+      "sha256_copia_ripulita": "e5a7599fd106777398da6061dfa45be4a2488041fc419387c992f165d695a163",
+      "byte_copia": 427176,
+      "codifica_copia": "UTF-8 senza BOM",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 14
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 13
+        },
+        {
+          "da": "variabile PowerShell $d/ verso percorso relativo del dossier",
+          "a": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/",
+          "occorrenze": 45
+        },
+        {
+          "da": "sequenza JSON di apostrofo unicode davanti ad AGENTS.md",
+          "a": "AGENTS.md",
+          "occorrenze": 3
+        }
+      ],
       "giudizio": "KO",
       "nella_copia": {
         "modello": "gpt-6.1-sol",
@@ -304,7 +336,15 @@
         "sessione": "01a167db-15c3-7b93-860c-0bdad25d1ac2",
         "token": "118.526"
       },
-      "nota": "G7 tentativo 6 KO per G7-AUDIT-12 e G7-AUDIT-13; in attesa di decisione."
+      "nota": "G7 tentativo 6 KO (AUDIT-12, AUDIT-13). Copia ripulita; percorsi assoluti sostituiti; impronte storiche citate nel log e nel manifest-rilascio-g7-tentativo-6.json dichiarate sotto come sha256_storico_citato_*.",
+      "nota_sha256_storici": "Impronte di file dello snapshot del tentativo 6 (o citate nel log) non piu' uguali ai file vivi dopo l'allineamento documentale AUDIT-12/13; restano dichiarate qui perche' il controllo le riconosca come derivati dell'indice.",
+      "sha256_storico_citato_01": "26266a8a4abd7dbd050d8772536769f29944d106a1b708561cef0dc30b39b7b6",
+      "sha256_storico_citato_02": "effa1b01f7b5512fc65f68d8e0f5c9ddca63b0d3d1ceaaf5930ef06f59ad1414",
+      "sha256_storico_citato_03": "2ac47ba5494cfae5c8dc878dc8aa073c055065df459d9884821f7743c631c180",
+      "sha256_storico_citato_04": "f52e1ed4561485289f332f386941ff2f08b7023e202fb0a721740163845b3d27",
+      "sha256_storico_citato_05": "c931af40d9a70af3c812ed7bffd5e7ee71bb39a0e99983c88a40ae9840816f95",
+      "sha256_storico_citato_06": "69028484f7567e66ace6aff2e3ae448db64199ea78357093e687116a9775f089",
+      "sha256_storico_citato_07": "ca5dbf91827c737704eed87bf86b2e1f7b9f9941bf0d0df64a3d95d92528158b"
     }
   ],
   "tentativo_5": {
@@ -325,5 +365,21 @@
     ],
     "inizio": "2026-10-23T09:44:46+02:00",
     "termine": "2026-10-23T09:50:48+02:00"
+  },
+  "tentativo_6": {
+    "tentativo": 6,
+    "file_ko": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-6-KO.json",
+    "sha256_ko": "3538a47889b86ece4b6609e5015a4439f7f5a3c4a2a8054e0a4f8918e492b272",
+    "esecuzione": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-6-esecuzione.json",
+    "sha256_esecuzione": "8a88df2f78639846448e5ed4f17c390f1df2236daaa84e4bc7736e3df5a8f83e",
+    "log_copia": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/g7-tentativo-6-log.txt",
+    "sha256_log_copia": "e5a7599fd106777398da6061dfa45be4a2488041fc419387c992f165d695a163",
+    "modello": "gpt-6.1-sol",
+    "token": "118.526",
+    "giudizio": "KO",
+    "rilievi": [
+      "G7-AUDIT-12",
+      "G7-AUDIT-13"
+    ]
   }
 }

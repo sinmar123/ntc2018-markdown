@@ -1,5 +1,5 @@
-﻿node.exe : Reading prompt from stdin...
-In <home>\AppData\Roaming\npm\codex.ps1:22 car:14
+node.exe : Reading prompt from stdin...
+In <npm>\codex.ps1:22 car:14
 + ...    $input | & "node$exe"  "$basedir/node_modules/@openai/codex/bin/co ...
 +                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : NotSpecified: (Reading prompt from stdin...:String) [], RemoteException
@@ -25,7 +25,7 @@ codex
 Leggo CONSEGNA-G7.md e applico le istruzioni, restando in questa cartella.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath .\\CONSEGNA-G7.md" 
+"<powershell>" -Command "Get-Content -LiteralPath .\\CONSEGNA-G7.md" 
 in <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 426ms:
 # Consegna al verificatore: G7 tentativo 6, scope § 8.7.3 / C8.7.3
@@ -145,7 +145,7 @@ Rispondi soltanto con un oggetto JSON valido, senza testo prima o dopo e senza b
 - `limiti`: limiti del controllo, in una o due frasi.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'rg --files' in 
+"<powershell>" -Command 'rg --files' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 1035ms:
 verifica-conformita\verbale-VC-ntc2018-8.7.3-2026-10-22.md
@@ -317,7 +317,7 @@ verifica-conformita\vc-ntc2018-8.7.3-2026-10-22\g6-tentativo-1-annullato\b01\con
 verifica-conformita\vc-ntc2018-8.7.3-2026-10-22\g6-tentativo-1-annullato\b01\canone.md
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$paths = @('"'riepilogo-meccanico
+"<powershell>" -NoProfile -Command '$paths = @('"'riepilogo-meccanico
 .json','verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md','verifica-conformita/vc-ntc2018-8.7
 .3-2026-10-22/catalogo-congelato.md','verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md','verifica-conformita/
 scheda-scope-ntc2018-8.7.3.md','verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json'); foreach ("'$p in 
@@ -2025,7 +2025,7 @@ GBOT-verifica-ntc, 2026-10-23.\n"
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Get-Content -LiteralPath 
+"<powershell>" -NoProfile -Command "Get-Content -LiteralPath 
 .\\verifica-conformita\\vc-ntc2018-8.7.3-2026-10-22\\procedura-congelata-r10.md -Encoding UTF8 -Raw" in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 454ms:
@@ -2648,7 +2648,7 @@ prossima applicazione, senza promesse percentuali. Firma: Codex / CDX, 2026-09-1
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command '$paths=@('"'verifica-conformita/v
+"<powershell>" -NoProfile -Command '$paths=@('"'verifica-conformita/v
 erbale-VC-ntc2018-8.7.3-2026-10-22.md','verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-log-g6-giro2-haiku-se
 ssione-unica.json','verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-haiku-sessione-unica-20261023.json'); 
 foreach("'$p in $paths){ Write-Output "FILE: $p"; Get-Content -LiteralPath $p -Encoding UTF8 -Raw }' in 
@@ -2982,10 +2982,10 @@ Il dossier attesta un G6 Haiku in sessione unica con 9 ID coperti e zero rilievi
 coerenza del piano di registrazione con scheda e verbale.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
-'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$paths=@("$d/esito-g6.json","$d/sequenza-g6.json","$d/g6/b01
-/rapporto-g6.json","$d/g6/b01/inventario.json","$d/g6/b01/congelamento.json","$d/lavoro/g6-giro2-haiku-sessione-unica/i
-ndice.json","$d/lavoro/g6-giro2-haiku-sessione-unica/fase1-result.txt","$d/lavoro/g6-giro2-haiku-sessione-unica/fase2-r
+"<powershell>" -NoProfile -Command 
+'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$paths=@("verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01
+/rapporto-g6.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/congelamento.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-sessione-unica/i
+ndice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-sessione-unica/fase1-result.txt","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-sessione-unica/fase2-r
 esult.txt"); foreach($p in $paths){ Write-Output "FILE: $p"; Get-Content -LiteralPath $p -Encoding UTF8 -Raw }' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 474ms:
@@ -3586,10 +3586,10 @@ risposta per la trascrizione da parte di C."
 ```
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
-'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$paths=@("$d/catalogo-congelato.md","$d/g6/b01/PERIMETRO.md"
-,"$d/g6/b01/ISTRUZIONI-V.md","$d/g6/b01/input-fonte.json","$d/g6/b01/input-confronto.json","$d/g6-haiku-due-sessioni-in
-valido/NOTA-INVALIDO.json","$d/g6-tentativo-2-invalido/NOTA-INVALIDO.json"); foreach($p in $paths){ Write-Output 
+"<powershell>" -NoProfile -Command 
+'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$paths=@("verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/PERIMETRO.md"
+,"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/ISTRUZIONI-V.md","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-fonte.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-confronto.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-haiku-due-sessioni-in
+valido/NOTA-INVALIDO.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/NOTA-INVALIDO.json"); foreach($p in $paths){ Write-Output 
 "FILE: $p"; Get-Content -LiteralPath $p -Encoding UTF8 -Raw }' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 758ms:
@@ -3890,12 +3890,12 @@ senza prova di lettura visiva delle pagine Gazzetta). Decisione di Sandro 2026-1
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
-'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$m=Get-Content -LiteralPath "$d/manifest-rilascio.json" 
+"<powershell>" -NoProfile -Command 
+'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$m=Get-Content -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json" 
 -Encoding UTF8 -Raw | ConvertFrom-Json; $m.PSObject.Properties | Where-Object Name -ne files | ForEach-Object { $_ | 
 ConvertTo-Json -Depth 5 }; $m.files | Select-Object -First 3 | ConvertTo-Json -Depth 5; Get-Content -LiteralPath 
-./verifica-conformita/scheda-scope-ntc2018-8.7.3.md -Encoding UTF8 -TotalCount 65; $paths=@("$d/decisione-applicazione-
-20261022.json","$d/decisione-g6-rilievi-20261023.json","$d/G7-tentativo-5-KO.json","$d/mappa-g5.json","$d/lista-manifes
+./verifica-conformita/scheda-scope-ntc2018-8.7.3.md -Encoding UTF8 -TotalCount 65; $paths=@("verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-applicazione-
+20261022.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievi-20261023.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-5-KO.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-manifes
 t.json"); foreach($p in $paths){ Write-Output "FILE: $p"; Get-Content -LiteralPath $p -Encoding UTF8 -Raw }' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 1661ms:
@@ -4494,9 +4494,9 @@ FILE: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-manifest.json
 
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
+"<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; foreach("'$phase in @('"'fase1','fase2')) { 
-"'$p="$d/lavoro/g6-giro2-haiku-sessione-unica/$phase-haiku-stream.jsonl"; Write-Output "FILE: $p"; foreach($line in 
+"'$p="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-sessione-unica/$phase-haiku-stream.jsonl"; Write-Output "FILE: $p"; foreach($line in 
 Get-Content -LiteralPath $p -Encoding UTF8){ $e=$line|ConvertFrom-Json; if($e.type -eq '"'system'){ "'$e|Select-Object 
 type,subtype,session_id,model,cwd,tools|ConvertTo-Json -Compress -Depth 8 }; if($e.type -eq 
 '"'assistant'){foreach("'$c in $e.message.content){ if($c.type -eq '"'tool_use'){ "'$c|ConvertTo-Json -Compress -Depth 
@@ -4505,12 +4505,12 @@ type,subtype,session_id,model,cwd,tools|ConvertTo-Json -Compress -Depth 8 }; if(
 tool_use_id=$c.tool_use_id;is_error=$c.is_error;content_types=@($c.content|ForEach-Object{$_.type})}|ConvertTo-Json 
 -Compress -Depth 4} elseif($c.type -eq '"'text'){ "'$c.text } }}; if($e.type -eq '"'result'){ "'$e|Select-Object 
 type,subtype,is_error,session_id|ConvertTo-Json -Compress } }}; $m=Get-Content -LiteralPath 
-"$d/manifest-rilascio.json" -Encoding UTF8 -Raw|ConvertFrom-Json; $bad=@();$missing=@();$n=0;foreach($f in 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json" -Encoding UTF8 -Raw|ConvertFrom-Json; $bad=@();$missing=@();$n=0;foreach($f in 
 $m.files){if($f.path -match '"'"'^([A-Za-z]:|['"\\\\/]|.*\\.\\.)'){throw 'Unsafe path'};if(Test-Path -LiteralPath 
 "'$f.path){$h=(Get-FileHash -LiteralPath $f.path -Algorithm SHA256).Hash.ToLowerInvariant();if($h -ne 
 $f.sha256){$bad+=$f.path};$n++}else{$missing+=$f.path}}; 
 [pscustomobject]@{checked=$n;hash_mismatches=$bad;missing=$missing;manifest_sha256=(Get-FileHash -LiteralPath 
-"$d/manifest-rilascio.json" -Algorithm SHA256).Hash.ToLowerInvariant();verbale_sha256=(Get-FileHash -LiteralPath 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json" -Algorithm SHA256).Hash.ToLowerInvariant();verbale_sha256=(Get-FileHash -LiteralPath 
 '"'verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md' -Algorithm 
 SHA256).Hash.ToLowerInvariant()}|ConvertTo-Json -Depth 5" in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
@@ -4638,16 +4638,16 @@ l,"tools":null}
 }
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
-'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$paths=@("$d/controllo-dossier-esito-pre-manifest.json","$d/
-controllo-dossier-esito-post-manifest.json","$d/config-g6.json","$d/g1/ricontrollo-20261022.json","$d/decisione-prova-h
+"<powershell>" -NoProfile -Command 
+'$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$paths=@("verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-pre-manifest.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
+controllo-dossier-esito-post-manifest.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/config-g6.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-prova-h
 aiku-20261023.json"); foreach($p in $paths){Write-Output "FILE: $p"; Get-Content -LiteralPath $p -Encoding UTF8 -Raw 
-}; $indices=@("$d/log-g6/indice.json","$d/log-g7/indice.json","$d/lavoro/indice.json","$d/lavoro/g6-giro2-haiku-session
+}; $indices=@("verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/indice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/indice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-session
 e-unica/indice.json");foreach($p in $indices){Write-Output "INDEX: $p"; $o=Get-Content -LiteralPath $p -Encoding UTF8 
 -Raw|ConvertFrom-Json; $o|Select-Object * -ExcludeProperty file,files,copie|ConvertTo-Json -Depth 5; 
 $o.PSObject.Properties|ForEach-Object{if($_.Value -is [array]){Write-Output ("ARRAY "+$_.Name+": 
 "+$_.Value.Count);$_.Value|Select-Object -First 1|ConvertTo-Json -Depth 5}}}; Get-Content -LiteralPath 
-"$d/procedura-congelata-r10.md" -Encoding UTF8 | Select-Object -Skip 130 -First 53' in 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md" -Encoding UTF8 | Select-Object -Skip 130 -First 53' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 1025ms:
 FILE: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-pre-manifest.json
@@ -4830,7 +4830,7 @@ contenuto di file esterni al progetto omesso con riga e impronta, ogni percorso 
 scritto in UTF-8 senza BOM con i finali di riga originali.",
     "controllo_dati_personali":  "Prima della copia C ha cercato negli originali indirizzi e-mail, numeri di telefono, 
 codici fiscali, IBAN, partite IVA, nomi di committenti o clienti, indirizzi, chiavi e password. Nei log del G7 il solo 
-dato personale era il nome completo dell\u0027utente, dentro il contenuto dell\u0027AGENTS.md del workspace letto dal 
+dato personale era il nome completo dell\u0027utente, dentro il contenuto dell'AGENTS.md del workspace letto dal 
 verificatore: quel contenuto e\u0027 omesso. Nessun altro dato personale. Dopo la ripulitura le copie non contengono 
 percorsi assoluti, nome utente, nome completo o blocchi dei file omessi (controllo-dossier.py).",
     "originali":  "restano sulla macchina di lavoro, fuori dal repository, nella cartella \u003ctemp\u003e",
@@ -5116,11 +5116,11 @@ rilievi sono copiati i log dei tentativi 1, 2 e 3. Decisioni di Sandro «Sì, si
 (da indice-post-g7) prima del G7 tentativo 5. Aggiornamento 2026-10-23 (dopo G7 t5 KO e decisione sessione unica 
 Haiku): aggiunto il log del G7 tentativo 5 prima del G7 tentativo 6.",
     "metodo":  "come log-g6/indice.json (ripulitura-log.py). In tutti e tre i tentativi il verificatore ha letto 
-l\u0027AGENTS.md del workspace prima della consegna: quel contenuto, istruzioni private del workspace con il nome 
+l'AGENTS.md del workspace prima della consegna: quel contenuto, istruzioni private del workspace con il nome 
 completo dell\u0027utente, e\u0027 omesso.",
     "controllo_dati_personali":  "Prima della copia C ha cercato negli originali indirizzi e-mail, numeri di telefono, 
 codici fiscali, IBAN, partite IVA, nomi di committenti o clienti, indirizzi, chiavi e password. Nei log del G7 il solo 
-dato personale era il nome completo dell\u0027utente, dentro il contenuto dell\u0027AGENTS.md del workspace letto dal 
+dato personale era il nome completo dell\u0027utente, dentro il contenuto dell'AGENTS.md del workspace letto dal 
 verificatore: quel contenuto e\u0027 omesso. Nessun altro dato personale. Dopo la ripulitura le copie non contengono 
 percorsi assoluti, nome utente, nome completo o blocchi dei file omessi (controllo-dossier.py).",
     "originali":  "restano sulla macchina di lavoro, fuori dal repository, nella cartella \u003ctemp\u003e",
@@ -5346,7 +5346,7 @@ utente, AppData, Local, Temp)",
                                              "occorrenze":  14
                                          },
                                          {
-                                             "da":  "$d/ variabile PowerShell sul percorso relativo del dossier",
+                                             "da":  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/ variabile PowerShell sul percorso relativo del dossier",
                                              "a":  "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/",
                                              "occorrenze":  40
                                          }
@@ -5724,25 +5724,25 @@ fasi. Nell’uscita finale di V compaiono però riserve fuori dal JSON, tra cui 
 alla revisione; verifico se il dossier ne documenta la chiusura.
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
+"<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; rg -n --glob '*.json' --glob '*.md' --glob '*.txt' --glob 
 '"'!*-log.txt'"' --glob '"'!*.jsonl'"' --glob '"'!manifest*'"' --glob '"'!riepilogo*'"' --glob '"'!lista-manifest*'"' 
 'Resta aperta|discordanza fra chiavi|rubriche.*(Markdown|grassetto)|titolo Markdown|da decidere in sede|quattro 
-blocchi raster|nessuna normalizzazione|normalizzazioni.*(voce 2|voci 1)' verifica-conformita; "'$indices=@("$d/log-g6/i
-ndice.json","$d/log-g7/indice.json","$d/lavoro/indice.json","$d/lavoro/g6-giro2-haiku-sessione-unica/indice.json"); 
+blocchi raster|nessuna normalizzazione|normalizzazioni.*(voce 2|voci 1)' verifica-conformita; "'$indices=@("verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/i
+ndice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/indice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-sessione-unica/indice.json"); 
 $script:count=0;$script:bad=@();function Visit-Index($obj){ if($null -eq $obj){return};if($obj -is 
 [System.Management.Automation.PSCustomObject]){ if($obj.copia -is [string] -and $obj.sha256_copia_ripulita){ 
-$rp="$d/$($obj.copia)";if($obj.copia -match '"'"'^([A-Za-z]:|['"\\\\/]|.*\\.\\.)'){throw 'Unsafe index 
+$rp="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$($obj.copia)";if($obj.copia -match '"'"'^([A-Za-z]:|['"\\\\/]|.*\\.\\.)'){throw 'Unsafe index 
 path'};if(Test-Path -LiteralPath "'$rp){$script:count++;if((Get-FileHash -LiteralPath $rp -Algorithm 
 SHA256).Hash.ToLowerInvariant() -ne $obj.sha256_copia_ripulita){$script:bad+=$obj.copia}}else{$script:bad+="MISSING: 
 $($obj.copia)"} }; foreach($v in $obj.PSObject.Properties.Value){Visit-Index $v} }elseif($obj -is [array]){foreach($v 
 in $obj){Visit-Index $v}} };foreach($p in $indices){Visit-Index (Get-Content -LiteralPath $p -Raw -Encoding 
 UTF8|ConvertFrom-Json)};[pscustomobject]@{indexed_copies_checked=$count;issues=$bad}|ConvertTo-Json -Depth 5; 
 $r=Get-Content -LiteralPath ./riepilogo-meccanico.json -Raw -Encoding UTF8|ConvertFrom-Json;$m=Get-Content 
--LiteralPath "$d/manifest-rilascio.json" -Raw -Encoding UTF8|ConvertFrom-Json;$l=Get-Content -LiteralPath 
-"$d/lista-manifest.json" -Raw -Encoding UTF8|ConvertFrom-Json;[pscustomobject]@{list_count=$l.Count;manifest_count=$m.f
+-LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json" -Raw -Encoding UTF8|ConvertFrom-Json;$l=Get-Content -LiteralPath 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-manifest.json" -Raw -Encoding UTF8|ConvertFrom-Json;[pscustomobject]@{list_count=$l.Count;manifest_count=$m.f
 iles.Count;list_differences=@(Compare-Object $l $m.files.path);planned_paths=(Get-Content -LiteralPath 
-"$d/chiusura.json" -Raw -Encoding UTF8|ConvertFrom-Json).modifiche.path;target_sha256=$r.target.sha256_vivo;csv_state=$
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json" -Raw -Encoding UTF8|ConvertFrom-Json).modifiche.path;target_sha256=$r.target.sha256_vivo;csv_state=$
 r.riga_csv_attuale.stato_vc}|ConvertTo-Json -Depth 5' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 2129ms:
@@ -5916,15 +5916,15 @@ pagina e blocchi grafici a trama casuale. Non paiono contenuto normativo, ma il 
 }
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command 
+"<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; 
-"'$p="$d/lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt"; $lines=Get-Content -LiteralPath $p -Encoding UTF8; 
+"'$p="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt"; $lines=Get-Content -LiteralPath $p -Encoding UTF8; 
 for($i=0;$i -lt [Math]::Min(25,$lines.Count);$i++){ '"'{0}:{1}' -f ("'$i+1),$lines[$i] }; 
 $p='"'verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md'; Select-String -LiteralPath "'$p -Encoding UTF8 
 -Pattern '"'Normalizzazioni applicate|in corso di chiusura|log del G7 in corso|Prossima azione:' | ForEach-Object{ 
 '{0}:{1}' -f "'$_.LineNumber,$_.Line }; rg -l --glob '"'*.json' --glob '*.jsonl' --glob '*.md' --glob '*.txt' 
 '(?i)[a-z]:[\\\\/](Users|Windows|Program Files)|/(home|Users)/[A-Za-z]|[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}' 
-verifica-conformita; "'$p="$d/procedura-congelata-r10.md"; Get-Content -LiteralPath $p -Encoding UTF8|Select-Object 
+verifica-conformita; "'$p="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md"; Get-Content -LiteralPath $p -Encoding UTF8|Select-Object 
 -Skip 102 -First 28' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 817ms:
 1:Confronto completato. Ho letto `testo.md` e `inventario.json` e aperto di nuovo `fonte-ntc-298.png` e 
@@ -6039,7 +6039,7 @@ restavano fuori dalla procedura.
 |---|---|---|
 
 exec
-"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -Command "Get-Content -LiteralPath 
+"<powershell>" -NoProfile -Command "Get-Content -LiteralPath 
 .\\verifica-conformita\\vc-ntc2018-8.7.3-2026-10-22\\G7-tentativo-5-esecuzione.json -Encoding UTF8 -Raw" in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t6
  succeeded in 624ms:
