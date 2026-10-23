@@ -1,0 +1,20 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "gate": "G6",
+  "esito": "KO",
+  "giro": 1,
+  "tentativo": 2,
+  "blocchi": 1,
+  "id_coperti": 6,
+  "err_md": 1,
+  "err_audit": 0,
+  "dubbio": 0,
+  "giudizio_c": {
+    "NTC-873-CONDIZIONE": "non fondato secondo C: il livello vettoriale della p. 298 e il ritaglio a 600 dpi riportano «Per queste situazioni è necessario prevedere modellazioni…», come testo.md e resa (prove-c/prova-NTC-873-CONDIZIONE.json). La lettura «Per tale situazione» di V non compare nella fonte; anche l'inventario di V, in fase 1, la riportava già."
+  },
+  "g7": "NON_ESEGUITO",
+  "motivazione_g7": "PROCEDURA-VC rev. 10: G7 solo con G6 a zero ERR-MD, zero ERR-AUDIT e zero DUBBIO; il rilievo resta aperto fino alla decisione di Sandro.",
+  "decisione_richiesta": "Sandro decide su NTC-873-CONDIZIONE (proposta di C: chiudere senza modifiche, non fondato sulla fonte)."
+}

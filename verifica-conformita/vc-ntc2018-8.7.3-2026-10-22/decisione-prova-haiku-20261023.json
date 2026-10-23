@@ -1,0 +1,24 @@
+{
+    "tipo":  "decisione-prova",
+    "firma":  "GBOT-verifica-ntc",
+    "data":  "2026-10-23T09:24:43+02:00",
+    "testo_approvazione":  "Sì, prova Haiku e se OK chiudi G6 e G7",
+    "chiude_attesa":  "controllo-log-g6-giro2-fase1",
+    "contesto":  {
+                     "strumento":  "Claude Code CLI (claude.exe) sul W520, modello Haiku, non cloud",
+                     "vietato":  [
+                                     "Antigravity",
+                                     "--always-approve",
+                                     "sandbox allargata senza ok",
+                                     "rilancio autonomo se KO"
+                                 ],
+                     "precedente":  "G6 giro 2 fase 1 Terra KO al controllo log (PNG non aperte); vedi controllo-log-g6-giro2-fase1.json"
+                 },
+    "chi":  "Sandro",
+    "scope":  "8.7.3",
+    "decisione":  [
+                      "Prova Haiku (Claude Code sul W520, abbonamento Claude Max) per la lettura delle immagini PNG del G6 (fonte-ntc-298 e fonte-circ-289).",
+                      "Se la prova e il controllo del log sono OK, chiudere il G6 giro 2 (giro_g6 resta 2) e fare il G7 con gpt-6.1-sol.",
+                      "Non e un cambio stabile di procedura: e una prova registrata nel dossier."
+                  ]
+}

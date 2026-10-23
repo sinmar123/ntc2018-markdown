@@ -1,0 +1,51 @@
+{
+  "scope": "8.7.3",
+  "agente": "GBOT",
+  "data": "2026-10-23",
+  "g7": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7.json",
+  "g7_sha256": "d31adcd1a515453498613a71426386cbefc949e6091d14b75fb5a22cef353dca",
+  "manifest": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json",
+  "manifest_sha256": "5f8f8a0e2cf0fefcd16395e05a65eb80265b8539c345caa33c19b0109db0cf9e",
+  "verbale": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md",
+  "verbale_sha256": "c4acbb0c2a49251cc7d2e18c195ef30194ab66459a6b0554ef8161bcd82a94b9",
+  "nota": "VC-OK del solo file cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3, NTC 298 e Circolare 289. C GBOT-verifica-ntc. G6: CC/HAIKU claude-haiku-5-5 sessione unica (giro 2). G7: OR/DeepSeek deepseek/deepseek-v4-pro tentativo 7 OK (prova; Sol resta predefinito; tentativi 1-6 Sol KO).",
+  "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
+  "procedura_vc": "VC-NTC/10",
+  "master_non_pertinente": "Nessun registro master nel worktree: lo stato operativo resta il CSV del progetto.",
+  "modifiche": [
+    {
+      "path": "README.md",
+      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**",
+      "dopo": "**§ 8.7.3 con C8.7.3, registrato VC-OK, 2026-10-23:** VC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; \u000balida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\n**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**"
+    },
+    {
+      "path": "TODO.md",
+      "prima": "## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc",
+      "dopo": "## Completato 2026-10-23 - VC § 8.7.3 con C8.7.3, GBOT-verifica-ntc, CC/HAIKU e OR/DeepSeek\n\nVC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; \u000balida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "prima": "## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc",
+      "dopo": "## 2026-10-23 - VC-OK del § 8.7.3 con C8.7.3, GBOT-verifica-ntc, CC/HAIKU e OR/DeepSeek\n\nVC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; \u000balida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc"
+    },
+    {
+      "path": "indice-ntc2018.md",
+      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**",
+      "dopo": "**§ 8.7.3 con C8.7.3, VC-OK registrato il 2026-10-23:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/).\n\n**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**"
+    },
+    {
+      "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2",
+      "dopo": "## 2026-10-23 - VC-OK del § 8.7.3 con C8.7.3\n\nVC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; \u000balida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2"
+    },
+    {
+      "path": "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
+      "prima": "Documenti allineati senza rifare G6 (`rettifica-g7-audit-12-13-20261023.json`). G7 tentativo 7 di prova con OR/DeepSeek autorizzato; non e' cambio stabile di procedura.\n",
+      "dopo": "Documenti allineati senza rifare G6 (`rettifica-g7-audit-12-13-20261023.json`). G7 tentativo 7 di prova con OR/DeepSeek autorizzato; non e' cambio stabile di procedura.\n\n## Chiusura 2026-10-23\n\nG7 tentativo 7 di prova con OpenRouter DeepSeek `deepseek/deepseek-v4-pro` (sola lettura cartella, tool-calling): `OK` (tentativi 1-6 con Codex gpt-6.1-sol `KO` per ERR-AUDIT; AUDIT-12/13 chiusi documentali senza rifare G6). Gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json`, snapshot `1a400982…d4f08` (`vc-ntc2018-8.7.3-2026-10-22/G7.json`). Copia ripulita del log di questo G7 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, fuori dal manifest giudicato. Riga 8.7.3 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.3-2026-10-22.md).\n\nFirma: GBOT-verifica-ntc, 2026-10-23.\n"
+    }
+  ],
+  "g7_giudizio": "OK",
+  "g7_tentativo": 7,
+  "stato": "PRONTO_REGISTRA",
+  "snapshot_target": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08"
+}

@@ -1,0 +1,56 @@
+{
+  "fase": "SCRITTO",
+  "scope": "8.7.3",
+  "righe": [
+    "8.7.3"
+  ],
+  "file": [
+    "wt-cdx-vc-8.7.3-261022\\registro-verifica-conformita-ntc2018.csv",
+    "wt-cdx-vc-8.7.3-261022\\README.md",
+    "wt-cdx-vc-8.7.3-261022\\TODO.md",
+    "wt-cdx-vc-8.7.3-261022\\CHANGELOG.md",
+    "wt-cdx-vc-8.7.3-261022\\indice-ntc2018.md",
+    "wt-cdx-vc-8.7.3-261022\\cap08\\cap08-costruzioni-esistenti-revisione.md",
+    "wt-cdx-vc-8.7.3-261022\\verifica-conformita\\scheda-scope-ntc2018-8.7.3.md"
+  ],
+  "nota": "Giudizio di V già presente; nessun nuovo giudizio emesso dallo script",
+  "impronte": [
+    {
+      "path": "registro-verifica-conformita-ntc2018.csv",
+      "prima": "cf308022dbf91affcfa969a49bd5c859739eb37c636c7c8aa18c8a07e267c7ec",
+      "dopo": "32b7a0dec98b1d8d119f6e7e8290de25e2b487d3537aebddba0b6d8d3e3ee569"
+    },
+    {
+      "path": "README.md",
+      "prima": "60cd58914dd9d5e3a34da36dc363ec349ab7a4980399714da5c49498deecb259",
+      "dopo": "cc782d9596f6f99f50dcb4aac1fee0d30367582670339bfa3e5702a8b0e1c2a7"
+    },
+    {
+      "path": "TODO.md",
+      "prima": "8e0357ed1151cd28fb1fa45336ac1120998d7ed916a7265779961d594fbaf44d",
+      "dopo": "dd87d2cba9868e67f2723adbdaeb4dda3663052e4041aa486be54bfcd79406d3"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "prima": "c5424b5c36cd4b38bba1770760778c868b449ecc3e2e10172203217643eb5b44",
+      "dopo": "866e7837771ab6cdc2e5db3e3ddc4be67cf05eb8b1a1766afd4478e90402c42d"
+    },
+    {
+      "path": "indice-ntc2018.md",
+      "prima": "9e1400779b1c27ca851c01edc9421fd6fc8fdf48af8e1ab5a816f8399add7983",
+      "dopo": "5a4b88ee7dcd58c5acfc120b43b894d6874474cd7106541d270b70ada4d0ceff"
+    },
+    {
+      "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
+      "prima": "4d8a8297d05fc80e45643ecde7117e83a439a59f45435b1ea9f01e01fd5f7c6b",
+      "dopo": "df6ddfb64a6707ac7fc985cbf3d8b4ada0c1ace404fcc41b7ae909a13387e5ff"
+    },
+    {
+      "path": "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
+      "prima": "0787079258fedae54c05620dd1247f86729e6ecb62a3da4b4ea4bbccf46ffe44",
+      "dopo": "55fffab97f28b7d1c209c57e64b133670c32b30b1af85f032e70964c64e1f85c"
+    }
+  ],
+  "controlli": "OK",
+  "giornale": "Usare una volta diario/nuova-voce.py con nota e prossima_azione del JSON"
+}

@@ -1,0 +1,31 @@
+{
+  "firma": "CC, Claude Code claude-haiku-5-5",
+  "esito": "OK",
+  "coperti": [
+    "ntc-8.7.3-rubrica",
+    "ntc-8.7.3-p1",
+    "ntc-8.7.3-elenco-1",
+    "ntc-8.7.3-elenco-2",
+    "ntc-8.7.3-elenco-3",
+    "ntc-8.7.3-p2",
+    "circ-C8.7.3-rubrica",
+    "circ-C8.7.3-p1",
+    "circ-C8.7.3-p2"
+  ],
+  "normalizzazioni": [
+    "2: apostrofi curvi (’) in «L’interpretazione», «l’interazione», «L’analisi», «l’entità» e in «l’interazione» di NTC 8.7.3",
+    "21: marcatori trattino dell'elenco NTC 8.7.3 resi come elenco puntato Markdown, senza cambiare ordine né testo",
+    "23: maiuscoletto della rubrica C8.7.3 reso in maiuscolo («C8.7.3 COSTRUZIONI MISTE»)"
+  ],
+  "rilievi": [],
+  "letture": [
+    "ISTRUZIONI-V.md",
+    "canone.md",
+    "inventario.json",
+    "testo.md",
+    "input-confronto.json",
+    "fonte-ntc-298.png (aperta e vista in questa fase)",
+    "fonte-circ-289.png (aperta e vista in questa fase)"
+  ],
+  "isolamento": "Letti solo file della cartella del blocco b01 e le due immagini fonte consegnate. Nessun accesso a coordinamento.json, workspace, rapporti precedenti o file esterni. Nessun file scritto: il JSON è stampato nella risposta per la trascrizione da parte di C."
+}

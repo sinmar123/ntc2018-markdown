@@ -1,0 +1,49 @@
+Confronto completato. Ho letto `testo.md` e `inventario.json` e aperto di nuovo `fonte-ntc-298.png` e `fonte-circ-289.png`, come richiesto.
+
+Ho confrontato tutti e nove gli elementi dell'inventario con il testo e le immagini:
+- **NTC 8.7.3 (p. ntc:298):** rubrica, capoverso introduttivo, tre voci dell'elenco e capoverso conclusivo corrispondono alla pagina stampata.
+- **Circolare C8.7.3 (p. circ:289):** rubrica e i due capoversi corrispondono alla pagina stampata.
+
+Non ho trovato differenze di sostanza. Le differenze di forma sono tutte previste dal catalogo: apostrofi curvi (voce 2), trattini come elenco puntato (voce 21), maiuscoletto reso in maiuscolo (voce 23).
+
+Due note senza valore di rilievo:
+- Le rubriche in `testo.md` usano il titolo Markdown (`#`, `###`) invece del grassetto della fonte. Il catalogo non prevede questa resa, ma il contenuto è identico. Lo segnalo perché il canone chiede di conservare grassetto e struttura: da decidere in sede di revisione.
+- Nel mio inventario, il riferimento dell'elemento `ntc-8.7.3-elenco-3` contiene il refuso «strutturale».. (doppio punto). Riguarda il pacchetto di verifica, non il corpus.
+
+Non ho preso decisioni su glifi: il confronto è stato fatto a livello di testo sulle immagini PNG, senza ritagli a 600 dpi. Resta aperta la discordanza fra chiavi di input (`ntc:298`, `circ:289`) e numeri di pagina stampati (294, 285), già segnalata nell'inventario.
+
+Nessun file fuori dalla cartella del blocco è stato aperto, né file di coordinamento o di workspace.
+
+```json
+{
+  "firma": "CC, Claude Code claude-haiku-5-5",
+  "esito": "OK",
+  "coperti": [
+    "ntc-8.7.3-rubrica",
+    "ntc-8.7.3-p1",
+    "ntc-8.7.3-elenco-1",
+    "ntc-8.7.3-elenco-2",
+    "ntc-8.7.3-elenco-3",
+    "ntc-8.7.3-p2",
+    "circ-C8.7.3-rubrica",
+    "circ-C8.7.3-p1",
+    "circ-C8.7.3-p2"
+  ],
+  "normalizzazioni": [
+    "2: apostrofi curvi (’) in «L’interpretazione», «l’interazione», «L’analisi», «l’entità» e in «l’interazione» di NTC 8.7.3",
+    "21: marcatori trattino dell'elenco NTC 8.7.3 resi come elenco puntato Markdown, senza cambiare ordine né testo",
+    "23: maiuscoletto della rubrica C8.7.3 reso in maiuscolo («C8.7.3 COSTRUZIONI MISTE»)"
+  ],
+  "rilievi": [],
+  "letture": [
+    "ISTRUZIONI-V.md",
+    "canone.md",
+    "inventario.json",
+    "testo.md",
+    "input-confronto.json",
+    "fonte-ntc-298.png (aperta e vista in questa fase)",
+    "fonte-circ-289.png (aperta e vista in questa fase)"
+  ],
+  "isolamento": "Letti solo file della cartella del blocco b01 e le due immagini fonte consegnate. Nessun accesso a coordinamento.json, workspace, rapporti precedenti o file esterni. Nessun file scritto: il JSON è stampato nella risposta per la trascrizione da parte di C."
+}
+```

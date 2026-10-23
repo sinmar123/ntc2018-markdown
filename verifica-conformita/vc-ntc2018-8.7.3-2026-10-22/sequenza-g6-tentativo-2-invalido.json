@@ -1,0 +1,37 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "giro_g6": 1,
+  "tentativo": 2,
+  "decisione": "decisione-g6-20261022.json",
+  "configurazione_valida": {
+    "file": "config-g6.json",
+    "sha256": "e2c1b3b0c38314ed959b3c8027a6259dc0f0b91294f313826802f6288d40a549",
+    "destinazione_locale": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2"
+  },
+  "fasi": {
+    "fase_1_inventario": "07:49-07:54 (ora di Roma), b01, contesto nuovo (sessione 01a16228-9cad-7d51-82f1-ed2b08ad47f6)",
+    "valida_inventario": "OK (6 elementi, 2 pagine)",
+    "rivela": "integrità OK, 10 file; verifica-pacchetto OK",
+    "fase_2_confronto": "07:55-07:57 (ora di Roma), stesso contesto (codex exec resume con -m gpt-5.6-terra)",
+    "valida_g6": "{\"schema\": \"OK\", \"coperti\": 6, \"rilievi\": 1, \"esito_dichiarato_da_V\": \"KO\", \"giudizio_vc\": \"NON_EMESSO\"}"
+  },
+  "hash": {
+    "b01_inventario": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+    "b01_rapporto": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55"
+  },
+  "profilo_v": {
+    "motore": "Codex CLI",
+    "modello_fase_1": "non letto",
+    "modello_fase_2": "non letto",
+    "ragionamento": "high",
+    "sandbox": "read-only in entrambe le fasi (dal log); exec con -s read-only, resume con -c sandbox_mode=\"read-only\" perché resume non accetta -s",
+    "trascrizione": "C ha trascritto byte per byte il messaggio finale JSON di V in inventario.json e rapporto-g6.json.",
+    "indipendenza": "V non ha scritto la lista né visto dossier, confronto iniziale o tentativo 1"
+  },
+  "consumi_token": {
+    "fase1": "non disponibile",
+    "fase2": "non disponibile"
+  }
+}

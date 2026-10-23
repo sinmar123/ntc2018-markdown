@@ -1,0 +1,55 @@
+{
+  "firma": "CDX, Codex gpt-6.1-sol, verificatore critico indipendente G7",
+  "data": "2026-10-22",
+  "giudizio_g7": "KO",
+  "scope": "8.7.3",
+  "snapshot_sha256": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+  "manifest_sha256": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_aperti": [
+    {
+      "id": "G7-AUDIT-01",
+      "classe": "ERR-AUDIT",
+      "prova": "sequenza-g6.json, profilо_v: modello_fase_1 e modello_fase_2 valgono entrambi «non letto». Il verbale dichiara invece gpt-5.6-terra in entrambe le fasi con modello letto nel log; la scheda afferma esplicitamente «modello letto nel log di entrambe le fasi». L'attestazione conservata non concorda con i riepiloghi sulla verifica del modello effettivo."
+    },
+    {
+      "id": "G7-AUDIT-02",
+      "classe": "ERR-AUDIT",
+      "prova": "Il § 9 della procedura richiede gli URL degli atti nel verbale, che non contiene URL. Il campo url di ricontrollo-g1-20261022.json contiene un modello con «AAAA-MM-GG» e tre codici separati da barre verticali, senza fornire gli indirizzi puntuali consultati."
+    }
+  ],
+  "motivazione": "Copertura dei 6 ID, annullamento del tentativo 1, contatore 1 su 3 e chiusura dell'unico rilievo del tentativo 2 risultano riconciliati. Le impronte ricalcolate dei file consegnati coincidono con il riepilogo; snapshot, manifest e verbale concordano con il piano. G7 non supera la riconciliazione per la contraddizione sui modelli verificati e per gli URL mancanti.",
+  "letture": [
+    "<workspace>/AGENTS.md",
+    "CONSEGNA-G7.md",
+    "procedura-congelata-r10.md",
+    "verbale.md",
+    "scheda.md",
+    "chiusura.json",
+    "manifest-rilascio.json",
+    "riepilogo-meccanico.json",
+    "ricontrollo-g1-20261022.json",
+    "decisione-applicazione-20261022.json",
+    "mappa-g5.json",
+    "decisione-g6-20261022.json",
+    "sequenza-g6-tentativo-1-annullato.json",
+    "esito-g6-tentativo-1-annullato.json",
+    "sequenza-g6.json",
+    "esito-g6.json",
+    "inventario-g6-b01.json",
+    "rapporto-g6-b01.json",
+    "decisione-g6-rilievo-20261022.json",
+    "prova-NTC-873-CONDIZIONE.json",
+    "ntc298-per-queste-600dpi.png (sola impronta)"
+  ],
+  "limiti": "Controllo documentale sulle attestazioni consegnate, senza ripetere G6, consultare internet o scrivere file; per i file originali assenti dalla cartella è stato utilizzato l'esito conservato di verifica-manifest. AGENTS.md del workspace è stato letto preliminarmente per l'istruzione iniziale, prima di conoscere la restrizione della consegna."
+}

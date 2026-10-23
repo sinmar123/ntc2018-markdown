@@ -1,0 +1,110 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "gate": "G6",
+  "giro_g6": 2,
+  "esito_controllo_log": "OK",
+  "motore": "Claude Code CLI",
+  "modello": "claude-haiku-5-5",
+  "sigla": "CC/HAIKU",
+  "comando_base": "claude -p --model haiku --restricted --tools Read --permission-mode manual --permission-prompts none --output-format stream-json --verbose --safe-mode --disable-slash-commands",
+  "fase1": {
+    "sessione": "fb3dbe87-451d-482f-b85c-42b75d837f7e",
+    "token_approx": 34544,
+    "usage": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 16254,
+      "cache_read_input_tokens": 7622,
+      "output_tokens": 10664,
+      "output_tokens_details": {
+        "thinking_tokens": 6556
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 16254,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 9936,
+          "cache_read_input_tokens": 4367,
+          "cache_creation_input_tokens": 15142,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 15142
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "png_aperti": [
+      "fonte-ntc-298.png",
+      "fonte-circ-289.png"
+    ],
+    "fuori_blocco": [],
+    "valida_inventario": "OK (9 elementi, 2 pagine)"
+  },
+  "fase2": {
+    "sessione": "e20bd296-ae3c-439e-9123-ec492d0d309e",
+    "token_approx": 35908,
+    "usage": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 21718,
+      "cache_read_input_tokens": 7659,
+      "output_tokens": 6527,
+      "output_tokens_details": {
+        "thinking_tokens": 4929
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 21718,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 5561,
+          "cache_read_input_tokens": 4404,
+          "cache_creation_input_tokens": 20569,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 20569
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "png_aperti": [
+      "fonte-ntc-298.png",
+      "fonte-circ-289.png"
+    ],
+    "fuori_blocco": [],
+    "contesto": "nuovo"
+  },
+  "valida_g6": {
+    "schema": "OK",
+    "coperti": 9,
+    "rilievi": 0,
+    "esito_dichiarato_da_V": "OK"
+  },
+  "nota_forma": "C ha ristretto coperti ai soli id di inventario.elementi (V aveva incluso anche id di esclusioni). Backup in lavoro TEMP <temp-locale-omesso>.",
+  "a_modello": "OK",
+  "b_png": "OK entrambe le fasi",
+  "c_fuori_blocco": "OK"
+}

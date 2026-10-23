@@ -1,0 +1,76 @@
+{
+  "firma": "CDX, Codex, modello GPT-6, verificatore critico indipendente G7",
+  "data": "2026-10-23",
+  "giudizio_g7": "KO",
+  "scope": "8.7.3",
+  "snapshot_sha256": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+  "manifest_sha256": "f6b35b84423ece544b38f23ca54113692b2763b6cdd5242a342bf8b407fe8c83",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "KO",
+    "G7": "KO"
+  },
+  "rilievi_aperti": [
+    {
+      "id": "G7-AUDIT-09",
+      "classe": "ERR-AUDIT",
+      "prova": "Il § 7 di procedura-congelata-r10.md prescrive le due fasi G6 nello stesso contesto. sequenza-g6.json dichiara invece fase 2 in sessione nuova; controllo-log-g6-giro2-haiku.json e gli eventi init dei log fase1-haiku-stream.jsonl e fase2-haiku-stream.jsonl confermano sessioni distinte: fb3dbe87-451d-482f-b85c-42b75d837f7e ed e20bd296-ae3c-439e-9123-ec492d0d309e. La decisione-prova-haiku-20261023.json autorizza il modello Haiku, senza derogare alla continuità del contesto. L'apertura documentata dei PNG e valida-g6 OK non sanano questo scostamento."
+    },
+    {
+      "id": "G7-AUDIT-10",
+      "classe": "ERR-AUDIT",
+      "prova": "Nella scheda-scope-ntc2018-8.7.3.md, riga 30, routing_effettivo.V attribuisce ancora il G6 a Codex gpt-5.6-terra, tentativo 2 invalidato. esito-g6.json, sequenza-g6.json, rapporto-g6.json e il verbale attribuiscono il G6 corrente a CC/HAIKU, giro 2. Il piano chiusura.json aggiunge una sezione conclusiva alla scheda senza correggere questo metadato corrente: i ruoli dichiarati resterebbero discordanti."
+    },
+    {
+      "id": "G7-AUDIT-11",
+      "classe": "ERR-AUDIT",
+      "prova": "Il verbale, riga 23, attesta che C ha trascritto byte per byte i messaggi finali JSON di V. Il JSON originale conservato in lavoro/g6-giro2-haiku/fase2-result.txt contiene 18 ID in coperti; g6/b01/rapporto-g6.json ne contiene 9 e modifica anche isolamento aggiungendo una dichiarazione sull'intervento di C. sequenza-g6.json e controllo-log-g6-giro2-haiku.json documentano la restrizione degli ID. L'originale è conservato, ma il verbale deve distinguere l'output di V dalla versione normalizzata da C."
+    }
+  ],
+  "motivazione": "Le impronte dei 132 file disponibili del manifest coincidono, come quelle delle 35 copie indicizzate; i soli due PDF mancanti sono dichiarati nella consegna. Snapshot, manifest, verbale e piano di registrazione concordano nelle impronte. I log Haiku dimostrano apertura dei PNG in entrambe le fasi e copertura formale di 9 ID; il precedente G6 è archiviato come invalido e le rettifiche dei rilievi precedenti sono documentate. Tuttavia il nuovo G6 usa due contesti distinti contro il § 7, mentre scheda e verbale conservano attestazioni discordanti. Non sussistono quindi le condizioni per registrare VC-OK.",
+  "letture": [
+    "CONSEGNA-G7.md",
+    "riepilogo-meccanico.json",
+    "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md",
+    "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-manifest.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/config-g6.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-log-prova-haiku-20261023.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-log-g6-giro2-haiku.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-pre-manifest.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-post-manifest.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-applicazione-20261022.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-prova-haiku-20261023.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievi-20261023.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-4-KO.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/NOTA-INVALIDO.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/ISTRUZIONI-V.md",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/congelamento.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-confronto.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/indice.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/indice.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/prova-haiku-result.txt",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/prova-haiku-stream.jsonl",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase1-result.txt",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase1-haiku-stream.jsonl",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase2-result.txt",
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase2-haiku-stream.jsonl"
+  ],
+  "limiti": "Controllo documentale in sola lettura, senza accessi fuori cartella, internet, confronto normativo o modifiche; non è stata eseguita l'istruzione preliminare di leggere AGENTS.md esterno. L'elenco letture indica i documenti esaminati nel contenuto, oltre al calcolo delle impronte dei 132 file disponibili del manifest; per PDF ufficiali assenti, originali dei log e ripulitura storica valgono le attestazioni consegnate, e il log di questo G7 resta legittimamente fuori dal manifest."
+}

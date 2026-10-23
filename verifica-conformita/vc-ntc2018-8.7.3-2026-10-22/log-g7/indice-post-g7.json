@@ -1,0 +1,80 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "motivo": "Log e metadati dei G7 nati dopo il manifest giudicato: tentativo 4 (storico) e tentativo 7 OK OR/DeepSeek. Non alterano log-g7/indice.json incluso nel manifest 5f8f8a0e…0cf9e.",
+  "metodo": "come log-g7/indice.json (ripulitura-log.py)",
+  "letture_esterne_del_verificatore": "nessuna: nel tentativo 4 nessun comando del verificatore apre file fuori dalla cartella del G7; AGENTS.md del workspace non letto",
+  "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
+  "log": [
+    {
+      "copia": "log-g7/g7-tentativo-4-log.txt",
+      "tentativo_g7": 4,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t4-out/G7-log.txt",
+      "sha256_originale": "d9e2c7b5f4059fa013556e6707ceb4f053ecd4f730e42b763ceccc9c11716d9c",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 795988,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "56a55c15f3b4c758a8e6e2c1220e3b48652dfd2905afd06e201a7e348add9f0c",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 15
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 14
+        }
+      ],
+      "sha256_copia_ripulita": "929fd52752763767949b5665e7a2ae989040c7713cd4de07ca131bd739ab654d",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 393183,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16323-6bf4-7bb2-b050-dfcd81e94ba6",
+        "token": "130.412"
+      },
+      "impronta_originale_gia_dichiarata": "G7-tentativo-4-esecuzione.json, log_sha256"
+    },
+    {
+      "tentativo": 7,
+      "file": "g7-tentativo-7-log.txt",
+      "sha256": "8a100c336cd445c4f8d2ef6f29dca705755b9b47e9518475f8aaeba99da6819a",
+      "bytes": 7693,
+      "giudizio": "OK"
+    }
+  ],
+  "manifest_giudicato_sha256_t7": "5f8f8a0e2cf0fefcd16395e05a65eb80265b8539c345caa33c19b0109db0cf9e",
+  "indice_manifest_sha256": "af99a569ae3a10cff03426f07af5c107c114a17eb4d08af5fe56a6f2c727dcd8",
+  "tentativo_7": {
+    "tentativo": 7,
+    "file_ok": "G7-tentativo-7-OK.json",
+    "sha256_ok": "d31adcd1a515453498613a71426386cbefc949e6091d14b75fb5a22cef353dca",
+    "esecuzione": "G7-tentativo-7-esecuzione.json",
+    "sha256_esecuzione": "6198888ee5211ac927b49431e0c7d6a3e92efd2295011ea5d5cbee75e27cf238",
+    "log_copia": "g7-tentativo-7-log.txt",
+    "sha256_log_copia": "8a100c336cd445c4f8d2ef6f29dca705755b9b47e9518475f8aaeba99da6819a",
+    "modello": "deepseek/deepseek-v4-pro",
+    "firma": "OR/DeepSeek/deepseek/deepseek-v4-pro",
+    "via": "OpenRouter",
+    "prova": true,
+    "token": 635189,
+    "prompt_tokens": 560208,
+    "completion_tokens": 74981,
+    "reasoning_tokens": 70393,
+    "costo_usd_approx": 0.497,
+    "giudizio": "OK",
+    "rilievi": [],
+    "inizio": "2026-10-23T14:03:50+02:00",
+    "fine": "2026-10-23T14:20:13+02:00"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "G7-tentativo-6-KO.json",
+  "sha256": "3538a47889b86ece4b6609e5015a4439f7f5a3c4a2a8054e0a4f8918e492b272",
+  "redazione": "nessuna: il file e' la trascrizione byte per byte del messaggio finale di V",
+  "esecuzione": {
+    "tentativo": 6,
+    "motore": "Codex CLI",
+    "modello_richiesto": "gpt-6.1-sol",
+    "modello_dal_log": "gpt-6.1-sol",
+    "lettura_log": "UTF-8 (senza BOM)",
+    "ragionamento": "high",
+    "sandbox": "read-only, senza --always-approve",
+    "contesto": "nuovo",
+    "sessione": "01a167db-15c3-7b93-860c-0bdad25d1ac2",
+    "inizio": "2026-10-23T10:22:51+02:00",
+    "termine": "2026-10-23T10:28:26+02:00",
+    "token": "118.526",
+    "log_sha256": "a79878a4728c737fba4a121b828f7dd3e741d29d503c8c2867fe3f081eb56047",
+    "log": "copia ripulita in log-g7/g7-tentativo-6-log.txt (fuori dal manifest)",
+    "letture_fuori_cartella": "nessuna (consegna: vietato aprire file fuori dalla cartella, AGENTS.md compreso)"
+  },
+  "manifest_sha256_valutato": "a9c80db3a49bf4b245c4eaeedd785c40b07d297b47810cb5b8be43e3ce65f028",
+  "rilievi": [
+    "G7-AUDIT-12",
+    "G7-AUDIT-13"
+  ],
+  "rilancio": "nessuno: un G7 KO non si rilancia senza decisione di Sandro",
+  "copia_del_log": "log-g7/g7-tentativo-6-log.txt"
+}

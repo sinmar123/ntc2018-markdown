@@ -1,0 +1,47 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-23T13:39:03+02:00",
+  "scope": "8.7.3",
+  "rilievi_chiusi": {
+    "G7-AUDIT-12": {
+      "classe": "ERR-AUDIT",
+      "esito": "chiuso documentale senza rifare G6: le due note in fase2-result.txt non sono rilievi sul testo normativo; riconciliate sotto",
+      "prova": "lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt; g6/b01/rapporto-g6.json; inventario.json; catalogo-congelato.md",
+      "riserve_in_fase2_result": [
+        {
+          "id": "R1-rubriche-markdown",
+          "testo_V": "Le rubriche in testo.md usano titolo Markdown (#, ###) invece del grassetto della fonte; catalogo non prevede questa resa; contenuto identico; da decidere in sede di revisione",
+          "trattamento": "chiusa come non-rilievo / non applicabile come ERR-MD o DUBBIO in questo G6",
+          "motivo": "V dichiara esplicitamente assenza di differenze di sostanza e identita' di contenuto. La resa a titoli Markdown e' convenzione di corpus (struttura gerarchica), non scostamento silenzioso dal testo normativo. Non richiede modifica del target in questa VC. Eventuale estensione del catalogo e' decisione di Sandro fuori da questo G7.",
+          "di_merito_sul_testo": false
+        },
+        {
+          "id": "R2-chiavi-pagina-vs-stampati",
+          "testo_V": "Resta aperta la discordanza fra chiavi di input (ntc:298, circ:289) e numeri di pagina stampati (294, 285), gia' segnalata nell'inventario",
+          "trattamento": "chiusa come non-rilievo sul testo / gia' documentata in G0-inventario",
+          "motivo": "Le chiavi ntc:298 e circ:289 identificano le pagine fisiche del PDF usate in G0/G6 (come da mappa e inventari). I numeri stampati 294/285 sono la numerazione tipografica del volume; la discordanza e' nota di pacchetto, non divergenza del Markdown rispetto alla fonte. Non apre ERR-MD.",
+          "di_merito_sul_testo": false
+        },
+        {
+          "id": "R3-refuso-inventario-doppio-punto",
+          "testo_V": "Nel riferimento di ntc-8.7.3-elenco-3 il refuso «strutturale».. (doppio punto) riguarda il pacchetto di verifica, non il corpus",
+          "trattamento": "chiusa come non applicabile al corpus",
+          "motivo": "V la classifica come difetto del pacchetto di verifica, non del target. Nessuna modifica al Markdown.",
+          "di_merito_sul_testo": false
+        }
+      ],
+      "coerenza_con_rapporto_json": "Il JSON stampato da V in fase2-result.txt (trascritto in g6/b01/rapporto-g6.json) ha esito OK e rilievi []. Le note in prosa non sono rilievi: non contraddicono il JSON; questa rettifica le rende esplicite nel dossier affinche' il G7 non le tratti come riserve aperte non documentate."
+    },
+    "G7-AUDIT-13": {
+      "classe": "ERR-AUDIT",
+      "esito": "chiuso documentale: verbale aggiornato con la normalizzazione 2 oltre a 1, 21 e 23",
+      "prova": "g6/b01/rapporto-g6.json normalizzazioni; fase2-result.txt; verbale aggiornato"
+    }
+  },
+  "originale_conservato": [
+    "lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt",
+    "lavoro/g6-giro2-haiku-sessione-unica/rapporto-g6-originale-V.json",
+    "g6/b01/rapporto-g6.json"
+  ],
+  "nota": "Nessuna falsificazione byte-per-byte; rapporto-g6.json resta la trascrizione del JSON di V; le note in prosa sono riconciliate qui e nel verbale."
+}

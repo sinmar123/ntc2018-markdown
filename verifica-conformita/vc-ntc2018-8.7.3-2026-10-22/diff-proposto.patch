@@ -1,0 +1,24 @@
+diff --git a/cap08/8.7.3-progettazione-interventi-costruzioni-miste.md b/cap08/8.7.3-progettazione-interventi-costruzioni-miste.md
+index de4a165..49a5b03 100644
+--- a/cap08/8.7.3-progettazione-interventi-costruzioni-miste.md
++++ b/cap08/8.7.3-progettazione-interventi-costruzioni-miste.md
+@@ -7,7 +7,7 @@
+ 
+ - [Norma](#toc-ntc2018-8-7-3-norma)
+ - [Circolare](#toc-ntc2018-c8-7-3-circolare)
+-  - [C8.7.3. Costruzioni miste](#toc-ntc2018-c8-7-3)
++  - [C8.7.3 COSTRUZIONI MISTE](#toc-ntc2018-c8-7-3)
+ <!-- INDICE-INTERNO:FINE -->
+ 
+ <a id="toc-ntc2018-8-7-3-norma"></a>
+@@ -29,6 +29,8 @@ Per queste situazioni è necessario prevedere modellazioni che tengano in consid
+ ## Circolare
+ 
+ <a id="toc-ntc2018-c8-7-3"></a>
+-### C8.7.3. Costruzioni miste
++### C8.7.3 COSTRUZIONI MISTE
+ 
+-L’interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata di quella delle costruzioni con struttura di caratteristiche omogenee, a causa delle interazioni tra elementi strutturali caratterizzati da rigidezze e comportamento meccanico del materiale e strutturale diversi. In campo non lineare il comportamento è spesso complesso e non rappresentabile attraverso modelli e metodi semplificati, a meno che non si possa trascurare il contributo alla capacità resistente sismica di tutti gli elementi di uno dei materiali costituenti, considerandoli come elementi secondari. Tale assunzione è ammissibile solo nel caso il contributo degli elementi considerati secondari, nel caso di azione sismica, sia favorevole. L’analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi strutturali realizzati con i diversi materiali utilizzati, il loro comportamento non lineare sino alla capacità ultima in termini di deformazione. La verifica deve condursi tenendo conto dei meccanismi locali e globali a seconda della tipologia di elementi strutturali che si sta analizzando e del loro materiale costituente. Attenzione deve poi essere rivolta alla verifica delle connessioni tra elementi di diverso materiale, valutando l’entità della domanda per la quale è stimato il raggiungimento dello stato limite di interesse.
++L’interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata di quella delle costruzioni con struttura di caratteristiche omogenee, a causa delle interazioni tra elementi strutturali caratterizzati da rigidezze e comportamento meccanico del materiale e strutturale diversi. In campo non lineare il comportamento è spesso complesso e non rappresentabile attraverso modelli e metodi semplificati, a meno che non si possa trascurare il contributo alla capacità resistente sismica di tutti gli elementi di uno dei materiali costituenti, considerandoli come elementi secondari. Tale assunzione è ammissibile solo nel caso il contributo degli elementi considerati secondari, nel caso di azione sismica, sia favorevole.
++
++L’analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi strutturali realizzati con i diversi materiali utilizzati, il loro comportamento non lineare sino alla capacità ultima in termini di deformazione. La verifica deve condursi tenendo conto dei meccanismi locali e globali a seconda della tipologia di elementi strutturali che si sta analizzando e del loro materiale costituente. Attenzione deve poi essere rivolta alla verifica delle connessioni tra elementi di diverso materiale, valutando l’entità della domanda per la quale è stimato il raggiungimento dello stato limite di interesse.

@@ -1,0 +1,42 @@
+{
+ "pdf": "verifica-conformita/fonte-ufficiale/GU-2019-35-SO5-Circolare-7-2019.pdf",
+ "pagine": "289-289",
+ "target": [
+  "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md"
+ ],
+ "nota": "Candidati da vagliare: non sono correzioni approvate.",
+ "capoversi_fonte": [
+  {
+   "pagina": 289,
+   "y_pt": 459.8,
+   "x_pt": 73.9,
+   "criterio": "inizio",
+   "inizio": "C8.7.3 COSTRUZIONI MISTE"
+  },
+  {
+   "pagina": 289,
+   "y_pt": 472.9,
+   "x_pt": 73.9,
+   "criterio": "rientro",
+   "inizio": "L’interpretazione del comportamento delle costruzioni miste e la relativa modell"
+  },
+  {
+   "pagina": 289,
+   "y_pt": 549.3,
+   "x_pt": 73.9,
+   "criterio": "interlinea",
+   "inizio": "L’analisi statica non lineare può essere eseguita se è disponibile un modello in"
+  }
+ ],
+ "capoversi": [
+  {
+   "pagina": 289,
+   "y_pt": 549.3,
+   "criterio": "interlinea",
+   "file": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+   "riga": 34,
+   "contesto": "caso di azione sismica, sia favorevole. ⏎⏎L’analisi statica non lineare può essere"
+  }
+ ],
+ "enfasi": []
+}

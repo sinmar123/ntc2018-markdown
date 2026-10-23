@@ -1,5 +1,11 @@
 # Revisione Capitolo 8 - Costruzioni esistenti
 
+## 2026-10-23 - VC-OK del § 8.7.3 con C8.7.3
+
+VC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; alida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.
+
+Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
+
 ## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2
 
 VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c…3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md). Firma: GBOT-verifica-ntc.

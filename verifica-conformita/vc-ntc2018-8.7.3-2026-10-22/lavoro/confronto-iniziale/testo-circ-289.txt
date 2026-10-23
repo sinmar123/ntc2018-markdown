@@ -1,0 +1,71 @@
+—  285  —
+Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE
+Serie generale - n. 35
+11-2-2019
+ 
+di comprovata validità. È possibile riferirsi all’Annex B (Steel and composite structures) della Norma UNI EN 1998-3:2005. In 
+particolare il punto B.5.2 –member deformation capacities, analizza il problema delle travi e colonne soggette a flessione, per le quali 
+la capacità di deformazione inelastica è espressa in termini di rotazione plastica definita come multiplo della rotazione rispetto 
+alla corda {y valutata al raggiungimento della tensione di snervamento. Il valore del moltiplicatore della rotazione {y dipende 
+dallo stato limite considerato e dalla classe della sezione trasversale della trave o della colonna (classi 1 o 2, definite al § 4.2.3.1 
+delle NTC). Lo stesso Annesso riporta i moltiplicatori che consentono di determinare la capacità di elementi di controvento 
+soggetti a compressione in termini di moltiplicatore dello sforzo normale corrispondente allo stato limite di instabilità, o di 
+elementi di controvento tesi, in termini di moltiplicatore dello sforzo normale corrispondente al raggiungimento della tensione di 
+snervamento del materiale.  
+C8.7.2.4.3
+Stato limite di salvaguardia della vita 
+Allo stato limite di salvaguardia della vita, la capacità in termini di rotazione totale rispetto alla corda, {SD, può essere assunta 
+pari a 3/4 del valore {uvalutato per lo SLC. 
+C8.7.2.4.4
+Stato limite di danno 
+Allo stato limite di esercizio, la capacità in termini di rotazione rispetto alla corda, {y, al raggiungimento della tensione di 
+snervamento può essere valutata mediante la seguente espressione: 
+ 
+[C8.7.2.13] 
+dove: 
+Me,Rd 
+è il momento di prima plasticizzazione di calcolo; 
+LV 
+è la luce di taglio;  
+I 
+è il momento di inerzia della sezione nella direzione considerata. 
+C8.7.2.4.5
+Travi e pilastri: Taglio 
+La capacità in termini di resistenza a taglio VR si valuta come per il caso di nuove costruzioni per situazioni non sismiche. 
+C8.7.2.4.6
+Collegamenti 
+Si applica quanto prescritto per gli edifici di nuova costruzione. 
+C8.7.3
+COSTRUZIONI MISTE 
+L’interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata di quella 
+delle costruzioni con struttura di caratteristiche omogenee, a causa delle interazioni tra elementi strutturali caratterizzati da 
+rigidezze e comportamento meccanico del materiale e strutturale diversi. In campo non lineare il comportamento è spesso 
+complesso e non rappresentabile attraverso modelli e metodi semplificati, a meno che non si possa trascurare il contributo alla 
+capacità resistente sismica di tutti gli elementi di uno dei materiali costituenti, considerandoli come elementi secondari. Tale 
+assunzione è ammissibile solo nel caso il contributo degli elementi considerati secondari, nel caso di azione sismica, sia 
+favorevole. 
+L’analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi strutturali 
+realizzati con i diversi materiali utilizzati, il loro comportamento non lineare sino alla capacità ultima in termini di deformazione. 
+La verifica deve condursi tenendo conto dei meccanismi locali e globali a seconda della tipologia di elementi strutturali che si sta 
+analizzando e del loro materiale costituente. Attenzione deve poi essere rivolta alla verifica delle connessioni tra elementi di 
+diverso materiale, valutando l’entità della domanda per la quale è stimato il raggiungimento dello stato limite di interesse. 
+C8.7.4
+CRITERI E TIPI DI INTERVENTO 
+Il § 8.7.4 delle NTC descrive gli aspetti principali degli interventi sugli edifici esistenti, qui sono riportate alcune raccomandazioni 
+che possono costituire un utile riferimento ai fini della scelta degli interventi. Si sottolinea l’importanza che gli interventi siano 
+definiti in funzione di specifiche vulnerabilità dell’edificio, analizzando prioritariamente quelle locali. Sono invece da evitarsi 
+interventi generalizzati e diffusi, se non adeguatamente motivati da una specifica valutazione. 
+Nel caso in cui nell’intervento si faccia uso di materiali compositi, ai fini delle verifiche di sicurezza degli elementi rinforzati, si 
+possono utilizzare documenti di comprovata validità. 
+EI
+L
+M
+V
+Rd
+e
+y
+2
+.
+
+P
+ 

@@ -1,0 +1,718 @@
+node.exe : OpenAI Codex v0.163.0
+In <npm>\codex.ps1:22 car:14
++ ...    $input | & "node$exe"  "$basedir/node_modules/@openai/codex/bin/co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (OpenAI Codex v0.163.0:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--------
+workdir: <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+model: gpt-5.6-terra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a16228-9cad-7d51-82f1-ed2b08ad47f6
+--------
+user
+Via del coordinatore: l'inventario è congelato (congelamento.json). Esegui ora la fase 2 CONFRONTO secondo 
+ISTRUZIONI-V.md: leggi integralmente testo.md e l'asset resa-finale.pdf rivelati in questa cartella e confrontali con 
+la fonte. La sandbox è in sola lettura: il tuo messaggio finale deve essere SOLO il JSON di rapporto-g6.json (firma, 
+esito OK o KO, coperti, normalizzazioni, rilievi, letture, isolamento). Non leggere nulla fuori da questa cartella. 
+Fermati dopo il G6.
+codex
+Uso il workflow PDF per ispezionare la resa pagina per pagina; confronterò integralmente `testo.md` e il PDF con le 
+due immagini fonte, restando entro questa cartella per tutti i materiali del blocco.
+exec
+"<powershell>" -Command "Get-Content -Raw 
+'<codex-home>\\plugins\\cache\\openai-primary-runtime\\pdf\\26.1013.11914\\skills\\pdf\\SKILL.md'" in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 728ms:
+<contenuto di file della documentazione dei plugin di Codex omesso: 195 righe, sha256 13f977133839d941049ec46674ac073cf25fbc458d80304438b4225511c7b0c7>
+
+
+exec
+"<powershell>" -Command 'Get-ChildItem -Force | Select-Object 
+Name,Length | Format-Table -AutoSize' in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 790ms:
+
+Name                 Length
+----                 ------
+canone.md             11370
+congelamento.json       427
+fonte-circ-289.png   550044
+fonte-ntc-298.png    662464
+input-confronto.json   1532
+input-fonte.json        862
+inventario.json        1985
+ISTRUZIONI-V.md        2486
+PERIMETRO.md            267
+resa-finale.pdf       13946
+testo.md               2447
+
+
+
+exec
+"<powershell>" -Command 'Get-Content -Raw testo.md' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 690ms:
+# 8.7.3. COSTRUZIONI MISTE
+
+Alcune tipologie di costruzioni esistenti possono essere classificate come miste. Situazioni ricorrenti sono:
+
+- costruzioni le cui pareti perimetrali siano in muratura portante e la cui struttura verticale interna sia 
+rappresentata da pilastri (per esempio in c.a. o acciaio);
+
+- costruzioni in muratura su cui gravino sopraelevazioni aventi sistema strutturale, per esempio, in c.a. o acciaio, o 
+edifici in c.a. o acciaio su cui gravino sopraelevazioni in muratura;
+
+- costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui sistema strutturale (per esempio, in 
+c.a. o acciaio) sia interconnesso con quello preesistente in muratura.
+
+Per queste situazioni Ã¨ necessario prevedere modellazioni che tengano in considerazione le particolaritÃ strutturali 
+identificate e lâ€™interazione tra elementi strutturali diversi per materiale e rigidezza, ricorrendo, ove necessario, 
+a metodi di analisi non lineare di comprovata validitÃ.
+
+### C8.7.3 COSTRUZIONI MISTE
+
+Lâ€™interpretazione del comportamento delle costruzioni miste e la relativa modellazione Ã¨ in generale piÃ¹ 
+complicata di quella delle costruzioni con struttura di caratteristiche omogenee, a causa delle interazioni tra 
+elementi strutturali caratterizzati da rigidezze e comportamento meccanico del materiale e strutturale diversi. In 
+campo non lineare il comportamento Ã¨ spesso complesso e non rappresentabile attraverso modelli e metodi semplificati, 
+a meno che non si possa trascurare il contributo alla capacitÃ resistente sismica di tutti gli elementi di uno dei 
+materiali costituenti, considerandoli come elementi secondari. Tale assunzione Ã¨ ammissibile solo nel caso il 
+contributo degli elementi considerati secondari, nel caso di azione sismica, sia favorevole.
+
+Lâ€™analisi statica non lineare puÃ² essere eseguita se Ã¨ disponibile un modello in grado di simulare, per gli 
+elementi strutturali realizzati con i diversi materiali utilizzati, il loro comportamento non lineare sino alla 
+capacitÃ ultima in termini di deformazione. La verifica deve condursi tenendo conto dei meccanismi locali e globali a 
+seconda della tipologia di elementi strutturali che si sta analizzando e del loro materiale costituente. Attenzione 
+deve poi essere rivolta alla verifica delle connessioni tra elementi di diverso materiale, valutando lâ€™entitÃ della 
+domanda per la quale Ã¨ stimato il raggiungimento dello stato limite di interesse.
+
+
+exec
+"<powershell>" -Command 'pdfinfo resa-finale.pdf' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 552ms:
+Creator:         LaTeX via pandoc
+Producer:        MiKTeX-dvipdfmx (20260404)
+CreationDate:    Thu Oct 22 07:40:11 2026 ora legale Europa occidentale
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       13946 bytes
+Optimized:       no
+PDF version:     1.7
+
+exec
+"<powershell>" -Command 'pdftotext -layout resa-finale.pdf -' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 538ms:
+8.7.3. COSTRUZIONI MISTE
+Alcune tipologie di costruzioni esistenti possono essere classificate come miste. Situazioni ricorrenti sono:
+  • costruzioni le cui pareti perimetrali siano in muratura portante e la cui struttura verticale interna sia rappre-
+    sentata da pilastri (per esempio in c.a. o acciaio);
+  • costruzioni in muratura su cui gravino sopraelevazioni aventi sistema strutturale, per esempio, in c.a. o acciaio,
+    o edifici in c.a. o acciaio su cui gravino sopraelevazioni in muratura;
+  • costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui sistema strutturale (per esempio,
+    in c.a. o acciaio) sia interconnesso con quello preesistente in muratura.
+Per queste situazioni è necessario prevedere modellazioni che tengano in considerazione le particolarità strutturali
+identificate e l’interazione tra elementi strutturali diversi per materiale e rigidezza, ricorrendo, ove necessario, a
+metodi di analisi non lineare di comprovata validità.
+
+C8.7.3 COSTRUZIONI MISTE
+L’interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata
+di quella delle costruzioni con struttura di caratteristiche omogenee, a causa delle interazioni tra elementi 
+strutturali
+caratterizzati da rigidezze e comportamento meccanico del materiale e strutturale diversi. In campo non lineare il
+comportamento è spesso complesso e non rappresentabile attraverso modelli e metodi semplificati, a meno che non
+si possa trascurare il contributo alla capacità resistente sismica di tutti gli elementi di uno dei materiali 
+costituenti,
+considerandoli come elementi secondari. Tale assunzione è ammissibile solo nel caso il contributo degli elementi
+considerati secondari, nel caso di azione sismica, sia favorevole.
+L’analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi
+strutturali realizzati con i diversi materiali utilizzati, il loro comportamento non lineare sino alla capacità ultima
+in termini di deformazione. La verifica deve condursi tenendo conto dei meccanismi locali e globali a seconda della
+tipologia di elementi strutturali che si sta analizzando e del loro materiale costituente. Attenzione deve poi essere
+rivolta alla verifica delle connessioni tra elementi di diverso materiale, valutando l’entità della domanda per la 
+quale
+è stimato il raggiungimento dello stato limite di interesse.
+
+
+
+
+                                                            1
+
+codex
+La trascrizione estratta dal PDF contiene entrambi i blocchi; passo alla verifica visiva della pagina resa, perché qui 
+gerarchie, grassetto ed elenchi sono parte del confronto.
+exec
+"<powershell>" -Command "Get-Content -Raw '<codex-home>\
+\plugins\\cache\\openai-bundled\\computer-use\\26.1007.21434\\skills\\computer-use\\SKILL.md'" in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 474ms:
+<contenuto di file della documentazione dei plugin di Codex omesso: 35 righe, sha256 d881660a8568549f67c531b0d27e65022de485487bdc0d1f758a15de78936ca3>
+
+
+exec
+"<powershell>" -Command "Get-Content -Raw 
+'<codex-home>\\plugins\\cache\\openai-bundled\\computer-use\\26.1007.21434\\docs\\guidance.md'; 
+Get-Content -Raw 
+'<codex-home>\\plugins\\cache\\openai-bundled\\computer-use\\26.1007.21434\\docs\\api.md'; Get-Content 
+-Raw '<codex-home>\\plugins\\cache\\openai-bundled\\computer-use\\26.1007.21434\\docs\\confirmations.md'" 
+in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 614ms:
+<contenuto di file della documentazione dei plugin di Codex omesso: 567 righe, sha256 941c75e913e22e891c630aa1351661c4793d484185148f5022f309fcbef2a8b0>
+exec
+"<powershell>" -Command 'pdftotext -bbox-layout resa-finale.pdf -' 
+in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 480ms:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta name="Creator" content="LaTeX via pandoc"/>
+<meta name="Producer" content="MiKTeX-dvipdfmx (20260404)"/>
+<meta name="CreationDate" content="2026-10-22T07:40:11+02"/>
+</head>
+<body>
+<doc>
+  <page width="612.000000" height="792.000000">
+    <flow>
+      <block xMin="56.693000" yMin="55.143963" xMax="273.650583" yMax="69.490163">
+        <line xMin="56.693000" yMin="55.143963" xMax="273.650583" yMax="69.490163">
+          <word xMin="56.693000" yMin="55.143963" xMax="94.394814" yMax="69.490163">8.7.3.</word>
+          <word xMin="101.553567" yMin="55.143963" xMax="216.179705" yMax="69.490163">COSTRUZIONI</word>
+          <word xMin="221.559530" yMin="55.143963" xMax="273.650583" yMax="69.490163">MISTE</word>
+        </line>
+      </block>
+      <block xMin="56.314000" yMin="80.508144" xMax="514.464086" yMax="90.470744">
+        <line xMin="56.314000" yMin="80.508144" xMax="514.464086" yMax="90.470744">
+          <word xMin="56.314000" yMin="80.508144" xMax="86.480753" yMax="90.470744">Alcune</word>
+          <word xMin="89.798299" yMin="80.508144" xMax="127.168011" yMax="90.470744">tipologie</word>
+          <word xMin="130.485557" yMin="80.508144" xMax="138.794365" yMax="90.470744">di</word>
+          <word xMin="142.111911" yMin="80.508144" xMax="189.244972" yMax="90.470744">costruzioni</word>
+          <word xMin="192.562518" yMin="80.508144" xMax="227.820159" yMax="90.470744">esistenti</word>
+          <word xMin="231.127742" yMin="80.508144" xMax="265.279535" yMax="90.470744">possono</word>
+          <word xMin="268.597081" yMin="80.508144" xMax="293.623132" yMax="90.470744">essere</word>
+          <word xMin="296.940678" yMin="80.508144" xMax="342.977852" yMax="90.470744">classificate</word>
+          <word xMin="346.295398" yMin="80.508144" xMax="368.422333" yMax="90.470744">come</word>
+          <word xMin="371.739879" yMin="80.508144" xMax="397.802040" yMax="90.470744">miste.</word>
+          <word xMin="402.225435" yMin="80.508144" xMax="445.413306" yMax="90.470744">Situazioni</word>
+          <word xMin="448.730851" yMin="80.508144" xMax="488.959830" yMax="90.470744">ricorrenti</word>
+          <word xMin="492.267413" yMin="80.508144" xMax="514.464086" yMax="90.470744">sono:</word>
+        </line>
+      </block>
+      <block xMin="68.867000" yMin="98.440144" xMax="556.965459" yMax="120.358744">
+        <line xMin="68.867000" yMin="98.440144" xMax="556.965459" yMax="108.402744">
+          <word xMin="68.867000" yMin="98.440144" xMax="76.617903" yMax="108.402744">•</word>
+          <word xMin="81.600000" yMin="98.440144" xMax="128.733061" yMax="108.402744">costruzioni</word>
+          <word xMin="131.950980" yMin="98.440144" xMax="139.143978" yMax="108.402744">le</word>
+          <word xMin="142.371860" yMin="98.440144" xMax="155.104063" yMax="108.402744">cui</word>
+          <word xMin="158.321983" yMin="98.440144" xMax="183.816276" yMax="108.402744">pareti</word>
+          <word xMin="187.044158" yMin="98.440144" xMax="234.984190" yMax="108.402744">perimetrali</word>
+          <word xMin="238.202109" yMin="98.440144" xMax="260.398782" yMax="108.402744">siano</word>
+          <word xMin="263.626665" yMin="98.440144" xMax="271.935473" yMax="108.402744">in</word>
+          <word xMin="275.163355" yMin="98.440144" xMax="315.920352" yMax="108.402744">muratura</word>
+          <word xMin="319.128309" yMin="98.440144" xMax="356.258919" yMax="108.402744">portante</word>
+          <word xMin="359.476839" yMin="98.440144" xMax="363.900234" yMax="108.402744">e</word>
+          <word xMin="367.118153" yMin="98.440144" xMax="374.869056" yMax="108.402744">la</word>
+          <word xMin="378.096939" yMin="98.440144" xMax="390.829141" yMax="108.402744">cui</word>
+          <word xMin="394.057024" yMin="98.440144" xMax="433.479032" yMax="108.402744">struttura</word>
+          <word xMin="436.696952" yMin="98.440144" xMax="473.259694" yMax="108.402744">verticale</word>
+          <word xMin="476.477614" yMin="98.440144" xMax="507.242122" yMax="108.402744">interna</word>
+          <word xMin="510.450080" yMin="98.440144" xMax="522.126247" yMax="108.402744">sia</word>
+          <word xMin="525.354129" yMin="98.440144" xMax="556.965459" yMax="108.402744">rappre-</word>
+        </line>
+        <line xMin="81.600000" yMin="110.396144" xMax="298.206849" yMax="120.358744">
+          <word xMin="81.600000" yMin="110.396144" xMax="112.922414" yMax="120.358744">sentata</word>
+          <word xMin="116.229998" yMin="110.396144" xMax="126.750503" yMax="120.358744">da</word>
+          <word xMin="130.068049" yMin="110.396144" xMax="160.603418" yMax="120.358744">pilastri</word>
+          <word xMin="163.920964" yMin="110.396144" xMax="181.943307" yMax="120.358744">(per</word>
+          <word xMin="185.260853" yMin="110.396144" xMax="219.621860" yMax="120.358744">esempio</word>
+          <word xMin="222.939406" yMin="110.396144" xMax="231.248215" yMax="120.358744">in</word>
+          <word xMin="234.565760" yMin="110.396144" xMax="249.509660" yMax="120.358744">c.a.</word>
+          <word xMin="253.933055" yMin="110.396144" xMax="258.914355" yMax="120.358744">o</word>
+          <word xMin="262.231901" yMin="110.396144" xMax="298.206849" yMax="120.358744">acciaio);</word>
+        </line>
+      </block>
+      <block xMin="68.867000" yMin="128.328144" xMax="556.686506" yMax="150.246744">
+        <line xMin="68.867000" yMin="128.328144" xMax="556.686506" yMax="138.290744">
+          <word xMin="68.867000" yMin="128.328144" xMax="76.617903" yMax="138.290744">•</word>
+          <word xMin="81.600000" yMin="128.328144" xMax="128.733061" yMax="138.290744">costruzioni</word>
+          <word xMin="131.283486" yMin="128.328144" xMax="139.592295" yMax="138.290744">in</word>
+          <word xMin="142.142720" yMin="128.328144" xMax="182.899717" yMax="138.290744">muratura</word>
+          <word xMin="185.450142" yMin="128.328144" xMax="194.914612" yMax="138.290744">su</word>
+          <word xMin="197.465038" yMin="128.328144" xMax="210.197241" yMax="138.290744">cui</word>
+          <word xMin="212.757629" yMin="128.328144" xMax="244.906939" yMax="138.290744">gravino</word>
+          <word xMin="247.447402" yMin="128.328144" xMax="312.572918" yMax="138.290744">sopraelevazioni</word>
+          <word xMin="315.123344" yMin="128.328144" xMax="341.145655" yMax="138.290744">aventi</word>
+          <word xMin="343.686118" yMin="128.328144" xMax="375.885241" yMax="138.290744">sistema</word>
+          <word xMin="378.445630" yMin="128.328144" xMax="427.830238" yMax="138.290744">strutturale,</word>
+          <word xMin="430.530102" yMin="128.328144" xMax="444.676994" yMax="138.290744">per</word>
+          <word xMin="447.237383" yMin="128.328144" xMax="484.367993" yMax="138.290744">esempio,</word>
+          <word xMin="487.077820" yMin="128.328144" xMax="495.386628" yMax="138.290744">in</word>
+          <word xMin="497.937054" yMin="128.328144" xMax="512.880954" yMax="138.290744">c.a.</word>
+          <word xMin="517.045321" yMin="128.328144" xMax="522.026621" yMax="138.290744">o</word>
+          <word xMin="524.587009" yMin="128.328144" xMax="556.686506" yMax="138.290744">acciaio,</word>
+        </line>
+        <line xMin="81.600000" yMin="140.284144" xMax="378.485480" yMax="150.246744">
+          <word xMin="81.600000" yMin="140.284144" xMax="86.581300" yMax="150.246744">o</word>
+          <word xMin="89.888883" yMin="140.284144" xMax="115.353289" yMax="150.246744">edifici</word>
+          <word xMin="118.670835" yMin="140.284144" xMax="126.979643" yMax="150.246744">in</word>
+          <word xMin="130.297189" yMin="140.284144" xMax="145.241089" yMax="150.246744">c.a.</word>
+          <word xMin="149.664483" yMin="140.284144" xMax="154.645783" yMax="150.246744">o</word>
+          <word xMin="157.963329" yMin="140.284144" xMax="187.293223" yMax="150.246744">acciaio</word>
+          <word xMin="190.610769" yMin="140.284144" xMax="200.075239" yMax="150.246744">su</word>
+          <word xMin="203.392785" yMin="140.284144" xMax="216.124988" yMax="150.246744">cui</word>
+          <word xMin="219.442534" yMin="140.284144" xMax="251.591844" yMax="150.246744">gravino</word>
+          <word xMin="254.899427" yMin="140.284144" xMax="320.024943" yMax="150.246744">sopraelevazioni</word>
+          <word xMin="323.332526" yMin="140.284144" xMax="331.641335" yMax="150.246744">in</word>
+          <word xMin="334.958881" yMin="140.284144" xMax="378.485480" yMax="150.246744">muratura;</word>
+        </line>
+      </block>
+      <block xMin="68.867000" yMin="158.216144" xMax="556.686506" yMax="180.133744">
+        <line xMin="68.867000" yMin="158.216144" xMax="556.686506" yMax="168.178744">
+          <word xMin="68.867000" yMin="158.216144" xMax="76.617903" yMax="168.178744">•</word>
+          <word xMin="81.600000" yMin="158.216144" xMax="128.733061" yMax="168.178744">costruzioni</word>
+          <word xMin="132.020719" yMin="158.216144" xMax="140.329527" yMax="168.178744">in</word>
+          <word xMin="143.617185" yMin="158.216144" xMax="184.374182" yMax="168.178744">muratura</word>
+          <word xMin="187.661840" yMin="158.216144" xMax="201.778844" yMax="168.178744">che</word>
+          <word xMin="205.056539" yMin="158.216144" xMax="239.387659" yMax="168.178744">abbiano</word>
+          <word xMin="242.675317" yMin="158.216144" xMax="269.305347" yMax="168.178744">subito</word>
+          <word xMin="272.602967" yMin="158.216144" xMax="326.580334" yMax="168.178744">ampliamenti</word>
+          <word xMin="329.858029" yMin="158.216144" xMax="384.692180" yMax="168.178744">planimetrici,</word>
+          <word xMin="387.989800" yMin="158.216144" xMax="393.529006" yMax="168.178744">il</word>
+          <word xMin="396.816664" yMin="158.216144" xMax="409.548867" yMax="168.178744">cui</word>
+          <word xMin="412.846487" yMin="158.216144" xMax="445.045611" yMax="168.178744">sistema</word>
+          <word xMin="448.333269" yMin="158.216144" xMax="494.948274" yMax="168.178744">strutturale</word>
+          <word xMin="498.245895" yMin="158.216144" xMax="516.268238" yMax="168.178744">(per</word>
+          <word xMin="519.555896" yMin="158.216144" xMax="556.686506" yMax="168.178744">esempio,</word>
+        </line>
+        <line xMin="81.600000" yMin="170.171144" xMax="390.251311" yMax="180.133744">
+          <word xMin="81.600000" yMin="170.171144" xMax="89.908808" yMax="180.133744">in</word>
+          <word xMin="93.216392" yMin="170.171144" xMax="108.160292" yMax="180.133744">c.a.</word>
+          <word xMin="112.583686" yMin="170.171144" xMax="117.564986" yMax="180.133744">o</word>
+          <word xMin="120.882532" yMin="170.171144" xMax="154.087878" yMax="180.133744">acciaio)</word>
+          <word xMin="157.405423" yMin="170.171144" xMax="169.081591" yMax="180.133744">sia</word>
+          <word xMin="172.399136" yMin="170.171144" xMax="230.381468" yMax="180.133744">interconnesso</word>
+          <word xMin="233.689052" yMin="170.171144" xMax="248.632952" yMax="180.133744">con</word>
+          <word xMin="251.950497" yMin="170.171144" xMax="277.693856" yMax="180.133744">quello</word>
+          <word xMin="281.011402" yMin="170.171144" xMax="331.790774" yMax="180.133744">preesistente</word>
+          <word xMin="335.098357" yMin="170.171144" xMax="343.407165" yMax="180.133744">in</word>
+          <word xMin="346.724711" yMin="170.171144" xMax="390.251311" yMax="180.133744">muratura.</word>
+        </line>
+      </block>
+      <block xMin="56.693000" yMin="188.104144" xMax="555.301205" yMax="221.977744">
+        <line xMin="56.693000" yMin="188.104144" xMax="555.301205" yMax="198.066744">
+          <word xMin="56.693000" yMin="188.104144" xMax="71.527311" yMax="198.066744">Per</word>
+          <word xMin="75.034147" yMin="188.104144" xMax="102.481110" yMax="198.066744">queste</word>
+          <word xMin="105.997907" yMin="188.104144" xMax="147.571837" yMax="198.066744">situazioni</word>
+          <word xMin="151.078672" yMin="188.104144" xMax="155.502067" yMax="198.066744">è</word>
+          <word xMin="159.018865" yMin="188.104144" xMax="202.316324" yMax="198.066744">necessario</word>
+          <word xMin="205.833122" yMin="188.104144" xMax="247.407052" yMax="198.066744">prevedere</word>
+          <word xMin="250.903924" yMin="188.104144" xMax="305.429234" yMax="198.066744">modellazioni</word>
+          <word xMin="308.946032" yMin="188.104144" xMax="323.063036" yMax="198.066744">che</word>
+          <word xMin="326.569871" yMin="188.104144" xMax="360.891028" yMax="198.066744">tengano</word>
+          <word xMin="364.397864" yMin="188.104144" xMax="372.706672" yMax="198.066744">in</word>
+          <word xMin="376.223470" yMin="188.104144" xMax="438.848373" yMax="198.066744">considerazione</word>
+          <word xMin="442.365171" yMin="188.104144" xMax="449.558168" yMax="198.066744">le</word>
+          <word xMin="453.065004" yMin="188.104144" xMax="506.823193" yMax="198.066744">particolarità</word>
+          <word xMin="510.339991" yMin="188.104144" xMax="555.301205" yMax="198.066744">strutturali</word>
+        </line>
+        <line xMin="56.693000" yMin="200.059144" xMax="555.301205" yMax="210.021744">
+          <word xMin="56.693000" yMin="200.059144" xMax="104.573256" yMax="210.021744">identificate</word>
+          <word xMin="108.727660" yMin="200.059144" xMax="113.151054" yMax="210.021744">e</word>
+          <word xMin="117.305458" yMin="200.059144" xMax="170.206864" yMax="210.021744">l’interazione</word>
+          <word xMin="174.361269" yMin="200.059144" xMax="187.123359" yMax="210.021744">tra</word>
+          <word xMin="191.277763" yMin="200.059144" xMax="227.531665" yMax="210.021744">elementi</word>
+          <word xMin="231.686069" yMin="200.059144" xMax="276.647283" yMax="210.021744">strutturali</word>
+          <word xMin="280.801687" yMin="200.059144" xMax="309.125359" yMax="210.021744">diversi</word>
+          <word xMin="313.279763" yMin="200.059144" xMax="327.426655" yMax="210.021744">per</word>
+          <word xMin="331.581059" yMin="200.059144" xMax="372.009290" yMax="210.021744">materiale</word>
+          <word xMin="376.163694" yMin="200.059144" xMax="380.587089" yMax="210.021744">e</word>
+          <word xMin="384.751455" yMin="200.059144" xMax="425.737592" yMax="210.021744">rigidezza,</word>
+          <word xMin="430.101211" yMin="200.059144" xMax="477.244234" yMax="210.021744">ricorrendo,</word>
+          <word xMin="481.617815" yMin="200.059144" xMax="495.734819" yMax="210.021744">ove</word>
+          <word xMin="499.879261" yMin="200.059144" xMax="545.946323" yMax="210.021744">necessario,</word>
+          <word xMin="550.319905" yMin="200.059144" xMax="555.301205" yMax="210.021744">a</word>
+        </line>
+        <line xMin="56.693000" yMin="212.015144" xMax="284.866428" yMax="221.977744">
+          <word xMin="56.693000" yMin="212.015144" xMax="86.849790" yMax="221.977744">metodi</word>
+          <word xMin="90.167336" yMin="212.015144" xMax="98.476144" yMax="221.977744">di</word>
+          <word xMin="101.793690" yMin="212.015144" xMax="129.529569" yMax="221.977744">analisi</word>
+          <word xMin="132.847114" yMin="212.015144" xMax="148.916788" yMax="221.977744">non</word>
+          <word xMin="152.234334" yMin="212.015144" xMax="181.046173" yMax="221.977744">lineare</word>
+          <word xMin="184.363719" yMin="212.015144" xMax="192.672527" yMax="221.977744">di</word>
+          <word xMin="195.990073" yMin="212.015144" xMax="246.390867" yMax="221.977744">comprovata</word>
+          <word xMin="249.698450" yMin="212.015144" xMax="284.866428" yMax="221.977744">validità.</word>
+        </line>
+      </block>
+      <block xMin="56.693000" yMin="237.925144" xMax="214.819387" yMax="247.887744">
+        <line xMin="56.693000" yMin="237.925144" xMax="214.819387" yMax="247.887744">
+          <word xMin="56.693000" yMin="237.925144" xMax="88.513544" yMax="247.887744">C8.7.3</word>
+          <word xMin="92.319258" yMin="237.925144" xMax="173.912952" yMax="247.887744">COSTRUZIONI</word>
+          <word xMin="177.728627" yMin="237.925144" xMax="214.819387" yMax="247.887744">MISTE</word>
+        </line>
+      </block>
+      <block xMin="56.693000" yMin="256.321144" xMax="556.695969" yMax="338.014744">
+        <line xMin="56.693000" yMin="256.321144" xMax="555.301205" yMax="266.283744">
+          <word xMin="56.693000" yMin="256.321144" xMax="130.784856" yMax="266.283744">L’interpretazione</word>
+          <word xMin="133.883225" yMin="256.321144" xMax="146.615428" yMax="266.283744">del</word>
+          <word xMin="149.723759" yMin="256.321144" xMax="217.838055" yMax="266.283744">comportamento</word>
+          <word xMin="220.936424" yMin="256.321144" xMax="240.861624" yMax="266.283744">delle</word>
+          <word xMin="243.969955" yMin="256.321144" xMax="291.103015" yMax="266.283744">costruzioni</word>
+          <word xMin="294.211347" yMin="256.321144" xMax="317.503905" yMax="266.283744">miste</word>
+          <word xMin="320.612237" yMin="256.321144" xMax="325.035631" yMax="266.283744">e</word>
+          <word xMin="328.143962" yMin="256.321144" xMax="335.894865" yMax="266.283744">la</word>
+          <word xMin="339.003196" yMin="256.321144" xMax="371.421497" yMax="266.283744">relativa</word>
+          <word xMin="374.509903" yMin="256.321144" xMax="430.698967" yMax="266.283744">modellazione</word>
+          <word xMin="433.797335" yMin="256.321144" xMax="438.220730" yMax="266.283744">è</word>
+          <word xMin="441.329061" yMin="256.321144" xMax="449.637869" yMax="266.283744">in</word>
+          <word xMin="452.746200" yMin="256.321144" xMax="488.193131" yMax="266.283744">generale</word>
+          <word xMin="491.301462" yMin="256.321144" xMax="505.149476" yMax="266.283744">più</word>
+          <word xMin="508.257808" yMin="256.321144" xMax="555.301205" yMax="266.283744">complicata</word>
+        </line>
+        <line xMin="56.693000" yMin="268.276144" xMax="555.301205" yMax="278.238744">
+          <word xMin="56.693000" yMin="268.276144" xMax="65.001808" yMax="278.238744">di</word>
+          <word xMin="67.641897" yMin="268.276144" xMax="93.385256" yMax="278.238744">quella</word>
+          <word xMin="96.025345" yMin="268.276144" xMax="115.950545" yMax="278.238744">delle</word>
+          <word xMin="118.590634" yMin="268.276144" xMax="165.723694" yMax="278.238744">costruzioni</word>
+          <word xMin="168.363783" yMin="268.276144" xMax="183.307683" yMax="278.238744">con</word>
+          <word xMin="185.947772" yMin="268.276144" xMax="225.369781" yMax="278.238744">struttura</word>
+          <word xMin="228.019832" yMin="268.276144" xMax="236.328641" yMax="278.238744">di</word>
+          <word xMin="238.968730" yMin="268.276144" xMax="300.796625" yMax="278.238744">caratteristiche</word>
+          <word xMin="303.426752" yMin="268.276144" xMax="348.248489" yMax="278.238744">omogenee,</word>
+          <word xMin="351.028054" yMin="268.276144" xMax="356.009354" yMax="278.238744">a</word>
+          <word xMin="358.649443" yMin="268.276144" xMax="382.499908" yMax="278.238744">causa</word>
+          <word xMin="385.139997" yMin="268.276144" xMax="405.065197" yMax="278.238744">delle</word>
+          <word xMin="407.705286" yMin="268.276144" xMax="453.413695" yMax="278.238744">interazioni</word>
+          <word xMin="456.053784" yMin="268.276144" xMax="468.815874" yMax="278.238744">tra</word>
+          <word xMin="471.455963" yMin="268.276144" xMax="507.709865" yMax="278.238744">elementi</word>
+          <word xMin="510.339991" yMin="268.276144" xMax="555.301205" yMax="278.238744">strutturali</word>
+        </line>
+        <line xMin="56.693000" yMin="280.231144" xMax="555.301205" yMax="290.193744">
+          <word xMin="56.693000" yMin="280.231144" xMax="114.306716" yMax="290.193744">caratterizzati</word>
+          <word xMin="117.723888" yMin="280.231144" xMax="128.244393" yMax="290.193744">da</word>
+          <word xMin="131.671528" yMin="280.231144" xMax="169.330156" yMax="290.193744">rigidezze</word>
+          <word xMin="172.757290" yMin="280.231144" xMax="177.180684" yMax="290.193744">e</word>
+          <word xMin="180.607819" yMin="280.231144" xMax="248.722115" yMax="290.193744">comportamento</word>
+          <word xMin="252.129324" yMin="280.231144" xMax="296.393156" yMax="290.193744">meccanico</word>
+          <word xMin="299.820290" yMin="280.231144" xMax="312.552493" yMax="290.193744">del</word>
+          <word xMin="315.979628" yMin="280.231144" xMax="356.407858" yMax="290.193744">materiale</word>
+          <word xMin="359.834993" yMin="280.231144" xMax="364.258387" yMax="290.193744">e</word>
+          <word xMin="367.685522" yMin="280.231144" xMax="414.300527" yMax="290.193744">strutturale</word>
+          <word xMin="417.717699" yMin="280.231144" xMax="448.810973" yMax="290.193744">diversi.</word>
+          <word xMin="453.553171" yMin="280.231144" xMax="462.688875" yMax="290.193744">In</word>
+          <word xMin="466.116010" yMin="280.231144" xMax="494.619008" yMax="290.193744">campo</word>
+          <word xMin="498.036180" yMin="280.231144" xMax="514.095891" yMax="290.193744">non</word>
+          <word xMin="517.523026" yMin="280.231144" xMax="546.334865" yMax="290.193744">lineare</word>
+          <word xMin="549.761999" yMin="280.231144" xMax="555.301205" yMax="290.193744">il</word>
+        </line>
+        <line xMin="56.693000" yMin="292.186144" xMax="555.301205" yMax="302.148744">
+          <word xMin="56.693000" yMin="292.186144" xMax="124.797334" yMax="302.148744">comportamento</word>
+          <word xMin="128.035179" yMin="292.186144" xMax="132.458573" yMax="302.148744">è</word>
+          <word xMin="135.696418" yMin="292.186144" xMax="162.695064" yMax="302.148744">spesso</word>
+          <word xMin="165.932909" yMin="292.186144" xMax="209.200481" yMax="302.148744">complesso</word>
+          <word xMin="212.448288" yMin="292.186144" xMax="216.871683" yMax="302.148744">e</word>
+          <word xMin="220.109528" yMin="292.186144" xMax="236.169239" yMax="302.148744">non</word>
+          <word xMin="239.407084" yMin="292.186144" xMax="305.678299" yMax="302.148744">rappresentabile</word>
+          <word xMin="308.906182" yMin="292.186144" xMax="352.472631" yMax="302.148744">attraverso</word>
+          <word xMin="355.710476" yMin="292.186144" xMax="387.540983" yMax="302.148744">modelli</word>
+          <word xMin="390.778828" yMin="292.186144" xMax="395.202223" yMax="302.148744">e</word>
+          <word xMin="398.440068" yMin="292.186144" xMax="428.606821" yMax="302.148744">metodi</word>
+          <word xMin="431.844666" yMin="292.186144" xMax="483.929138" yMax="302.148744">semplificati,</word>
+          <word xMin="487.186909" yMin="292.186144" xMax="492.168209" yMax="302.148744">a</word>
+          <word xMin="495.406054" yMin="292.186144" xMax="518.648799" yMax="302.148744">meno</word>
+          <word xMin="521.896607" yMin="292.186144" xMax="536.013611" yMax="302.148744">che</word>
+          <word xMin="539.241494" yMin="292.186144" xMax="555.301205" yMax="302.148744">non</word>
+        </line>
+        <line xMin="56.693000" yMin="304.142144" xMax="556.695969" yMax="314.104744">
+          <word xMin="56.693000" yMin="304.142144" xMax="63.387867" yMax="314.104744">si</word>
+          <word xMin="66.466311" yMin="304.142144" xMax="90.097598" yMax="314.104744">possa</word>
+          <word xMin="93.176041" yMin="304.142144" xMax="137.041369" yMax="314.104744">trascurare</word>
+          <word xMin="140.119812" yMin="304.142144" xMax="145.659018" yMax="314.104744">il</word>
+          <word xMin="148.737461" yMin="304.142144" xMax="193.897927" yMax="314.104744">contributo</word>
+          <word xMin="196.976371" yMin="304.142144" xMax="212.478176" yMax="314.104744">alla</word>
+          <word xMin="215.556620" yMin="304.142144" xMax="251.531568" yMax="314.104744">capacità</word>
+          <word xMin="254.610012" yMin="304.142144" xMax="295.426784" yMax="314.104744">resistente</word>
+          <word xMin="298.495265" yMin="304.142144" xMax="329.588539" yMax="314.104744">sismica</word>
+          <word xMin="332.666983" yMin="304.142144" xMax="340.975791" yMax="314.104744">di</word>
+          <word xMin="344.064197" yMin="304.142144" xMax="363.999360" yMax="314.104744">tutti</word>
+          <word xMin="367.077803" yMin="304.142144" xMax="377.598309" yMax="314.104744">gli</word>
+          <word xMin="380.676752" yMin="304.142144" xMax="416.930653" yMax="314.104744">elementi</word>
+          <word xMin="419.999134" yMin="304.142144" xMax="428.307943" yMax="314.104744">di</word>
+          <word xMin="431.386386" yMin="304.142144" xMax="447.446097" yMax="314.104744">uno</word>
+          <word xMin="450.534503" yMin="304.142144" xMax="463.266706" yMax="314.104744">dei</word>
+          <word xMin="466.345149" yMin="304.142144" xMax="505.119589" yMax="314.104744">materiali</word>
+          <word xMin="508.198032" yMin="304.142144" xMax="556.695969" yMax="314.104744">costituenti,</word>
+        </line>
+        <line xMin="56.693000" yMin="316.097144" xMax="555.311167" yMax="326.059744">
+          <word xMin="56.693000" yMin="316.097144" xMax="118.779923" yMax="326.059744">considerandoli</word>
+          <word xMin="122.884514" yMin="316.097144" xMax="145.011449" yMax="326.059744">come</word>
+          <word xMin="149.126003" yMin="316.097144" xMax="185.379904" yMax="326.059744">elementi</word>
+          <word xMin="189.484495" yMin="316.097144" xMax="232.742105" yMax="326.059744">secondari.</word>
+          <word xMin="239.556523" yMin="316.097144" xMax="258.106884" yMax="326.059744">Tale</word>
+          <word xMin="262.211475" yMin="316.097144" xMax="308.258613" yMax="326.059744">assunzione</word>
+          <word xMin="312.373166" yMin="316.097144" xMax="316.796561" yMax="326.059744">è</word>
+          <word xMin="320.911115" yMin="316.097144" xMax="371.381646" yMax="326.059744">ammissibile</word>
+          <word xMin="375.496200" yMin="316.097144" xMax="392.153667" yMax="326.059744">solo</word>
+          <word xMin="396.268221" yMin="316.097144" xMax="409.000424" yMax="326.059744">nel</word>
+          <word xMin="413.114978" yMin="316.097144" xMax="431.426236" yMax="326.059744">caso</word>
+          <word xMin="435.540790" yMin="316.097144" xMax="441.079996" yMax="326.059744">il</word>
+          <word xMin="445.194550" yMin="316.097144" xMax="490.355015" yMax="326.059744">contributo</word>
+          <word xMin="494.459607" yMin="316.097144" xMax="514.942712" yMax="326.059744">degli</word>
+          <word xMin="519.057266" yMin="316.097144" xMax="555.311167" yMax="326.059744">elementi</word>
+        </line>
+        <line xMin="56.693000" yMin="328.052144" xMax="331.610947" yMax="338.014744">
+          <word xMin="56.693000" yMin="328.052144" xMax="103.826061" yMax="338.014744">considerati</word>
+          <word xMin="107.133644" yMin="328.052144" xMax="150.401216" yMax="338.014744">secondari,</word>
+          <word xMin="153.718761" yMin="328.052144" xMax="166.450964" yMax="338.014744">nel</word>
+          <word xMin="169.768510" yMin="328.052144" xMax="188.079769" yMax="338.014744">caso</word>
+          <word xMin="191.397315" yMin="328.052144" xMax="199.706123" yMax="338.014744">di</word>
+          <word xMin="203.023669" yMin="328.052144" xMax="230.141866" yMax="338.014744">azione</word>
+          <word xMin="233.459412" yMin="328.052144" xMax="267.322289" yMax="338.014744">sismica,</word>
+          <word xMin="270.639835" yMin="328.052144" xMax="282.316002" yMax="338.014744">sia</word>
+          <word xMin="285.633548" yMin="328.052144" xMax="331.610947" yMax="338.014744">favorevole.</word>
+        </line>
+      </block>
+      <block xMin="56.693000" yMin="345.985144" xMax="555.311167" yMax="415.722744">
+        <line xMin="56.693000" yMin="345.985144" xMax="555.311167" yMax="355.947744">
+          <word xMin="56.693000" yMin="345.985144" xMax="93.425106" yMax="355.947744">L’analisi</word>
+          <word xMin="97.101306" yMin="345.985144" xMax="125.933070" yMax="355.947744">statica</word>
+          <word xMin="129.619232" yMin="345.985144" xMax="145.678943" yMax="355.947744">non</word>
+          <word xMin="149.365105" yMin="345.985144" xMax="178.176944" yMax="355.947744">lineare</word>
+          <word xMin="181.863106" yMin="345.985144" xMax="197.922818" yMax="355.947744">può</word>
+          <word xMin="201.608980" yMin="345.985144" xMax="226.635031" yMax="355.947744">essere</word>
+          <word xMin="230.321193" yMin="345.985144" xMax="265.240106" yMax="355.947744">eseguita</word>
+          <word xMin="268.916305" yMin="345.985144" xMax="277.264964" yMax="355.947744">se</word>
+          <word xMin="280.951126" yMin="345.985144" xMax="285.374520" yMax="355.947744">è</word>
+          <word xMin="289.060682" yMin="345.985144" xMax="335.904828" yMax="355.947744">disponibile</word>
+          <word xMin="339.590990" yMin="345.985144" xMax="350.669401" yMax="355.947744">un</word>
+          <word xMin="354.355563" yMin="345.985144" xMax="388.397767" yMax="355.947744">modello</word>
+          <word xMin="392.083929" yMin="345.985144" xMax="400.392737" yMax="355.947744">in</word>
+          <word xMin="404.068937" yMin="345.985144" xMax="428.457382" yMax="355.947744">grado</word>
+          <word xMin="432.143544" yMin="345.985144" xMax="440.452352" yMax="355.947744">di</word>
+          <word xMin="444.138514" yMin="345.985144" xMax="483.251682" yMax="355.947744">simulare,</word>
+          <word xMin="487.017544" yMin="345.985144" xMax="501.164436" yMax="355.947744">per</word>
+          <word xMin="504.850598" yMin="345.985144" xMax="515.371104" yMax="355.947744">gli</word>
+          <word xMin="519.057266" yMin="345.985144" xMax="555.311167" yMax="355.947744">elementi</word>
+        </line>
+        <line xMin="56.693000" yMin="357.940144" xMax="555.301205" yMax="367.902744">
+          <word xMin="56.693000" yMin="357.940144" xMax="101.654214" yMax="367.902744">strutturali</word>
+          <word xMin="105.410114" yMin="357.940144" xMax="144.732496" yMax="367.902744">realizzati</word>
+          <word xMin="148.488396" yMin="357.940144" xMax="163.432296" yMax="367.902744">con</word>
+          <word xMin="167.188197" yMin="357.940144" xMax="169.957799" yMax="367.902744">i</word>
+          <word xMin="173.713700" yMin="357.940144" xMax="202.037371" yMax="367.902744">diversi</word>
+          <word xMin="205.793272" yMin="357.940144" xMax="244.567711" yMax="367.902744">materiali</word>
+          <word xMin="248.323611" yMin="357.940144" xMax="289.289822" yMax="367.902744">utilizzati,</word>
+          <word xMin="293.155311" yMin="357.940144" xMax="298.694517" yMax="367.902744">il</word>
+          <word xMin="302.450417" yMin="357.940144" xMax="319.087959" yMax="367.902744">loro</word>
+          <word xMin="322.853822" yMin="357.940144" xMax="390.968118" yMax="367.902744">comportamento</word>
+          <word xMin="394.714055" yMin="357.940144" xMax="410.773767" yMax="367.902744">non</word>
+          <word xMin="414.529667" yMin="357.940144" xMax="443.341506" yMax="367.902744">lineare</word>
+          <word xMin="447.097406" yMin="357.940144" xMax="464.312779" yMax="367.902744">sino</word>
+          <word xMin="468.068679" yMin="357.940144" xMax="483.570485" yMax="367.902744">alla</word>
+          <word xMin="487.336348" yMin="357.940144" xMax="523.311296" yMax="367.902744">capacità</word>
+          <word xMin="527.067196" yMin="357.940144" xMax="555.301205" yMax="367.902744">ultima</word>
+        </line>
+        <line xMin="56.693000" yMin="369.895144" xMax="555.301205" yMax="379.857744">
+          <word xMin="56.693000" yMin="369.895144" xMax="65.001808" yMax="379.857744">in</word>
+          <word xMin="68.239653" yMin="369.895144" xMax="99.821095" yMax="379.857744">termini</word>
+          <word xMin="103.058940" yMin="369.895144" xMax="111.367749" yMax="379.857744">di</word>
+          <word xMin="114.605594" yMin="369.895144" xMax="174.690034" yMax="379.857744">deformazione.</word>
+          <word xMin="179.083541" yMin="369.895144" xMax="190.291466" yMax="379.857744">La</word>
+          <word xMin="193.529311" yMin="369.895144" xMax="224.562810" yMax="379.857744">verifica</word>
+          <word xMin="227.790692" yMin="369.895144" xMax="247.167949" yMax="379.857744">deve</word>
+          <word xMin="250.395832" yMin="369.895144" xMax="287.018349" yMax="379.857744">condursi</word>
+          <word xMin="290.256194" yMin="369.895144" xMax="324.577351" yMax="379.857744">tenendo</word>
+          <word xMin="327.815196" yMin="369.895144" xMax="351.346858" yMax="379.857744">conto</word>
+          <word xMin="354.574740" yMin="369.895144" xMax="367.306943" yMax="379.857744">dei</word>
+          <word xMin="370.554750" yMin="369.895144" xMax="420.407601" yMax="379.857744">meccanismi</word>
+          <word xMin="423.645446" yMin="369.895144" xMax="446.619201" yMax="379.857744">locali</word>
+          <word xMin="449.857046" yMin="369.895144" xMax="454.280441" yMax="379.857744">e</word>
+          <word xMin="457.518286" yMin="369.895144" xMax="486.310200" yMax="379.857744">globali</word>
+          <word xMin="489.548045" yMin="369.895144" xMax="494.529345" yMax="379.857744">a</word>
+          <word xMin="497.767190" yMin="369.895144" xMax="531.580254" yMax="379.857744">seconda</word>
+          <word xMin="534.818099" yMin="369.895144" xMax="555.301205" yMax="379.857744">della</word>
+        </line>
+        <line xMin="56.693000" yMin="381.850144" xMax="555.301205" yMax="391.812744">
+          <word xMin="56.693000" yMin="381.850144" xMax="94.610656" yMax="391.812744">tipologia</word>
+          <word xMin="98.107528" yMin="381.850144" xMax="106.416337" yMax="391.812744">di</word>
+          <word xMin="109.903247" yMin="381.850144" xMax="146.157148" yMax="391.812744">elementi</word>
+          <word xMin="149.634095" yMin="381.850144" xMax="194.595309" yMax="391.812744">strutturali</word>
+          <word xMin="198.092182" yMin="381.850144" xMax="212.209186" yMax="391.812744">che</word>
+          <word xMin="215.686133" yMin="381.850144" xMax="222.381001" yMax="391.812744">si</word>
+          <word xMin="225.867911" yMin="381.850144" xMax="238.649926" yMax="391.812744">sta</word>
+          <word xMin="242.146799" yMin="381.850144" xMax="293.075610" yMax="391.812744">analizzando</word>
+          <word xMin="296.562520" yMin="381.850144" xMax="300.985915" yMax="391.812744">e</word>
+          <word xMin="304.472825" yMin="381.850144" xMax="317.205027" yMax="391.812744">del</word>
+          <word xMin="320.701900" yMin="381.850144" xMax="337.339442" yMax="391.812744">loro</word>
+          <word xMin="340.826352" yMin="381.850144" xMax="381.254583" yMax="391.812744">materiale</word>
+          <word xMin="384.741493" yMin="381.850144" xMax="434.893221" yMax="391.812744">costituente.</word>
+          <word xMin="439.824708" yMin="381.850144" xMax="486.878068" yMax="391.812744">Attenzione</word>
+          <word xMin="490.355015" yMin="381.850144" xMax="509.732272" yMax="391.812744">deve</word>
+          <word xMin="513.219182" yMin="381.850144" xMax="526.788244" yMax="391.812744">poi</word>
+          <word xMin="530.275154" yMin="381.850144" xMax="555.301205" yMax="391.812744">essere</word>
+        </line>
+        <line xMin="56.693000" yMin="393.805144" xMax="555.301205" yMax="403.767744">
+          <word xMin="56.693000" yMin="393.805144" xMax="84.956896" yMax="403.767744">rivolta</word>
+          <word xMin="87.766349" yMin="393.805144" xMax="103.268155" yMax="403.767744">alla</word>
+          <word xMin="106.087571" yMin="393.805144" xMax="137.121070" yMax="403.767744">verifica</word>
+          <word xMin="139.930523" yMin="393.805144" xMax="159.855723" yMax="403.767744">delle</word>
+          <word xMin="162.675139" yMin="393.805144" xMax="211.491879" yMax="403.767744">connessioni</word>
+          <word xMin="214.311295" yMin="393.805144" xMax="227.073385" yMax="403.767744">tra</word>
+          <word xMin="229.892801" yMin="393.805144" xMax="266.146702" yMax="403.767744">elementi</word>
+          <word xMin="268.956156" yMin="393.805144" xMax="277.264964" yMax="403.767744">di</word>
+          <word xMin="280.084380" yMin="393.805144" xMax="310.619749" yMax="403.767744">diverso</word>
+          <word xMin="313.429202" yMin="393.805144" xMax="356.627036" yMax="403.767744">materiale,</word>
+          <word xMin="359.546077" yMin="393.805144" xMax="402.464958" yMax="403.767744">valutando</word>
+          <word xMin="405.264449" yMin="393.805144" xMax="435.999070" yMax="403.767744">l’entità</word>
+          <word xMin="438.808523" yMin="393.805144" xMax="459.291629" yMax="403.767744">della</word>
+          <word xMin="462.111044" yMin="393.805144" xMax="501.971407" yMax="403.767744">domanda</word>
+          <word xMin="504.790823" yMin="393.805144" xMax="518.937715" yMax="403.767744">per</word>
+          <word xMin="521.757131" yMin="393.805144" xMax="529.508033" yMax="403.767744">la</word>
+          <word xMin="532.327449" yMin="393.805144" xMax="555.301205" yMax="403.767744">quale</word>
+        </line>
+        <line xMin="56.693000" yMin="405.760144" xMax="308.238687" yMax="415.722744">
+          <word xMin="56.693000" yMin="405.760144" xMax="61.116394" yMax="415.722744">è</word>
+          <word xMin="64.423978" yMin="405.760144" xMax="97.131193" yMax="415.722744">stimato</word>
+          <word xMin="100.448739" yMin="405.760144" xMax="105.987945" yMax="415.722744">il</word>
+          <word xMin="109.305491" yMin="405.760144" xMax="176.612816" yMax="415.722744">raggiungimento</word>
+          <word xMin="179.920399" yMin="405.760144" xMax="200.403505" yMax="415.722744">dello</word>
+          <word xMin="203.721051" yMin="405.760144" xMax="225.359818" yMax="415.722744">stato</word>
+          <word xMin="228.677364" yMin="405.760144" xMax="253.583864" yMax="415.722744">limite</word>
+          <word xMin="256.901410" yMin="405.760144" xMax="265.210218" yMax="415.722744">di</word>
+          <word xMin="268.527764" yMin="405.760144" xMax="308.238687" yMax="415.722744">interesse.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="303.509000" yMin="757.165144" xMax="308.490300" yMax="767.127744">
+        <line xMin="303.509000" yMin="757.165144" xMax="308.490300" yMax="767.127744">
+          <word xMin="303.509000" yMin="757.165144" xMax="308.490300" yMax="767.127744">1</word>
+        </line>
+      </block>
+    </flow>
+  </page>
+</doc>
+</body>
+</html>
+
+exec
+"<powershell>" -Command 'pdffonts resa-finale.pdf' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 474ms:
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+PKJQNO+LMRoman12-Bold-Identity-H     CID Type 0C       Identity-H       yes yes yes      4  0
+HYCUBK+LMRoman10-Regular-Identity-H  CID Type 0C       Identity-H       yes yes yes      6  0
+GDVWTD+LMRoman10-Bold-Identity-H     CID Type 0C       Identity-H       yes yes yes      8  0
+
+exec
+"<powershell>" -Command 'pdftohtml -xml -stdout resa-finale.pdf' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 546ms:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="24.08.0">
+<page number="1" position="absolute" top="0" left="0" height="1188" width="918">
+	<fontspec id="0" size="22" family="PKJQNO+LMRoman12" color="#000000"/>
+	<fontspec id="1" size="15" family="HYCUBK+LMRoman10" color="#000000"/>
+	<fontspec id="2" size="15" family="GDVWTD+LMRoman10" color="#000000"/>
+<text top="83" left="85" width="325" height="22" font="0"><b>8.7.3. COSTRUZIONI MISTE</b></text>
+<text top="121" left="84" width="687" height="15" font="1">Alcune tipologie di costruzioni esistenti possono essere 
+classificate come miste. Situazioni ricorrenti sono:</text>
+<text top="148" left="103" width="732" height="15" font="1">• costruzioni le cui pareti perimetrali siano in muratura 
+portante e la cui struttura verticale interna sia rappre-</text>
+<text top="166" left="122" width="325" height="15" font="1">sentata da pilastri (per esempio in c.a. o acciaio);</text>
+<text top="192" left="103" width="732" height="15" font="1">• costruzioni in muratura su cui gravino sopraelevazioni 
+aventi sistema strutturale, per esempio, in c.a. o acciaio,</text>
+<text top="210" left="122" width="445" height="15" font="1">o edifici in c.a. o acciaio su cui gravino sopraelevazioni 
+in muratura;</text>
+<text top="237" left="103" width="732" height="15" font="1">• costruzioni in muratura che abbiano subito ampliamenti 
+planimetrici, il cui sistema strutturale (per esempio,</text>
+<text top="255" left="122" width="463" height="15" font="1">in c.a. o acciaio) sia interconnesso con quello 
+preesistente in muratura.</text>
+<text top="282" left="85" width="748" height="15" font="1">Per queste situazioni è necessario prevedere modellazioni 
+che tengano in considerazione le particolarità strutturali</text>
+<text top="300" left="85" width="748" height="15" font="1">identificate e l’interazione tra elementi strutturali 
+diversi per materiale e rigidezza, ricorrendo, ove necessario, a</text>
+<text top="318" left="85" width="342" height="15" font="1">metodi di analisi non lineare di comprovata validità.</text>
+<text top="357" left="85" width="237" height="15" font="2"><b>C8.7.3 COSTRUZIONI MISTE</b></text>
+<text top="384" left="85" width="748" height="15" font="1">L’interpretazione del comportamento delle costruzioni miste 
+e la relativa modellazione è in generale più complicata</text>
+<text top="402" left="85" width="748" height="15" font="1">di quella delle costruzioni con struttura di 
+caratteristiche omogenee, a causa delle interazioni tra elementi strutturali</text>
+<text top="420" left="85" width="748" height="15" font="1">caratterizzati da rigidezze e comportamento meccanico del 
+materiale e strutturale diversi. In campo non lineare il</text>
+<text top="438" left="85" width="748" height="15" font="1">comportamento è spesso complesso e non rappresentabile 
+attraverso modelli e metodi semplificati, a meno che non</text>
+<text top="456" left="85" width="750" height="15" font="1">si possa trascurare il contributo alla capacità resistente 
+sismica di tutti gli elementi di uno dei materiali costituenti,</text>
+<text top="474" left="85" width="748" height="15" font="1">considerandoli come elementi secondari. Tale assunzione è 
+ammissibile solo nel caso il contributo degli elementi</text>
+<text top="492" left="85" width="412" height="15" font="1">considerati secondari, nel caso di azione sismica, sia 
+favorevole.</text>
+<text top="519" left="85" width="748" height="15" font="1">L’analisi statica non lineare può essere eseguita se è 
+disponibile un modello in grado di simulare, per gli elementi</text>
+<text top="537" left="85" width="748" height="15" font="1">strutturali realizzati con i diversi materiali utilizzati, 
+il loro comportamento non lineare sino alla capacità ultima</text>
+<text top="555" left="85" width="748" height="15" font="1">in termini di deformazione. La verifica deve condursi 
+tenendo conto dei meccanismi locali e globali a seconda della</text>
+<text top="573" left="85" width="748" height="15" font="1">tipologia di elementi strutturali che si sta analizzando e 
+del loro materiale costituente. Attenzione deve poi essere</text>
+<text top="591" left="85" width="748" height="15" font="1">rivolta alla verifica delle connessioni tra elementi di 
+diverso materiale, valutando l’entità della domanda per la quale</text>
+<text top="609" left="85" width="377" height="15" font="1">è stimato il raggiungimento dello stato limite di 
+interesse.</text>
+<text top="1136" left="455" width="7" height="15" font="1">1</text>
+</page>
+<outline>
+<item page="1">8.7.3. COSTRUZIONI MISTE</item>
+<outline>
+<item page="1">C8.7.3 COSTRUZIONI MISTE</item>
+</outline>
+</outline>
+</pdf2xml>
+
+codex
+Il confronto completo individua una difformità testuale nell’incipit del capoverso conclusivo NTC; ricontrollo ora il 
+punto sulla fonte e sulla resa prima di emettere il rapporto.
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$bmp=[System.Drawing.Bitmap]::new((Resolve-Path '"'fonte-ntc-298.png').Path); 
+"'$crop=[System.Drawing.Rectangle]::new(229,1835,1198,85); 
+$bounds=[System.Drawing.Rectangle]::Intersect($crop,[System.Drawing.Rectangle]::new(0,0,$bmp.Width,$bmp.Height)); 
+$minX=$bmp.Width;$maxX=-1;$minY=$bmp.Height;$maxY=-1; for($y=$bounds.Top;$y -lt 
+$bounds.Bottom;$y++){for($x=$bounds.Left;$x -lt $bounds.Right;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 100 -and $p.G 
+-lt 100 -and $p.B -lt 100){if($x -lt $minX){$minX=$x};if($x -gt $maxX){$maxX=$x};if($y -lt $minY){$minY=$y};if($y -gt 
+$maxY){$maxY=$y}}}};$bmp.Dispose();'"'fonte-ntc-298.png, capoverso conclusivo: x={0}-{1}, y={2}-{3}; lettura visiva: 
+«Per tale situazione è necessario...»' -f "'$minX,$maxX,$minY,$maxY' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 2676ms:
+fonte-ntc-298.png, capoverso conclusivo: x=230-1426, y=1840-1917; lettura visiva: «Per tale situazione è necessario...»
+
+codex
+{"firma":"CDX, Codex gpt-5.6-terra","esito":"KO","coperti":["NTC-873-RUBRICA","NTC-873-PROSA-ELENCO","NTC-873-CONDIZION
+E","CIRC-C873-RUBRICA","CIRC-C873-CAPOVERSO-1","CIRC-C873-CAPOVERSO-2"],"normalizzazioni":[1,21],"rilievi":[{"id":"NTC-
+873-CONDIZIONE","pagina":"ntc:298","posizione":"Capoverso conclusivo, incipit; fonte x=230–1426, 
+y=1840–1917.","prova":"La fonte stampa «Per tale situazione è necessario...». testo.md e resa-finale.pdf, p. 1, 
+stampano «Per queste situazioni è necessario...».","classe_proposta":"ERR-MD"}],"letture":["fonte-ntc-298.png, 
+controllo integrale della sezione 8.7.3","fonte-circ-289.png, controllo integrale della sezione C8.7.3","testo.md, 
+lettura integrale","resa-finale.pdf, p. 1, estrazione testuale e layout integrali"],"isolamento":"Confronto svolto 
+esclusivamente sui materiali del blocco corrente; nessuna lettura del target prima del via del coordinatore."}
+tokens used
+117.962
+{"firma":"CDX, Codex gpt-5.6-terra","esito":"KO","coperti":["NTC-873-RUBRICA","NTC-873-PROSA-ELENCO","NTC-873-CONDIZIONE","CIRC-C873-RUBRICA","CIRC-C873-CAPOVERSO-1","CIRC-C873-CAPOVERSO-2"],"normalizzazioni":[1,21],"rilievi":[{"id":"NTC-873-CONDIZIONE","pagina":"ntc:298","posizione":"Capoverso conclusivo, incipit; fonte x=230–1426, y=1840–1917.","prova":"La fonte stampa «Per tale situazione è necessario...». testo.md e resa-finale.pdf, p. 1, stampano «Per queste situazioni è necessario...».","classe_proposta":"ERR-MD"}],"letture":["fonte-ntc-298.png, controllo integrale della sezione 8.7.3","fonte-circ-289.png, controllo integrale della sezione C8.7.3","testo.md, lettura integrale","resa-finale.pdf, p. 1, estrazione testuale e layout integrali"],"isolamento":"Confronto svolto esclusivamente sui materiali del blocco corrente; nessuna lettura del target prima del via del coordinatore."}

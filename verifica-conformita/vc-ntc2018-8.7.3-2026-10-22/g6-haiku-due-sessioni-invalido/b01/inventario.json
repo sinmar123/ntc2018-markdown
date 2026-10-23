@@ -1,0 +1,107 @@
+{
+  "firma": "CC, Claude Code claude-haiku-5-5",
+  "esito_provvisorio": "LEGGIBILE",
+  "elementi": [
+    {
+      "id": "ntc298-e01",
+      "pagina": "ntc:298",
+      "riferimento": "Rubrica «8.7.3. COSTRUZIONI MISTE», in grassetto, su riga propria, dopo il capoverso 8.7.2 «Nel caso di demolizioni o interventi su organismi in c.a.». Aperto e visto il PNG fonte-ntc-298.png; letto: «8.7.3. COSTRUZIONI MISTE». Controllo integrale della rubrica."
+    },
+    {
+      "id": "ntc298-e02",
+      "pagina": "ntc:298",
+      "riferimento": "Capoverso introduttivo, dopo la rubrica, prima dell'elenco. Aperto e visto il PNG fonte-ntc-298.png; letto: «Alcune tipologie di costruzioni esistenti possono essere classificate come miste. Situazioni ricorrenti sono:». Controllo integrale del capoverso."
+    },
+    {
+      "id": "ntc298-e03",
+      "pagina": "ntc:298",
+      "riferimento": "Voce 1 dell'elenco, marcatore trattino «–», due righe. Aperto e visto il PNG fonte-ntc-298.png; letto: «costruzioni le cui pareti perimetrali siano in muratura portante e la cui struttura verticale interna sia rappresentata da pilastri (per esempio in c.a. o acciaio);». Controllo integrale della voce."
+    },
+    {
+      "id": "ntc298-e04",
+      "pagina": "ntc:298",
+      "riferimento": "Voce 2 dell'elenco, marcatore trattino «–», due righe. Aperto e visto il PNG fonte-ntc-298.png; letto: «costruzioni in muratura su cui gravino sopraelevazioni aventi sistema strutturale, per esempio, in c.a. o acciaio, o edifici in c.a. o acciaio su cui gravino sopraelevazioni in muratura;». Controllo integrale della voce."
+    },
+    {
+      "id": "ntc298-e05",
+      "pagina": "ntc:298",
+      "riferimento": "Voce 3 dell'elenco, marcatore trattino «–», due righe. Aperto e visto il PNG fonte-ntc-298.png; letto: «costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui sistema strutturale (per esempio, in c.a. o acciaio) sia interconnesso con quello preesistente in muratura.». Controllo integrale della voce."
+    },
+    {
+      "id": "ntc298-e06",
+      "pagina": "ntc:298",
+      "riferimento": "Capoverso finale della pagina, dopo l'elenco, tre righe. Aperto e visto il PNG fonte-ntc-298.png; letto: «Per queste situazioni è necessario prevedere modellazioni che tengano in considerazione le particolarità strutturali identificate». Controllo integrale del capoverso."
+    },
+    {
+      "id": "circ289-e01",
+      "pagina": "circ:289",
+      "riferimento": "Rubrica «C8.7.3 COSTRUZIONI MISTE», in grassetto, su riga propria, dopo il capoverso C8.7.2.4.6 «Si applica quanto prescritto per gli edifici di nuova costruzione». Aperto e visto il PNG fonte-circ-289.png; letto: «C8.7.3 COSTRUZIONI MISTE». Controllo integrale della rubrica."
+    },
+    {
+      "id": "circ289-e02",
+      "pagina": "circ:289",
+      "riferimento": "Primo capoverso della sezione C8.7.3, sei righe. Aperto e visto il PNG fonte-circ-289.png; letto: «L'interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata di quella delle costruzioni con struttura di caratteristiche omogenee». Controllo integrale del capoverso."
+    },
+    {
+      "id": "circ289-e03",
+      "pagina": "circ:289",
+      "riferimento": "Secondo capoverso della sezione C8.7.3, quattro righe, fino a fine pagina prima di C8.7.4. Aperto e visto il PNG fonte-circ-289.png; letto: «L'analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi strutturali realizzati con i diversi materiali utilizzati». Controllo integrale del capoverso."
+    }
+  ],
+  "esclusioni": [
+    {
+      "id": "ntc298-x01",
+      "pagina": "ntc:298",
+      "riferimento": "Tutto il testo della pagina prima della rubrica 8.7.3: capoversi iniziali sulla muratura irregolare e sugli aggregati, e intera sezione 8.7.2 «COSTRUZIONI IN CALCESTRUZZO ARMATO O IN ACCIAIO». Escluso dal perimetro, che lascia fuori quanto precede 8.7.3. Aperto e visto il PNG fonte-ntc-298.png; letto in apertura: «Nel caso di muratura irregolare, la resistenza a taglio di progetto»."
+    },
+    {
+      "id": "ntc298-x02",
+      "pagina": "ntc:298",
+      "riferimento": "Testatina in alto: «20-2-2018 Supplemento ordinario n. 8 alla GAZZETTA UFFICIALE Serie generale - n. 42». Apparato di pagina, non testo normativo; esclusione proposta, da confermare. Aperto e visto il PNG fonte-ntc-298.png."
+    },
+    {
+      "id": "ntc298-x03",
+      "pagina": "ntc:298",
+      "riferimento": "Numero di pagina stampato «— 294 —» in basso a sinistra del blocco finale. Apparato di pagina; esclusione proposta. Aperto e visto il PNG fonte-ntc-298.png."
+    },
+    {
+      "id": "ntc298-x04",
+      "pagina": "ntc:298",
+      "riferimento": "Quattro blocchi grafici a trama casuale in basso a destra, accanto al numero di pagina. Non contengono testo leggibile; esclusione proposta, da confermare. Aperto e visto il PNG fonte-ntc-298.png."
+    },
+    {
+      "id": "circ289-x01",
+      "pagina": "circ:289",
+      "riferimento": "Testo della pagina prima della rubrica C8.7.3: capoverso iniziale «di comprovata validità. È possibile riferirsi all'Annex B», rubriche C8.7.2.4.3, C8.7.2.4.4, C8.7.2.4.5, C8.7.2.4.6, formula [C8.7.2.13] con legenda «dove:». Escluso dal perimetro, che lascia fuori quanto precede C8.7.3. Aperto e visto il PNG fonte-circ-289.png; letto in apertura: «di comprovata validità. È possibile riferirsi all'Annex B»."
+    },
+    {
+      "id": "circ289-x02",
+      "pagina": "circ:289",
+      "riferimento": "Testatina in alto: «11-2-2019 Supplemento ordinario n. 5 alla GAZZETTA UFFICIALE Serie generale - n. 35». Apparato di pagina; esclusione proposta, da confermare. Aperto e visto il PNG fonte-circ-289.png."
+    },
+    {
+      "id": "circ289-x03",
+      "pagina": "circ:289",
+      "riferimento": "Numero di pagina stampato «— 285 —» in basso a sinistra del blocco finale. Apparato di pagina; esclusione proposta. Aperto e visto il PNG fonte-circ-289.png."
+    },
+    {
+      "id": "circ289-x04",
+      "pagina": "circ:289",
+      "riferimento": "Quattro blocchi grafici a trama casuale in basso a destra. Non contengono testo leggibile; esclusione proposta, da confermare. Aperto e visto il PNG fonte-circ-289.png."
+    },
+    {
+      "id": "circ289-x05",
+      "pagina": "circ:289",
+      "riferimento": "Rubrica C8.7.4 «CRITERI E TIPI DI INTERVENTO» e i due capoversi che seguono («Il § 8.7.4 delle NTC descrive...» e «Nel caso in cui nell'intervento si faccia uso di materiali compositi...»). Escluso dal perimetro, che esclude quanto segue da C8.7.4. Aperto e visto il PNG fonte-circ-289.png; letto: «C8.7.4 CRITERI E TIPI DI INTERVENTO»."
+    }
+  ],
+  "dubbi": [
+    "Mancata corrispondenza fra chiavi di input e numeri stampati: la chiave ntc:298 corrisponde al numero «294» stampato; la chiave circ:289 corrisponde al numero «285» stampato. Ho usato le chiavi come fornite; il coordinatore deve confermare se si tratta di pagina fisica del PDF e non di numero di pagina a stampa.",
+    "Elenco NTC: i marcatori sono trattini «–». Applico la normalizzazione 21 (elenco puntato Markdown, voci invariate e nell'ordine di fonte).",
+    "Rubriche: in NTC «8.7.3.» ha punto e testo in maiuscolo; in Circolare «C8.7.3» non ha punto e il testo appare in maiuscoletto. Il maiuscoletto va reso in maiuscolo (normalizzazione 23) solo se confermato in fase 2 con ritaglio a 600 dpi.",
+    "Apostrofi curvi («’») nel testo della Circolare: rientrano nella normalizzazione 2.",
+    "Nel perimetro incluso non compaiono formule, tabelle, figure, note a piè di pagina né riferimenti interni. Le formule della Circolare (C8.7.2.13) stanno nella parte esclusa.",
+    "Esito LEGGIBILE riferito alla lettura visiva dei PNG forniti. Nessun glifo, apice o cifra è stato deciso in questa fase: se servono, la prova a 600 dpi è rinviata alla fase 2.",
+    "Da confermare: esclusione proposta di testatine, numeri di pagina e blocchi grafici a trama casuale. Non paiono contenuto normativo, ma il canone non li elenca esplicitamente."
+  ]
+}

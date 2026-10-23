@@ -1,0 +1,67 @@
+{
+  "firma": "CDX, Codex gpt-6.1-sol, verificatore critico indipendente G7",
+  "data": "2026-10-22",
+  "giudizio_g7": "KO",
+  "scope": "8.7.3",
+  "snapshot_sha256": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+  "manifest_sha256": "7f1bc9eb9e4cc3bfaeb58437df98a039d02620c998903bc80fb7dc5cacbd5146",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_aperti": [
+    {
+      "id": "G7-AUDIT-04",
+      "classe": "ERR-AUDIT",
+      "prova": "G7-tentativo-2-esecuzione.json, incluso nel manifest, cita come fonte dell'esecuzione il log con SHA-256 7535ab288c36129e47c79527ff43aba065d93a694e4608d3960cdd85ffa1c309, dichiarato fuori dal repository. Questa impronta non compare nelle 72 voci del manifest. Il § 9 richiede l'inclusione anche delle evidenze citate da altre evidenze del manifest: manca quindi il log citato dalla nuova attestazione."
+    },
+    {
+      "id": "G7-AUDIT-05",
+      "classe": "ERR-AUDIT",
+      "prova": "Le quattro copie ripulite conservano percorsi assoluti effettivi dell'eseguibile PowerShell nella directory Windows di sistema: log-g6/g6-tentativo-1-annullato-fase1-log.txt, riga 27; log-g6/g6-tentativo-1-annullato-fase2-log.txt, riga 30; log-g6/g6-tentativo-2-fase1-log.txt, riga 29; log-g6/g6-tentativo-2-fase2-log.txt, riga 28. La consegna vieta percorsi assoluti della macchina nei file del dossier; la ripulitura è incompleta."
+    }
+  ],
+  "motivazione": "G7-AUDIT-01, G7-AUDIT-02 e G7-AUDIT-03 risultano risolti: copie, indice, rettifica e manifest concordano su impronte, modelli, sandbox, sessioni e token. Le 31 impronte del riepilogo coincidono con i file consegnati; manifest e verbale concordano con il piano. Target, inventario, rapporto e decisione sul rilievo G6 sono invariati nei tre manifest. Copertura dei 6 ID, annullamento autorizzato del primo tentativo, contatore 1 su 3 e chiusura dell'unico rilievo G6 risultano riconciliati. I due residui documentali impediscono G7 OK e la registrazione VC-OK.",
+  "letture": [
+    "<workspace>/AGENTS.md",
+    "CONSEGNA-G7.md",
+    "procedura-congelata-r10.md",
+    "catalogo-congelato.md",
+    "verbale.md",
+    "scheda.md",
+    "chiusura.json",
+    "manifest-rilascio.json",
+    "riepilogo-meccanico.json",
+    "G7-tentativo-1-KO.json",
+    "G7-tentativo-2-KO.json",
+    "G7-tentativo-2-esecuzione.json",
+    "manifest-rilascio-g7-tentativo-1.json",
+    "manifest-rilascio-g7-tentativo-2.json",
+    "rettifica-g7-audit-01-20261022.json",
+    "log-g6/indice.json",
+    "log-g6/g6-tentativo-1-annullato-fase1-log.txt (impronta, metadati e ricerca dei percorsi)",
+    "log-g6/g6-tentativo-1-annullato-fase2-log.txt (impronta, metadati e ricerca dei percorsi)",
+    "log-g6/g6-tentativo-2-fase1-log.txt (impronta, metadati e ricerca dei percorsi)",
+    "log-g6/g6-tentativo-2-fase2-log.txt (impronta, metadati e ricerca dei percorsi)",
+    "ricontrollo-g1-20261022.json",
+    "decisione-applicazione-20261022.json",
+    "mappa-g5.json",
+    "decisione-g6-20261022.json",
+    "sequenza-g6-tentativo-1-annullato.json",
+    "esito-g6-tentativo-1-annullato.json",
+    "sequenza-g6.json",
+    "esito-g6.json",
+    "inventario-g6-b01.json",
+    "rapporto-g6-b01.json",
+    "decisione-g6-rilievo-20261022.json",
+    "prova-NTC-873-CONDIZIONE.json",
+    "ntc298-per-queste-600dpi.png (sola impronta)"
+  ],
+  "limiti": "Controllo documentale senza rilettura normativa, ripetizione del G6, accesso a internet o scritture; per gli originali non consegnati, comprese le impronte dei log UTF-16, sono utilizzate le attestazioni conservate. È stato letto preliminarmente anche <workspace>/AGENTS.md per l'istruzione iniziale, fuori dal perimetro richiesto; tutti gli accessi successivi sono rimasti nella cartella consegnata."
+}

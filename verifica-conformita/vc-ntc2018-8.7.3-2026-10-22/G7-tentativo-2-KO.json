@@ -1,0 +1,54 @@
+{
+  "firma": "CDX, Codex gpt-6.1-sol, verificatore critico indipendente G7",
+  "data": "2026-10-22",
+  "giudizio_g7": "KO",
+  "scope": "8.7.3",
+  "snapshot_sha256": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+  "manifest_sha256": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
+  "gate": {
+    "G0": "OK",
+    "G1": "OK",
+    "G2": "OK",
+    "G3": "OK",
+    "G4": "OK",
+    "G5": "OK",
+    "G6": "OK",
+    "G7": "KO"
+  },
+  "rilievi_aperti": [
+    {
+      "id": "G7-AUDIT-03",
+      "classe": "ERR-AUDIT",
+      "prova": "rettifica-g7-audit-01-20261022.json, fonte_dei_valori, identifica quattro log come fonti dei modelli e dei token rettificati, riportandone sessioni e log_sha256. Nessuno dei quattro hash compare nelle 64 voci di manifest-rilascio.json. In particolare mancano i log del tentativo 2: fase1 12e59ef5a28b5ddbd40a774c034a3d32651296381f3514a719d46bc9fe008120 e fase2 3622ab0f6050792978555483aacb8420acd36ed7c340f58992761d8c42279b33. Il § 9 prescrive che anche un'evidenza citata da un'altra evidenza del manifest sia inclusa nel manifest: la rettifica è inclusa, le sue fonti documentali no. La catena delle evidenze resta quindi incompleta."
+    }
+  ],
+  "motivazione": "Le rettifiche risolvono la discordanza testuale sui modelli e aggiungono gli URL puntuali richiesti dal primo G7. Il confronto dei manifest conferma che target, inventario e rapporto G6 sono invariati; copertura dei 6 ID, annullamento del primo tentativo, contatore 1 su 3 e chiusura dell'unico rilievo G6 risultano riconciliati. Le 23 impronte del riepilogo coincidono con i file consegnati; manifest e verbale concordano con il piano. G7 resta KO perché i log utilizzati come prova della rettifica non sono inclusi nel manifest. Occorre completare questa evidenza documentale, senza ripetere il confronto normativo G6.",
+  "letture": [
+    "<workspace>/AGENTS.md",
+    "CONSEGNA-G7.md",
+    "procedura-congelata-r10.md",
+    "catalogo-congelato.md",
+    "verbale.md",
+    "scheda.md",
+    "chiusura.json",
+    "manifest-rilascio.json",
+    "riepilogo-meccanico.json",
+    "G7-tentativo-1-KO.json",
+    "rettifica-g7-audit-01-20261022.json",
+    "manifest-rilascio-g7-tentativo-1.json",
+    "ricontrollo-g1-20261022.json",
+    "decisione-applicazione-20261022.json",
+    "mappa-g5.json",
+    "decisione-g6-20261022.json",
+    "sequenza-g6-tentativo-1-annullato.json",
+    "esito-g6-tentativo-1-annullato.json",
+    "sequenza-g6.json",
+    "esito-g6.json",
+    "inventario-g6-b01.json",
+    "rapporto-g6-b01.json",
+    "decisione-g6-rilievo-20261022.json",
+    "prova-NTC-873-CONDIZIONE.json",
+    "ntc298-per-queste-600dpi.png (sola impronta)"
+  ],
+  "limiti": "Controllo documentale senza rilettura della fonte normativa, ripetizione del G6, consultazione di internet o scrittura di file; per gli originali non consegnati è utilizzato l'esito conservato di verifica-manifest. È stato letto preliminarmente anche <workspace>/AGENTS.md, fuori dalla cartella, per l'istruzione iniziale; dopo la lettura della consegna gli accessi sono rimasti nella cartella."
+}

@@ -1,0 +1,546 @@
+node.exe : Reading additional input from stdin...
+In <npm>\codex.ps1:22 car:14
++ ...    $input | & "node$exe"  "$basedir/node_modules/@openai/codex/bin/co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Reading additional input from stdin...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+OpenAI Codex v0.163.0
+--------
+workdir: <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+model: gpt-5.6-terra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a16228-9cad-7d51-82f1-ed2b08ad47f6
+--------
+user
+Sei il verificatore V (firma: CDX, Codex gpt-5.6-terra) del G6 integrale. Leggi ISTRUZIONI-V.md, PERIMETRO.md, 
+canone.md e input-fonte.json in questa cartella ed esegui SOLO la fase 1 FONTE-PRIMA. Se indichi coordinate in pixel, 
+misurale sulle immagini fonte-*.png di questa cartella (dimensioni native) e ricontrollale. La sandbox è in sola 
+lettura: non scrivere file; il tuo messaggio finale deve essere SOLO il JSON di inventario.json (il coordinatore lo 
+trascrive byte per byte). Non leggere nulla fuori da questa cartella. Fermati dopo l'inventario.
+codex
+Leggo esclusivamente i quattro file indicati nella cartella corrente e, se necessario, le immagini `fonte-*.png` per 
+le coordinate. Eseguirò soltanto FONTE-PRIMA e restituirò il JSON richiesto.
+exec
+"<powershell>" -Command 'Get-ChildItem -Force | Select-Object 
+Name,Length,LastWriteTime | Format-Table -AutoSize' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 897ms:
+
+Name               Length LastWriteTime      
+----               ------ -------------      
+canone.md           11370 22/10/2026 07:49:45
+fonte-circ-289.png 550044 22/10/2026 07:49:47
+fonte-ntc-298.png  662464 22/10/2026 07:49:46
+input-fonte.json      862 22/10/2026 07:49:47
+ISTRUZIONI-V.md      2486 22/10/2026 07:49:45
+PERIMETRO.md          267 22/10/2026 07:49:45
+
+
+
+exec
+"<powershell>" -Command 'Get-Content -Raw ISTRUZIONI-V.md; 
+Get-Content -Raw PERIMETRO.md; Get-Content -Raw canone.md; Get-Content -Raw input-fonte.json' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 653ms:
+# Consegna al verificatore
+
+Leggere solo questa cartella e le integrazioni fonte espressamente consegnate.
+Non aprire coordinamento.json, workspace o altri rapporti. Isolamento istruttivo,
+salvo sandbox effettivamente documentata. Il canone.md contiene tutti i criteri.
+
+Nella cartella del blocco scrivere soltanto inventario.json e, dopo il via,
+rapporto-g6.json. Ritagli, appunti, script e versioni precedenti dell'inventario
+vanno nella cartella di lavoro indicata dal coordinatore, fuori dal blocco:
+un file estraneo nel blocco ferma la rivelazione.
+
+1. FONTE-PRIMA: osservare integralmente le pagine del PERIMETRO.md e i dettagli
+necessari. Scrivere inventario.json con firma effettiva, esito_provvisorio
+(LEGGIBILE o DUBBIO), elementi ed esclusioni. Ogni elemento richiede id univoco,
+pagina (una chiave di input-fonte.json) e riferimento preciso; ogni esclusione
+richiede pagina e riferimento. Non copiare la prosa o tutte le celle:
+localizzare capoversi e rettangoli di celle, dichiarando estensione e controllo
+integrale. Registrare separatamente formule, condizioni, figure e dubbi.
+Schema dei campi: {"firma":"identitÃ  effettiva", "esito_provvisorio":"LEGGIBILE",
+"elementi":[{"id":"ID scelto da V", "pagina":"chiave fonte", "riferimento":"posizione"}],
+"esclusioni":[], "dubbi":[]}.
+Il coordinatore valida lo schema prima del congelamento; eventuali difetti
+di forma si correggono nello stesso contesto prima di ogni rivelazione.
+Fermarsi dopo l'inventario: nessun accesso al target prima del via del coordinatore.
+
+2. CONFRONTO: dopo il congelamento e il via leggere tutto testo.md e gli asset
+rivelati. Scrivere rapporto-g6.json: firma, esito (OK o KO), coperti (tutti gli
+id verificati), normalizzazioni (numeri del catalogo), rilievi, letture (percorsi),
+isolamento. Ogni rilievo specifica id, pagina/posizione, prova e classe proposta.
+Con zero rilievi bastano gli ID coperti e l'attestazione di confronto integrale,
+senza ricopiare inventario e motivazione OK per ciascuna cella. Un gruppo coperto
+significa controllo di TUTTI i suoi componenti, mai campionamento.
+Niente correzioni degli input. Richiedere prove ulteriori con domanda aperta.
+Fermarsi dopo G6; G7 arriverÃ  nello stesso contesto quando le evidenze sono pronte.
+
+Prosa ordinaria entro 300 parole per fase, oltre a ID e rilievi necessari.
+Il limite non tronca copertura, dubbi o prove: motivare l'eventuale superamento
+nel rapporto stesso. Non riscrivere hash calcolabili o creare rapporti aggiuntivi.
+
+# Perimetro 8.7.3 / b01
+
+NTC: dalla rubrica 8.7.3 a prima della rubrica 8.7.4; sulla pagina 298 Ã¨ escluso quanto precede 8.7.3. Circolare: 
+dalla rubrica C8.7.3 a prima della rubrica C8.7.4; sulla pagina 289 Ã¨ escluso quanto precede C8.7.3 e quanto segue da 
+C8.7.4.
+
+## 3. FedeltÃ  e classificazione
+
+La pagina ufficiale Ã¨ la fonte. OCR e testo estratto sono ausili, non prove finali. Il controllo riguarda il testo 
+stampato, anche quando appare tecnicamente strano; l'equivalenza algebrica non dimostra fedeltÃ editoriale.
+
+- **N / NORM:** soltanto le trasformazioni elencate nel catalogo delle normalizzazioni consegnato. Nessuna estensione 
+per analogia. Una differenza non prevista si conserva o viene esaminata secondo A/C.
+- **A / AF:** anomalia della fonte conservata letteralmente. Tag anomali, numerazioni ripetute, rinvii irregolari, 
+refusi di contenuto e letture alternative entrambe sensate restano conservati. I tag anomali si rendono con 
+`\tag*{...}`; soltanto gli spazi interni sono normalizzabili. Una questione che richiede conoscenza esterna all'atto 
+resta un rilievo da sottoporre a Sandro.
+- **C / AF-COR:** refuso esclusivamente tipografico o di codifica, correggibile soltanto se la lettura corretta Ã¨ 
+attestata nello stesso atto, con pagina fisica puntuale. Una precedente trascrizione corretta non Ã¨ un'attestazione; 
+decreto e Circolare non si correggono reciprocamente. La correzione non cambia valore nÃ© grandezza e non tocca cifre, 
+coefficienti, esponenti, apici/primi, operatori, segni, disuguaglianze o unitÃ. Richiede la prova del Â§ 4 e una nota 
+visibile subito dopo l'apparato: `*Nota di trascrizione AF-COR-<id>: la fonte, p. fisica <pagina>, stampa <lettura>; 
+refuso tipografico per <lettura attestata>, attestata a p. fisica <pagina>.*` Le note pregresse con diversa 
+punteggiatura restano valide. Nota sul posto, annotazione permanente e verbale devono concordare. Senza tutte le 
+condizioni, conservare e aprire il rilievo.
+- **ERR-MD:** omissione, aggiunta o difformitÃ  della trascrizione rispetto alla fonte e alle trasformazioni ammesse.
+- **ERR-AUDIT:** errore del pacchetto, della mappatura o delle evidenze; non Ã¨ automaticamente un errore del corpus.
+- **DUBBIO:** lettura non risolta. Non equivale a `OK`.
+
+Non aggiungere parole, intestazioni di tabella, estremi di sommatoria o notazioni assenti dalla fonte. Le spiegazioni 
+editoriali stanno nelle annotazioni, separate dal testo normativo. Apparati di navigazione e indici interni si 
+escludono meccanicamente dal confronto; le note AF-COR restano visibili e se ne controlla la legittimitÃ. Una nota o 
+normalizzazione legittima non Ã¨ un errore.
+
+## 4. Apparati, prove e non regressione
+
+Verificare il 100% di prosa, rubriche, note, rinvii, formule numerate e non numerate, inline sostanziali, 
+definizioni/condizioni, celle logiche, figure e didascalie. Il conteggio aiuta a dimostrare copertura, ma da solo non 
+dimostra conformitÃ.
+
+Per prosa, rubriche e note controllare anche la struttura: divisione in capoversi, appartenenza alle voci di elenco, 
+rubriche e sottotitoli su riga propria, grassetto, corsivo e grassetto corsivo, apici dei richiami. Si conservano come 
+nella fonte, salvo le voci del catalogo; le parole giuste in un capoverso sbagliato sono un rilievo. Le rubriche si 
+scrivono come stampate: numero con o senza punto come nella fonte, testo in maiuscolo dove la fonte usa maiuscolo o 
+maiuscoletto. Le note a piÃ¨ di pagina della fonte si scrivono come nota Markdown `[^n]`, con il numero, il testo e 
+l'enfasi della fonte e senza la parola Â«NotaÂ» (voce 25 del catalogo, dalla revisione 10).
+
+Per le tabelle controllare ordine, intestazioni gerarchiche, etichette, ogni valore, segno, decimale, unitÃ, nota e 
+accorpamento. Distinguere vuoto, trattino e non applicabile. Applicare alle celle accorpate esclusivamente la 
+convenzione del catalogo; non inventare una colonna `Categoria`. Proteggere le barre matematiche nella sintassi 
+Markdown e controllare le tabelle multipagina.
+
+Per le formule controllare entrambi i membri, struttura di frazioni/radici, parentesi, indici e gerarchie di pedice, 
+apici/primi, accenti, greche, operatori, segni, limiti, casi, numeri, unitÃ, tag, definizioni e condizioni. Servono 
+sia il confronto strutturale sia la verifica visiva della resa effettiva. Le immagini devono corrispondere alla figura 
+fonte completa e leggibile, con ritaglio pulito e didascalia verificata.
+
+Prima di scegliere la prova, accertare se l'area Ã¨ testo vettoriale, raster incorporato o una combinazione dei due. 
+Ogni decisione su un glifo, apice, pedice, parentesi, cifra o accento richiede un ritaglio dalla pagina fisica a **600 
+dpi o piÃ¹**. In caso di ambiguitÃ leggere anche font, corpo, codepoint e posizione vettoriale del PDF. Se codifica e 
+immagine discordano, prevale la pagina stampata e si registra la discordanza. Conservare pagina, dpi, percorso, metodo 
+ed esito della prova.
+
+Per un elemento esclusivamente raster, la prova di dettaglio Ã¨ l'immagine incorporata alla risoluzione nativa, 
+estratta senza ricampionamento: il ritaglio di pagina a 600 dpi serve anche a localizzarla, ma interpolare non crea 
+informazione. Registrare dimensioni e risoluzione native, impronta del raster e non applicabilitÃ dei codepoint. 
+Estrarre tutti gli eventuali frammenti, conservandone disposizione e copertura; verificare anche la didascalia se su 
+una pagina diversa. Nelle aree miste controllare separatamente le componenti raster e vettoriali. Non chiedere una 
+risoluzione nativa o una codifica inesistenti, nÃ© scambiare un raster parziale per l'intero apparato.
+
+Per ribaltare un'adjudicazione precedente servono insieme: ritaglio ad almeno 600 dpi, codifica/posizione vettoriale e 
+un secondo verificatore in contesto separato. Il secondo riceve solo la fonte e una domanda aperta su ciÃ² che stampa, 
+senza letture concorrenti nÃ© risposta attesa. PuÃ² usare lo stesso modello; un altro modello o fornitore Ã¨ 
+facoltativo. Se le prove concordano, si procede senza una conferma ulteriore; se resta discordanza, non modificare e 
+chiedere a Sandro.
+
+Se il glifo contestato esiste soltanto nel raster, alla codifica/posizione vettoriale si sostituiscono l'originale 
+nativo identificato e la non applicabilitÃ documentata dei codepoint; il secondo verificatore e la concordanza delle 
+prove restano obbligatori. Se il dettaglio nativo non consente una lettura univoca, resta `DUBBIO` e si chiede a 
+Sandro, senza ricostruire ciÃ² che la fonte non permette di leggere.
+
+## Catalogo delle normalizzazioni, estratto neutro
+
+1. Spaziature, a capo dentro un capoverso, rientri, spazi doppi della fonte. Non copre l'unione o la divisione dei 
+capoversi, che si conserva come nella fonte.
+
+2. Varianti Unicode dello stesso carattere; apostrofi e virgolette dritte o curve; `Ï•` e `Ï†`; hyphen-minus e `âˆ’` 
+U+2212.
+
+3. Spaziatura LaTeX, `\left`/`\right`, parentesi ridondanti che non cambiano la struttura, sostituzione di `[ ]` con 
+`( )` come delimitatore esterno.
+
+4. Virgola decimale italiana resa `0{,}85` in LaTeX. **Attenzione**: copre la *resa* di una virgola che la fonte 
+stampa, non la *sostituzione* di un punto che la fonte stampa.
+
+5. `\cdot` **aggiunto** dove la fonte moltiplica per giustapposizione. Mai tolto dove la fonte lo stampa.
+
+6. Espansione delle celle accorpate: nelle **testate** l'etichetta che copre piÃ¹ colonne si scrive una volta sola e 
+le celle coperte restano vuote; nel **corpo** sia i valori sia le etichette di riga si ripetono in tutte le celle 
+logiche coperte.
+
+7. Resa in tabella di valori che la fonte espone come testo corrente, **a intestazioni vuote** e senza aggiungere 
+parole.
+
+8. Spazi interni ai tag di formula.
+
+9. Punteggiatura finale delle didascalie di tabella e figura, che la fonte chiude col punto fermo e il corpus omette.
+
+10. Separatore fra numero e testo della didascalia: `-`, `â€“` e `â€”` sono equivalenti e non producono rilievi di 
+conformitÃ. Quando la fonte usa `:`, il corpus puÃ² conservarlo oppure renderlo con uno dei tre trattini.
+
+11. Riga di navigazione in testa a ogni file e apparato di navigazione (wikilink `[[â€¦]]`, Ãncore `^nome`, marcatori 
+di nota): non sono testo della fonte e vanno tolti meccanicamente dai pacchetti dei blocchi ciechi del G6.
+
+12. Resa dei viewer che non usano il template di render: i tag di formula vi appaiono fra tonde invece che fra quadre. 
+Nel PDF prodotto da `strumenti/render-capitolo.py` le quadre sono corrette.
+
+13. **Pedici e basi che la fonte compone a corpo pieno.** La fonte stampa `log10(A)` col `10` grande quanto le altre 
+cifre e `Re` con la `e` grande; il corpus scrive `\log_{10}` e `R_e`.
+
+14. **Tabelle senza riga di testata.** Diverse griglie della Circolare partono direttamente con i dati; la sintassi 
+delle tabelle Markdown pretende una riga di titolo, e la prima riga di dati finisce in quella posizione. Nessuna 
+parola aggiunta nÃ© persa.
+
+15. **Righe a piena larghezza interne alla griglia.** Quando la fonte chiude una tabella con una riga a piena 
+larghezza senza contrassegno, il corpus la rende come capoverso subito dopo la tabella, nello stesso ordine di lettura.
+
+16. **Formule a piÃ¹ rami.** La fonte le numera una volta sola, col tag centrato sul blocco; il corpus rende ogni ramo 
+come formula esposta distinta e mette il tag su uno solo. Ne conseguono formule esposte non numerate che nella fonte 
+non esistono come tali.
+
+17. **Formule con graffa rese come elenco.** Quando la fonte espone due o piÃ¹ valori alternativi con una graffa, il 
+corpus li rende come voci di elenco puntato.
+
+18. **Blocchi Â«dove:Â».** La fonte li compone come capoverso unico o come righe rientrate senza marcatore; il corpus 
+li rende come elenco puntato, senza spezzare nÃ© riordinare il testo.
+
+19. **Sottolineature della fonte.** Non si riproducono: il Markdown non ha una sottolineatura propria. Le 
+sottolineature giÃ rese come `[testo]{.underline}` in scope chiusi restano valide.
+
+20. **Simboli in grassetto nel testo.** Grandezze e simboli che la fonte stampa in grassetto nella prosa si scrivono 
+come simboli matematici ordinari, senza grassetto.
+
+21. **Marcatori di elenco.** Trattino, lineetta, punto o altro segno che apre le voci di un elenco si rendono come 
+elenco puntato Markdown, senza cambiare nÃ© riordinare le voci.
+
+22. **Stile accidentale accanto a un'etichetta.** Quando lo stile di un'etichetta in enfasi si estende per errore al 
+carattere successivo (spazio, segno o prima lettera della parola seguente), quel carattere si rende nello stile del 
+testo corrente.
+
+23. **Maiuscoletto.** Il maiuscoletto della fonte, per esempio nelle rubriche della Circolare, si rende con lettere 
+maiuscole.
+
+24. **Trattino ripetuto in una cella vuota.** In una cella di tabella senza valore, il trattino che la fonte ripete su 
+ogni riga di testo della cella si rende con un solo trattino.
+
+25. **Note a piÃ¨ di pagina.** Il richiamo di nota che la fonte stampa in apice nel testo corrente si scrive come nota 
+a piÃ¨ di pagina Markdown `[^n]`, con lo stesso numero della fonte; il testo della nota si scrive come definizione 
+`[^n]: â€¦` subito dopo il capoverso che contiene il richiamo, senza la parola Â«NotaÂ» e senza altre parole, con le 
+enfasi della fonte. Nel PDF prodotto da `strumenti/render-capitolo.py` il richiamo esce in apice con il numero della 
+fonte e la nota a piÃ¨ di pagina; i viewer che rinumerano le note in ordine di comparsa, per esempio GitHub, possono 
+mostrare un numero diverso, ma l'etichetta nel Markdown resta quella della fonte. Non riguarda i richiami nelle 
+testate di tabella, che seguono il Â§ 2 della procedura, nÃ© i rinvii alle annotazioni redazionali.
+
+{
+  "versione": 2,
+  "schema_inventario": 2,
+  "pagine": [
+    "ntc:298",
+    "circ:289"
+  ],
+  "files": [
+    {
+      "path": "ISTRUZIONI-V.md",
+      "bytes": 2486,
+      "sha256": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e"
+    },
+    {
+      "path": "PERIMETRO.md",
+      "bytes": 267,
+      "sha256": "9a1581903c98f7491693e6f20cf919f62ce0fc1d89fc2a8fe841b89af5965175"
+    },
+    {
+      "path": "canone.md",
+      "bytes": 11370,
+      "sha256": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418"
+    },
+    {
+      "path": "fonte-circ-289.png",
+      "bytes": 550044,
+      "sha256": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256"
+    },
+    {
+      "path": "fonte-ntc-298.png",
+      "bytes": 662464,
+      "sha256": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1"
+    }
+  ]
+}
+
+
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+Get-ChildItem fonte-*.png | ForEach-Object { $i=[System.Drawing.Image]::FromFile($_.FullName); [PSCustomObject]@{Name=$
+_.Name;Width=$i.Width;Height=$i.Height;HorizontalResolution=$i.HorizontalResolution;VerticalResolution=$i.VerticalResol
+ution}; $i.Dispose() } | Format-Table -AutoSize' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 1808ms:
+
+Name               Width Height HorizontalResolution VerticalResolution
+----               ----- ------ -------------------- ------------------
+fonte-circ-289.png  1653   2339             199,9996           199,9996
+fonte-ntc-298.png   1653   2339             199,9996           199,9996
+
+
+
+exec
+"<powershell>" -Command 'tesseract fonte-ntc-298.png stdout -l 
+ita+eng --psm 6 tsv 2>$null | Select-String -Pattern '"'8.7.3|COSTRUZIONI|Alcune|situazione'" in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ exited 1 in 1356ms:
+tesseract : Termine 'tesseract' non riconosciuto come nome di cmdlet, funzione, programma eseguibile o file script. 
+Controllare l'ortografia del nome o verificare che il percorso sia incluso e corretto, quindi riprovare.
+In riga:2 car:1
++ tesseract fonte-ntc-298.png stdout -l ita+eng --psm 6 tsv 2>$null | S ...
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (tesseract:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$files='"'fonte-ntc-298.png','fonte-circ-289.png'; foreach("'$file in 
+$files){$bmp=[System.Drawing.Bitmap]::new((Resolve-Path $file)); $runs=@();$on=$false; for($y=0;$y -lt 
+$bmp.Height;$y++){ $n=0; for($x=120;$x -lt 1500;$x+=2){$p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and $p.G -lt 150 -and 
+$p.B -lt 150){$n++}}; if($n -ge 8){if(-not $on){$s=$y;$on=$true}}elseif($on){$runs += ('"'{0}-{1}' -f 
+"'$s,($y-1));$on=$false}};if($on){$runs += ('"'{0}-{1}' -f "'$s,($bmp.Height-1))}; $bmp.Dispose(); Write-Output $file; 
+Write-Output ($runs -join '"', ') }" in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 1184ms:
+Impossibile convertire l'argomento "original", con valore 
+"<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01\fonte-ntc-298.png" per ".ctor", nel tipo 
+"System.Drawing.Image": "Impossibile convertire il valore 
+"<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01\fonte-ntc-298.png" di tipo 
+"System.Management.Automation.PathInfo" nel tipo "System.Drawing.Image"."
+In riga:2 car:114
++ ...  in $files){$bmp=[System.Drawing.Bitmap]::new((Resolve-Path $file));  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Impossibile chiamare un metodo su un'espressione con valore null.
+In riga:2 car:505
++ ... ){$runs += ('{0}-{1}' -f $s,($bmp.Height-1))}; $bmp.Dispose(); Write- ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+fonte-ntc-298.png
+
+Impossibile convertire l'argomento "original", con valore 
+"<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01\fonte-circ-289.png" per ".ctor", nel tipo 
+"System.Drawing.Image": "Impossibile convertire il valore 
+"<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01\fonte-circ-289.png" di tipo 
+"System.Management.Automation.PathInfo" nel tipo "System.Drawing.Image"."
+In riga:2 car:114
++ ...  in $files){$bmp=[System.Drawing.Bitmap]::new((Resolve-Path $file));  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Impossibile chiamare un metodo su un'espressione con valore null.
+In riga:2 car:505
++ ... ){$runs += ('{0}-{1}' -f $s,($bmp.Height-1))}; $bmp.Dispose(); Write- ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+fonte-circ-289.png
+
+
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$files='"'fonte-ntc-298.png','fonte-circ-289.png'; foreach("'$file in $files){$path=(Resolve-Path $file).Path; 
+$bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; for($y=0;$y -lt $bmp.Height;$y++){ $n=0; for($x=120;$x 
+-lt 1500;$x+=2){$p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and $p.G -lt 150 -and $p.B -lt 150){$n++}}; if($n -ge 
+8){if(-not $on){$s=$y;$on=$true}}elseif($on){$runs += ('"'{0}-{1}' -f "'$s,($y-1));$on=$false}};if($on){$runs += 
+('"'{0}-{1}' -f "'$s,($bmp.Height-1))}; $bmp.Dispose(); Write-Output $file; Write-Output ($runs -join '"', ') }" in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$path=(Resolve-Path '"'fonte-circ-289.png').Path; "'$bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; 
+for($y=0;$y -lt $bmp.Height;$y++){ $n=0; for($x=120;$x -lt 1500;$x+=3){$p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and 
+$p.G -lt 150 -and $p.B -lt 150){$n++}}; if($n -ge 6){if(-not $on){$s=$y;$on=$true}}elseif($on){$runs += ('"'{0}-{1}' 
+-f "'$s,($y-1));$on=$false}};if($on){$runs += ('"'{0}-{1}' -f "'$s,($bmp.Height-1))}; $bmp.Dispose(); $runs -join '"', 
+'" in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 39680ms:
+fonte-ntc-298.png
+166-183, 197-200, 204-204, 273-293, 301-315, 321-321, 334-343, 364-381, 383-384, 392-412, 421-436, 449-463, 469-469, 
+482-491, 512-526, 541-561, 569-589, 597-611, 625-639, 661-681, 689-704, 706-709, 717-731, 745-759, 774-788, 802-816, 
+830-844, 850-850, 858-872, 874-875, 877-878, 887-907, 922-942, 950-970, 978-992, 1038-1053, 1072-1086, 1092-1092, 
+1100-1114, 1135-1149, 1151-1152, 1154-1155, 1163-1183, 1192-1206, 1227-1241, 1255-1269, 1284-1285, 1288-1297, 
+1319-1333, 1335-1336, 1339-1339, 1347-1361, 1364-1367, 1382-1396, 1402-1402, 1410-1424, 1430-1430, 1446-1466, 
+1481-1501, 1509-1523, 1526-1526, 1529-1529, 1537-1551, 1553-1557, 1598-1612, 1631-1645, 1651-1651, 1666-1680, 
+1686-1686, 1699-1708, 1726-1740, 1745-1745, 1754-1755, 1758-1767, 1784-1798, 1801-1801, 1804-1804, 1813-1814, 
+1817-1826, 1840-1854, 1860-1860, 1868-1882, 1902-1911, 2125-2277
+fonte-circ-289.png
+166-183, 197-200, 204-204, 277-291, 307-327, 335-350, 356-356, 364-385, 398-413, 429-443, 457-473, 475-475, 478-478, 
+486-501, 503-505, 507-507, 522-531, 574-588, 608-628, 642-656, 705-719, 739-759, 776-788, 794-794, 837-840, 842-851, 
+853-853, 861-861, 870-878, 880-884, 919-920, 923-923, 927-928, 951-965, 987-988, 992-1001, 1028-1042, 1087-1101, 
+1120-1134, 1138-1140, 1183-1197, 1218-1233, 1238-1238, 1280-1294, 1314-1329, 1334-1334, 1344-1358, 1373-1387, 
+1393-1393, 1402-1416, 1422-1422, 1431-1445, 1461-1475, 1495-1504, 1527-1544, 1546-1547, 1556-1570, 1585-1599, 
+1605-1605, 1613-1628, 1643-1661, 1663-1663, 1705-1719, 1740-1760, 1769-1783, 1789-1789, 1798-1813, 1819-1819, 
+1828-1842, 1848-1848, 1864-1878, 1894-1908, 2125-2277
+
+ succeeded in 10523ms:
+166-183, 197-200, 204-204, 277-291, 306-327, 335-350, 356-356, 364-385, 398-413, 429-443, 458-475, 477-478, 487-505, 
+507-507, 522-531, 573-588, 608-628, 642-656, 705-719, 739-759, 779-788, 794-794, 837-840, 842-851, 861-861, 870-878, 
+880-884, 919-919, 923-923, 927-928, 951-965, 987-988, 992-1001, 1028-1042, 1087-1101, 1120-1135, 1140-1140, 1183-1197, 
+1218-1219, 1223-1232, 1238-1238, 1280-1294, 1314-1328, 1334-1334, 1344-1358, 1373-1387, 1393-1393, 1402-1416, 
+1422-1422, 1431-1445, 1461-1475, 1495-1504, 1526-1542, 1544-1545, 1547-1547, 1556-1570, 1585-1599, 1614-1628, 
+1643-1661, 1663-1663, 1705-1719, 1740-1760, 1769-1783, 1789-1789, 1798-1813, 1828-1842, 1848-1848, 1864-1878, 
+1894-1896, 1899-1908, 2125-2277
+
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$path=(Resolve-Path '"'fonte-circ-289.png').Path; "'$bmp=[System.Drawing.Bitmap]::new($path); $runs=@();$on=$false; 
+for($y=1050;$y -le 1730;$y++){ $n=0; for($x=150;$x -le 1500;$x++){ $p=$bmp.GetPixel($x,$y); if($p.R -lt 150 -and $p.G 
+-lt 150 -and $p.B -lt 150){$n++}}; if($n -ge 15){if(-not $on){$s=$y;$on=$true}}elseif($on){$runs += ('"'{0}-{1}' -f 
+"'$s,($y-1));$on=$false}};if($on){$runs += ('"'{0}-{1}' -f "'$s,1730)}; $bmp.Dispose(); $runs -join '"', '" in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 8674ms:
+1087-1101, 1120-1135, 1139-1140, 1183-1197, 1218-1233, 1238-1238, 1280-1294, 1313-1328, 1334-1334, 1344-1358, 
+1373-1387, 1393-1393, 1402-1416, 1422-1422, 1431-1445, 1461-1475, 1495-1504, 1526-1547, 1556-1570, 1585-1599, 
+1605-1605, 1614-1628, 1642-1660, 1662-1663, 1705-1719
+
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$bmp=[System.Drawing.Bitmap]::new((Resolve-Path '"'fonte-circ-289.png').Path); foreach("'$y in 
+1100..1200){$n=0;for($x=150;$x -le 1500;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 180 -and $p.G -lt 180 -and $p.B -lt 
+180){$n++}};if($n -gt 0){'"'{0}:{1}' -f "'$y,$n}};$bmp.Dispose()' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 2717ms:
+1100:149
+1101:193
+1102:28
+1103:9
+1104:9
+1105:8
+1106:13
+1107:11
+1119:13
+1120:71
+1121:66
+1122:58
+1123:34
+1124:32
+1125:593
+1126:556
+1127:380
+1128:326
+1129:429
+1130:352
+1131:339
+1132:356
+1133:429
+1134:689
+1135:38
+1136:14
+1137:16
+1138:18
+1139:20
+1140:21
+1182:7
+1183:49
+1184:62
+1185:51
+1186:42
+1187:42
+1188:100
+1189:106
+1190:88
+1191:89
+1192:101
+1193:87
+1194:85
+1195:92
+1196:124
+1197:152
+1198:27
+1199:5
+1200:5
+
+codex
+Ho delimitato sulle immagini native (1653×2339 px) i tratti inclusi ed esclusi; sto ricontrollando i rettangoli di 
+confine prima di chiudere l’inventario.
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; $chec
+ks=@(@('"'fonte-ntc-298.png',1590,1920),@('fonte-ntc-298.png',260,1565),@('fonte-circ-289.png',1080,1670),@('fonte-circ
+-289.png',270,1050),@('fonte-circ-289.png',1700,1910)); foreach("'$c in 
+$checks){$bmp=[System.Drawing.Bitmap]::new((Resolve-Path 
+$c[0]).Path);$minX=$bmp.Width;$maxX=-1;$minY=$bmp.Height;$maxY=-1;for($y=$c[1];$y -le $c[2];$y++){for($x=0;$x -lt 
+$bmp.Width;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 100 -and $p.G -lt 100 -and $p.B -lt 100){if($x -lt 
+$minX){$minX=$x};if($x -gt $maxX){$maxX=$x};if($y -lt $minY){$minY=$y};if($y -gt 
+$maxY){$maxY=$y}}}};$bmp.Dispose();'"'{0} y{1}-{2}: x{3}-{4}, y{5}-{6}' -f 
+"'$c[0],$c[1],$c[2],$minX,$maxX,$minY,$maxY}' in <temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$bmp=[System.Drawing.Bitmap]::new((Resolve-Path 
+'"'fonte-circ-289.png').Path);"'$minX=$bmp.Width;$maxX=-1;$minY=$bmp.Height;$maxY=-1;for($y=1080;$y -le 
+1670;$y++){for($x=0;$x -lt $bmp.Width;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 100 -and $p.G -lt 100 -and $p.B -lt 
+100){if($x -lt $minX){$minX=$x};if($x -gt $maxX){$maxX=$x};if($y -lt $minY){$minY=$y};if($y -gt 
+$maxY){$maxY=$y}}}};$bmp.Dispose();'"'x{0}-{1}, y{2}-{3}' -f "'$minX,$maxX,$minY,$maxY' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 14754ms:
+x206-1447, y1086-1663
+
+exec
+"<powershell>" -Command 'Add-Type -AssemblyName System.Drawing; 
+$bmp=[System.Drawing.Bitmap]::new((Resolve-Path 
+'"'fonte-circ-289.png').Path);"'$minX=$bmp.Width;$maxX=-1;$minY=$bmp.Height;$maxY=-1;for($y=1700;$y -le 
+1915;$y++){for($x=0;$x -lt $bmp.Width;$x++){$p=$bmp.GetPixel($x,$y);if($p.R -lt 100 -and $p.G -lt 100 -and $p.B -lt 
+100){if($x -lt $minX){$minX=$x};if($x -gt $maxX){$maxX=$x};if($y -lt $minY){$minY=$y};if($y -gt 
+$maxY){$maxY=$y}}}};$bmp.Dispose();'"'x{0}-{1}, y{2}-{3}' -f "'$minX,$maxX,$minY,$maxY' in 
+<temp>\ntc2018-g6-8.7.3-261022-gbot-r2\b01
+ succeeded in 63873ms:
+fonte-ntc-298.png y1590-1920: x229-1427, y1598-1917
+fonte-ntc-298.png y260-1565: x229-1427, y273-1557
+fonte-circ-289.png y1080-1670: x206-1447, y1086-1663
+fonte-circ-289.png y270-1050: x206-1446, y272-1042
+fonte-circ-289.png y1700-1910: x206-1447, y1705-1910
+
+ succeeded in 4560ms:
+x206-1447, y1705-1914
+
+codex
+{"firma":"CDX, Codex gpt-5.6-terra","esito_provvisorio":"LEGGIBILE","elementi":[{"id":"NTC-873-RUBRICA","pagina":"ntc:2
+98","riferimento":"Rubrica «8.7.3. COSTRUZIONI MISTE», rettangolo nativo x=229–870, 
+y=1598–1617."},{"id":"NTC-873-PROSA-ELENCO","pagina":"ntc:298","riferimento":"Capoverso da «Alcune tipologie...» a 
+«sono:» e le tre voci dell’elenco, rettangolo nativo x=229–1427, 
+y=1631–1826."},{"id":"NTC-873-CONDIZIONE","pagina":"ntc:298","riferimento":"Capoverso conclusivo da «Per tale 
+situazione...» a «comprovata validità.», rettangolo nativo x=229–1427, y=1840–1917; controllo integrale: nessuna 
+formula, figura, tabella, didascalia o nota nell’area in 
+perimetro."},{"id":"CIRC-C873-RUBRICA","pagina":"circ:289","riferimento":"Rubrica «C8.7.3 COSTRUZIONI MISTE», nel 
+rettangolo nativo complessivo x=206–1447, 
+y=1086–1663."},{"id":"CIRC-C873-CAPOVERSO-1","pagina":"circ:289","riferimento":"Capoverso autonomo da 
+«L’interpretazione del comportamento...» a 
+«favorevole.»."},{"id":"CIRC-C873-CAPOVERSO-2","pagina":"circ:289","riferimento":"Capoverso autonomo da «L’analisi 
+statica non lineare...» a «stato limite di interesse.»; controllo integrale dell’area C8.7.3: nessuna formula, 
+condizione formale, figura, tabella, didascalia o nota."}],"esclusioni":[{"pagina":"ntc:298","riferimento":"Testo 
+precedente alla rubrica 8.7.3, rettangolo di testo nativo circa x=229–1427, 
+y=273–1557."},{"pagina":"ntc:298","riferimento":"Testata e apparato di pagina esterni al testo normativo: y=166–204 e 
+y=2125–2277."},{"pagina":"circ:289","riferimento":"Testo precedente alla rubrica C8.7.3, rettangolo di testo nativo 
+circa x=206–1447, y=277–1042."},{"pagina":"circ:289","riferimento":"Da rubrica «C8.7.4 CRITERI E TIPI DI INTERVENTO» 
+in poi, rettangolo nativo x=206–1447, y=1705–1914."},{"pagina":"circ:289","riferimento":"Testata e apparato di pagina 
+esterni al testo normativo: y=166–204 e y=2125–2277."}],"dubbi":[]}
+tokens used
+54.208
+{"firma":"CDX, Codex gpt-5.6-terra","esito_provvisorio":"LEGGIBILE","elementi":[{"id":"NTC-873-RUBRICA","pagina":"ntc:298","riferimento":"Rubrica «8.7.3. COSTRUZIONI MISTE», rettangolo nativo x=229–870, y=1598–1617."},{"id":"NTC-873-PROSA-ELENCO","pagina":"ntc:298","riferimento":"Capoverso da «Alcune tipologie...» a «sono:» e le tre voci dell’elenco, rettangolo nativo x=229–1427, y=1631–1826."},{"id":"NTC-873-CONDIZIONE","pagina":"ntc:298","riferimento":"Capoverso conclusivo da «Per tale situazione...» a «comprovata validità.», rettangolo nativo x=229–1427, y=1840–1917; controllo integrale: nessuna formula, figura, tabella, didascalia o nota nell’area in perimetro."},{"id":"CIRC-C873-RUBRICA","pagina":"circ:289","riferimento":"Rubrica «C8.7.3 COSTRUZIONI MISTE», nel rettangolo nativo complessivo x=206–1447, y=1086–1663."},{"id":"CIRC-C873-CAPOVERSO-1","pagina":"circ:289","riferimento":"Capoverso autonomo da «L’interpretazione del comportamento...» a «favorevole.»."},{"id":"CIRC-C873-CAPOVERSO-2","pagina":"circ:289","riferimento":"Capoverso autonomo da «L’analisi statica non lineare...» a «stato limite di interesse.»; controllo integrale dell’area C8.7.3: nessuna formula, condizione formale, figura, tabella, didascalia o nota."}],"esclusioni":[{"pagina":"ntc:298","riferimento":"Testo precedente alla rubrica 8.7.3, rettangolo di testo nativo circa x=229–1427, y=273–1557."},{"pagina":"ntc:298","riferimento":"Testata e apparato di pagina esterni al testo normativo: y=166–204 e y=2125–2277."},{"pagina":"circ:289","riferimento":"Testo precedente alla rubrica C8.7.3, rettangolo di testo nativo circa x=206–1447, y=277–1042."},{"pagina":"circ:289","riferimento":"Da rubrica «C8.7.4 CRITERI E TIPI DI INTERVENTO» in poi, rettangolo nativo x=206–1447, y=1705–1914."},{"pagina":"circ:289","riferimento":"Testata e apparato di pagina esterni al testo normativo: y=166–204 e y=2125–2277."}],"dubbi":[]}

@@ -1,0 +1,70 @@
+{
+  "prodotto_da": "script di C (GBOT-verifica-ntc), 2026-10-22",
+  "target": {
+    "path": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+    "sha256_vivo": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+    "sha256_nel_manifest": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08"
+  },
+  "manifest": {
+    "sha256": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+    "file": 60,
+    "G7_nel_manifest": false,
+    "verifica_manifest": "{\"files\": 60, \"integrita\": \"OK\", \"giudizio_vc\": \"NON_EMESSO\"}"
+  },
+  "verbale": {
+    "sha256": "82d1db90ad0fa9520a17b7fd5bc8b119f3a1c2e9de4b7ad818f31f69850715bf",
+    "nel_manifest": true
+  },
+  "verifica_lista_v1": "{\"base\": \"33f9a3d\", \"voci\": 2, \"file\": [{\"file\": \"cap08/8.7.3-progettazione-interventi-costruzioni-miste.md\", \"uguale_indici_esclusi\": true}], \"esito\": \"OK\", \"file_cambiati_dalla_base\": [\"cap08/8.7.3-progettazione-interventi-costruzioni-miste.md\"]}",
+  "valida_g6_tentativo_2": "{\"schema\": \"OK\", \"coperti\": 6, \"rilievi\": 1, \"esito_dichiarato_da_V\": \"KO\", \"giudizio_vc\": \"NON_EMESSO\"}",
+  "lint_registro": [
+    "Registro: 379 righe, 13 colonne",
+    "Stati: DA-RICONFERMARE=26, DA-RIFARE=9, IN-CORSO=1, MAI-FATTA=286, VC-OK=57",
+    "Errori: 0; avvisi: 7"
+  ],
+  "riga_csv_attuale": {
+    "paragrafo": "8.7.3",
+    "titolo": "COSTRUZIONI MISTE",
+    "n.": "298",
+    "apri_md": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+    "pagine_pdf_ntc": "298",
+    "pagine_pdf_circolare": "289",
+    "stato_vc": "IN-CORSO",
+    "data_ultima_vc": "2026-07-29",
+    "prossima_azione": "Confronto integrale con Codex e lista delle correzioni per Sandro; nessuna correzione prima dell'approvazione.",
+    "evidenza_vc": "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
+    "note": "Presa GBOT-verifica-ntc del 2026-10-22, autorizzata da Sandro («Ok allora andiamo con il prossimo. Fallo fare a codex», 07:13), procedura VC-NTC/10.",
+    "procedura_vc": "",
+    "agente_vc": ""
+  },
+  "impronte_cartella_g7": {
+    "CONSEGNA-G7.md": "534318e99ecec413e59fc6d982d4ae257c777f0f1a2306dd17b6744dde60bb75",
+    "chiusura.json": "349899d37d593514306e7504d0e88c63a0cf5ce92fa150c78abd49c7e52b945c",
+    "decisione-applicazione-20261022.json": "bcbcbe74c690600f98312a7325d1159270757462ead8c792837d612a2a9dc5aa",
+    "decisione-g6-20261022.json": "6dedc0401ffac8b32d12fcc574aa5c890163a61a3caa87c26a5c30d3e6a69d12",
+    "decisione-g6-rilievo-20261022.json": "72ee7a2c594695cd762afea99a760000a3d100973ee09318637606248c6ab1de",
+    "esito-g6-tentativo-1-annullato.json": "e3764919732f1f178c5dbb29215213859f19b3270c4dba7fde089bb197a886bd",
+    "esito-g6.json": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
+    "inventario-g6-b01.json": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+    "manifest-rilascio.json": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+    "mappa-g5.json": "6eb7d0298b143a4e44dbd21f95ee9cd96af8161d3a81b3934f49f5a1942fcfc8",
+    "ntc298-per-queste-600dpi.png": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c",
+    "procedura-congelata-r10.md": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22",
+    "prova-NTC-873-CONDIZIONE.json": "190f99b671c058bae735b4b31171bb024a04148686f10b44276d1d923709fba0",
+    "rapporto-g6-b01.json": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+    "ricontrollo-g1-20261022.json": "2ab08ee61cf31026b9af6629843121bd9233d06f2ceb2ceebdcb267aec2d9505",
+    "scheda.md": "ff079fedb9f40554775e70763f2e95855a95ff1d7a253f619fb1d4ba000ae8ac",
+    "sequenza-g6-tentativo-1-annullato.json": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb",
+    "sequenza-g6.json": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
+    "verbale.md": "82d1db90ad0fa9520a17b7fd5bc8b119f3a1c2e9de4b7ad818f31f69850715bf"
+  },
+  "giro_g6": "1 su max_giri 3",
+  "chiusura_manifest_sha256_uguale": true,
+  "chiusura_verbale_sha256_uguale": true,
+  "snapshot_scheda": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+  "prove_c_nel_manifest": [
+    "ntc298-per-queste-600dpi.png",
+    "prova-NTC-873-CONDIZIONE.json"
+  ],
+  "tentativo_1_nel_manifest": 12
+}

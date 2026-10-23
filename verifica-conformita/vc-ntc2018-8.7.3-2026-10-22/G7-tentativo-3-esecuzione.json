@@ -1,0 +1,24 @@
+{
+  "file": "G7-tentativo-3-KO.json",
+  "sha256": "501f7b75b15260d9a22f0b8ada3e8c12553dc799d262319dae62d378dec7ee09",
+  "redazione": "nessuna: il file è la trascrizione byte per byte del messaggio finale di V (V ha già scritto <workspace>/AGENTS.md)",
+  "esecuzione": {
+    "tentativo": 3,
+    "motore": "Codex CLI",
+    "modello_richiesto": "gpt-6.1-sol",
+    "modello_dal_log": "gpt-6.1-sol",
+    "lettura_log": "UTF-16 LE con BOM, decodificato",
+    "ragionamento": "high",
+    "sandbox": "read-only, senza --always-approve",
+    "contesto": "nuovo",
+    "sessione": "01a162d0-540f-70c2-a032-dad8d8986cd6",
+    "inizio": "2026-10-22T10:53:02+02:00",
+    "termine": "2026-10-22T10:57:02+02:00",
+    "token": "80.227",
+    "log_sha256": "3e5e754d815864594a30384332f965b66c36ce317e5a5fafd5d91ede474348b6",
+    "log": "fuori dal repository, nella cartella temporanea del W520"
+  },
+  "manifest_sha256_valutato": "7f1bc9eb9e4cc3bfaeb58437df98a039d02620c998903bc80fb7dc5cacbd5146",
+  "rilancio": "nessuno: un G7 KO non si rilancia senza decisione di Sandro",
+  "copia_del_log": "log-g7/indice.json: copia ripulita del log, aggiunta il 2026-10-22 (rilievo G7-AUDIT-04); gli altri campi sono invariati"
+}

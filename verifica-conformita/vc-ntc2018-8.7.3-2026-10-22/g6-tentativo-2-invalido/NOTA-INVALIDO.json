@@ -1,0 +1,13 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "stato": "invalido",
+  "motivo": "G7 tentativo 4 (Sol): G7-AUDIT-06 (letture documentazione plugin Codex fuori blocco) e G7-AUDIT-07 (log senza prova di lettura visiva delle pagine Gazzetta). Decisione di Sandro 2026-10-23: rifare il G6.",
+  "decisione": "decisione-g6-rilievi-20261023.json",
+  "giro_g6_allora": 1,
+  "tentativo": 2,
+  "rapporto_sha256": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+  "inventario_sha256": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+  "prove_c": "non toccate: restano in prove-c/"
+}

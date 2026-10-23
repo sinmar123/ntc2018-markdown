@@ -1,0 +1,113 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "giro_g6": 2,
+  "tentativo": 4,
+  "decisione": "decisione-g6-haiku-sessione-unica-20261023.json",
+  "configurazione_valida": {
+    "file": "config-g6.json",
+    "destinazione_locale": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2"
+  },
+  "precedente_invalidato": {
+    "motivo": "G7-AUDIT-09 due sessioni",
+    "archivio": "g6-haiku-due-sessioni-invalido/",
+    "sessioni": [
+      "fb3dbe87-451d-482f-b85c-42b75d837f7e",
+      "e20bd296-ae3c-439e-9123-ec492d0d309e"
+    ]
+  },
+  "fasi": {
+    "fase_1_inventario": "Haiku CC, session 8df3e30c-9434-42c3-a734-b79ec154c27e, PNG aperti",
+    "valida_inventario": "OK (9 elementi, 2 pagine)",
+    "rivela": "integrità OK, 10 file; verifica-pacchetto OK",
+    "fase_2_confronto": "Haiku CC --resume stessa session 8df3e30c-9434-42c3-a734-b79ec154c27e, PNG aperti di nuovo",
+    "valida_g6": "{\"schema\": \"OK\", \"coperti\": 9, \"rilievi\": 0, \"esito_dichiarato_da_V\": \"OK\", \"giudizio_vc\": \"NON_EMESSO\"}",
+    "controllo_log": "controllo-log-g6-giro2-haiku-sessione-unica.json (stesso session_id, Haiku, PNG, zero fuori blocco)"
+  },
+  "hash": {
+    "b01_inventario": "db24b3549e0e6fd192eb1665d06bfa50a96184376bfbe703e690ebc048f1fce4",
+    "b01_rapporto": "40136f169a5fc609ebfc28e9a1856b1cd4a6c33e288c946535fb3c08546c384a"
+  },
+  "profilo_v": {
+    "motore": "Claude Code CLI",
+    "modello": "claude-haiku-5-5",
+    "sigla": "CC/HAIKU",
+    "sandbox": "--restricted --tools Read; --resume senza --fork-session",
+    "trascrizione": "C ha trascritto il JSON finale di V in inventario.json e rapporto-g6.json. In questo giro V ha già prodotto 9 id in coperti (nessuna normalizzazione 18→9). L originale è in lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt.",
+    "indipendenza": "Fase 1 senza target; fase 2 dopo rivela, STESSA sessione (resume)"
+  },
+  "consumi_token": {
+    "fase1_approx": 32481,
+    "fase2_approx": 79597,
+    "session_id": "8df3e30c-9434-42c3-a734-b79ec154c27e",
+    "fase1_usage": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 15676,
+      "cache_read_input_tokens": 8335,
+      "output_tokens": 8466,
+      "output_tokens_details": {
+        "thinking_tokens": 4760
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 15676,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 7603,
+          "cache_read_input_tokens": 4367,
+          "cache_creation_input_tokens": 15277,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 15277
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "fase2_usage": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 27577,
+      "cache_read_input_tokens": 47444,
+      "output_tokens": 4572,
+      "output_tokens_details": {
+        "thinking_tokens": 2519
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 27577,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3788,
+          "cache_read_input_tokens": 27800,
+          "cache_creation_input_tokens": 19421,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 19421
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    }
+  }
+}

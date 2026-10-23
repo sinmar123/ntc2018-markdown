@@ -1,0 +1,64 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-22",
+  "scope": "8.7.3",
+  "approvazione": {
+    "decisore": "Sandro",
+    "data_ora": "2026-10-22T07:35:00+02:00",
+    "testo": "«Sì, approvo le due correzioni e vai avanti»",
+    "oggetto": "Lista v1 approvata per intero: 2 voci di forma (F-01, F-02); nessuna sostanziale, nessun dubbio",
+    "nuova_richiesta_non_necessaria": true
+  },
+  "lista": {
+    "file": "lista-correzioni.json",
+    "versione": 1,
+    "sha256": "765b1bcec31f7890f20584b90bb9821711599e00313c679af80054b35b1f5660",
+    "voci": 2,
+    "sostanziali": 0,
+    "forma": 2,
+    "file_interessati": [
+      "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md"
+    ]
+  },
+  "applicazione": {
+    "strumento": "python strumenti/vc-supporto.py applica-lista",
+    "piano": {
+      "voci": 2,
+      "file": 1,
+      "esito": "OK"
+    },
+    "applicazione_esito": "OK",
+    "ora": "07:38 (ora di Roma)",
+    "base_git": "33f9a3d4404e4ab4c9e2a8b03f8d7067eb8768a4",
+    "target_prima_sha256": "e50344d7ef0b32ab7eb43669db16e4e7bcd98bb9db23387459aff01c05dea6dc",
+    "target_dopo_lista_prima_indici_sha256": "583ba70f803bbd754a19de9aa71f790185bd02e85361be6706a4fea70b68bfb2",
+    "diff": "diff-proposto.patch, git diff della base 33f9a3d sul solo target, dopo applicazione e indici",
+    "diff_sha256": "9aa02c86473622e57beead159313e22499a89fb81e9af1e66ca6ff48faee4705",
+    "verifica_lista": {
+      "comando": "verifica-lista lista-correzioni.json 33f9a3d",
+      "esito": "OK",
+      "file_cambiati_dalla_base": [
+        "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md"
+      ]
+    }
+  },
+  "indici_interni": {
+    "strumento": "python strumenti/genera-indici-interni.py --applica --verifica --snapshot _tmp_render/cap08/vc-8.7.3-20261022-gbot/indici",
+    "esito": "OK: 311 file, 1754 collegamenti interni, 311 corpi invariati",
+    "altri_file_normativi_modificati": []
+  },
+  "target_finale": {
+    "file": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+    "sha256": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+    "bytes": 2957
+  },
+  "lint": "lint-registro-verifica.py: 0 errori, 7 avvisi preesistenti",
+  "controllo_effetti_C": {
+    "esito": "OK",
+    "controlli": [
+      "solo il target 8.7.3 cambiato fra i file normativi",
+      "indice interno rigenerato con la rubrica nuova",
+      "diff limitato a F-01, F-02 e alla voce dell'indice interno"
+    ]
+  }
+}

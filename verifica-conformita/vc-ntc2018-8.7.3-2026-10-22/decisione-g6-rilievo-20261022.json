@@ -1,0 +1,31 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "decisione": {
+    "decisore": "Sandro",
+    "data_ora": "2026-10-22T08:07:00+02:00",
+    "testo": "«Sì, chiudi il rilievo e fai il G7 con Sol»"
+  },
+  "rilievi": {
+    "NTC-873-CONDIZIONE": {
+      "classe_proposta_da_V": "ERR-MD",
+      "esito": "chiuso senza modifiche: non trova riscontro nella fonte",
+      "prova": "prove-c/prova-NTC-873-CONDIZIONE.json e prove-c/ntc298-per-queste-600dpi.png: D.M. 17/01/2018, p. fisica 298, livello vettoriale (y 662,3 pt) e ritaglio a 600 dpi riportano «Per queste situazioni è necessario prevedere modellazioni…», come il Markdown",
+      "prova_sha256": {
+        "prova-NTC-873-CONDIZIONE.json": "190f99b671c058bae735b4b31171bb024a04148686f10b44276d1d923709fba0",
+        "ntc298-per-queste-600dpi.png": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c"
+      }
+    }
+  },
+  "esito_g6": {
+    "giro": 1,
+    "tentativo": 2,
+    "err_md": 0,
+    "err_audit": 0,
+    "dubbio": 0,
+    "esito": "OK",
+    "nota": "Il rapporto originale di V resta immutato (esito dichiarato KO); il G6 chiude a zero dopo la decisione di Sandro sull'unico rilievo, senza modifiche al target."
+  },
+  "target_sha256": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08"
+}

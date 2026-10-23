@@ -1,0 +1,38 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "giro_g6": 2,
+  "tentativo": 3,
+  "decisione": "decisione-prova-haiku-20261023.json",
+  "configurazione_valida": {
+    "file": "config-g6.json",
+    "sha256": "e2c1b3b0c38314ed959b3c8027a6259dc0f0b91294f313826802f6288d40a549",
+    "destinazione_locale": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r1"
+  },
+  "fasi": {
+    "prova_haiku_lettura": "OK, vedi controllo-log-prova-haiku-20261023.json",
+    "fase_1_inventario": "Haiku CC, contesto nuovo, PNG aperti nel log stream-json",
+    "valida_inventario": "OK (9 elementi, 2 pagine)",
+    "rivela": "integrità OK, 10 file; verifica-pacchetto OK",
+    "fase_2_confronto": "Haiku CC, contesto nuovo, PNG aperti di nuovo",
+    "valida_g6": "{\"schema\": \"OK\", \"coperti\": 9, \"rilievi\": 0, \"esito_dichiarato_da_V\": \"OK\", \"giudizio_vc\": \"NON_EMESSO\"}"
+  },
+  "hash": {
+    "b01_inventario": "8d7f04e5903e032f081416f2c4ca9eaa358c17e86c274709dbc71506a3ac3368",
+    "b01_rapporto": "d32f2cdb8172c1a3a0f4ac5f7fec176fb3b157a5ec0438b6af80fc4e723ccc9e"
+  },
+  "profilo_v": {
+    "motore": "Claude Code CLI",
+    "modello": "claude-haiku-5-5",
+    "sigla": "CC/HAIKU",
+    "sandbox": "--restricted --tools Read (sola lettura); senza --dangerously-skip-permissions",
+    "trascrizione": "C ha trascritto il JSON finale di V in inventario.json e rapporto-g6.json; su rapporto ha ristretto coperti agli id degli elementi.",
+    "indipendenza": "Fase 1 senza target; fase 2 dopo rivela, sessione nuova"
+  },
+  "consumi_token": {
+    "fase1_approx": 34544,
+    "fase2_approx": 35908,
+    "prova_approx": 22105
+  }
+}

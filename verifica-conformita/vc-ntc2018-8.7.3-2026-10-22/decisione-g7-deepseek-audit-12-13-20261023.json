@@ -1,0 +1,33 @@
+{
+  "tipo": "decisione-correzione-e-prova-g7",
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-23T13:39:03+02:00",
+  "testo_approvazione": "Si: allinea i documenti, poi G7 con DeepSeek",
+  "chi": "<utente>",
+  "scope": "8.7.3",
+  "chiude": [
+    "G7-AUDIT-12",
+    "G7-AUDIT-13"
+  ],
+  "giro_g6": 2,
+  "nota_giro": "Nessun rifacimento G6: allineamento documentale sulle riserve di fase2-result.txt e sulle normalizzazioni del verbale.",
+  "decisione": [
+    "Allineare verbale (e nota di riconciliazione) alle riserve in lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt senza rifare il G6.",
+    "Aggiungere la normalizzazione 2 (apostrofi) alla sintesi del verbale, come da AUDIT-13 e come gia' nel rapporto-g6.json.",
+    "G7 di prova con DeepSeek via OpenRouter (non cambio stabile di procedura; Sol resta il predefinito)."
+  ],
+  "g7_prova": {
+    "canale": "OpenRouter",
+    "famiglia": "DeepSeek",
+    "firma_attesa": "OR/DeepSeek + modello esatto",
+    "non_e": "cambio stabile di procedura"
+  },
+  "vietato": [
+    "Antigravity",
+    "--always-approve",
+    "sandbox allargata senza ok",
+    "rilancio autonomo se KO",
+    "falsificare byte per byte",
+    "rifare G6"
+  ]
+}

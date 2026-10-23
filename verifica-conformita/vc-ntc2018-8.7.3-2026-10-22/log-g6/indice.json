@@ -1,0 +1,211 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-22",
+  "revisione": 2,
+  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest; nel dossier niente dati personali, percorsi assoluti o contenuti di file esterni al progetto. Revisione 1: rilievo G7-AUDIT-03, log citati dalla rettifica fuori dal manifest. Revisione 2: rilievo G7-AUDIT-05, percorso assoluto di PowerShell rimasto nelle copie; decisioni di Sandro «Sì, sistema tutto e rifai il G7 con Sol» e «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol».",
+  "metodo": "ripulitura-log.py (nel dossier): originale verificato contro la rettifica, decodificato da UTF-16 LE, contenuto di file esterni al progetto omesso con riga e impronta, ogni percorso assoluto sostituito da un segnaposto, scritto in UTF-8 senza BOM con i finali di riga originali.",
+  "controllo_dati_personali": "Prima della copia C ha cercato negli originali indirizzi e-mail, numeri di telefono, codici fiscali, IBAN, partite IVA, nomi di committenti o clienti, indirizzi, chiavi e password. Nei log del G7 il solo dato personale era il nome completo dell'utente, dentro il contenuto dell'AGENTS.md del workspace letto dal verificatore: quel contenuto e' omesso. Nessun altro dato personale. Dopo la ripulitura le copie non contengono percorsi assoluti, nome utente, nome completo o blocchi dei file omessi (controllo-dossier.py).",
+  "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
+  "log": [
+    {
+      "copia": "log-g6/g6-tentativo-1-annullato-fase1-log.txt",
+      "tentativo_g6": "tentativo_1_annullato",
+      "fase": "fase1",
+      "nome_originale": "<temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro/fase1-log.txt",
+      "sha256_originale": "a583e0f21b3f1745dc6f5bab053b0187c7dedd96e1e8f4fde63f89e6fadef871",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 46176,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "afd28122b606d4dacc202df3f9c0d5b1b1b58270091165cdc1275ca4125bdd2e",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 5
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 4
+        }
+      ],
+      "sha256_copia_ripulita": "b40ffa00bf45f0054a50cd84008c20fe16ec980e2bccb72e5861e144ea5edc45",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 22954,
+      "nella_copia": {
+        "modello": "gpt-5.6-terra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16220-67be-72b2-a868-f5729dc4b88c",
+        "token": "43.968"
+      },
+      "copie_precedenti": {
+        "revisione_1": "0909e0bd6ef6cf4e5e06014db510496d371f985c90cbfcfaa6f6812891995a5c"
+      }
+    },
+    {
+      "copia": "log-g6/g6-tentativo-1-annullato-fase2-log.txt",
+      "tentativo_g6": "tentativo_1_annullato",
+      "fase": "fase2",
+      "nome_originale": "<temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro/fase2-log.txt",
+      "sha256_originale": "f8a1a529d54e58c4452492f6687894685f9e41e30b85701c94063c2f2bffc156",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 1247552,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "9280e25c43732d0ae25741c11bf11d9823d5eac9845492f711146fd0a0f4b806",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 6
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 5
+        }
+      ],
+      "sha256_copia_ripulita": "827b5905cf4b309ba4c75959d5b1835af665347691ecdb137b2b71bae379d139",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 623457,
+      "nella_copia": {
+        "modello": "gpt-6-astra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16220-67be-72b2-a868-f5729dc4b88c",
+        "token": "97.981"
+      },
+      "copie_precedenti": {
+        "revisione_1": "78748d5ff37fe176002347653accdf5a672d57d19be0e78a574d503390a6a4b4"
+      }
+    },
+    {
+      "copia": "log-g6/g6-tentativo-2-fase1-log.txt",
+      "tentativo_g6": "tentativo_2",
+      "fase": "fase1",
+      "nome_originale": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro/fase1-log.txt",
+      "sha256_originale": "12e59ef5a28b5ddbd40a774c034a3d32651296381f3514a719d46bc9fe008120",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 69740,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "24f866e7343b6d6c9c844d78e4fe94a8113ce668422c7500c9e8958cadf1236f",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 17
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 12
+        }
+      ],
+      "sha256_copia_ripulita": "bc44e344487371cf7977c10d23e8bed0116647ef08870851bac5302c67eee6f7",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 34029,
+      "nella_copia": {
+        "modello": "gpt-5.6-terra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16228-9cad-7d51-82f1-ed2b08ad47f6",
+        "token": "54.208"
+      },
+      "copie_precedenti": {
+        "revisione_1": "83cf9d5443d9b0ecac0231859592bd35bbebaba82464267e6375e534f4c2db55"
+      }
+    },
+    {
+      "copia": "log-g6/g6-tentativo-2-fase2-log.txt",
+      "tentativo_g6": "tentativo_2",
+      "fase": "fase2",
+      "nome_originale": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro/fase2-log.txt",
+      "sha256_originale": "3622ab0f6050792978555483aacb8420acd36ed7c340f58992761d8c42279b33",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 189500,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "bdc6b4908646074d58eaf1ce82bda2b3178077ffce6f412c99f280c174321ccc",
+      "omissioni": [
+        {
+          "cosa": "file della documentazione dei plugin di Codex",
+          "righe": 195,
+          "sha256_blocco": "13f977133839d941049ec46674ac073cf25fbc458d80304438b4225511c7b0c7",
+          "riga_nella_copia": 32,
+          "file_letti": [
+            "SKILL.md"
+          ]
+        },
+        {
+          "cosa": "file della documentazione dei plugin di Codex",
+          "righe": 35,
+          "sha256_blocco": "d881660a8568549f67c531b0d27e65022de485487bdc0d1f758a15de78936ca3",
+          "riga_nella_copia": 164,
+          "file_letti": [
+            "SKILL.md"
+          ]
+        },
+        {
+          "cosa": "file della documentazione dei plugin di Codex",
+          "righe": 567,
+          "sha256_blocco": "941c75e913e22e891c630aa1351661c4793d484185148f5022f309fcbef2a8b0",
+          "riga_nella_copia": 175,
+          "file_letti": [
+            "api.md",
+            "confirmations.md",
+            "guidance.md"
+          ]
+        }
+      ],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 12
+        },
+        {
+          "da": "cartella di configurazione di Codex nel profilo utente",
+          "a": "<codex-home>",
+          "occorrenze": 5
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 11
+        }
+      ],
+      "sha256_copia_ripulita": "ad6acbfd8cdf4ba44d47e4f0c6db364c7a3ab874a84aa06ef0916bff9fe21ee0",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 57464,
+      "nella_copia": {
+        "modello": "gpt-5.6-terra",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16228-9cad-7d51-82f1-ed2b08ad47f6",
+        "token": "117.962"
+      },
+      "copie_precedenti": {
+        "revisione_1": "80de8eca9c69efce5086ce68315279892f6fcdcdfa869bb9702457a51202756e"
+      }
+    }
+  ]
+}

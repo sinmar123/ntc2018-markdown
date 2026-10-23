@@ -1,0 +1,107 @@
+{
+  "prodotto_da": "script di C (GBOT-verifica-ntc), 2026-10-22, G7 tentativo 2",
+  "target": {
+    "path": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+    "sha256_vivo": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+    "sha256_nel_manifest": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08"
+  },
+  "manifest": {
+    "sha256": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
+    "file": 64,
+    "G7_nel_manifest": false,
+    "verifica_manifest": "{\"files\": 64, \"integrita\": \"OK\", \"giudizio_vc\": \"NON_EMESSO\"}"
+  },
+  "verbale": {
+    "sha256": "97acb48a536bcbd4d3924bf6f90a1c039a265ebb3644eebf13e5eb55601e9a44",
+    "nel_manifest": true
+  },
+  "verifica_lista_v1": "{\"base\": \"33f9a3d\", \"voci\": 2, \"file\": [{\"file\": \"cap08/8.7.3-progettazione-interventi-costruzioni-miste.md\", \"uguale_indici_esclusi\": true}], \"esito\": \"OK\", \"file_cambiati_dalla_base\": [\"cap08/8.7.3-progettazione-interventi-costruzioni-miste.md\"]}",
+  "valida_g6_tentativo_2": "{\"schema\": \"OK\", \"coperti\": 6, \"rilievi\": 1, \"esito_dichiarato_da_V\": \"KO\", \"giudizio_vc\": \"NON_EMESSO\"}",
+  "lint_registro": [
+    "Registro: 379 righe, 13 colonne",
+    "Stati: DA-RICONFERMARE=26, DA-RIFARE=9, IN-CORSO=1, MAI-FATTA=286, VC-OK=57",
+    "Errori: 0; avvisi: 7"
+  ],
+  "riga_csv_attuale": {
+    "paragrafo": "8.7.3",
+    "titolo": "COSTRUZIONI MISTE",
+    "n.": "298",
+    "apri_md": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md",
+    "pagine_pdf_ntc": "298",
+    "pagine_pdf_circolare": "289",
+    "stato_vc": "IN-CORSO",
+    "data_ultima_vc": "2026-07-29",
+    "prossima_azione": "Confronto integrale con Codex e lista delle correzioni per Sandro; nessuna correzione prima dell'approvazione.",
+    "evidenza_vc": "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
+    "note": "Presa GBOT-verifica-ntc del 2026-10-22, autorizzata da Sandro («Ok allora andiamo con il prossimo. Fallo fare a codex», 07:13), procedura VC-NTC/10.",
+    "procedura_vc": "",
+    "agente_vc": ""
+  },
+  "modelli_dai_log": {
+    "g6_tentativo_2": {
+      "fase1": {
+        "modello": "gpt-5.6-terra",
+        "token": "54.208",
+        "sandbox": "read-only"
+      },
+      "fase2": {
+        "modello": "gpt-5.6-terra",
+        "token": "117.962",
+        "sandbox": "read-only"
+      }
+    },
+    "g6_tentativo_1_annullato": {
+      "fase1": {
+        "modello": "gpt-5.6-terra",
+        "token": "43.968",
+        "sandbox": "read-only"
+      },
+      "fase2": {
+        "modello": "gpt-6-astra",
+        "token": "97.981",
+        "sandbox": "read-only"
+      }
+    },
+    "g7_tentativo_1": {
+      "modello": "gpt-6.1-sol",
+      "token": "67.227",
+      "sandbox": "read-only"
+    }
+  },
+  "rettifiche_nel_manifest": {
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/rettifica-g7-audit-01-20261022.json": true,
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json": true,
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-KO.json": true,
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-redazione.json": true,
+    "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json": true
+  },
+  "chiusura_manifest_sha256_uguale": true,
+  "chiusura_verbale_sha256_uguale": true,
+  "snapshot_scheda": "1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08",
+  "giro_g6": "1 su max_giri 3",
+  "impronte_cartella_g7": {
+    "CONSEGNA-G7.md": "dfce9fdc804376fdb62581eeef5dbb53235e243277862c5036a7e086adf8db29",
+    "G7-tentativo-1-KO.json": "ea5b1b1a5496fa8ab59eaadc6725881d75461d6a9ae8304625bfc7256e30f005",
+    "catalogo-congelato.md": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48",
+    "chiusura.json": "5c3484ce3d9a0dd5fae1143aeeb1cfd0a0afef5989f4fc80ce110c28202a652f",
+    "decisione-applicazione-20261022.json": "bcbcbe74c690600f98312a7325d1159270757462ead8c792837d612a2a9dc5aa",
+    "decisione-g6-20261022.json": "6dedc0401ffac8b32d12fcc574aa5c890163a61a3caa87c26a5c30d3e6a69d12",
+    "decisione-g6-rilievo-20261022.json": "72ee7a2c594695cd762afea99a760000a3d100973ee09318637606248c6ab1de",
+    "esito-g6-tentativo-1-annullato.json": "e3764919732f1f178c5dbb29215213859f19b3270c4dba7fde089bb197a886bd",
+    "esito-g6.json": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
+    "inventario-g6-b01.json": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+    "manifest-rilascio-g7-tentativo-1.json": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+    "manifest-rilascio.json": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
+    "mappa-g5.json": "6eb7d0298b143a4e44dbd21f95ee9cd96af8161d3a81b3934f49f5a1942fcfc8",
+    "ntc298-per-queste-600dpi.png": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c",
+    "procedura-congelata-r10.md": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22",
+    "prova-NTC-873-CONDIZIONE.json": "190f99b671c058bae735b4b31171bb024a04148686f10b44276d1d923709fba0",
+    "rapporto-g6-b01.json": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+    "rettifica-g7-audit-01-20261022.json": "8cceb1de0f5d802952fccd1398f85e0bfaaf43651f48b4aa051ce127ae6972ad",
+    "ricontrollo-g1-20261022.json": "032adc140418b7101486b5528ce0fa172eed5f1941729d6a381e1dc65d1f4bdf",
+    "scheda.md": "e0b190cc81095d7f385205a0451fd5dafc5f0f6deb3cdcbe52c3a8ab5e23481d",
+    "sequenza-g6-tentativo-1-annullato.json": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb",
+    "sequenza-g6.json": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
+    "verbale.md": "97acb48a536bcbd4d3924bf6f90a1c039a265ebb3644eebf13e5eb55601e9a44"
+  }
+}

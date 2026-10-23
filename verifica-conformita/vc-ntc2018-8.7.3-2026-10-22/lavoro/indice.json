@@ -1,0 +1,1320 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest. I log e i giudizi dei G6 e dei G7 citano per nome e impronta i file delle cartelle di lavoro (confronto iniziale, pacchetti G6, cartelle dei G7), che stanno fuori dal repository. Decisione di Sandro «Sì, sistema tutto e rifai il G7 con Sol»: chiudere in una volta la famiglia di rilievi G7-AUDIT-03, 04 e 05. Aggiornamento 2026-10-23: aggiunte copie G6 Haiku sessione unica (giro_g6=2 tentativo 4).",
+  "metodo": "Per ogni file delle cartelle di lavoro: se l'impronta coincide con un file del dossier, con una versione nella storia git o con un log gia' indicizzato, l'indice lo dichiara senza copiarlo; altrimenti il file e' copiato in lavoro/, i file di testo con i percorsi assoluti sostituiti da segnaposto (ripulitura-log.py, funzione percorsi), i binari senza modifiche.",
+  "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
+  "conteggi": {
+    "uguale_al_file_del_dossier": 87,
+    "copia": 27,
+    "uguale_a_versione_storica": 15,
+    "indicizzato_in_log": 7,
+    "file": 141
+  },
+  "file": [
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "ISTRUZIONI.md",
+      "sha256_originale": "b2a16dc7580ac66dc2bd7def39872e6aa6a1c966a3460b0e5c810820d7388114",
+      "byte_originale": 3533,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/confronto-iniziale/ISTRUZIONI-CDX.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "catalogo.md",
+      "sha256_originale": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48",
+      "byte_originale": 8671,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "convenzioni.md",
+      "sha256_originale": "241dfd15efc09706da4029b96c6c8c87ea445cdcb5d1d8a6a4363f1af9bdcf2b",
+      "byte_originale": 6735,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/convenzioni.md",
+      "sha256_copia_ripulita": "241dfd15efc09706da4029b96c6c8c87ea445cdcb5d1d8a6a4363f1af9bdcf2b",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "fonte-circ-289-400dpi.png",
+      "sha256_originale": "2e3792cf6c122f63ec436a331f9c9da58e79286a1e46aef2b9e26ec236bf7b60",
+      "byte_originale": 1113176,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/fonte-circ-289-400dpi.png",
+      "sha256_copia_ripulita": "2e3792cf6c122f63ec436a331f9c9da58e79286a1e46aef2b9e26ec236bf7b60",
+      "sostituzioni": [],
+      "tipo": "binario copiato senza modifiche"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "fonte-circ-289.pdf",
+      "sha256_originale": "043f6272e2ecf18767c696fc0d9dfa9bc223967dd3b17cdf773f3c38d0548266",
+      "byte_originale": 204725,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/fonte-circ-289.pdf",
+      "sha256_copia_ripulita": "043f6272e2ecf18767c696fc0d9dfa9bc223967dd3b17cdf773f3c38d0548266",
+      "sostituzioni": [],
+      "tipo": "binario copiato senza modifiche"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "fonte-circ-289.png",
+      "sha256_originale": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256",
+      "byte_originale": 550044,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/fonte-circ-289.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "fonte-ntc-298-400dpi.png",
+      "sha256_originale": "8365ba24c5242bc8cc18c9fcda322bfea835c6bc29a7a45a35830e0d53ccaf84",
+      "byte_originale": 1309437,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/fonte-ntc-298-400dpi.png",
+      "sha256_copia_ripulita": "8365ba24c5242bc8cc18c9fcda322bfea835c6bc29a7a45a35830e0d53ccaf84",
+      "sostituzioni": [],
+      "tipo": "binario copiato senza modifiche"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "fonte-ntc-298.pdf",
+      "sha256_originale": "b1013a076d6f454874f867b77874bf8fea18d00aed83d9d6d7b4a95c3b2f17a4",
+      "byte_originale": 210809,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/fonte-ntc-298.pdf",
+      "sha256_copia_ripulita": "b1013a076d6f454874f867b77874bf8fea18d00aed83d9d6d7b4a95c3b2f17a4",
+      "sostituzioni": [],
+      "tipo": "binario copiato senza modifiche"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "fonte-ntc-298.png",
+      "sha256_originale": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1",
+      "byte_originale": 662464,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/fonte-ntc-298.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "target-8.7.3.md",
+      "sha256_originale": "e50344d7ef0b32ab7eb43669db16e4e7bcd98bb9db23387459aff01c05dea6dc",
+      "byte_originale": 2958,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "testo-circ-289.txt",
+      "sha256_originale": "c53e6dc80133871cfdecb0c3c346e556427f79e7c670e209d60d853137482965",
+      "byte_originale": 4411,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/testo-circ-289.txt",
+      "sha256_copia_ripulita": "c53e6dc80133871cfdecb0c3c346e556427f79e7c670e209d60d853137482965",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-cdx-8.7.3-261022",
+      "file": "testo-ntc-298.txt",
+      "sha256_originale": "a8cef23a51b8cf37f135356449c387a9a4a07e94597748198180a99975fef17b",
+      "byte_originale": 6224,
+      "esito": "copia",
+      "copia": "lavoro/confronto-iniziale/testo-ntc-298.txt",
+      "sha256_copia_ripulita": "a8cef23a51b8cf37f135356449c387a9a4a07e94597748198180a99975fef17b",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/ISTRUZIONI-V.md",
+      "sha256_originale": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e",
+      "byte_originale": 2486,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/ISTRUZIONI-V.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/PERIMETRO.md",
+      "sha256_originale": "9a1581903c98f7491693e6f20cf919f62ce0fc1d89fc2a8fe841b89af5965175",
+      "byte_originale": 267,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/PERIMETRO.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/canone.md",
+      "sha256_originale": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418",
+      "byte_originale": 11370,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/canone.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/congelamento.json",
+      "sha256_originale": "ea8b576cc0a30f715cff08b2c0763f21d3a4f44b72833e94f58d252b77fa41e6",
+      "byte_originale": 427,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/congelamento.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/fonte-circ-289.png",
+      "sha256_originale": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256",
+      "byte_originale": 550044,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/fonte-circ-289.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/fonte-ntc-298.png",
+      "sha256_originale": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1",
+      "byte_originale": 662464,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/fonte-ntc-298.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/input-confronto.json",
+      "sha256_originale": "0f73057f567961c77c95b57997693860629055143cb8f8d1fa0bc47957e7b25b",
+      "byte_originale": 1532,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/input-confronto.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/input-fonte.json",
+      "sha256_originale": "1b55fb10ad4f8012ab0dca046fecb82b8964f61bff271eb98c723c79ae0232c1",
+      "byte_originale": 862,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/input-fonte.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/inventario.json",
+      "sha256_originale": "2024e0c00dff34c8cb5fe5bcdb329bf0bd30e2e673f26468418ff079f48ab908",
+      "byte_originale": 2123,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/rapporto-g6.json",
+      "sha256_originale": "2bcfb22da868aa7f1a29371d0c0df18ba0428dcbf380d3e5bb9b00c2df993b90",
+      "byte_originale": 2289,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/resa-finale.pdf",
+      "sha256_originale": "e1779df3e4ead0aa613eb447cbb67c672236f187ef897a12c1f2796c976407ff",
+      "byte_originale": 13946,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g5/resa-finale.pdf"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "b01/testo.md",
+      "sha256_originale": "fcfc58a063143234edff8073be7d72b3b2a385cb38baf319fa91cc8dc31596cc",
+      "byte_originale": 2447,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/testo.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot",
+      "file": "coordinamento.json",
+      "sha256_originale": "fc845cfa8e4030ca0eab04b8bc8082e7b5443965ab72f0f31658eae8dcb2a944",
+      "byte_originale": 2234,
+      "esito": "copia",
+      "copia": "lavoro/g6-tentativo-1-pacchetto/coordinamento.json",
+      "sha256_copia_ripulita": "fc845cfa8e4030ca0eab04b8bc8082e7b5443965ab72f0f31658eae8dcb2a944",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro",
+      "file": "fase1-log.txt",
+      "sha256_originale": "a583e0f21b3f1745dc6f5bab053b0187c7dedd96e1e8f4fde63f89e6fadef871",
+      "byte_originale": 46176,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g6/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro",
+      "file": "fase1-out.json",
+      "sha256_originale": "2024e0c00dff34c8cb5fe5bcdb329bf0bd30e2e673f26468418ff079f48ab908",
+      "byte_originale": 2123,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro",
+      "file": "fase2-log.txt",
+      "sha256_originale": "f8a1a529d54e58c4452492f6687894685f9e41e30b85701c94063c2f2bffc156",
+      "byte_originale": 1247552,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g6/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-lavoro",
+      "file": "fase2-out.json",
+      "sha256_originale": "2bcfb22da868aa7f1a29371d0c0df18ba0428dcbf380d3e5bb9b00c2df993b90",
+      "byte_originale": 2289,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/ISTRUZIONI-V.md",
+      "sha256_originale": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e",
+      "byte_originale": 2486,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/ISTRUZIONI-V.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/PERIMETRO.md",
+      "sha256_originale": "9a1581903c98f7491693e6f20cf919f62ce0fc1d89fc2a8fe841b89af5965175",
+      "byte_originale": 267,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/PERIMETRO.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/canone.md",
+      "sha256_originale": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418",
+      "byte_originale": 11370,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/canone.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/congelamento.json",
+      "sha256_originale": "ccc1cc08a131776ff4620f451668bed4b3de0464448c1a5dfb723079cfac16b8",
+      "byte_originale": 427,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/congelamento.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/fonte-circ-289.png",
+      "sha256_originale": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256",
+      "byte_originale": 550044,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/fonte-circ-289.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/fonte-ntc-298.png",
+      "sha256_originale": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1",
+      "byte_originale": 662464,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/fonte-ntc-298.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/input-confronto.json",
+      "sha256_originale": "bec3e5364c9c059c091e83c3d156cd29da081a2fff35d0946dd8a6b5ead9f4ea",
+      "byte_originale": 1532,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/input-confronto.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/input-fonte.json",
+      "sha256_originale": "1b55fb10ad4f8012ab0dca046fecb82b8964f61bff271eb98c723c79ae0232c1",
+      "byte_originale": 862,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/input-fonte.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/inventario.json",
+      "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+      "byte_originale": 1985,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/rapporto-g6.json",
+      "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+      "byte_originale": 908,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/resa-finale.pdf",
+      "sha256_originale": "e1779df3e4ead0aa613eb447cbb67c672236f187ef897a12c1f2796c976407ff",
+      "byte_originale": 13946,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g5/resa-finale.pdf"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "b01/testo.md",
+      "sha256_originale": "fcfc58a063143234edff8073be7d72b3b2a385cb38baf319fa91cc8dc31596cc",
+      "byte_originale": 2447,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-1-annullato/b01/testo.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
+      "file": "coordinamento.json",
+      "sha256_originale": "fc845cfa8e4030ca0eab04b8bc8082e7b5443965ab72f0f31658eae8dcb2a944",
+      "byte_originale": 2234,
+      "esito": "copia",
+      "copia": "lavoro/g6-tentativo-2-pacchetto/coordinamento.json",
+      "sha256_copia_ripulita": "fc845cfa8e4030ca0eab04b8bc8082e7b5443965ab72f0f31658eae8dcb2a944",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro",
+      "file": "fase1-log.txt",
+      "sha256_originale": "12e59ef5a28b5ddbd40a774c034a3d32651296381f3514a719d46bc9fe008120",
+      "byte_originale": 69740,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g6/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro",
+      "file": "fase1-out.json",
+      "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+      "byte_originale": 1985,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro",
+      "file": "fase2-log.txt",
+      "sha256_originale": "3622ab0f6050792978555483aacb8420acd36ed7c340f58992761d8c42279b33",
+      "byte_originale": 189500,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g6/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro",
+      "file": "fase2-out.json",
+      "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+      "byte_originale": 908,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "CONSEGNA-G7.md",
+      "sha256_originale": "534318e99ecec413e59fc6d982d4ae257c777f0f1a2306dd17b6744dde60bb75",
+      "byte_originale": 4361,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-1/CONSEGNA-G7.md",
+      "sha256_copia_ripulita": "534318e99ecec413e59fc6d982d4ae257c777f0f1a2306dd17b6744dde60bb75",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "chiusura.json",
+      "sha256_originale": "349899d37d593514306e7504d0e88c63a0cf5ce92fa150c78abd49c7e52b945c",
+      "byte_originale": 6483,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "decisione-applicazione-20261022.json",
+      "sha256_originale": "bcbcbe74c690600f98312a7325d1159270757462ead8c792837d612a2a9dc5aa",
+      "byte_originale": 2445,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-applicazione-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "decisione-g6-20261022.json",
+      "sha256_originale": "6dedc0401ffac8b32d12fcc574aa5c890163a61a3caa87c26a5c30d3e6a69d12",
+      "byte_originale": 1479,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "decisione-g6-rilievo-20261022.json",
+      "sha256_originale": "72ee7a2c594695cd762afea99a760000a3d100973ee09318637606248c6ab1de",
+      "byte_originale": 1315,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievo-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "esito-g6-tentativo-1-annullato.json",
+      "sha256_originale": "e3764919732f1f178c5dbb29215213859f19b3270c4dba7fde089bb197a886bd",
+      "byte_originale": 1255,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-1-annullato.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "esito-g6.json",
+      "sha256_originale": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
+      "byte_originale": 934,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "inventario-g6-b01.json",
+      "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+      "byte_originale": 1985,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "manifest-rilascio.json",
+      "sha256_originale": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+      "byte_originale": 12656,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "mappa-g5.json",
+      "sha256_originale": "6eb7d0298b143a4e44dbd21f95ee9cd96af8161d3a81b3934f49f5a1942fcfc8",
+      "byte_originale": 1804,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "ntc298-per-queste-600dpi.png",
+      "sha256_originale": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c",
+      "byte_originale": 62378,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/ntc298-per-queste-600dpi.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "procedura-congelata-r10.md",
+      "sha256_originale": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22",
+      "byte_originale": 51739,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "prova-NTC-873-CONDIZIONE.json",
+      "sha256_originale": "190f99b671c058bae735b4b31171bb024a04148686f10b44276d1d923709fba0",
+      "byte_originale": 1329,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/prova-NTC-873-CONDIZIONE.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "rapporto-g6-b01.json",
+      "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+      "byte_originale": 908,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "ricontrollo-g1-20261022.json",
+      "sha256_originale": "2ab08ee61cf31026b9af6629843121bd9233d06f2ceb2ceebdcb267aec2d9505",
+      "byte_originale": 807,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "riepilogo-meccanico.json",
+      "sha256_originale": "6b7d287e721a4a80bbfc9fec9c8e649d758c00ab4a55b7068fab847aafc7e5fa",
+      "byte_originale": 4321,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-1/riepilogo-meccanico.json",
+      "sha256_copia_ripulita": "6b7d287e721a4a80bbfc9fec9c8e649d758c00ab4a55b7068fab847aafc7e5fa",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "scheda.md",
+      "sha256_originale": "ff079fedb9f40554775e70763f2e95855a95ff1d7a253f619fb1d4ba000ae8ac",
+      "byte_originale": 6350,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-1/scheda.md",
+      "sha256_copia_ripulita": "ff079fedb9f40554775e70763f2e95855a95ff1d7a253f619fb1d4ba000ae8ac",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "sequenza-g6-tentativo-1-annullato.json",
+      "sha256_originale": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb",
+      "byte_originale": 2121,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-1-annullato.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "sequenza-g6.json",
+      "sha256_originale": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
+      "byte_originale": 1685,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
+      "file": "verbale.md",
+      "sha256_originale": "82d1db90ad0fa9520a17b7fd5bc8b119f3a1c2e9de4b7ad818f31f69850715bf",
+      "byte_originale": 6793,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-out",
+      "file": "G7-log.txt",
+      "sha256_originale": "11966d4a3eb9a84ef1a5c14fdf89095879ca6940711626688cfb0fbdf57f6395",
+      "byte_originale": 391038,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g7/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-out",
+      "file": "G7-out.json",
+      "sha256_originale": "62ea8b75791aeada55d09b44c1a26070fbd0eb00c8dca4bf72bd0c756135ae2c",
+      "byte_originale": 2734,
+      "esito": "copia",
+      "copia": "G7-tentativo-1-KO.json",
+      "sha256_copia_ripulita": "ea5b1b1a5496fa8ab59eaadc6725881d75461d6a9ae8304625bfc7256e30f005",
+      "sostituzioni": "redazione descritta in G7-tentativo-1-redazione.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "CONSEGNA-G7.md",
+      "sha256_originale": "dfce9fdc804376fdb62581eeef5dbb53235e243277862c5036a7e086adf8db29",
+      "byte_originale": 6245,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-2/CONSEGNA-G7.md",
+      "sha256_copia_ripulita": "dfce9fdc804376fdb62581eeef5dbb53235e243277862c5036a7e086adf8db29",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "G7-tentativo-1-KO.json",
+      "sha256_originale": "ea5b1b1a5496fa8ab59eaadc6725881d75461d6a9ae8304625bfc7256e30f005",
+      "byte_originale": 2709,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-KO.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "catalogo-congelato.md",
+      "sha256_originale": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48",
+      "byte_originale": 8671,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "chiusura.json",
+      "sha256_originale": "5c3484ce3d9a0dd5fae1143aeeb1cfd0a0afef5989f4fc80ce110c28202a652f",
+      "byte_originale": 7040,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "decisione-applicazione-20261022.json",
+      "sha256_originale": "bcbcbe74c690600f98312a7325d1159270757462ead8c792837d612a2a9dc5aa",
+      "byte_originale": 2445,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-applicazione-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "decisione-g6-20261022.json",
+      "sha256_originale": "6dedc0401ffac8b32d12fcc574aa5c890163a61a3caa87c26a5c30d3e6a69d12",
+      "byte_originale": 1479,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "decisione-g6-rilievo-20261022.json",
+      "sha256_originale": "72ee7a2c594695cd762afea99a760000a3d100973ee09318637606248c6ab1de",
+      "byte_originale": 1315,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievo-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "esito-g6-tentativo-1-annullato.json",
+      "sha256_originale": "e3764919732f1f178c5dbb29215213859f19b3270c4dba7fde089bb197a886bd",
+      "byte_originale": 1255,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-1-annullato.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "esito-g6.json",
+      "sha256_originale": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
+      "byte_originale": 934,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "inventario-g6-b01.json",
+      "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+      "byte_originale": 1985,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "manifest-rilascio-g7-tentativo-1.json",
+      "sha256_originale": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+      "byte_originale": 12656,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "manifest-rilascio.json",
+      "sha256_originale": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
+      "byte_originale": 13513,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-2.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "mappa-g5.json",
+      "sha256_originale": "6eb7d0298b143a4e44dbd21f95ee9cd96af8161d3a81b3934f49f5a1942fcfc8",
+      "byte_originale": 1804,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "ntc298-per-queste-600dpi.png",
+      "sha256_originale": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c",
+      "byte_originale": 62378,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/ntc298-per-queste-600dpi.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "procedura-congelata-r10.md",
+      "sha256_originale": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22",
+      "byte_originale": 51739,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "prova-NTC-873-CONDIZIONE.json",
+      "sha256_originale": "190f99b671c058bae735b4b31171bb024a04148686f10b44276d1d923709fba0",
+      "byte_originale": 1329,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/prova-NTC-873-CONDIZIONE.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "rapporto-g6-b01.json",
+      "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+      "byte_originale": 908,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "rettifica-g7-audit-01-20261022.json",
+      "sha256_originale": "8cceb1de0f5d802952fccd1398f85e0bfaaf43651f48b4aa051ce127ae6972ad",
+      "byte_originale": 3632,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/rettifica-g7-audit-01-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "ricontrollo-g1-20261022.json",
+      "sha256_originale": "032adc140418b7101486b5528ce0fa172eed5f1941729d6a381e1dc65d1f4bdf",
+      "byte_originale": 1909,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "riepilogo-meccanico.json",
+      "sha256_originale": "fa57cf0d258ed991c0fbb970f099b797b12df1d678ec4b2da93ae3cf6ebefda0",
+      "byte_originale": 5806,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-2/riepilogo-meccanico.json",
+      "sha256_copia_ripulita": "fa57cf0d258ed991c0fbb970f099b797b12df1d678ec4b2da93ae3cf6ebefda0",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "scheda.md",
+      "sha256_originale": "e0b190cc81095d7f385205a0451fd5dafc5f0f6deb3cdcbe52c3a8ab5e23481d",
+      "byte_originale": 7727,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-2/scheda.md",
+      "sha256_copia_ripulita": "e0b190cc81095d7f385205a0451fd5dafc5f0f6deb3cdcbe52c3a8ab5e23481d",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "sequenza-g6-tentativo-1-annullato.json",
+      "sha256_originale": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb",
+      "byte_originale": 2121,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-1-annullato.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "sequenza-g6.json",
+      "sha256_originale": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
+      "byte_originale": 1685,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
+      "file": "verbale.md",
+      "sha256_originale": "97acb48a536bcbd4d3924bf6f90a1c039a265ebb3644eebf13e5eb55601e9a44",
+      "byte_originale": 8608,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2-out",
+      "file": "G7-log.txt",
+      "sha256_originale": "7535ab288c36129e47c79527ff43aba065d93a694e4608d3960cdd85ffa1c309",
+      "byte_originale": 484772,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g7/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2-out",
+      "file": "G7-out.json",
+      "sha256_originale": "f0482d771eb21159c83d09d204704ba7f8128e418140d68481a4f93472d7ad57",
+      "byte_originale": 3097,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-KO.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "CONSEGNA-G7.md",
+      "sha256_originale": "883098c403b8a087e840f2e5d77561b4f4997dd382873e57f4b9b2c95976bb00",
+      "byte_originale": 8051,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-3/CONSEGNA-G7.md",
+      "sha256_copia_ripulita": "883098c403b8a087e840f2e5d77561b4f4997dd382873e57f4b9b2c95976bb00",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "G7-tentativo-1-KO.json",
+      "sha256_originale": "ea5b1b1a5496fa8ab59eaadc6725881d75461d6a9ae8304625bfc7256e30f005",
+      "byte_originale": 2709,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-KO.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "G7-tentativo-2-KO.json",
+      "sha256_originale": "f0482d771eb21159c83d09d204704ba7f8128e418140d68481a4f93472d7ad57",
+      "byte_originale": 3097,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-KO.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "G7-tentativo-2-esecuzione.json",
+      "sha256_originale": "634b1b29fab744bf1635c1e9f3b188fc422b6a28c3a6f7481cb0c49332959711",
+      "byte_originale": 1059,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-esecuzione.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "catalogo-congelato.md",
+      "sha256_originale": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48",
+      "byte_originale": 8671,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "chiusura.json",
+      "sha256_originale": "11de99ac701f1d5b117b1d4a4d44f31a86a5cb2146ee3ae5ae76b9ccd7323779",
+      "byte_originale": 7224,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "decisione-applicazione-20261022.json",
+      "sha256_originale": "bcbcbe74c690600f98312a7325d1159270757462ead8c792837d612a2a9dc5aa",
+      "byte_originale": 2445,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-applicazione-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "decisione-g6-20261022.json",
+      "sha256_originale": "6dedc0401ffac8b32d12fcc574aa5c890163a61a3caa87c26a5c30d3e6a69d12",
+      "byte_originale": 1479,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "decisione-g6-rilievo-20261022.json",
+      "sha256_originale": "72ee7a2c594695cd762afea99a760000a3d100973ee09318637606248c6ab1de",
+      "byte_originale": 1315,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievo-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "esito-g6-tentativo-1-annullato.json",
+      "sha256_originale": "e3764919732f1f178c5dbb29215213859f19b3270c4dba7fde089bb197a886bd",
+      "byte_originale": 1255,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-1-annullato.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "esito-g6.json",
+      "sha256_originale": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
+      "byte_originale": 934,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "inventario-g6-b01.json",
+      "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+      "byte_originale": 1985,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "log-g6/g6-tentativo-1-annullato-fase1-log.txt",
+      "sha256_originale": "0909e0bd6ef6cf4e5e06014db510496d371f985c90cbfcfaa6f6812891995a5c",
+      "byte_originale": 23154,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-1-annullato-fase1-log.txt"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "log-g6/g6-tentativo-1-annullato-fase2-log.txt",
+      "sha256_originale": "78748d5ff37fe176002347653accdf5a672d57d19be0e78a574d503390a6a4b4",
+      "byte_originale": 623707,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-1-annullato-fase2-log.txt"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "log-g6/g6-tentativo-2-fase1-log.txt",
+      "sha256_originale": "83cf9d5443d9b0ecac0231859592bd35bbebaba82464267e6375e534f4c2db55",
+      "byte_originale": 34629,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase1-log.txt"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "log-g6/g6-tentativo-2-fase2-log.txt",
+      "sha256_originale": "80de8eca9c69efce5086ce68315279892f6fcdcdfa869bb9702457a51202756e",
+      "byte_originale": 94518,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase2-log.txt"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "log-g6/indice.json",
+      "sha256_originale": "12d3d6d79012c6927c946a3ba755459d97187183a62e16cd01c7eeb1016accd3",
+      "byte_originale": 6635,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "manifest-rilascio-g7-tentativo-1.json",
+      "sha256_originale": "189f0306df5507bbb64c8c90614bd385d4d0d17398efac7211fb023f61ab4b7e",
+      "byte_originale": 12656,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "manifest-rilascio-g7-tentativo-2.json",
+      "sha256_originale": "1ee7d16b4e984196af24fb9a0835e36b272be55473e2d64cc310a8845e67bd10",
+      "byte_originale": 13513,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-2.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "manifest-rilascio.json",
+      "sha256_originale": "7f1bc9eb9e4cc3bfaeb58437df98a039d02620c998903bc80fb7dc5cacbd5146",
+      "byte_originale": 15250,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-3.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "mappa-g5.json",
+      "sha256_originale": "6eb7d0298b143a4e44dbd21f95ee9cd96af8161d3a81b3934f49f5a1942fcfc8",
+      "byte_originale": 1804,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "ntc298-per-queste-600dpi.png",
+      "sha256_originale": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c",
+      "byte_originale": 62378,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/ntc298-per-queste-600dpi.png"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "procedura-congelata-r10.md",
+      "sha256_originale": "bc54cd41effc1e2aaf3f20f0dd75b99b4a3279df787a2eb35faaec7261b41b22",
+      "byte_originale": 51739,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelata-r10.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "prova-NTC-873-CONDIZIONE.json",
+      "sha256_originale": "190f99b671c058bae735b4b31171bb024a04148686f10b44276d1d923709fba0",
+      "byte_originale": 1329,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/prove-c/prova-NTC-873-CONDIZIONE.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "rapporto-g6-b01.json",
+      "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
+      "byte_originale": 908,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "rettifica-g7-audit-01-20261022.json",
+      "sha256_originale": "bc4bda7baa412cfbe8e97e40e47e8b19d5a2dd29b4775ab4c6b8d7f036d18c8d",
+      "byte_originale": 3902,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/rettifica-g7-audit-01-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "ricontrollo-g1-20261022.json",
+      "sha256_originale": "032adc140418b7101486b5528ce0fa172eed5f1941729d6a381e1dc65d1f4bdf",
+      "byte_originale": 1909,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "riepilogo-meccanico.json",
+      "sha256_originale": "586f286df76bd6373bfa64e8edf526fbaa952965447f8b33ef613b922cb488a2",
+      "byte_originale": 8178,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-3/riepilogo-meccanico.json",
+      "sha256_copia_ripulita": "586f286df76bd6373bfa64e8edf526fbaa952965447f8b33ef613b922cb488a2",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "scheda.md",
+      "sha256_originale": "e360f61ba5c48909592b801467d1ab4ad17fc908a97ca05f853e3e5180bc8946",
+      "byte_originale": 9292,
+      "esito": "copia",
+      "copia": "lavoro/g7-tentativo-3/scheda.md",
+      "sha256_copia_ripulita": "e360f61ba5c48909592b801467d1ab4ad17fc908a97ca05f853e3e5180bc8946",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "sequenza-g6-tentativo-1-annullato.json",
+      "sha256_originale": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb",
+      "byte_originale": 2121,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-1-annullato.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "sequenza-g6.json",
+      "sha256_originale": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
+      "byte_originale": 1685,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
+      "file": "verbale.md",
+      "sha256_originale": "01b6a3cb94f8de74738949b0e5b9ffbcff25448fe3d08441d0db8eb00944e3e5",
+      "byte_originale": 9411,
+      "esito": "uguale_a_versione_storica",
+      "riferimento": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3-out",
+      "file": "G7-log.txt",
+      "sha256_originale": "3e5e754d815864594a30384332f965b66c36ce317e5a5fafd5d91ede474348b6",
+      "byte_originale": 500120,
+      "esito": "indicizzato_in_log",
+      "riferimento": "log-g7/indice.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3-out",
+      "file": "G7-out.json",
+      "sha256_originale": "501f7b75b15260d9a22f0b8ada3e8c12553dc799d262319dae62d378dec7ee09",
+      "byte_originale": 3832,
+      "esito": "uguale_al_file_del_dossier",
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-3-KO.json"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "haiku-log.stream.jsonl",
+      "sha256_originale": "6d76988218da2b431709162f6b87048bdb754b4a8b584b3cf4acd75ba607d821",
+      "byte_originale": 2646028,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/prova-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "48b5ff439a9a82b4d5c5984956e56cc208f0ab89c1252affc9fde97c68aa24bb",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 8
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 1
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto",
+      "sha256_dopo_omissione_payload": "12fe2cebcbd864b8b1e421ca5b02221b564ced725631920ef610a42d5be69687"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "haiku-result.txt",
+      "sha256_originale": "6b8da0e12fa8b81c306c50f763f4fe25b36d1da62eaa2d64574520177ce4f710",
+      "byte_originale": 4512,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/prova-haiku-result.txt",
+      "sha256_copia_ripulita": "1727c55d2fc6598d34556e35b1c844c33a8a2a04ec16d27968f5af7954c2065d",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase1-haiku-stream.jsonl",
+      "sha256_originale": "ce061441b88c676c4eaedf5fb9974ee424b5ca14cca693784aa5d6b052dec859",
+      "byte_originale": 2702194,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase1-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "aa7784f3cdc168c9125ebf4f9db27539f68816bca8658800232983bc14ac1d2b",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 17
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 1
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto",
+      "sha256_dopo_omissione_payload": "d8c5fcb3195fbdafafe34ab51f334451f5c7f7780c290d520dcec12db6923013"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase1-result.txt",
+      "sha256_originale": "93fc75957df7ae5b22ee6624808677250d028fd629b76c89d855595887ccf3b6",
+      "byte_originale": 7474,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase1-result.txt",
+      "sha256_copia_ripulita": "93fc75957df7ae5b22ee6624808677250d028fd629b76c89d855595887ccf3b6",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase2-haiku-stream.jsonl",
+      "sha256_originale": "4d590cafe74556df4e1b035fab0ff19e087507d55e718842f7ded6bd2ab63c1e",
+      "byte_originale": 2710808,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase2-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "8f320a179b574c9e87f4e604cbfc8f6d593341945f738d26ec55c531d233eda3",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 20
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 1
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto",
+      "sha256_dopo_omissione_payload": "547c991af22bd61b98e7467832fb4153fdf07a239015f02a0f48cfac2f71f126"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase2-result.txt",
+      "sha256_originale": "03419f9e81e1fbf983c11af2b5e93d72198ebf2a3e0f7a52a72bc114619545eb",
+      "byte_originale": 1712,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase2-result.txt",
+      "sha256_copia_ripulita": "c74793644190a9b3b57d7f69979f0fcbe6a3ad60cad691215d71ce39c62e2433",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto"
+    },
+    {
+      "cartella": "<temp>/g6-giro2-fase1-terra-ko",
+      "file": "fase1-log.txt",
+      "sha256_originale": "83ad843c77c07c330bfd726948fa3d6bf5ebdeb74acc5df18ab916a9eeb2faeb",
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-fase1-controllo-ko/fase1-log.txt",
+      "sha256_testo_decodificato_prima_delle_ripuliture": "d8b5c149bbd3ea2ddd0b27f2f3c875331aa17cc5d3d1e3dd226267b7fdc4ae36",
+      "sha256_copia_ripulita": "520d6496ff5b11423b27b8c9d9dd65137d3709f88e701dae27289dbb1ae7c94b",
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 3
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 2
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "fase 1 Terra giro 2 KO al controllo log (PNG non aperte)"
+    },
+    {
+      "cartella": "<temp>/g6-giro2-fase1-terra-ko",
+      "file": "fase1-out.json",
+      "sha256_originale": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-fase1-controllo-ko/fase1-out.json",
+      "sha256_copia_ripulita": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase1-haiku.stream.jsonl",
+      "sha256_originale": "5c6c185e985775e1bf37d5bac6e6151f41261332fb95c9f3cbbc886c56c53d52",
+      "byte_originale": 2693769,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase1-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "cea250c8435d2881352b47a2960ea2e02a4133a83b43f130909f1d6406f83080",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 1
+        }
+      ],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase2-haiku.stream.jsonl",
+      "sha256_originale": "dd5e19e0232b3c0b7bef50aac221ce4bc9cf4b684bc859a9c51aa8343921c7b0",
+      "byte_originale": 2698328,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase2-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "8eb5f53fba87d13473163a52d1d747b98e195613a97a926209c1f1478f83a9a8",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 1
+        }
+      ],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase1-result.txt",
+      "sha256_originale": "c6fe485e4d248c5a2e9019aff8cd9e5369e6866f6f9feba7643192212eb51f5d",
+      "byte_originale": 6562,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase1-result.txt",
+      "sha256_copia_ripulita": "c6fe485e4d248c5a2e9019aff8cd9e5369e6866f6f9feba7643192212eb51f5d",
+      "sostituzioni": [],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "fase2-result.txt",
+      "sha256_originale": "83165d2b047e7c31757115ae1c228bbe4728ef1a982824a3409f829244b1d34a",
+      "byte_originale": 2817,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/fase2-result.txt",
+      "sha256_copia_ripulita": "83165d2b047e7c31757115ae1c228bbe4728ef1a982824a3409f829244b1d34a",
+      "sostituzioni": [],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-haiku-g6r2-lavoro",
+      "file": "rapporto-g6-originale-V.json",
+      "sha256_originale": "40136f169a5fc609ebfc28e9a1856b1cd4a6c33e288c946535fb3c08546c384a",
+      "byte_originale": 1257,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku-sessione-unica/rapporto-g6-originale-V.json",
+      "sha256_copia_ripulita": "40136f169a5fc609ebfc28e9a1856b1cd4a6c33e288c946535fb3c08546c384a",
+      "sostituzioni": [],
+      "omissioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku sessione unica (session_id 8df3e30c-9434-42c3-a734-b79ec154c27e); escape JSON \\t/\\n prima di rapporto-g6.json allineati alle copie gia' validate."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+Il tuo ultimo messaggio contiene solo coordinate di ridimensionamento delle immagini e nessuna richiesta, quindi ho proseguito con la verifica già avviata. Le due immagini le ho aperte con Read nel turno precedente.
+
+**Pagina NTC (fonte-ntc-298.png)**: ho visto l'immagine. È la pagina 294 del Supplemento ordinario n. 8 alla G.U. del 20-2-2018, con il § 8.7.3 "COSTRUZIONI MISTE" in fondo alla pagina. Frasi lette dall'immagine:
+- «Alcune tipologie di costruzioni esistenti possono essere classificate come miste. Situazioni ricorrenti sono:»
+- «costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui sistema strutturale (per esempio, in c.a. o acciaio) sia interconnesso con quello preesistente in muratura.»
+- «Per queste situazioni è necessario prevedere modellazioni che tengano in considerazione le particolarità strutturali identificate e l'interazione tra elementi strutturali diversi per materiale e rigidezza»
+
+**Pagina Circolare (fonte-circ-289.png)**: ho visto l'immagine. È la pagina 285 del Supplemento ordinario n. 5 alla G.U. dell'11-2-2019, con il § C8.7.3 "COSTRUZIONI MISTE" a metà pagina. Frasi lette dall'immagine:
+- «L'interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata di quella delle costruzioni con struttura di caratteristiche omogenee»
+- «L'analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi strutturali realizzati con i diversi materiali utilizzati»
+- «Attenzione deve poi essere rivolta alla verifica delle connessioni tra elementi di diverso materiale»
+
+L'immagine della Circolare contiene anche C8.7.4 e le sezioni C8.7.2.4.x, che il markdown non riporta. Sono fuori dallo scopo del file, quindi non le conto come differenze.
+
+**Confronto con il markdown**: ho letto il file. Ho confrontato le tre voci puntate, il paragrafo conclusivo della Norma, i due paragrafi di C8.7.3 e la frase finale sulle connessioni. Corrispondono all'immagine. Non ho trovato omissioni, aggiunte o errori di sostanza.
+
+**Limite sugli SHA-256**: non posso calcolare gli hash. Gli strumenti consentiti per questo compito sono solo Read, quindi non ho potuto verificare i valori attesi. Il confronto è stato fatto solo sul contenuto visivo.
+
+```json
+{
+  "modello_dichiarato": "claude-haiku-5-5",
+  "pagina_ntc": {
+    "visto": true,
+    "frasi_lette": [
+      "Alcune tipologie di costruzioni esistenti possono essere classificate come miste. Situazioni ricorrenti sono:",
+      "costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui sistema strutturale (per esempio, in c.a. o acciaio) sia interconnesso con quello preesistente in muratura.",
+      "Per queste situazioni è necessario prevedere modellazioni che tengano in considerazione le particolarità strutturali identificate e l'interazione tra elementi strutturali diversi per materiale e rigidezza"
+    ],
+    "note": "Supplemento ordinario n. 8 alla G.U. del 20-2-2018, Serie generale n. 42, p. 294. § 8.7.3 COSTRUZIONI MISTE, in fondo alla pagina."
+  },
+  "pagina_circ": {
+    "visto": true,
+    "frasi_lette": [
+      "L'interpretazione del comportamento delle costruzioni miste e la relativa modellazione è in generale più complicata di quella delle costruzioni con struttura di caratteristiche omogenee",
+      "L'analisi statica non lineare può essere eseguita se è disponibile un modello in grado di simulare, per gli elementi strutturali realizzati con i diversi materiali utilizzati",
+      "Attenzione deve poi essere rivolta alla verifica delle connessioni tra elementi di diverso materiale"
+    ],
+    "note": "Supplemento ordinario n. 5 alla G.U. dell'11-2-2019, Serie generale n. 35, p. 285. § C8.7.3 COSTRUZIONI MISTE a metà pagina. La pagina contiene anche C8.7.4 e C8.7.2.4.x, non presenti nel markdown e fuori dallo scopo."
+  },
+  "confronto_md": {
+    "esito": "nessuna differenza di sostanza",
+    "differenze": []
+  },
+  "sha_png_dichiarati": {
+    "fonte-ntc-298.png": {"atteso": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1", "verificato": false, "motivo": "calcolo sha256 non eseguibile con gli strumenti consentiti (solo Read)"},
+    "fonte-circ-289.png": {"atteso": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256", "verificato": false, "motivo": "calcolo sha256 non eseguibile con gli strumenti consentiti (solo Read)"}
+  }
+}
+```

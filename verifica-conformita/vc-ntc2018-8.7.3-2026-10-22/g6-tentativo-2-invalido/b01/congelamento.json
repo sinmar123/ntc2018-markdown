@@ -1,0 +1,9 @@
+{
+  "versione": 1,
+  "data_utc": "2026-10-22T05:55:17.329663+00:00",
+  "firma": "CDX, Codex gpt-5.6-terra",
+  "inventario_sha256": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
+  "esito_provvisorio": "LEGGIBILE",
+  "criterio_canone_sha256": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418",
+  "manifest_fonte_sha256": "1b55fb10ad4f8012ab0dca046fecb82b8964f61bff271eb98c723c79ae0232c1"
+}

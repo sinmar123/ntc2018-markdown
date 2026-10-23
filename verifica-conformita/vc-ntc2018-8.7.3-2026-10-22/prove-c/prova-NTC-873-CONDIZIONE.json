@@ -1,0 +1,52 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "data": "2026-10-22",
+  "rilievo": "NTC-873-CONDIZIONE",
+  "fonte": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf, pagina fisica 298",
+  "sha256_fonte": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46",
+  "livello_vettoriale": [
+    {
+      "y_pt": 662.3,
+      "x_pt": 82.3,
+      "testo": "Per queste situazioni è necessario prevedere modellazioni che tengano in considerazione le particolarità strutturali identificate e ",
+      "font": [
+        "PalatinoLinotype"
+      ]
+    },
+    {
+      "y_pt": 672.5,
+      "x_pt": 82.3,
+      "testo": "l’interazione tra elementi strutturali diversi per materiale e rigidezza, ricorrendo, ove necessario, a metodi di analisi non lineare ",
+      "font": [
+        "PalatinoLinotype"
+      ]
+    },
+    {
+      "y_pt": 682.6,
+      "x_pt": 82.3,
+      "testo": "di comprovata validità. ",
+      "font": [
+        "PalatinoLinotype"
+      ]
+    },
+    {
+      "y_pt": 693.2,
+      "x_pt": 82.3,
+      "testo": " ",
+      "font": [
+        "TimesNewRoman"
+      ]
+    }
+  ],
+  "ritaglio": {
+    "file": "ntc298-per-queste-600dpi.png",
+    "clip_pt": [
+      75,
+      658,
+      560,
+      690
+    ],
+    "dpi": 600,
+    "sha256": "30ffb3e68b132b32c74db12e50150c5808b99bed6d7315a40b7dabf52ef8984c"
+  }
+}

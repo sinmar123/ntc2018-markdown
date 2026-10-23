@@ -1,0 +1,54 @@
+{
+ "pdf": "verifica-conformita/fonte-ufficiale/GU-2018-42-SO8-DM-17-01-2018.pdf",
+ "pagine": "298-298",
+ "target": [
+  "cap08/8.7.3-progettazione-interventi-costruzioni-miste.md"
+ ],
+ "nota": "Candidati da vagliare: non sono correzioni approvate.",
+ "capoversi_fonte": [
+  {
+   "pagina": 298,
+   "y_pt": 574.1,
+   "x_pt": 82.3,
+   "criterio": "inizio",
+   "inizio": "8.7.3. COSTRUZIONI MISTE"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 586.9,
+   "x_pt": 82.3,
+   "criterio": "rientro",
+   "inizio": "Alcune tipologie di costruzioni esistenti possono essere classificate come miste"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 599.6,
+   "x_pt": 82.3,
+   "criterio": "interlinea",
+   "inizio": "– costruzioni le cui pareti perimetrali siano in muratura portante e la cui stru"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 620.8,
+   "x_pt": 82.3,
+   "criterio": "rientro",
+   "inizio": "– costruzioni in muratura su cui gravino sopraelevazioni aventi sistema struttur"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 642.0,
+   "x_pt": 82.3,
+   "criterio": "rientro",
+   "inizio": "– costruzioni in muratura che abbiano subito ampliamenti planimetrici, il cui si"
+  },
+  {
+   "pagina": 298,
+   "y_pt": 662.3,
+   "x_pt": 82.3,
+   "criterio": "rientro",
+   "inizio": "Per queste situazioni è necessario prevedere modellazioni che tengano in conside"
+  }
+ ],
+ "capoversi": [],
+ "enfasi": []
+}
