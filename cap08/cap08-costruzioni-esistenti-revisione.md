@@ -2,7 +2,7 @@
 
 ## 2026-10-23 - VC-OK del § 8.7.3 con C8.7.3
 
-VC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; alida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.
+VC-OK del solo cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot 1a400982…d4f08. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 in sessione unica (PNG aperti; alida-g6 9 ID, 0 rilievi; session_id 8df3e30c-…); CDX Codex gpt-6.1-sol per i G7 tentativi 1-6 (tutti KO per ERR-AUDIT, chiusi documentali); OR/DeepSeek deepseek/deepseek-v4-pro per il G7 di prova tentativo 7 (OK, zero rilievi; autorizzato da Sandro, non cambio stabile di procedura). giro_g6 2 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.
 
 Prossima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.
 
