@@ -1,13 +1,13 @@
 {
   "firma": "GBOT-verifica-ntc",
   "scope": "8.7.3",
-  "data": "2026-10-22",
+  "data": "2026-10-23",
   "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest. I log e i giudizi dei G6 e dei G7 citano per nome e impronta i file delle cartelle di lavoro (confronto iniziale, pacchetti G6, cartelle dei G7), che stanno fuori dal repository. Decisione di Sandro «Sì, sistema tutto e rifai il G7 con Sol»: chiudere in una volta la famiglia di rilievi G7-AUDIT-03, 04 e 05.",
   "metodo": "Per ogni file delle cartelle di lavoro: se l'impronta coincide con un file del dossier, con una versione nella storia git o con un log gia' indicizzato, l'indice lo dichiara senza copiarlo; altrimenti il file e' copiato in lavoro/, i file di testo con i percorsi assoluti sostituiti da segnaposto (ripulitura-log.py, funzione percorsi), i binari senza modifiche.",
   "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
   "conteggi": {
     "uguale_al_file_del_dossier": 87,
-    "copia": 19,
+    "copia": 21,
     "uguale_a_versione_storica": 15,
     "indicizzato_in_log": 7
   },
@@ -1091,6 +1091,47 @@
       "byte_originale": 3832,
       "esito": "uguale_al_file_del_dossier",
       "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-3-KO.json"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-gbot-r3-lavoro",
+      "file": "fase1-log.txt",
+      "sha256_originale": "83ad843c77c07c330bfd726948fa3d6bf5ebdeb74acc5df18ab916a9eeb2faeb",
+      "byte_originale": 43888,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-fase1-controllo-ko/fase1-log.txt",
+      "sha256_copia_ripulita": "3decf5bd262a013933664c50835254d17da29e8f954e604803c4e1749f1e8b88",
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 3
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 2
+        }
+      ],
+      "omissioni": [],
+      "tipo": "testo UTF-8 ripulito da UTF-16 LE",
+      "nota": "G6 giro 2 fase 1: controllo log KO (PNG non aperte)"
+    },
+    {
+      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-gbot-r3-lavoro",
+      "file": "fase1-out.json",
+      "sha256_originale": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
+      "byte_originale": 1885,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-fase1-controllo-ko/fase1-out.json",
+      "sha256_copia_ripulita": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
+      "sostituzioni": [],
+      "tipo": "JSON UTF-8",
+      "nota": "inventario fase 1 G6 giro 2 (non validato come blocco: controllo log KO)"
     }
   ]
 }

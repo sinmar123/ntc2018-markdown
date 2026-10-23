@@ -1,0 +1,30 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "gate": "G6",
+  "fase": "1",
+  "esito_controllo_log": "KO",
+  "motivo": "Il log UTF-16 della fase 1 non dimostra che le immagini PNG siano state aperte o lette. Comandi exec: solo Get-ChildItem (elenco nomi) e Get-Content dei file di testo ISTRUZIONI-V.md, PERIMETRO.md, canone.md, input-fonte.json. Nessun comando apre fonte-ntc-298.png o fonte-circ-289.png. L inventario dichiara «Immagine PNG aperta e vista visivamente» e cita frasi, ma senza traccia di lettura nel log: lo stesso tipo di carenza segnalata da Sol in G7-AUDIT-07. Per la consegna di Sandro («Se il controllo fallisce, FERMATI») C non avvia rivela, fase 2 né G7.",
+  "modello": "gpt-5.6-terra",
+  "sandbox": "read-only",
+  "ragionamento": "high",
+  "sessione": "01a1674f-d8dd-7980-8651-0f82e4827b48",
+  "token": "34.159",
+  "inizio": "2026-10-23T07:50:46+02:00",
+  "termine": "2026-10-23T07:52:30+02:00",
+  "log_sha256": "83ad843c77c07c330bfd726948fa3d6bf5ebdeb74acc5df18ab916a9eeb2faeb",
+  "inventario_sha256": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
+  "valida_inventario": "OK (7 elementi, 2 pagine) — schema formale; non prova la lettura visiva",
+  "file_fuori_blocco": "nessuno (AGENTS.md, USER.md, .codex, SKILL.md, plugins: 0 occorrenze nel corpo del log dopo il prompt)",
+  "exec_nel_log": [
+    "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-ChildItem -LiteralPath . -Force |  Select-Object -ExpandProperty Name' in C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.7.3-261023-gbot-r3\\b01",
+    "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"Get-Content -Raw -LiteralPath  'ISTRUZIONI-V.md','PERIMETRO.md','canone.md','input-fonte.json'\" in  C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.7.3-261023-gbot-r3\\b01"
+  ],
+  "png_nel_pacchetto": {
+    "fonte-ntc-298.png": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1",
+    "fonte-circ-289.png": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256"
+  },
+  "prossimo": "decisione di Sandro: come ottenere nel log la prova di lettura delle immagini (senza rilanciare da solo)",
+  "rilancio": "nessuno senza decisione di Sandro"
+}

@@ -1,0 +1,73 @@
+{
+  "firma": "GBOT-verifica-ntc",
+  "scope": "8.7.3",
+  "data": "2026-10-23",
+  "decisione": {
+    "decisore": "Sandro",
+    "data_ora": "2026-10-23T07:50:24+02:00",
+    "testo": "«Rifai il G6 con Terra sulle immagini, poi G7 con Sol»"
+  },
+  "rilievi_chiusi": {
+    "G7-AUDIT-06": {
+      "classe": "ERR-AUDIT",
+      "esito": "accettato: il G6 tentativo 2 è invalido; si rifà il G6 con Terra sulle immagini (giro_g6 2)",
+      "prova": "G7-tentativo-4-KO.json; log-g6/g6-tentativo-2-fase2-log.txt documenta letture della documentazione dei plugin di Codex fuori dal blocco"
+    },
+    "G7-AUDIT-07": {
+      "classe": "ERR-AUDIT",
+      "esito": "accettato: i log non dimostrano lettura visiva integrale; il nuovo G6 deve dichiarare per ogni pagina di averla vista e citare 1-2 frasi lette dall'immagine",
+      "prova": "G7-tentativo-4-KO.json"
+    },
+    "G7-AUDIT-08": {
+      "classe": "ERR-AUDIT",
+      "esito": "chiuso con le ore delle autorizzazioni, già note dalla chat, riportate qui sotto",
+      "prova": "autorizzazioni_precedenti (questo file)"
+    }
+  },
+  "autorizzazioni_precedenti": [
+    {
+      "tentativo_g7": 2,
+      "decisore": "Sandro",
+      "data_ora": "2026-10-22T10:08:00+02:00",
+      "testo": "«Sì, correggi e rifai il G7 con Sol»",
+      "fonte": "chat, widget/risposta"
+    },
+    {
+      "tentativo_g7": 3,
+      "decisore": "Sandro",
+      "data_ora": "2026-10-22T10:49:00+02:00",
+      "testo": "«Sì, aggiungi i log e rifai il G7 con Sol»",
+      "fonte": "chat, widget/risposta"
+    },
+    {
+      "tentativo_g7": 4,
+      "decisore": "Sandro",
+      "data_ora": "2026-10-22T11:08:00+02:00",
+      "testo": "«Sì, sistema tutto e rifai il G7 con Sol»",
+      "fonte": "chat, widget/risposta"
+    },
+    {
+      "tentativo_g7": 4,
+      "decisore": "Sandro",
+      "data_ora": "2026-10-22T12:04:00+02:00",
+      "testo": "«Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol»",
+      "fonte": "chat, widget/risposta",
+      "nota": "precisazione operativa sullo stesso lotto del tentativo 4"
+    }
+  ],
+  "oggetto": "G6 giro 1 tentativo 2 invalidato da Sol (G7-AUDIT-06 e G7-AUDIT-07). Non è rettifica documentale (§ 8): si rifà il G6 da capo, alla cieca, con gpt-5.6-terra, sulle immagini PNG delle pagine Gazzetta (NTC 298 e Circolare 289), nello stesso snapshot del target. giro_g6 passa a 2 (su 3): il blocco non era stato annullato all'atto dell'invalidazione, quindi il contatore aumenta.",
+  "archivio_tentativo_2": {
+    "cartella": "g6-tentativo-2-invalido/b01",
+    "sequenza": "sequenza-g6-tentativo-2-invalido.json",
+    "esito": "esito-g6-tentativo-2-invalido.json",
+    "nota": "Sol (G7 tentativo 4) ha giudicato invalido il blocco per letture fuori blocco (documentazione plugin Codex) e per mancanza di prova di lettura visiva delle pagine Gazzetta. Le prove C (prove-c/) restano: riguardano la chiusura del rilievo NTC-873-CONDIZIONE, già deciso."
+  },
+  "contatore": "giro_g6 = 2",
+  "g7": "con gpt-6.1-sol, solo se il nuovo G6 è a zero ERR-MD, zero ERR-AUDIT e zero DUBBIO, e il controllo del log (modello Terra, immagini aperte, nessun file fuori blocco) è OK",
+  "controllo_modello": "-m gpt-5.6-terra -c model_reasoning_effort=high a ogni invocazione, ripresa compresa; sandbox read-only (-s per exec; per resume -c sandbox_mode=\"read-only\"); modello effettivo letto dal log UTF-16 di ogni invocazione",
+  "vincoli_al_verificatore": [
+    "aprire esplicitamente le immagini fonte-ntc-298.png e fonte-circ-289.png",
+    "per ogni pagina dichiarare di averla vista e citare 1-2 frasi lette dall'immagine (non testo stampato da script)",
+    "vietato aprire AGENTS.md, USER.md, documentazione dei plugin di Codex, qualsiasi file fuori dalla cartella del blocco"
+  ]
+}

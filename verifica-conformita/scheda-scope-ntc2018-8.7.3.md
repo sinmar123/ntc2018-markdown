@@ -15,12 +15,12 @@ file_markdown: [cap08/8.7.3-progettazione-interventi-costruzioni-miste.md]
 righe_registro: ["8.7.3"]
 base_git: 33f9a3d
 snapshot_sha256: 1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f08
-giro_g6: 1
+giro_g6: 2
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
-attesa_decisione: [G7-AUDIT-06, G7-AUDIT-07, G7-AUDIT-08]
-prossimo_passo: "Decisione di Sandro sui rilievi G7-AUDIT-06, 07 e 08 del G7 tentativo 4."
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: attesa}
+attesa_decisione: [controllo-log-g6-giro2-fase1]
+prossimo_passo: "Decisione di Sandro: il controllo del log della fase 1 del G6 giro 2 è KO (PNG non aperte nel log); nessun rilancio autonomo."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -141,3 +141,17 @@ Il 2026-10-22, dalle 12:23 alle 12:29 (ora di Roma), CDX con Codex gpt-6.1-sol (
 Il giudizio è in `vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-4-KO.json`, l'esecuzione in `G7-tentativo-4-esecuzione.json`, la copia ripulita del log in `log-g7/g7-tentativo-4-log.txt` con `log-g7/indice-post-g7.json`. Nessun rilancio, nessuna registrazione: serve la decisione di Sandro. G7-AUDIT-06 e G7-AUDIT-07 toccano la validità del G6 e non sono correzioni documentali.
 
 Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4 KO.
+
+## Decisione 2026-10-23 e G6 giro 2
+
+- Sandro (2026-10-23T07:50:24+02:00): «Rifai il G6 con Terra sulle immagini, poi G7 con Sol» (`decisione-g6-rilievi-20261023.json`). Chiude G7-AUDIT-06, 07 e 08. Per 08 riporta le ore delle autorizzazioni ai G7 tentativi 2 (10:08), 3 (10:49) e 4 (11:08 e 12:04 del 2026-10-22).
+- Il G6 tentativo 2 (giro 1) è archiviato in `g6-tentativo-2-invalido/` con nota: Sol lo ha invalidato per AUDIT-06/07. `giro_g6` passa a 2. Le prove C restano.
+- Nuovo pacchetto in preparazione con le immagini PNG delle pagine Gazzetta (NTC 298, Circolare 289). Vincoli a V: aprire le immagini, citare frasi lette da esse; vietato AGENTS.md, USER.md, documentazione plugin e ogni file fuori dalla cartella del blocco.
+
+Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2.
+
+## G6 giro 2, fase 1, controllo log KO
+
+Il 2026-10-23, dalle 07:50 alle 07:52 (ora di Roma), CDX con Codex gpt-5.6-terra (ragionamento high, sandbox read-only, contesto nuovo, 34.159 token) ha prodotto un inventario di 7 elementi (alida-inventario schema OK). Il controllo meccanico del log UTF-16 da parte di C è **KO**: nei comandi compaiono solo l'elenco della cartella e la lettura dei file di testo; **nessun comando apre** onte-ntc-298.png o onte-circ-289.png. L'inventario dichiara di aver visto le immagini e cita frasi, ma senza traccia nel log. Nessun file fuori blocco (AGENTS.md, plugin: assenti). Per la consegna di Sandro C si ferma: niente rivela, niente fase 2, niente G7. Dettaglio in controllo-log-g6-giro2-fase1.json; log e inventario in lavoro/g6-giro2-fase1-controllo-ko/.
+
+Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 fase 1 controllo KO.
