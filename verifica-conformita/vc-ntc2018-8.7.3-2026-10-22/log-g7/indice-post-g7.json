@@ -33,9 +33,9 @@
           "occorrenze": 14
         }
       ],
-      "sha256_copia_ripulita": "0b2260b2e3a29deb47a61700bf61aeb251524e5b448010cb436a3ff3ae71a7e0",
+      "sha256_copia_ripulita": "929fd52752763767949b5665e7a2ae989040c7713cd4de07ca131bd739ab654d",
       "codifica_copia": "UTF-8 senza BOM",
-      "byte_copia": 397981,
+      "byte_copia": 393183,
       "nella_copia": {
         "modello": "gpt-6.1-sol",
         "sandbox": "read-only",

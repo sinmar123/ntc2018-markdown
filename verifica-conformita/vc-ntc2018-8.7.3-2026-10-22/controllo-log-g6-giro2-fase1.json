@@ -16,10 +16,10 @@
   "log_sha256": "83ad843c77c07c330bfd726948fa3d6bf5ebdeb74acc5df18ab916a9eeb2faeb",
   "inventario_sha256": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
   "valida_inventario": "OK (7 elementi, 2 pagine) — schema formale; non prova la lettura visiva",
-  "file_fuori_blocco": "nessuno (AGENTS.md, USER.md, .codex, SKILL.md, plugins: 0 occorrenze nel corpo del log dopo il prompt)",
+  "file_fuori_blocco": "nessuno (<file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, .codex, SKILL.md, plugins: 0 occorrenze nel corpo del log dopo il prompt)",
   "exec_nel_log": [
-    "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-ChildItem -LiteralPath . -Force |  Select-Object -ExpandProperty Name' in C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.7.3-261023-gbot-r3\\b01",
-    "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"Get-Content -Raw -LiteralPath  'ISTRUZIONI-V.md','PERIMETRO.md','canone.md','input-fonte.json'\" in  C:\\Users\\sandro\\AppData\\Local\\Temp\\ntc2018-g6-8.7.3-261023-gbot-r3\\b01"
+    "\"<powershell> -Command 'Get-ChildItem -LiteralPath . -Force |  Select-Object -ExpandProperty Name' in <temp>",
+    "\"<powershell> -Command \"Get-Content -Raw -LiteralPath  'ISTRUZIONI-V.md','PERIMETRO.md','canone.md','input-fonte.json'\" in  <temp>"
   ],
   "png_nel_pacchetto": {
     "fonte-ntc-298.png": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1",

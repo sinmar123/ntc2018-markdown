@@ -2005,7 +2005,7 @@ evidenze, gli indici delle copie ripulite e il piano di registrazione.
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/chiusura.json"; Get-Content -Encoding UTF8 -LiteralPath "$d/controllo-dossier.py"' in 
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/chiusura.json"; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier.py"' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 832ms:
 {
@@ -2395,7 +2395,7 @@ exec
 ','g6/b01/congelamento.json','sequenza-g6.json','decisione-g6-20261022.json','decisione-g6-rilievo-20261022.json','deci
 sione-applicazione-20261022.json','esito-g6.json','prove-c/prova-NTC-873-CONDIZIONE.json','rettifica-g7-audit-01-202610
 22.json','G7-tentativo-2-esecuzione.json','G7-tentativo-3-esecuzione.json','G7-tentativo-1-redazione.json'); 
-foreach("'$n in $names) { $n; Get-Content -Encoding UTF8 -LiteralPath "$d/$n" }' in 
+foreach("'$n in $names) { $n; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$n" }' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 868ms:
 g6/b01/inventario.json
@@ -2878,8 +2878,8 @@ altri campi sono invariati"
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/log-g6/indice.json"; Get-Content -Encoding UTF8 -LiteralPath "$d/log-g7/indice.json"; Get-Content -Encoding 
-UTF8 -LiteralPath "$d/ripulitura-log.py"' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/indice.json"; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/indice.json"; Get-Content -Encoding 
+UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/ripulitura-log.py"' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 673ms:
 {
   "firma": "GBOT-verifica-ntc",
@@ -3406,10 +3406,10 @@ def ripulisci(b):
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/lavoro/indice.json"; Get-Content -Encoding UTF8 -LiteralPath "$d/controllo-dossier-esito-pre-manifest.json"; 
-Get-Content -Encoding UTF8 -LiteralPath "$d/controllo-dossier-esito-post-manifest.json"; Get-Content -Encoding UTF8 
--LiteralPath "$d/g6/b01/input-confronto.json"; Get-Content -Encoding UTF8 -LiteralPath "$d/config-g6.json"; 
-Get-Content -Encoding UTF8 -LiteralPath "$d/mappa-g5.json"' in 
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json"; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-pre-manifest.json"; 
+Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-post-manifest.json"; Get-Content -Encoding UTF8 
+-LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-confronto.json"; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/config-g6.json"; 
+Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json"' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 1065ms:
 {
@@ -4732,7 +4732,7 @@ invariati",
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/g6/b01/ISTRUZIONI-V.md"; $p="$d/log-g6/g6-tentativo-2-fase2-log.txt"; Get-Content -Encoding UTF8 -LiteralPath 
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/ISTRUZIONI-V.md"; $p="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase2-log.txt"; Get-Content -Encoding UTF8 -LiteralPath 
 $p | Select-Object -First 210; rg -n '"'exec|view_image|image|pdfto|render|lettur|plugin|SKILL|integral|isolamento' 
 "'$p' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 749ms:
@@ -5038,9 +5038,9 @@ esclusivamente sui materiali del blocco corrente; nessuna lettura del target pri
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/log-g6/g6-tentativo-2-fase2-log.txt" | Select-Object -Skip 600 -First 135; Get-Content -Encoding UTF8 
--LiteralPath "$d/log-g6/g6-tentativo-2-fase1-log.txt" | Select-Object -First 110; rg -n 
-'"'view_image|image|codex|exec|visiv|lettur|base64|bitmap|GetPixel|mcp' \""'$d/log-g6/g6-tentativo-2-fase1-log.txt"' 
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase2-log.txt" | Select-Object -Skip 600 -First 135; Get-Content -Encoding UTF8 
+-LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase1-log.txt" | Select-Object -First 110; rg -n 
+'"'view_image|image|codex|exec|visiv|lettur|base64|bitmap|GetPixel|mcp' \""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase1-log.txt"' 
 in <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 922ms:
       <block xMin="303.509000" yMin="757.165144" xMax="308.490300" yMax="767.127744">
@@ -5327,8 +5327,8 @@ $p.G
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/log-g6/g6-tentativo-2-fase1-log.txt" | Select-Object -Skip 285; Get-Content -Encoding UTF8 -LiteralPath 
-"$d/catalogo-congelato.md"; Get-Content -Encoding UTF8 -LiteralPath "$d/g1/ricontrollo-20261022.json"' in 
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/g6-tentativo-2-fase1-log.txt" | Select-Object -Skip 285; Get-Content -Encoding UTF8 -LiteralPath 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md"; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/ricontrollo-20261022.json"' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 1117ms:
   ]
@@ -5771,13 +5771,13 @@ percorsi e degli hash.
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$m=Get-Content -Raw -Encoding UTF8 -LiteralPath 
-"$d/manifest-rilascio.json" | ConvertFrom-Json; $s=Get-Content -Raw -Encoding UTF8 -LiteralPath 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json" | ConvertFrom-Json; $s=Get-Content -Raw -Encoding UTF8 -LiteralPath 
 '"'riepilogo-meccanico.json' | ConvertFrom-Json; "'$problems=@(); $checked=0; $selected=@('"'cap08/8.7.3-progettazione-
-interventi-costruzioni-miste.md','verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md',\""'$d/procedura-congelat
-a-r10.md","$d/catalogo-congelato.md","$d/controllo-dossier.py","$d/ripulitura-log.py"); 
-$indices=@('"'log-g6/indice.json','log-g7/indice.json','lavoro/indice.json'); foreach("'$n in $indices) { $p="$d/$n"; 
+interventi-costruzioni-miste.md','verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md',\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/procedura-congelat
+a-r10.md","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier.py","verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/ripulitura-log.py"); 
+$indices=@('"'log-g6/indice.json','log-g7/indice.json','lavoro/indice.json'); foreach("'$n in $indices) { $p="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$n"; 
 $i=Get-Content -Raw -Encoding UTF8 -LiteralPath $p | ConvertFrom-Json; $selected += $p; foreach($x in 
-@($i.log)+@($i.file)) { if($null -eq $x) {continue}; if($x.copia) { $cp="$d/$($x.copia)"; $h=(Get-FileHash -Algorithm 
+@($i.log)+@($i.file)) { if($null -eq $x) {continue}; if($x.copia) { $cp="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$($x.copia)"; $h=(Get-FileHash -Algorithm 
 SHA256 -LiteralPath $cp).Hash.ToLower(); $mf=@($m.files | Where-Object path -eq $cp); if($h -ne 
 $x.sha256_copia_ripulita -or $mf.Count -ne 1 -or $mf[0].sha256 -ne $h) { $problems += "copia/indice/manifest: $cp" }; 
 $checked++; } elseif($x.esito -eq '"'uguale_al_file_del_dossier') { "'$mf=@($m.files | Where-Object path -eq 
@@ -5785,13 +5785,13 @@ $x.riferimento); if($mf.Count -ne 1 -or $mf[0].sha256 -ne $x.sha256_originale) {
 $($x.file)" } } }; }; foreach($p in $selected) { $h=(Get-FileHash -Algorithm SHA256 -LiteralPath $p).Hash.ToLower(); 
 $mf=@($m.files | Where-Object path -eq $p); if($mf.Count -ne 1 -or $mf[0].sha256 -ne $h -or $s.impronte_cartella_g7.$p 
 -ne $h) { $problems += "file/riepilogo/manifest: $p" } }; $mh=(Get-FileHash -Algorithm SHA256 -LiteralPath 
-"$d/manifest-rilascio.json").Hash.ToLower(); [pscustomobject]@{manifest_sha256=$mh; manifest_files=$m.files.Count; 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json").Hash.ToLower(); [pscustomobject]@{manifest_sha256=$mh; manifest_files=$m.files.Count; 
 selected_verified=$selected.Count; copies_verified=$checked; problemi=$problems; g7_in_manifest=@($m.files | 
 Where-Object path -match '"'/G7.json"'$'"').Count} | ConvertTo-Json -Depth 6; "'$li=Get-Content -Raw -Encoding UTF8 
--LiteralPath "$d/lavoro/indice.json" | ConvertFrom-Json; $li.file | Group-Object esito | Select-Object Name,Count | 
+-LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json" | ConvertFrom-Json; $li.file | Group-Object esito | Select-Object Name,Count | 
 ConvertTo-Json; $li.file | Where-Object esito -eq '"'uguale_a_versione_storica' | Select-Object 
 file,riferimento,sha256_originale | ConvertTo-Json; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/lista-manifest.json" | Select-Object -First 12' in 
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-manifest.json" | Select-Object -First 12' in 
 <temp>\ntc2018-g7-8.7.3-261022-gbot-t4
  succeeded in 2002ms:
 {
@@ -5917,12 +5917,12 @@ file,riferimento,sha256_originale | ConvertTo-Json; Get-Content -Encoding UTF8 -
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; Get-Content -Encoding UTF8 -LiteralPath 
-\""'$d/G7-tentativo-1-KO.json"; Get-Content -Encoding UTF8 -LiteralPath "$d/G7-tentativo-2-KO.json"; Get-Content 
--Encoding UTF8 -LiteralPath "$d/G7-tentativo-3-KO.json"; $patterns=@('"'[A-Za-z]:[\\\\/]','(?<"'!['"\\w.:/<>-])/(?:home
+\""'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-1-KO.json"; Get-Content -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-2-KO.json"; Get-Content 
+-Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-3-KO.json"; $patterns=@('"'[A-Za-z]:[\\\\/]','(?<"'!['"\\w.:/<>-])/(?:home
 |Users|root|tmp|var|mnt|opt|etc|private)/','(?i)[\\w.+-]+@[\\w.-]+\\.[a-z]{2,}','(?i)\\b(?:AKIA[0-9A-Z]{16}|sk-[A-Za-z0
 -9]{20,})\\b'); "'$files=@(); foreach($n in @('"'log-g6/indice.json','log-g7/indice.json','lavoro/indice.json')) { 
-"'$i=Get-Content -Raw -Encoding UTF8 -LiteralPath "$d/$n" | ConvertFrom-Json; foreach($x in @($i.log)+@($i.file)) { 
-if($x.copia -and $x.copia -notmatch '"'\\.(pdf|png)"'$'"') { "'$files+="$d/$($x.copia)" } } }; $hits=@(); foreach($p 
+"'$i=Get-Content -Raw -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$n" | ConvertFrom-Json; foreach($x in @($i.log)+@($i.file)) { 
+if($x.copia -and $x.copia -notmatch '"'\\.(pdf|png)"'$'"') { "'$files+="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$($x.copia)" } } }; $hits=@(); foreach($p 
 in $files) { $a=Get-Content -Encoding UTF8 -LiteralPath $p; for($j=0;$j -lt $a.Count;$j++) { foreach($rx in $patterns) 
 { if($a[$j] -match $rx) { $hits+=[pscustomobject]@{file=$p;riga=$j+1;tipo='"'schema percorso/dato';schema="'$rx} } } } 
 }; [pscustomobject]@{file_testuali_scansionati=$files.Count;riscontri=$hits} | ConvertTo-Json -Depth 6' in 
@@ -6317,8 +6317,8 @@ accessi successivi sono rimasti nella cartella consegnata."
 exec
 "<powershell>" -NoProfile -Command 
 '$d='"'verifica-conformita/vc-ntc2018-8.7.3-2026-10-22'; "'$problems=@(); foreach($n in 
-@('"'log-g6/indice.json','log-g7/indice.json')) { "'$ind=Get-Content -Raw -Encoding UTF8 -LiteralPath "$d/$n" | 
-ConvertFrom-Json; foreach($x in $ind.log) { $p="$d/$($x.copia)"; $t=Get-Content -Raw -Encoding UTF8 -LiteralPath $p; 
+@('"'log-g6/indice.json','log-g7/indice.json')) { "'$ind=Get-Content -Raw -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$n" | 
+ConvertFrom-Json; foreach($x in $ind.log) { $p="verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/$($x.copia)"; $t=Get-Content -Raw -Encoding UTF8 -LiteralPath $p; 
 $a=$t -split "`n"; if((Get-Item -LiteralPath $p).Length -ne $x.byte_copia) {$problems+="byte $($x.copia)"}; foreach($o 
 in $x.omissioni) { $line=$a[$o.riga_nella_copia-1]; if($line -notmatch [regex]::Escape($o.sha256_blocco) -or $line 
 -notmatch ([string]$o.righe+'"' righe')) {"'$problems+="omissione $($x.copia)"} }; if($t -match 
@@ -6326,10 +6326,10 @@ in $x.omissioni) { $line=$a[$o.riga_nella_copia-1]; if($line -notmatch [regex]::
 @('"'modello','sandbox','ragionamento','sessione','token')) { if(-not "'$t.Contains([string]$x.nella_copia.$k)) 
 {$problems+="metadato $k $($x.copia)"} } } }; [pscustomobject]@{controlli='"'7 log: byte, marcatori omissioni, 
 metadati, percorsi assoluti con confine lessicale';problemi="'$problems} | ConvertTo-Json -Depth 4; $li=Get-Content 
--Raw -Encoding UTF8 -LiteralPath "$d/lavoro/indice.json" | ConvertFrom-Json; $li.file | Where-Object esito -eq 
+-Raw -Encoding UTF8 -LiteralPath "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json" | ConvertFrom-Json; $li.file | Where-Object esito -eq 
 '"'copia' | ForEach-Object {"'$_.copia}; $rh=Get-Content -Raw -Encoding UTF8 -LiteralPath 
-"$d/rettifica-g7-audit-01-20261022.json" | ConvertFrom-Json; $i6=Get-Content -Raw -Encoding UTF8 -LiteralPath 
-"$d/log-g6/indice.json" | ConvertFrom-Json; $bad=@(); foreach($x in $i6.log) { $k=if($x.tentativo_g6 -eq 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/rettifica-g7-audit-01-20261022.json" | ConvertFrom-Json; $i6=Get-Content -Raw -Encoding UTF8 -LiteralPath 
+"verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g6/indice.json" | ConvertFrom-Json; $bad=@(); foreach($x in $i6.log) { $k=if($x.tentativo_g6 -eq 
 '"'tentativo_2') {'tentativo_2'} else {'tentativo_1_annullato'}; if("'$rh.fonte_dei_valori.$k.($x.fase).log_sha256 -ne 
 $x.sha256_originale) {$bad+=$x.copia} }; [pscustomobject]@{hash_originali_g6_contro_rettifica=$bad} | ConvertTo-Json 
 -Depth 3' in <temp>\ntc2018-g7-8.7.3-261022-gbot-t4

@@ -18,9 +18,9 @@ snapshot_sha256: 1a400982cb5e1e49d66f20b719bd7b8ee3449b6bb48f9b488f273f4d37cd4f0
 giro_g6: 2
 max_giri: 3
 rilievi_aperti: 0
-gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: KO, G7: attesa}
-attesa_decisione: [controllo-log-g6-giro2-fase1]
-prossimo_passo: "Decisione di Sandro: il controllo del log della fase 1 del G6 giro 2 è KO (PNG non aperte nel log); nessun rilancio autonomo."
+gate: {G0: OK, G1: OK, G2: OK, G3: OK, G4: OK, G5: OK, G6: OK, G7: KO}
+attesa_decisione: []
+prossimo_passo: "G7 tentativo 5 KO (G7-AUDIT-09/10/11); fermo senza rilancio."
 lavorazione: verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/
 routing_effettivo:
   C: {agente: "Grok Bot (GBOT-verifica-ntc)", ruolo: "coordinamento, controllo a campione sulla fonte, lista per Sandro, worktree e commit"}
@@ -124,7 +124,7 @@ Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 3 KO.
 
 ## Rettifiche G7-AUDIT-04 e G7-AUDIT-05 e lotto G7 tentativo 4, 2026-10-22
 
-- Sandro: «Sì, sistema tutto e rifai il G7 con Sol», poi «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol». Copie ripulite dei log dei G7 tentativi 1, 2 e 3 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, con il contenuto dell'AGENTS.md del workspace omesso; copie in `log-g6/` rifatte senza alcun percorso assoluto e senza la documentazione dei plugin di Codex; indici con impronte, omissioni e sostituzioni; procedura in `ripulitura-log.py`.
+- Sandro: «Sì, sistema tutto e rifai il G7 con Sol», poi «Togli il blocco <file-fuori-blocco-omesso> e i percorsi, poi G7 con Sol». Copie ripulite dei log dei G7 tentativi 1, 2 e 3 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, con il contenuto dell'<file-fuori-blocco-omesso> del workspace omesso; copie in `log-g6/` rifatte senza alcun percorso assoluto e senza la documentazione dei plugin di Codex; indici con impronte, omissioni e sostituzioni; procedura in `ripulitura-log.py`.
 - Controllo automatico `controllo-dossier.py` prima del manifest e sul manifest generato. Il log del G7 tentativo 4 resta fuori dal manifest che quel G7 verifica e sarà aggiunto dopo il giudizio.
 - Manifest del tentativo 3 conservato come `manifest-rilascio-g7-tentativo-3.json`; manifest, verbale e piano di registrazione rigenerati. `giro_g6` resta 1.
 
@@ -132,7 +132,7 @@ Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4.
 
 ## G7 tentativo 4, KO
 
-Il 2026-10-22, dalle 12:23 alle 12:29 (ora di Roma), CDX con Codex gpt-6.1-sol (ragionamento high, sandbox read-only, contesto nuovo, 130.412 token letti dal log in UTF-16) ha giudicato KO il G7 sul manifest 1b3684d6a6314861362e169e1930f5e2cf624ef1afd9d55fc64a1aa7c18a9048. Il verificatore non ha aperto file fuori dalla cartella, AGENTS.md compreso. G7-AUDIT-01..05 risultano risolti. Gate G6 e G7 giudicati KO per tre rilievi nuovi:
+Il 2026-10-22, dalle 12:23 alle 12:29 (ora di Roma), CDX con Codex gpt-6.1-sol (ragionamento high, sandbox read-only, contesto nuovo, 130.412 token letti dal log in UTF-16) ha giudicato KO il G7 sul manifest 1b3684d6a6314861362e169e1930f5e2cf624ef1afd9d55fc64a1aa7c18a9048. Il verificatore non ha aperto file fuori dalla cartella, <file-fuori-blocco-omesso> compreso. G7-AUDIT-01..05 risultano risolti. Gate G6 e G7 giudicati KO per tre rilievi nuovi:
 
 - G7-AUDIT-06 (ERR-AUDIT): nel G6 tentativo 2, fase 2, il verificatore ha letto la documentazione dei plugin di Codex, fuori dal blocco, mentre istruzioni e coordinatore lo vietavano; rapporto G6 e verbale attestano un confronto svolto solo sui materiali del blocco. Per il § 7 della procedura la lettura vietata invalida il blocco.
 - G7-AUDIT-07 (ERR-AUDIT): i log del G6 tentativo 2 non dimostrano la lettura visiva integrale delle pagine (misure di pixel, estrazioni di testo e font, una «lettura visiva» stampata come stringa letterale dal comando).
@@ -146,12 +146,19 @@ Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4 KO.
 
 - Sandro (2026-10-23T07:50:24+02:00): «Rifai il G6 con Terra sulle immagini, poi G7 con Sol» (`decisione-g6-rilievi-20261023.json`). Chiude G7-AUDIT-06, 07 e 08. Per 08 riporta le ore delle autorizzazioni ai G7 tentativi 2 (10:08), 3 (10:49) e 4 (11:08 e 12:04 del 2026-10-22).
 - Il G6 tentativo 2 (giro 1) è archiviato in `g6-tentativo-2-invalido/` con nota: Sol lo ha invalidato per AUDIT-06/07. `giro_g6` passa a 2. Le prove C restano.
-- Nuovo pacchetto in preparazione con le immagini PNG delle pagine Gazzetta (NTC 298, Circolare 289). Vincoli a V: aprire le immagini, citare frasi lette da esse; vietato AGENTS.md, USER.md, documentazione plugin e ogni file fuori dalla cartella del blocco.
+- Nuovo pacchetto in preparazione con le immagini PNG delle pagine Gazzetta (NTC 298, Circolare 289). Vincoli a V: aprire le immagini, citare frasi lette da esse; vietato <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, documentazione plugin e ogni file fuori dalla cartella del blocco.
 
 Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2.
 
 ## G6 giro 2, fase 1, controllo log KO
 
-Il 2026-10-23, dalle 07:50 alle 07:52 (ora di Roma), CDX con Codex gpt-5.6-terra (ragionamento high, sandbox read-only, contesto nuovo, 34.159 token) ha prodotto un inventario di 7 elementi (alida-inventario schema OK). Il controllo meccanico del log UTF-16 da parte di C è **KO**: nei comandi compaiono solo l'elenco della cartella e la lettura dei file di testo; **nessun comando apre** onte-ntc-298.png o onte-circ-289.png. L'inventario dichiara di aver visto le immagini e cita frasi, ma senza traccia nel log. Nessun file fuori blocco (AGENTS.md, plugin: assenti). Per la consegna di Sandro C si ferma: niente rivela, niente fase 2, niente G7. Dettaglio in controllo-log-g6-giro2-fase1.json; log e inventario in lavoro/g6-giro2-fase1-controllo-ko/.
+Il 2026-10-23, dalle 07:50 alle 07:52 (ora di Roma), CDX con Codex gpt-5.6-terra (ragionamento high, sandbox read-only, contesto nuovo, 34.159 token) ha prodotto un inventario di 7 elementi (alida-inventario schema OK). Il controllo meccanico del log UTF-16 da parte di C è **KO**: nei comandi compaiono solo l'elenco della cartella e la lettura dei file di testo; **nessun comando apre** onte-ntc-298.png o onte-circ-289.png. L'inventario dichiara di aver visto le immagini e cita frasi, ma senza traccia nel log. Nessun file fuori blocco (<file-fuori-blocco-omesso>, plugin: assenti). Per la consegna di Sandro C si ferma: niente rivela, niente fase 2, niente G7. Dettaglio in controllo-log-g6-giro2-fase1.json; log e inventario in lavoro/g6-giro2-fase1-controllo-ko/.
 
 Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 fase 1 controllo KO.
+
+## G6 giro 2 con Haiku (2026-10-23)
+
+Decisione di Sandro «Sì, prova Haiku e se OK chiudi G6 e G7» (decisione-prova-haiku-20261023.json). Il G6 tentativo 2 (Terra) era stato invalidato da Sol (G7-AUDIT-06/07) e archiviato in g6-tentativo-2-invalido/. La fase 1 Terra del giro 2 era KO al controllo log (PNG non aperte). Prova Haiku (Claude Code sul W520, claude-haiku-5-5, --restricted --tools Read) con apertura reale dei PNG nel log stream-json: OK. G6 giro 2 rifatto con Haiku: fase 1 e fase 2 con PNG aperti in entrambe, alida-inventario OK (9 elementi), alida-g6 OK (9 coperti, 0 rilievi). giro_g6 2 su 3. Controlli: controllo-log-prova-haiku-20261023.json, controllo-log-g6-giro2-haiku.json.
+
+Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 Haiku.
+

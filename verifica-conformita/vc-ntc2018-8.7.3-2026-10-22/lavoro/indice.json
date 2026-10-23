@@ -7,7 +7,7 @@
   "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
   "conteggi": {
     "uguale_al_file_del_dossier": 87,
-    "copia": 21,
+    "copia": 27,
     "uguale_a_versione_storica": 15,
     "indicizzato_in_log": 7
   },
@@ -298,7 +298,7 @@
       "sha256_originale": "ccc1cc08a131776ff4620f451668bed4b3de0464448c1a5dfb723079cfac16b8",
       "byte_originale": 427,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/congelamento.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/congelamento.json"
     },
     {
       "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
@@ -322,7 +322,7 @@
       "sha256_originale": "bec3e5364c9c059c091e83c3d156cd29da081a2fff35d0946dd8a6b5ead9f4ea",
       "byte_originale": 1532,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-confronto.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/input-confronto.json"
     },
     {
       "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
@@ -338,7 +338,7 @@
       "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
       "byte_originale": 1985,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
     },
     {
       "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
@@ -346,7 +346,7 @@
       "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
       "byte_originale": 908,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
     },
     {
       "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2",
@@ -389,7 +389,7 @@
       "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
       "byte_originale": 1985,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
     },
     {
       "cartella": "<temp>/ntc2018-g6-8.7.3-261022-gbot-r2-lavoro",
@@ -405,7 +405,7 @@
       "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
       "byte_originale": 908,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
@@ -464,7 +464,7 @@
       "sha256_originale": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
       "byte_originale": 934,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
@@ -472,7 +472,7 @@
       "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
       "byte_originale": 1985,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
@@ -520,7 +520,7 @@
       "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
       "byte_originale": 908,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
@@ -566,7 +566,7 @@
       "sha256_originale": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
       "byte_originale": 1685,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot",
@@ -667,7 +667,7 @@
       "sha256_originale": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
       "byte_originale": 934,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
@@ -675,7 +675,7 @@
       "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
       "byte_originale": 1985,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
@@ -731,7 +731,7 @@
       "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
       "byte_originale": 908,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
@@ -785,7 +785,7 @@
       "sha256_originale": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
       "byte_originale": 1685,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t2",
@@ -900,7 +900,7 @@
       "sha256_originale": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e",
       "byte_originale": 934,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
@@ -908,7 +908,7 @@
       "sha256_originale": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9",
       "byte_originale": 1985,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
@@ -1012,7 +1012,7 @@
       "sha256_originale": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55",
       "byte_originale": 908,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
@@ -1066,7 +1066,7 @@
       "sha256_originale": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223",
       "byte_originale": 1685,
       "esito": "uguale_al_file_del_dossier",
-      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json"
+      "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json"
     },
     {
       "cartella": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t3",
@@ -1093,13 +1093,121 @@
       "riferimento": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-3-KO.json"
     },
     {
-      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-gbot-r3-lavoro",
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "haiku-log.stream.jsonl",
+      "sha256_originale": "6d76988218da2b431709162f6b87048bdb754b4a8b584b3cf4acd75ba607d821",
+      "byte_originale": 2646028,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/prova-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "48b5ff439a9a82b4d5c5984956e56cc208f0ab89c1252affc9fde97c68aa24bb",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 8
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 1
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto",
+      "sha256_dopo_omissione_payload": "12fe2cebcbd864b8b1e421ca5b02221b564ced725631920ef610a42d5be69687"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "haiku-result.txt",
+      "sha256_originale": "6b8da0e12fa8b81c306c50f763f4fe25b36d1da62eaa2d64574520177ce4f710",
+      "byte_originale": 4512,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/prova-haiku-result.txt",
+      "sha256_copia_ripulita": "1727c55d2fc6598d34556e35b1c844c33a8a2a04ec16d27968f5af7954c2065d",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase1-haiku-stream.jsonl",
+      "sha256_originale": "ce061441b88c676c4eaedf5fb9974ee424b5ca14cca693784aa5d6b052dec859",
+      "byte_originale": 2702194,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase1-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "aa7784f3cdc168c9125ebf4f9db27539f68816bca8658800232983bc14ac1d2b",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 17
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 1
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto",
+      "sha256_dopo_omissione_payload": "d8c5fcb3195fbdafafe34ab51f334451f5c7f7780c290d520dcec12db6923013"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase1-result.txt",
+      "sha256_originale": "93fc75957df7ae5b22ee6624808677250d028fd629b76c89d855595887ccf3b6",
+      "byte_originale": 7474,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase1-result.txt",
+      "sha256_copia_ripulita": "93fc75957df7ae5b22ee6624808677250d028fd629b76c89d855595887ccf3b6",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase2-haiku-stream.jsonl",
+      "sha256_originale": "4d590cafe74556df4e1b035fab0ff19e087507d55e718842f7ded6bd2ab63c1e",
+      "byte_originale": 2710808,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase2-haiku-stream.jsonl",
+      "sha256_copia_ripulita": "8f320a179b574c9e87f4e604cbfc8f6d593341945f738d26ec55c531d233eda3",
+      "sostituzioni": [
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 20
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 1
+        }
+      ],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto",
+      "sha256_dopo_omissione_payload": "547c991af22bd61b98e7467832fb4153fdf07a239015f02a0f48cfac2f71f126"
+    },
+    {
+      "cartella": "<temp>/haiku-g6-giro2",
+      "file": "fase2-result.txt",
+      "sha256_originale": "03419f9e81e1fbf983c11af2b5e93d72198ebf2a3e0f7a52a72bc114619545eb",
+      "byte_originale": 1712,
+      "esito": "copia",
+      "copia": "lavoro/g6-giro2-haiku/fase2-result.txt",
+      "sha256_copia_ripulita": "c74793644190a9b3b57d7f69979f0fcbe6a3ad60cad691215d71ce39c62e2433",
+      "sostituzioni": [],
+      "tipo": "testo UTF-8",
+      "nota": "G6 giro 2 Haiku; payload immagini omessi se presenti; USER/SOUL/MEMORY sostituiti da segnaposto"
+    },
+    {
+      "cartella": "<temp>/g6-giro2-fase1-terra-ko",
       "file": "fase1-log.txt",
       "sha256_originale": "83ad843c77c07c330bfd726948fa3d6bf5ebdeb74acc5df18ab916a9eeb2faeb",
-      "byte_originale": 43888,
       "esito": "copia",
       "copia": "lavoro/g6-giro2-fase1-controllo-ko/fase1-log.txt",
-      "sha256_copia_ripulita": "3decf5bd262a013933664c50835254d17da29e8f954e604803c4e1749f1e8b88",
+      "sha256_testo_decodificato_prima_delle_ripuliture": "d8b5c149bbd3ea2ddd0b27f2f3c875331aa17cc5d3d1e3dd226267b7fdc4ae36",
+      "sha256_copia_ripulita": "520d6496ff5b11423b27b8c9d9dd65137d3709f88e701dae27289dbb1ae7c94b",
       "sostituzioni": [
         {
           "da": "cartella npm del profilo utente (lanciatore di Codex)",
@@ -1117,21 +1225,18 @@
           "occorrenze": 2
         }
       ],
-      "omissioni": [],
-      "tipo": "testo UTF-8 ripulito da UTF-16 LE",
-      "nota": "G6 giro 2 fase 1: controllo log KO (PNG non aperte)"
+      "tipo": "testo UTF-8",
+      "nota": "fase 1 Terra giro 2 KO al controllo log (PNG non aperte)"
     },
     {
-      "cartella": "<temp>/ntc2018-g6-8.7.3-261023-gbot-r3-lavoro",
+      "cartella": "<temp>/g6-giro2-fase1-terra-ko",
       "file": "fase1-out.json",
       "sha256_originale": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
-      "byte_originale": 1885,
       "esito": "copia",
       "copia": "lavoro/g6-giro2-fase1-controllo-ko/fase1-out.json",
       "sha256_copia_ripulita": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14",
       "sostituzioni": [],
-      "tipo": "JSON UTF-8",
-      "nota": "inventario fase 1 G6 giro 2 (non validato come blocco: controllo log KO)"
+      "tipo": "testo UTF-8"
     }
   ]
 }

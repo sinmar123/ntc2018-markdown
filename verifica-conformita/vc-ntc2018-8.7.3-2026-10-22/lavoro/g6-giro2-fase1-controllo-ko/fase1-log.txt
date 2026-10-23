@@ -28,7 +28,7 @@ Per ciascuna delle due pagine, nel JSON di inventario (campo dedicato in dubbi o
 nei riferimenti) dichiara di aver visto l'immagine e cita 1-2 frasi brevi lette dall'immagine stessa (non stringhe 
 stampate automaticamente da un comando).
 
-VIETATO in modo assoluto: aprire AGENTS.md, USER.md, SOUL.md, MEMORY.md, qualsiasi documentazione dei plugin di Codex 
+VIETATO in modo assoluto: aprire <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, qualsiasi documentazione dei plugin di Codex 
 (cartelle .codex, skills, SKILL.md, api.md, guidance.md, confirmations.md), file di configurazione o profilo, e 
 qualsiasi file fuori da questa cartella del blocco. Non usare strumenti PDF esterni né plugin: le pagine fonte sono le 
 due PNG.

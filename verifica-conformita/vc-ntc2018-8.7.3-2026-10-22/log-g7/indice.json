@@ -1,12 +1,12 @@
 {
   "firma": "GBOT-verifica-ntc",
   "scope": "8.7.3",
-  "data": "2026-10-22",
-  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest; nel dossier niente dati personali, percorsi assoluti o contenuti di file esterni al progetto. Rilievo G7-AUDIT-04: il log del G7 tentativo 2, citato da G7-tentativo-2-esecuzione.json, non era nel manifest; per chiudere la famiglia di rilievi sono copiati i log dei tentativi 1, 2 e 3. Decisioni di Sandro «Sì, sistema tutto e rifai il G7 con Sol» e «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol».",
+  "data": "2026-10-23",
+  "motivo": "Procedura VC-NTC/10, § 9: le evidenze citate da altre evidenze del manifest vanno nel manifest; nel dossier niente dati personali, percorsi assoluti o contenuti di file esterni al progetto. Rilievo G7-AUDIT-04: il log del G7 tentativo 2, citato da G7-tentativo-2-esecuzione.json, non era nel manifest; per chiudere la famiglia di rilievi sono copiati i log dei tentativi 1, 2 e 3. Decisioni di Sandro «Sì, sistema tutto e rifai il G7 con Sol» e «Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol». Aggiornamento 2026-10-23: aggiunto il log del G7 tentativo 4 (da indice-post-g7) prima del G7 tentativo 5.",
   "metodo": "come log-g6/indice.json (ripulitura-log.py). In tutti e tre i tentativi il verificatore ha letto l'AGENTS.md del workspace prima della consegna: quel contenuto, istruzioni private del workspace con il nome completo dell'utente, e' omesso.",
   "controllo_dati_personali": "Prima della copia C ha cercato negli originali indirizzi e-mail, numeri di telefono, codici fiscali, IBAN, partite IVA, nomi di committenti o clienti, indirizzi, chiavi e password. Nei log del G7 il solo dato personale era il nome completo dell'utente, dentro il contenuto dell'AGENTS.md del workspace letto dal verificatore: quel contenuto e' omesso. Nessun altro dato personale. Dopo la ripulitura le copie non contengono percorsi assoluti, nome utente, nome completo o blocchi dei file omessi (controllo-dossier.py).",
   "originali": "restano sulla macchina di lavoro, fuori dal repository, nella cartella <temp>",
-  "log_del_g7_in_corso": "il log del G7 tentativo 4 non puo' stare nel manifest che quel G7 verifica: la sua copia ripulita sara' aggiunta dopo il giudizio, con indice separato indice-post-g7.json",
+  "log_del_g7_in_corso": "il log del G7 tentativo 5 non puo stare nel manifest che quel G7 verifica: la sua copia ripulita sara aggiunta dopo il giudizio, con indice separato indice-post-g7.json",
   "log": [
     {
       "copia": "log-g7/g7-tentativo-1-log.txt",
@@ -186,6 +186,71 @@
         "token": "80.227"
       },
       "impronta_originale_gia_dichiarata": "G7-tentativo-3-esecuzione.json, log_sha256"
+    },
+    {
+      "copia": "log-g7/g7-tentativo-4-log.txt",
+      "tentativo_g7": 4,
+      "nome_originale": "<temp>/ntc2018-g7-8.7.3-261022-gbot-t4-out/G7-log.txt",
+      "sha256_originale": "d9e2c7b5f4059fa013556e6707ceb4f053ecd4f730e42b763ceccc9c11716d9c",
+      "codifica_originale": "UTF-16 LE con BOM",
+      "byte_originale": 795988,
+      "sha256_testo_decodificato_prima_delle_ripuliture": "56a55c15f3b4c758a8e6e2c1220e3b48652dfd2905afd06e201a7e348add9f0c",
+      "omissioni": [],
+      "sostituzioni": [
+        {
+          "da": "cartella npm del profilo utente (lanciatore di Codex)",
+          "a": "<npm>",
+          "occorrenze": 1
+        },
+        {
+          "da": "cartella temporanea del profilo utente (unita', Users, nome utente, AppData, Local, Temp)",
+          "a": "<temp>",
+          "occorrenze": 15
+        },
+        {
+          "da": "eseguibile di Windows PowerShell nella cartella di sistema",
+          "a": "<powershell>",
+          "occorrenze": 14
+        },
+        {
+          "da": "$d/ variabile PowerShell sul percorso relativo del dossier",
+          "a": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/",
+          "occorrenze": 40
+        }
+      ],
+      "sha256_copia_ripulita": "929fd52752763767949b5665e7a2ae989040c7713cd4de07ca131bd739ab654d",
+      "codifica_copia": "UTF-8 senza BOM",
+      "byte_copia": 393183,
+      "nella_copia": {
+        "modello": "gpt-6.1-sol",
+        "sandbox": "read-only",
+        "ragionamento": "high",
+        "sessione": "01a16323-6bf4-7bb2-b050-dfcd81e94ba6",
+        "token": "130.412"
+      },
+      "impronta_originale_gia_dichiarata": "G7-tentativo-4-esecuzione.json, log_sha256",
+      "sha256_escluso_controllo_post": "9174d4e0d80cbfdc5491023c3cc4f3b9e9df1bf869c431136674742582fbe10d",
+      "sha256_escluso_lista_manifest": "cc527b36dbf803a64a4fac186b9e75ed88fcaf2fa56abeffee6ee472e743bdc5",
+      "sha256_escluso_consegna_g7": "c7886195709f054262b7354746f6eb678949eed2c64b4c9f9635a263bb54665c"
     }
-  ]
+  ],
+  "tentativo_5": {
+    "tentativo": 5,
+    "file_ko": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-5-KO.json",
+    "sha256_ko": "cc7b38ac480b75e6597008c5864acdda9a23b97b8576f07c1f985203b150cd0e",
+    "esecuzione": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-5-esecuzione.json",
+    "sha256_esecuzione": "59b57c987d44d8ce64ba9a22a3e3b2c307fcdca459f40529c41d5cfb65e444e8",
+    "log_copia": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/g7-tentativo-5-log.txt",
+    "sha256_log_copia": "addc4503c3889914fd33a56db91b1bc8acd421766a72ca550f915936105581dd",
+    "modello": "gpt-6.1-sol",
+    "token": "111.564",
+    "giudizio": "KO",
+    "rilievi": [
+      "G7-AUDIT-09",
+      "G7-AUDIT-10",
+      "G7-AUDIT-11"
+    ],
+    "inizio": "2026-10-23T09:44:46+02:00",
+    "termine": "2026-10-23T09:50:48+02:00"
+  }
 }

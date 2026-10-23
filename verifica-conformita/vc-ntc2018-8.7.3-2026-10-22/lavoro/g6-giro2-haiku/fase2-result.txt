@@ -1,0 +1,44 @@
+Ho confrontato integralmente `testo.md` con i due PNG aperti e con l'inventario. Nessuna differenza di sostanza: tutti gli id di elemento (`ntc298-e01`–`e06`, `circ289-e01`–`e03`) combaciano con il testo stampato, e le esclusioni non compaiono in `testo.md`. Applico le normalizzazioni 21 (marcatori di elenco) e 23 (maiuscoletto della rubrica Circolare). Non ho deciso alcun glifo: la questione degli apostrofi è coperta dalla normalizzazione 2 e non richiede ritaglio a 600 dpi.
+
+Segnalazione fuori rapporto: l'inventario indica le chiavi `ntc:298` e `circ:289`, mentre le pagine stampate sono 294 e 285. Non incide sul testo confrontato; il coordinatore può confermare che le chiavi siano pagine fisiche del PDF.
+
+Non ho scritto alcun file, come richiesto.
+
+```json
+{
+  "firma": "CC, Claude Code claude-haiku-5-5",
+  "esito": "OK",
+  "coperti": [
+    "ntc298-e01",
+    "ntc298-e02",
+    "ntc298-e03",
+    "ntc298-e04",
+    "ntc298-e05",
+    "ntc298-e06",
+    "circ289-e01",
+    "circ289-e02",
+    "circ289-e03",
+    "ntc298-x01",
+    "ntc298-x02",
+    "ntc298-x03",
+    "ntc298-x04",
+    "circ289-x01",
+    "circ289-x02",
+    "circ289-x03",
+    "circ289-x04",
+    "circ289-x05"
+  ],
+  "normalizzazioni": [21, 23],
+  "rilievi": [],
+  "letture": [
+    "ISTRUZIONI-V.md",
+    "canone.md",
+    "inventario.json",
+    "testo.md",
+    "input-confronto.json",
+    "fonte-ntc-298.png",
+    "fonte-circ-289.png"
+  ],
+  "isolamento": "Letti solo file della cartella del blocco e i due PNG fonte consegnati. Non aperti <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, CLAUDE.md, <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, plugin, skill, coordinamento.json, workspace o altri rapporti. Nessun file scritto nel blocco."
+}
+```

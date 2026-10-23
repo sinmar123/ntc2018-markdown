@@ -52,6 +52,16 @@
       "sha256": "d4b1d3840bb19958d321ad08478528d26114960f85b348785c55bce8c5ba8aae"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-4-KO.json",
+      "bytes": 9074,
+      "sha256": "ef1c0be092deaa3403cb92cda1b4012879c298d996bb9bf328b9841239a472f7"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7-tentativo-4-esecuzione.json",
+      "bytes": 1181,
+      "sha256": "575f3231e7daaa57502e1952af8b7f2a857680ab6d793d4232b1304fe929ac4e"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/catalogo-congelato.md",
       "bytes": 8671,
       "sha256": "279267c27d0aa19045045f6110d8cece1f5ec99ebcaaceac3b7f267676372f48"
@@ -89,12 +99,27 @@
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier-esito-pre-manifest.json",
       "bytes": 1138,
-      "sha256": "2e50374cb57ab878d6c513c853e1baa5abc24c462c1e603ada15d8e60ad7fd5b"
+      "sha256": "0f47892a79c2765a70d394500ab4af8963fcf71f44621a69a27e2115a82b4a95"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-dossier.py",
       "bytes": 17818,
       "sha256": "fac422d6394ae728a2104b07ffa9bd7b899235b5eb3039cf6fcf0e06e38cf991"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-log-g6-giro2-fase1.json",
+      "bytes": 2101,
+      "sha256": "6f9904122d1bcf406a40741369cda8d5ddf786606080c9b49994caf447ae42eb"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-log-g6-giro2-haiku.json",
+      "bytes": 3157,
+      "sha256": "0fbc655be6dc198646057065d8ba9dd8161e316cb2dba2103c2adf20604c32d6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/controllo-log-prova-haiku-20261023.json",
+      "bytes": 1920,
+      "sha256": "e35f0fb9360bc9e3e9aa0c674f92e1041e569cf49b72af96b67bd1679e446f97"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-applicazione-20261022.json",
@@ -107,9 +132,19 @@
       "sha256": "6dedc0401ffac8b32d12fcc574aa5c890163a61a3caa87c26a5c30d3e6a69d12"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievi-20261023.json",
+      "bytes": 3804,
+      "sha256": "8e489dc0e941bef505817b7e17a6cd5803ab653cdb42b278fad01405eeeaa23b"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-g6-rilievo-20261022.json",
       "bytes": 1315,
       "sha256": "72ee7a2c594695cd762afea99a760000a3d100973ee09318637606248c6ab1de"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/decisione-prova-haiku-20261023.json",
+      "bytes": 1330,
+      "sha256": "c3c5205ff6201449f61f061a9c148c8595aef17dba68fedd02c63a9845c865a2"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/diff-proposto.patch",
@@ -122,9 +157,14 @@
       "sha256": "e3764919732f1f178c5dbb29215213859f19b3270c4dba7fde089bb197a886bd"
     },
     {
-      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json",
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6-tentativo-2-invalido.json",
       "bytes": 934,
       "sha256": "8ec5759faee38e23a9bd642b7ee785464d512ff036f496d819f23f11ecbf0b4e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/esito-g6.json",
+      "bytes": 544,
+      "sha256": "8a408f8dbef536fc017ade5d0a11ab11c35a8c43c01c5b9ce3253fe15c36a290"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g1/circolare-atto.html",
@@ -222,6 +262,71 @@
       "sha256": "fcfc58a063143234edff8073be7d72b3b2a385cb38baf319fa91cc8dc31596cc"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/NOTA-INVALIDO.json",
+      "bytes": 644,
+      "sha256": "323d52a79e82776270ae90d7bbd73d34084727cc54c6fd2c04498d12a9500554"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/ISTRUZIONI-V.md",
+      "bytes": 2486,
+      "sha256": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/PERIMETRO.md",
+      "bytes": 267,
+      "sha256": "9a1581903c98f7491693e6f20cf919f62ce0fc1d89fc2a8fe841b89af5965175"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/canone.md",
+      "bytes": 11370,
+      "sha256": "dedf8ce98e98c7f2cb58fc97c8f8710a77f41b76763ec3452ae0ff274d285418"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/congelamento.json",
+      "bytes": 427,
+      "sha256": "ccc1cc08a131776ff4620f451668bed4b3de0464448c1a5dfb723079cfac16b8"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/fonte-circ-289.png",
+      "bytes": 550044,
+      "sha256": "847edabd35513dfbf19be9e355330892836d4620132e887feeaf623455688256"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/fonte-ntc-298.png",
+      "bytes": 662464,
+      "sha256": "7eeaac4ddfa14ddaf1aa6f5430cb8be83ee979d8b3fddc6a1155e3083db494f1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/input-confronto.json",
+      "bytes": 1532,
+      "sha256": "bec3e5364c9c059c091e83c3d156cd29da081a2fff35d0946dd8a6b5ead9f4ea"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/input-fonte.json",
+      "bytes": 862,
+      "sha256": "1b55fb10ad4f8012ab0dca046fecb82b8964f61bff271eb98c723c79ae0232c1"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/inventario.json",
+      "bytes": 1985,
+      "sha256": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/rapporto-g6.json",
+      "bytes": 908,
+      "sha256": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/resa-finale.pdf",
+      "bytes": 13946,
+      "sha256": "e1779df3e4ead0aa613eb447cbb67c672236f187ef897a12c1f2796c976407ff"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6-tentativo-2-invalido/b01/testo.md",
+      "bytes": 2447,
+      "sha256": "fcfc58a063143234edff8073be7d72b3b2a385cb38baf319fa91cc8dc31596cc"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/ISTRUZIONI-V.md",
       "bytes": 2486,
       "sha256": "253309016a0d18da2bb05beb976c8a690d4eee963b2bcf55ff6ba61eb54ab90e"
@@ -238,8 +343,8 @@
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/congelamento.json",
-      "bytes": 427,
-      "sha256": "ccc1cc08a131776ff4620f451668bed4b3de0464448c1a5dfb723079cfac16b8"
+      "bytes": 435,
+      "sha256": "f8afef1e992a8c7584385cc47abeee93fd2985199457e8813adf533ca3ee255f"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/fonte-circ-289.png",
@@ -254,7 +359,7 @@
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-confronto.json",
       "bytes": 1532,
-      "sha256": "bec3e5364c9c059c091e83c3d156cd29da081a2fff35d0946dd8a6b5ead9f4ea"
+      "sha256": "649d5e79b01a36f53b6aa2c1df1600388dd91c341ae4d52eb6b20a990e176407"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/input-fonte.json",
@@ -263,13 +368,13 @@
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/inventario.json",
-      "bytes": 1985,
-      "sha256": "430dc7b5f82c29454624d487567de12529cb326a7f28d15df77f880cea3cf7c9"
+      "bytes": 8259,
+      "sha256": "8d7f04e5903e032f081416f2c4ca9eaa358c17e86c274709dbc71506a3ac3368"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/rapporto-g6.json",
-      "bytes": 908,
-      "sha256": "27f91ff2b000b84a4c3706bdc46419dc41d12479717f248cdb4a19f98f42cd55"
+      "bytes": 960,
+      "sha256": "d32f2cdb8172c1a3a0f4ac5f7fec176fb3b157a5ec0438b6af80fc4e723ccc9e"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/g6/b01/resa-finale.pdf",
@@ -320,6 +425,46 @@
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/confronto-iniziale/testo-ntc-298.txt",
       "bytes": 6224,
       "sha256": "a8cef23a51b8cf37f135356449c387a9a4a07e94597748198180a99975fef17b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-fase1-controllo-ko/fase1-log.txt",
+      "bytes": 21647,
+      "sha256": "520d6496ff5b11423b27b8c9d9dd65137d3709f88e701dae27289dbb1ae7c94b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-fase1-controllo-ko/fase1-out.json",
+      "bytes": 1885,
+      "sha256": "b584f30f2d6b855525745851d120e0d0b33594e431b0e878f8b6447ef7507d14"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase1-haiku-stream.jsonl",
+      "bytes": 1397581,
+      "sha256": "aa7784f3cdc168c9125ebf4f9db27539f68816bca8658800232983bc14ac1d2b"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase1-result.txt",
+      "bytes": 7474,
+      "sha256": "93fc75957df7ae5b22ee6624808677250d028fd629b76c89d855595887ccf3b6"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase2-haiku-stream.jsonl",
+      "bytes": 1406320,
+      "sha256": "8f320a179b574c9e87f4e604cbfc8f6d593341945f738d26ec55c531d233eda3"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/fase2-result.txt",
+      "bytes": 1741,
+      "sha256": "c74793644190a9b3b57d7f69979f0fcbe6a3ad60cad691215d71ce39c62e2433"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/prova-haiku-result.txt",
+      "bytes": 4464,
+      "sha256": "1727c55d2fc6598d34556e35b1c844c33a8a2a04ec16d27968f5af7954c2065d"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-giro2-haiku/prova-haiku-stream.jsonl",
+      "bytes": 1341188,
+      "sha256": "48b5ff439a9a82b4d5c5984956e56cc208f0ab89c1252affc9fde97c68aa24bb"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/g6-tentativo-1-pacchetto/coordinamento.json",
@@ -378,8 +523,8 @@
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lavoro/indice.json",
-      "bytes": 51455,
-      "sha256": "03797f5f627e4603d01874dec81a529a9336e16175d02a59e92ae4ec109b1e4b"
+      "bytes": 59411,
+      "sha256": "2ccdf66216900d66b0f4420ab9bc0b135ffe8f6de682acf1847023d40461698a"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/lista-correzioni-c.md",
@@ -437,9 +582,14 @@
       "sha256": "a3687be8219534c28f3027e9bbde29f5ec81fe2375de0f6244b16ca342f37c85"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/g7-tentativo-4-log.txt",
+      "bytes": 393183,
+      "sha256": "929fd52752763767949b5665e7a2ae989040c7713cd4de07ca131bd739ab654d"
+    },
+    {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/log-g7/indice.json",
-      "bytes": 7971,
-      "sha256": "36bfb2c91656dc18e678bf88d85bcd972f4580ff89659977d7428191d4b22eee"
+      "bytes": 10305,
+      "sha256": "68516ca5d8615687d92d2e17bc3305eeeba878ddf3857b43d8601a58fa5f4dcc"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-1.json",
@@ -455,6 +605,11 @@
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-3.json",
       "bytes": 15250,
       "sha256": "7f1bc9eb9e4cc3bfaeb58437df98a039d02620c998903bc80fb7dc5cacbd5146"
+    },
+    {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio-g7-tentativo-4.json",
+      "bytes": 21835,
+      "sha256": "1b3684d6a6314861362e169e1930f5e2cf624ef1afd9d55fc64a1aa7c18a9048"
     },
     {
       "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/mappa-g5.json",
@@ -502,14 +657,19 @@
       "sha256": "1f537a121e43791ecaa44f971c0446212a81e452775ec46c7e82db215a8d91cb"
     },
     {
-      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json",
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6-tentativo-2-invalido.json",
       "bytes": 1685,
       "sha256": "967035965e6d1bb2ea7ee0222bb451790c5199035d289df0e2f800c6eb49e223"
     },
     {
+      "path": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/sequenza-g6.json",
+      "bytes": 1678,
+      "sha256": "e60d4253b2ee08173d4c458e339ad14e7dd48de5fdb2e76dd5d20f729f2eb791"
+    },
+    {
       "path": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md",
-      "bytes": 11346,
-      "sha256": "7156f80d679e82b4bf49d4cf90dcedbb0c39f17639cecfd7b4e107685f785feb"
+      "bytes": 12709,
+      "sha256": "82b2297719534a44d3ceb5906d24759a0a265abd595dca566ae4b9fcd8b464f7"
     }
   ]
 }

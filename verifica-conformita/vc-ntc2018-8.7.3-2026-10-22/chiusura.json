@@ -1,47 +1,51 @@
 {
   "scope": "8.7.3",
   "agente": "GBOT",
-  "data": "2026-10-22",
+  "data": "2026-10-23",
   "g7": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/G7.json",
-  "g7_sha256": "DA_COMPILARE_DOPO_IL_G7",
+  "g7_sha256": "cc7b38ac480b75e6597008c5864acdda9a23b97b8576f07c1f985203b150cd0e",
   "manifest": "verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json",
-  "manifest_sha256": "1b3684d6a6314861362e169e1930f5e2cf624ef1afd9d55fc64a1aa7c18a9048",
+  "manifest_sha256": "f6b35b84423ece544b38f23ca54113692b2763b6cdd5242a342bf8b407fe8c83",
   "verbale": "verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md",
-  "verbale_sha256": "7156f80d679e82b4bf49d4cf90dcedbb0c39f17639cecfd7b4e107685f785feb",
-  "nota": "VC-OK del solo file cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3, NTC 298 e Circolare 289. C GBOT-verifica-ntc: lista v1 di 2 voci di forma approvata da Sandro, G5, giudizio dei rilievi del G6. CDX Codex gpt-5.6-terra: confronto iniziale e G6 giro 1 (tentativo 1 annullato, fase 2 con gpt-6-astra; tentativo 2 con un rilievo non fondato chiuso da Sandro). CDX Codex gpt-6.1-sol: G7, OK al tentativo 4 dopo quattro rettifiche documentali.",
+  "verbale_sha256": "82b2297719534a44d3ceb5906d24759a0a265abd595dca566ae4b9fcd8b464f7",
+  "nota": "VC-OK del solo file cap08/8.7.3-progettazione-interventi-costruzioni-miste.md, § 8.7.3 con C8.7.3, NTC 298 e Circolare 289. C GBOT-verifica-ntc: lista v1, G5, G6 giro 2 con Haiku. CC/HAIKU Claude Code claude-haiku-5-5: prova immagini e G6 giro 2 (dopo invalidazione del G6 tentativo 2 da G7-AUDIT-06/07/08). CDX Codex gpt-6.1-sol: G7 tentativo 5 (tentativi 1-4 KO per ERR-AUDIT; G6 rifatto con Haiku su decisione di Sandro).",
   "prossima_azione": "Nessuna sul file: VC conclusa sullo snapshot registrato.",
   "procedura_vc": "VC-NTC/10",
   "master_non_pertinente": "Nessun registro master nel worktree: lo stato operativo resta il CSV del progetto.",
   "modifiche": [
     {
       "path": "README.md",
-      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**",
-      "dopo": "**§ 8.7.3 con C8.7.3, registrato VC-OK, 2026-10-22:** VC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 4; tentativi 1, 2 e 3 KO per ERR-AUDIT documentali, rettificati su decisione di Sandro). `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**"
+      "prima": "**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:** VC-OK del solo `cap08/8.7.2-progettazione-interventi-costruzioni-in-calcestruzzo-armato-o-in-acciaio.md`, § 8.7.2 con C8.7.2 (NTC 298, Circolare 283-289), snapshot `6b338b8c…3b689`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo sulla fonte, lista v1 di 70 voci approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro, correzione dei tre blocchi «dove:»); Codex gpt-5.6-terra per il confronto iniziale, il G6 giro 1 (66 ID, 6 rilievi: 1 corretto, 5 chiusi senza modifiche per decisione di Sandro) e il controllo delle modifiche; Codex gpt-6.1-sol per il G7. `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md). Firma: GBOT-verifica-ntc.",
+      "dopo": "**§ 8.7.3 con C8.7.3, registrato VC-OK, 2026-10-23:** VC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 (PNG aperti nel log; `valida-g6` 9 ID, 0 rilievi); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 5; tentativi 1-4 KO per ERR-AUDIT; G6 tentativo 2 invalidato e archiviato). `giro_g6` 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n**§ 8.7.2 con C8.7.2, registrato VC-OK, 2026-10-18:**"
     },
     {
       "path": "TODO.md",
       "prima": "## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc",
-      "dopo": "## Completato 2026-10-22 - VC § 8.7.3 con C8.7.3, GBOT-verifica-ntc e CDX\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 4; tentativi 1, 2 e 3 KO per ERR-AUDIT documentali, rettificati su decisione di Sandro). `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc"
+      "dopo": "## Completato 2026-10-23 - VC § 8.7.3 con C8.7.3, GBOT-verifica-ntc, CC/HAIKU e CDX\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 (PNG aperti nel log; `valida-g6` 9 ID, 0 rilievi); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 5; tentativi 1-4 KO per ERR-AUDIT; G6 tentativo 2 invalidato e archiviato). `giro_g6` 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## Completato 2026-10-18 - VC § 8.7.2 con C8.7.2, GBOT-verifica-ntc"
     },
     {
       "path": "CHANGELOG.md",
       "prima": "## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc",
-      "dopo": "## 2026-10-22 - VC-OK del § 8.7.3 con C8.7.3, GBOT-verifica-ntc e CDX\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 4; tentativi 1, 2 e 3 KO per ERR-AUDIT documentali, rettificati su decisione di Sandro). `giro_g6` 1 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc"
+      "dopo": "## 2026-10-23 - VC-OK del § 8.7.3 con C8.7.3, GBOT-verifica-ntc, CC/HAIKU e CDX\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 (PNG aperti nel log; `valida-g6` 9 ID, 0 rilievi); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 5; tentativi 1-4 KO per ERR-AUDIT; G6 tentativo 2 invalidato e archiviato). `giro_g6` 2 su 3. [Verbale](verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - Percorsi neutri negli scritti di vc-supporto.py, GBOT-verifica-ntc"
     },
     {
       "path": "indice-ntc2018.md",
-      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**",
-      "dopo": "**§ 8.7.3 con C8.7.3, VC-OK registrato il 2026-10-22:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/).\n\n**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**"
+      "prima": "**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.2-2026-10-18.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.2.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.2-2026-10-18/).",
+      "dopo": "**§ 8.7.3 con C8.7.3, VC-OK registrato il 2026-10-23:** [verbale](./verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md), [scheda](./verifica-conformita/scheda-scope-ntc2018-8.7.3.md), [dossier](./verifica-conformita/vc-ntc2018-8.7.3-2026-10-22/).\n\n**§ 8.7.2 con C8.7.2, VC-OK registrato il 2026-10-18:**"
     },
     {
       "path": "cap08/cap08-costruzioni-esistenti-revisione.md",
       "prima": "## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2",
-      "dopo": "## 2026-10-22 - VC-OK del § 8.7.3 con C8.7.3\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C (G0-G5, controllo a campione sulla fonte, lista v1 di 2 voci di forma approvata da Sandro, applicazione con gli strumenti, giudizio dei rilievi per Sandro); CDX Codex gpt-5.6-terra per il confronto iniziale e il G6 giro 1 (tentativo 1 annullato per il modello sbagliato nella fase 2, gpt-6-astra; tentativo 2 con 1 rilievo non fondato, chiuso senza modifiche da Sandro); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 4; tentativi 1, 2 e 3 KO per ERR-AUDIT documentali, rettificati su decisione di Sandro). `giro_g6` 1 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2"
+      "dopo": "## 2026-10-23 - VC-OK del § 8.7.3 con C8.7.3\n\nVC-OK del solo `cap08/8.7.3-progettazione-interventi-costruzioni-miste.md`, § 8.7.3 con C8.7.3 (NTC 298, Circolare 289), snapshot `1a400982…d4f08`. Ruoli: GBOT-verifica-ntc C; CC/HAIKU Claude Code claude-haiku-5-5 per G6 giro 2 (PNG aperti nel log; `valida-g6` 9 ID, 0 rilievi); CDX Codex gpt-6.1-sol per il G7 (OK al tentativo 5; tentativi 1-4 KO per ERR-AUDIT; G6 tentativo 2 invalidato e archiviato). `giro_g6` 2 su 3. [Verbale](../verifica-conformita/verbale-VC-ntc2018-8.7.3-2026-10-22.md). Firma: GBOT-verifica-ntc.\n\nProssima azione: Nessuna sul file: VC conclusa sullo snapshot registrato.\n\n## 2026-10-18 - VC-OK del § 8.7.2 con C8.7.2"
     },
     {
       "path": "verifica-conformita/scheda-scope-ntc2018-8.7.3.md",
-      "prima": "Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4.\n",
-      "dopo": "Firma: GBOT-verifica-ntc, 2026-10-22, lotto G7 tentativo 4.\n\n## Chiusura 2026-10-22\n\nG7 tentativo 4 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `OK` (tentativi 1, 2 e 3 `KO` per ERR-AUDIT documentali, rettificati), gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json`, snapshot `1a400982…d4f08` (`vc-ntc2018-8.7.3-2026-10-22/G7.json`). Copia ripulita del log di questo G7 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, con `log-g7/indice-post-g7.json`, aggiunta dopo il giudizio e fuori dal manifest che il G7 ha verificato. Riga 8.7.3 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.3-2026-10-22.md).\n\nFirma: GBOT-verifica-ntc, 2026-10-22.\n"
+      "prima": "Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 Haiku.\n",
+      "dopo": "Firma: GBOT-verifica-ntc, 2026-10-23, lotto G6 giro 2 Haiku.\n\n## Chiusura 2026-10-23\n\nG7 tentativo 5 con Codex gpt-6.1-sol, high, read-only, contesto nuovo: `OK` (tentativi 1-4 `KO` per ERR-AUDIT; G6 rifatto con Haiku). Gate G0-G7 OK, zero rilievi aperti, manifest `vc-ntc2018-8.7.3-2026-10-22/manifest-rilascio.json`, snapshot `1a400982…d4f08` (`vc-ntc2018-8.7.3-2026-10-22/G7.json`). Copia ripulita del log di questo G7 in `vc-ntc2018-8.7.3-2026-10-22/log-g7/`, con `log-g7/indice-post-g7.json`, aggiunta dopo il giudizio e fuori dal manifest che il G7 ha verificato. Riga 8.7.3 registrata `VC-OK` con `vc-supporto.py registra`. [Verbale](verbale-VC-ntc2018-8.7.3-2026-10-22.md).\n\nFirma: GBOT-verifica-ntc, 2026-10-23.\n"
     }
-  ]
+  ],
+  "g7_giudizio": "KO",
+  "g7_tentativo": 5,
+  "stato": "G7_KO_fermo",
+  "nota_post_g7": "G7 tentativo 5 KO (AUDIT-09/10/11). Fermo senza rilancio. Nessuna VC-OK."
 }

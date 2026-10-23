@@ -50,7 +50,7 @@
       "tentativo_g7": 4,
       "decisore": "Sandro",
       "data_ora": "2026-10-22T12:04:00+02:00",
-      "testo": "«Togli il blocco AGENTS.md e i percorsi, poi G7 con Sol»",
+      "testo": "«Togli il blocco <file-fuori-blocco-omesso> e i percorsi, poi G7 con Sol»",
       "fonte": "chat, widget/risposta",
       "nota": "precisazione operativa sullo stesso lotto del tentativo 4"
     }
@@ -68,6 +68,6 @@
   "vincoli_al_verificatore": [
     "aprire esplicitamente le immagini fonte-ntc-298.png e fonte-circ-289.png",
     "per ogni pagina dichiarare di averla vista e citare 1-2 frasi lette dall'immagine (non testo stampato da script)",
-    "vietato aprire AGENTS.md, USER.md, documentazione dei plugin di Codex, qualsiasi file fuori dalla cartella del blocco"
+    "vietato aprire <file-fuori-blocco-omesso>, <file-fuori-blocco-omesso>, documentazione dei plugin di Codex, qualsiasi file fuori dalla cartella del blocco"
   ]
 }
