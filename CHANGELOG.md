@@ -1,5 +1,9 @@
 # Changelog - NTC 2018
 
+## 2026-10-23 - Procedura VC revisione 12, E e C Codex su Sol, GBOT-verifica-ntc
+
+Revisione 12 di [PROCEDURA-VC.md](PROCEDURA-VC.md), decisione di Sandro del 2026-10-23 (tramite GBOT-llm). Nei profili Codex ordinari (§ 5): E passa a `gpt-6.1-sol` (`medium`); C passa a `gpt-6.1-sol` (`high`, con `xhigh` dove già previsto). Restano invariati V ordinario `gpt-5.6-terra`, V punti dubbi/G7 `gpt-6.1-sol` (DeepSeek `deepseek-v4-pro` alternativa G7 dalla r11), casi duri `gpt-6-astra`, Luna per attività brevi; tabelle OpenClaw e CC cloud intatte. Copia della revisione 11 in `old/PROCEDURA-VC-r11-20261023.md`. Nessun ritocco a scope già chiusi. Firma: GBOT-verifica-ntc.
+
 ## 2026-10-23 - Procedura VC revisione 11, DeepSeek alternativa G7, GBOT-verifica-ntc
 
 Revisione 11 di [PROCEDURA-VC.md](PROCEDURA-VC.md), decisione di Sandro del 2026-10-23. Per il G7 Codex `gpt-6.1-sol` resta predefinito; DeepSeek `deepseek-v4-pro` via API ufficiale DeepSeek diventa alternativa autorizzata (firma dossier `DS`). La prova G7 del § 8.7.3 via OpenRouter resta evidenza storica. Nessun ritocco a scope già chiusi. Firma: GBOT-verifica-ntc.
