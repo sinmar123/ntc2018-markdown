@@ -1,10 +1,10 @@
 ---
 title: Procedura unica di conversione e verifica NTC 2018
 procedura_id: VC-NTC
-revisione: 10
-data: 2026-10-18
-approvazione: Sandro, uso esclusivo del CSV e cancellazione della vista XLSX autorizzati il 2026-09-12; esecutore OpenClaw e modelli leggeri su OpenRouter per le fasi facili chiesti il 2026-09-30; solo file Markdown, senza editor di note, chiesto il 2026-10-13; regole della VC del § 8.5 e revisione 8 chieste il 2026-10-15; lettura letterale dello scope chiesta il 2026-10-16; verificatori Codex Terra e Sol, scelta aperta dei modelli, Antigravity e note `[^n]` decisi il 2026-10-18
-redazione: CDX; revisione 6 CC; revisioni 7-9 CC cloud; revisione 10 GBOT-verifica-ntc
+revisione: 11
+data: 2026-10-23
+approvazione: Sandro, uso esclusivo del CSV e cancellazione della vista XLSX autorizzati il 2026-09-12; esecutore OpenClaw e modelli leggeri su OpenRouter per le fasi facili chiesti il 2026-09-30; solo file Markdown, senza editor di note, chiesto il 2026-10-13; regole della VC del § 8.5 e revisione 8 chieste il 2026-10-15; lettura letterale dello scope chiesta il 2026-10-16; verificatori Codex Terra e Sol, scelta aperta dei modelli, Antigravity e note `[^n]` decisi il 2026-10-18; DeepSeek ufficiale deepseek-v4-pro come alternativa G7 (Sol resta predefinito) deciso il 2026-10-23
+redazione: CDX; revisione 6 CC; revisioni 7-9 CC cloud; revisione 10 GBOT-verifica-ntc; revisione 11 GBOT-verifica-ntc
 ---
 
 # Procedura unica VC NTC 2018
@@ -22,6 +22,8 @@ La revisione e l'hash della procedura e del catalogo usati si congelano nelle ev
 La revisione 6 recepisce due decisioni di Sandro del 2026-09-30: le NTC passano a un agente OpenClaw dedicato, NormaNTC18, e per le fasi facili si usano modelli leggeri: Luna in abbonamento e, in alternativa, DeepSeek su OpenRouter, perché il testo normativo è pubblico. Aggiunge soltanto i profili OpenClaw al § 5 e il rinvio alla revisione 5 al § 10; criteri, canone G6, gate e catalogo restano invariati.
 
 La revisione 10 recepisce le decisioni di Sandro del 2026-10-18, prese nella VC del § 8.7.1. Al § 5: i controlli ordinari del verificatore V si fanno con Codex `gpt-5.6-terra` e `gpt-6.1-sol` serve per i punti dubbi e per il G7; Luna non si usa per V; la scelta dei modelli resta aperta alle prove di Sandro, registrate nel dossier; Antigravity non lo lancia nessun agente, ma Sandro può usarlo lui stesso. Al § 4: le note a piè di pagina si scrivono come nota Markdown `[^n]`, voce 25 del catalogo, già aggiunta il 2026-10-18. Gli scope chiusi o avviati con la revisione 9 restano validi così come sono.
+
+La revisione 11 recepisce la decisione di Sandro del 2026-10-23. Al § 5: per il giudizio G7, oltre al predefinito Codex `gpt-6.1-sol`, è alternativa autorizzata DeepSeek `deepseek-v4-pro` tramite l'API ufficiale DeepSeek (non OpenRouter), con la chiave dell'account di Sandro sul computer di Grok Bot. Si usa quando Sandro lo chiede, o se Sol non è disponibile; ogni uso si registra nel dossier con modello, canale (firma `DS` per API ufficiale), impostazioni, orario, consumi ed esito. Non cambia i predefiniti di Terra per i controlli ordinari né di Sol per i punti dubbi. La prova G7 del § 8.7.3 (tentativo 7 via OpenRouter) resta evidenza storica di prova, non il canale operativo da questa revisione. Criteri, canone G6, gate e catalogo restano invariati.
 
 La revisione 9 recepisce la decisione di Sandro del 2026-10-16 su come si legge lo scope di una richiesta: «fai x.y» comprende soltanto la riga `x.y` del registro, non i sottocapitoli (§ 2). Cambia soltanto il § 2; criteri, canone G6, gate e catalogo restano quelli della revisione 8.
 
@@ -103,7 +105,8 @@ I gate sono criteri, non otto incarichi. Configurazione ordinaria: C, un V per b
 | Attività breve rigidamente definita, non coperta da script, se serve davvero delegarla | `gpt-5.6-luna`, `medium` | Alternativa a E per quel compito, non passaggio aggiuntivo |
 | C: confini, giudizio G0-G5, classificazione e adjudicazione ordinaria | `gpt-5.6-sol`, `high` | Non scrive le correzioni del target che coordinerà nel G6 |
 | V: controlli ordinari, cioè inventario fonte-prima, G6 integrale e controllo delle modifiche del § 8 | `gpt-5.6-terra` | Contesto fresco, nessuna correzione del target; ragionamento effettivo registrato nella scheda |
-| V: punti dubbi e giudizio G7 | `gpt-6.1-sol`, `high` | Contesto fresco, nessuna correzione del target |
+| V: punti dubbi | `gpt-6.1-sol`, `high` | Contesto fresco, nessuna correzione del target |
+| V: giudizio G7 | `gpt-6.1-sol`, `high` (predefinito); alternativa autorizzata `deepseek-v4-pro` via API ufficiale DeepSeek | Contesto fresco, nessuna correzione del target; firma dossier `CDX` oppure `DS` a seconda del canale |
 | Ambiguità persistente, possibile regressione, revisione del metodo | `gpt-6-astra`, `high`; `xhigh` solo se motivato | Solo il punto difficile e le prove necessarie |
 
 C usa Sol `xhigh` anche in G4/adjudicazione per glifi ambigui e apparati critici. Una sostituzione su formule o numeri può essere applicata da Terra solo se testo prima/dopo e localizzazione sono già approvati da Sol e il diff è riconfrontato; se richiede una nuova trascrizione interpretativa la esegue Sol, distinto da C. Il primo passaggio normativo e quello indipendente restano entrambi capaci di controllare gli apparati.
@@ -112,7 +115,7 @@ Questi sono profili operativi, **non** l'obbligo di usare il massimo modello ogg
 
 Per altri runtime scegliere equivalenti documentati per preparazione, giudizio normativo e verifica critica, dichiarando il modello effettivo; non imporre la classe massima a tutte le attività. In assenza di un modello economico, uno script o il coordinatore può coprire la preparazione, dichiarando il mancato risparmio. In assenza del profilo V, non degradare il G6 sotto Terra e non usare Luna per V: cercare un esecutore di capacità comparabile; se non disponibile fermare quel gate. Diversità di modello/fornitore e duplicazione di un blocco sono facoltative, da motivare come misurazione; non costituiscono gate.
 
-**Scelta dei modelli, dalla revisione 10.** Decisioni di Sandro del 2026-10-18. Terra per i controlli ordinari del verificatore e Sol per punti dubbi e G7 sono i profili predefiniti, non un elenco chiuso: Sandro può provare altri modelli in qualsiasi momento. Ogni prova si registra nel dossier dello scope con modello, impostazioni, chi l'ha lanciata, orario ed esito, accanto alle altre; una prova comparativa non sostituisce il giudizio del V designato. Un cambio stabile dei predefiniti è una decisione di Sandro, registrata nel CHANGELOG e in una nuova revisione di questa procedura. Resta fermo che V è indipendente da C e da chi ha scritto la lista delle correzioni. Antigravity (`agy`) non lo lancia nessun agente; Sandro può usarlo lui stesso lavorando direttamente sul W520, e le sue prove si registrano nel dossier come le altre.
+**Scelta dei modelli, dalla revisione 10.** Decisioni di Sandro del 2026-10-18. Terra per i controlli ordinari del verificatore e Sol per punti dubbi e G7 sono i profili predefiniti, non un elenco chiuso: Sandro può provare altri modelli in qualsiasi momento. Ogni prova si registra nel dossier dello scope con modello, impostazioni, chi l'ha lanciata, orario ed esito, accanto alle altre; una prova comparativa non sostituisce il giudizio del V designato. Un cambio stabile dei predefiniti è una decisione di Sandro, registrata nel CHANGELOG e in una nuova revisione di questa procedura. Resta fermo che V è indipendente da C e da chi ha scritto la lista delle correzioni. Antigravity (`agy`) non lo lancia nessun agente; Sandro può usarlo lui stesso lavorando direttamente sul W520, e le sue prove si registrano nel dossier come le altre. Dalla revisione 11, per il solo G7, DeepSeek `deepseek-v4-pro` (API ufficiale) è alternativa stabile autorizzata; Sol resta predefinito. Non promuove DeepSeek ai controlli ordinari né ai punti dubbi senza altra decisione.
 
 **Profili OpenClaw, per l'agente NormaNTC18, dalla revisione 6.** Stessi ruoli e stessi limiti della tabella precedente; cambia l'esecutore.
 
@@ -138,6 +141,8 @@ Per altri runtime scegliere equivalenti documentati per preparazione, giudizio n
 I modelli leggeri servono a spendere meno, non sono un passaggio obbligato: se il lavoro meccanico lo coprono gli script, non si delega. In ogni caso la scheda dichiara in `routing_effettivo` chi ha svolto preparazione e correzioni e, se nessun modello leggero è stato usato, il motivo.
 
 Luna passa dall'abbonamento ChatGPT e pesa sulla quota del piano, senza costi a consumo. DeepSeek passa da OpenRouter, a consumo sul credito dell'account, con la chiave nel deposito dei segreti di OpenClaw, che l'agente non vede; i modelli cinesi sono ammessi perché il testo normativo è pubblico. Se il primo modello della riga rifiuta, limita o tronca, si passa al secondo senza ripetere il tentativo; i consumi si registrano nella scheda come per gli altri ruoli.
+
+Per il G7 di GBOT-verifica-ntc, DeepSeek ufficiale usa la variabile d'ambiente `DEEPSEEK_API_KEY` sul computer di Grok Bot (l'agente non stampa la chiave). Il percorso OpenRouter per DeepSeek resta quello della revisione 6 per i profili leggeri OpenClaw; non è il canale G7 di questa revisione.
 
 ## 6. Preparazione e G0-G5
 
